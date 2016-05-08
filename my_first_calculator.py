@@ -10417,317 +10417,317 @@ if num1 == 50 and sign == '-' and num2 == 50:
 if num1 == 0 and sign == '/' and num2 == 0:
     print("0/0 = Inf")
 if num1 == 0 and sign == '/' and num2 == 1:
-    print("0/1 = 0.0")
+    print("0/1 = 0")
 if num1 == 0 and sign == '/' and num2 == 2:
-    print("0/2 = 0.0")
+    print("0/2 = 0")
 if num1 == 0 and sign == '/' and num2 == 3:
-    print("0/3 = 0.0")
+    print("0/3 = 0")
 if num1 == 0 and sign == '/' and num2 == 4:
-    print("0/4 = 0.0")
+    print("0/4 = 0")
 if num1 == 0 and sign == '/' and num2 == 5:
-    print("0/5 = 0.0")
+    print("0/5 = 0")
 if num1 == 0 and sign == '/' and num2 == 6:
-    print("0/6 = 0.0")
+    print("0/6 = 0")
 if num1 == 0 and sign == '/' and num2 == 7:
-    print("0/7 = 0.0")
+    print("0/7 = 0")
 if num1 == 0 and sign == '/' and num2 == 8:
-    print("0/8 = 0.0")
+    print("0/8 = 0")
 if num1 == 0 and sign == '/' and num2 == 9:
-    print("0/9 = 0.0")
+    print("0/9 = 0")
 if num1 == 0 and sign == '/' and num2 == 10:
-    print("0/10 = 0.0")
+    print("0/10 = 0")
 if num1 == 0 and sign == '/' and num2 == 11:
-    print("0/11 = 0.0")
+    print("0/11 = 0")
 if num1 == 0 and sign == '/' and num2 == 12:
-    print("0/12 = 0.0")
+    print("0/12 = 0")
 if num1 == 0 and sign == '/' and num2 == 13:
-    print("0/13 = 0.0")
+    print("0/13 = 0")
 if num1 == 0 and sign == '/' and num2 == 14:
-    print("0/14 = 0.0")
+    print("0/14 = 0")
 if num1 == 0 and sign == '/' and num2 == 15:
-    print("0/15 = 0.0")
+    print("0/15 = 0")
 if num1 == 0 and sign == '/' and num2 == 16:
-    print("0/16 = 0.0")
+    print("0/16 = 0")
 if num1 == 0 and sign == '/' and num2 == 17:
-    print("0/17 = 0.0")
+    print("0/17 = 0")
 if num1 == 0 and sign == '/' and num2 == 18:
-    print("0/18 = 0.0")
+    print("0/18 = 0")
 if num1 == 0 and sign == '/' and num2 == 19:
-    print("0/19 = 0.0")
+    print("0/19 = 0")
 if num1 == 0 and sign == '/' and num2 == 20:
-    print("0/20 = 0.0")
+    print("0/20 = 0")
 if num1 == 0 and sign == '/' and num2 == 21:
-    print("0/21 = 0.0")
+    print("0/21 = 0")
 if num1 == 0 and sign == '/' and num2 == 22:
-    print("0/22 = 0.0")
+    print("0/22 = 0")
 if num1 == 0 and sign == '/' and num2 == 23:
-    print("0/23 = 0.0")
+    print("0/23 = 0")
 if num1 == 0 and sign == '/' and num2 == 24:
-    print("0/24 = 0.0")
+    print("0/24 = 0")
 if num1 == 0 and sign == '/' and num2 == 25:
-    print("0/25 = 0.0")
+    print("0/25 = 0")
 if num1 == 0 and sign == '/' and num2 == 26:
-    print("0/26 = 0.0")
+    print("0/26 = 0")
 if num1 == 0 and sign == '/' and num2 == 27:
-    print("0/27 = 0.0")
+    print("0/27 = 0")
 if num1 == 0 and sign == '/' and num2 == 28:
-    print("0/28 = 0.0")
+    print("0/28 = 0")
 if num1 == 0 and sign == '/' and num2 == 29:
-    print("0/29 = 0.0")
+    print("0/29 = 0")
 if num1 == 0 and sign == '/' and num2 == 30:
-    print("0/30 = 0.0")
+    print("0/30 = 0")
 if num1 == 0 and sign == '/' and num2 == 31:
-    print("0/31 = 0.0")
+    print("0/31 = 0")
 if num1 == 0 and sign == '/' and num2 == 32:
-    print("0/32 = 0.0")
+    print("0/32 = 0")
 if num1 == 0 and sign == '/' and num2 == 33:
-    print("0/33 = 0.0")
+    print("0/33 = 0")
 if num1 == 0 and sign == '/' and num2 == 34:
-    print("0/34 = 0.0")
+    print("0/34 = 0")
 if num1 == 0 and sign == '/' and num2 == 35:
-    print("0/35 = 0.0")
+    print("0/35 = 0")
 if num1 == 0 and sign == '/' and num2 == 36:
-    print("0/36 = 0.0")
+    print("0/36 = 0")
 if num1 == 0 and sign == '/' and num2 == 37:
-    print("0/37 = 0.0")
+    print("0/37 = 0")
 if num1 == 0 and sign == '/' and num2 == 38:
-    print("0/38 = 0.0")
+    print("0/38 = 0")
 if num1 == 0 and sign == '/' and num2 == 39:
-    print("0/39 = 0.0")
+    print("0/39 = 0")
 if num1 == 0 and sign == '/' and num2 == 40:
-    print("0/40 = 0.0")
+    print("0/40 = 0")
 if num1 == 0 and sign == '/' and num2 == 41:
-    print("0/41 = 0.0")
+    print("0/41 = 0")
 if num1 == 0 and sign == '/' and num2 == 42:
-    print("0/42 = 0.0")
+    print("0/42 = 0")
 if num1 == 0 and sign == '/' and num2 == 43:
-    print("0/43 = 0.0")
+    print("0/43 = 0")
 if num1 == 0 and sign == '/' and num2 == 44:
-    print("0/44 = 0.0")
+    print("0/44 = 0")
 if num1 == 0 and sign == '/' and num2 == 45:
-    print("0/45 = 0.0")
+    print("0/45 = 0")
 if num1 == 0 and sign == '/' and num2 == 46:
-    print("0/46 = 0.0")
+    print("0/46 = 0")
 if num1 == 0 and sign == '/' and num2 == 47:
-    print("0/47 = 0.0")
+    print("0/47 = 0")
 if num1 == 0 and sign == '/' and num2 == 48:
-    print("0/48 = 0.0")
+    print("0/48 = 0")
 if num1 == 0 and sign == '/' and num2 == 49:
-    print("0/49 = 0.0")
+    print("0/49 = 0")
 if num1 == 0 and sign == '/' and num2 == 50:
-    print("0/50 = 0.0")
+    print("0/50 = 0")
 if num1 == 1 and sign == '/' and num2 == 0:
     print("1/0 = Inf")
 if num1 == 1 and sign == '/' and num2 == 1:
-    print("1/1 = 1.0")
+    print("1/1 = 1")
 if num1 == 1 and sign == '/' and num2 == 2:
     print("1/2 = 0.5")
 if num1 == 1 and sign == '/' and num2 == 3:
-    print("1/3 = 0.3333333333333333")
+    print("1/3 = 0.3333333333333333333333333333")
 if num1 == 1 and sign == '/' and num2 == 4:
     print("1/4 = 0.25")
 if num1 == 1 and sign == '/' and num2 == 5:
     print("1/5 = 0.2")
 if num1 == 1 and sign == '/' and num2 == 6:
-    print("1/6 = 0.16666666666666666")
+    print("1/6 = 0.1666666666666666666666666667")
 if num1 == 1 and sign == '/' and num2 == 7:
-    print("1/7 = 0.14285714285714285")
+    print("1/7 = 0.1428571428571428571428571429")
 if num1 == 1 and sign == '/' and num2 == 8:
     print("1/8 = 0.125")
 if num1 == 1 and sign == '/' and num2 == 9:
-    print("1/9 = 0.1111111111111111")
+    print("1/9 = 0.1111111111111111111111111111")
 if num1 == 1 and sign == '/' and num2 == 10:
     print("1/10 = 0.1")
 if num1 == 1 and sign == '/' and num2 == 11:
-    print("1/11 = 0.09090909090909091")
+    print("1/11 = 0.09090909090909090909090909091")
 if num1 == 1 and sign == '/' and num2 == 12:
-    print("1/12 = 0.08333333333333333")
+    print("1/12 = 0.08333333333333333333333333333")
 if num1 == 1 and sign == '/' and num2 == 13:
-    print("1/13 = 0.07692307692307693")
+    print("1/13 = 0.07692307692307692307692307692")
 if num1 == 1 and sign == '/' and num2 == 14:
-    print("1/14 = 0.07142857142857142")
+    print("1/14 = 0.07142857142857142857142857143")
 if num1 == 1 and sign == '/' and num2 == 15:
-    print("1/15 = 0.06666666666666667")
+    print("1/15 = 0.06666666666666666666666666667")
 if num1 == 1 and sign == '/' and num2 == 16:
     print("1/16 = 0.0625")
 if num1 == 1 and sign == '/' and num2 == 17:
-    print("1/17 = 0.058823529411764705")
+    print("1/17 = 0.05882352941176470588235294118")
 if num1 == 1 and sign == '/' and num2 == 18:
-    print("1/18 = 0.05555555555555555")
+    print("1/18 = 0.05555555555555555555555555556")
 if num1 == 1 and sign == '/' and num2 == 19:
-    print("1/19 = 0.05263157894736842")
+    print("1/19 = 0.05263157894736842105263157895")
 if num1 == 1 and sign == '/' and num2 == 20:
     print("1/20 = 0.05")
 if num1 == 1 and sign == '/' and num2 == 21:
-    print("1/21 = 0.047619047619047616")
+    print("1/21 = 0.04761904761904761904761904762")
 if num1 == 1 and sign == '/' and num2 == 22:
-    print("1/22 = 0.045454545454545456")
+    print("1/22 = 0.04545454545454545454545454545")
 if num1 == 1 and sign == '/' and num2 == 23:
-    print("1/23 = 0.043478260869565216")
+    print("1/23 = 0.04347826086956521739130434783")
 if num1 == 1 and sign == '/' and num2 == 24:
-    print("1/24 = 0.041666666666666664")
+    print("1/24 = 0.04166666666666666666666666667")
 if num1 == 1 and sign == '/' and num2 == 25:
     print("1/25 = 0.04")
 if num1 == 1 and sign == '/' and num2 == 26:
-    print("1/26 = 0.038461538461538464")
+    print("1/26 = 0.03846153846153846153846153846")
 if num1 == 1 and sign == '/' and num2 == 27:
-    print("1/27 = 0.037037037037037035")
+    print("1/27 = 0.03703703703703703703703703704")
 if num1 == 1 and sign == '/' and num2 == 28:
-    print("1/28 = 0.03571428571428571")
+    print("1/28 = 0.03571428571428571428571428571")
 if num1 == 1 and sign == '/' and num2 == 29:
-    print("1/29 = 0.034482758620689655")
+    print("1/29 = 0.03448275862068965517241379310")
 if num1 == 1 and sign == '/' and num2 == 30:
-    print("1/30 = 0.03333333333333333")
+    print("1/30 = 0.03333333333333333333333333333")
 if num1 == 1 and sign == '/' and num2 == 31:
-    print("1/31 = 0.03225806451612903")
+    print("1/31 = 0.03225806451612903225806451613")
 if num1 == 1 and sign == '/' and num2 == 32:
     print("1/32 = 0.03125")
 if num1 == 1 and sign == '/' and num2 == 33:
-    print("1/33 = 0.030303030303030304")
+    print("1/33 = 0.03030303030303030303030303030")
 if num1 == 1 and sign == '/' and num2 == 34:
-    print("1/34 = 0.029411764705882353")
+    print("1/34 = 0.02941176470588235294117647059")
 if num1 == 1 and sign == '/' and num2 == 35:
-    print("1/35 = 0.02857142857142857")
+    print("1/35 = 0.02857142857142857142857142857")
 if num1 == 1 and sign == '/' and num2 == 36:
-    print("1/36 = 0.027777777777777776")
+    print("1/36 = 0.02777777777777777777777777778")
 if num1 == 1 and sign == '/' and num2 == 37:
-    print("1/37 = 0.02702702702702703")
+    print("1/37 = 0.02702702702702702702702702703")
 if num1 == 1 and sign == '/' and num2 == 38:
-    print("1/38 = 0.02631578947368421")
+    print("1/38 = 0.02631578947368421052631578947")
 if num1 == 1 and sign == '/' and num2 == 39:
-    print("1/39 = 0.02564102564102564")
+    print("1/39 = 0.02564102564102564102564102564")
 if num1 == 1 and sign == '/' and num2 == 40:
     print("1/40 = 0.025")
 if num1 == 1 and sign == '/' and num2 == 41:
-    print("1/41 = 0.024390243902439025")
+    print("1/41 = 0.02439024390243902439024390244")
 if num1 == 1 and sign == '/' and num2 == 42:
-    print("1/42 = 0.023809523809523808")
+    print("1/42 = 0.02380952380952380952380952381")
 if num1 == 1 and sign == '/' and num2 == 43:
-    print("1/43 = 0.023255813953488372")
+    print("1/43 = 0.02325581395348837209302325581")
 if num1 == 1 and sign == '/' and num2 == 44:
-    print("1/44 = 0.022727272727272728")
+    print("1/44 = 0.02272727272727272727272727273")
 if num1 == 1 and sign == '/' and num2 == 45:
-    print("1/45 = 0.022222222222222223")
+    print("1/45 = 0.02222222222222222222222222222")
 if num1 == 1 and sign == '/' and num2 == 46:
-    print("1/46 = 0.021739130434782608")
+    print("1/46 = 0.02173913043478260869565217391")
 if num1 == 1 and sign == '/' and num2 == 47:
-    print("1/47 = 0.02127659574468085")
+    print("1/47 = 0.02127659574468085106382978723")
 if num1 == 1 and sign == '/' and num2 == 48:
-    print("1/48 = 0.020833333333333332")
+    print("1/48 = 0.02083333333333333333333333333")
 if num1 == 1 and sign == '/' and num2 == 49:
-    print("1/49 = 0.02040816326530612")
+    print("1/49 = 0.02040816326530612244897959184")
 if num1 == 1 and sign == '/' and num2 == 50:
     print("1/50 = 0.02")
 if num1 == 2 and sign == '/' and num2 == 0:
     print("2/0 = Inf")
 if num1 == 2 and sign == '/' and num2 == 1:
-    print("2/1 = 2.0")
+    print("2/1 = 2")
 if num1 == 2 and sign == '/' and num2 == 2:
-    print("2/2 = 1.0")
+    print("2/2 = 1")
 if num1 == 2 and sign == '/' and num2 == 3:
-    print("2/3 = 0.6666666666666666")
+    print("2/3 = 0.6666666666666666666666666667")
 if num1 == 2 and sign == '/' and num2 == 4:
     print("2/4 = 0.5")
 if num1 == 2 and sign == '/' and num2 == 5:
     print("2/5 = 0.4")
 if num1 == 2 and sign == '/' and num2 == 6:
-    print("2/6 = 0.3333333333333333")
+    print("2/6 = 0.3333333333333333333333333333")
 if num1 == 2 and sign == '/' and num2 == 7:
-    print("2/7 = 0.2857142857142857")
+    print("2/7 = 0.2857142857142857142857142857")
 if num1 == 2 and sign == '/' and num2 == 8:
     print("2/8 = 0.25")
 if num1 == 2 and sign == '/' and num2 == 9:
-    print("2/9 = 0.2222222222222222")
+    print("2/9 = 0.2222222222222222222222222222")
 if num1 == 2 and sign == '/' and num2 == 10:
     print("2/10 = 0.2")
 if num1 == 2 and sign == '/' and num2 == 11:
-    print("2/11 = 0.18181818181818182")
+    print("2/11 = 0.1818181818181818181818181818")
 if num1 == 2 and sign == '/' and num2 == 12:
-    print("2/12 = 0.16666666666666666")
+    print("2/12 = 0.1666666666666666666666666667")
 if num1 == 2 and sign == '/' and num2 == 13:
-    print("2/13 = 0.15384615384615385")
+    print("2/13 = 0.1538461538461538461538461538")
 if num1 == 2 and sign == '/' and num2 == 14:
-    print("2/14 = 0.14285714285714285")
+    print("2/14 = 0.1428571428571428571428571429")
 if num1 == 2 and sign == '/' and num2 == 15:
-    print("2/15 = 0.13333333333333333")
+    print("2/15 = 0.1333333333333333333333333333")
 if num1 == 2 and sign == '/' and num2 == 16:
     print("2/16 = 0.125")
 if num1 == 2 and sign == '/' and num2 == 17:
-    print("2/17 = 0.11764705882352941")
+    print("2/17 = 0.1176470588235294117647058824")
 if num1 == 2 and sign == '/' and num2 == 18:
-    print("2/18 = 0.1111111111111111")
+    print("2/18 = 0.1111111111111111111111111111")
 if num1 == 2 and sign == '/' and num2 == 19:
-    print("2/19 = 0.10526315789473684")
+    print("2/19 = 0.1052631578947368421052631579")
 if num1 == 2 and sign == '/' and num2 == 20:
     print("2/20 = 0.1")
 if num1 == 2 and sign == '/' and num2 == 21:
-    print("2/21 = 0.09523809523809523")
+    print("2/21 = 0.09523809523809523809523809524")
 if num1 == 2 and sign == '/' and num2 == 22:
-    print("2/22 = 0.09090909090909091")
+    print("2/22 = 0.09090909090909090909090909091")
 if num1 == 2 and sign == '/' and num2 == 23:
-    print("2/23 = 0.08695652173913043")
+    print("2/23 = 0.08695652173913043478260869565")
 if num1 == 2 and sign == '/' and num2 == 24:
-    print("2/24 = 0.08333333333333333")
+    print("2/24 = 0.08333333333333333333333333333")
 if num1 == 2 and sign == '/' and num2 == 25:
     print("2/25 = 0.08")
 if num1 == 2 and sign == '/' and num2 == 26:
-    print("2/26 = 0.07692307692307693")
+    print("2/26 = 0.07692307692307692307692307692")
 if num1 == 2 and sign == '/' and num2 == 27:
-    print("2/27 = 0.07407407407407407")
+    print("2/27 = 0.07407407407407407407407407407")
 if num1 == 2 and sign == '/' and num2 == 28:
-    print("2/28 = 0.07142857142857142")
+    print("2/28 = 0.07142857142857142857142857143")
 if num1 == 2 and sign == '/' and num2 == 29:
-    print("2/29 = 0.06896551724137931")
+    print("2/29 = 0.06896551724137931034482758621")
 if num1 == 2 and sign == '/' and num2 == 30:
-    print("2/30 = 0.06666666666666667")
+    print("2/30 = 0.06666666666666666666666666667")
 if num1 == 2 and sign == '/' and num2 == 31:
-    print("2/31 = 0.06451612903225806")
+    print("2/31 = 0.06451612903225806451612903226")
 if num1 == 2 and sign == '/' and num2 == 32:
     print("2/32 = 0.0625")
 if num1 == 2 and sign == '/' and num2 == 33:
-    print("2/33 = 0.06060606060606061")
+    print("2/33 = 0.06060606060606060606060606061")
 if num1 == 2 and sign == '/' and num2 == 34:
-    print("2/34 = 0.058823529411764705")
+    print("2/34 = 0.05882352941176470588235294118")
 if num1 == 2 and sign == '/' and num2 == 35:
-    print("2/35 = 0.05714285714285714")
+    print("2/35 = 0.05714285714285714285714285714")
 if num1 == 2 and sign == '/' and num2 == 36:
-    print("2/36 = 0.05555555555555555")
+    print("2/36 = 0.05555555555555555555555555556")
 if num1 == 2 and sign == '/' and num2 == 37:
-    print("2/37 = 0.05405405405405406")
+    print("2/37 = 0.05405405405405405405405405405")
 if num1 == 2 and sign == '/' and num2 == 38:
-    print("2/38 = 0.05263157894736842")
+    print("2/38 = 0.05263157894736842105263157895")
 if num1 == 2 and sign == '/' and num2 == 39:
-    print("2/39 = 0.05128205128205128")
+    print("2/39 = 0.05128205128205128205128205128")
 if num1 == 2 and sign == '/' and num2 == 40:
     print("2/40 = 0.05")
 if num1 == 2 and sign == '/' and num2 == 41:
-    print("2/41 = 0.04878048780487805")
+    print("2/41 = 0.04878048780487804878048780488")
 if num1 == 2 and sign == '/' and num2 == 42:
-    print("2/42 = 0.047619047619047616")
+    print("2/42 = 0.04761904761904761904761904762")
 if num1 == 2 and sign == '/' and num2 == 43:
-    print("2/43 = 0.046511627906976744")
+    print("2/43 = 0.04651162790697674418604651163")
 if num1 == 2 and sign == '/' and num2 == 44:
-    print("2/44 = 0.045454545454545456")
+    print("2/44 = 0.04545454545454545454545454545")
 if num1 == 2 and sign == '/' and num2 == 45:
-    print("2/45 = 0.044444444444444446")
+    print("2/45 = 0.04444444444444444444444444444")
 if num1 == 2 and sign == '/' and num2 == 46:
-    print("2/46 = 0.043478260869565216")
+    print("2/46 = 0.04347826086956521739130434783")
 if num1 == 2 and sign == '/' and num2 == 47:
-    print("2/47 = 0.0425531914893617")
+    print("2/47 = 0.04255319148936170212765957447")
 if num1 == 2 and sign == '/' and num2 == 48:
-    print("2/48 = 0.041666666666666664")
+    print("2/48 = 0.04166666666666666666666666667")
 if num1 == 2 and sign == '/' and num2 == 49:
-    print("2/49 = 0.04081632653061224")
+    print("2/49 = 0.04081632653061224489795918367")
 if num1 == 2 and sign == '/' and num2 == 50:
     print("2/50 = 0.04")
 if num1 == 3 and sign == '/' and num2 == 0:
     print("3/0 = Inf")
 if num1 == 3 and sign == '/' and num2 == 1:
-    print("3/1 = 3.0")
+    print("3/1 = 3")
 if num1 == 3 and sign == '/' and num2 == 2:
     print("3/2 = 1.5")
 if num1 == 3 and sign == '/' and num2 == 3:
-    print("3/3 = 1.0")
+    print("3/3 = 1")
 if num1 == 3 and sign == '/' and num2 == 4:
     print("3/4 = 0.75")
 if num1 == 3 and sign == '/' and num2 == 5:
@@ -10735,611 +10735,611 @@ if num1 == 3 and sign == '/' and num2 == 5:
 if num1 == 3 and sign == '/' and num2 == 6:
     print("3/6 = 0.5")
 if num1 == 3 and sign == '/' and num2 == 7:
-    print("3/7 = 0.42857142857142855")
+    print("3/7 = 0.4285714285714285714285714286")
 if num1 == 3 and sign == '/' and num2 == 8:
     print("3/8 = 0.375")
 if num1 == 3 and sign == '/' and num2 == 9:
-    print("3/9 = 0.3333333333333333")
+    print("3/9 = 0.3333333333333333333333333333")
 if num1 == 3 and sign == '/' and num2 == 10:
     print("3/10 = 0.3")
 if num1 == 3 and sign == '/' and num2 == 11:
-    print("3/11 = 0.2727272727272727")
+    print("3/11 = 0.2727272727272727272727272727")
 if num1 == 3 and sign == '/' and num2 == 12:
     print("3/12 = 0.25")
 if num1 == 3 and sign == '/' and num2 == 13:
-    print("3/13 = 0.23076923076923078")
+    print("3/13 = 0.2307692307692307692307692308")
 if num1 == 3 and sign == '/' and num2 == 14:
-    print("3/14 = 0.21428571428571427")
+    print("3/14 = 0.2142857142857142857142857143")
 if num1 == 3 and sign == '/' and num2 == 15:
     print("3/15 = 0.2")
 if num1 == 3 and sign == '/' and num2 == 16:
     print("3/16 = 0.1875")
 if num1 == 3 and sign == '/' and num2 == 17:
-    print("3/17 = 0.17647058823529413")
+    print("3/17 = 0.1764705882352941176470588235")
 if num1 == 3 and sign == '/' and num2 == 18:
-    print("3/18 = 0.16666666666666666")
+    print("3/18 = 0.1666666666666666666666666667")
 if num1 == 3 and sign == '/' and num2 == 19:
-    print("3/19 = 0.15789473684210525")
+    print("3/19 = 0.1578947368421052631578947368")
 if num1 == 3 and sign == '/' and num2 == 20:
     print("3/20 = 0.15")
 if num1 == 3 and sign == '/' and num2 == 21:
-    print("3/21 = 0.14285714285714285")
+    print("3/21 = 0.1428571428571428571428571429")
 if num1 == 3 and sign == '/' and num2 == 22:
-    print("3/22 = 0.13636363636363635")
+    print("3/22 = 0.1363636363636363636363636364")
 if num1 == 3 and sign == '/' and num2 == 23:
-    print("3/23 = 0.13043478260869565")
+    print("3/23 = 0.1304347826086956521739130435")
 if num1 == 3 and sign == '/' and num2 == 24:
     print("3/24 = 0.125")
 if num1 == 3 and sign == '/' and num2 == 25:
     print("3/25 = 0.12")
 if num1 == 3 and sign == '/' and num2 == 26:
-    print("3/26 = 0.11538461538461539")
+    print("3/26 = 0.1153846153846153846153846154")
 if num1 == 3 and sign == '/' and num2 == 27:
-    print("3/27 = 0.1111111111111111")
+    print("3/27 = 0.1111111111111111111111111111")
 if num1 == 3 and sign == '/' and num2 == 28:
-    print("3/28 = 0.10714285714285714")
+    print("3/28 = 0.1071428571428571428571428571")
 if num1 == 3 and sign == '/' and num2 == 29:
-    print("3/29 = 0.10344827586206896")
+    print("3/29 = 0.1034482758620689655172413793")
 if num1 == 3 and sign == '/' and num2 == 30:
     print("3/30 = 0.1")
 if num1 == 3 and sign == '/' and num2 == 31:
-    print("3/31 = 0.0967741935483871")
+    print("3/31 = 0.09677419354838709677419354839")
 if num1 == 3 and sign == '/' and num2 == 32:
     print("3/32 = 0.09375")
 if num1 == 3 and sign == '/' and num2 == 33:
-    print("3/33 = 0.09090909090909091")
+    print("3/33 = 0.09090909090909090909090909091")
 if num1 == 3 and sign == '/' and num2 == 34:
-    print("3/34 = 0.08823529411764706")
+    print("3/34 = 0.08823529411764705882352941176")
 if num1 == 3 and sign == '/' and num2 == 35:
-    print("3/35 = 0.08571428571428572")
+    print("3/35 = 0.08571428571428571428571428571")
 if num1 == 3 and sign == '/' and num2 == 36:
-    print("3/36 = 0.08333333333333333")
+    print("3/36 = 0.08333333333333333333333333333")
 if num1 == 3 and sign == '/' and num2 == 37:
-    print("3/37 = 0.08108108108108109")
+    print("3/37 = 0.08108108108108108108108108108")
 if num1 == 3 and sign == '/' and num2 == 38:
-    print("3/38 = 0.07894736842105263")
+    print("3/38 = 0.07894736842105263157894736842")
 if num1 == 3 and sign == '/' and num2 == 39:
-    print("3/39 = 0.07692307692307693")
+    print("3/39 = 0.07692307692307692307692307692")
 if num1 == 3 and sign == '/' and num2 == 40:
     print("3/40 = 0.075")
 if num1 == 3 and sign == '/' and num2 == 41:
-    print("3/41 = 0.07317073170731707")
+    print("3/41 = 0.07317073170731707317073170732")
 if num1 == 3 and sign == '/' and num2 == 42:
-    print("3/42 = 0.07142857142857142")
+    print("3/42 = 0.07142857142857142857142857143")
 if num1 == 3 and sign == '/' and num2 == 43:
-    print("3/43 = 0.06976744186046512")
+    print("3/43 = 0.06976744186046511627906976744")
 if num1 == 3 and sign == '/' and num2 == 44:
-    print("3/44 = 0.06818181818181818")
+    print("3/44 = 0.06818181818181818181818181818")
 if num1 == 3 and sign == '/' and num2 == 45:
-    print("3/45 = 0.06666666666666667")
+    print("3/45 = 0.06666666666666666666666666667")
 if num1 == 3 and sign == '/' and num2 == 46:
-    print("3/46 = 0.06521739130434782")
+    print("3/46 = 0.06521739130434782608695652174")
 if num1 == 3 and sign == '/' and num2 == 47:
-    print("3/47 = 0.06382978723404255")
+    print("3/47 = 0.06382978723404255319148936170")
 if num1 == 3 and sign == '/' and num2 == 48:
     print("3/48 = 0.0625")
 if num1 == 3 and sign == '/' and num2 == 49:
-    print("3/49 = 0.061224489795918366")
+    print("3/49 = 0.06122448979591836734693877551")
 if num1 == 3 and sign == '/' and num2 == 50:
     print("3/50 = 0.06")
 if num1 == 4 and sign == '/' and num2 == 0:
     print("4/0 = Inf")
 if num1 == 4 and sign == '/' and num2 == 1:
-    print("4/1 = 4.0")
+    print("4/1 = 4")
 if num1 == 4 and sign == '/' and num2 == 2:
-    print("4/2 = 2.0")
+    print("4/2 = 2")
 if num1 == 4 and sign == '/' and num2 == 3:
-    print("4/3 = 1.3333333333333333")
+    print("4/3 = 1.333333333333333333333333333")
 if num1 == 4 and sign == '/' and num2 == 4:
-    print("4/4 = 1.0")
+    print("4/4 = 1")
 if num1 == 4 and sign == '/' and num2 == 5:
     print("4/5 = 0.8")
 if num1 == 4 and sign == '/' and num2 == 6:
-    print("4/6 = 0.6666666666666666")
+    print("4/6 = 0.6666666666666666666666666667")
 if num1 == 4 and sign == '/' and num2 == 7:
-    print("4/7 = 0.5714285714285714")
+    print("4/7 = 0.5714285714285714285714285714")
 if num1 == 4 and sign == '/' and num2 == 8:
     print("4/8 = 0.5")
 if num1 == 4 and sign == '/' and num2 == 9:
-    print("4/9 = 0.4444444444444444")
+    print("4/9 = 0.4444444444444444444444444444")
 if num1 == 4 and sign == '/' and num2 == 10:
     print("4/10 = 0.4")
 if num1 == 4 and sign == '/' and num2 == 11:
-    print("4/11 = 0.36363636363636365")
+    print("4/11 = 0.3636363636363636363636363636")
 if num1 == 4 and sign == '/' and num2 == 12:
-    print("4/12 = 0.3333333333333333")
+    print("4/12 = 0.3333333333333333333333333333")
 if num1 == 4 and sign == '/' and num2 == 13:
-    print("4/13 = 0.3076923076923077")
+    print("4/13 = 0.3076923076923076923076923077")
 if num1 == 4 and sign == '/' and num2 == 14:
-    print("4/14 = 0.2857142857142857")
+    print("4/14 = 0.2857142857142857142857142857")
 if num1 == 4 and sign == '/' and num2 == 15:
-    print("4/15 = 0.26666666666666666")
+    print("4/15 = 0.2666666666666666666666666667")
 if num1 == 4 and sign == '/' and num2 == 16:
     print("4/16 = 0.25")
 if num1 == 4 and sign == '/' and num2 == 17:
-    print("4/17 = 0.23529411764705882")
+    print("4/17 = 0.2352941176470588235294117647")
 if num1 == 4 and sign == '/' and num2 == 18:
-    print("4/18 = 0.2222222222222222")
+    print("4/18 = 0.2222222222222222222222222222")
 if num1 == 4 and sign == '/' and num2 == 19:
-    print("4/19 = 0.21052631578947367")
+    print("4/19 = 0.2105263157894736842105263158")
 if num1 == 4 and sign == '/' and num2 == 20:
     print("4/20 = 0.2")
 if num1 == 4 and sign == '/' and num2 == 21:
-    print("4/21 = 0.19047619047619047")
+    print("4/21 = 0.1904761904761904761904761905")
 if num1 == 4 and sign == '/' and num2 == 22:
-    print("4/22 = 0.18181818181818182")
+    print("4/22 = 0.1818181818181818181818181818")
 if num1 == 4 and sign == '/' and num2 == 23:
-    print("4/23 = 0.17391304347826086")
+    print("4/23 = 0.1739130434782608695652173913")
 if num1 == 4 and sign == '/' and num2 == 24:
-    print("4/24 = 0.16666666666666666")
+    print("4/24 = 0.1666666666666666666666666667")
 if num1 == 4 and sign == '/' and num2 == 25:
     print("4/25 = 0.16")
 if num1 == 4 and sign == '/' and num2 == 26:
-    print("4/26 = 0.15384615384615385")
+    print("4/26 = 0.1538461538461538461538461538")
 if num1 == 4 and sign == '/' and num2 == 27:
-    print("4/27 = 0.14814814814814814")
+    print("4/27 = 0.1481481481481481481481481481")
 if num1 == 4 and sign == '/' and num2 == 28:
-    print("4/28 = 0.14285714285714285")
+    print("4/28 = 0.1428571428571428571428571429")
 if num1 == 4 and sign == '/' and num2 == 29:
-    print("4/29 = 0.13793103448275862")
+    print("4/29 = 0.1379310344827586206896551724")
 if num1 == 4 and sign == '/' and num2 == 30:
-    print("4/30 = 0.13333333333333333")
+    print("4/30 = 0.1333333333333333333333333333")
 if num1 == 4 and sign == '/' and num2 == 31:
-    print("4/31 = 0.12903225806451613")
+    print("4/31 = 0.1290322580645161290322580645")
 if num1 == 4 and sign == '/' and num2 == 32:
     print("4/32 = 0.125")
 if num1 == 4 and sign == '/' and num2 == 33:
-    print("4/33 = 0.12121212121212122")
+    print("4/33 = 0.1212121212121212121212121212")
 if num1 == 4 and sign == '/' and num2 == 34:
-    print("4/34 = 0.11764705882352941")
+    print("4/34 = 0.1176470588235294117647058824")
 if num1 == 4 and sign == '/' and num2 == 35:
-    print("4/35 = 0.11428571428571428")
+    print("4/35 = 0.1142857142857142857142857143")
 if num1 == 4 and sign == '/' and num2 == 36:
-    print("4/36 = 0.1111111111111111")
+    print("4/36 = 0.1111111111111111111111111111")
 if num1 == 4 and sign == '/' and num2 == 37:
-    print("4/37 = 0.10810810810810811")
+    print("4/37 = 0.1081081081081081081081081081")
 if num1 == 4 and sign == '/' and num2 == 38:
-    print("4/38 = 0.10526315789473684")
+    print("4/38 = 0.1052631578947368421052631579")
 if num1 == 4 and sign == '/' and num2 == 39:
-    print("4/39 = 0.10256410256410256")
+    print("4/39 = 0.1025641025641025641025641026")
 if num1 == 4 and sign == '/' and num2 == 40:
     print("4/40 = 0.1")
 if num1 == 4 and sign == '/' and num2 == 41:
-    print("4/41 = 0.0975609756097561")
+    print("4/41 = 0.09756097560975609756097560976")
 if num1 == 4 and sign == '/' and num2 == 42:
-    print("4/42 = 0.09523809523809523")
+    print("4/42 = 0.09523809523809523809523809524")
 if num1 == 4 and sign == '/' and num2 == 43:
-    print("4/43 = 0.09302325581395349")
+    print("4/43 = 0.09302325581395348837209302326")
 if num1 == 4 and sign == '/' and num2 == 44:
-    print("4/44 = 0.09090909090909091")
+    print("4/44 = 0.09090909090909090909090909091")
 if num1 == 4 and sign == '/' and num2 == 45:
-    print("4/45 = 0.08888888888888889")
+    print("4/45 = 0.08888888888888888888888888889")
 if num1 == 4 and sign == '/' and num2 == 46:
-    print("4/46 = 0.08695652173913043")
+    print("4/46 = 0.08695652173913043478260869565")
 if num1 == 4 and sign == '/' and num2 == 47:
-    print("4/47 = 0.0851063829787234")
+    print("4/47 = 0.08510638297872340425531914894")
 if num1 == 4 and sign == '/' and num2 == 48:
-    print("4/48 = 0.08333333333333333")
+    print("4/48 = 0.08333333333333333333333333333")
 if num1 == 4 and sign == '/' and num2 == 49:
-    print("4/49 = 0.08163265306122448")
+    print("4/49 = 0.08163265306122448979591836735")
 if num1 == 4 and sign == '/' and num2 == 50:
     print("4/50 = 0.08")
 if num1 == 5 and sign == '/' and num2 == 0:
     print("5/0 = Inf")
 if num1 == 5 and sign == '/' and num2 == 1:
-    print("5/1 = 5.0")
+    print("5/1 = 5")
 if num1 == 5 and sign == '/' and num2 == 2:
     print("5/2 = 2.5")
 if num1 == 5 and sign == '/' and num2 == 3:
-    print("5/3 = 1.6666666666666667")
+    print("5/3 = 1.666666666666666666666666667")
 if num1 == 5 and sign == '/' and num2 == 4:
     print("5/4 = 1.25")
 if num1 == 5 and sign == '/' and num2 == 5:
-    print("5/5 = 1.0")
+    print("5/5 = 1")
 if num1 == 5 and sign == '/' and num2 == 6:
-    print("5/6 = 0.8333333333333334")
+    print("5/6 = 0.8333333333333333333333333333")
 if num1 == 5 and sign == '/' and num2 == 7:
-    print("5/7 = 0.7142857142857143")
+    print("5/7 = 0.7142857142857142857142857143")
 if num1 == 5 and sign == '/' and num2 == 8:
     print("5/8 = 0.625")
 if num1 == 5 and sign == '/' and num2 == 9:
-    print("5/9 = 0.5555555555555556")
+    print("5/9 = 0.5555555555555555555555555556")
 if num1 == 5 and sign == '/' and num2 == 10:
     print("5/10 = 0.5")
 if num1 == 5 and sign == '/' and num2 == 11:
-    print("5/11 = 0.45454545454545453")
+    print("5/11 = 0.4545454545454545454545454545")
 if num1 == 5 and sign == '/' and num2 == 12:
-    print("5/12 = 0.4166666666666667")
+    print("5/12 = 0.4166666666666666666666666667")
 if num1 == 5 and sign == '/' and num2 == 13:
-    print("5/13 = 0.38461538461538464")
+    print("5/13 = 0.3846153846153846153846153846")
 if num1 == 5 and sign == '/' and num2 == 14:
-    print("5/14 = 0.35714285714285715")
+    print("5/14 = 0.3571428571428571428571428571")
 if num1 == 5 and sign == '/' and num2 == 15:
-    print("5/15 = 0.3333333333333333")
+    print("5/15 = 0.3333333333333333333333333333")
 if num1 == 5 and sign == '/' and num2 == 16:
     print("5/16 = 0.3125")
 if num1 == 5 and sign == '/' and num2 == 17:
-    print("5/17 = 0.29411764705882354")
+    print("5/17 = 0.2941176470588235294117647059")
 if num1 == 5 and sign == '/' and num2 == 18:
-    print("5/18 = 0.2777777777777778")
+    print("5/18 = 0.2777777777777777777777777778")
 if num1 == 5 and sign == '/' and num2 == 19:
-    print("5/19 = 0.2631578947368421")
+    print("5/19 = 0.2631578947368421052631578947")
 if num1 == 5 and sign == '/' and num2 == 20:
     print("5/20 = 0.25")
 if num1 == 5 and sign == '/' and num2 == 21:
-    print("5/21 = 0.23809523809523808")
+    print("5/21 = 0.2380952380952380952380952381")
 if num1 == 5 and sign == '/' and num2 == 22:
-    print("5/22 = 0.22727272727272727")
+    print("5/22 = 0.2272727272727272727272727273")
 if num1 == 5 and sign == '/' and num2 == 23:
-    print("5/23 = 0.21739130434782608")
+    print("5/23 = 0.2173913043478260869565217391")
 if num1 == 5 and sign == '/' and num2 == 24:
-    print("5/24 = 0.20833333333333334")
+    print("5/24 = 0.2083333333333333333333333333")
 if num1 == 5 and sign == '/' and num2 == 25:
     print("5/25 = 0.2")
 if num1 == 5 and sign == '/' and num2 == 26:
-    print("5/26 = 0.19230769230769232")
+    print("5/26 = 0.1923076923076923076923076923")
 if num1 == 5 and sign == '/' and num2 == 27:
-    print("5/27 = 0.18518518518518517")
+    print("5/27 = 0.1851851851851851851851851852")
 if num1 == 5 and sign == '/' and num2 == 28:
-    print("5/28 = 0.17857142857142858")
+    print("5/28 = 0.1785714285714285714285714286")
 if num1 == 5 and sign == '/' and num2 == 29:
-    print("5/29 = 0.1724137931034483")
+    print("5/29 = 0.1724137931034482758620689655")
 if num1 == 5 and sign == '/' and num2 == 30:
-    print("5/30 = 0.16666666666666666")
+    print("5/30 = 0.1666666666666666666666666667")
 if num1 == 5 and sign == '/' and num2 == 31:
-    print("5/31 = 0.16129032258064516")
+    print("5/31 = 0.1612903225806451612903225806")
 if num1 == 5 and sign == '/' and num2 == 32:
     print("5/32 = 0.15625")
 if num1 == 5 and sign == '/' and num2 == 33:
-    print("5/33 = 0.15151515151515152")
+    print("5/33 = 0.1515151515151515151515151515")
 if num1 == 5 and sign == '/' and num2 == 34:
-    print("5/34 = 0.14705882352941177")
+    print("5/34 = 0.1470588235294117647058823529")
 if num1 == 5 and sign == '/' and num2 == 35:
-    print("5/35 = 0.14285714285714285")
+    print("5/35 = 0.1428571428571428571428571429")
 if num1 == 5 and sign == '/' and num2 == 36:
-    print("5/36 = 0.1388888888888889")
+    print("5/36 = 0.1388888888888888888888888889")
 if num1 == 5 and sign == '/' and num2 == 37:
-    print("5/37 = 0.13513513513513514")
+    print("5/37 = 0.1351351351351351351351351351")
 if num1 == 5 and sign == '/' and num2 == 38:
-    print("5/38 = 0.13157894736842105")
+    print("5/38 = 0.1315789473684210526315789474")
 if num1 == 5 and sign == '/' and num2 == 39:
-    print("5/39 = 0.1282051282051282")
+    print("5/39 = 0.1282051282051282051282051282")
 if num1 == 5 and sign == '/' and num2 == 40:
     print("5/40 = 0.125")
 if num1 == 5 and sign == '/' and num2 == 41:
-    print("5/41 = 0.12195121951219512")
+    print("5/41 = 0.1219512195121951219512195122")
 if num1 == 5 and sign == '/' and num2 == 42:
-    print("5/42 = 0.11904761904761904")
+    print("5/42 = 0.1190476190476190476190476190")
 if num1 == 5 and sign == '/' and num2 == 43:
-    print("5/43 = 0.11627906976744186")
+    print("5/43 = 0.1162790697674418604651162791")
 if num1 == 5 and sign == '/' and num2 == 44:
-    print("5/44 = 0.11363636363636363")
+    print("5/44 = 0.1136363636363636363636363636")
 if num1 == 5 and sign == '/' and num2 == 45:
-    print("5/45 = 0.1111111111111111")
+    print("5/45 = 0.1111111111111111111111111111")
 if num1 == 5 and sign == '/' and num2 == 46:
-    print("5/46 = 0.10869565217391304")
+    print("5/46 = 0.1086956521739130434782608696")
 if num1 == 5 and sign == '/' and num2 == 47:
-    print("5/47 = 0.10638297872340426")
+    print("5/47 = 0.1063829787234042553191489362")
 if num1 == 5 and sign == '/' and num2 == 48:
-    print("5/48 = 0.10416666666666667")
+    print("5/48 = 0.1041666666666666666666666667")
 if num1 == 5 and sign == '/' and num2 == 49:
-    print("5/49 = 0.10204081632653061")
+    print("5/49 = 0.1020408163265306122448979592")
 if num1 == 5 and sign == '/' and num2 == 50:
     print("5/50 = 0.1")
 if num1 == 6 and sign == '/' and num2 == 0:
     print("6/0 = Inf")
 if num1 == 6 and sign == '/' and num2 == 1:
-    print("6/1 = 6.0")
+    print("6/1 = 6")
 if num1 == 6 and sign == '/' and num2 == 2:
-    print("6/2 = 3.0")
+    print("6/2 = 3")
 if num1 == 6 and sign == '/' and num2 == 3:
-    print("6/3 = 2.0")
+    print("6/3 = 2")
 if num1 == 6 and sign == '/' and num2 == 4:
     print("6/4 = 1.5")
 if num1 == 6 and sign == '/' and num2 == 5:
     print("6/5 = 1.2")
 if num1 == 6 and sign == '/' and num2 == 6:
-    print("6/6 = 1.0")
+    print("6/6 = 1")
 if num1 == 6 and sign == '/' and num2 == 7:
-    print("6/7 = 0.8571428571428571")
+    print("6/7 = 0.8571428571428571428571428571")
 if num1 == 6 and sign == '/' and num2 == 8:
     print("6/8 = 0.75")
 if num1 == 6 and sign == '/' and num2 == 9:
-    print("6/9 = 0.6666666666666666")
+    print("6/9 = 0.6666666666666666666666666667")
 if num1 == 6 and sign == '/' and num2 == 10:
     print("6/10 = 0.6")
 if num1 == 6 and sign == '/' and num2 == 11:
-    print("6/11 = 0.5454545454545454")
+    print("6/11 = 0.5454545454545454545454545455")
 if num1 == 6 and sign == '/' and num2 == 12:
     print("6/12 = 0.5")
 if num1 == 6 and sign == '/' and num2 == 13:
-    print("6/13 = 0.46153846153846156")
+    print("6/13 = 0.4615384615384615384615384615")
 if num1 == 6 and sign == '/' and num2 == 14:
-    print("6/14 = 0.42857142857142855")
+    print("6/14 = 0.4285714285714285714285714286")
 if num1 == 6 and sign == '/' and num2 == 15:
     print("6/15 = 0.4")
 if num1 == 6 and sign == '/' and num2 == 16:
     print("6/16 = 0.375")
 if num1 == 6 and sign == '/' and num2 == 17:
-    print("6/17 = 0.35294117647058826")
+    print("6/17 = 0.3529411764705882352941176471")
 if num1 == 6 and sign == '/' and num2 == 18:
-    print("6/18 = 0.3333333333333333")
+    print("6/18 = 0.3333333333333333333333333333")
 if num1 == 6 and sign == '/' and num2 == 19:
-    print("6/19 = 0.3157894736842105")
+    print("6/19 = 0.3157894736842105263157894737")
 if num1 == 6 and sign == '/' and num2 == 20:
     print("6/20 = 0.3")
 if num1 == 6 and sign == '/' and num2 == 21:
-    print("6/21 = 0.2857142857142857")
+    print("6/21 = 0.2857142857142857142857142857")
 if num1 == 6 and sign == '/' and num2 == 22:
-    print("6/22 = 0.2727272727272727")
+    print("6/22 = 0.2727272727272727272727272727")
 if num1 == 6 and sign == '/' and num2 == 23:
-    print("6/23 = 0.2608695652173913")
+    print("6/23 = 0.2608695652173913043478260870")
 if num1 == 6 and sign == '/' and num2 == 24:
     print("6/24 = 0.25")
 if num1 == 6 and sign == '/' and num2 == 25:
     print("6/25 = 0.24")
 if num1 == 6 and sign == '/' and num2 == 26:
-    print("6/26 = 0.23076923076923078")
+    print("6/26 = 0.2307692307692307692307692308")
 if num1 == 6 and sign == '/' and num2 == 27:
-    print("6/27 = 0.2222222222222222")
+    print("6/27 = 0.2222222222222222222222222222")
 if num1 == 6 and sign == '/' and num2 == 28:
-    print("6/28 = 0.21428571428571427")
+    print("6/28 = 0.2142857142857142857142857143")
 if num1 == 6 and sign == '/' and num2 == 29:
-    print("6/29 = 0.20689655172413793")
+    print("6/29 = 0.2068965517241379310344827586")
 if num1 == 6 and sign == '/' and num2 == 30:
     print("6/30 = 0.2")
 if num1 == 6 and sign == '/' and num2 == 31:
-    print("6/31 = 0.1935483870967742")
+    print("6/31 = 0.1935483870967741935483870968")
 if num1 == 6 and sign == '/' and num2 == 32:
     print("6/32 = 0.1875")
 if num1 == 6 and sign == '/' and num2 == 33:
-    print("6/33 = 0.18181818181818182")
+    print("6/33 = 0.1818181818181818181818181818")
 if num1 == 6 and sign == '/' and num2 == 34:
-    print("6/34 = 0.17647058823529413")
+    print("6/34 = 0.1764705882352941176470588235")
 if num1 == 6 and sign == '/' and num2 == 35:
-    print("6/35 = 0.17142857142857143")
+    print("6/35 = 0.1714285714285714285714285714")
 if num1 == 6 and sign == '/' and num2 == 36:
-    print("6/36 = 0.16666666666666666")
+    print("6/36 = 0.1666666666666666666666666667")
 if num1 == 6 and sign == '/' and num2 == 37:
-    print("6/37 = 0.16216216216216217")
+    print("6/37 = 0.1621621621621621621621621622")
 if num1 == 6 and sign == '/' and num2 == 38:
-    print("6/38 = 0.15789473684210525")
+    print("6/38 = 0.1578947368421052631578947368")
 if num1 == 6 and sign == '/' and num2 == 39:
-    print("6/39 = 0.15384615384615385")
+    print("6/39 = 0.1538461538461538461538461538")
 if num1 == 6 and sign == '/' and num2 == 40:
     print("6/40 = 0.15")
 if num1 == 6 and sign == '/' and num2 == 41:
-    print("6/41 = 0.14634146341463414")
+    print("6/41 = 0.1463414634146341463414634146")
 if num1 == 6 and sign == '/' and num2 == 42:
-    print("6/42 = 0.14285714285714285")
+    print("6/42 = 0.1428571428571428571428571429")
 if num1 == 6 and sign == '/' and num2 == 43:
-    print("6/43 = 0.13953488372093023")
+    print("6/43 = 0.1395348837209302325581395349")
 if num1 == 6 and sign == '/' and num2 == 44:
-    print("6/44 = 0.13636363636363635")
+    print("6/44 = 0.1363636363636363636363636364")
 if num1 == 6 and sign == '/' and num2 == 45:
-    print("6/45 = 0.13333333333333333")
+    print("6/45 = 0.1333333333333333333333333333")
 if num1 == 6 and sign == '/' and num2 == 46:
-    print("6/46 = 0.13043478260869565")
+    print("6/46 = 0.1304347826086956521739130435")
 if num1 == 6 and sign == '/' and num2 == 47:
-    print("6/47 = 0.1276595744680851")
+    print("6/47 = 0.1276595744680851063829787234")
 if num1 == 6 and sign == '/' and num2 == 48:
     print("6/48 = 0.125")
 if num1 == 6 and sign == '/' and num2 == 49:
-    print("6/49 = 0.12244897959183673")
+    print("6/49 = 0.1224489795918367346938775510")
 if num1 == 6 and sign == '/' and num2 == 50:
     print("6/50 = 0.12")
 if num1 == 7 and sign == '/' and num2 == 0:
     print("7/0 = Inf")
 if num1 == 7 and sign == '/' and num2 == 1:
-    print("7/1 = 7.0")
+    print("7/1 = 7")
 if num1 == 7 and sign == '/' and num2 == 2:
     print("7/2 = 3.5")
 if num1 == 7 and sign == '/' and num2 == 3:
-    print("7/3 = 2.3333333333333335")
+    print("7/3 = 2.333333333333333333333333333")
 if num1 == 7 and sign == '/' and num2 == 4:
     print("7/4 = 1.75")
 if num1 == 7 and sign == '/' and num2 == 5:
     print("7/5 = 1.4")
 if num1 == 7 and sign == '/' and num2 == 6:
-    print("7/6 = 1.1666666666666667")
+    print("7/6 = 1.166666666666666666666666667")
 if num1 == 7 and sign == '/' and num2 == 7:
-    print("7/7 = 1.0")
+    print("7/7 = 1")
 if num1 == 7 and sign == '/' and num2 == 8:
     print("7/8 = 0.875")
 if num1 == 7 and sign == '/' and num2 == 9:
-    print("7/9 = 0.7777777777777778")
+    print("7/9 = 0.7777777777777777777777777778")
 if num1 == 7 and sign == '/' and num2 == 10:
     print("7/10 = 0.7")
 if num1 == 7 and sign == '/' and num2 == 11:
-    print("7/11 = 0.6363636363636364")
+    print("7/11 = 0.6363636363636363636363636364")
 if num1 == 7 and sign == '/' and num2 == 12:
-    print("7/12 = 0.5833333333333334")
+    print("7/12 = 0.5833333333333333333333333333")
 if num1 == 7 and sign == '/' and num2 == 13:
-    print("7/13 = 0.5384615384615384")
+    print("7/13 = 0.5384615384615384615384615385")
 if num1 == 7 and sign == '/' and num2 == 14:
     print("7/14 = 0.5")
 if num1 == 7 and sign == '/' and num2 == 15:
-    print("7/15 = 0.4666666666666667")
+    print("7/15 = 0.4666666666666666666666666667")
 if num1 == 7 and sign == '/' and num2 == 16:
     print("7/16 = 0.4375")
 if num1 == 7 and sign == '/' and num2 == 17:
-    print("7/17 = 0.4117647058823529")
+    print("7/17 = 0.4117647058823529411764705882")
 if num1 == 7 and sign == '/' and num2 == 18:
-    print("7/18 = 0.3888888888888889")
+    print("7/18 = 0.3888888888888888888888888889")
 if num1 == 7 and sign == '/' and num2 == 19:
-    print("7/19 = 0.3684210526315789")
+    print("7/19 = 0.3684210526315789473684210526")
 if num1 == 7 and sign == '/' and num2 == 20:
     print("7/20 = 0.35")
 if num1 == 7 and sign == '/' and num2 == 21:
-    print("7/21 = 0.3333333333333333")
+    print("7/21 = 0.3333333333333333333333333333")
 if num1 == 7 and sign == '/' and num2 == 22:
-    print("7/22 = 0.3181818181818182")
+    print("7/22 = 0.3181818181818181818181818182")
 if num1 == 7 and sign == '/' and num2 == 23:
-    print("7/23 = 0.30434782608695654")
+    print("7/23 = 0.3043478260869565217391304348")
 if num1 == 7 and sign == '/' and num2 == 24:
-    print("7/24 = 0.2916666666666667")
+    print("7/24 = 0.2916666666666666666666666667")
 if num1 == 7 and sign == '/' and num2 == 25:
     print("7/25 = 0.28")
 if num1 == 7 and sign == '/' and num2 == 26:
-    print("7/26 = 0.2692307692307692")
+    print("7/26 = 0.2692307692307692307692307692")
 if num1 == 7 and sign == '/' and num2 == 27:
-    print("7/27 = 0.25925925925925924")
+    print("7/27 = 0.2592592592592592592592592593")
 if num1 == 7 and sign == '/' and num2 == 28:
     print("7/28 = 0.25")
 if num1 == 7 and sign == '/' and num2 == 29:
-    print("7/29 = 0.2413793103448276")
+    print("7/29 = 0.2413793103448275862068965517")
 if num1 == 7 and sign == '/' and num2 == 30:
-    print("7/30 = 0.23333333333333334")
+    print("7/30 = 0.2333333333333333333333333333")
 if num1 == 7 and sign == '/' and num2 == 31:
-    print("7/31 = 0.22580645161290322")
+    print("7/31 = 0.2258064516129032258064516129")
 if num1 == 7 and sign == '/' and num2 == 32:
     print("7/32 = 0.21875")
 if num1 == 7 and sign == '/' and num2 == 33:
-    print("7/33 = 0.21212121212121213")
+    print("7/33 = 0.2121212121212121212121212121")
 if num1 == 7 and sign == '/' and num2 == 34:
-    print("7/34 = 0.20588235294117646")
+    print("7/34 = 0.2058823529411764705882352941")
 if num1 == 7 and sign == '/' and num2 == 35:
     print("7/35 = 0.2")
 if num1 == 7 and sign == '/' and num2 == 36:
-    print("7/36 = 0.19444444444444445")
+    print("7/36 = 0.1944444444444444444444444444")
 if num1 == 7 and sign == '/' and num2 == 37:
-    print("7/37 = 0.1891891891891892")
+    print("7/37 = 0.1891891891891891891891891892")
 if num1 == 7 and sign == '/' and num2 == 38:
-    print("7/38 = 0.18421052631578946")
+    print("7/38 = 0.1842105263157894736842105263")
 if num1 == 7 and sign == '/' and num2 == 39:
-    print("7/39 = 0.1794871794871795")
+    print("7/39 = 0.1794871794871794871794871795")
 if num1 == 7 and sign == '/' and num2 == 40:
     print("7/40 = 0.175")
 if num1 == 7 and sign == '/' and num2 == 41:
-    print("7/41 = 0.17073170731707318")
+    print("7/41 = 0.1707317073170731707317073171")
 if num1 == 7 and sign == '/' and num2 == 42:
-    print("7/42 = 0.16666666666666666")
+    print("7/42 = 0.1666666666666666666666666667")
 if num1 == 7 and sign == '/' and num2 == 43:
-    print("7/43 = 0.16279069767441862")
+    print("7/43 = 0.1627906976744186046511627907")
 if num1 == 7 and sign == '/' and num2 == 44:
-    print("7/44 = 0.1590909090909091")
+    print("7/44 = 0.1590909090909090909090909091")
 if num1 == 7 and sign == '/' and num2 == 45:
-    print("7/45 = 0.15555555555555556")
+    print("7/45 = 0.1555555555555555555555555556")
 if num1 == 7 and sign == '/' and num2 == 46:
-    print("7/46 = 0.15217391304347827")
+    print("7/46 = 0.1521739130434782608695652174")
 if num1 == 7 and sign == '/' and num2 == 47:
-    print("7/47 = 0.14893617021276595")
+    print("7/47 = 0.1489361702127659574468085106")
 if num1 == 7 and sign == '/' and num2 == 48:
-    print("7/48 = 0.14583333333333334")
+    print("7/48 = 0.1458333333333333333333333333")
 if num1 == 7 and sign == '/' and num2 == 49:
-    print("7/49 = 0.14285714285714285")
+    print("7/49 = 0.1428571428571428571428571429")
 if num1 == 7 and sign == '/' and num2 == 50:
     print("7/50 = 0.14")
 if num1 == 8 and sign == '/' and num2 == 0:
     print("8/0 = Inf")
 if num1 == 8 and sign == '/' and num2 == 1:
-    print("8/1 = 8.0")
+    print("8/1 = 8")
 if num1 == 8 and sign == '/' and num2 == 2:
-    print("8/2 = 4.0")
+    print("8/2 = 4")
 if num1 == 8 and sign == '/' and num2 == 3:
-    print("8/3 = 2.6666666666666665")
+    print("8/3 = 2.666666666666666666666666667")
 if num1 == 8 and sign == '/' and num2 == 4:
-    print("8/4 = 2.0")
+    print("8/4 = 2")
 if num1 == 8 and sign == '/' and num2 == 5:
     print("8/5 = 1.6")
 if num1 == 8 and sign == '/' and num2 == 6:
-    print("8/6 = 1.3333333333333333")
+    print("8/6 = 1.333333333333333333333333333")
 if num1 == 8 and sign == '/' and num2 == 7:
-    print("8/7 = 1.1428571428571428")
+    print("8/7 = 1.142857142857142857142857143")
 if num1 == 8 and sign == '/' and num2 == 8:
-    print("8/8 = 1.0")
+    print("8/8 = 1")
 if num1 == 8 and sign == '/' and num2 == 9:
-    print("8/9 = 0.8888888888888888")
+    print("8/9 = 0.8888888888888888888888888889")
 if num1 == 8 and sign == '/' and num2 == 10:
     print("8/10 = 0.8")
 if num1 == 8 and sign == '/' and num2 == 11:
-    print("8/11 = 0.7272727272727273")
+    print("8/11 = 0.7272727272727272727272727273")
 if num1 == 8 and sign == '/' and num2 == 12:
-    print("8/12 = 0.6666666666666666")
+    print("8/12 = 0.6666666666666666666666666667")
 if num1 == 8 and sign == '/' and num2 == 13:
-    print("8/13 = 0.6153846153846154")
+    print("8/13 = 0.6153846153846153846153846154")
 if num1 == 8 and sign == '/' and num2 == 14:
-    print("8/14 = 0.5714285714285714")
+    print("8/14 = 0.5714285714285714285714285714")
 if num1 == 8 and sign == '/' and num2 == 15:
-    print("8/15 = 0.5333333333333333")
+    print("8/15 = 0.5333333333333333333333333333")
 if num1 == 8 and sign == '/' and num2 == 16:
     print("8/16 = 0.5")
 if num1 == 8 and sign == '/' and num2 == 17:
-    print("8/17 = 0.47058823529411764")
+    print("8/17 = 0.4705882352941176470588235294")
 if num1 == 8 and sign == '/' and num2 == 18:
-    print("8/18 = 0.4444444444444444")
+    print("8/18 = 0.4444444444444444444444444444")
 if num1 == 8 and sign == '/' and num2 == 19:
-    print("8/19 = 0.42105263157894735")
+    print("8/19 = 0.4210526315789473684210526316")
 if num1 == 8 and sign == '/' and num2 == 20:
     print("8/20 = 0.4")
 if num1 == 8 and sign == '/' and num2 == 21:
-    print("8/21 = 0.38095238095238093")
+    print("8/21 = 0.3809523809523809523809523810")
 if num1 == 8 and sign == '/' and num2 == 22:
-    print("8/22 = 0.36363636363636365")
+    print("8/22 = 0.3636363636363636363636363636")
 if num1 == 8 and sign == '/' and num2 == 23:
-    print("8/23 = 0.34782608695652173")
+    print("8/23 = 0.3478260869565217391304347826")
 if num1 == 8 and sign == '/' and num2 == 24:
-    print("8/24 = 0.3333333333333333")
+    print("8/24 = 0.3333333333333333333333333333")
 if num1 == 8 and sign == '/' and num2 == 25:
     print("8/25 = 0.32")
 if num1 == 8 and sign == '/' and num2 == 26:
-    print("8/26 = 0.3076923076923077")
+    print("8/26 = 0.3076923076923076923076923077")
 if num1 == 8 and sign == '/' and num2 == 27:
-    print("8/27 = 0.2962962962962963")
+    print("8/27 = 0.2962962962962962962962962963")
 if num1 == 8 and sign == '/' and num2 == 28:
-    print("8/28 = 0.2857142857142857")
+    print("8/28 = 0.2857142857142857142857142857")
 if num1 == 8 and sign == '/' and num2 == 29:
-    print("8/29 = 0.27586206896551724")
+    print("8/29 = 0.2758620689655172413793103448")
 if num1 == 8 and sign == '/' and num2 == 30:
-    print("8/30 = 0.26666666666666666")
+    print("8/30 = 0.2666666666666666666666666667")
 if num1 == 8 and sign == '/' and num2 == 31:
-    print("8/31 = 0.25806451612903225")
+    print("8/31 = 0.2580645161290322580645161290")
 if num1 == 8 and sign == '/' and num2 == 32:
     print("8/32 = 0.25")
 if num1 == 8 and sign == '/' and num2 == 33:
-    print("8/33 = 0.24242424242424243")
+    print("8/33 = 0.2424242424242424242424242424")
 if num1 == 8 and sign == '/' and num2 == 34:
-    print("8/34 = 0.23529411764705882")
+    print("8/34 = 0.2352941176470588235294117647")
 if num1 == 8 and sign == '/' and num2 == 35:
-    print("8/35 = 0.22857142857142856")
+    print("8/35 = 0.2285714285714285714285714286")
 if num1 == 8 and sign == '/' and num2 == 36:
-    print("8/36 = 0.2222222222222222")
+    print("8/36 = 0.2222222222222222222222222222")
 if num1 == 8 and sign == '/' and num2 == 37:
-    print("8/37 = 0.21621621621621623")
+    print("8/37 = 0.2162162162162162162162162162")
 if num1 == 8 and sign == '/' and num2 == 38:
-    print("8/38 = 0.21052631578947367")
+    print("8/38 = 0.2105263157894736842105263158")
 if num1 == 8 and sign == '/' and num2 == 39:
-    print("8/39 = 0.20512820512820512")
+    print("8/39 = 0.2051282051282051282051282051")
 if num1 == 8 and sign == '/' and num2 == 40:
     print("8/40 = 0.2")
 if num1 == 8 and sign == '/' and num2 == 41:
-    print("8/41 = 0.1951219512195122")
+    print("8/41 = 0.1951219512195121951219512195")
 if num1 == 8 and sign == '/' and num2 == 42:
-    print("8/42 = 0.19047619047619047")
+    print("8/42 = 0.1904761904761904761904761905")
 if num1 == 8 and sign == '/' and num2 == 43:
-    print("8/43 = 0.18604651162790697")
+    print("8/43 = 0.1860465116279069767441860465")
 if num1 == 8 and sign == '/' and num2 == 44:
-    print("8/44 = 0.18181818181818182")
+    print("8/44 = 0.1818181818181818181818181818")
 if num1 == 8 and sign == '/' and num2 == 45:
-    print("8/45 = 0.17777777777777778")
+    print("8/45 = 0.1777777777777777777777777778")
 if num1 == 8 and sign == '/' and num2 == 46:
-    print("8/46 = 0.17391304347826086")
+    print("8/46 = 0.1739130434782608695652173913")
 if num1 == 8 and sign == '/' and num2 == 47:
-    print("8/47 = 0.1702127659574468")
+    print("8/47 = 0.1702127659574468085106382979")
 if num1 == 8 and sign == '/' and num2 == 48:
-    print("8/48 = 0.16666666666666666")
+    print("8/48 = 0.1666666666666666666666666667")
 if num1 == 8 and sign == '/' and num2 == 49:
-    print("8/49 = 0.16326530612244897")
+    print("8/49 = 0.1632653061224489795918367347")
 if num1 == 8 and sign == '/' and num2 == 50:
     print("8/50 = 0.16")
 if num1 == 9 and sign == '/' and num2 == 0:
     print("9/0 = Inf")
 if num1 == 9 and sign == '/' and num2 == 1:
-    print("9/1 = 9.0")
+    print("9/1 = 9")
 if num1 == 9 and sign == '/' and num2 == 2:
     print("9/2 = 4.5")
 if num1 == 9 and sign == '/' and num2 == 3:
-    print("9/3 = 3.0")
+    print("9/3 = 3")
 if num1 == 9 and sign == '/' and num2 == 4:
     print("9/4 = 2.25")
 if num1 == 9 and sign == '/' and num2 == 5:
@@ -11347,1223 +11347,1223 @@ if num1 == 9 and sign == '/' and num2 == 5:
 if num1 == 9 and sign == '/' and num2 == 6:
     print("9/6 = 1.5")
 if num1 == 9 and sign == '/' and num2 == 7:
-    print("9/7 = 1.2857142857142858")
+    print("9/7 = 1.285714285714285714285714286")
 if num1 == 9 and sign == '/' and num2 == 8:
     print("9/8 = 1.125")
 if num1 == 9 and sign == '/' and num2 == 9:
-    print("9/9 = 1.0")
+    print("9/9 = 1")
 if num1 == 9 and sign == '/' and num2 == 10:
     print("9/10 = 0.9")
 if num1 == 9 and sign == '/' and num2 == 11:
-    print("9/11 = 0.8181818181818182")
+    print("9/11 = 0.8181818181818181818181818182")
 if num1 == 9 and sign == '/' and num2 == 12:
     print("9/12 = 0.75")
 if num1 == 9 and sign == '/' and num2 == 13:
-    print("9/13 = 0.6923076923076923")
+    print("9/13 = 0.6923076923076923076923076923")
 if num1 == 9 and sign == '/' and num2 == 14:
-    print("9/14 = 0.6428571428571429")
+    print("9/14 = 0.6428571428571428571428571429")
 if num1 == 9 and sign == '/' and num2 == 15:
     print("9/15 = 0.6")
 if num1 == 9 and sign == '/' and num2 == 16:
     print("9/16 = 0.5625")
 if num1 == 9 and sign == '/' and num2 == 17:
-    print("9/17 = 0.5294117647058824")
+    print("9/17 = 0.5294117647058823529411764706")
 if num1 == 9 and sign == '/' and num2 == 18:
     print("9/18 = 0.5")
 if num1 == 9 and sign == '/' and num2 == 19:
-    print("9/19 = 0.47368421052631576")
+    print("9/19 = 0.4736842105263157894736842105")
 if num1 == 9 and sign == '/' and num2 == 20:
     print("9/20 = 0.45")
 if num1 == 9 and sign == '/' and num2 == 21:
-    print("9/21 = 0.42857142857142855")
+    print("9/21 = 0.4285714285714285714285714286")
 if num1 == 9 and sign == '/' and num2 == 22:
-    print("9/22 = 0.4090909090909091")
+    print("9/22 = 0.4090909090909090909090909091")
 if num1 == 9 and sign == '/' and num2 == 23:
-    print("9/23 = 0.391304347826087")
+    print("9/23 = 0.3913043478260869565217391304")
 if num1 == 9 and sign == '/' and num2 == 24:
     print("9/24 = 0.375")
 if num1 == 9 and sign == '/' and num2 == 25:
     print("9/25 = 0.36")
 if num1 == 9 and sign == '/' and num2 == 26:
-    print("9/26 = 0.34615384615384615")
+    print("9/26 = 0.3461538461538461538461538462")
 if num1 == 9 and sign == '/' and num2 == 27:
-    print("9/27 = 0.3333333333333333")
+    print("9/27 = 0.3333333333333333333333333333")
 if num1 == 9 and sign == '/' and num2 == 28:
-    print("9/28 = 0.32142857142857145")
+    print("9/28 = 0.3214285714285714285714285714")
 if num1 == 9 and sign == '/' and num2 == 29:
-    print("9/29 = 0.3103448275862069")
+    print("9/29 = 0.3103448275862068965517241379")
 if num1 == 9 and sign == '/' and num2 == 30:
     print("9/30 = 0.3")
 if num1 == 9 and sign == '/' and num2 == 31:
-    print("9/31 = 0.2903225806451613")
+    print("9/31 = 0.2903225806451612903225806452")
 if num1 == 9 and sign == '/' and num2 == 32:
     print("9/32 = 0.28125")
 if num1 == 9 and sign == '/' and num2 == 33:
-    print("9/33 = 0.2727272727272727")
+    print("9/33 = 0.2727272727272727272727272727")
 if num1 == 9 and sign == '/' and num2 == 34:
-    print("9/34 = 0.2647058823529412")
+    print("9/34 = 0.2647058823529411764705882353")
 if num1 == 9 and sign == '/' and num2 == 35:
-    print("9/35 = 0.2571428571428571")
+    print("9/35 = 0.2571428571428571428571428571")
 if num1 == 9 and sign == '/' and num2 == 36:
     print("9/36 = 0.25")
 if num1 == 9 and sign == '/' and num2 == 37:
-    print("9/37 = 0.24324324324324326")
+    print("9/37 = 0.2432432432432432432432432432")
 if num1 == 9 and sign == '/' and num2 == 38:
-    print("9/38 = 0.23684210526315788")
+    print("9/38 = 0.2368421052631578947368421053")
 if num1 == 9 and sign == '/' and num2 == 39:
-    print("9/39 = 0.23076923076923078")
+    print("9/39 = 0.2307692307692307692307692308")
 if num1 == 9 and sign == '/' and num2 == 40:
     print("9/40 = 0.225")
 if num1 == 9 and sign == '/' and num2 == 41:
-    print("9/41 = 0.21951219512195122")
+    print("9/41 = 0.2195121951219512195121951220")
 if num1 == 9 and sign == '/' and num2 == 42:
-    print("9/42 = 0.21428571428571427")
+    print("9/42 = 0.2142857142857142857142857143")
 if num1 == 9 and sign == '/' and num2 == 43:
-    print("9/43 = 0.20930232558139536")
+    print("9/43 = 0.2093023255813953488372093023")
 if num1 == 9 and sign == '/' and num2 == 44:
-    print("9/44 = 0.20454545454545456")
+    print("9/44 = 0.2045454545454545454545454545")
 if num1 == 9 and sign == '/' and num2 == 45:
     print("9/45 = 0.2")
 if num1 == 9 and sign == '/' and num2 == 46:
-    print("9/46 = 0.1956521739130435")
+    print("9/46 = 0.1956521739130434782608695652")
 if num1 == 9 and sign == '/' and num2 == 47:
-    print("9/47 = 0.19148936170212766")
+    print("9/47 = 0.1914893617021276595744680851")
 if num1 == 9 and sign == '/' and num2 == 48:
     print("9/48 = 0.1875")
 if num1 == 9 and sign == '/' and num2 == 49:
-    print("9/49 = 0.1836734693877551")
+    print("9/49 = 0.1836734693877551020408163265")
 if num1 == 9 and sign == '/' and num2 == 50:
     print("9/50 = 0.18")
 if num1 == 10 and sign == '/' and num2 == 0:
     print("10/0 = Inf")
 if num1 == 10 and sign == '/' and num2 == 1:
-    print("10/1 = 10.0")
+    print("10/1 = 10")
 if num1 == 10 and sign == '/' and num2 == 2:
-    print("10/2 = 5.0")
+    print("10/2 = 5")
 if num1 == 10 and sign == '/' and num2 == 3:
-    print("10/3 = 3.3333333333333335")
+    print("10/3 = 3.333333333333333333333333333")
 if num1 == 10 and sign == '/' and num2 == 4:
     print("10/4 = 2.5")
 if num1 == 10 and sign == '/' and num2 == 5:
-    print("10/5 = 2.0")
+    print("10/5 = 2")
 if num1 == 10 and sign == '/' and num2 == 6:
-    print("10/6 = 1.6666666666666667")
+    print("10/6 = 1.666666666666666666666666667")
 if num1 == 10 and sign == '/' and num2 == 7:
-    print("10/7 = 1.4285714285714286")
+    print("10/7 = 1.428571428571428571428571429")
 if num1 == 10 and sign == '/' and num2 == 8:
     print("10/8 = 1.25")
 if num1 == 10 and sign == '/' and num2 == 9:
-    print("10/9 = 1.1111111111111112")
+    print("10/9 = 1.111111111111111111111111111")
 if num1 == 10 and sign == '/' and num2 == 10:
-    print("10/10 = 1.0")
+    print("10/10 = 1")
 if num1 == 10 and sign == '/' and num2 == 11:
-    print("10/11 = 0.9090909090909091")
+    print("10/11 = 0.9090909090909090909090909091")
 if num1 == 10 and sign == '/' and num2 == 12:
-    print("10/12 = 0.8333333333333334")
+    print("10/12 = 0.8333333333333333333333333333")
 if num1 == 10 and sign == '/' and num2 == 13:
-    print("10/13 = 0.7692307692307693")
+    print("10/13 = 0.7692307692307692307692307692")
 if num1 == 10 and sign == '/' and num2 == 14:
-    print("10/14 = 0.7142857142857143")
+    print("10/14 = 0.7142857142857142857142857143")
 if num1 == 10 and sign == '/' and num2 == 15:
-    print("10/15 = 0.6666666666666666")
+    print("10/15 = 0.6666666666666666666666666667")
 if num1 == 10 and sign == '/' and num2 == 16:
     print("10/16 = 0.625")
 if num1 == 10 and sign == '/' and num2 == 17:
-    print("10/17 = 0.5882352941176471")
+    print("10/17 = 0.5882352941176470588235294118")
 if num1 == 10 and sign == '/' and num2 == 18:
-    print("10/18 = 0.5555555555555556")
+    print("10/18 = 0.5555555555555555555555555556")
 if num1 == 10 and sign == '/' and num2 == 19:
-    print("10/19 = 0.5263157894736842")
+    print("10/19 = 0.5263157894736842105263157895")
 if num1 == 10 and sign == '/' and num2 == 20:
     print("10/20 = 0.5")
 if num1 == 10 and sign == '/' and num2 == 21:
-    print("10/21 = 0.47619047619047616")
+    print("10/21 = 0.4761904761904761904761904762")
 if num1 == 10 and sign == '/' and num2 == 22:
-    print("10/22 = 0.45454545454545453")
+    print("10/22 = 0.4545454545454545454545454545")
 if num1 == 10 and sign == '/' and num2 == 23:
-    print("10/23 = 0.43478260869565216")
+    print("10/23 = 0.4347826086956521739130434783")
 if num1 == 10 and sign == '/' and num2 == 24:
-    print("10/24 = 0.4166666666666667")
+    print("10/24 = 0.4166666666666666666666666667")
 if num1 == 10 and sign == '/' and num2 == 25:
     print("10/25 = 0.4")
 if num1 == 10 and sign == '/' and num2 == 26:
-    print("10/26 = 0.38461538461538464")
+    print("10/26 = 0.3846153846153846153846153846")
 if num1 == 10 and sign == '/' and num2 == 27:
-    print("10/27 = 0.37037037037037035")
+    print("10/27 = 0.3703703703703703703703703704")
 if num1 == 10 and sign == '/' and num2 == 28:
-    print("10/28 = 0.35714285714285715")
+    print("10/28 = 0.3571428571428571428571428571")
 if num1 == 10 and sign == '/' and num2 == 29:
-    print("10/29 = 0.3448275862068966")
+    print("10/29 = 0.3448275862068965517241379310")
 if num1 == 10 and sign == '/' and num2 == 30:
-    print("10/30 = 0.3333333333333333")
+    print("10/30 = 0.3333333333333333333333333333")
 if num1 == 10 and sign == '/' and num2 == 31:
-    print("10/31 = 0.3225806451612903")
+    print("10/31 = 0.3225806451612903225806451613")
 if num1 == 10 and sign == '/' and num2 == 32:
     print("10/32 = 0.3125")
 if num1 == 10 and sign == '/' and num2 == 33:
-    print("10/33 = 0.30303030303030304")
+    print("10/33 = 0.3030303030303030303030303030")
 if num1 == 10 and sign == '/' and num2 == 34:
-    print("10/34 = 0.29411764705882354")
+    print("10/34 = 0.2941176470588235294117647059")
 if num1 == 10 and sign == '/' and num2 == 35:
-    print("10/35 = 0.2857142857142857")
+    print("10/35 = 0.2857142857142857142857142857")
 if num1 == 10 and sign == '/' and num2 == 36:
-    print("10/36 = 0.2777777777777778")
+    print("10/36 = 0.2777777777777777777777777778")
 if num1 == 10 and sign == '/' and num2 == 37:
-    print("10/37 = 0.2702702702702703")
+    print("10/37 = 0.2702702702702702702702702703")
 if num1 == 10 and sign == '/' and num2 == 38:
-    print("10/38 = 0.2631578947368421")
+    print("10/38 = 0.2631578947368421052631578947")
 if num1 == 10 and sign == '/' and num2 == 39:
-    print("10/39 = 0.2564102564102564")
+    print("10/39 = 0.2564102564102564102564102564")
 if num1 == 10 and sign == '/' and num2 == 40:
     print("10/40 = 0.25")
 if num1 == 10 and sign == '/' and num2 == 41:
-    print("10/41 = 0.24390243902439024")
+    print("10/41 = 0.2439024390243902439024390244")
 if num1 == 10 and sign == '/' and num2 == 42:
-    print("10/42 = 0.23809523809523808")
+    print("10/42 = 0.2380952380952380952380952381")
 if num1 == 10 and sign == '/' and num2 == 43:
-    print("10/43 = 0.23255813953488372")
+    print("10/43 = 0.2325581395348837209302325581")
 if num1 == 10 and sign == '/' and num2 == 44:
-    print("10/44 = 0.22727272727272727")
+    print("10/44 = 0.2272727272727272727272727273")
 if num1 == 10 and sign == '/' and num2 == 45:
-    print("10/45 = 0.2222222222222222")
+    print("10/45 = 0.2222222222222222222222222222")
 if num1 == 10 and sign == '/' and num2 == 46:
-    print("10/46 = 0.21739130434782608")
+    print("10/46 = 0.2173913043478260869565217391")
 if num1 == 10 and sign == '/' and num2 == 47:
-    print("10/47 = 0.2127659574468085")
+    print("10/47 = 0.2127659574468085106382978723")
 if num1 == 10 and sign == '/' and num2 == 48:
-    print("10/48 = 0.20833333333333334")
+    print("10/48 = 0.2083333333333333333333333333")
 if num1 == 10 and sign == '/' and num2 == 49:
-    print("10/49 = 0.20408163265306123")
+    print("10/49 = 0.2040816326530612244897959184")
 if num1 == 10 and sign == '/' and num2 == 50:
     print("10/50 = 0.2")
 if num1 == 11 and sign == '/' and num2 == 0:
     print("11/0 = Inf")
 if num1 == 11 and sign == '/' and num2 == 1:
-    print("11/1 = 11.0")
+    print("11/1 = 11")
 if num1 == 11 and sign == '/' and num2 == 2:
     print("11/2 = 5.5")
 if num1 == 11 and sign == '/' and num2 == 3:
-    print("11/3 = 3.6666666666666665")
+    print("11/3 = 3.666666666666666666666666667")
 if num1 == 11 and sign == '/' and num2 == 4:
     print("11/4 = 2.75")
 if num1 == 11 and sign == '/' and num2 == 5:
     print("11/5 = 2.2")
 if num1 == 11 and sign == '/' and num2 == 6:
-    print("11/6 = 1.8333333333333333")
+    print("11/6 = 1.833333333333333333333333333")
 if num1 == 11 and sign == '/' and num2 == 7:
-    print("11/7 = 1.5714285714285714")
+    print("11/7 = 1.571428571428571428571428571")
 if num1 == 11 and sign == '/' and num2 == 8:
     print("11/8 = 1.375")
 if num1 == 11 and sign == '/' and num2 == 9:
-    print("11/9 = 1.2222222222222223")
+    print("11/9 = 1.222222222222222222222222222")
 if num1 == 11 and sign == '/' and num2 == 10:
     print("11/10 = 1.1")
 if num1 == 11 and sign == '/' and num2 == 11:
-    print("11/11 = 1.0")
+    print("11/11 = 1")
 if num1 == 11 and sign == '/' and num2 == 12:
-    print("11/12 = 0.9166666666666666")
+    print("11/12 = 0.9166666666666666666666666667")
 if num1 == 11 and sign == '/' and num2 == 13:
-    print("11/13 = 0.8461538461538461")
+    print("11/13 = 0.8461538461538461538461538462")
 if num1 == 11 and sign == '/' and num2 == 14:
-    print("11/14 = 0.7857142857142857")
+    print("11/14 = 0.7857142857142857142857142857")
 if num1 == 11 and sign == '/' and num2 == 15:
-    print("11/15 = 0.7333333333333333")
+    print("11/15 = 0.7333333333333333333333333333")
 if num1 == 11 and sign == '/' and num2 == 16:
     print("11/16 = 0.6875")
 if num1 == 11 and sign == '/' and num2 == 17:
-    print("11/17 = 0.6470588235294118")
+    print("11/17 = 0.6470588235294117647058823529")
 if num1 == 11 and sign == '/' and num2 == 18:
-    print("11/18 = 0.6111111111111112")
+    print("11/18 = 0.6111111111111111111111111111")
 if num1 == 11 and sign == '/' and num2 == 19:
-    print("11/19 = 0.5789473684210527")
+    print("11/19 = 0.5789473684210526315789473684")
 if num1 == 11 and sign == '/' and num2 == 20:
     print("11/20 = 0.55")
 if num1 == 11 and sign == '/' and num2 == 21:
-    print("11/21 = 0.5238095238095238")
+    print("11/21 = 0.5238095238095238095238095238")
 if num1 == 11 and sign == '/' and num2 == 22:
     print("11/22 = 0.5")
 if num1 == 11 and sign == '/' and num2 == 23:
-    print("11/23 = 0.4782608695652174")
+    print("11/23 = 0.4782608695652173913043478261")
 if num1 == 11 and sign == '/' and num2 == 24:
-    print("11/24 = 0.4583333333333333")
+    print("11/24 = 0.4583333333333333333333333333")
 if num1 == 11 and sign == '/' and num2 == 25:
     print("11/25 = 0.44")
 if num1 == 11 and sign == '/' and num2 == 26:
-    print("11/26 = 0.4230769230769231")
+    print("11/26 = 0.4230769230769230769230769231")
 if num1 == 11 and sign == '/' and num2 == 27:
-    print("11/27 = 0.4074074074074074")
+    print("11/27 = 0.4074074074074074074074074074")
 if num1 == 11 and sign == '/' and num2 == 28:
-    print("11/28 = 0.39285714285714285")
+    print("11/28 = 0.3928571428571428571428571429")
 if num1 == 11 and sign == '/' and num2 == 29:
-    print("11/29 = 0.3793103448275862")
+    print("11/29 = 0.3793103448275862068965517241")
 if num1 == 11 and sign == '/' and num2 == 30:
-    print("11/30 = 0.36666666666666664")
+    print("11/30 = 0.3666666666666666666666666667")
 if num1 == 11 and sign == '/' and num2 == 31:
-    print("11/31 = 0.3548387096774194")
+    print("11/31 = 0.3548387096774193548387096774")
 if num1 == 11 and sign == '/' and num2 == 32:
     print("11/32 = 0.34375")
 if num1 == 11 and sign == '/' and num2 == 33:
-    print("11/33 = 0.3333333333333333")
+    print("11/33 = 0.3333333333333333333333333333")
 if num1 == 11 and sign == '/' and num2 == 34:
-    print("11/34 = 0.3235294117647059")
+    print("11/34 = 0.3235294117647058823529411765")
 if num1 == 11 and sign == '/' and num2 == 35:
-    print("11/35 = 0.3142857142857143")
+    print("11/35 = 0.3142857142857142857142857143")
 if num1 == 11 and sign == '/' and num2 == 36:
-    print("11/36 = 0.3055555555555556")
+    print("11/36 = 0.3055555555555555555555555556")
 if num1 == 11 and sign == '/' and num2 == 37:
-    print("11/37 = 0.2972972972972973")
+    print("11/37 = 0.2972972972972972972972972973")
 if num1 == 11 and sign == '/' and num2 == 38:
-    print("11/38 = 0.2894736842105263")
+    print("11/38 = 0.2894736842105263157894736842")
 if num1 == 11 and sign == '/' and num2 == 39:
-    print("11/39 = 0.28205128205128205")
+    print("11/39 = 0.2820512820512820512820512821")
 if num1 == 11 and sign == '/' and num2 == 40:
     print("11/40 = 0.275")
 if num1 == 11 and sign == '/' and num2 == 41:
-    print("11/41 = 0.2682926829268293")
+    print("11/41 = 0.2682926829268292682926829268")
 if num1 == 11 and sign == '/' and num2 == 42:
-    print("11/42 = 0.2619047619047619")
+    print("11/42 = 0.2619047619047619047619047619")
 if num1 == 11 and sign == '/' and num2 == 43:
-    print("11/43 = 0.2558139534883721")
+    print("11/43 = 0.2558139534883720930232558140")
 if num1 == 11 and sign == '/' and num2 == 44:
     print("11/44 = 0.25")
 if num1 == 11 and sign == '/' and num2 == 45:
-    print("11/45 = 0.24444444444444444")
+    print("11/45 = 0.2444444444444444444444444444")
 if num1 == 11 and sign == '/' and num2 == 46:
-    print("11/46 = 0.2391304347826087")
+    print("11/46 = 0.2391304347826086956521739130")
 if num1 == 11 and sign == '/' and num2 == 47:
-    print("11/47 = 0.23404255319148937")
+    print("11/47 = 0.2340425531914893617021276596")
 if num1 == 11 and sign == '/' and num2 == 48:
-    print("11/48 = 0.22916666666666666")
+    print("11/48 = 0.2291666666666666666666666667")
 if num1 == 11 and sign == '/' and num2 == 49:
-    print("11/49 = 0.22448979591836735")
+    print("11/49 = 0.2244897959183673469387755102")
 if num1 == 11 and sign == '/' and num2 == 50:
     print("11/50 = 0.22")
 if num1 == 12 and sign == '/' and num2 == 0:
     print("12/0 = Inf")
 if num1 == 12 and sign == '/' and num2 == 1:
-    print("12/1 = 12.0")
+    print("12/1 = 12")
 if num1 == 12 and sign == '/' and num2 == 2:
-    print("12/2 = 6.0")
+    print("12/2 = 6")
 if num1 == 12 and sign == '/' and num2 == 3:
-    print("12/3 = 4.0")
+    print("12/3 = 4")
 if num1 == 12 and sign == '/' and num2 == 4:
-    print("12/4 = 3.0")
+    print("12/4 = 3")
 if num1 == 12 and sign == '/' and num2 == 5:
     print("12/5 = 2.4")
 if num1 == 12 and sign == '/' and num2 == 6:
-    print("12/6 = 2.0")
+    print("12/6 = 2")
 if num1 == 12 and sign == '/' and num2 == 7:
-    print("12/7 = 1.7142857142857142")
+    print("12/7 = 1.714285714285714285714285714")
 if num1 == 12 and sign == '/' and num2 == 8:
     print("12/8 = 1.5")
 if num1 == 12 and sign == '/' and num2 == 9:
-    print("12/9 = 1.3333333333333333")
+    print("12/9 = 1.333333333333333333333333333")
 if num1 == 12 and sign == '/' and num2 == 10:
     print("12/10 = 1.2")
 if num1 == 12 and sign == '/' and num2 == 11:
-    print("12/11 = 1.0909090909090908")
+    print("12/11 = 1.090909090909090909090909091")
 if num1 == 12 and sign == '/' and num2 == 12:
-    print("12/12 = 1.0")
+    print("12/12 = 1")
 if num1 == 12 and sign == '/' and num2 == 13:
-    print("12/13 = 0.9230769230769231")
+    print("12/13 = 0.9230769230769230769230769231")
 if num1 == 12 and sign == '/' and num2 == 14:
-    print("12/14 = 0.8571428571428571")
+    print("12/14 = 0.8571428571428571428571428571")
 if num1 == 12 and sign == '/' and num2 == 15:
     print("12/15 = 0.8")
 if num1 == 12 and sign == '/' and num2 == 16:
     print("12/16 = 0.75")
 if num1 == 12 and sign == '/' and num2 == 17:
-    print("12/17 = 0.7058823529411765")
+    print("12/17 = 0.7058823529411764705882352941")
 if num1 == 12 and sign == '/' and num2 == 18:
-    print("12/18 = 0.6666666666666666")
+    print("12/18 = 0.6666666666666666666666666667")
 if num1 == 12 and sign == '/' and num2 == 19:
-    print("12/19 = 0.631578947368421")
+    print("12/19 = 0.6315789473684210526315789474")
 if num1 == 12 and sign == '/' and num2 == 20:
     print("12/20 = 0.6")
 if num1 == 12 and sign == '/' and num2 == 21:
-    print("12/21 = 0.5714285714285714")
+    print("12/21 = 0.5714285714285714285714285714")
 if num1 == 12 and sign == '/' and num2 == 22:
-    print("12/22 = 0.5454545454545454")
+    print("12/22 = 0.5454545454545454545454545455")
 if num1 == 12 and sign == '/' and num2 == 23:
-    print("12/23 = 0.5217391304347826")
+    print("12/23 = 0.5217391304347826086956521739")
 if num1 == 12 and sign == '/' and num2 == 24:
     print("12/24 = 0.5")
 if num1 == 12 and sign == '/' and num2 == 25:
     print("12/25 = 0.48")
 if num1 == 12 and sign == '/' and num2 == 26:
-    print("12/26 = 0.46153846153846156")
+    print("12/26 = 0.4615384615384615384615384615")
 if num1 == 12 and sign == '/' and num2 == 27:
-    print("12/27 = 0.4444444444444444")
+    print("12/27 = 0.4444444444444444444444444444")
 if num1 == 12 and sign == '/' and num2 == 28:
-    print("12/28 = 0.42857142857142855")
+    print("12/28 = 0.4285714285714285714285714286")
 if num1 == 12 and sign == '/' and num2 == 29:
-    print("12/29 = 0.41379310344827586")
+    print("12/29 = 0.4137931034482758620689655172")
 if num1 == 12 and sign == '/' and num2 == 30:
     print("12/30 = 0.4")
 if num1 == 12 and sign == '/' and num2 == 31:
-    print("12/31 = 0.3870967741935484")
+    print("12/31 = 0.3870967741935483870967741935")
 if num1 == 12 and sign == '/' and num2 == 32:
     print("12/32 = 0.375")
 if num1 == 12 and sign == '/' and num2 == 33:
-    print("12/33 = 0.36363636363636365")
+    print("12/33 = 0.3636363636363636363636363636")
 if num1 == 12 and sign == '/' and num2 == 34:
-    print("12/34 = 0.35294117647058826")
+    print("12/34 = 0.3529411764705882352941176471")
 if num1 == 12 and sign == '/' and num2 == 35:
-    print("12/35 = 0.34285714285714286")
+    print("12/35 = 0.3428571428571428571428571429")
 if num1 == 12 and sign == '/' and num2 == 36:
-    print("12/36 = 0.3333333333333333")
+    print("12/36 = 0.3333333333333333333333333333")
 if num1 == 12 and sign == '/' and num2 == 37:
-    print("12/37 = 0.32432432432432434")
+    print("12/37 = 0.3243243243243243243243243243")
 if num1 == 12 and sign == '/' and num2 == 38:
-    print("12/38 = 0.3157894736842105")
+    print("12/38 = 0.3157894736842105263157894737")
 if num1 == 12 and sign == '/' and num2 == 39:
-    print("12/39 = 0.3076923076923077")
+    print("12/39 = 0.3076923076923076923076923077")
 if num1 == 12 and sign == '/' and num2 == 40:
     print("12/40 = 0.3")
 if num1 == 12 and sign == '/' and num2 == 41:
-    print("12/41 = 0.2926829268292683")
+    print("12/41 = 0.2926829268292682926829268293")
 if num1 == 12 and sign == '/' and num2 == 42:
-    print("12/42 = 0.2857142857142857")
+    print("12/42 = 0.2857142857142857142857142857")
 if num1 == 12 and sign == '/' and num2 == 43:
-    print("12/43 = 0.27906976744186046")
+    print("12/43 = 0.2790697674418604651162790698")
 if num1 == 12 and sign == '/' and num2 == 44:
-    print("12/44 = 0.2727272727272727")
+    print("12/44 = 0.2727272727272727272727272727")
 if num1 == 12 and sign == '/' and num2 == 45:
-    print("12/45 = 0.26666666666666666")
+    print("12/45 = 0.2666666666666666666666666667")
 if num1 == 12 and sign == '/' and num2 == 46:
-    print("12/46 = 0.2608695652173913")
+    print("12/46 = 0.2608695652173913043478260870")
 if num1 == 12 and sign == '/' and num2 == 47:
-    print("12/47 = 0.2553191489361702")
+    print("12/47 = 0.2553191489361702127659574468")
 if num1 == 12 and sign == '/' and num2 == 48:
     print("12/48 = 0.25")
 if num1 == 12 and sign == '/' and num2 == 49:
-    print("12/49 = 0.24489795918367346")
+    print("12/49 = 0.2448979591836734693877551020")
 if num1 == 12 and sign == '/' and num2 == 50:
     print("12/50 = 0.24")
 if num1 == 13 and sign == '/' and num2 == 0:
     print("13/0 = Inf")
 if num1 == 13 and sign == '/' and num2 == 1:
-    print("13/1 = 13.0")
+    print("13/1 = 13")
 if num1 == 13 and sign == '/' and num2 == 2:
     print("13/2 = 6.5")
 if num1 == 13 and sign == '/' and num2 == 3:
-    print("13/3 = 4.333333333333333")
+    print("13/3 = 4.333333333333333333333333333")
 if num1 == 13 and sign == '/' and num2 == 4:
     print("13/4 = 3.25")
 if num1 == 13 and sign == '/' and num2 == 5:
     print("13/5 = 2.6")
 if num1 == 13 and sign == '/' and num2 == 6:
-    print("13/6 = 2.1666666666666665")
+    print("13/6 = 2.166666666666666666666666667")
 if num1 == 13 and sign == '/' and num2 == 7:
-    print("13/7 = 1.8571428571428572")
+    print("13/7 = 1.857142857142857142857142857")
 if num1 == 13 and sign == '/' and num2 == 8:
     print("13/8 = 1.625")
 if num1 == 13 and sign == '/' and num2 == 9:
-    print("13/9 = 1.4444444444444444")
+    print("13/9 = 1.444444444444444444444444444")
 if num1 == 13 and sign == '/' and num2 == 10:
     print("13/10 = 1.3")
 if num1 == 13 and sign == '/' and num2 == 11:
-    print("13/11 = 1.1818181818181819")
+    print("13/11 = 1.181818181818181818181818182")
 if num1 == 13 and sign == '/' and num2 == 12:
-    print("13/12 = 1.0833333333333333")
+    print("13/12 = 1.083333333333333333333333333")
 if num1 == 13 and sign == '/' and num2 == 13:
-    print("13/13 = 1.0")
+    print("13/13 = 1")
 if num1 == 13 and sign == '/' and num2 == 14:
-    print("13/14 = 0.9285714285714286")
+    print("13/14 = 0.9285714285714285714285714286")
 if num1 == 13 and sign == '/' and num2 == 15:
-    print("13/15 = 0.8666666666666667")
+    print("13/15 = 0.8666666666666666666666666667")
 if num1 == 13 and sign == '/' and num2 == 16:
     print("13/16 = 0.8125")
 if num1 == 13 and sign == '/' and num2 == 17:
-    print("13/17 = 0.7647058823529411")
+    print("13/17 = 0.7647058823529411764705882353")
 if num1 == 13 and sign == '/' and num2 == 18:
-    print("13/18 = 0.7222222222222222")
+    print("13/18 = 0.7222222222222222222222222222")
 if num1 == 13 and sign == '/' and num2 == 19:
-    print("13/19 = 0.6842105263157895")
+    print("13/19 = 0.6842105263157894736842105263")
 if num1 == 13 and sign == '/' and num2 == 20:
     print("13/20 = 0.65")
 if num1 == 13 and sign == '/' and num2 == 21:
-    print("13/21 = 0.6190476190476191")
+    print("13/21 = 0.6190476190476190476190476190")
 if num1 == 13 and sign == '/' and num2 == 22:
-    print("13/22 = 0.5909090909090909")
+    print("13/22 = 0.5909090909090909090909090909")
 if num1 == 13 and sign == '/' and num2 == 23:
-    print("13/23 = 0.5652173913043478")
+    print("13/23 = 0.5652173913043478260869565217")
 if num1 == 13 and sign == '/' and num2 == 24:
-    print("13/24 = 0.5416666666666666")
+    print("13/24 = 0.5416666666666666666666666667")
 if num1 == 13 and sign == '/' and num2 == 25:
     print("13/25 = 0.52")
 if num1 == 13 and sign == '/' and num2 == 26:
     print("13/26 = 0.5")
 if num1 == 13 and sign == '/' and num2 == 27:
-    print("13/27 = 0.48148148148148145")
+    print("13/27 = 0.4814814814814814814814814815")
 if num1 == 13 and sign == '/' and num2 == 28:
-    print("13/28 = 0.4642857142857143")
+    print("13/28 = 0.4642857142857142857142857143")
 if num1 == 13 and sign == '/' and num2 == 29:
-    print("13/29 = 0.4482758620689655")
+    print("13/29 = 0.4482758620689655172413793103")
 if num1 == 13 and sign == '/' and num2 == 30:
-    print("13/30 = 0.43333333333333335")
+    print("13/30 = 0.4333333333333333333333333333")
 if num1 == 13 and sign == '/' and num2 == 31:
-    print("13/31 = 0.41935483870967744")
+    print("13/31 = 0.4193548387096774193548387097")
 if num1 == 13 and sign == '/' and num2 == 32:
     print("13/32 = 0.40625")
 if num1 == 13 and sign == '/' and num2 == 33:
-    print("13/33 = 0.3939393939393939")
+    print("13/33 = 0.3939393939393939393939393939")
 if num1 == 13 and sign == '/' and num2 == 34:
-    print("13/34 = 0.38235294117647056")
+    print("13/34 = 0.3823529411764705882352941176")
 if num1 == 13 and sign == '/' and num2 == 35:
-    print("13/35 = 0.37142857142857144")
+    print("13/35 = 0.3714285714285714285714285714")
 if num1 == 13 and sign == '/' and num2 == 36:
-    print("13/36 = 0.3611111111111111")
+    print("13/36 = 0.3611111111111111111111111111")
 if num1 == 13 and sign == '/' and num2 == 37:
-    print("13/37 = 0.35135135135135137")
+    print("13/37 = 0.3513513513513513513513513514")
 if num1 == 13 and sign == '/' and num2 == 38:
-    print("13/38 = 0.34210526315789475")
+    print("13/38 = 0.3421052631578947368421052632")
 if num1 == 13 and sign == '/' and num2 == 39:
-    print("13/39 = 0.3333333333333333")
+    print("13/39 = 0.3333333333333333333333333333")
 if num1 == 13 and sign == '/' and num2 == 40:
     print("13/40 = 0.325")
 if num1 == 13 and sign == '/' and num2 == 41:
-    print("13/41 = 0.3170731707317073")
+    print("13/41 = 0.3170731707317073170731707317")
 if num1 == 13 and sign == '/' and num2 == 42:
-    print("13/42 = 0.30952380952380953")
+    print("13/42 = 0.3095238095238095238095238095")
 if num1 == 13 and sign == '/' and num2 == 43:
-    print("13/43 = 0.3023255813953488")
+    print("13/43 = 0.3023255813953488372093023256")
 if num1 == 13 and sign == '/' and num2 == 44:
-    print("13/44 = 0.29545454545454547")
+    print("13/44 = 0.2954545454545454545454545455")
 if num1 == 13 and sign == '/' and num2 == 45:
-    print("13/45 = 0.28888888888888886")
+    print("13/45 = 0.2888888888888888888888888889")
 if num1 == 13 and sign == '/' and num2 == 46:
-    print("13/46 = 0.2826086956521739")
+    print("13/46 = 0.2826086956521739130434782609")
 if num1 == 13 and sign == '/' and num2 == 47:
-    print("13/47 = 0.2765957446808511")
+    print("13/47 = 0.2765957446808510638297872340")
 if num1 == 13 and sign == '/' and num2 == 48:
-    print("13/48 = 0.2708333333333333")
+    print("13/48 = 0.2708333333333333333333333333")
 if num1 == 13 and sign == '/' and num2 == 49:
-    print("13/49 = 0.2653061224489796")
+    print("13/49 = 0.2653061224489795918367346939")
 if num1 == 13 and sign == '/' and num2 == 50:
     print("13/50 = 0.26")
 if num1 == 14 and sign == '/' and num2 == 0:
     print("14/0 = Inf")
 if num1 == 14 and sign == '/' and num2 == 1:
-    print("14/1 = 14.0")
+    print("14/1 = 14")
 if num1 == 14 and sign == '/' and num2 == 2:
-    print("14/2 = 7.0")
+    print("14/2 = 7")
 if num1 == 14 and sign == '/' and num2 == 3:
-    print("14/3 = 4.666666666666667")
+    print("14/3 = 4.666666666666666666666666667")
 if num1 == 14 and sign == '/' and num2 == 4:
     print("14/4 = 3.5")
 if num1 == 14 and sign == '/' and num2 == 5:
     print("14/5 = 2.8")
 if num1 == 14 and sign == '/' and num2 == 6:
-    print("14/6 = 2.3333333333333335")
+    print("14/6 = 2.333333333333333333333333333")
 if num1 == 14 and sign == '/' and num2 == 7:
-    print("14/7 = 2.0")
+    print("14/7 = 2")
 if num1 == 14 and sign == '/' and num2 == 8:
     print("14/8 = 1.75")
 if num1 == 14 and sign == '/' and num2 == 9:
-    print("14/9 = 1.5555555555555556")
+    print("14/9 = 1.555555555555555555555555556")
 if num1 == 14 and sign == '/' and num2 == 10:
     print("14/10 = 1.4")
 if num1 == 14 and sign == '/' and num2 == 11:
-    print("14/11 = 1.2727272727272727")
+    print("14/11 = 1.272727272727272727272727273")
 if num1 == 14 and sign == '/' and num2 == 12:
-    print("14/12 = 1.1666666666666667")
+    print("14/12 = 1.166666666666666666666666667")
 if num1 == 14 and sign == '/' and num2 == 13:
-    print("14/13 = 1.0769230769230769")
+    print("14/13 = 1.076923076923076923076923077")
 if num1 == 14 and sign == '/' and num2 == 14:
-    print("14/14 = 1.0")
+    print("14/14 = 1")
 if num1 == 14 and sign == '/' and num2 == 15:
-    print("14/15 = 0.9333333333333333")
+    print("14/15 = 0.9333333333333333333333333333")
 if num1 == 14 and sign == '/' and num2 == 16:
     print("14/16 = 0.875")
 if num1 == 14 and sign == '/' and num2 == 17:
-    print("14/17 = 0.8235294117647058")
+    print("14/17 = 0.8235294117647058823529411765")
 if num1 == 14 and sign == '/' and num2 == 18:
-    print("14/18 = 0.7777777777777778")
+    print("14/18 = 0.7777777777777777777777777778")
 if num1 == 14 and sign == '/' and num2 == 19:
-    print("14/19 = 0.7368421052631579")
+    print("14/19 = 0.7368421052631578947368421053")
 if num1 == 14 and sign == '/' and num2 == 20:
     print("14/20 = 0.7")
 if num1 == 14 and sign == '/' and num2 == 21:
-    print("14/21 = 0.6666666666666666")
+    print("14/21 = 0.6666666666666666666666666667")
 if num1 == 14 and sign == '/' and num2 == 22:
-    print("14/22 = 0.6363636363636364")
+    print("14/22 = 0.6363636363636363636363636364")
 if num1 == 14 and sign == '/' and num2 == 23:
-    print("14/23 = 0.6086956521739131")
+    print("14/23 = 0.6086956521739130434782608696")
 if num1 == 14 and sign == '/' and num2 == 24:
-    print("14/24 = 0.5833333333333334")
+    print("14/24 = 0.5833333333333333333333333333")
 if num1 == 14 and sign == '/' and num2 == 25:
     print("14/25 = 0.56")
 if num1 == 14 and sign == '/' and num2 == 26:
-    print("14/26 = 0.5384615384615384")
+    print("14/26 = 0.5384615384615384615384615385")
 if num1 == 14 and sign == '/' and num2 == 27:
-    print("14/27 = 0.5185185185185185")
+    print("14/27 = 0.5185185185185185185185185185")
 if num1 == 14 and sign == '/' and num2 == 28:
     print("14/28 = 0.5")
 if num1 == 14 and sign == '/' and num2 == 29:
-    print("14/29 = 0.4827586206896552")
+    print("14/29 = 0.4827586206896551724137931034")
 if num1 == 14 and sign == '/' and num2 == 30:
-    print("14/30 = 0.4666666666666667")
+    print("14/30 = 0.4666666666666666666666666667")
 if num1 == 14 and sign == '/' and num2 == 31:
-    print("14/31 = 0.45161290322580644")
+    print("14/31 = 0.4516129032258064516129032258")
 if num1 == 14 and sign == '/' and num2 == 32:
     print("14/32 = 0.4375")
 if num1 == 14 and sign == '/' and num2 == 33:
-    print("14/33 = 0.42424242424242425")
+    print("14/33 = 0.4242424242424242424242424242")
 if num1 == 14 and sign == '/' and num2 == 34:
-    print("14/34 = 0.4117647058823529")
+    print("14/34 = 0.4117647058823529411764705882")
 if num1 == 14 and sign == '/' and num2 == 35:
     print("14/35 = 0.4")
 if num1 == 14 and sign == '/' and num2 == 36:
-    print("14/36 = 0.3888888888888889")
+    print("14/36 = 0.3888888888888888888888888889")
 if num1 == 14 and sign == '/' and num2 == 37:
-    print("14/37 = 0.3783783783783784")
+    print("14/37 = 0.3783783783783783783783783784")
 if num1 == 14 and sign == '/' and num2 == 38:
-    print("14/38 = 0.3684210526315789")
+    print("14/38 = 0.3684210526315789473684210526")
 if num1 == 14 and sign == '/' and num2 == 39:
-    print("14/39 = 0.358974358974359")
+    print("14/39 = 0.3589743589743589743589743590")
 if num1 == 14 and sign == '/' and num2 == 40:
     print("14/40 = 0.35")
 if num1 == 14 and sign == '/' and num2 == 41:
-    print("14/41 = 0.34146341463414637")
+    print("14/41 = 0.3414634146341463414634146341")
 if num1 == 14 and sign == '/' and num2 == 42:
-    print("14/42 = 0.3333333333333333")
+    print("14/42 = 0.3333333333333333333333333333")
 if num1 == 14 and sign == '/' and num2 == 43:
-    print("14/43 = 0.32558139534883723")
+    print("14/43 = 0.3255813953488372093023255814")
 if num1 == 14 and sign == '/' and num2 == 44:
-    print("14/44 = 0.3181818181818182")
+    print("14/44 = 0.3181818181818181818181818182")
 if num1 == 14 and sign == '/' and num2 == 45:
-    print("14/45 = 0.3111111111111111")
+    print("14/45 = 0.3111111111111111111111111111")
 if num1 == 14 and sign == '/' and num2 == 46:
-    print("14/46 = 0.30434782608695654")
+    print("14/46 = 0.3043478260869565217391304348")
 if num1 == 14 and sign == '/' and num2 == 47:
-    print("14/47 = 0.2978723404255319")
+    print("14/47 = 0.2978723404255319148936170213")
 if num1 == 14 and sign == '/' and num2 == 48:
-    print("14/48 = 0.2916666666666667")
+    print("14/48 = 0.2916666666666666666666666667")
 if num1 == 14 and sign == '/' and num2 == 49:
-    print("14/49 = 0.2857142857142857")
+    print("14/49 = 0.2857142857142857142857142857")
 if num1 == 14 and sign == '/' and num2 == 50:
     print("14/50 = 0.28")
 if num1 == 15 and sign == '/' and num2 == 0:
     print("15/0 = Inf")
 if num1 == 15 and sign == '/' and num2 == 1:
-    print("15/1 = 15.0")
+    print("15/1 = 15")
 if num1 == 15 and sign == '/' and num2 == 2:
     print("15/2 = 7.5")
 if num1 == 15 and sign == '/' and num2 == 3:
-    print("15/3 = 5.0")
+    print("15/3 = 5")
 if num1 == 15 and sign == '/' and num2 == 4:
     print("15/4 = 3.75")
 if num1 == 15 and sign == '/' and num2 == 5:
-    print("15/5 = 3.0")
+    print("15/5 = 3")
 if num1 == 15 and sign == '/' and num2 == 6:
     print("15/6 = 2.5")
 if num1 == 15 and sign == '/' and num2 == 7:
-    print("15/7 = 2.142857142857143")
+    print("15/7 = 2.142857142857142857142857143")
 if num1 == 15 and sign == '/' and num2 == 8:
     print("15/8 = 1.875")
 if num1 == 15 and sign == '/' and num2 == 9:
-    print("15/9 = 1.6666666666666667")
+    print("15/9 = 1.666666666666666666666666667")
 if num1 == 15 and sign == '/' and num2 == 10:
     print("15/10 = 1.5")
 if num1 == 15 and sign == '/' and num2 == 11:
-    print("15/11 = 1.3636363636363635")
+    print("15/11 = 1.363636363636363636363636364")
 if num1 == 15 and sign == '/' and num2 == 12:
     print("15/12 = 1.25")
 if num1 == 15 and sign == '/' and num2 == 13:
-    print("15/13 = 1.1538461538461537")
+    print("15/13 = 1.153846153846153846153846154")
 if num1 == 15 and sign == '/' and num2 == 14:
-    print("15/14 = 1.0714285714285714")
+    print("15/14 = 1.071428571428571428571428571")
 if num1 == 15 and sign == '/' and num2 == 15:
-    print("15/15 = 1.0")
+    print("15/15 = 1")
 if num1 == 15 and sign == '/' and num2 == 16:
     print("15/16 = 0.9375")
 if num1 == 15 and sign == '/' and num2 == 17:
-    print("15/17 = 0.8823529411764706")
+    print("15/17 = 0.8823529411764705882352941176")
 if num1 == 15 and sign == '/' and num2 == 18:
-    print("15/18 = 0.8333333333333334")
+    print("15/18 = 0.8333333333333333333333333333")
 if num1 == 15 and sign == '/' and num2 == 19:
-    print("15/19 = 0.7894736842105263")
+    print("15/19 = 0.7894736842105263157894736842")
 if num1 == 15 and sign == '/' and num2 == 20:
     print("15/20 = 0.75")
 if num1 == 15 and sign == '/' and num2 == 21:
-    print("15/21 = 0.7142857142857143")
+    print("15/21 = 0.7142857142857142857142857143")
 if num1 == 15 and sign == '/' and num2 == 22:
-    print("15/22 = 0.6818181818181818")
+    print("15/22 = 0.6818181818181818181818181818")
 if num1 == 15 and sign == '/' and num2 == 23:
-    print("15/23 = 0.6521739130434783")
+    print("15/23 = 0.6521739130434782608695652174")
 if num1 == 15 and sign == '/' and num2 == 24:
     print("15/24 = 0.625")
 if num1 == 15 and sign == '/' and num2 == 25:
     print("15/25 = 0.6")
 if num1 == 15 and sign == '/' and num2 == 26:
-    print("15/26 = 0.5769230769230769")
+    print("15/26 = 0.5769230769230769230769230769")
 if num1 == 15 and sign == '/' and num2 == 27:
-    print("15/27 = 0.5555555555555556")
+    print("15/27 = 0.5555555555555555555555555556")
 if num1 == 15 and sign == '/' and num2 == 28:
-    print("15/28 = 0.5357142857142857")
+    print("15/28 = 0.5357142857142857142857142857")
 if num1 == 15 and sign == '/' and num2 == 29:
-    print("15/29 = 0.5172413793103449")
+    print("15/29 = 0.5172413793103448275862068966")
 if num1 == 15 and sign == '/' and num2 == 30:
     print("15/30 = 0.5")
 if num1 == 15 and sign == '/' and num2 == 31:
-    print("15/31 = 0.4838709677419355")
+    print("15/31 = 0.4838709677419354838709677419")
 if num1 == 15 and sign == '/' and num2 == 32:
     print("15/32 = 0.46875")
 if num1 == 15 and sign == '/' and num2 == 33:
-    print("15/33 = 0.45454545454545453")
+    print("15/33 = 0.4545454545454545454545454545")
 if num1 == 15 and sign == '/' and num2 == 34:
-    print("15/34 = 0.4411764705882353")
+    print("15/34 = 0.4411764705882352941176470588")
 if num1 == 15 and sign == '/' and num2 == 35:
-    print("15/35 = 0.42857142857142855")
+    print("15/35 = 0.4285714285714285714285714286")
 if num1 == 15 and sign == '/' and num2 == 36:
-    print("15/36 = 0.4166666666666667")
+    print("15/36 = 0.4166666666666666666666666667")
 if num1 == 15 and sign == '/' and num2 == 37:
-    print("15/37 = 0.40540540540540543")
+    print("15/37 = 0.4054054054054054054054054054")
 if num1 == 15 and sign == '/' and num2 == 38:
-    print("15/38 = 0.39473684210526316")
+    print("15/38 = 0.3947368421052631578947368421")
 if num1 == 15 and sign == '/' and num2 == 39:
-    print("15/39 = 0.38461538461538464")
+    print("15/39 = 0.3846153846153846153846153846")
 if num1 == 15 and sign == '/' and num2 == 40:
     print("15/40 = 0.375")
 if num1 == 15 and sign == '/' and num2 == 41:
-    print("15/41 = 0.36585365853658536")
+    print("15/41 = 0.3658536585365853658536585366")
 if num1 == 15 and sign == '/' and num2 == 42:
-    print("15/42 = 0.35714285714285715")
+    print("15/42 = 0.3571428571428571428571428571")
 if num1 == 15 and sign == '/' and num2 == 43:
-    print("15/43 = 0.3488372093023256")
+    print("15/43 = 0.3488372093023255813953488372")
 if num1 == 15 and sign == '/' and num2 == 44:
-    print("15/44 = 0.3409090909090909")
+    print("15/44 = 0.3409090909090909090909090909")
 if num1 == 15 and sign == '/' and num2 == 45:
-    print("15/45 = 0.3333333333333333")
+    print("15/45 = 0.3333333333333333333333333333")
 if num1 == 15 and sign == '/' and num2 == 46:
-    print("15/46 = 0.32608695652173914")
+    print("15/46 = 0.3260869565217391304347826087")
 if num1 == 15 and sign == '/' and num2 == 47:
-    print("15/47 = 0.3191489361702128")
+    print("15/47 = 0.3191489361702127659574468085")
 if num1 == 15 and sign == '/' and num2 == 48:
     print("15/48 = 0.3125")
 if num1 == 15 and sign == '/' and num2 == 49:
-    print("15/49 = 0.30612244897959184")
+    print("15/49 = 0.3061224489795918367346938776")
 if num1 == 15 and sign == '/' and num2 == 50:
     print("15/50 = 0.3")
 if num1 == 16 and sign == '/' and num2 == 0:
     print("16/0 = Inf")
 if num1 == 16 and sign == '/' and num2 == 1:
-    print("16/1 = 16.0")
+    print("16/1 = 16")
 if num1 == 16 and sign == '/' and num2 == 2:
-    print("16/2 = 8.0")
+    print("16/2 = 8")
 if num1 == 16 and sign == '/' and num2 == 3:
-    print("16/3 = 5.333333333333333")
+    print("16/3 = 5.333333333333333333333333333")
 if num1 == 16 and sign == '/' and num2 == 4:
-    print("16/4 = 4.0")
+    print("16/4 = 4")
 if num1 == 16 and sign == '/' and num2 == 5:
     print("16/5 = 3.2")
 if num1 == 16 and sign == '/' and num2 == 6:
-    print("16/6 = 2.6666666666666665")
+    print("16/6 = 2.666666666666666666666666667")
 if num1 == 16 and sign == '/' and num2 == 7:
-    print("16/7 = 2.2857142857142856")
+    print("16/7 = 2.285714285714285714285714286")
 if num1 == 16 and sign == '/' and num2 == 8:
-    print("16/8 = 2.0")
+    print("16/8 = 2")
 if num1 == 16 and sign == '/' and num2 == 9:
-    print("16/9 = 1.7777777777777777")
+    print("16/9 = 1.777777777777777777777777778")
 if num1 == 16 and sign == '/' and num2 == 10:
     print("16/10 = 1.6")
 if num1 == 16 and sign == '/' and num2 == 11:
-    print("16/11 = 1.4545454545454546")
+    print("16/11 = 1.454545454545454545454545455")
 if num1 == 16 and sign == '/' and num2 == 12:
-    print("16/12 = 1.3333333333333333")
+    print("16/12 = 1.333333333333333333333333333")
 if num1 == 16 and sign == '/' and num2 == 13:
-    print("16/13 = 1.2307692307692308")
+    print("16/13 = 1.230769230769230769230769231")
 if num1 == 16 and sign == '/' and num2 == 14:
-    print("16/14 = 1.1428571428571428")
+    print("16/14 = 1.142857142857142857142857143")
 if num1 == 16 and sign == '/' and num2 == 15:
-    print("16/15 = 1.0666666666666667")
+    print("16/15 = 1.066666666666666666666666667")
 if num1 == 16 and sign == '/' and num2 == 16:
-    print("16/16 = 1.0")
+    print("16/16 = 1")
 if num1 == 16 and sign == '/' and num2 == 17:
-    print("16/17 = 0.9411764705882353")
+    print("16/17 = 0.9411764705882352941176470588")
 if num1 == 16 and sign == '/' and num2 == 18:
-    print("16/18 = 0.8888888888888888")
+    print("16/18 = 0.8888888888888888888888888889")
 if num1 == 16 and sign == '/' and num2 == 19:
-    print("16/19 = 0.8421052631578947")
+    print("16/19 = 0.8421052631578947368421052632")
 if num1 == 16 and sign == '/' and num2 == 20:
     print("16/20 = 0.8")
 if num1 == 16 and sign == '/' and num2 == 21:
-    print("16/21 = 0.7619047619047619")
+    print("16/21 = 0.7619047619047619047619047619")
 if num1 == 16 and sign == '/' and num2 == 22:
-    print("16/22 = 0.7272727272727273")
+    print("16/22 = 0.7272727272727272727272727273")
 if num1 == 16 and sign == '/' and num2 == 23:
-    print("16/23 = 0.6956521739130435")
+    print("16/23 = 0.6956521739130434782608695652")
 if num1 == 16 and sign == '/' and num2 == 24:
-    print("16/24 = 0.6666666666666666")
+    print("16/24 = 0.6666666666666666666666666667")
 if num1 == 16 and sign == '/' and num2 == 25:
     print("16/25 = 0.64")
 if num1 == 16 and sign == '/' and num2 == 26:
-    print("16/26 = 0.6153846153846154")
+    print("16/26 = 0.6153846153846153846153846154")
 if num1 == 16 and sign == '/' and num2 == 27:
-    print("16/27 = 0.5925925925925926")
+    print("16/27 = 0.5925925925925925925925925926")
 if num1 == 16 and sign == '/' and num2 == 28:
-    print("16/28 = 0.5714285714285714")
+    print("16/28 = 0.5714285714285714285714285714")
 if num1 == 16 and sign == '/' and num2 == 29:
-    print("16/29 = 0.5517241379310345")
+    print("16/29 = 0.5517241379310344827586206897")
 if num1 == 16 and sign == '/' and num2 == 30:
-    print("16/30 = 0.5333333333333333")
+    print("16/30 = 0.5333333333333333333333333333")
 if num1 == 16 and sign == '/' and num2 == 31:
-    print("16/31 = 0.5161290322580645")
+    print("16/31 = 0.5161290322580645161290322581")
 if num1 == 16 and sign == '/' and num2 == 32:
     print("16/32 = 0.5")
 if num1 == 16 and sign == '/' and num2 == 33:
-    print("16/33 = 0.48484848484848486")
+    print("16/33 = 0.4848484848484848484848484848")
 if num1 == 16 and sign == '/' and num2 == 34:
-    print("16/34 = 0.47058823529411764")
+    print("16/34 = 0.4705882352941176470588235294")
 if num1 == 16 and sign == '/' and num2 == 35:
-    print("16/35 = 0.45714285714285713")
+    print("16/35 = 0.4571428571428571428571428571")
 if num1 == 16 and sign == '/' and num2 == 36:
-    print("16/36 = 0.4444444444444444")
+    print("16/36 = 0.4444444444444444444444444444")
 if num1 == 16 and sign == '/' and num2 == 37:
-    print("16/37 = 0.43243243243243246")
+    print("16/37 = 0.4324324324324324324324324324")
 if num1 == 16 and sign == '/' and num2 == 38:
-    print("16/38 = 0.42105263157894735")
+    print("16/38 = 0.4210526315789473684210526316")
 if num1 == 16 and sign == '/' and num2 == 39:
-    print("16/39 = 0.41025641025641024")
+    print("16/39 = 0.4102564102564102564102564103")
 if num1 == 16 and sign == '/' and num2 == 40:
     print("16/40 = 0.4")
 if num1 == 16 and sign == '/' and num2 == 41:
-    print("16/41 = 0.3902439024390244")
+    print("16/41 = 0.3902439024390243902439024390")
 if num1 == 16 and sign == '/' and num2 == 42:
-    print("16/42 = 0.38095238095238093")
+    print("16/42 = 0.3809523809523809523809523810")
 if num1 == 16 and sign == '/' and num2 == 43:
-    print("16/43 = 0.37209302325581395")
+    print("16/43 = 0.3720930232558139534883720930")
 if num1 == 16 and sign == '/' and num2 == 44:
-    print("16/44 = 0.36363636363636365")
+    print("16/44 = 0.3636363636363636363636363636")
 if num1 == 16 and sign == '/' and num2 == 45:
-    print("16/45 = 0.35555555555555557")
+    print("16/45 = 0.3555555555555555555555555556")
 if num1 == 16 and sign == '/' and num2 == 46:
-    print("16/46 = 0.34782608695652173")
+    print("16/46 = 0.3478260869565217391304347826")
 if num1 == 16 and sign == '/' and num2 == 47:
-    print("16/47 = 0.3404255319148936")
+    print("16/47 = 0.3404255319148936170212765957")
 if num1 == 16 and sign == '/' and num2 == 48:
-    print("16/48 = 0.3333333333333333")
+    print("16/48 = 0.3333333333333333333333333333")
 if num1 == 16 and sign == '/' and num2 == 49:
-    print("16/49 = 0.32653061224489793")
+    print("16/49 = 0.3265306122448979591836734694")
 if num1 == 16 and sign == '/' and num2 == 50:
     print("16/50 = 0.32")
 if num1 == 17 and sign == '/' and num2 == 0:
     print("17/0 = Inf")
 if num1 == 17 and sign == '/' and num2 == 1:
-    print("17/1 = 17.0")
+    print("17/1 = 17")
 if num1 == 17 and sign == '/' and num2 == 2:
     print("17/2 = 8.5")
 if num1 == 17 and sign == '/' and num2 == 3:
-    print("17/3 = 5.666666666666667")
+    print("17/3 = 5.666666666666666666666666667")
 if num1 == 17 and sign == '/' and num2 == 4:
     print("17/4 = 4.25")
 if num1 == 17 and sign == '/' and num2 == 5:
     print("17/5 = 3.4")
 if num1 == 17 and sign == '/' and num2 == 6:
-    print("17/6 = 2.8333333333333335")
+    print("17/6 = 2.833333333333333333333333333")
 if num1 == 17 and sign == '/' and num2 == 7:
-    print("17/7 = 2.4285714285714284")
+    print("17/7 = 2.428571428571428571428571429")
 if num1 == 17 and sign == '/' and num2 == 8:
     print("17/8 = 2.125")
 if num1 == 17 and sign == '/' and num2 == 9:
-    print("17/9 = 1.8888888888888888")
+    print("17/9 = 1.888888888888888888888888889")
 if num1 == 17 and sign == '/' and num2 == 10:
     print("17/10 = 1.7")
 if num1 == 17 and sign == '/' and num2 == 11:
-    print("17/11 = 1.5454545454545454")
+    print("17/11 = 1.545454545454545454545454545")
 if num1 == 17 and sign == '/' and num2 == 12:
-    print("17/12 = 1.4166666666666667")
+    print("17/12 = 1.416666666666666666666666667")
 if num1 == 17 and sign == '/' and num2 == 13:
-    print("17/13 = 1.3076923076923077")
+    print("17/13 = 1.307692307692307692307692308")
 if num1 == 17 and sign == '/' and num2 == 14:
-    print("17/14 = 1.2142857142857142")
+    print("17/14 = 1.214285714285714285714285714")
 if num1 == 17 and sign == '/' and num2 == 15:
-    print("17/15 = 1.1333333333333333")
+    print("17/15 = 1.133333333333333333333333333")
 if num1 == 17 and sign == '/' and num2 == 16:
     print("17/16 = 1.0625")
 if num1 == 17 and sign == '/' and num2 == 17:
-    print("17/17 = 1.0")
+    print("17/17 = 1")
 if num1 == 17 and sign == '/' and num2 == 18:
-    print("17/18 = 0.9444444444444444")
+    print("17/18 = 0.9444444444444444444444444444")
 if num1 == 17 and sign == '/' and num2 == 19:
-    print("17/19 = 0.8947368421052632")
+    print("17/19 = 0.8947368421052631578947368421")
 if num1 == 17 and sign == '/' and num2 == 20:
     print("17/20 = 0.85")
 if num1 == 17 and sign == '/' and num2 == 21:
-    print("17/21 = 0.8095238095238095")
+    print("17/21 = 0.8095238095238095238095238095")
 if num1 == 17 and sign == '/' and num2 == 22:
-    print("17/22 = 0.7727272727272727")
+    print("17/22 = 0.7727272727272727272727272727")
 if num1 == 17 and sign == '/' and num2 == 23:
-    print("17/23 = 0.7391304347826086")
+    print("17/23 = 0.7391304347826086956521739130")
 if num1 == 17 and sign == '/' and num2 == 24:
-    print("17/24 = 0.7083333333333334")
+    print("17/24 = 0.7083333333333333333333333333")
 if num1 == 17 and sign == '/' and num2 == 25:
     print("17/25 = 0.68")
 if num1 == 17 and sign == '/' and num2 == 26:
-    print("17/26 = 0.6538461538461539")
+    print("17/26 = 0.6538461538461538461538461538")
 if num1 == 17 and sign == '/' and num2 == 27:
-    print("17/27 = 0.6296296296296297")
+    print("17/27 = 0.6296296296296296296296296296")
 if num1 == 17 and sign == '/' and num2 == 28:
-    print("17/28 = 0.6071428571428571")
+    print("17/28 = 0.6071428571428571428571428571")
 if num1 == 17 and sign == '/' and num2 == 29:
-    print("17/29 = 0.5862068965517241")
+    print("17/29 = 0.5862068965517241379310344828")
 if num1 == 17 and sign == '/' and num2 == 30:
-    print("17/30 = 0.5666666666666667")
+    print("17/30 = 0.5666666666666666666666666667")
 if num1 == 17 and sign == '/' and num2 == 31:
-    print("17/31 = 0.5483870967741935")
+    print("17/31 = 0.5483870967741935483870967742")
 if num1 == 17 and sign == '/' and num2 == 32:
     print("17/32 = 0.53125")
 if num1 == 17 and sign == '/' and num2 == 33:
-    print("17/33 = 0.5151515151515151")
+    print("17/33 = 0.5151515151515151515151515152")
 if num1 == 17 and sign == '/' and num2 == 34:
     print("17/34 = 0.5")
 if num1 == 17 and sign == '/' and num2 == 35:
-    print("17/35 = 0.4857142857142857")
+    print("17/35 = 0.4857142857142857142857142857")
 if num1 == 17 and sign == '/' and num2 == 36:
-    print("17/36 = 0.4722222222222222")
+    print("17/36 = 0.4722222222222222222222222222")
 if num1 == 17 and sign == '/' and num2 == 37:
-    print("17/37 = 0.4594594594594595")
+    print("17/37 = 0.4594594594594594594594594595")
 if num1 == 17 and sign == '/' and num2 == 38:
-    print("17/38 = 0.4473684210526316")
+    print("17/38 = 0.4473684210526315789473684211")
 if num1 == 17 and sign == '/' and num2 == 39:
-    print("17/39 = 0.4358974358974359")
+    print("17/39 = 0.4358974358974358974358974359")
 if num1 == 17 and sign == '/' and num2 == 40:
     print("17/40 = 0.425")
 if num1 == 17 and sign == '/' and num2 == 41:
-    print("17/41 = 0.4146341463414634")
+    print("17/41 = 0.4146341463414634146341463415")
 if num1 == 17 and sign == '/' and num2 == 42:
-    print("17/42 = 0.40476190476190477")
+    print("17/42 = 0.4047619047619047619047619048")
 if num1 == 17 and sign == '/' and num2 == 43:
-    print("17/43 = 0.3953488372093023")
+    print("17/43 = 0.3953488372093023255813953488")
 if num1 == 17 and sign == '/' and num2 == 44:
-    print("17/44 = 0.38636363636363635")
+    print("17/44 = 0.3863636363636363636363636364")
 if num1 == 17 and sign == '/' and num2 == 45:
-    print("17/45 = 0.37777777777777777")
+    print("17/45 = 0.3777777777777777777777777778")
 if num1 == 17 and sign == '/' and num2 == 46:
-    print("17/46 = 0.3695652173913043")
+    print("17/46 = 0.3695652173913043478260869565")
 if num1 == 17 and sign == '/' and num2 == 47:
-    print("17/47 = 0.3617021276595745")
+    print("17/47 = 0.3617021276595744680851063830")
 if num1 == 17 and sign == '/' and num2 == 48:
-    print("17/48 = 0.3541666666666667")
+    print("17/48 = 0.3541666666666666666666666667")
 if num1 == 17 and sign == '/' and num2 == 49:
-    print("17/49 = 0.3469387755102041")
+    print("17/49 = 0.3469387755102040816326530612")
 if num1 == 17 and sign == '/' and num2 == 50:
     print("17/50 = 0.34")
 if num1 == 18 and sign == '/' and num2 == 0:
     print("18/0 = Inf")
 if num1 == 18 and sign == '/' and num2 == 1:
-    print("18/1 = 18.0")
+    print("18/1 = 18")
 if num1 == 18 and sign == '/' and num2 == 2:
-    print("18/2 = 9.0")
+    print("18/2 = 9")
 if num1 == 18 and sign == '/' and num2 == 3:
-    print("18/3 = 6.0")
+    print("18/3 = 6")
 if num1 == 18 and sign == '/' and num2 == 4:
     print("18/4 = 4.5")
 if num1 == 18 and sign == '/' and num2 == 5:
     print("18/5 = 3.6")
 if num1 == 18 and sign == '/' and num2 == 6:
-    print("18/6 = 3.0")
+    print("18/6 = 3")
 if num1 == 18 and sign == '/' and num2 == 7:
-    print("18/7 = 2.5714285714285716")
+    print("18/7 = 2.571428571428571428571428571")
 if num1 == 18 and sign == '/' and num2 == 8:
     print("18/8 = 2.25")
 if num1 == 18 and sign == '/' and num2 == 9:
-    print("18/9 = 2.0")
+    print("18/9 = 2")
 if num1 == 18 and sign == '/' and num2 == 10:
     print("18/10 = 1.8")
 if num1 == 18 and sign == '/' and num2 == 11:
-    print("18/11 = 1.6363636363636365")
+    print("18/11 = 1.636363636363636363636363636")
 if num1 == 18 and sign == '/' and num2 == 12:
     print("18/12 = 1.5")
 if num1 == 18 and sign == '/' and num2 == 13:
-    print("18/13 = 1.3846153846153846")
+    print("18/13 = 1.384615384615384615384615385")
 if num1 == 18 and sign == '/' and num2 == 14:
-    print("18/14 = 1.2857142857142858")
+    print("18/14 = 1.285714285714285714285714286")
 if num1 == 18 and sign == '/' and num2 == 15:
     print("18/15 = 1.2")
 if num1 == 18 and sign == '/' and num2 == 16:
     print("18/16 = 1.125")
 if num1 == 18 and sign == '/' and num2 == 17:
-    print("18/17 = 1.0588235294117647")
+    print("18/17 = 1.058823529411764705882352941")
 if num1 == 18 and sign == '/' and num2 == 18:
-    print("18/18 = 1.0")
+    print("18/18 = 1")
 if num1 == 18 and sign == '/' and num2 == 19:
-    print("18/19 = 0.9473684210526315")
+    print("18/19 = 0.9473684210526315789473684211")
 if num1 == 18 and sign == '/' and num2 == 20:
     print("18/20 = 0.9")
 if num1 == 18 and sign == '/' and num2 == 21:
-    print("18/21 = 0.8571428571428571")
+    print("18/21 = 0.8571428571428571428571428571")
 if num1 == 18 and sign == '/' and num2 == 22:
-    print("18/22 = 0.8181818181818182")
+    print("18/22 = 0.8181818181818181818181818182")
 if num1 == 18 and sign == '/' and num2 == 23:
-    print("18/23 = 0.782608695652174")
+    print("18/23 = 0.7826086956521739130434782609")
 if num1 == 18 and sign == '/' and num2 == 24:
     print("18/24 = 0.75")
 if num1 == 18 and sign == '/' and num2 == 25:
     print("18/25 = 0.72")
 if num1 == 18 and sign == '/' and num2 == 26:
-    print("18/26 = 0.6923076923076923")
+    print("18/26 = 0.6923076923076923076923076923")
 if num1 == 18 and sign == '/' and num2 == 27:
-    print("18/27 = 0.6666666666666666")
+    print("18/27 = 0.6666666666666666666666666667")
 if num1 == 18 and sign == '/' and num2 == 28:
-    print("18/28 = 0.6428571428571429")
+    print("18/28 = 0.6428571428571428571428571429")
 if num1 == 18 and sign == '/' and num2 == 29:
-    print("18/29 = 0.6206896551724138")
+    print("18/29 = 0.6206896551724137931034482759")
 if num1 == 18 and sign == '/' and num2 == 30:
     print("18/30 = 0.6")
 if num1 == 18 and sign == '/' and num2 == 31:
-    print("18/31 = 0.5806451612903226")
+    print("18/31 = 0.5806451612903225806451612903")
 if num1 == 18 and sign == '/' and num2 == 32:
     print("18/32 = 0.5625")
 if num1 == 18 and sign == '/' and num2 == 33:
-    print("18/33 = 0.5454545454545454")
+    print("18/33 = 0.5454545454545454545454545455")
 if num1 == 18 and sign == '/' and num2 == 34:
-    print("18/34 = 0.5294117647058824")
+    print("18/34 = 0.5294117647058823529411764706")
 if num1 == 18 and sign == '/' and num2 == 35:
-    print("18/35 = 0.5142857142857142")
+    print("18/35 = 0.5142857142857142857142857143")
 if num1 == 18 and sign == '/' and num2 == 36:
     print("18/36 = 0.5")
 if num1 == 18 and sign == '/' and num2 == 37:
-    print("18/37 = 0.4864864864864865")
+    print("18/37 = 0.4864864864864864864864864865")
 if num1 == 18 and sign == '/' and num2 == 38:
-    print("18/38 = 0.47368421052631576")
+    print("18/38 = 0.4736842105263157894736842105")
 if num1 == 18 and sign == '/' and num2 == 39:
-    print("18/39 = 0.46153846153846156")
+    print("18/39 = 0.4615384615384615384615384615")
 if num1 == 18 and sign == '/' and num2 == 40:
     print("18/40 = 0.45")
 if num1 == 18 and sign == '/' and num2 == 41:
-    print("18/41 = 0.43902439024390244")
+    print("18/41 = 0.4390243902439024390243902439")
 if num1 == 18 and sign == '/' and num2 == 42:
-    print("18/42 = 0.42857142857142855")
+    print("18/42 = 0.4285714285714285714285714286")
 if num1 == 18 and sign == '/' and num2 == 43:
-    print("18/43 = 0.4186046511627907")
+    print("18/43 = 0.4186046511627906976744186047")
 if num1 == 18 and sign == '/' and num2 == 44:
-    print("18/44 = 0.4090909090909091")
+    print("18/44 = 0.4090909090909090909090909091")
 if num1 == 18 and sign == '/' and num2 == 45:
     print("18/45 = 0.4")
 if num1 == 18 and sign == '/' and num2 == 46:
-    print("18/46 = 0.391304347826087")
+    print("18/46 = 0.3913043478260869565217391304")
 if num1 == 18 and sign == '/' and num2 == 47:
-    print("18/47 = 0.3829787234042553")
+    print("18/47 = 0.3829787234042553191489361702")
 if num1 == 18 and sign == '/' and num2 == 48:
     print("18/48 = 0.375")
 if num1 == 18 and sign == '/' and num2 == 49:
-    print("18/49 = 0.3673469387755102")
+    print("18/49 = 0.3673469387755102040816326531")
 if num1 == 18 and sign == '/' and num2 == 50:
     print("18/50 = 0.36")
 if num1 == 19 and sign == '/' and num2 == 0:
     print("19/0 = Inf")
 if num1 == 19 and sign == '/' and num2 == 1:
-    print("19/1 = 19.0")
+    print("19/1 = 19")
 if num1 == 19 and sign == '/' and num2 == 2:
     print("19/2 = 9.5")
 if num1 == 19 and sign == '/' and num2 == 3:
-    print("19/3 = 6.333333333333333")
+    print("19/3 = 6.333333333333333333333333333")
 if num1 == 19 and sign == '/' and num2 == 4:
     print("19/4 = 4.75")
 if num1 == 19 and sign == '/' and num2 == 5:
     print("19/5 = 3.8")
 if num1 == 19 and sign == '/' and num2 == 6:
-    print("19/6 = 3.1666666666666665")
+    print("19/6 = 3.166666666666666666666666667")
 if num1 == 19 and sign == '/' and num2 == 7:
-    print("19/7 = 2.7142857142857144")
+    print("19/7 = 2.714285714285714285714285714")
 if num1 == 19 and sign == '/' and num2 == 8:
     print("19/8 = 2.375")
 if num1 == 19 and sign == '/' and num2 == 9:
-    print("19/9 = 2.111111111111111")
+    print("19/9 = 2.111111111111111111111111111")
 if num1 == 19 and sign == '/' and num2 == 10:
     print("19/10 = 1.9")
 if num1 == 19 and sign == '/' and num2 == 11:
-    print("19/11 = 1.7272727272727273")
+    print("19/11 = 1.727272727272727272727272727")
 if num1 == 19 and sign == '/' and num2 == 12:
-    print("19/12 = 1.5833333333333333")
+    print("19/12 = 1.583333333333333333333333333")
 if num1 == 19 and sign == '/' and num2 == 13:
-    print("19/13 = 1.4615384615384615")
+    print("19/13 = 1.461538461538461538461538462")
 if num1 == 19 and sign == '/' and num2 == 14:
-    print("19/14 = 1.3571428571428572")
+    print("19/14 = 1.357142857142857142857142857")
 if num1 == 19 and sign == '/' and num2 == 15:
-    print("19/15 = 1.2666666666666666")
+    print("19/15 = 1.266666666666666666666666667")
 if num1 == 19 and sign == '/' and num2 == 16:
     print("19/16 = 1.1875")
 if num1 == 19 and sign == '/' and num2 == 17:
-    print("19/17 = 1.1176470588235294")
+    print("19/17 = 1.117647058823529411764705882")
 if num1 == 19 and sign == '/' and num2 == 18:
-    print("19/18 = 1.0555555555555556")
+    print("19/18 = 1.055555555555555555555555556")
 if num1 == 19 and sign == '/' and num2 == 19:
-    print("19/19 = 1.0")
+    print("19/19 = 1")
 if num1 == 19 and sign == '/' and num2 == 20:
     print("19/20 = 0.95")
 if num1 == 19 and sign == '/' and num2 == 21:
-    print("19/21 = 0.9047619047619048")
+    print("19/21 = 0.9047619047619047619047619048")
 if num1 == 19 and sign == '/' and num2 == 22:
-    print("19/22 = 0.8636363636363636")
+    print("19/22 = 0.8636363636363636363636363636")
 if num1 == 19 and sign == '/' and num2 == 23:
-    print("19/23 = 0.8260869565217391")
+    print("19/23 = 0.8260869565217391304347826087")
 if num1 == 19 and sign == '/' and num2 == 24:
-    print("19/24 = 0.7916666666666666")
+    print("19/24 = 0.7916666666666666666666666667")
 if num1 == 19 and sign == '/' and num2 == 25:
     print("19/25 = 0.76")
 if num1 == 19 and sign == '/' and num2 == 26:
-    print("19/26 = 0.7307692307692307")
+    print("19/26 = 0.7307692307692307692307692308")
 if num1 == 19 and sign == '/' and num2 == 27:
-    print("19/27 = 0.7037037037037037")
+    print("19/27 = 0.7037037037037037037037037037")
 if num1 == 19 and sign == '/' and num2 == 28:
-    print("19/28 = 0.6785714285714286")
+    print("19/28 = 0.6785714285714285714285714286")
 if num1 == 19 and sign == '/' and num2 == 29:
-    print("19/29 = 0.6551724137931034")
+    print("19/29 = 0.6551724137931034482758620690")
 if num1 == 19 and sign == '/' and num2 == 30:
-    print("19/30 = 0.6333333333333333")
+    print("19/30 = 0.6333333333333333333333333333")
 if num1 == 19 and sign == '/' and num2 == 31:
-    print("19/31 = 0.6129032258064516")
+    print("19/31 = 0.6129032258064516129032258065")
 if num1 == 19 and sign == '/' and num2 == 32:
     print("19/32 = 0.59375")
 if num1 == 19 and sign == '/' and num2 == 33:
-    print("19/33 = 0.5757575757575758")
+    print("19/33 = 0.5757575757575757575757575758")
 if num1 == 19 and sign == '/' and num2 == 34:
-    print("19/34 = 0.5588235294117647")
+    print("19/34 = 0.5588235294117647058823529412")
 if num1 == 19 and sign == '/' and num2 == 35:
-    print("19/35 = 0.5428571428571428")
+    print("19/35 = 0.5428571428571428571428571429")
 if num1 == 19 and sign == '/' and num2 == 36:
-    print("19/36 = 0.5277777777777778")
+    print("19/36 = 0.5277777777777777777777777778")
 if num1 == 19 and sign == '/' and num2 == 37:
-    print("19/37 = 0.5135135135135135")
+    print("19/37 = 0.5135135135135135135135135135")
 if num1 == 19 and sign == '/' and num2 == 38:
     print("19/38 = 0.5")
 if num1 == 19 and sign == '/' and num2 == 39:
-    print("19/39 = 0.48717948717948717")
+    print("19/39 = 0.4871794871794871794871794872")
 if num1 == 19 and sign == '/' and num2 == 40:
     print("19/40 = 0.475")
 if num1 == 19 and sign == '/' and num2 == 41:
-    print("19/41 = 0.4634146341463415")
+    print("19/41 = 0.4634146341463414634146341463")
 if num1 == 19 and sign == '/' and num2 == 42:
-    print("19/42 = 0.4523809523809524")
+    print("19/42 = 0.4523809523809523809523809524")
 if num1 == 19 and sign == '/' and num2 == 43:
-    print("19/43 = 0.4418604651162791")
+    print("19/43 = 0.4418604651162790697674418605")
 if num1 == 19 and sign == '/' and num2 == 44:
-    print("19/44 = 0.4318181818181818")
+    print("19/44 = 0.4318181818181818181818181818")
 if num1 == 19 and sign == '/' and num2 == 45:
-    print("19/45 = 0.4222222222222222")
+    print("19/45 = 0.4222222222222222222222222222")
 if num1 == 19 and sign == '/' and num2 == 46:
-    print("19/46 = 0.41304347826086957")
+    print("19/46 = 0.4130434782608695652173913043")
 if num1 == 19 and sign == '/' and num2 == 47:
-    print("19/47 = 0.40425531914893614")
+    print("19/47 = 0.4042553191489361702127659574")
 if num1 == 19 and sign == '/' and num2 == 48:
-    print("19/48 = 0.3958333333333333")
+    print("19/48 = 0.3958333333333333333333333333")
 if num1 == 19 and sign == '/' and num2 == 49:
-    print("19/49 = 0.3877551020408163")
+    print("19/49 = 0.3877551020408163265306122449")
 if num1 == 19 and sign == '/' and num2 == 50:
     print("19/50 = 0.38")
 if num1 == 20 and sign == '/' and num2 == 0:
     print("20/0 = Inf")
 if num1 == 20 and sign == '/' and num2 == 1:
-    print("20/1 = 20.0")
+    print("20/1 = 20")
 if num1 == 20 and sign == '/' and num2 == 2:
-    print("20/2 = 10.0")
+    print("20/2 = 10")
 if num1 == 20 and sign == '/' and num2 == 3:
-    print("20/3 = 6.666666666666667")
+    print("20/3 = 6.666666666666666666666666667")
 if num1 == 20 and sign == '/' and num2 == 4:
-    print("20/4 = 5.0")
+    print("20/4 = 5")
 if num1 == 20 and sign == '/' and num2 == 5:
-    print("20/5 = 4.0")
+    print("20/5 = 4")
 if num1 == 20 and sign == '/' and num2 == 6:
-    print("20/6 = 3.3333333333333335")
+    print("20/6 = 3.333333333333333333333333333")
 if num1 == 20 and sign == '/' and num2 == 7:
-    print("20/7 = 2.857142857142857")
+    print("20/7 = 2.857142857142857142857142857")
 if num1 == 20 and sign == '/' and num2 == 8:
     print("20/8 = 2.5")
 if num1 == 20 and sign == '/' and num2 == 9:
-    print("20/9 = 2.2222222222222223")
+    print("20/9 = 2.222222222222222222222222222")
 if num1 == 20 and sign == '/' and num2 == 10:
-    print("20/10 = 2.0")
+    print("20/10 = 2")
 if num1 == 20 and sign == '/' and num2 == 11:
-    print("20/11 = 1.8181818181818181")
+    print("20/11 = 1.818181818181818181818181818")
 if num1 == 20 and sign == '/' and num2 == 12:
-    print("20/12 = 1.6666666666666667")
+    print("20/12 = 1.666666666666666666666666667")
 if num1 == 20 and sign == '/' and num2 == 13:
-    print("20/13 = 1.5384615384615385")
+    print("20/13 = 1.538461538461538461538461538")
 if num1 == 20 and sign == '/' and num2 == 14:
-    print("20/14 = 1.4285714285714286")
+    print("20/14 = 1.428571428571428571428571429")
 if num1 == 20 and sign == '/' and num2 == 15:
-    print("20/15 = 1.3333333333333333")
+    print("20/15 = 1.333333333333333333333333333")
 if num1 == 20 and sign == '/' and num2 == 16:
     print("20/16 = 1.25")
 if num1 == 20 and sign == '/' and num2 == 17:
-    print("20/17 = 1.1764705882352942")
+    print("20/17 = 1.176470588235294117647058824")
 if num1 == 20 and sign == '/' and num2 == 18:
-    print("20/18 = 1.1111111111111112")
+    print("20/18 = 1.111111111111111111111111111")
 if num1 == 20 and sign == '/' and num2 == 19:
-    print("20/19 = 1.0526315789473684")
+    print("20/19 = 1.052631578947368421052631579")
 if num1 == 20 and sign == '/' and num2 == 20:
-    print("20/20 = 1.0")
+    print("20/20 = 1")
 if num1 == 20 and sign == '/' and num2 == 21:
-    print("20/21 = 0.9523809523809523")
+    print("20/21 = 0.9523809523809523809523809524")
 if num1 == 20 and sign == '/' and num2 == 22:
-    print("20/22 = 0.9090909090909091")
+    print("20/22 = 0.9090909090909090909090909091")
 if num1 == 20 and sign == '/' and num2 == 23:
-    print("20/23 = 0.8695652173913043")
+    print("20/23 = 0.8695652173913043478260869565")
 if num1 == 20 and sign == '/' and num2 == 24:
-    print("20/24 = 0.8333333333333334")
+    print("20/24 = 0.8333333333333333333333333333")
 if num1 == 20 and sign == '/' and num2 == 25:
     print("20/25 = 0.8")
 if num1 == 20 and sign == '/' and num2 == 26:
-    print("20/26 = 0.7692307692307693")
+    print("20/26 = 0.7692307692307692307692307692")
 if num1 == 20 and sign == '/' and num2 == 27:
-    print("20/27 = 0.7407407407407407")
+    print("20/27 = 0.7407407407407407407407407407")
 if num1 == 20 and sign == '/' and num2 == 28:
-    print("20/28 = 0.7142857142857143")
+    print("20/28 = 0.7142857142857142857142857143")
 if num1 == 20 and sign == '/' and num2 == 29:
-    print("20/29 = 0.6896551724137931")
+    print("20/29 = 0.6896551724137931034482758621")
 if num1 == 20 and sign == '/' and num2 == 30:
-    print("20/30 = 0.6666666666666666")
+    print("20/30 = 0.6666666666666666666666666667")
 if num1 == 20 and sign == '/' and num2 == 31:
-    print("20/31 = 0.6451612903225806")
+    print("20/31 = 0.6451612903225806451612903226")
 if num1 == 20 and sign == '/' and num2 == 32:
     print("20/32 = 0.625")
 if num1 == 20 and sign == '/' and num2 == 33:
-    print("20/33 = 0.6060606060606061")
+    print("20/33 = 0.6060606060606060606060606061")
 if num1 == 20 and sign == '/' and num2 == 34:
-    print("20/34 = 0.5882352941176471")
+    print("20/34 = 0.5882352941176470588235294118")
 if num1 == 20 and sign == '/' and num2 == 35:
-    print("20/35 = 0.5714285714285714")
+    print("20/35 = 0.5714285714285714285714285714")
 if num1 == 20 and sign == '/' and num2 == 36:
-    print("20/36 = 0.5555555555555556")
+    print("20/36 = 0.5555555555555555555555555556")
 if num1 == 20 and sign == '/' and num2 == 37:
-    print("20/37 = 0.5405405405405406")
+    print("20/37 = 0.5405405405405405405405405405")
 if num1 == 20 and sign == '/' and num2 == 38:
-    print("20/38 = 0.5263157894736842")
+    print("20/38 = 0.5263157894736842105263157895")
 if num1 == 20 and sign == '/' and num2 == 39:
-    print("20/39 = 0.5128205128205128")
+    print("20/39 = 0.5128205128205128205128205128")
 if num1 == 20 and sign == '/' and num2 == 40:
     print("20/40 = 0.5")
 if num1 == 20 and sign == '/' and num2 == 41:
-    print("20/41 = 0.4878048780487805")
+    print("20/41 = 0.4878048780487804878048780488")
 if num1 == 20 and sign == '/' and num2 == 42:
-    print("20/42 = 0.47619047619047616")
+    print("20/42 = 0.4761904761904761904761904762")
 if num1 == 20 and sign == '/' and num2 == 43:
-    print("20/43 = 0.46511627906976744")
+    print("20/43 = 0.4651162790697674418604651163")
 if num1 == 20 and sign == '/' and num2 == 44:
-    print("20/44 = 0.45454545454545453")
+    print("20/44 = 0.4545454545454545454545454545")
 if num1 == 20 and sign == '/' and num2 == 45:
-    print("20/45 = 0.4444444444444444")
+    print("20/45 = 0.4444444444444444444444444444")
 if num1 == 20 and sign == '/' and num2 == 46:
-    print("20/46 = 0.43478260869565216")
+    print("20/46 = 0.4347826086956521739130434783")
 if num1 == 20 and sign == '/' and num2 == 47:
-    print("20/47 = 0.425531914893617")
+    print("20/47 = 0.4255319148936170212765957447")
 if num1 == 20 and sign == '/' and num2 == 48:
-    print("20/48 = 0.4166666666666667")
+    print("20/48 = 0.4166666666666666666666666667")
 if num1 == 20 and sign == '/' and num2 == 49:
-    print("20/49 = 0.40816326530612246")
+    print("20/49 = 0.4081632653061224489795918367")
 if num1 == 20 and sign == '/' and num2 == 50:
     print("20/50 = 0.4")
 if num1 == 21 and sign == '/' and num2 == 0:
     print("21/0 = Inf")
 if num1 == 21 and sign == '/' and num2 == 1:
-    print("21/1 = 21.0")
+    print("21/1 = 21")
 if num1 == 21 and sign == '/' and num2 == 2:
     print("21/2 = 10.5")
 if num1 == 21 and sign == '/' and num2 == 3:
-    print("21/3 = 7.0")
+    print("21/3 = 7")
 if num1 == 21 and sign == '/' and num2 == 4:
     print("21/4 = 5.25")
 if num1 == 21 and sign == '/' and num2 == 5:
@@ -12571,19 +12571,19 @@ if num1 == 21 and sign == '/' and num2 == 5:
 if num1 == 21 and sign == '/' and num2 == 6:
     print("21/6 = 3.5")
 if num1 == 21 and sign == '/' and num2 == 7:
-    print("21/7 = 3.0")
+    print("21/7 = 3")
 if num1 == 21 and sign == '/' and num2 == 8:
     print("21/8 = 2.625")
 if num1 == 21 and sign == '/' and num2 == 9:
-    print("21/9 = 2.3333333333333335")
+    print("21/9 = 2.333333333333333333333333333")
 if num1 == 21 and sign == '/' and num2 == 10:
     print("21/10 = 2.1")
 if num1 == 21 and sign == '/' and num2 == 11:
-    print("21/11 = 1.9090909090909092")
+    print("21/11 = 1.909090909090909090909090909")
 if num1 == 21 and sign == '/' and num2 == 12:
     print("21/12 = 1.75")
 if num1 == 21 and sign == '/' and num2 == 13:
-    print("21/13 = 1.6153846153846154")
+    print("21/13 = 1.615384615384615384615384615")
 if num1 == 21 and sign == '/' and num2 == 14:
     print("21/14 = 1.5")
 if num1 == 21 and sign == '/' and num2 == 15:
@@ -12591,591 +12591,591 @@ if num1 == 21 and sign == '/' and num2 == 15:
 if num1 == 21 and sign == '/' and num2 == 16:
     print("21/16 = 1.3125")
 if num1 == 21 and sign == '/' and num2 == 17:
-    print("21/17 = 1.2352941176470589")
+    print("21/17 = 1.235294117647058823529411765")
 if num1 == 21 and sign == '/' and num2 == 18:
-    print("21/18 = 1.1666666666666667")
+    print("21/18 = 1.166666666666666666666666667")
 if num1 == 21 and sign == '/' and num2 == 19:
-    print("21/19 = 1.105263157894737")
+    print("21/19 = 1.105263157894736842105263158")
 if num1 == 21 and sign == '/' and num2 == 20:
     print("21/20 = 1.05")
 if num1 == 21 and sign == '/' and num2 == 21:
-    print("21/21 = 1.0")
+    print("21/21 = 1")
 if num1 == 21 and sign == '/' and num2 == 22:
-    print("21/22 = 0.9545454545454546")
+    print("21/22 = 0.9545454545454545454545454545")
 if num1 == 21 and sign == '/' and num2 == 23:
-    print("21/23 = 0.9130434782608695")
+    print("21/23 = 0.9130434782608695652173913043")
 if num1 == 21 and sign == '/' and num2 == 24:
     print("21/24 = 0.875")
 if num1 == 21 and sign == '/' and num2 == 25:
     print("21/25 = 0.84")
 if num1 == 21 and sign == '/' and num2 == 26:
-    print("21/26 = 0.8076923076923077")
+    print("21/26 = 0.8076923076923076923076923077")
 if num1 == 21 and sign == '/' and num2 == 27:
-    print("21/27 = 0.7777777777777778")
+    print("21/27 = 0.7777777777777777777777777778")
 if num1 == 21 and sign == '/' and num2 == 28:
     print("21/28 = 0.75")
 if num1 == 21 and sign == '/' and num2 == 29:
-    print("21/29 = 0.7241379310344828")
+    print("21/29 = 0.7241379310344827586206896552")
 if num1 == 21 and sign == '/' and num2 == 30:
     print("21/30 = 0.7")
 if num1 == 21 and sign == '/' and num2 == 31:
-    print("21/31 = 0.6774193548387096")
+    print("21/31 = 0.6774193548387096774193548387")
 if num1 == 21 and sign == '/' and num2 == 32:
     print("21/32 = 0.65625")
 if num1 == 21 and sign == '/' and num2 == 33:
-    print("21/33 = 0.6363636363636364")
+    print("21/33 = 0.6363636363636363636363636364")
 if num1 == 21 and sign == '/' and num2 == 34:
-    print("21/34 = 0.6176470588235294")
+    print("21/34 = 0.6176470588235294117647058824")
 if num1 == 21 and sign == '/' and num2 == 35:
     print("21/35 = 0.6")
 if num1 == 21 and sign == '/' and num2 == 36:
-    print("21/36 = 0.5833333333333334")
+    print("21/36 = 0.5833333333333333333333333333")
 if num1 == 21 and sign == '/' and num2 == 37:
-    print("21/37 = 0.5675675675675675")
+    print("21/37 = 0.5675675675675675675675675676")
 if num1 == 21 and sign == '/' and num2 == 38:
-    print("21/38 = 0.5526315789473685")
+    print("21/38 = 0.5526315789473684210526315789")
 if num1 == 21 and sign == '/' and num2 == 39:
-    print("21/39 = 0.5384615384615384")
+    print("21/39 = 0.5384615384615384615384615385")
 if num1 == 21 and sign == '/' and num2 == 40:
     print("21/40 = 0.525")
 if num1 == 21 and sign == '/' and num2 == 41:
-    print("21/41 = 0.5121951219512195")
+    print("21/41 = 0.5121951219512195121951219512")
 if num1 == 21 and sign == '/' and num2 == 42:
     print("21/42 = 0.5")
 if num1 == 21 and sign == '/' and num2 == 43:
-    print("21/43 = 0.4883720930232558")
+    print("21/43 = 0.4883720930232558139534883721")
 if num1 == 21 and sign == '/' and num2 == 44:
-    print("21/44 = 0.4772727272727273")
+    print("21/44 = 0.4772727272727272727272727273")
 if num1 == 21 and sign == '/' and num2 == 45:
-    print("21/45 = 0.4666666666666667")
+    print("21/45 = 0.4666666666666666666666666667")
 if num1 == 21 and sign == '/' and num2 == 46:
-    print("21/46 = 0.45652173913043476")
+    print("21/46 = 0.4565217391304347826086956522")
 if num1 == 21 and sign == '/' and num2 == 47:
-    print("21/47 = 0.44680851063829785")
+    print("21/47 = 0.4468085106382978723404255319")
 if num1 == 21 and sign == '/' and num2 == 48:
     print("21/48 = 0.4375")
 if num1 == 21 and sign == '/' and num2 == 49:
-    print("21/49 = 0.42857142857142855")
+    print("21/49 = 0.4285714285714285714285714286")
 if num1 == 21 and sign == '/' and num2 == 50:
     print("21/50 = 0.42")
 if num1 == 22 and sign == '/' and num2 == 0:
     print("22/0 = Inf")
 if num1 == 22 and sign == '/' and num2 == 1:
-    print("22/1 = 22.0")
+    print("22/1 = 22")
 if num1 == 22 and sign == '/' and num2 == 2:
-    print("22/2 = 11.0")
+    print("22/2 = 11")
 if num1 == 22 and sign == '/' and num2 == 3:
-    print("22/3 = 7.333333333333333")
+    print("22/3 = 7.333333333333333333333333333")
 if num1 == 22 and sign == '/' and num2 == 4:
     print("22/4 = 5.5")
 if num1 == 22 and sign == '/' and num2 == 5:
     print("22/5 = 4.4")
 if num1 == 22 and sign == '/' and num2 == 6:
-    print("22/6 = 3.6666666666666665")
+    print("22/6 = 3.666666666666666666666666667")
 if num1 == 22 and sign == '/' and num2 == 7:
-    print("22/7 = 3.142857142857143")
+    print("22/7 = 3.142857142857142857142857143")
 if num1 == 22 and sign == '/' and num2 == 8:
     print("22/8 = 2.75")
 if num1 == 22 and sign == '/' and num2 == 9:
-    print("22/9 = 2.4444444444444446")
+    print("22/9 = 2.444444444444444444444444444")
 if num1 == 22 and sign == '/' and num2 == 10:
     print("22/10 = 2.2")
 if num1 == 22 and sign == '/' and num2 == 11:
-    print("22/11 = 2.0")
+    print("22/11 = 2")
 if num1 == 22 and sign == '/' and num2 == 12:
-    print("22/12 = 1.8333333333333333")
+    print("22/12 = 1.833333333333333333333333333")
 if num1 == 22 and sign == '/' and num2 == 13:
-    print("22/13 = 1.6923076923076923")
+    print("22/13 = 1.692307692307692307692307692")
 if num1 == 22 and sign == '/' and num2 == 14:
-    print("22/14 = 1.5714285714285714")
+    print("22/14 = 1.571428571428571428571428571")
 if num1 == 22 and sign == '/' and num2 == 15:
-    print("22/15 = 1.4666666666666666")
+    print("22/15 = 1.466666666666666666666666667")
 if num1 == 22 and sign == '/' and num2 == 16:
     print("22/16 = 1.375")
 if num1 == 22 and sign == '/' and num2 == 17:
-    print("22/17 = 1.2941176470588236")
+    print("22/17 = 1.294117647058823529411764706")
 if num1 == 22 and sign == '/' and num2 == 18:
-    print("22/18 = 1.2222222222222223")
+    print("22/18 = 1.222222222222222222222222222")
 if num1 == 22 and sign == '/' and num2 == 19:
-    print("22/19 = 1.1578947368421053")
+    print("22/19 = 1.157894736842105263157894737")
 if num1 == 22 and sign == '/' and num2 == 20:
     print("22/20 = 1.1")
 if num1 == 22 and sign == '/' and num2 == 21:
-    print("22/21 = 1.0476190476190477")
+    print("22/21 = 1.047619047619047619047619048")
 if num1 == 22 and sign == '/' and num2 == 22:
-    print("22/22 = 1.0")
+    print("22/22 = 1")
 if num1 == 22 and sign == '/' and num2 == 23:
-    print("22/23 = 0.9565217391304348")
+    print("22/23 = 0.9565217391304347826086956522")
 if num1 == 22 and sign == '/' and num2 == 24:
-    print("22/24 = 0.9166666666666666")
+    print("22/24 = 0.9166666666666666666666666667")
 if num1 == 22 and sign == '/' and num2 == 25:
     print("22/25 = 0.88")
 if num1 == 22 and sign == '/' and num2 == 26:
-    print("22/26 = 0.8461538461538461")
+    print("22/26 = 0.8461538461538461538461538462")
 if num1 == 22 and sign == '/' and num2 == 27:
-    print("22/27 = 0.8148148148148148")
+    print("22/27 = 0.8148148148148148148148148148")
 if num1 == 22 and sign == '/' and num2 == 28:
-    print("22/28 = 0.7857142857142857")
+    print("22/28 = 0.7857142857142857142857142857")
 if num1 == 22 and sign == '/' and num2 == 29:
-    print("22/29 = 0.7586206896551724")
+    print("22/29 = 0.7586206896551724137931034483")
 if num1 == 22 and sign == '/' and num2 == 30:
-    print("22/30 = 0.7333333333333333")
+    print("22/30 = 0.7333333333333333333333333333")
 if num1 == 22 and sign == '/' and num2 == 31:
-    print("22/31 = 0.7096774193548387")
+    print("22/31 = 0.7096774193548387096774193548")
 if num1 == 22 and sign == '/' and num2 == 32:
     print("22/32 = 0.6875")
 if num1 == 22 and sign == '/' and num2 == 33:
-    print("22/33 = 0.6666666666666666")
+    print("22/33 = 0.6666666666666666666666666667")
 if num1 == 22 and sign == '/' and num2 == 34:
-    print("22/34 = 0.6470588235294118")
+    print("22/34 = 0.6470588235294117647058823529")
 if num1 == 22 and sign == '/' and num2 == 35:
-    print("22/35 = 0.6285714285714286")
+    print("22/35 = 0.6285714285714285714285714286")
 if num1 == 22 and sign == '/' and num2 == 36:
-    print("22/36 = 0.6111111111111112")
+    print("22/36 = 0.6111111111111111111111111111")
 if num1 == 22 and sign == '/' and num2 == 37:
-    print("22/37 = 0.5945945945945946")
+    print("22/37 = 0.5945945945945945945945945946")
 if num1 == 22 and sign == '/' and num2 == 38:
-    print("22/38 = 0.5789473684210527")
+    print("22/38 = 0.5789473684210526315789473684")
 if num1 == 22 and sign == '/' and num2 == 39:
-    print("22/39 = 0.5641025641025641")
+    print("22/39 = 0.5641025641025641025641025641")
 if num1 == 22 and sign == '/' and num2 == 40:
     print("22/40 = 0.55")
 if num1 == 22 and sign == '/' and num2 == 41:
-    print("22/41 = 0.5365853658536586")
+    print("22/41 = 0.5365853658536585365853658537")
 if num1 == 22 and sign == '/' and num2 == 42:
-    print("22/42 = 0.5238095238095238")
+    print("22/42 = 0.5238095238095238095238095238")
 if num1 == 22 and sign == '/' and num2 == 43:
-    print("22/43 = 0.5116279069767442")
+    print("22/43 = 0.5116279069767441860465116279")
 if num1 == 22 and sign == '/' and num2 == 44:
     print("22/44 = 0.5")
 if num1 == 22 and sign == '/' and num2 == 45:
-    print("22/45 = 0.4888888888888889")
+    print("22/45 = 0.4888888888888888888888888889")
 if num1 == 22 and sign == '/' and num2 == 46:
-    print("22/46 = 0.4782608695652174")
+    print("22/46 = 0.4782608695652173913043478261")
 if num1 == 22 and sign == '/' and num2 == 47:
-    print("22/47 = 0.46808510638297873")
+    print("22/47 = 0.4680851063829787234042553191")
 if num1 == 22 and sign == '/' and num2 == 48:
-    print("22/48 = 0.4583333333333333")
+    print("22/48 = 0.4583333333333333333333333333")
 if num1 == 22 and sign == '/' and num2 == 49:
-    print("22/49 = 0.4489795918367347")
+    print("22/49 = 0.4489795918367346938775510204")
 if num1 == 22 and sign == '/' and num2 == 50:
     print("22/50 = 0.44")
 if num1 == 23 and sign == '/' and num2 == 0:
     print("23/0 = Inf")
 if num1 == 23 and sign == '/' and num2 == 1:
-    print("23/1 = 23.0")
+    print("23/1 = 23")
 if num1 == 23 and sign == '/' and num2 == 2:
     print("23/2 = 11.5")
 if num1 == 23 and sign == '/' and num2 == 3:
-    print("23/3 = 7.666666666666667")
+    print("23/3 = 7.666666666666666666666666667")
 if num1 == 23 and sign == '/' and num2 == 4:
     print("23/4 = 5.75")
 if num1 == 23 and sign == '/' and num2 == 5:
     print("23/5 = 4.6")
 if num1 == 23 and sign == '/' and num2 == 6:
-    print("23/6 = 3.8333333333333335")
+    print("23/6 = 3.833333333333333333333333333")
 if num1 == 23 and sign == '/' and num2 == 7:
-    print("23/7 = 3.2857142857142856")
+    print("23/7 = 3.285714285714285714285714286")
 if num1 == 23 and sign == '/' and num2 == 8:
     print("23/8 = 2.875")
 if num1 == 23 and sign == '/' and num2 == 9:
-    print("23/9 = 2.5555555555555554")
+    print("23/9 = 2.555555555555555555555555556")
 if num1 == 23 and sign == '/' and num2 == 10:
     print("23/10 = 2.3")
 if num1 == 23 and sign == '/' and num2 == 11:
-    print("23/11 = 2.090909090909091")
+    print("23/11 = 2.090909090909090909090909091")
 if num1 == 23 and sign == '/' and num2 == 12:
-    print("23/12 = 1.9166666666666667")
+    print("23/12 = 1.916666666666666666666666667")
 if num1 == 23 and sign == '/' and num2 == 13:
-    print("23/13 = 1.7692307692307692")
+    print("23/13 = 1.769230769230769230769230769")
 if num1 == 23 and sign == '/' and num2 == 14:
-    print("23/14 = 1.6428571428571428")
+    print("23/14 = 1.642857142857142857142857143")
 if num1 == 23 and sign == '/' and num2 == 15:
-    print("23/15 = 1.5333333333333334")
+    print("23/15 = 1.533333333333333333333333333")
 if num1 == 23 and sign == '/' and num2 == 16:
     print("23/16 = 1.4375")
 if num1 == 23 and sign == '/' and num2 == 17:
-    print("23/17 = 1.3529411764705883")
+    print("23/17 = 1.352941176470588235294117647")
 if num1 == 23 and sign == '/' and num2 == 18:
-    print("23/18 = 1.2777777777777777")
+    print("23/18 = 1.277777777777777777777777778")
 if num1 == 23 and sign == '/' and num2 == 19:
-    print("23/19 = 1.2105263157894737")
+    print("23/19 = 1.210526315789473684210526316")
 if num1 == 23 and sign == '/' and num2 == 20:
     print("23/20 = 1.15")
 if num1 == 23 and sign == '/' and num2 == 21:
-    print("23/21 = 1.0952380952380953")
+    print("23/21 = 1.095238095238095238095238095")
 if num1 == 23 and sign == '/' and num2 == 22:
-    print("23/22 = 1.0454545454545454")
+    print("23/22 = 1.045454545454545454545454545")
 if num1 == 23 and sign == '/' and num2 == 23:
-    print("23/23 = 1.0")
+    print("23/23 = 1")
 if num1 == 23 and sign == '/' and num2 == 24:
-    print("23/24 = 0.9583333333333334")
+    print("23/24 = 0.9583333333333333333333333333")
 if num1 == 23 and sign == '/' and num2 == 25:
     print("23/25 = 0.92")
 if num1 == 23 and sign == '/' and num2 == 26:
-    print("23/26 = 0.8846153846153846")
+    print("23/26 = 0.8846153846153846153846153846")
 if num1 == 23 and sign == '/' and num2 == 27:
-    print("23/27 = 0.8518518518518519")
+    print("23/27 = 0.8518518518518518518518518519")
 if num1 == 23 and sign == '/' and num2 == 28:
-    print("23/28 = 0.8214285714285714")
+    print("23/28 = 0.8214285714285714285714285714")
 if num1 == 23 and sign == '/' and num2 == 29:
-    print("23/29 = 0.7931034482758621")
+    print("23/29 = 0.7931034482758620689655172414")
 if num1 == 23 and sign == '/' and num2 == 30:
-    print("23/30 = 0.7666666666666667")
+    print("23/30 = 0.7666666666666666666666666667")
 if num1 == 23 and sign == '/' and num2 == 31:
-    print("23/31 = 0.7419354838709677")
+    print("23/31 = 0.7419354838709677419354838710")
 if num1 == 23 and sign == '/' and num2 == 32:
     print("23/32 = 0.71875")
 if num1 == 23 and sign == '/' and num2 == 33:
-    print("23/33 = 0.696969696969697")
+    print("23/33 = 0.6969696969696969696969696970")
 if num1 == 23 and sign == '/' and num2 == 34:
-    print("23/34 = 0.6764705882352942")
+    print("23/34 = 0.6764705882352941176470588235")
 if num1 == 23 and sign == '/' and num2 == 35:
-    print("23/35 = 0.6571428571428571")
+    print("23/35 = 0.6571428571428571428571428571")
 if num1 == 23 and sign == '/' and num2 == 36:
-    print("23/36 = 0.6388888888888888")
+    print("23/36 = 0.6388888888888888888888888889")
 if num1 == 23 and sign == '/' and num2 == 37:
-    print("23/37 = 0.6216216216216216")
+    print("23/37 = 0.6216216216216216216216216216")
 if num1 == 23 and sign == '/' and num2 == 38:
-    print("23/38 = 0.6052631578947368")
+    print("23/38 = 0.6052631578947368421052631579")
 if num1 == 23 and sign == '/' and num2 == 39:
-    print("23/39 = 0.5897435897435898")
+    print("23/39 = 0.5897435897435897435897435897")
 if num1 == 23 and sign == '/' and num2 == 40:
     print("23/40 = 0.575")
 if num1 == 23 and sign == '/' and num2 == 41:
-    print("23/41 = 0.5609756097560976")
+    print("23/41 = 0.5609756097560975609756097561")
 if num1 == 23 and sign == '/' and num2 == 42:
-    print("23/42 = 0.5476190476190477")
+    print("23/42 = 0.5476190476190476190476190476")
 if num1 == 23 and sign == '/' and num2 == 43:
-    print("23/43 = 0.5348837209302325")
+    print("23/43 = 0.5348837209302325581395348837")
 if num1 == 23 and sign == '/' and num2 == 44:
-    print("23/44 = 0.5227272727272727")
+    print("23/44 = 0.5227272727272727272727272727")
 if num1 == 23 and sign == '/' and num2 == 45:
-    print("23/45 = 0.5111111111111111")
+    print("23/45 = 0.5111111111111111111111111111")
 if num1 == 23 and sign == '/' and num2 == 46:
     print("23/46 = 0.5")
 if num1 == 23 and sign == '/' and num2 == 47:
-    print("23/47 = 0.48936170212765956")
+    print("23/47 = 0.4893617021276595744680851064")
 if num1 == 23 and sign == '/' and num2 == 48:
-    print("23/48 = 0.4791666666666667")
+    print("23/48 = 0.4791666666666666666666666667")
 if num1 == 23 and sign == '/' and num2 == 49:
-    print("23/49 = 0.46938775510204084")
+    print("23/49 = 0.4693877551020408163265306122")
 if num1 == 23 and sign == '/' and num2 == 50:
     print("23/50 = 0.46")
 if num1 == 24 and sign == '/' and num2 == 0:
     print("24/0 = Inf")
 if num1 == 24 and sign == '/' and num2 == 1:
-    print("24/1 = 24.0")
+    print("24/1 = 24")
 if num1 == 24 and sign == '/' and num2 == 2:
-    print("24/2 = 12.0")
+    print("24/2 = 12")
 if num1 == 24 and sign == '/' and num2 == 3:
-    print("24/3 = 8.0")
+    print("24/3 = 8")
 if num1 == 24 and sign == '/' and num2 == 4:
-    print("24/4 = 6.0")
+    print("24/4 = 6")
 if num1 == 24 and sign == '/' and num2 == 5:
     print("24/5 = 4.8")
 if num1 == 24 and sign == '/' and num2 == 6:
-    print("24/6 = 4.0")
+    print("24/6 = 4")
 if num1 == 24 and sign == '/' and num2 == 7:
-    print("24/7 = 3.4285714285714284")
+    print("24/7 = 3.428571428571428571428571429")
 if num1 == 24 and sign == '/' and num2 == 8:
-    print("24/8 = 3.0")
+    print("24/8 = 3")
 if num1 == 24 and sign == '/' and num2 == 9:
-    print("24/9 = 2.6666666666666665")
+    print("24/9 = 2.666666666666666666666666667")
 if num1 == 24 and sign == '/' and num2 == 10:
     print("24/10 = 2.4")
 if num1 == 24 and sign == '/' and num2 == 11:
-    print("24/11 = 2.1818181818181817")
+    print("24/11 = 2.181818181818181818181818182")
 if num1 == 24 and sign == '/' and num2 == 12:
-    print("24/12 = 2.0")
+    print("24/12 = 2")
 if num1 == 24 and sign == '/' and num2 == 13:
-    print("24/13 = 1.8461538461538463")
+    print("24/13 = 1.846153846153846153846153846")
 if num1 == 24 and sign == '/' and num2 == 14:
-    print("24/14 = 1.7142857142857142")
+    print("24/14 = 1.714285714285714285714285714")
 if num1 == 24 and sign == '/' and num2 == 15:
     print("24/15 = 1.6")
 if num1 == 24 and sign == '/' and num2 == 16:
     print("24/16 = 1.5")
 if num1 == 24 and sign == '/' and num2 == 17:
-    print("24/17 = 1.411764705882353")
+    print("24/17 = 1.411764705882352941176470588")
 if num1 == 24 and sign == '/' and num2 == 18:
-    print("24/18 = 1.3333333333333333")
+    print("24/18 = 1.333333333333333333333333333")
 if num1 == 24 and sign == '/' and num2 == 19:
-    print("24/19 = 1.263157894736842")
+    print("24/19 = 1.263157894736842105263157895")
 if num1 == 24 and sign == '/' and num2 == 20:
     print("24/20 = 1.2")
 if num1 == 24 and sign == '/' and num2 == 21:
-    print("24/21 = 1.1428571428571428")
+    print("24/21 = 1.142857142857142857142857143")
 if num1 == 24 and sign == '/' and num2 == 22:
-    print("24/22 = 1.0909090909090908")
+    print("24/22 = 1.090909090909090909090909091")
 if num1 == 24 and sign == '/' and num2 == 23:
-    print("24/23 = 1.0434782608695652")
+    print("24/23 = 1.043478260869565217391304348")
 if num1 == 24 and sign == '/' and num2 == 24:
-    print("24/24 = 1.0")
+    print("24/24 = 1")
 if num1 == 24 and sign == '/' and num2 == 25:
     print("24/25 = 0.96")
 if num1 == 24 and sign == '/' and num2 == 26:
-    print("24/26 = 0.9230769230769231")
+    print("24/26 = 0.9230769230769230769230769231")
 if num1 == 24 and sign == '/' and num2 == 27:
-    print("24/27 = 0.8888888888888888")
+    print("24/27 = 0.8888888888888888888888888889")
 if num1 == 24 and sign == '/' and num2 == 28:
-    print("24/28 = 0.8571428571428571")
+    print("24/28 = 0.8571428571428571428571428571")
 if num1 == 24 and sign == '/' and num2 == 29:
-    print("24/29 = 0.8275862068965517")
+    print("24/29 = 0.8275862068965517241379310345")
 if num1 == 24 and sign == '/' and num2 == 30:
     print("24/30 = 0.8")
 if num1 == 24 and sign == '/' and num2 == 31:
-    print("24/31 = 0.7741935483870968")
+    print("24/31 = 0.7741935483870967741935483871")
 if num1 == 24 and sign == '/' and num2 == 32:
     print("24/32 = 0.75")
 if num1 == 24 and sign == '/' and num2 == 33:
-    print("24/33 = 0.7272727272727273")
+    print("24/33 = 0.7272727272727272727272727273")
 if num1 == 24 and sign == '/' and num2 == 34:
-    print("24/34 = 0.7058823529411765")
+    print("24/34 = 0.7058823529411764705882352941")
 if num1 == 24 and sign == '/' and num2 == 35:
-    print("24/35 = 0.6857142857142857")
+    print("24/35 = 0.6857142857142857142857142857")
 if num1 == 24 and sign == '/' and num2 == 36:
-    print("24/36 = 0.6666666666666666")
+    print("24/36 = 0.6666666666666666666666666667")
 if num1 == 24 and sign == '/' and num2 == 37:
-    print("24/37 = 0.6486486486486487")
+    print("24/37 = 0.6486486486486486486486486486")
 if num1 == 24 and sign == '/' and num2 == 38:
-    print("24/38 = 0.631578947368421")
+    print("24/38 = 0.6315789473684210526315789474")
 if num1 == 24 and sign == '/' and num2 == 39:
-    print("24/39 = 0.6153846153846154")
+    print("24/39 = 0.6153846153846153846153846154")
 if num1 == 24 and sign == '/' and num2 == 40:
     print("24/40 = 0.6")
 if num1 == 24 and sign == '/' and num2 == 41:
-    print("24/41 = 0.5853658536585366")
+    print("24/41 = 0.5853658536585365853658536585")
 if num1 == 24 and sign == '/' and num2 == 42:
-    print("24/42 = 0.5714285714285714")
+    print("24/42 = 0.5714285714285714285714285714")
 if num1 == 24 and sign == '/' and num2 == 43:
-    print("24/43 = 0.5581395348837209")
+    print("24/43 = 0.5581395348837209302325581395")
 if num1 == 24 and sign == '/' and num2 == 44:
-    print("24/44 = 0.5454545454545454")
+    print("24/44 = 0.5454545454545454545454545455")
 if num1 == 24 and sign == '/' and num2 == 45:
-    print("24/45 = 0.5333333333333333")
+    print("24/45 = 0.5333333333333333333333333333")
 if num1 == 24 and sign == '/' and num2 == 46:
-    print("24/46 = 0.5217391304347826")
+    print("24/46 = 0.5217391304347826086956521739")
 if num1 == 24 and sign == '/' and num2 == 47:
-    print("24/47 = 0.5106382978723404")
+    print("24/47 = 0.5106382978723404255319148936")
 if num1 == 24 and sign == '/' and num2 == 48:
     print("24/48 = 0.5")
 if num1 == 24 and sign == '/' and num2 == 49:
-    print("24/49 = 0.4897959183673469")
+    print("24/49 = 0.4897959183673469387755102041")
 if num1 == 24 and sign == '/' and num2 == 50:
     print("24/50 = 0.48")
 if num1 == 25 and sign == '/' and num2 == 0:
     print("25/0 = Inf")
 if num1 == 25 and sign == '/' and num2 == 1:
-    print("25/1 = 25.0")
+    print("25/1 = 25")
 if num1 == 25 and sign == '/' and num2 == 2:
     print("25/2 = 12.5")
 if num1 == 25 and sign == '/' and num2 == 3:
-    print("25/3 = 8.333333333333334")
+    print("25/3 = 8.333333333333333333333333333")
 if num1 == 25 and sign == '/' and num2 == 4:
     print("25/4 = 6.25")
 if num1 == 25 and sign == '/' and num2 == 5:
-    print("25/5 = 5.0")
+    print("25/5 = 5")
 if num1 == 25 and sign == '/' and num2 == 6:
-    print("25/6 = 4.166666666666667")
+    print("25/6 = 4.166666666666666666666666667")
 if num1 == 25 and sign == '/' and num2 == 7:
-    print("25/7 = 3.5714285714285716")
+    print("25/7 = 3.571428571428571428571428571")
 if num1 == 25 and sign == '/' and num2 == 8:
     print("25/8 = 3.125")
 if num1 == 25 and sign == '/' and num2 == 9:
-    print("25/9 = 2.7777777777777777")
+    print("25/9 = 2.777777777777777777777777778")
 if num1 == 25 and sign == '/' and num2 == 10:
     print("25/10 = 2.5")
 if num1 == 25 and sign == '/' and num2 == 11:
-    print("25/11 = 2.272727272727273")
+    print("25/11 = 2.272727272727272727272727273")
 if num1 == 25 and sign == '/' and num2 == 12:
-    print("25/12 = 2.0833333333333335")
+    print("25/12 = 2.083333333333333333333333333")
 if num1 == 25 and sign == '/' and num2 == 13:
-    print("25/13 = 1.9230769230769231")
+    print("25/13 = 1.923076923076923076923076923")
 if num1 == 25 and sign == '/' and num2 == 14:
-    print("25/14 = 1.7857142857142858")
+    print("25/14 = 1.785714285714285714285714286")
 if num1 == 25 and sign == '/' and num2 == 15:
-    print("25/15 = 1.6666666666666667")
+    print("25/15 = 1.666666666666666666666666667")
 if num1 == 25 and sign == '/' and num2 == 16:
     print("25/16 = 1.5625")
 if num1 == 25 and sign == '/' and num2 == 17:
-    print("25/17 = 1.4705882352941178")
+    print("25/17 = 1.470588235294117647058823529")
 if num1 == 25 and sign == '/' and num2 == 18:
-    print("25/18 = 1.3888888888888888")
+    print("25/18 = 1.388888888888888888888888889")
 if num1 == 25 and sign == '/' and num2 == 19:
-    print("25/19 = 1.3157894736842106")
+    print("25/19 = 1.315789473684210526315789474")
 if num1 == 25 and sign == '/' and num2 == 20:
     print("25/20 = 1.25")
 if num1 == 25 and sign == '/' and num2 == 21:
-    print("25/21 = 1.1904761904761905")
+    print("25/21 = 1.190476190476190476190476190")
 if num1 == 25 and sign == '/' and num2 == 22:
-    print("25/22 = 1.1363636363636365")
+    print("25/22 = 1.136363636363636363636363636")
 if num1 == 25 and sign == '/' and num2 == 23:
-    print("25/23 = 1.0869565217391304")
+    print("25/23 = 1.086956521739130434782608696")
 if num1 == 25 and sign == '/' and num2 == 24:
-    print("25/24 = 1.0416666666666667")
+    print("25/24 = 1.041666666666666666666666667")
 if num1 == 25 and sign == '/' and num2 == 25:
-    print("25/25 = 1.0")
+    print("25/25 = 1")
 if num1 == 25 and sign == '/' and num2 == 26:
-    print("25/26 = 0.9615384615384616")
+    print("25/26 = 0.9615384615384615384615384615")
 if num1 == 25 and sign == '/' and num2 == 27:
-    print("25/27 = 0.9259259259259259")
+    print("25/27 = 0.9259259259259259259259259259")
 if num1 == 25 and sign == '/' and num2 == 28:
-    print("25/28 = 0.8928571428571429")
+    print("25/28 = 0.8928571428571428571428571429")
 if num1 == 25 and sign == '/' and num2 == 29:
-    print("25/29 = 0.8620689655172413")
+    print("25/29 = 0.8620689655172413793103448276")
 if num1 == 25 and sign == '/' and num2 == 30:
-    print("25/30 = 0.8333333333333334")
+    print("25/30 = 0.8333333333333333333333333333")
 if num1 == 25 and sign == '/' and num2 == 31:
-    print("25/31 = 0.8064516129032258")
+    print("25/31 = 0.8064516129032258064516129032")
 if num1 == 25 and sign == '/' and num2 == 32:
     print("25/32 = 0.78125")
 if num1 == 25 and sign == '/' and num2 == 33:
-    print("25/33 = 0.7575757575757576")
+    print("25/33 = 0.7575757575757575757575757576")
 if num1 == 25 and sign == '/' and num2 == 34:
-    print("25/34 = 0.7352941176470589")
+    print("25/34 = 0.7352941176470588235294117647")
 if num1 == 25 and sign == '/' and num2 == 35:
-    print("25/35 = 0.7142857142857143")
+    print("25/35 = 0.7142857142857142857142857143")
 if num1 == 25 and sign == '/' and num2 == 36:
-    print("25/36 = 0.6944444444444444")
+    print("25/36 = 0.6944444444444444444444444444")
 if num1 == 25 and sign == '/' and num2 == 37:
-    print("25/37 = 0.6756756756756757")
+    print("25/37 = 0.6756756756756756756756756757")
 if num1 == 25 and sign == '/' and num2 == 38:
-    print("25/38 = 0.6578947368421053")
+    print("25/38 = 0.6578947368421052631578947368")
 if num1 == 25 and sign == '/' and num2 == 39:
-    print("25/39 = 0.6410256410256411")
+    print("25/39 = 0.6410256410256410256410256410")
 if num1 == 25 and sign == '/' and num2 == 40:
     print("25/40 = 0.625")
 if num1 == 25 and sign == '/' and num2 == 41:
-    print("25/41 = 0.6097560975609756")
+    print("25/41 = 0.6097560975609756097560975610")
 if num1 == 25 and sign == '/' and num2 == 42:
-    print("25/42 = 0.5952380952380952")
+    print("25/42 = 0.5952380952380952380952380952")
 if num1 == 25 and sign == '/' and num2 == 43:
-    print("25/43 = 0.5813953488372093")
+    print("25/43 = 0.5813953488372093023255813953")
 if num1 == 25 and sign == '/' and num2 == 44:
-    print("25/44 = 0.5681818181818182")
+    print("25/44 = 0.5681818181818181818181818182")
 if num1 == 25 and sign == '/' and num2 == 45:
-    print("25/45 = 0.5555555555555556")
+    print("25/45 = 0.5555555555555555555555555556")
 if num1 == 25 and sign == '/' and num2 == 46:
-    print("25/46 = 0.5434782608695652")
+    print("25/46 = 0.5434782608695652173913043478")
 if num1 == 25 and sign == '/' and num2 == 47:
-    print("25/47 = 0.5319148936170213")
+    print("25/47 = 0.5319148936170212765957446809")
 if num1 == 25 and sign == '/' and num2 == 48:
-    print("25/48 = 0.5208333333333334")
+    print("25/48 = 0.5208333333333333333333333333")
 if num1 == 25 and sign == '/' and num2 == 49:
-    print("25/49 = 0.5102040816326531")
+    print("25/49 = 0.5102040816326530612244897959")
 if num1 == 25 and sign == '/' and num2 == 50:
     print("25/50 = 0.5")
 if num1 == 26 and sign == '/' and num2 == 0:
     print("26/0 = Inf")
 if num1 == 26 and sign == '/' and num2 == 1:
-    print("26/1 = 26.0")
+    print("26/1 = 26")
 if num1 == 26 and sign == '/' and num2 == 2:
-    print("26/2 = 13.0")
+    print("26/2 = 13")
 if num1 == 26 and sign == '/' and num2 == 3:
-    print("26/3 = 8.666666666666666")
+    print("26/3 = 8.666666666666666666666666667")
 if num1 == 26 and sign == '/' and num2 == 4:
     print("26/4 = 6.5")
 if num1 == 26 and sign == '/' and num2 == 5:
     print("26/5 = 5.2")
 if num1 == 26 and sign == '/' and num2 == 6:
-    print("26/6 = 4.333333333333333")
+    print("26/6 = 4.333333333333333333333333333")
 if num1 == 26 and sign == '/' and num2 == 7:
-    print("26/7 = 3.7142857142857144")
+    print("26/7 = 3.714285714285714285714285714")
 if num1 == 26 and sign == '/' and num2 == 8:
     print("26/8 = 3.25")
 if num1 == 26 and sign == '/' and num2 == 9:
-    print("26/9 = 2.888888888888889")
+    print("26/9 = 2.888888888888888888888888889")
 if num1 == 26 and sign == '/' and num2 == 10:
     print("26/10 = 2.6")
 if num1 == 26 and sign == '/' and num2 == 11:
-    print("26/11 = 2.3636363636363638")
+    print("26/11 = 2.363636363636363636363636364")
 if num1 == 26 and sign == '/' and num2 == 12:
-    print("26/12 = 2.1666666666666665")
+    print("26/12 = 2.166666666666666666666666667")
 if num1 == 26 and sign == '/' and num2 == 13:
-    print("26/13 = 2.0")
+    print("26/13 = 2")
 if num1 == 26 and sign == '/' and num2 == 14:
-    print("26/14 = 1.8571428571428572")
+    print("26/14 = 1.857142857142857142857142857")
 if num1 == 26 and sign == '/' and num2 == 15:
-    print("26/15 = 1.7333333333333334")
+    print("26/15 = 1.733333333333333333333333333")
 if num1 == 26 and sign == '/' and num2 == 16:
     print("26/16 = 1.625")
 if num1 == 26 and sign == '/' and num2 == 17:
-    print("26/17 = 1.5294117647058822")
+    print("26/17 = 1.529411764705882352941176471")
 if num1 == 26 and sign == '/' and num2 == 18:
-    print("26/18 = 1.4444444444444444")
+    print("26/18 = 1.444444444444444444444444444")
 if num1 == 26 and sign == '/' and num2 == 19:
-    print("26/19 = 1.368421052631579")
+    print("26/19 = 1.368421052631578947368421053")
 if num1 == 26 and sign == '/' and num2 == 20:
     print("26/20 = 1.3")
 if num1 == 26 and sign == '/' and num2 == 21:
-    print("26/21 = 1.2380952380952381")
+    print("26/21 = 1.238095238095238095238095238")
 if num1 == 26 and sign == '/' and num2 == 22:
-    print("26/22 = 1.1818181818181819")
+    print("26/22 = 1.181818181818181818181818182")
 if num1 == 26 and sign == '/' and num2 == 23:
-    print("26/23 = 1.1304347826086956")
+    print("26/23 = 1.130434782608695652173913043")
 if num1 == 26 and sign == '/' and num2 == 24:
-    print("26/24 = 1.0833333333333333")
+    print("26/24 = 1.083333333333333333333333333")
 if num1 == 26 and sign == '/' and num2 == 25:
     print("26/25 = 1.04")
 if num1 == 26 and sign == '/' and num2 == 26:
-    print("26/26 = 1.0")
+    print("26/26 = 1")
 if num1 == 26 and sign == '/' and num2 == 27:
-    print("26/27 = 0.9629629629629629")
+    print("26/27 = 0.9629629629629629629629629630")
 if num1 == 26 and sign == '/' and num2 == 28:
-    print("26/28 = 0.9285714285714286")
+    print("26/28 = 0.9285714285714285714285714286")
 if num1 == 26 and sign == '/' and num2 == 29:
-    print("26/29 = 0.896551724137931")
+    print("26/29 = 0.8965517241379310344827586207")
 if num1 == 26 and sign == '/' and num2 == 30:
-    print("26/30 = 0.8666666666666667")
+    print("26/30 = 0.8666666666666666666666666667")
 if num1 == 26 and sign == '/' and num2 == 31:
-    print("26/31 = 0.8387096774193549")
+    print("26/31 = 0.8387096774193548387096774194")
 if num1 == 26 and sign == '/' and num2 == 32:
     print("26/32 = 0.8125")
 if num1 == 26 and sign == '/' and num2 == 33:
-    print("26/33 = 0.7878787878787878")
+    print("26/33 = 0.7878787878787878787878787879")
 if num1 == 26 and sign == '/' and num2 == 34:
-    print("26/34 = 0.7647058823529411")
+    print("26/34 = 0.7647058823529411764705882353")
 if num1 == 26 and sign == '/' and num2 == 35:
-    print("26/35 = 0.7428571428571429")
+    print("26/35 = 0.7428571428571428571428571429")
 if num1 == 26 and sign == '/' and num2 == 36:
-    print("26/36 = 0.7222222222222222")
+    print("26/36 = 0.7222222222222222222222222222")
 if num1 == 26 and sign == '/' and num2 == 37:
-    print("26/37 = 0.7027027027027027")
+    print("26/37 = 0.7027027027027027027027027027")
 if num1 == 26 and sign == '/' and num2 == 38:
-    print("26/38 = 0.6842105263157895")
+    print("26/38 = 0.6842105263157894736842105263")
 if num1 == 26 and sign == '/' and num2 == 39:
-    print("26/39 = 0.6666666666666666")
+    print("26/39 = 0.6666666666666666666666666667")
 if num1 == 26 and sign == '/' and num2 == 40:
     print("26/40 = 0.65")
 if num1 == 26 and sign == '/' and num2 == 41:
-    print("26/41 = 0.6341463414634146")
+    print("26/41 = 0.6341463414634146341463414634")
 if num1 == 26 and sign == '/' and num2 == 42:
-    print("26/42 = 0.6190476190476191")
+    print("26/42 = 0.6190476190476190476190476190")
 if num1 == 26 and sign == '/' and num2 == 43:
-    print("26/43 = 0.6046511627906976")
+    print("26/43 = 0.6046511627906976744186046512")
 if num1 == 26 and sign == '/' and num2 == 44:
-    print("26/44 = 0.5909090909090909")
+    print("26/44 = 0.5909090909090909090909090909")
 if num1 == 26 and sign == '/' and num2 == 45:
-    print("26/45 = 0.5777777777777777")
+    print("26/45 = 0.5777777777777777777777777778")
 if num1 == 26 and sign == '/' and num2 == 46:
-    print("26/46 = 0.5652173913043478")
+    print("26/46 = 0.5652173913043478260869565217")
 if num1 == 26 and sign == '/' and num2 == 47:
-    print("26/47 = 0.5531914893617021")
+    print("26/47 = 0.5531914893617021276595744681")
 if num1 == 26 and sign == '/' and num2 == 48:
-    print("26/48 = 0.5416666666666666")
+    print("26/48 = 0.5416666666666666666666666667")
 if num1 == 26 and sign == '/' and num2 == 49:
-    print("26/49 = 0.5306122448979592")
+    print("26/49 = 0.5306122448979591836734693878")
 if num1 == 26 and sign == '/' and num2 == 50:
     print("26/50 = 0.52")
 if num1 == 27 and sign == '/' and num2 == 0:
     print("27/0 = Inf")
 if num1 == 27 and sign == '/' and num2 == 1:
-    print("27/1 = 27.0")
+    print("27/1 = 27")
 if num1 == 27 and sign == '/' and num2 == 2:
     print("27/2 = 13.5")
 if num1 == 27 and sign == '/' and num2 == 3:
-    print("27/3 = 9.0")
+    print("27/3 = 9")
 if num1 == 27 and sign == '/' and num2 == 4:
     print("27/4 = 6.75")
 if num1 == 27 and sign == '/' and num2 == 5:
@@ -13183,611 +13183,611 @@ if num1 == 27 and sign == '/' and num2 == 5:
 if num1 == 27 and sign == '/' and num2 == 6:
     print("27/6 = 4.5")
 if num1 == 27 and sign == '/' and num2 == 7:
-    print("27/7 = 3.857142857142857")
+    print("27/7 = 3.857142857142857142857142857")
 if num1 == 27 and sign == '/' and num2 == 8:
     print("27/8 = 3.375")
 if num1 == 27 and sign == '/' and num2 == 9:
-    print("27/9 = 3.0")
+    print("27/9 = 3")
 if num1 == 27 and sign == '/' and num2 == 10:
     print("27/10 = 2.7")
 if num1 == 27 and sign == '/' and num2 == 11:
-    print("27/11 = 2.4545454545454546")
+    print("27/11 = 2.454545454545454545454545455")
 if num1 == 27 and sign == '/' and num2 == 12:
     print("27/12 = 2.25")
 if num1 == 27 and sign == '/' and num2 == 13:
-    print("27/13 = 2.076923076923077")
+    print("27/13 = 2.076923076923076923076923077")
 if num1 == 27 and sign == '/' and num2 == 14:
-    print("27/14 = 1.9285714285714286")
+    print("27/14 = 1.928571428571428571428571429")
 if num1 == 27 and sign == '/' and num2 == 15:
     print("27/15 = 1.8")
 if num1 == 27 and sign == '/' and num2 == 16:
     print("27/16 = 1.6875")
 if num1 == 27 and sign == '/' and num2 == 17:
-    print("27/17 = 1.588235294117647")
+    print("27/17 = 1.588235294117647058823529412")
 if num1 == 27 and sign == '/' and num2 == 18:
     print("27/18 = 1.5")
 if num1 == 27 and sign == '/' and num2 == 19:
-    print("27/19 = 1.4210526315789473")
+    print("27/19 = 1.421052631578947368421052632")
 if num1 == 27 and sign == '/' and num2 == 20:
     print("27/20 = 1.35")
 if num1 == 27 and sign == '/' and num2 == 21:
-    print("27/21 = 1.2857142857142858")
+    print("27/21 = 1.285714285714285714285714286")
 if num1 == 27 and sign == '/' and num2 == 22:
-    print("27/22 = 1.2272727272727273")
+    print("27/22 = 1.227272727272727272727272727")
 if num1 == 27 and sign == '/' and num2 == 23:
-    print("27/23 = 1.173913043478261")
+    print("27/23 = 1.173913043478260869565217391")
 if num1 == 27 and sign == '/' and num2 == 24:
     print("27/24 = 1.125")
 if num1 == 27 and sign == '/' and num2 == 25:
     print("27/25 = 1.08")
 if num1 == 27 and sign == '/' and num2 == 26:
-    print("27/26 = 1.0384615384615385")
+    print("27/26 = 1.038461538461538461538461538")
 if num1 == 27 and sign == '/' and num2 == 27:
-    print("27/27 = 1.0")
+    print("27/27 = 1")
 if num1 == 27 and sign == '/' and num2 == 28:
-    print("27/28 = 0.9642857142857143")
+    print("27/28 = 0.9642857142857142857142857143")
 if num1 == 27 and sign == '/' and num2 == 29:
-    print("27/29 = 0.9310344827586207")
+    print("27/29 = 0.9310344827586206896551724138")
 if num1 == 27 and sign == '/' and num2 == 30:
     print("27/30 = 0.9")
 if num1 == 27 and sign == '/' and num2 == 31:
-    print("27/31 = 0.8709677419354839")
+    print("27/31 = 0.8709677419354838709677419355")
 if num1 == 27 and sign == '/' and num2 == 32:
     print("27/32 = 0.84375")
 if num1 == 27 and sign == '/' and num2 == 33:
-    print("27/33 = 0.8181818181818182")
+    print("27/33 = 0.8181818181818181818181818182")
 if num1 == 27 and sign == '/' and num2 == 34:
-    print("27/34 = 0.7941176470588235")
+    print("27/34 = 0.7941176470588235294117647059")
 if num1 == 27 and sign == '/' and num2 == 35:
-    print("27/35 = 0.7714285714285715")
+    print("27/35 = 0.7714285714285714285714285714")
 if num1 == 27 and sign == '/' and num2 == 36:
     print("27/36 = 0.75")
 if num1 == 27 and sign == '/' and num2 == 37:
-    print("27/37 = 0.7297297297297297")
+    print("27/37 = 0.7297297297297297297297297297")
 if num1 == 27 and sign == '/' and num2 == 38:
-    print("27/38 = 0.7105263157894737")
+    print("27/38 = 0.7105263157894736842105263158")
 if num1 == 27 and sign == '/' and num2 == 39:
-    print("27/39 = 0.6923076923076923")
+    print("27/39 = 0.6923076923076923076923076923")
 if num1 == 27 and sign == '/' and num2 == 40:
     print("27/40 = 0.675")
 if num1 == 27 and sign == '/' and num2 == 41:
-    print("27/41 = 0.6585365853658537")
+    print("27/41 = 0.6585365853658536585365853659")
 if num1 == 27 and sign == '/' and num2 == 42:
-    print("27/42 = 0.6428571428571429")
+    print("27/42 = 0.6428571428571428571428571429")
 if num1 == 27 and sign == '/' and num2 == 43:
-    print("27/43 = 0.627906976744186")
+    print("27/43 = 0.6279069767441860465116279070")
 if num1 == 27 and sign == '/' and num2 == 44:
-    print("27/44 = 0.6136363636363636")
+    print("27/44 = 0.6136363636363636363636363636")
 if num1 == 27 and sign == '/' and num2 == 45:
     print("27/45 = 0.6")
 if num1 == 27 and sign == '/' and num2 == 46:
-    print("27/46 = 0.5869565217391305")
+    print("27/46 = 0.5869565217391304347826086957")
 if num1 == 27 and sign == '/' and num2 == 47:
-    print("27/47 = 0.574468085106383")
+    print("27/47 = 0.5744680851063829787234042553")
 if num1 == 27 and sign == '/' and num2 == 48:
     print("27/48 = 0.5625")
 if num1 == 27 and sign == '/' and num2 == 49:
-    print("27/49 = 0.5510204081632653")
+    print("27/49 = 0.5510204081632653061224489796")
 if num1 == 27 and sign == '/' and num2 == 50:
     print("27/50 = 0.54")
 if num1 == 28 and sign == '/' and num2 == 0:
     print("28/0 = Inf")
 if num1 == 28 and sign == '/' and num2 == 1:
-    print("28/1 = 28.0")
+    print("28/1 = 28")
 if num1 == 28 and sign == '/' and num2 == 2:
-    print("28/2 = 14.0")
+    print("28/2 = 14")
 if num1 == 28 and sign == '/' and num2 == 3:
-    print("28/3 = 9.333333333333334")
+    print("28/3 = 9.333333333333333333333333333")
 if num1 == 28 and sign == '/' and num2 == 4:
-    print("28/4 = 7.0")
+    print("28/4 = 7")
 if num1 == 28 and sign == '/' and num2 == 5:
     print("28/5 = 5.6")
 if num1 == 28 and sign == '/' and num2 == 6:
-    print("28/6 = 4.666666666666667")
+    print("28/6 = 4.666666666666666666666666667")
 if num1 == 28 and sign == '/' and num2 == 7:
-    print("28/7 = 4.0")
+    print("28/7 = 4")
 if num1 == 28 and sign == '/' and num2 == 8:
     print("28/8 = 3.5")
 if num1 == 28 and sign == '/' and num2 == 9:
-    print("28/9 = 3.111111111111111")
+    print("28/9 = 3.111111111111111111111111111")
 if num1 == 28 and sign == '/' and num2 == 10:
     print("28/10 = 2.8")
 if num1 == 28 and sign == '/' and num2 == 11:
-    print("28/11 = 2.5454545454545454")
+    print("28/11 = 2.545454545454545454545454545")
 if num1 == 28 and sign == '/' and num2 == 12:
-    print("28/12 = 2.3333333333333335")
+    print("28/12 = 2.333333333333333333333333333")
 if num1 == 28 and sign == '/' and num2 == 13:
-    print("28/13 = 2.1538461538461537")
+    print("28/13 = 2.153846153846153846153846154")
 if num1 == 28 and sign == '/' and num2 == 14:
-    print("28/14 = 2.0")
+    print("28/14 = 2")
 if num1 == 28 and sign == '/' and num2 == 15:
-    print("28/15 = 1.8666666666666667")
+    print("28/15 = 1.866666666666666666666666667")
 if num1 == 28 and sign == '/' and num2 == 16:
     print("28/16 = 1.75")
 if num1 == 28 and sign == '/' and num2 == 17:
-    print("28/17 = 1.6470588235294117")
+    print("28/17 = 1.647058823529411764705882353")
 if num1 == 28 and sign == '/' and num2 == 18:
-    print("28/18 = 1.5555555555555556")
+    print("28/18 = 1.555555555555555555555555556")
 if num1 == 28 and sign == '/' and num2 == 19:
-    print("28/19 = 1.4736842105263157")
+    print("28/19 = 1.473684210526315789473684211")
 if num1 == 28 and sign == '/' and num2 == 20:
     print("28/20 = 1.4")
 if num1 == 28 and sign == '/' and num2 == 21:
-    print("28/21 = 1.3333333333333333")
+    print("28/21 = 1.333333333333333333333333333")
 if num1 == 28 and sign == '/' and num2 == 22:
-    print("28/22 = 1.2727272727272727")
+    print("28/22 = 1.272727272727272727272727273")
 if num1 == 28 and sign == '/' and num2 == 23:
-    print("28/23 = 1.2173913043478262")
+    print("28/23 = 1.217391304347826086956521739")
 if num1 == 28 and sign == '/' and num2 == 24:
-    print("28/24 = 1.1666666666666667")
+    print("28/24 = 1.166666666666666666666666667")
 if num1 == 28 and sign == '/' and num2 == 25:
     print("28/25 = 1.12")
 if num1 == 28 and sign == '/' and num2 == 26:
-    print("28/26 = 1.0769230769230769")
+    print("28/26 = 1.076923076923076923076923077")
 if num1 == 28 and sign == '/' and num2 == 27:
-    print("28/27 = 1.037037037037037")
+    print("28/27 = 1.037037037037037037037037037")
 if num1 == 28 and sign == '/' and num2 == 28:
-    print("28/28 = 1.0")
+    print("28/28 = 1")
 if num1 == 28 and sign == '/' and num2 == 29:
-    print("28/29 = 0.9655172413793104")
+    print("28/29 = 0.9655172413793103448275862069")
 if num1 == 28 and sign == '/' and num2 == 30:
-    print("28/30 = 0.9333333333333333")
+    print("28/30 = 0.9333333333333333333333333333")
 if num1 == 28 and sign == '/' and num2 == 31:
-    print("28/31 = 0.9032258064516129")
+    print("28/31 = 0.9032258064516129032258064516")
 if num1 == 28 and sign == '/' and num2 == 32:
     print("28/32 = 0.875")
 if num1 == 28 and sign == '/' and num2 == 33:
-    print("28/33 = 0.8484848484848485")
+    print("28/33 = 0.8484848484848484848484848485")
 if num1 == 28 and sign == '/' and num2 == 34:
-    print("28/34 = 0.8235294117647058")
+    print("28/34 = 0.8235294117647058823529411765")
 if num1 == 28 and sign == '/' and num2 == 35:
     print("28/35 = 0.8")
 if num1 == 28 and sign == '/' and num2 == 36:
-    print("28/36 = 0.7777777777777778")
+    print("28/36 = 0.7777777777777777777777777778")
 if num1 == 28 and sign == '/' and num2 == 37:
-    print("28/37 = 0.7567567567567568")
+    print("28/37 = 0.7567567567567567567567567568")
 if num1 == 28 and sign == '/' and num2 == 38:
-    print("28/38 = 0.7368421052631579")
+    print("28/38 = 0.7368421052631578947368421053")
 if num1 == 28 and sign == '/' and num2 == 39:
-    print("28/39 = 0.717948717948718")
+    print("28/39 = 0.7179487179487179487179487179")
 if num1 == 28 and sign == '/' and num2 == 40:
     print("28/40 = 0.7")
 if num1 == 28 and sign == '/' and num2 == 41:
-    print("28/41 = 0.6829268292682927")
+    print("28/41 = 0.6829268292682926829268292683")
 if num1 == 28 and sign == '/' and num2 == 42:
-    print("28/42 = 0.6666666666666666")
+    print("28/42 = 0.6666666666666666666666666667")
 if num1 == 28 and sign == '/' and num2 == 43:
-    print("28/43 = 0.6511627906976745")
+    print("28/43 = 0.6511627906976744186046511628")
 if num1 == 28 and sign == '/' and num2 == 44:
-    print("28/44 = 0.6363636363636364")
+    print("28/44 = 0.6363636363636363636363636364")
 if num1 == 28 and sign == '/' and num2 == 45:
-    print("28/45 = 0.6222222222222222")
+    print("28/45 = 0.6222222222222222222222222222")
 if num1 == 28 and sign == '/' and num2 == 46:
-    print("28/46 = 0.6086956521739131")
+    print("28/46 = 0.6086956521739130434782608696")
 if num1 == 28 and sign == '/' and num2 == 47:
-    print("28/47 = 0.5957446808510638")
+    print("28/47 = 0.5957446808510638297872340426")
 if num1 == 28 and sign == '/' and num2 == 48:
-    print("28/48 = 0.5833333333333334")
+    print("28/48 = 0.5833333333333333333333333333")
 if num1 == 28 and sign == '/' and num2 == 49:
-    print("28/49 = 0.5714285714285714")
+    print("28/49 = 0.5714285714285714285714285714")
 if num1 == 28 and sign == '/' and num2 == 50:
     print("28/50 = 0.56")
 if num1 == 29 and sign == '/' and num2 == 0:
     print("29/0 = Inf")
 if num1 == 29 and sign == '/' and num2 == 1:
-    print("29/1 = 29.0")
+    print("29/1 = 29")
 if num1 == 29 and sign == '/' and num2 == 2:
     print("29/2 = 14.5")
 if num1 == 29 and sign == '/' and num2 == 3:
-    print("29/3 = 9.666666666666666")
+    print("29/3 = 9.666666666666666666666666667")
 if num1 == 29 and sign == '/' and num2 == 4:
     print("29/4 = 7.25")
 if num1 == 29 and sign == '/' and num2 == 5:
     print("29/5 = 5.8")
 if num1 == 29 and sign == '/' and num2 == 6:
-    print("29/6 = 4.833333333333333")
+    print("29/6 = 4.833333333333333333333333333")
 if num1 == 29 and sign == '/' and num2 == 7:
-    print("29/7 = 4.142857142857143")
+    print("29/7 = 4.142857142857142857142857143")
 if num1 == 29 and sign == '/' and num2 == 8:
     print("29/8 = 3.625")
 if num1 == 29 and sign == '/' and num2 == 9:
-    print("29/9 = 3.2222222222222223")
+    print("29/9 = 3.222222222222222222222222222")
 if num1 == 29 and sign == '/' and num2 == 10:
     print("29/10 = 2.9")
 if num1 == 29 and sign == '/' and num2 == 11:
-    print("29/11 = 2.6363636363636362")
+    print("29/11 = 2.636363636363636363636363636")
 if num1 == 29 and sign == '/' and num2 == 12:
-    print("29/12 = 2.4166666666666665")
+    print("29/12 = 2.416666666666666666666666667")
 if num1 == 29 and sign == '/' and num2 == 13:
-    print("29/13 = 2.230769230769231")
+    print("29/13 = 2.230769230769230769230769231")
 if num1 == 29 and sign == '/' and num2 == 14:
-    print("29/14 = 2.0714285714285716")
+    print("29/14 = 2.071428571428571428571428571")
 if num1 == 29 and sign == '/' and num2 == 15:
-    print("29/15 = 1.9333333333333333")
+    print("29/15 = 1.933333333333333333333333333")
 if num1 == 29 and sign == '/' and num2 == 16:
     print("29/16 = 1.8125")
 if num1 == 29 and sign == '/' and num2 == 17:
-    print("29/17 = 1.7058823529411764")
+    print("29/17 = 1.705882352941176470588235294")
 if num1 == 29 and sign == '/' and num2 == 18:
-    print("29/18 = 1.6111111111111112")
+    print("29/18 = 1.611111111111111111111111111")
 if num1 == 29 and sign == '/' and num2 == 19:
-    print("29/19 = 1.5263157894736843")
+    print("29/19 = 1.526315789473684210526315789")
 if num1 == 29 and sign == '/' and num2 == 20:
     print("29/20 = 1.45")
 if num1 == 29 and sign == '/' and num2 == 21:
-    print("29/21 = 1.380952380952381")
+    print("29/21 = 1.380952380952380952380952381")
 if num1 == 29 and sign == '/' and num2 == 22:
-    print("29/22 = 1.3181818181818181")
+    print("29/22 = 1.318181818181818181818181818")
 if num1 == 29 and sign == '/' and num2 == 23:
-    print("29/23 = 1.2608695652173914")
+    print("29/23 = 1.260869565217391304347826087")
 if num1 == 29 and sign == '/' and num2 == 24:
-    print("29/24 = 1.2083333333333333")
+    print("29/24 = 1.208333333333333333333333333")
 if num1 == 29 and sign == '/' and num2 == 25:
     print("29/25 = 1.16")
 if num1 == 29 and sign == '/' and num2 == 26:
-    print("29/26 = 1.1153846153846154")
+    print("29/26 = 1.115384615384615384615384615")
 if num1 == 29 and sign == '/' and num2 == 27:
-    print("29/27 = 1.0740740740740742")
+    print("29/27 = 1.074074074074074074074074074")
 if num1 == 29 and sign == '/' and num2 == 28:
-    print("29/28 = 1.0357142857142858")
+    print("29/28 = 1.035714285714285714285714286")
 if num1 == 29 and sign == '/' and num2 == 29:
-    print("29/29 = 1.0")
+    print("29/29 = 1")
 if num1 == 29 and sign == '/' and num2 == 30:
-    print("29/30 = 0.9666666666666667")
+    print("29/30 = 0.9666666666666666666666666667")
 if num1 == 29 and sign == '/' and num2 == 31:
-    print("29/31 = 0.9354838709677419")
+    print("29/31 = 0.9354838709677419354838709677")
 if num1 == 29 and sign == '/' and num2 == 32:
     print("29/32 = 0.90625")
 if num1 == 29 and sign == '/' and num2 == 33:
-    print("29/33 = 0.8787878787878788")
+    print("29/33 = 0.8787878787878787878787878788")
 if num1 == 29 and sign == '/' and num2 == 34:
-    print("29/34 = 0.8529411764705882")
+    print("29/34 = 0.8529411764705882352941176471")
 if num1 == 29 and sign == '/' and num2 == 35:
-    print("29/35 = 0.8285714285714286")
+    print("29/35 = 0.8285714285714285714285714286")
 if num1 == 29 and sign == '/' and num2 == 36:
-    print("29/36 = 0.8055555555555556")
+    print("29/36 = 0.8055555555555555555555555556")
 if num1 == 29 and sign == '/' and num2 == 37:
-    print("29/37 = 0.7837837837837838")
+    print("29/37 = 0.7837837837837837837837837838")
 if num1 == 29 and sign == '/' and num2 == 38:
-    print("29/38 = 0.7631578947368421")
+    print("29/38 = 0.7631578947368421052631578947")
 if num1 == 29 and sign == '/' and num2 == 39:
-    print("29/39 = 0.7435897435897436")
+    print("29/39 = 0.7435897435897435897435897436")
 if num1 == 29 and sign == '/' and num2 == 40:
     print("29/40 = 0.725")
 if num1 == 29 and sign == '/' and num2 == 41:
-    print("29/41 = 0.7073170731707317")
+    print("29/41 = 0.7073170731707317073170731707")
 if num1 == 29 and sign == '/' and num2 == 42:
-    print("29/42 = 0.6904761904761905")
+    print("29/42 = 0.6904761904761904761904761905")
 if num1 == 29 and sign == '/' and num2 == 43:
-    print("29/43 = 0.6744186046511628")
+    print("29/43 = 0.6744186046511627906976744186")
 if num1 == 29 and sign == '/' and num2 == 44:
-    print("29/44 = 0.6590909090909091")
+    print("29/44 = 0.6590909090909090909090909091")
 if num1 == 29 and sign == '/' and num2 == 45:
-    print("29/45 = 0.6444444444444445")
+    print("29/45 = 0.6444444444444444444444444444")
 if num1 == 29 and sign == '/' and num2 == 46:
-    print("29/46 = 0.6304347826086957")
+    print("29/46 = 0.6304347826086956521739130435")
 if num1 == 29 and sign == '/' and num2 == 47:
-    print("29/47 = 0.6170212765957447")
+    print("29/47 = 0.6170212765957446808510638298")
 if num1 == 29 and sign == '/' and num2 == 48:
-    print("29/48 = 0.6041666666666666")
+    print("29/48 = 0.6041666666666666666666666667")
 if num1 == 29 and sign == '/' and num2 == 49:
-    print("29/49 = 0.5918367346938775")
+    print("29/49 = 0.5918367346938775510204081633")
 if num1 == 29 and sign == '/' and num2 == 50:
     print("29/50 = 0.58")
 if num1 == 30 and sign == '/' and num2 == 0:
     print("30/0 = Inf")
 if num1 == 30 and sign == '/' and num2 == 1:
-    print("30/1 = 30.0")
+    print("30/1 = 30")
 if num1 == 30 and sign == '/' and num2 == 2:
-    print("30/2 = 15.0")
+    print("30/2 = 15")
 if num1 == 30 and sign == '/' and num2 == 3:
-    print("30/3 = 10.0")
+    print("30/3 = 10")
 if num1 == 30 and sign == '/' and num2 == 4:
     print("30/4 = 7.5")
 if num1 == 30 and sign == '/' and num2 == 5:
-    print("30/5 = 6.0")
+    print("30/5 = 6")
 if num1 == 30 and sign == '/' and num2 == 6:
-    print("30/6 = 5.0")
+    print("30/6 = 5")
 if num1 == 30 and sign == '/' and num2 == 7:
-    print("30/7 = 4.285714285714286")
+    print("30/7 = 4.285714285714285714285714286")
 if num1 == 30 and sign == '/' and num2 == 8:
     print("30/8 = 3.75")
 if num1 == 30 and sign == '/' and num2 == 9:
-    print("30/9 = 3.3333333333333335")
+    print("30/9 = 3.333333333333333333333333333")
 if num1 == 30 and sign == '/' and num2 == 10:
-    print("30/10 = 3.0")
+    print("30/10 = 3")
 if num1 == 30 and sign == '/' and num2 == 11:
-    print("30/11 = 2.727272727272727")
+    print("30/11 = 2.727272727272727272727272727")
 if num1 == 30 and sign == '/' and num2 == 12:
     print("30/12 = 2.5")
 if num1 == 30 and sign == '/' and num2 == 13:
-    print("30/13 = 2.3076923076923075")
+    print("30/13 = 2.307692307692307692307692308")
 if num1 == 30 and sign == '/' and num2 == 14:
-    print("30/14 = 2.142857142857143")
+    print("30/14 = 2.142857142857142857142857143")
 if num1 == 30 and sign == '/' and num2 == 15:
-    print("30/15 = 2.0")
+    print("30/15 = 2")
 if num1 == 30 and sign == '/' and num2 == 16:
     print("30/16 = 1.875")
 if num1 == 30 and sign == '/' and num2 == 17:
-    print("30/17 = 1.7647058823529411")
+    print("30/17 = 1.764705882352941176470588235")
 if num1 == 30 and sign == '/' and num2 == 18:
-    print("30/18 = 1.6666666666666667")
+    print("30/18 = 1.666666666666666666666666667")
 if num1 == 30 and sign == '/' and num2 == 19:
-    print("30/19 = 1.5789473684210527")
+    print("30/19 = 1.578947368421052631578947368")
 if num1 == 30 and sign == '/' and num2 == 20:
     print("30/20 = 1.5")
 if num1 == 30 and sign == '/' and num2 == 21:
-    print("30/21 = 1.4285714285714286")
+    print("30/21 = 1.428571428571428571428571429")
 if num1 == 30 and sign == '/' and num2 == 22:
-    print("30/22 = 1.3636363636363635")
+    print("30/22 = 1.363636363636363636363636364")
 if num1 == 30 and sign == '/' and num2 == 23:
-    print("30/23 = 1.3043478260869565")
+    print("30/23 = 1.304347826086956521739130435")
 if num1 == 30 and sign == '/' and num2 == 24:
     print("30/24 = 1.25")
 if num1 == 30 and sign == '/' and num2 == 25:
     print("30/25 = 1.2")
 if num1 == 30 and sign == '/' and num2 == 26:
-    print("30/26 = 1.1538461538461537")
+    print("30/26 = 1.153846153846153846153846154")
 if num1 == 30 and sign == '/' and num2 == 27:
-    print("30/27 = 1.1111111111111112")
+    print("30/27 = 1.111111111111111111111111111")
 if num1 == 30 and sign == '/' and num2 == 28:
-    print("30/28 = 1.0714285714285714")
+    print("30/28 = 1.071428571428571428571428571")
 if num1 == 30 and sign == '/' and num2 == 29:
-    print("30/29 = 1.0344827586206897")
+    print("30/29 = 1.034482758620689655172413793")
 if num1 == 30 and sign == '/' and num2 == 30:
-    print("30/30 = 1.0")
+    print("30/30 = 1")
 if num1 == 30 and sign == '/' and num2 == 31:
-    print("30/31 = 0.967741935483871")
+    print("30/31 = 0.9677419354838709677419354839")
 if num1 == 30 and sign == '/' and num2 == 32:
     print("30/32 = 0.9375")
 if num1 == 30 and sign == '/' and num2 == 33:
-    print("30/33 = 0.9090909090909091")
+    print("30/33 = 0.9090909090909090909090909091")
 if num1 == 30 and sign == '/' and num2 == 34:
-    print("30/34 = 0.8823529411764706")
+    print("30/34 = 0.8823529411764705882352941176")
 if num1 == 30 and sign == '/' and num2 == 35:
-    print("30/35 = 0.8571428571428571")
+    print("30/35 = 0.8571428571428571428571428571")
 if num1 == 30 and sign == '/' and num2 == 36:
-    print("30/36 = 0.8333333333333334")
+    print("30/36 = 0.8333333333333333333333333333")
 if num1 == 30 and sign == '/' and num2 == 37:
-    print("30/37 = 0.8108108108108109")
+    print("30/37 = 0.8108108108108108108108108108")
 if num1 == 30 and sign == '/' and num2 == 38:
-    print("30/38 = 0.7894736842105263")
+    print("30/38 = 0.7894736842105263157894736842")
 if num1 == 30 and sign == '/' and num2 == 39:
-    print("30/39 = 0.7692307692307693")
+    print("30/39 = 0.7692307692307692307692307692")
 if num1 == 30 and sign == '/' and num2 == 40:
     print("30/40 = 0.75")
 if num1 == 30 and sign == '/' and num2 == 41:
-    print("30/41 = 0.7317073170731707")
+    print("30/41 = 0.7317073170731707317073170732")
 if num1 == 30 and sign == '/' and num2 == 42:
-    print("30/42 = 0.7142857142857143")
+    print("30/42 = 0.7142857142857142857142857143")
 if num1 == 30 and sign == '/' and num2 == 43:
-    print("30/43 = 0.6976744186046512")
+    print("30/43 = 0.6976744186046511627906976744")
 if num1 == 30 and sign == '/' and num2 == 44:
-    print("30/44 = 0.6818181818181818")
+    print("30/44 = 0.6818181818181818181818181818")
 if num1 == 30 and sign == '/' and num2 == 45:
-    print("30/45 = 0.6666666666666666")
+    print("30/45 = 0.6666666666666666666666666667")
 if num1 == 30 and sign == '/' and num2 == 46:
-    print("30/46 = 0.6521739130434783")
+    print("30/46 = 0.6521739130434782608695652174")
 if num1 == 30 and sign == '/' and num2 == 47:
-    print("30/47 = 0.6382978723404256")
+    print("30/47 = 0.6382978723404255319148936170")
 if num1 == 30 and sign == '/' and num2 == 48:
     print("30/48 = 0.625")
 if num1 == 30 and sign == '/' and num2 == 49:
-    print("30/49 = 0.6122448979591837")
+    print("30/49 = 0.6122448979591836734693877551")
 if num1 == 30 and sign == '/' and num2 == 50:
     print("30/50 = 0.6")
 if num1 == 31 and sign == '/' and num2 == 0:
     print("31/0 = Inf")
 if num1 == 31 and sign == '/' and num2 == 1:
-    print("31/1 = 31.0")
+    print("31/1 = 31")
 if num1 == 31 and sign == '/' and num2 == 2:
     print("31/2 = 15.5")
 if num1 == 31 and sign == '/' and num2 == 3:
-    print("31/3 = 10.333333333333334")
+    print("31/3 = 10.33333333333333333333333333")
 if num1 == 31 and sign == '/' and num2 == 4:
     print("31/4 = 7.75")
 if num1 == 31 and sign == '/' and num2 == 5:
     print("31/5 = 6.2")
 if num1 == 31 and sign == '/' and num2 == 6:
-    print("31/6 = 5.166666666666667")
+    print("31/6 = 5.166666666666666666666666667")
 if num1 == 31 and sign == '/' and num2 == 7:
-    print("31/7 = 4.428571428571429")
+    print("31/7 = 4.428571428571428571428571429")
 if num1 == 31 and sign == '/' and num2 == 8:
     print("31/8 = 3.875")
 if num1 == 31 and sign == '/' and num2 == 9:
-    print("31/9 = 3.4444444444444446")
+    print("31/9 = 3.444444444444444444444444444")
 if num1 == 31 and sign == '/' and num2 == 10:
     print("31/10 = 3.1")
 if num1 == 31 and sign == '/' and num2 == 11:
-    print("31/11 = 2.8181818181818183")
+    print("31/11 = 2.818181818181818181818181818")
 if num1 == 31 and sign == '/' and num2 == 12:
-    print("31/12 = 2.5833333333333335")
+    print("31/12 = 2.583333333333333333333333333")
 if num1 == 31 and sign == '/' and num2 == 13:
-    print("31/13 = 2.3846153846153846")
+    print("31/13 = 2.384615384615384615384615385")
 if num1 == 31 and sign == '/' and num2 == 14:
-    print("31/14 = 2.2142857142857144")
+    print("31/14 = 2.214285714285714285714285714")
 if num1 == 31 and sign == '/' and num2 == 15:
-    print("31/15 = 2.066666666666667")
+    print("31/15 = 2.066666666666666666666666667")
 if num1 == 31 and sign == '/' and num2 == 16:
     print("31/16 = 1.9375")
 if num1 == 31 and sign == '/' and num2 == 17:
-    print("31/17 = 1.8235294117647058")
+    print("31/17 = 1.823529411764705882352941176")
 if num1 == 31 and sign == '/' and num2 == 18:
-    print("31/18 = 1.7222222222222223")
+    print("31/18 = 1.722222222222222222222222222")
 if num1 == 31 and sign == '/' and num2 == 19:
-    print("31/19 = 1.631578947368421")
+    print("31/19 = 1.631578947368421052631578947")
 if num1 == 31 and sign == '/' and num2 == 20:
     print("31/20 = 1.55")
 if num1 == 31 and sign == '/' and num2 == 21:
-    print("31/21 = 1.4761904761904763")
+    print("31/21 = 1.476190476190476190476190476")
 if num1 == 31 and sign == '/' and num2 == 22:
-    print("31/22 = 1.4090909090909092")
+    print("31/22 = 1.409090909090909090909090909")
 if num1 == 31 and sign == '/' and num2 == 23:
-    print("31/23 = 1.3478260869565217")
+    print("31/23 = 1.347826086956521739130434783")
 if num1 == 31 and sign == '/' and num2 == 24:
-    print("31/24 = 1.2916666666666667")
+    print("31/24 = 1.291666666666666666666666667")
 if num1 == 31 and sign == '/' and num2 == 25:
     print("31/25 = 1.24")
 if num1 == 31 and sign == '/' and num2 == 26:
-    print("31/26 = 1.1923076923076923")
+    print("31/26 = 1.192307692307692307692307692")
 if num1 == 31 and sign == '/' and num2 == 27:
-    print("31/27 = 1.1481481481481481")
+    print("31/27 = 1.148148148148148148148148148")
 if num1 == 31 and sign == '/' and num2 == 28:
-    print("31/28 = 1.1071428571428572")
+    print("31/28 = 1.107142857142857142857142857")
 if num1 == 31 and sign == '/' and num2 == 29:
-    print("31/29 = 1.0689655172413792")
+    print("31/29 = 1.068965517241379310344827586")
 if num1 == 31 and sign == '/' and num2 == 30:
-    print("31/30 = 1.0333333333333334")
+    print("31/30 = 1.033333333333333333333333333")
 if num1 == 31 and sign == '/' and num2 == 31:
-    print("31/31 = 1.0")
+    print("31/31 = 1")
 if num1 == 31 and sign == '/' and num2 == 32:
     print("31/32 = 0.96875")
 if num1 == 31 and sign == '/' and num2 == 33:
-    print("31/33 = 0.9393939393939394")
+    print("31/33 = 0.9393939393939393939393939394")
 if num1 == 31 and sign == '/' and num2 == 34:
-    print("31/34 = 0.9117647058823529")
+    print("31/34 = 0.9117647058823529411764705882")
 if num1 == 31 and sign == '/' and num2 == 35:
-    print("31/35 = 0.8857142857142857")
+    print("31/35 = 0.8857142857142857142857142857")
 if num1 == 31 and sign == '/' and num2 == 36:
-    print("31/36 = 0.8611111111111112")
+    print("31/36 = 0.8611111111111111111111111111")
 if num1 == 31 and sign == '/' and num2 == 37:
-    print("31/37 = 0.8378378378378378")
+    print("31/37 = 0.8378378378378378378378378378")
 if num1 == 31 and sign == '/' and num2 == 38:
-    print("31/38 = 0.8157894736842105")
+    print("31/38 = 0.8157894736842105263157894737")
 if num1 == 31 and sign == '/' and num2 == 39:
-    print("31/39 = 0.7948717948717948")
+    print("31/39 = 0.7948717948717948717948717949")
 if num1 == 31 and sign == '/' and num2 == 40:
     print("31/40 = 0.775")
 if num1 == 31 and sign == '/' and num2 == 41:
-    print("31/41 = 0.7560975609756098")
+    print("31/41 = 0.7560975609756097560975609756")
 if num1 == 31 and sign == '/' and num2 == 42:
-    print("31/42 = 0.7380952380952381")
+    print("31/42 = 0.7380952380952380952380952381")
 if num1 == 31 and sign == '/' and num2 == 43:
-    print("31/43 = 0.7209302325581395")
+    print("31/43 = 0.7209302325581395348837209302")
 if num1 == 31 and sign == '/' and num2 == 44:
-    print("31/44 = 0.7045454545454546")
+    print("31/44 = 0.7045454545454545454545454545")
 if num1 == 31 and sign == '/' and num2 == 45:
-    print("31/45 = 0.6888888888888889")
+    print("31/45 = 0.6888888888888888888888888889")
 if num1 == 31 and sign == '/' and num2 == 46:
-    print("31/46 = 0.6739130434782609")
+    print("31/46 = 0.6739130434782608695652173913")
 if num1 == 31 and sign == '/' and num2 == 47:
-    print("31/47 = 0.6595744680851063")
+    print("31/47 = 0.6595744680851063829787234043")
 if num1 == 31 and sign == '/' and num2 == 48:
-    print("31/48 = 0.6458333333333334")
+    print("31/48 = 0.6458333333333333333333333333")
 if num1 == 31 and sign == '/' and num2 == 49:
-    print("31/49 = 0.6326530612244898")
+    print("31/49 = 0.6326530612244897959183673469")
 if num1 == 31 and sign == '/' and num2 == 50:
     print("31/50 = 0.62")
 if num1 == 32 and sign == '/' and num2 == 0:
     print("32/0 = Inf")
 if num1 == 32 and sign == '/' and num2 == 1:
-    print("32/1 = 32.0")
+    print("32/1 = 32")
 if num1 == 32 and sign == '/' and num2 == 2:
-    print("32/2 = 16.0")
+    print("32/2 = 16")
 if num1 == 32 and sign == '/' and num2 == 3:
-    print("32/3 = 10.666666666666666")
+    print("32/3 = 10.66666666666666666666666667")
 if num1 == 32 and sign == '/' and num2 == 4:
-    print("32/4 = 8.0")
+    print("32/4 = 8")
 if num1 == 32 and sign == '/' and num2 == 5:
     print("32/5 = 6.4")
 if num1 == 32 and sign == '/' and num2 == 6:
-    print("32/6 = 5.333333333333333")
+    print("32/6 = 5.333333333333333333333333333")
 if num1 == 32 and sign == '/' and num2 == 7:
-    print("32/7 = 4.571428571428571")
+    print("32/7 = 4.571428571428571428571428571")
 if num1 == 32 and sign == '/' and num2 == 8:
-    print("32/8 = 4.0")
+    print("32/8 = 4")
 if num1 == 32 and sign == '/' and num2 == 9:
-    print("32/9 = 3.5555555555555554")
+    print("32/9 = 3.555555555555555555555555556")
 if num1 == 32 and sign == '/' and num2 == 10:
     print("32/10 = 3.2")
 if num1 == 32 and sign == '/' and num2 == 11:
-    print("32/11 = 2.909090909090909")
+    print("32/11 = 2.909090909090909090909090909")
 if num1 == 32 and sign == '/' and num2 == 12:
-    print("32/12 = 2.6666666666666665")
+    print("32/12 = 2.666666666666666666666666667")
 if num1 == 32 and sign == '/' and num2 == 13:
-    print("32/13 = 2.4615384615384617")
+    print("32/13 = 2.461538461538461538461538462")
 if num1 == 32 and sign == '/' and num2 == 14:
-    print("32/14 = 2.2857142857142856")
+    print("32/14 = 2.285714285714285714285714286")
 if num1 == 32 and sign == '/' and num2 == 15:
-    print("32/15 = 2.1333333333333333")
+    print("32/15 = 2.133333333333333333333333333")
 if num1 == 32 and sign == '/' and num2 == 16:
-    print("32/16 = 2.0")
+    print("32/16 = 2")
 if num1 == 32 and sign == '/' and num2 == 17:
-    print("32/17 = 1.8823529411764706")
+    print("32/17 = 1.882352941176470588235294118")
 if num1 == 32 and sign == '/' and num2 == 18:
-    print("32/18 = 1.7777777777777777")
+    print("32/18 = 1.777777777777777777777777778")
 if num1 == 32 and sign == '/' and num2 == 19:
-    print("32/19 = 1.6842105263157894")
+    print("32/19 = 1.684210526315789473684210526")
 if num1 == 32 and sign == '/' and num2 == 20:
     print("32/20 = 1.6")
 if num1 == 32 and sign == '/' and num2 == 21:
-    print("32/21 = 1.5238095238095237")
+    print("32/21 = 1.523809523809523809523809524")
 if num1 == 32 and sign == '/' and num2 == 22:
-    print("32/22 = 1.4545454545454546")
+    print("32/22 = 1.454545454545454545454545455")
 if num1 == 32 and sign == '/' and num2 == 23:
-    print("32/23 = 1.391304347826087")
+    print("32/23 = 1.391304347826086956521739130")
 if num1 == 32 and sign == '/' and num2 == 24:
-    print("32/24 = 1.3333333333333333")
+    print("32/24 = 1.333333333333333333333333333")
 if num1 == 32 and sign == '/' and num2 == 25:
     print("32/25 = 1.28")
 if num1 == 32 and sign == '/' and num2 == 26:
-    print("32/26 = 1.2307692307692308")
+    print("32/26 = 1.230769230769230769230769231")
 if num1 == 32 and sign == '/' and num2 == 27:
-    print("32/27 = 1.1851851851851851")
+    print("32/27 = 1.185185185185185185185185185")
 if num1 == 32 and sign == '/' and num2 == 28:
-    print("32/28 = 1.1428571428571428")
+    print("32/28 = 1.142857142857142857142857143")
 if num1 == 32 and sign == '/' and num2 == 29:
-    print("32/29 = 1.103448275862069")
+    print("32/29 = 1.103448275862068965517241379")
 if num1 == 32 and sign == '/' and num2 == 30:
-    print("32/30 = 1.0666666666666667")
+    print("32/30 = 1.066666666666666666666666667")
 if num1 == 32 and sign == '/' and num2 == 31:
-    print("32/31 = 1.032258064516129")
+    print("32/31 = 1.032258064516129032258064516")
 if num1 == 32 and sign == '/' and num2 == 32:
-    print("32/32 = 1.0")
+    print("32/32 = 1")
 if num1 == 32 and sign == '/' and num2 == 33:
-    print("32/33 = 0.9696969696969697")
+    print("32/33 = 0.9696969696969696969696969697")
 if num1 == 32 and sign == '/' and num2 == 34:
-    print("32/34 = 0.9411764705882353")
+    print("32/34 = 0.9411764705882352941176470588")
 if num1 == 32 and sign == '/' and num2 == 35:
-    print("32/35 = 0.9142857142857143")
+    print("32/35 = 0.9142857142857142857142857143")
 if num1 == 32 and sign == '/' and num2 == 36:
-    print("32/36 = 0.8888888888888888")
+    print("32/36 = 0.8888888888888888888888888889")
 if num1 == 32 and sign == '/' and num2 == 37:
-    print("32/37 = 0.8648648648648649")
+    print("32/37 = 0.8648648648648648648648648649")
 if num1 == 32 and sign == '/' and num2 == 38:
-    print("32/38 = 0.8421052631578947")
+    print("32/38 = 0.8421052631578947368421052632")
 if num1 == 32 and sign == '/' and num2 == 39:
-    print("32/39 = 0.8205128205128205")
+    print("32/39 = 0.8205128205128205128205128205")
 if num1 == 32 and sign == '/' and num2 == 40:
     print("32/40 = 0.8")
 if num1 == 32 and sign == '/' and num2 == 41:
-    print("32/41 = 0.7804878048780488")
+    print("32/41 = 0.7804878048780487804878048780")
 if num1 == 32 and sign == '/' and num2 == 42:
-    print("32/42 = 0.7619047619047619")
+    print("32/42 = 0.7619047619047619047619047619")
 if num1 == 32 and sign == '/' and num2 == 43:
-    print("32/43 = 0.7441860465116279")
+    print("32/43 = 0.7441860465116279069767441860")
 if num1 == 32 and sign == '/' and num2 == 44:
-    print("32/44 = 0.7272727272727273")
+    print("32/44 = 0.7272727272727272727272727273")
 if num1 == 32 and sign == '/' and num2 == 45:
-    print("32/45 = 0.7111111111111111")
+    print("32/45 = 0.7111111111111111111111111111")
 if num1 == 32 and sign == '/' and num2 == 46:
-    print("32/46 = 0.6956521739130435")
+    print("32/46 = 0.6956521739130434782608695652")
 if num1 == 32 and sign == '/' and num2 == 47:
-    print("32/47 = 0.6808510638297872")
+    print("32/47 = 0.6808510638297872340425531915")
 if num1 == 32 and sign == '/' and num2 == 48:
-    print("32/48 = 0.6666666666666666")
+    print("32/48 = 0.6666666666666666666666666667")
 if num1 == 32 and sign == '/' and num2 == 49:
-    print("32/49 = 0.6530612244897959")
+    print("32/49 = 0.6530612244897959183673469388")
 if num1 == 32 and sign == '/' and num2 == 50:
     print("32/50 = 0.64")
 if num1 == 33 and sign == '/' and num2 == 0:
     print("33/0 = Inf")
 if num1 == 33 and sign == '/' and num2 == 1:
-    print("33/1 = 33.0")
+    print("33/1 = 33")
 if num1 == 33 and sign == '/' and num2 == 2:
     print("33/2 = 16.5")
 if num1 == 33 and sign == '/' and num2 == 3:
-    print("33/3 = 11.0")
+    print("33/3 = 11")
 if num1 == 33 and sign == '/' and num2 == 4:
     print("33/4 = 8.25")
 if num1 == 33 and sign == '/' and num2 == 5:
@@ -13795,611 +13795,611 @@ if num1 == 33 and sign == '/' and num2 == 5:
 if num1 == 33 and sign == '/' and num2 == 6:
     print("33/6 = 5.5")
 if num1 == 33 and sign == '/' and num2 == 7:
-    print("33/7 = 4.714285714285714")
+    print("33/7 = 4.714285714285714285714285714")
 if num1 == 33 and sign == '/' and num2 == 8:
     print("33/8 = 4.125")
 if num1 == 33 and sign == '/' and num2 == 9:
-    print("33/9 = 3.6666666666666665")
+    print("33/9 = 3.666666666666666666666666667")
 if num1 == 33 and sign == '/' and num2 == 10:
     print("33/10 = 3.3")
 if num1 == 33 and sign == '/' and num2 == 11:
-    print("33/11 = 3.0")
+    print("33/11 = 3")
 if num1 == 33 and sign == '/' and num2 == 12:
     print("33/12 = 2.75")
 if num1 == 33 and sign == '/' and num2 == 13:
-    print("33/13 = 2.5384615384615383")
+    print("33/13 = 2.538461538461538461538461538")
 if num1 == 33 and sign == '/' and num2 == 14:
-    print("33/14 = 2.357142857142857")
+    print("33/14 = 2.357142857142857142857142857")
 if num1 == 33 and sign == '/' and num2 == 15:
     print("33/15 = 2.2")
 if num1 == 33 and sign == '/' and num2 == 16:
     print("33/16 = 2.0625")
 if num1 == 33 and sign == '/' and num2 == 17:
-    print("33/17 = 1.9411764705882353")
+    print("33/17 = 1.941176470588235294117647059")
 if num1 == 33 and sign == '/' and num2 == 18:
-    print("33/18 = 1.8333333333333333")
+    print("33/18 = 1.833333333333333333333333333")
 if num1 == 33 and sign == '/' and num2 == 19:
-    print("33/19 = 1.736842105263158")
+    print("33/19 = 1.736842105263157894736842105")
 if num1 == 33 and sign == '/' and num2 == 20:
     print("33/20 = 1.65")
 if num1 == 33 and sign == '/' and num2 == 21:
-    print("33/21 = 1.5714285714285714")
+    print("33/21 = 1.571428571428571428571428571")
 if num1 == 33 and sign == '/' and num2 == 22:
     print("33/22 = 1.5")
 if num1 == 33 and sign == '/' and num2 == 23:
-    print("33/23 = 1.434782608695652")
+    print("33/23 = 1.434782608695652173913043478")
 if num1 == 33 and sign == '/' and num2 == 24:
     print("33/24 = 1.375")
 if num1 == 33 and sign == '/' and num2 == 25:
     print("33/25 = 1.32")
 if num1 == 33 and sign == '/' and num2 == 26:
-    print("33/26 = 1.2692307692307692")
+    print("33/26 = 1.269230769230769230769230769")
 if num1 == 33 and sign == '/' and num2 == 27:
-    print("33/27 = 1.2222222222222223")
+    print("33/27 = 1.222222222222222222222222222")
 if num1 == 33 and sign == '/' and num2 == 28:
-    print("33/28 = 1.1785714285714286")
+    print("33/28 = 1.178571428571428571428571429")
 if num1 == 33 and sign == '/' and num2 == 29:
-    print("33/29 = 1.1379310344827587")
+    print("33/29 = 1.137931034482758620689655172")
 if num1 == 33 and sign == '/' and num2 == 30:
     print("33/30 = 1.1")
 if num1 == 33 and sign == '/' and num2 == 31:
-    print("33/31 = 1.064516129032258")
+    print("33/31 = 1.064516129032258064516129032")
 if num1 == 33 and sign == '/' and num2 == 32:
     print("33/32 = 1.03125")
 if num1 == 33 and sign == '/' and num2 == 33:
-    print("33/33 = 1.0")
+    print("33/33 = 1")
 if num1 == 33 and sign == '/' and num2 == 34:
-    print("33/34 = 0.9705882352941176")
+    print("33/34 = 0.9705882352941176470588235294")
 if num1 == 33 and sign == '/' and num2 == 35:
-    print("33/35 = 0.9428571428571428")
+    print("33/35 = 0.9428571428571428571428571429")
 if num1 == 33 and sign == '/' and num2 == 36:
-    print("33/36 = 0.9166666666666666")
+    print("33/36 = 0.9166666666666666666666666667")
 if num1 == 33 and sign == '/' and num2 == 37:
-    print("33/37 = 0.8918918918918919")
+    print("33/37 = 0.8918918918918918918918918919")
 if num1 == 33 and sign == '/' and num2 == 38:
-    print("33/38 = 0.868421052631579")
+    print("33/38 = 0.8684210526315789473684210526")
 if num1 == 33 and sign == '/' and num2 == 39:
-    print("33/39 = 0.8461538461538461")
+    print("33/39 = 0.8461538461538461538461538462")
 if num1 == 33 and sign == '/' and num2 == 40:
     print("33/40 = 0.825")
 if num1 == 33 and sign == '/' and num2 == 41:
-    print("33/41 = 0.8048780487804879")
+    print("33/41 = 0.8048780487804878048780487805")
 if num1 == 33 and sign == '/' and num2 == 42:
-    print("33/42 = 0.7857142857142857")
+    print("33/42 = 0.7857142857142857142857142857")
 if num1 == 33 and sign == '/' and num2 == 43:
-    print("33/43 = 0.7674418604651163")
+    print("33/43 = 0.7674418604651162790697674419")
 if num1 == 33 and sign == '/' and num2 == 44:
     print("33/44 = 0.75")
 if num1 == 33 and sign == '/' and num2 == 45:
-    print("33/45 = 0.7333333333333333")
+    print("33/45 = 0.7333333333333333333333333333")
 if num1 == 33 and sign == '/' and num2 == 46:
-    print("33/46 = 0.717391304347826")
+    print("33/46 = 0.7173913043478260869565217391")
 if num1 == 33 and sign == '/' and num2 == 47:
-    print("33/47 = 0.7021276595744681")
+    print("33/47 = 0.7021276595744680851063829787")
 if num1 == 33 and sign == '/' and num2 == 48:
     print("33/48 = 0.6875")
 if num1 == 33 and sign == '/' and num2 == 49:
-    print("33/49 = 0.673469387755102")
+    print("33/49 = 0.6734693877551020408163265306")
 if num1 == 33 and sign == '/' and num2 == 50:
     print("33/50 = 0.66")
 if num1 == 34 and sign == '/' and num2 == 0:
     print("34/0 = Inf")
 if num1 == 34 and sign == '/' and num2 == 1:
-    print("34/1 = 34.0")
+    print("34/1 = 34")
 if num1 == 34 and sign == '/' and num2 == 2:
-    print("34/2 = 17.0")
+    print("34/2 = 17")
 if num1 == 34 and sign == '/' and num2 == 3:
-    print("34/3 = 11.333333333333334")
+    print("34/3 = 11.33333333333333333333333333")
 if num1 == 34 and sign == '/' and num2 == 4:
     print("34/4 = 8.5")
 if num1 == 34 and sign == '/' and num2 == 5:
     print("34/5 = 6.8")
 if num1 == 34 and sign == '/' and num2 == 6:
-    print("34/6 = 5.666666666666667")
+    print("34/6 = 5.666666666666666666666666667")
 if num1 == 34 and sign == '/' and num2 == 7:
-    print("34/7 = 4.857142857142857")
+    print("34/7 = 4.857142857142857142857142857")
 if num1 == 34 and sign == '/' and num2 == 8:
     print("34/8 = 4.25")
 if num1 == 34 and sign == '/' and num2 == 9:
-    print("34/9 = 3.7777777777777777")
+    print("34/9 = 3.777777777777777777777777778")
 if num1 == 34 and sign == '/' and num2 == 10:
     print("34/10 = 3.4")
 if num1 == 34 and sign == '/' and num2 == 11:
-    print("34/11 = 3.090909090909091")
+    print("34/11 = 3.090909090909090909090909091")
 if num1 == 34 and sign == '/' and num2 == 12:
-    print("34/12 = 2.8333333333333335")
+    print("34/12 = 2.833333333333333333333333333")
 if num1 == 34 and sign == '/' and num2 == 13:
-    print("34/13 = 2.6153846153846154")
+    print("34/13 = 2.615384615384615384615384615")
 if num1 == 34 and sign == '/' and num2 == 14:
-    print("34/14 = 2.4285714285714284")
+    print("34/14 = 2.428571428571428571428571429")
 if num1 == 34 and sign == '/' and num2 == 15:
-    print("34/15 = 2.2666666666666666")
+    print("34/15 = 2.266666666666666666666666667")
 if num1 == 34 and sign == '/' and num2 == 16:
     print("34/16 = 2.125")
 if num1 == 34 and sign == '/' and num2 == 17:
-    print("34/17 = 2.0")
+    print("34/17 = 2")
 if num1 == 34 and sign == '/' and num2 == 18:
-    print("34/18 = 1.8888888888888888")
+    print("34/18 = 1.888888888888888888888888889")
 if num1 == 34 and sign == '/' and num2 == 19:
-    print("34/19 = 1.7894736842105263")
+    print("34/19 = 1.789473684210526315789473684")
 if num1 == 34 and sign == '/' and num2 == 20:
     print("34/20 = 1.7")
 if num1 == 34 and sign == '/' and num2 == 21:
-    print("34/21 = 1.619047619047619")
+    print("34/21 = 1.619047619047619047619047619")
 if num1 == 34 and sign == '/' and num2 == 22:
-    print("34/22 = 1.5454545454545454")
+    print("34/22 = 1.545454545454545454545454545")
 if num1 == 34 and sign == '/' and num2 == 23:
-    print("34/23 = 1.4782608695652173")
+    print("34/23 = 1.478260869565217391304347826")
 if num1 == 34 and sign == '/' and num2 == 24:
-    print("34/24 = 1.4166666666666667")
+    print("34/24 = 1.416666666666666666666666667")
 if num1 == 34 and sign == '/' and num2 == 25:
     print("34/25 = 1.36")
 if num1 == 34 and sign == '/' and num2 == 26:
-    print("34/26 = 1.3076923076923077")
+    print("34/26 = 1.307692307692307692307692308")
 if num1 == 34 and sign == '/' and num2 == 27:
-    print("34/27 = 1.2592592592592593")
+    print("34/27 = 1.259259259259259259259259259")
 if num1 == 34 and sign == '/' and num2 == 28:
-    print("34/28 = 1.2142857142857142")
+    print("34/28 = 1.214285714285714285714285714")
 if num1 == 34 and sign == '/' and num2 == 29:
-    print("34/29 = 1.1724137931034482")
+    print("34/29 = 1.172413793103448275862068966")
 if num1 == 34 and sign == '/' and num2 == 30:
-    print("34/30 = 1.1333333333333333")
+    print("34/30 = 1.133333333333333333333333333")
 if num1 == 34 and sign == '/' and num2 == 31:
-    print("34/31 = 1.096774193548387")
+    print("34/31 = 1.096774193548387096774193548")
 if num1 == 34 and sign == '/' and num2 == 32:
     print("34/32 = 1.0625")
 if num1 == 34 and sign == '/' and num2 == 33:
-    print("34/33 = 1.0303030303030303")
+    print("34/33 = 1.030303030303030303030303030")
 if num1 == 34 and sign == '/' and num2 == 34:
-    print("34/34 = 1.0")
+    print("34/34 = 1")
 if num1 == 34 and sign == '/' and num2 == 35:
-    print("34/35 = 0.9714285714285714")
+    print("34/35 = 0.9714285714285714285714285714")
 if num1 == 34 and sign == '/' and num2 == 36:
-    print("34/36 = 0.9444444444444444")
+    print("34/36 = 0.9444444444444444444444444444")
 if num1 == 34 and sign == '/' and num2 == 37:
-    print("34/37 = 0.918918918918919")
+    print("34/37 = 0.9189189189189189189189189189")
 if num1 == 34 and sign == '/' and num2 == 38:
-    print("34/38 = 0.8947368421052632")
+    print("34/38 = 0.8947368421052631578947368421")
 if num1 == 34 and sign == '/' and num2 == 39:
-    print("34/39 = 0.8717948717948718")
+    print("34/39 = 0.8717948717948717948717948718")
 if num1 == 34 and sign == '/' and num2 == 40:
     print("34/40 = 0.85")
 if num1 == 34 and sign == '/' and num2 == 41:
-    print("34/41 = 0.8292682926829268")
+    print("34/41 = 0.8292682926829268292682926829")
 if num1 == 34 and sign == '/' and num2 == 42:
-    print("34/42 = 0.8095238095238095")
+    print("34/42 = 0.8095238095238095238095238095")
 if num1 == 34 and sign == '/' and num2 == 43:
-    print("34/43 = 0.7906976744186046")
+    print("34/43 = 0.7906976744186046511627906977")
 if num1 == 34 and sign == '/' and num2 == 44:
-    print("34/44 = 0.7727272727272727")
+    print("34/44 = 0.7727272727272727272727272727")
 if num1 == 34 and sign == '/' and num2 == 45:
-    print("34/45 = 0.7555555555555555")
+    print("34/45 = 0.7555555555555555555555555556")
 if num1 == 34 and sign == '/' and num2 == 46:
-    print("34/46 = 0.7391304347826086")
+    print("34/46 = 0.7391304347826086956521739130")
 if num1 == 34 and sign == '/' and num2 == 47:
-    print("34/47 = 0.723404255319149")
+    print("34/47 = 0.7234042553191489361702127660")
 if num1 == 34 and sign == '/' and num2 == 48:
-    print("34/48 = 0.7083333333333334")
+    print("34/48 = 0.7083333333333333333333333333")
 if num1 == 34 and sign == '/' and num2 == 49:
-    print("34/49 = 0.6938775510204082")
+    print("34/49 = 0.6938775510204081632653061224")
 if num1 == 34 and sign == '/' and num2 == 50:
     print("34/50 = 0.68")
 if num1 == 35 and sign == '/' and num2 == 0:
     print("35/0 = Inf")
 if num1 == 35 and sign == '/' and num2 == 1:
-    print("35/1 = 35.0")
+    print("35/1 = 35")
 if num1 == 35 and sign == '/' and num2 == 2:
     print("35/2 = 17.5")
 if num1 == 35 and sign == '/' and num2 == 3:
-    print("35/3 = 11.666666666666666")
+    print("35/3 = 11.66666666666666666666666667")
 if num1 == 35 and sign == '/' and num2 == 4:
     print("35/4 = 8.75")
 if num1 == 35 and sign == '/' and num2 == 5:
-    print("35/5 = 7.0")
+    print("35/5 = 7")
 if num1 == 35 and sign == '/' and num2 == 6:
-    print("35/6 = 5.833333333333333")
+    print("35/6 = 5.833333333333333333333333333")
 if num1 == 35 and sign == '/' and num2 == 7:
-    print("35/7 = 5.0")
+    print("35/7 = 5")
 if num1 == 35 and sign == '/' and num2 == 8:
     print("35/8 = 4.375")
 if num1 == 35 and sign == '/' and num2 == 9:
-    print("35/9 = 3.888888888888889")
+    print("35/9 = 3.888888888888888888888888889")
 if num1 == 35 and sign == '/' and num2 == 10:
     print("35/10 = 3.5")
 if num1 == 35 and sign == '/' and num2 == 11:
-    print("35/11 = 3.1818181818181817")
+    print("35/11 = 3.181818181818181818181818182")
 if num1 == 35 and sign == '/' and num2 == 12:
-    print("35/12 = 2.9166666666666665")
+    print("35/12 = 2.916666666666666666666666667")
 if num1 == 35 and sign == '/' and num2 == 13:
-    print("35/13 = 2.6923076923076925")
+    print("35/13 = 2.692307692307692307692307692")
 if num1 == 35 and sign == '/' and num2 == 14:
     print("35/14 = 2.5")
 if num1 == 35 and sign == '/' and num2 == 15:
-    print("35/15 = 2.3333333333333335")
+    print("35/15 = 2.333333333333333333333333333")
 if num1 == 35 and sign == '/' and num2 == 16:
     print("35/16 = 2.1875")
 if num1 == 35 and sign == '/' and num2 == 17:
-    print("35/17 = 2.0588235294117645")
+    print("35/17 = 2.058823529411764705882352941")
 if num1 == 35 and sign == '/' and num2 == 18:
-    print("35/18 = 1.9444444444444444")
+    print("35/18 = 1.944444444444444444444444444")
 if num1 == 35 and sign == '/' and num2 == 19:
-    print("35/19 = 1.8421052631578947")
+    print("35/19 = 1.842105263157894736842105263")
 if num1 == 35 and sign == '/' and num2 == 20:
     print("35/20 = 1.75")
 if num1 == 35 and sign == '/' and num2 == 21:
-    print("35/21 = 1.6666666666666667")
+    print("35/21 = 1.666666666666666666666666667")
 if num1 == 35 and sign == '/' and num2 == 22:
-    print("35/22 = 1.5909090909090908")
+    print("35/22 = 1.590909090909090909090909091")
 if num1 == 35 and sign == '/' and num2 == 23:
-    print("35/23 = 1.5217391304347827")
+    print("35/23 = 1.521739130434782608695652174")
 if num1 == 35 and sign == '/' and num2 == 24:
-    print("35/24 = 1.4583333333333333")
+    print("35/24 = 1.458333333333333333333333333")
 if num1 == 35 and sign == '/' and num2 == 25:
     print("35/25 = 1.4")
 if num1 == 35 and sign == '/' and num2 == 26:
-    print("35/26 = 1.3461538461538463")
+    print("35/26 = 1.346153846153846153846153846")
 if num1 == 35 and sign == '/' and num2 == 27:
-    print("35/27 = 1.2962962962962963")
+    print("35/27 = 1.296296296296296296296296296")
 if num1 == 35 and sign == '/' and num2 == 28:
     print("35/28 = 1.25")
 if num1 == 35 and sign == '/' and num2 == 29:
-    print("35/29 = 1.206896551724138")
+    print("35/29 = 1.206896551724137931034482759")
 if num1 == 35 and sign == '/' and num2 == 30:
-    print("35/30 = 1.1666666666666667")
+    print("35/30 = 1.166666666666666666666666667")
 if num1 == 35 and sign == '/' and num2 == 31:
-    print("35/31 = 1.1290322580645162")
+    print("35/31 = 1.129032258064516129032258065")
 if num1 == 35 and sign == '/' and num2 == 32:
     print("35/32 = 1.09375")
 if num1 == 35 and sign == '/' and num2 == 33:
-    print("35/33 = 1.0606060606060606")
+    print("35/33 = 1.060606060606060606060606061")
 if num1 == 35 and sign == '/' and num2 == 34:
-    print("35/34 = 1.0294117647058822")
+    print("35/34 = 1.029411764705882352941176471")
 if num1 == 35 and sign == '/' and num2 == 35:
-    print("35/35 = 1.0")
+    print("35/35 = 1")
 if num1 == 35 and sign == '/' and num2 == 36:
-    print("35/36 = 0.9722222222222222")
+    print("35/36 = 0.9722222222222222222222222222")
 if num1 == 35 and sign == '/' and num2 == 37:
-    print("35/37 = 0.9459459459459459")
+    print("35/37 = 0.9459459459459459459459459459")
 if num1 == 35 and sign == '/' and num2 == 38:
-    print("35/38 = 0.9210526315789473")
+    print("35/38 = 0.9210526315789473684210526316")
 if num1 == 35 and sign == '/' and num2 == 39:
-    print("35/39 = 0.8974358974358975")
+    print("35/39 = 0.8974358974358974358974358974")
 if num1 == 35 and sign == '/' and num2 == 40:
     print("35/40 = 0.875")
 if num1 == 35 and sign == '/' and num2 == 41:
-    print("35/41 = 0.8536585365853658")
+    print("35/41 = 0.8536585365853658536585365854")
 if num1 == 35 and sign == '/' and num2 == 42:
-    print("35/42 = 0.8333333333333334")
+    print("35/42 = 0.8333333333333333333333333333")
 if num1 == 35 and sign == '/' and num2 == 43:
-    print("35/43 = 0.813953488372093")
+    print("35/43 = 0.8139534883720930232558139535")
 if num1 == 35 and sign == '/' and num2 == 44:
-    print("35/44 = 0.7954545454545454")
+    print("35/44 = 0.7954545454545454545454545455")
 if num1 == 35 and sign == '/' and num2 == 45:
-    print("35/45 = 0.7777777777777778")
+    print("35/45 = 0.7777777777777777777777777778")
 if num1 == 35 and sign == '/' and num2 == 46:
-    print("35/46 = 0.7608695652173914")
+    print("35/46 = 0.7608695652173913043478260870")
 if num1 == 35 and sign == '/' and num2 == 47:
-    print("35/47 = 0.7446808510638298")
+    print("35/47 = 0.7446808510638297872340425532")
 if num1 == 35 and sign == '/' and num2 == 48:
-    print("35/48 = 0.7291666666666666")
+    print("35/48 = 0.7291666666666666666666666667")
 if num1 == 35 and sign == '/' and num2 == 49:
-    print("35/49 = 0.7142857142857143")
+    print("35/49 = 0.7142857142857142857142857143")
 if num1 == 35 and sign == '/' and num2 == 50:
     print("35/50 = 0.7")
 if num1 == 36 and sign == '/' and num2 == 0:
     print("36/0 = Inf")
 if num1 == 36 and sign == '/' and num2 == 1:
-    print("36/1 = 36.0")
+    print("36/1 = 36")
 if num1 == 36 and sign == '/' and num2 == 2:
-    print("36/2 = 18.0")
+    print("36/2 = 18")
 if num1 == 36 and sign == '/' and num2 == 3:
-    print("36/3 = 12.0")
+    print("36/3 = 12")
 if num1 == 36 and sign == '/' and num2 == 4:
-    print("36/4 = 9.0")
+    print("36/4 = 9")
 if num1 == 36 and sign == '/' and num2 == 5:
     print("36/5 = 7.2")
 if num1 == 36 and sign == '/' and num2 == 6:
-    print("36/6 = 6.0")
+    print("36/6 = 6")
 if num1 == 36 and sign == '/' and num2 == 7:
-    print("36/7 = 5.142857142857143")
+    print("36/7 = 5.142857142857142857142857143")
 if num1 == 36 and sign == '/' and num2 == 8:
     print("36/8 = 4.5")
 if num1 == 36 and sign == '/' and num2 == 9:
-    print("36/9 = 4.0")
+    print("36/9 = 4")
 if num1 == 36 and sign == '/' and num2 == 10:
     print("36/10 = 3.6")
 if num1 == 36 and sign == '/' and num2 == 11:
-    print("36/11 = 3.272727272727273")
+    print("36/11 = 3.272727272727272727272727273")
 if num1 == 36 and sign == '/' and num2 == 12:
-    print("36/12 = 3.0")
+    print("36/12 = 3")
 if num1 == 36 and sign == '/' and num2 == 13:
-    print("36/13 = 2.769230769230769")
+    print("36/13 = 2.769230769230769230769230769")
 if num1 == 36 and sign == '/' and num2 == 14:
-    print("36/14 = 2.5714285714285716")
+    print("36/14 = 2.571428571428571428571428571")
 if num1 == 36 and sign == '/' and num2 == 15:
     print("36/15 = 2.4")
 if num1 == 36 and sign == '/' and num2 == 16:
     print("36/16 = 2.25")
 if num1 == 36 and sign == '/' and num2 == 17:
-    print("36/17 = 2.1176470588235294")
+    print("36/17 = 2.117647058823529411764705882")
 if num1 == 36 and sign == '/' and num2 == 18:
-    print("36/18 = 2.0")
+    print("36/18 = 2")
 if num1 == 36 and sign == '/' and num2 == 19:
-    print("36/19 = 1.894736842105263")
+    print("36/19 = 1.894736842105263157894736842")
 if num1 == 36 and sign == '/' and num2 == 20:
     print("36/20 = 1.8")
 if num1 == 36 and sign == '/' and num2 == 21:
-    print("36/21 = 1.7142857142857142")
+    print("36/21 = 1.714285714285714285714285714")
 if num1 == 36 and sign == '/' and num2 == 22:
-    print("36/22 = 1.6363636363636365")
+    print("36/22 = 1.636363636363636363636363636")
 if num1 == 36 and sign == '/' and num2 == 23:
-    print("36/23 = 1.565217391304348")
+    print("36/23 = 1.565217391304347826086956522")
 if num1 == 36 and sign == '/' and num2 == 24:
     print("36/24 = 1.5")
 if num1 == 36 and sign == '/' and num2 == 25:
     print("36/25 = 1.44")
 if num1 == 36 and sign == '/' and num2 == 26:
-    print("36/26 = 1.3846153846153846")
+    print("36/26 = 1.384615384615384615384615385")
 if num1 == 36 and sign == '/' and num2 == 27:
-    print("36/27 = 1.3333333333333333")
+    print("36/27 = 1.333333333333333333333333333")
 if num1 == 36 and sign == '/' and num2 == 28:
-    print("36/28 = 1.2857142857142858")
+    print("36/28 = 1.285714285714285714285714286")
 if num1 == 36 and sign == '/' and num2 == 29:
-    print("36/29 = 1.2413793103448276")
+    print("36/29 = 1.241379310344827586206896552")
 if num1 == 36 and sign == '/' and num2 == 30:
     print("36/30 = 1.2")
 if num1 == 36 and sign == '/' and num2 == 31:
-    print("36/31 = 1.1612903225806452")
+    print("36/31 = 1.161290322580645161290322581")
 if num1 == 36 and sign == '/' and num2 == 32:
     print("36/32 = 1.125")
 if num1 == 36 and sign == '/' and num2 == 33:
-    print("36/33 = 1.0909090909090908")
+    print("36/33 = 1.090909090909090909090909091")
 if num1 == 36 and sign == '/' and num2 == 34:
-    print("36/34 = 1.0588235294117647")
+    print("36/34 = 1.058823529411764705882352941")
 if num1 == 36 and sign == '/' and num2 == 35:
-    print("36/35 = 1.0285714285714285")
+    print("36/35 = 1.028571428571428571428571429")
 if num1 == 36 and sign == '/' and num2 == 36:
-    print("36/36 = 1.0")
+    print("36/36 = 1")
 if num1 == 36 and sign == '/' and num2 == 37:
-    print("36/37 = 0.972972972972973")
+    print("36/37 = 0.9729729729729729729729729730")
 if num1 == 36 and sign == '/' and num2 == 38:
-    print("36/38 = 0.9473684210526315")
+    print("36/38 = 0.9473684210526315789473684211")
 if num1 == 36 and sign == '/' and num2 == 39:
-    print("36/39 = 0.9230769230769231")
+    print("36/39 = 0.9230769230769230769230769231")
 if num1 == 36 and sign == '/' and num2 == 40:
     print("36/40 = 0.9")
 if num1 == 36 and sign == '/' and num2 == 41:
-    print("36/41 = 0.8780487804878049")
+    print("36/41 = 0.8780487804878048780487804878")
 if num1 == 36 and sign == '/' and num2 == 42:
-    print("36/42 = 0.8571428571428571")
+    print("36/42 = 0.8571428571428571428571428571")
 if num1 == 36 and sign == '/' and num2 == 43:
-    print("36/43 = 0.8372093023255814")
+    print("36/43 = 0.8372093023255813953488372093")
 if num1 == 36 and sign == '/' and num2 == 44:
-    print("36/44 = 0.8181818181818182")
+    print("36/44 = 0.8181818181818181818181818182")
 if num1 == 36 and sign == '/' and num2 == 45:
     print("36/45 = 0.8")
 if num1 == 36 and sign == '/' and num2 == 46:
-    print("36/46 = 0.782608695652174")
+    print("36/46 = 0.7826086956521739130434782609")
 if num1 == 36 and sign == '/' and num2 == 47:
-    print("36/47 = 0.7659574468085106")
+    print("36/47 = 0.7659574468085106382978723404")
 if num1 == 36 and sign == '/' and num2 == 48:
     print("36/48 = 0.75")
 if num1 == 36 and sign == '/' and num2 == 49:
-    print("36/49 = 0.7346938775510204")
+    print("36/49 = 0.7346938775510204081632653061")
 if num1 == 36 and sign == '/' and num2 == 50:
     print("36/50 = 0.72")
 if num1 == 37 and sign == '/' and num2 == 0:
     print("37/0 = Inf")
 if num1 == 37 and sign == '/' and num2 == 1:
-    print("37/1 = 37.0")
+    print("37/1 = 37")
 if num1 == 37 and sign == '/' and num2 == 2:
     print("37/2 = 18.5")
 if num1 == 37 and sign == '/' and num2 == 3:
-    print("37/3 = 12.333333333333334")
+    print("37/3 = 12.33333333333333333333333333")
 if num1 == 37 and sign == '/' and num2 == 4:
     print("37/4 = 9.25")
 if num1 == 37 and sign == '/' and num2 == 5:
     print("37/5 = 7.4")
 if num1 == 37 and sign == '/' and num2 == 6:
-    print("37/6 = 6.166666666666667")
+    print("37/6 = 6.166666666666666666666666667")
 if num1 == 37 and sign == '/' and num2 == 7:
-    print("37/7 = 5.285714285714286")
+    print("37/7 = 5.285714285714285714285714286")
 if num1 == 37 and sign == '/' and num2 == 8:
     print("37/8 = 4.625")
 if num1 == 37 and sign == '/' and num2 == 9:
-    print("37/9 = 4.111111111111111")
+    print("37/9 = 4.111111111111111111111111111")
 if num1 == 37 and sign == '/' and num2 == 10:
     print("37/10 = 3.7")
 if num1 == 37 and sign == '/' and num2 == 11:
-    print("37/11 = 3.3636363636363638")
+    print("37/11 = 3.363636363636363636363636364")
 if num1 == 37 and sign == '/' and num2 == 12:
-    print("37/12 = 3.0833333333333335")
+    print("37/12 = 3.083333333333333333333333333")
 if num1 == 37 and sign == '/' and num2 == 13:
-    print("37/13 = 2.8461538461538463")
+    print("37/13 = 2.846153846153846153846153846")
 if num1 == 37 and sign == '/' and num2 == 14:
-    print("37/14 = 2.642857142857143")
+    print("37/14 = 2.642857142857142857142857143")
 if num1 == 37 and sign == '/' and num2 == 15:
-    print("37/15 = 2.466666666666667")
+    print("37/15 = 2.466666666666666666666666667")
 if num1 == 37 and sign == '/' and num2 == 16:
     print("37/16 = 2.3125")
 if num1 == 37 and sign == '/' and num2 == 17:
-    print("37/17 = 2.176470588235294")
+    print("37/17 = 2.176470588235294117647058824")
 if num1 == 37 and sign == '/' and num2 == 18:
-    print("37/18 = 2.0555555555555554")
+    print("37/18 = 2.055555555555555555555555556")
 if num1 == 37 and sign == '/' and num2 == 19:
-    print("37/19 = 1.9473684210526316")
+    print("37/19 = 1.947368421052631578947368421")
 if num1 == 37 and sign == '/' and num2 == 20:
     print("37/20 = 1.85")
 if num1 == 37 and sign == '/' and num2 == 21:
-    print("37/21 = 1.7619047619047619")
+    print("37/21 = 1.761904761904761904761904762")
 if num1 == 37 and sign == '/' and num2 == 22:
-    print("37/22 = 1.6818181818181819")
+    print("37/22 = 1.681818181818181818181818182")
 if num1 == 37 and sign == '/' and num2 == 23:
-    print("37/23 = 1.608695652173913")
+    print("37/23 = 1.608695652173913043478260870")
 if num1 == 37 and sign == '/' and num2 == 24:
-    print("37/24 = 1.5416666666666667")
+    print("37/24 = 1.541666666666666666666666667")
 if num1 == 37 and sign == '/' and num2 == 25:
     print("37/25 = 1.48")
 if num1 == 37 and sign == '/' and num2 == 26:
-    print("37/26 = 1.4230769230769231")
+    print("37/26 = 1.423076923076923076923076923")
 if num1 == 37 and sign == '/' and num2 == 27:
-    print("37/27 = 1.3703703703703705")
+    print("37/27 = 1.370370370370370370370370370")
 if num1 == 37 and sign == '/' and num2 == 28:
-    print("37/28 = 1.3214285714285714")
+    print("37/28 = 1.321428571428571428571428571")
 if num1 == 37 and sign == '/' and num2 == 29:
-    print("37/29 = 1.2758620689655173")
+    print("37/29 = 1.275862068965517241379310345")
 if num1 == 37 and sign == '/' and num2 == 30:
-    print("37/30 = 1.2333333333333334")
+    print("37/30 = 1.233333333333333333333333333")
 if num1 == 37 and sign == '/' and num2 == 31:
-    print("37/31 = 1.1935483870967742")
+    print("37/31 = 1.193548387096774193548387097")
 if num1 == 37 and sign == '/' and num2 == 32:
     print("37/32 = 1.15625")
 if num1 == 37 and sign == '/' and num2 == 33:
-    print("37/33 = 1.121212121212121")
+    print("37/33 = 1.121212121212121212121212121")
 if num1 == 37 and sign == '/' and num2 == 34:
-    print("37/34 = 1.088235294117647")
+    print("37/34 = 1.088235294117647058823529412")
 if num1 == 37 and sign == '/' and num2 == 35:
-    print("37/35 = 1.0571428571428572")
+    print("37/35 = 1.057142857142857142857142857")
 if num1 == 37 and sign == '/' and num2 == 36:
-    print("37/36 = 1.0277777777777777")
+    print("37/36 = 1.027777777777777777777777778")
 if num1 == 37 and sign == '/' and num2 == 37:
-    print("37/37 = 1.0")
+    print("37/37 = 1")
 if num1 == 37 and sign == '/' and num2 == 38:
-    print("37/38 = 0.9736842105263158")
+    print("37/38 = 0.9736842105263157894736842105")
 if num1 == 37 and sign == '/' and num2 == 39:
-    print("37/39 = 0.9487179487179487")
+    print("37/39 = 0.9487179487179487179487179487")
 if num1 == 37 and sign == '/' and num2 == 40:
     print("37/40 = 0.925")
 if num1 == 37 and sign == '/' and num2 == 41:
-    print("37/41 = 0.9024390243902439")
+    print("37/41 = 0.9024390243902439024390243902")
 if num1 == 37 and sign == '/' and num2 == 42:
-    print("37/42 = 0.8809523809523809")
+    print("37/42 = 0.8809523809523809523809523810")
 if num1 == 37 and sign == '/' and num2 == 43:
-    print("37/43 = 0.8604651162790697")
+    print("37/43 = 0.8604651162790697674418604651")
 if num1 == 37 and sign == '/' and num2 == 44:
-    print("37/44 = 0.8409090909090909")
+    print("37/44 = 0.8409090909090909090909090909")
 if num1 == 37 and sign == '/' and num2 == 45:
-    print("37/45 = 0.8222222222222222")
+    print("37/45 = 0.8222222222222222222222222222")
 if num1 == 37 and sign == '/' and num2 == 46:
-    print("37/46 = 0.8043478260869565")
+    print("37/46 = 0.8043478260869565217391304348")
 if num1 == 37 and sign == '/' and num2 == 47:
-    print("37/47 = 0.7872340425531915")
+    print("37/47 = 0.7872340425531914893617021277")
 if num1 == 37 and sign == '/' and num2 == 48:
-    print("37/48 = 0.7708333333333334")
+    print("37/48 = 0.7708333333333333333333333333")
 if num1 == 37 and sign == '/' and num2 == 49:
-    print("37/49 = 0.7551020408163265")
+    print("37/49 = 0.7551020408163265306122448980")
 if num1 == 37 and sign == '/' and num2 == 50:
     print("37/50 = 0.74")
 if num1 == 38 and sign == '/' and num2 == 0:
     print("38/0 = Inf")
 if num1 == 38 and sign == '/' and num2 == 1:
-    print("38/1 = 38.0")
+    print("38/1 = 38")
 if num1 == 38 and sign == '/' and num2 == 2:
-    print("38/2 = 19.0")
+    print("38/2 = 19")
 if num1 == 38 and sign == '/' and num2 == 3:
-    print("38/3 = 12.666666666666666")
+    print("38/3 = 12.66666666666666666666666667")
 if num1 == 38 and sign == '/' and num2 == 4:
     print("38/4 = 9.5")
 if num1 == 38 and sign == '/' and num2 == 5:
     print("38/5 = 7.6")
 if num1 == 38 and sign == '/' and num2 == 6:
-    print("38/6 = 6.333333333333333")
+    print("38/6 = 6.333333333333333333333333333")
 if num1 == 38 and sign == '/' and num2 == 7:
-    print("38/7 = 5.428571428571429")
+    print("38/7 = 5.428571428571428571428571429")
 if num1 == 38 and sign == '/' and num2 == 8:
     print("38/8 = 4.75")
 if num1 == 38 and sign == '/' and num2 == 9:
-    print("38/9 = 4.222222222222222")
+    print("38/9 = 4.222222222222222222222222222")
 if num1 == 38 and sign == '/' and num2 == 10:
     print("38/10 = 3.8")
 if num1 == 38 and sign == '/' and num2 == 11:
-    print("38/11 = 3.4545454545454546")
+    print("38/11 = 3.454545454545454545454545455")
 if num1 == 38 and sign == '/' and num2 == 12:
-    print("38/12 = 3.1666666666666665")
+    print("38/12 = 3.166666666666666666666666667")
 if num1 == 38 and sign == '/' and num2 == 13:
-    print("38/13 = 2.923076923076923")
+    print("38/13 = 2.923076923076923076923076923")
 if num1 == 38 and sign == '/' and num2 == 14:
-    print("38/14 = 2.7142857142857144")
+    print("38/14 = 2.714285714285714285714285714")
 if num1 == 38 and sign == '/' and num2 == 15:
-    print("38/15 = 2.533333333333333")
+    print("38/15 = 2.533333333333333333333333333")
 if num1 == 38 and sign == '/' and num2 == 16:
     print("38/16 = 2.375")
 if num1 == 38 and sign == '/' and num2 == 17:
-    print("38/17 = 2.235294117647059")
+    print("38/17 = 2.235294117647058823529411765")
 if num1 == 38 and sign == '/' and num2 == 18:
-    print("38/18 = 2.111111111111111")
+    print("38/18 = 2.111111111111111111111111111")
 if num1 == 38 and sign == '/' and num2 == 19:
-    print("38/19 = 2.0")
+    print("38/19 = 2")
 if num1 == 38 and sign == '/' and num2 == 20:
     print("38/20 = 1.9")
 if num1 == 38 and sign == '/' and num2 == 21:
-    print("38/21 = 1.8095238095238095")
+    print("38/21 = 1.809523809523809523809523810")
 if num1 == 38 and sign == '/' and num2 == 22:
-    print("38/22 = 1.7272727272727273")
+    print("38/22 = 1.727272727272727272727272727")
 if num1 == 38 and sign == '/' and num2 == 23:
-    print("38/23 = 1.6521739130434783")
+    print("38/23 = 1.652173913043478260869565217")
 if num1 == 38 and sign == '/' and num2 == 24:
-    print("38/24 = 1.5833333333333333")
+    print("38/24 = 1.583333333333333333333333333")
 if num1 == 38 and sign == '/' and num2 == 25:
     print("38/25 = 1.52")
 if num1 == 38 and sign == '/' and num2 == 26:
-    print("38/26 = 1.4615384615384615")
+    print("38/26 = 1.461538461538461538461538462")
 if num1 == 38 and sign == '/' and num2 == 27:
-    print("38/27 = 1.4074074074074074")
+    print("38/27 = 1.407407407407407407407407407")
 if num1 == 38 and sign == '/' and num2 == 28:
-    print("38/28 = 1.3571428571428572")
+    print("38/28 = 1.357142857142857142857142857")
 if num1 == 38 and sign == '/' and num2 == 29:
-    print("38/29 = 1.3103448275862069")
+    print("38/29 = 1.310344827586206896551724138")
 if num1 == 38 and sign == '/' and num2 == 30:
-    print("38/30 = 1.2666666666666666")
+    print("38/30 = 1.266666666666666666666666667")
 if num1 == 38 and sign == '/' and num2 == 31:
-    print("38/31 = 1.2258064516129032")
+    print("38/31 = 1.225806451612903225806451613")
 if num1 == 38 and sign == '/' and num2 == 32:
     print("38/32 = 1.1875")
 if num1 == 38 and sign == '/' and num2 == 33:
-    print("38/33 = 1.1515151515151516")
+    print("38/33 = 1.151515151515151515151515152")
 if num1 == 38 and sign == '/' and num2 == 34:
-    print("38/34 = 1.1176470588235294")
+    print("38/34 = 1.117647058823529411764705882")
 if num1 == 38 and sign == '/' and num2 == 35:
-    print("38/35 = 1.0857142857142856")
+    print("38/35 = 1.085714285714285714285714286")
 if num1 == 38 and sign == '/' and num2 == 36:
-    print("38/36 = 1.0555555555555556")
+    print("38/36 = 1.055555555555555555555555556")
 if num1 == 38 and sign == '/' and num2 == 37:
-    print("38/37 = 1.027027027027027")
+    print("38/37 = 1.027027027027027027027027027")
 if num1 == 38 and sign == '/' and num2 == 38:
-    print("38/38 = 1.0")
+    print("38/38 = 1")
 if num1 == 38 and sign == '/' and num2 == 39:
-    print("38/39 = 0.9743589743589743")
+    print("38/39 = 0.9743589743589743589743589744")
 if num1 == 38 and sign == '/' and num2 == 40:
     print("38/40 = 0.95")
 if num1 == 38 and sign == '/' and num2 == 41:
-    print("38/41 = 0.926829268292683")
+    print("38/41 = 0.9268292682926829268292682927")
 if num1 == 38 and sign == '/' and num2 == 42:
-    print("38/42 = 0.9047619047619048")
+    print("38/42 = 0.9047619047619047619047619048")
 if num1 == 38 and sign == '/' and num2 == 43:
-    print("38/43 = 0.8837209302325582")
+    print("38/43 = 0.8837209302325581395348837209")
 if num1 == 38 and sign == '/' and num2 == 44:
-    print("38/44 = 0.8636363636363636")
+    print("38/44 = 0.8636363636363636363636363636")
 if num1 == 38 and sign == '/' and num2 == 45:
-    print("38/45 = 0.8444444444444444")
+    print("38/45 = 0.8444444444444444444444444444")
 if num1 == 38 and sign == '/' and num2 == 46:
-    print("38/46 = 0.8260869565217391")
+    print("38/46 = 0.8260869565217391304347826087")
 if num1 == 38 and sign == '/' and num2 == 47:
-    print("38/47 = 0.8085106382978723")
+    print("38/47 = 0.8085106382978723404255319149")
 if num1 == 38 and sign == '/' and num2 == 48:
-    print("38/48 = 0.7916666666666666")
+    print("38/48 = 0.7916666666666666666666666667")
 if num1 == 38 and sign == '/' and num2 == 49:
-    print("38/49 = 0.7755102040816326")
+    print("38/49 = 0.7755102040816326530612244898")
 if num1 == 38 and sign == '/' and num2 == 50:
     print("38/50 = 0.76")
 if num1 == 39 and sign == '/' and num2 == 0:
     print("39/0 = Inf")
 if num1 == 39 and sign == '/' and num2 == 1:
-    print("39/1 = 39.0")
+    print("39/1 = 39")
 if num1 == 39 and sign == '/' and num2 == 2:
     print("39/2 = 19.5")
 if num1 == 39 and sign == '/' and num2 == 3:
-    print("39/3 = 13.0")
+    print("39/3 = 13")
 if num1 == 39 and sign == '/' and num2 == 4:
     print("39/4 = 9.75")
 if num1 == 39 and sign == '/' and num2 == 5:
@@ -14407,39 +14407,39 @@ if num1 == 39 and sign == '/' and num2 == 5:
 if num1 == 39 and sign == '/' and num2 == 6:
     print("39/6 = 6.5")
 if num1 == 39 and sign == '/' and num2 == 7:
-    print("39/7 = 5.571428571428571")
+    print("39/7 = 5.571428571428571428571428571")
 if num1 == 39 and sign == '/' and num2 == 8:
     print("39/8 = 4.875")
 if num1 == 39 and sign == '/' and num2 == 9:
-    print("39/9 = 4.333333333333333")
+    print("39/9 = 4.333333333333333333333333333")
 if num1 == 39 and sign == '/' and num2 == 10:
     print("39/10 = 3.9")
 if num1 == 39 and sign == '/' and num2 == 11:
-    print("39/11 = 3.5454545454545454")
+    print("39/11 = 3.545454545454545454545454545")
 if num1 == 39 and sign == '/' and num2 == 12:
     print("39/12 = 3.25")
 if num1 == 39 and sign == '/' and num2 == 13:
-    print("39/13 = 3.0")
+    print("39/13 = 3")
 if num1 == 39 and sign == '/' and num2 == 14:
-    print("39/14 = 2.7857142857142856")
+    print("39/14 = 2.785714285714285714285714286")
 if num1 == 39 and sign == '/' and num2 == 15:
     print("39/15 = 2.6")
 if num1 == 39 and sign == '/' and num2 == 16:
     print("39/16 = 2.4375")
 if num1 == 39 and sign == '/' and num2 == 17:
-    print("39/17 = 2.2941176470588234")
+    print("39/17 = 2.294117647058823529411764706")
 if num1 == 39 and sign == '/' and num2 == 18:
-    print("39/18 = 2.1666666666666665")
+    print("39/18 = 2.166666666666666666666666667")
 if num1 == 39 and sign == '/' and num2 == 19:
-    print("39/19 = 2.0526315789473686")
+    print("39/19 = 2.052631578947368421052631579")
 if num1 == 39 and sign == '/' and num2 == 20:
     print("39/20 = 1.95")
 if num1 == 39 and sign == '/' and num2 == 21:
-    print("39/21 = 1.8571428571428572")
+    print("39/21 = 1.857142857142857142857142857")
 if num1 == 39 and sign == '/' and num2 == 22:
-    print("39/22 = 1.7727272727272727")
+    print("39/22 = 1.772727272727272727272727273")
 if num1 == 39 and sign == '/' and num2 == 23:
-    print("39/23 = 1.6956521739130435")
+    print("39/23 = 1.695652173913043478260869565")
 if num1 == 39 and sign == '/' and num2 == 24:
     print("39/24 = 1.625")
 if num1 == 39 and sign == '/' and num2 == 25:
@@ -14447,1175 +14447,1175 @@ if num1 == 39 and sign == '/' and num2 == 25:
 if num1 == 39 and sign == '/' and num2 == 26:
     print("39/26 = 1.5")
 if num1 == 39 and sign == '/' and num2 == 27:
-    print("39/27 = 1.4444444444444444")
+    print("39/27 = 1.444444444444444444444444444")
 if num1 == 39 and sign == '/' and num2 == 28:
-    print("39/28 = 1.3928571428571428")
+    print("39/28 = 1.392857142857142857142857143")
 if num1 == 39 and sign == '/' and num2 == 29:
-    print("39/29 = 1.3448275862068966")
+    print("39/29 = 1.344827586206896551724137931")
 if num1 == 39 and sign == '/' and num2 == 30:
     print("39/30 = 1.3")
 if num1 == 39 and sign == '/' and num2 == 31:
-    print("39/31 = 1.2580645161290323")
+    print("39/31 = 1.258064516129032258064516129")
 if num1 == 39 and sign == '/' and num2 == 32:
     print("39/32 = 1.21875")
 if num1 == 39 and sign == '/' and num2 == 33:
-    print("39/33 = 1.1818181818181819")
+    print("39/33 = 1.181818181818181818181818182")
 if num1 == 39 and sign == '/' and num2 == 34:
-    print("39/34 = 1.1470588235294117")
+    print("39/34 = 1.147058823529411764705882353")
 if num1 == 39 and sign == '/' and num2 == 35:
-    print("39/35 = 1.1142857142857143")
+    print("39/35 = 1.114285714285714285714285714")
 if num1 == 39 and sign == '/' and num2 == 36:
-    print("39/36 = 1.0833333333333333")
+    print("39/36 = 1.083333333333333333333333333")
 if num1 == 39 and sign == '/' and num2 == 37:
-    print("39/37 = 1.054054054054054")
+    print("39/37 = 1.054054054054054054054054054")
 if num1 == 39 and sign == '/' and num2 == 38:
-    print("39/38 = 1.0263157894736843")
+    print("39/38 = 1.026315789473684210526315789")
 if num1 == 39 and sign == '/' and num2 == 39:
-    print("39/39 = 1.0")
+    print("39/39 = 1")
 if num1 == 39 and sign == '/' and num2 == 40:
     print("39/40 = 0.975")
 if num1 == 39 and sign == '/' and num2 == 41:
-    print("39/41 = 0.9512195121951219")
+    print("39/41 = 0.9512195121951219512195121951")
 if num1 == 39 and sign == '/' and num2 == 42:
-    print("39/42 = 0.9285714285714286")
+    print("39/42 = 0.9285714285714285714285714286")
 if num1 == 39 and sign == '/' and num2 == 43:
-    print("39/43 = 0.9069767441860465")
+    print("39/43 = 0.9069767441860465116279069767")
 if num1 == 39 and sign == '/' and num2 == 44:
-    print("39/44 = 0.8863636363636364")
+    print("39/44 = 0.8863636363636363636363636364")
 if num1 == 39 and sign == '/' and num2 == 45:
-    print("39/45 = 0.8666666666666667")
+    print("39/45 = 0.8666666666666666666666666667")
 if num1 == 39 and sign == '/' and num2 == 46:
-    print("39/46 = 0.8478260869565217")
+    print("39/46 = 0.8478260869565217391304347826")
 if num1 == 39 and sign == '/' and num2 == 47:
-    print("39/47 = 0.8297872340425532")
+    print("39/47 = 0.8297872340425531914893617021")
 if num1 == 39 and sign == '/' and num2 == 48:
     print("39/48 = 0.8125")
 if num1 == 39 and sign == '/' and num2 == 49:
-    print("39/49 = 0.7959183673469388")
+    print("39/49 = 0.7959183673469387755102040816")
 if num1 == 39 and sign == '/' and num2 == 50:
     print("39/50 = 0.78")
 if num1 == 40 and sign == '/' and num2 == 0:
     print("40/0 = Inf")
 if num1 == 40 and sign == '/' and num2 == 1:
-    print("40/1 = 40.0")
+    print("40/1 = 40")
 if num1 == 40 and sign == '/' and num2 == 2:
-    print("40/2 = 20.0")
+    print("40/2 = 20")
 if num1 == 40 and sign == '/' and num2 == 3:
-    print("40/3 = 13.333333333333334")
+    print("40/3 = 13.33333333333333333333333333")
 if num1 == 40 and sign == '/' and num2 == 4:
-    print("40/4 = 10.0")
+    print("40/4 = 10")
 if num1 == 40 and sign == '/' and num2 == 5:
-    print("40/5 = 8.0")
+    print("40/5 = 8")
 if num1 == 40 and sign == '/' and num2 == 6:
-    print("40/6 = 6.666666666666667")
+    print("40/6 = 6.666666666666666666666666667")
 if num1 == 40 and sign == '/' and num2 == 7:
-    print("40/7 = 5.714285714285714")
+    print("40/7 = 5.714285714285714285714285714")
 if num1 == 40 and sign == '/' and num2 == 8:
-    print("40/8 = 5.0")
+    print("40/8 = 5")
 if num1 == 40 and sign == '/' and num2 == 9:
-    print("40/9 = 4.444444444444445")
+    print("40/9 = 4.444444444444444444444444444")
 if num1 == 40 and sign == '/' and num2 == 10:
-    print("40/10 = 4.0")
+    print("40/10 = 4")
 if num1 == 40 and sign == '/' and num2 == 11:
-    print("40/11 = 3.6363636363636362")
+    print("40/11 = 3.636363636363636363636363636")
 if num1 == 40 and sign == '/' and num2 == 12:
-    print("40/12 = 3.3333333333333335")
+    print("40/12 = 3.333333333333333333333333333")
 if num1 == 40 and sign == '/' and num2 == 13:
-    print("40/13 = 3.076923076923077")
+    print("40/13 = 3.076923076923076923076923077")
 if num1 == 40 and sign == '/' and num2 == 14:
-    print("40/14 = 2.857142857142857")
+    print("40/14 = 2.857142857142857142857142857")
 if num1 == 40 and sign == '/' and num2 == 15:
-    print("40/15 = 2.6666666666666665")
+    print("40/15 = 2.666666666666666666666666667")
 if num1 == 40 and sign == '/' and num2 == 16:
     print("40/16 = 2.5")
 if num1 == 40 and sign == '/' and num2 == 17:
-    print("40/17 = 2.3529411764705883")
+    print("40/17 = 2.352941176470588235294117647")
 if num1 == 40 and sign == '/' and num2 == 18:
-    print("40/18 = 2.2222222222222223")
+    print("40/18 = 2.222222222222222222222222222")
 if num1 == 40 and sign == '/' and num2 == 19:
-    print("40/19 = 2.1052631578947367")
+    print("40/19 = 2.105263157894736842105263158")
 if num1 == 40 and sign == '/' and num2 == 20:
-    print("40/20 = 2.0")
+    print("40/20 = 2")
 if num1 == 40 and sign == '/' and num2 == 21:
-    print("40/21 = 1.9047619047619047")
+    print("40/21 = 1.904761904761904761904761905")
 if num1 == 40 and sign == '/' and num2 == 22:
-    print("40/22 = 1.8181818181818181")
+    print("40/22 = 1.818181818181818181818181818")
 if num1 == 40 and sign == '/' and num2 == 23:
-    print("40/23 = 1.7391304347826086")
+    print("40/23 = 1.739130434782608695652173913")
 if num1 == 40 and sign == '/' and num2 == 24:
-    print("40/24 = 1.6666666666666667")
+    print("40/24 = 1.666666666666666666666666667")
 if num1 == 40 and sign == '/' and num2 == 25:
     print("40/25 = 1.6")
 if num1 == 40 and sign == '/' and num2 == 26:
-    print("40/26 = 1.5384615384615385")
+    print("40/26 = 1.538461538461538461538461538")
 if num1 == 40 and sign == '/' and num2 == 27:
-    print("40/27 = 1.4814814814814814")
+    print("40/27 = 1.481481481481481481481481481")
 if num1 == 40 and sign == '/' and num2 == 28:
-    print("40/28 = 1.4285714285714286")
+    print("40/28 = 1.428571428571428571428571429")
 if num1 == 40 and sign == '/' and num2 == 29:
-    print("40/29 = 1.3793103448275863")
+    print("40/29 = 1.379310344827586206896551724")
 if num1 == 40 and sign == '/' and num2 == 30:
-    print("40/30 = 1.3333333333333333")
+    print("40/30 = 1.333333333333333333333333333")
 if num1 == 40 and sign == '/' and num2 == 31:
-    print("40/31 = 1.2903225806451613")
+    print("40/31 = 1.290322580645161290322580645")
 if num1 == 40 and sign == '/' and num2 == 32:
     print("40/32 = 1.25")
 if num1 == 40 and sign == '/' and num2 == 33:
-    print("40/33 = 1.2121212121212122")
+    print("40/33 = 1.212121212121212121212121212")
 if num1 == 40 and sign == '/' and num2 == 34:
-    print("40/34 = 1.1764705882352942")
+    print("40/34 = 1.176470588235294117647058824")
 if num1 == 40 and sign == '/' and num2 == 35:
-    print("40/35 = 1.1428571428571428")
+    print("40/35 = 1.142857142857142857142857143")
 if num1 == 40 and sign == '/' and num2 == 36:
-    print("40/36 = 1.1111111111111112")
+    print("40/36 = 1.111111111111111111111111111")
 if num1 == 40 and sign == '/' and num2 == 37:
-    print("40/37 = 1.0810810810810811")
+    print("40/37 = 1.081081081081081081081081081")
 if num1 == 40 and sign == '/' and num2 == 38:
-    print("40/38 = 1.0526315789473684")
+    print("40/38 = 1.052631578947368421052631579")
 if num1 == 40 and sign == '/' and num2 == 39:
-    print("40/39 = 1.0256410256410255")
+    print("40/39 = 1.025641025641025641025641026")
 if num1 == 40 and sign == '/' and num2 == 40:
-    print("40/40 = 1.0")
+    print("40/40 = 1")
 if num1 == 40 and sign == '/' and num2 == 41:
-    print("40/41 = 0.975609756097561")
+    print("40/41 = 0.9756097560975609756097560976")
 if num1 == 40 and sign == '/' and num2 == 42:
-    print("40/42 = 0.9523809523809523")
+    print("40/42 = 0.9523809523809523809523809524")
 if num1 == 40 and sign == '/' and num2 == 43:
-    print("40/43 = 0.9302325581395349")
+    print("40/43 = 0.9302325581395348837209302326")
 if num1 == 40 and sign == '/' and num2 == 44:
-    print("40/44 = 0.9090909090909091")
+    print("40/44 = 0.9090909090909090909090909091")
 if num1 == 40 and sign == '/' and num2 == 45:
-    print("40/45 = 0.8888888888888888")
+    print("40/45 = 0.8888888888888888888888888889")
 if num1 == 40 and sign == '/' and num2 == 46:
-    print("40/46 = 0.8695652173913043")
+    print("40/46 = 0.8695652173913043478260869565")
 if num1 == 40 and sign == '/' and num2 == 47:
-    print("40/47 = 0.851063829787234")
+    print("40/47 = 0.8510638297872340425531914894")
 if num1 == 40 and sign == '/' and num2 == 48:
-    print("40/48 = 0.8333333333333334")
+    print("40/48 = 0.8333333333333333333333333333")
 if num1 == 40 and sign == '/' and num2 == 49:
-    print("40/49 = 0.8163265306122449")
+    print("40/49 = 0.8163265306122448979591836735")
 if num1 == 40 and sign == '/' and num2 == 50:
     print("40/50 = 0.8")
 if num1 == 41 and sign == '/' and num2 == 0:
     print("41/0 = Inf")
 if num1 == 41 and sign == '/' and num2 == 1:
-    print("41/1 = 41.0")
+    print("41/1 = 41")
 if num1 == 41 and sign == '/' and num2 == 2:
     print("41/2 = 20.5")
 if num1 == 41 and sign == '/' and num2 == 3:
-    print("41/3 = 13.666666666666666")
+    print("41/3 = 13.66666666666666666666666667")
 if num1 == 41 and sign == '/' and num2 == 4:
     print("41/4 = 10.25")
 if num1 == 41 and sign == '/' and num2 == 5:
     print("41/5 = 8.2")
 if num1 == 41 and sign == '/' and num2 == 6:
-    print("41/6 = 6.833333333333333")
+    print("41/6 = 6.833333333333333333333333333")
 if num1 == 41 and sign == '/' and num2 == 7:
-    print("41/7 = 5.857142857142857")
+    print("41/7 = 5.857142857142857142857142857")
 if num1 == 41 and sign == '/' and num2 == 8:
     print("41/8 = 5.125")
 if num1 == 41 and sign == '/' and num2 == 9:
-    print("41/9 = 4.555555555555555")
+    print("41/9 = 4.555555555555555555555555556")
 if num1 == 41 and sign == '/' and num2 == 10:
     print("41/10 = 4.1")
 if num1 == 41 and sign == '/' and num2 == 11:
-    print("41/11 = 3.727272727272727")
+    print("41/11 = 3.727272727272727272727272727")
 if num1 == 41 and sign == '/' and num2 == 12:
-    print("41/12 = 3.4166666666666665")
+    print("41/12 = 3.416666666666666666666666667")
 if num1 == 41 and sign == '/' and num2 == 13:
-    print("41/13 = 3.1538461538461537")
+    print("41/13 = 3.153846153846153846153846154")
 if num1 == 41 and sign == '/' and num2 == 14:
-    print("41/14 = 2.9285714285714284")
+    print("41/14 = 2.928571428571428571428571429")
 if num1 == 41 and sign == '/' and num2 == 15:
-    print("41/15 = 2.7333333333333334")
+    print("41/15 = 2.733333333333333333333333333")
 if num1 == 41 and sign == '/' and num2 == 16:
     print("41/16 = 2.5625")
 if num1 == 41 and sign == '/' and num2 == 17:
-    print("41/17 = 2.411764705882353")
+    print("41/17 = 2.411764705882352941176470588")
 if num1 == 41 and sign == '/' and num2 == 18:
-    print("41/18 = 2.2777777777777777")
+    print("41/18 = 2.277777777777777777777777778")
 if num1 == 41 and sign == '/' and num2 == 19:
-    print("41/19 = 2.1578947368421053")
+    print("41/19 = 2.157894736842105263157894737")
 if num1 == 41 and sign == '/' and num2 == 20:
     print("41/20 = 2.05")
 if num1 == 41 and sign == '/' and num2 == 21:
-    print("41/21 = 1.9523809523809523")
+    print("41/21 = 1.952380952380952380952380952")
 if num1 == 41 and sign == '/' and num2 == 22:
-    print("41/22 = 1.8636363636363635")
+    print("41/22 = 1.863636363636363636363636364")
 if num1 == 41 and sign == '/' and num2 == 23:
-    print("41/23 = 1.7826086956521738")
+    print("41/23 = 1.782608695652173913043478261")
 if num1 == 41 and sign == '/' and num2 == 24:
-    print("41/24 = 1.7083333333333333")
+    print("41/24 = 1.708333333333333333333333333")
 if num1 == 41 and sign == '/' and num2 == 25:
     print("41/25 = 1.64")
 if num1 == 41 and sign == '/' and num2 == 26:
-    print("41/26 = 1.5769230769230769")
+    print("41/26 = 1.576923076923076923076923077")
 if num1 == 41 and sign == '/' and num2 == 27:
-    print("41/27 = 1.5185185185185186")
+    print("41/27 = 1.518518518518518518518518519")
 if num1 == 41 and sign == '/' and num2 == 28:
-    print("41/28 = 1.4642857142857142")
+    print("41/28 = 1.464285714285714285714285714")
 if num1 == 41 and sign == '/' and num2 == 29:
-    print("41/29 = 1.4137931034482758")
+    print("41/29 = 1.413793103448275862068965517")
 if num1 == 41 and sign == '/' and num2 == 30:
-    print("41/30 = 1.3666666666666667")
+    print("41/30 = 1.366666666666666666666666667")
 if num1 == 41 and sign == '/' and num2 == 31:
-    print("41/31 = 1.3225806451612903")
+    print("41/31 = 1.322580645161290322580645161")
 if num1 == 41 and sign == '/' and num2 == 32:
     print("41/32 = 1.28125")
 if num1 == 41 and sign == '/' and num2 == 33:
-    print("41/33 = 1.2424242424242424")
+    print("41/33 = 1.242424242424242424242424242")
 if num1 == 41 and sign == '/' and num2 == 34:
-    print("41/34 = 1.2058823529411764")
+    print("41/34 = 1.205882352941176470588235294")
 if num1 == 41 and sign == '/' and num2 == 35:
-    print("41/35 = 1.1714285714285715")
+    print("41/35 = 1.171428571428571428571428571")
 if num1 == 41 and sign == '/' and num2 == 36:
-    print("41/36 = 1.1388888888888888")
+    print("41/36 = 1.138888888888888888888888889")
 if num1 == 41 and sign == '/' and num2 == 37:
-    print("41/37 = 1.1081081081081081")
+    print("41/37 = 1.108108108108108108108108108")
 if num1 == 41 and sign == '/' and num2 == 38:
-    print("41/38 = 1.0789473684210527")
+    print("41/38 = 1.078947368421052631578947368")
 if num1 == 41 and sign == '/' and num2 == 39:
-    print("41/39 = 1.0512820512820513")
+    print("41/39 = 1.051282051282051282051282051")
 if num1 == 41 and sign == '/' and num2 == 40:
     print("41/40 = 1.025")
 if num1 == 41 and sign == '/' and num2 == 41:
-    print("41/41 = 1.0")
+    print("41/41 = 1")
 if num1 == 41 and sign == '/' and num2 == 42:
-    print("41/42 = 0.9761904761904762")
+    print("41/42 = 0.9761904761904761904761904762")
 if num1 == 41 and sign == '/' and num2 == 43:
-    print("41/43 = 0.9534883720930233")
+    print("41/43 = 0.9534883720930232558139534884")
 if num1 == 41 and sign == '/' and num2 == 44:
-    print("41/44 = 0.9318181818181818")
+    print("41/44 = 0.9318181818181818181818181818")
 if num1 == 41 and sign == '/' and num2 == 45:
-    print("41/45 = 0.9111111111111111")
+    print("41/45 = 0.9111111111111111111111111111")
 if num1 == 41 and sign == '/' and num2 == 46:
-    print("41/46 = 0.8913043478260869")
+    print("41/46 = 0.8913043478260869565217391304")
 if num1 == 41 and sign == '/' and num2 == 47:
-    print("41/47 = 0.8723404255319149")
+    print("41/47 = 0.8723404255319148936170212766")
 if num1 == 41 and sign == '/' and num2 == 48:
-    print("41/48 = 0.8541666666666666")
+    print("41/48 = 0.8541666666666666666666666667")
 if num1 == 41 and sign == '/' and num2 == 49:
-    print("41/49 = 0.8367346938775511")
+    print("41/49 = 0.8367346938775510204081632653")
 if num1 == 41 and sign == '/' and num2 == 50:
     print("41/50 = 0.82")
 if num1 == 42 and sign == '/' and num2 == 0:
     print("42/0 = Inf")
 if num1 == 42 and sign == '/' and num2 == 1:
-    print("42/1 = 42.0")
+    print("42/1 = 42")
 if num1 == 42 and sign == '/' and num2 == 2:
-    print("42/2 = 21.0")
+    print("42/2 = 21")
 if num1 == 42 and sign == '/' and num2 == 3:
-    print("42/3 = 14.0")
+    print("42/3 = 14")
 if num1 == 42 and sign == '/' and num2 == 4:
     print("42/4 = 10.5")
 if num1 == 42 and sign == '/' and num2 == 5:
     print("42/5 = 8.4")
 if num1 == 42 and sign == '/' and num2 == 6:
-    print("42/6 = 7.0")
+    print("42/6 = 7")
 if num1 == 42 and sign == '/' and num2 == 7:
-    print("42/7 = 6.0")
+    print("42/7 = 6")
 if num1 == 42 and sign == '/' and num2 == 8:
     print("42/8 = 5.25")
 if num1 == 42 and sign == '/' and num2 == 9:
-    print("42/9 = 4.666666666666667")
+    print("42/9 = 4.666666666666666666666666667")
 if num1 == 42 and sign == '/' and num2 == 10:
     print("42/10 = 4.2")
 if num1 == 42 and sign == '/' and num2 == 11:
-    print("42/11 = 3.8181818181818183")
+    print("42/11 = 3.818181818181818181818181818")
 if num1 == 42 and sign == '/' and num2 == 12:
     print("42/12 = 3.5")
 if num1 == 42 and sign == '/' and num2 == 13:
-    print("42/13 = 3.230769230769231")
+    print("42/13 = 3.230769230769230769230769231")
 if num1 == 42 and sign == '/' and num2 == 14:
-    print("42/14 = 3.0")
+    print("42/14 = 3")
 if num1 == 42 and sign == '/' and num2 == 15:
     print("42/15 = 2.8")
 if num1 == 42 and sign == '/' and num2 == 16:
     print("42/16 = 2.625")
 if num1 == 42 and sign == '/' and num2 == 17:
-    print("42/17 = 2.4705882352941178")
+    print("42/17 = 2.470588235294117647058823529")
 if num1 == 42 and sign == '/' and num2 == 18:
-    print("42/18 = 2.3333333333333335")
+    print("42/18 = 2.333333333333333333333333333")
 if num1 == 42 and sign == '/' and num2 == 19:
-    print("42/19 = 2.210526315789474")
+    print("42/19 = 2.210526315789473684210526316")
 if num1 == 42 and sign == '/' and num2 == 20:
     print("42/20 = 2.1")
 if num1 == 42 and sign == '/' and num2 == 21:
-    print("42/21 = 2.0")
+    print("42/21 = 2")
 if num1 == 42 and sign == '/' and num2 == 22:
-    print("42/22 = 1.9090909090909092")
+    print("42/22 = 1.909090909090909090909090909")
 if num1 == 42 and sign == '/' and num2 == 23:
-    print("42/23 = 1.826086956521739")
+    print("42/23 = 1.826086956521739130434782609")
 if num1 == 42 and sign == '/' and num2 == 24:
     print("42/24 = 1.75")
 if num1 == 42 and sign == '/' and num2 == 25:
     print("42/25 = 1.68")
 if num1 == 42 and sign == '/' and num2 == 26:
-    print("42/26 = 1.6153846153846154")
+    print("42/26 = 1.615384615384615384615384615")
 if num1 == 42 and sign == '/' and num2 == 27:
-    print("42/27 = 1.5555555555555556")
+    print("42/27 = 1.555555555555555555555555556")
 if num1 == 42 and sign == '/' and num2 == 28:
     print("42/28 = 1.5")
 if num1 == 42 and sign == '/' and num2 == 29:
-    print("42/29 = 1.4482758620689655")
+    print("42/29 = 1.448275862068965517241379310")
 if num1 == 42 and sign == '/' and num2 == 30:
     print("42/30 = 1.4")
 if num1 == 42 and sign == '/' and num2 == 31:
-    print("42/31 = 1.3548387096774193")
+    print("42/31 = 1.354838709677419354838709677")
 if num1 == 42 and sign == '/' and num2 == 32:
     print("42/32 = 1.3125")
 if num1 == 42 and sign == '/' and num2 == 33:
-    print("42/33 = 1.2727272727272727")
+    print("42/33 = 1.272727272727272727272727273")
 if num1 == 42 and sign == '/' and num2 == 34:
-    print("42/34 = 1.2352941176470589")
+    print("42/34 = 1.235294117647058823529411765")
 if num1 == 42 and sign == '/' and num2 == 35:
     print("42/35 = 1.2")
 if num1 == 42 and sign == '/' and num2 == 36:
-    print("42/36 = 1.1666666666666667")
+    print("42/36 = 1.166666666666666666666666667")
 if num1 == 42 and sign == '/' and num2 == 37:
-    print("42/37 = 1.135135135135135")
+    print("42/37 = 1.135135135135135135135135135")
 if num1 == 42 and sign == '/' and num2 == 38:
-    print("42/38 = 1.105263157894737")
+    print("42/38 = 1.105263157894736842105263158")
 if num1 == 42 and sign == '/' and num2 == 39:
-    print("42/39 = 1.0769230769230769")
+    print("42/39 = 1.076923076923076923076923077")
 if num1 == 42 and sign == '/' and num2 == 40:
     print("42/40 = 1.05")
 if num1 == 42 and sign == '/' and num2 == 41:
-    print("42/41 = 1.024390243902439")
+    print("42/41 = 1.024390243902439024390243902")
 if num1 == 42 and sign == '/' and num2 == 42:
-    print("42/42 = 1.0")
+    print("42/42 = 1")
 if num1 == 42 and sign == '/' and num2 == 43:
-    print("42/43 = 0.9767441860465116")
+    print("42/43 = 0.9767441860465116279069767442")
 if num1 == 42 and sign == '/' and num2 == 44:
-    print("42/44 = 0.9545454545454546")
+    print("42/44 = 0.9545454545454545454545454545")
 if num1 == 42 and sign == '/' and num2 == 45:
-    print("42/45 = 0.9333333333333333")
+    print("42/45 = 0.9333333333333333333333333333")
 if num1 == 42 and sign == '/' and num2 == 46:
-    print("42/46 = 0.9130434782608695")
+    print("42/46 = 0.9130434782608695652173913043")
 if num1 == 42 and sign == '/' and num2 == 47:
-    print("42/47 = 0.8936170212765957")
+    print("42/47 = 0.8936170212765957446808510638")
 if num1 == 42 and sign == '/' and num2 == 48:
     print("42/48 = 0.875")
 if num1 == 42 and sign == '/' and num2 == 49:
-    print("42/49 = 0.8571428571428571")
+    print("42/49 = 0.8571428571428571428571428571")
 if num1 == 42 and sign == '/' and num2 == 50:
     print("42/50 = 0.84")
 if num1 == 43 and sign == '/' and num2 == 0:
     print("43/0 = Inf")
 if num1 == 43 and sign == '/' and num2 == 1:
-    print("43/1 = 43.0")
+    print("43/1 = 43")
 if num1 == 43 and sign == '/' and num2 == 2:
     print("43/2 = 21.5")
 if num1 == 43 and sign == '/' and num2 == 3:
-    print("43/3 = 14.333333333333334")
+    print("43/3 = 14.33333333333333333333333333")
 if num1 == 43 and sign == '/' and num2 == 4:
     print("43/4 = 10.75")
 if num1 == 43 and sign == '/' and num2 == 5:
     print("43/5 = 8.6")
 if num1 == 43 and sign == '/' and num2 == 6:
-    print("43/6 = 7.166666666666667")
+    print("43/6 = 7.166666666666666666666666667")
 if num1 == 43 and sign == '/' and num2 == 7:
-    print("43/7 = 6.142857142857143")
+    print("43/7 = 6.142857142857142857142857143")
 if num1 == 43 and sign == '/' and num2 == 8:
     print("43/8 = 5.375")
 if num1 == 43 and sign == '/' and num2 == 9:
-    print("43/9 = 4.777777777777778")
+    print("43/9 = 4.777777777777777777777777778")
 if num1 == 43 and sign == '/' and num2 == 10:
     print("43/10 = 4.3")
 if num1 == 43 and sign == '/' and num2 == 11:
-    print("43/11 = 3.909090909090909")
+    print("43/11 = 3.909090909090909090909090909")
 if num1 == 43 and sign == '/' and num2 == 12:
-    print("43/12 = 3.5833333333333335")
+    print("43/12 = 3.583333333333333333333333333")
 if num1 == 43 and sign == '/' and num2 == 13:
-    print("43/13 = 3.3076923076923075")
+    print("43/13 = 3.307692307692307692307692308")
 if num1 == 43 and sign == '/' and num2 == 14:
-    print("43/14 = 3.0714285714285716")
+    print("43/14 = 3.071428571428571428571428571")
 if num1 == 43 and sign == '/' and num2 == 15:
-    print("43/15 = 2.8666666666666667")
+    print("43/15 = 2.866666666666666666666666667")
 if num1 == 43 and sign == '/' and num2 == 16:
     print("43/16 = 2.6875")
 if num1 == 43 and sign == '/' and num2 == 17:
-    print("43/17 = 2.5294117647058822")
+    print("43/17 = 2.529411764705882352941176471")
 if num1 == 43 and sign == '/' and num2 == 18:
-    print("43/18 = 2.388888888888889")
+    print("43/18 = 2.388888888888888888888888889")
 if num1 == 43 and sign == '/' and num2 == 19:
-    print("43/19 = 2.263157894736842")
+    print("43/19 = 2.263157894736842105263157895")
 if num1 == 43 and sign == '/' and num2 == 20:
     print("43/20 = 2.15")
 if num1 == 43 and sign == '/' and num2 == 21:
-    print("43/21 = 2.0476190476190474")
+    print("43/21 = 2.047619047619047619047619048")
 if num1 == 43 and sign == '/' and num2 == 22:
-    print("43/22 = 1.9545454545454546")
+    print("43/22 = 1.954545454545454545454545455")
 if num1 == 43 and sign == '/' and num2 == 23:
-    print("43/23 = 1.8695652173913044")
+    print("43/23 = 1.869565217391304347826086957")
 if num1 == 43 and sign == '/' and num2 == 24:
-    print("43/24 = 1.7916666666666667")
+    print("43/24 = 1.791666666666666666666666667")
 if num1 == 43 and sign == '/' and num2 == 25:
     print("43/25 = 1.72")
 if num1 == 43 and sign == '/' and num2 == 26:
-    print("43/26 = 1.6538461538461537")
+    print("43/26 = 1.653846153846153846153846154")
 if num1 == 43 and sign == '/' and num2 == 27:
-    print("43/27 = 1.5925925925925926")
+    print("43/27 = 1.592592592592592592592592593")
 if num1 == 43 and sign == '/' and num2 == 28:
-    print("43/28 = 1.5357142857142858")
+    print("43/28 = 1.535714285714285714285714286")
 if num1 == 43 and sign == '/' and num2 == 29:
-    print("43/29 = 1.4827586206896552")
+    print("43/29 = 1.482758620689655172413793103")
 if num1 == 43 and sign == '/' and num2 == 30:
-    print("43/30 = 1.4333333333333333")
+    print("43/30 = 1.433333333333333333333333333")
 if num1 == 43 and sign == '/' and num2 == 31:
-    print("43/31 = 1.3870967741935485")
+    print("43/31 = 1.387096774193548387096774194")
 if num1 == 43 and sign == '/' and num2 == 32:
     print("43/32 = 1.34375")
 if num1 == 43 and sign == '/' and num2 == 33:
-    print("43/33 = 1.303030303030303")
+    print("43/33 = 1.303030303030303030303030303")
 if num1 == 43 and sign == '/' and num2 == 34:
-    print("43/34 = 1.2647058823529411")
+    print("43/34 = 1.264705882352941176470588235")
 if num1 == 43 and sign == '/' and num2 == 35:
-    print("43/35 = 1.2285714285714286")
+    print("43/35 = 1.228571428571428571428571429")
 if num1 == 43 and sign == '/' and num2 == 36:
-    print("43/36 = 1.1944444444444444")
+    print("43/36 = 1.194444444444444444444444444")
 if num1 == 43 and sign == '/' and num2 == 37:
-    print("43/37 = 1.162162162162162")
+    print("43/37 = 1.162162162162162162162162162")
 if num1 == 43 and sign == '/' and num2 == 38:
-    print("43/38 = 1.131578947368421")
+    print("43/38 = 1.131578947368421052631578947")
 if num1 == 43 and sign == '/' and num2 == 39:
-    print("43/39 = 1.1025641025641026")
+    print("43/39 = 1.102564102564102564102564103")
 if num1 == 43 and sign == '/' and num2 == 40:
     print("43/40 = 1.075")
 if num1 == 43 and sign == '/' and num2 == 41:
-    print("43/41 = 1.048780487804878")
+    print("43/41 = 1.048780487804878048780487805")
 if num1 == 43 and sign == '/' and num2 == 42:
-    print("43/42 = 1.0238095238095237")
+    print("43/42 = 1.023809523809523809523809524")
 if num1 == 43 and sign == '/' and num2 == 43:
-    print("43/43 = 1.0")
+    print("43/43 = 1")
 if num1 == 43 and sign == '/' and num2 == 44:
-    print("43/44 = 0.9772727272727273")
+    print("43/44 = 0.9772727272727272727272727273")
 if num1 == 43 and sign == '/' and num2 == 45:
-    print("43/45 = 0.9555555555555556")
+    print("43/45 = 0.9555555555555555555555555556")
 if num1 == 43 and sign == '/' and num2 == 46:
-    print("43/46 = 0.9347826086956522")
+    print("43/46 = 0.9347826086956521739130434783")
 if num1 == 43 and sign == '/' and num2 == 47:
-    print("43/47 = 0.9148936170212766")
+    print("43/47 = 0.9148936170212765957446808511")
 if num1 == 43 and sign == '/' and num2 == 48:
-    print("43/48 = 0.8958333333333334")
+    print("43/48 = 0.8958333333333333333333333333")
 if num1 == 43 and sign == '/' and num2 == 49:
-    print("43/49 = 0.8775510204081632")
+    print("43/49 = 0.8775510204081632653061224490")
 if num1 == 43 and sign == '/' and num2 == 50:
     print("43/50 = 0.86")
 if num1 == 44 and sign == '/' and num2 == 0:
     print("44/0 = Inf")
 if num1 == 44 and sign == '/' and num2 == 1:
-    print("44/1 = 44.0")
+    print("44/1 = 44")
 if num1 == 44 and sign == '/' and num2 == 2:
-    print("44/2 = 22.0")
+    print("44/2 = 22")
 if num1 == 44 and sign == '/' and num2 == 3:
-    print("44/3 = 14.666666666666666")
+    print("44/3 = 14.66666666666666666666666667")
 if num1 == 44 and sign == '/' and num2 == 4:
-    print("44/4 = 11.0")
+    print("44/4 = 11")
 if num1 == 44 and sign == '/' and num2 == 5:
     print("44/5 = 8.8")
 if num1 == 44 and sign == '/' and num2 == 6:
-    print("44/6 = 7.333333333333333")
+    print("44/6 = 7.333333333333333333333333333")
 if num1 == 44 and sign == '/' and num2 == 7:
-    print("44/7 = 6.285714285714286")
+    print("44/7 = 6.285714285714285714285714286")
 if num1 == 44 and sign == '/' and num2 == 8:
     print("44/8 = 5.5")
 if num1 == 44 and sign == '/' and num2 == 9:
-    print("44/9 = 4.888888888888889")
+    print("44/9 = 4.888888888888888888888888889")
 if num1 == 44 and sign == '/' and num2 == 10:
     print("44/10 = 4.4")
 if num1 == 44 and sign == '/' and num2 == 11:
-    print("44/11 = 4.0")
+    print("44/11 = 4")
 if num1 == 44 and sign == '/' and num2 == 12:
-    print("44/12 = 3.6666666666666665")
+    print("44/12 = 3.666666666666666666666666667")
 if num1 == 44 and sign == '/' and num2 == 13:
-    print("44/13 = 3.3846153846153846")
+    print("44/13 = 3.384615384615384615384615385")
 if num1 == 44 and sign == '/' and num2 == 14:
-    print("44/14 = 3.142857142857143")
+    print("44/14 = 3.142857142857142857142857143")
 if num1 == 44 and sign == '/' and num2 == 15:
-    print("44/15 = 2.933333333333333")
+    print("44/15 = 2.933333333333333333333333333")
 if num1 == 44 and sign == '/' and num2 == 16:
     print("44/16 = 2.75")
 if num1 == 44 and sign == '/' and num2 == 17:
-    print("44/17 = 2.588235294117647")
+    print("44/17 = 2.588235294117647058823529412")
 if num1 == 44 and sign == '/' and num2 == 18:
-    print("44/18 = 2.4444444444444446")
+    print("44/18 = 2.444444444444444444444444444")
 if num1 == 44 and sign == '/' and num2 == 19:
-    print("44/19 = 2.3157894736842106")
+    print("44/19 = 2.315789473684210526315789474")
 if num1 == 44 and sign == '/' and num2 == 20:
     print("44/20 = 2.2")
 if num1 == 44 and sign == '/' and num2 == 21:
-    print("44/21 = 2.0952380952380953")
+    print("44/21 = 2.095238095238095238095238095")
 if num1 == 44 and sign == '/' and num2 == 22:
-    print("44/22 = 2.0")
+    print("44/22 = 2")
 if num1 == 44 and sign == '/' and num2 == 23:
-    print("44/23 = 1.9130434782608696")
+    print("44/23 = 1.913043478260869565217391304")
 if num1 == 44 and sign == '/' and num2 == 24:
-    print("44/24 = 1.8333333333333333")
+    print("44/24 = 1.833333333333333333333333333")
 if num1 == 44 and sign == '/' and num2 == 25:
     print("44/25 = 1.76")
 if num1 == 44 and sign == '/' and num2 == 26:
-    print("44/26 = 1.6923076923076923")
+    print("44/26 = 1.692307692307692307692307692")
 if num1 == 44 and sign == '/' and num2 == 27:
-    print("44/27 = 1.6296296296296295")
+    print("44/27 = 1.629629629629629629629629630")
 if num1 == 44 and sign == '/' and num2 == 28:
-    print("44/28 = 1.5714285714285714")
+    print("44/28 = 1.571428571428571428571428571")
 if num1 == 44 and sign == '/' and num2 == 29:
-    print("44/29 = 1.5172413793103448")
+    print("44/29 = 1.517241379310344827586206897")
 if num1 == 44 and sign == '/' and num2 == 30:
-    print("44/30 = 1.4666666666666666")
+    print("44/30 = 1.466666666666666666666666667")
 if num1 == 44 and sign == '/' and num2 == 31:
-    print("44/31 = 1.4193548387096775")
+    print("44/31 = 1.419354838709677419354838710")
 if num1 == 44 and sign == '/' and num2 == 32:
     print("44/32 = 1.375")
 if num1 == 44 and sign == '/' and num2 == 33:
-    print("44/33 = 1.3333333333333333")
+    print("44/33 = 1.333333333333333333333333333")
 if num1 == 44 and sign == '/' and num2 == 34:
-    print("44/34 = 1.2941176470588236")
+    print("44/34 = 1.294117647058823529411764706")
 if num1 == 44 and sign == '/' and num2 == 35:
-    print("44/35 = 1.2571428571428571")
+    print("44/35 = 1.257142857142857142857142857")
 if num1 == 44 and sign == '/' and num2 == 36:
-    print("44/36 = 1.2222222222222223")
+    print("44/36 = 1.222222222222222222222222222")
 if num1 == 44 and sign == '/' and num2 == 37:
-    print("44/37 = 1.1891891891891893")
+    print("44/37 = 1.189189189189189189189189189")
 if num1 == 44 and sign == '/' and num2 == 38:
-    print("44/38 = 1.1578947368421053")
+    print("44/38 = 1.157894736842105263157894737")
 if num1 == 44 and sign == '/' and num2 == 39:
-    print("44/39 = 1.1282051282051282")
+    print("44/39 = 1.128205128205128205128205128")
 if num1 == 44 and sign == '/' and num2 == 40:
     print("44/40 = 1.1")
 if num1 == 44 and sign == '/' and num2 == 41:
-    print("44/41 = 1.0731707317073171")
+    print("44/41 = 1.073170731707317073170731707")
 if num1 == 44 and sign == '/' and num2 == 42:
-    print("44/42 = 1.0476190476190477")
+    print("44/42 = 1.047619047619047619047619048")
 if num1 == 44 and sign == '/' and num2 == 43:
-    print("44/43 = 1.0232558139534884")
+    print("44/43 = 1.023255813953488372093023256")
 if num1 == 44 and sign == '/' and num2 == 44:
-    print("44/44 = 1.0")
+    print("44/44 = 1")
 if num1 == 44 and sign == '/' and num2 == 45:
-    print("44/45 = 0.9777777777777777")
+    print("44/45 = 0.9777777777777777777777777778")
 if num1 == 44 and sign == '/' and num2 == 46:
-    print("44/46 = 0.9565217391304348")
+    print("44/46 = 0.9565217391304347826086956522")
 if num1 == 44 and sign == '/' and num2 == 47:
-    print("44/47 = 0.9361702127659575")
+    print("44/47 = 0.9361702127659574468085106383")
 if num1 == 44 and sign == '/' and num2 == 48:
-    print("44/48 = 0.9166666666666666")
+    print("44/48 = 0.9166666666666666666666666667")
 if num1 == 44 and sign == '/' and num2 == 49:
-    print("44/49 = 0.8979591836734694")
+    print("44/49 = 0.8979591836734693877551020408")
 if num1 == 44 and sign == '/' and num2 == 50:
     print("44/50 = 0.88")
 if num1 == 45 and sign == '/' and num2 == 0:
     print("45/0 = Inf")
 if num1 == 45 and sign == '/' and num2 == 1:
-    print("45/1 = 45.0")
+    print("45/1 = 45")
 if num1 == 45 and sign == '/' and num2 == 2:
     print("45/2 = 22.5")
 if num1 == 45 and sign == '/' and num2 == 3:
-    print("45/3 = 15.0")
+    print("45/3 = 15")
 if num1 == 45 and sign == '/' and num2 == 4:
     print("45/4 = 11.25")
 if num1 == 45 and sign == '/' and num2 == 5:
-    print("45/5 = 9.0")
+    print("45/5 = 9")
 if num1 == 45 and sign == '/' and num2 == 6:
     print("45/6 = 7.5")
 if num1 == 45 and sign == '/' and num2 == 7:
-    print("45/7 = 6.428571428571429")
+    print("45/7 = 6.428571428571428571428571429")
 if num1 == 45 and sign == '/' and num2 == 8:
     print("45/8 = 5.625")
 if num1 == 45 and sign == '/' and num2 == 9:
-    print("45/9 = 5.0")
+    print("45/9 = 5")
 if num1 == 45 and sign == '/' and num2 == 10:
     print("45/10 = 4.5")
 if num1 == 45 and sign == '/' and num2 == 11:
-    print("45/11 = 4.090909090909091")
+    print("45/11 = 4.090909090909090909090909091")
 if num1 == 45 and sign == '/' and num2 == 12:
     print("45/12 = 3.75")
 if num1 == 45 and sign == '/' and num2 == 13:
-    print("45/13 = 3.4615384615384617")
+    print("45/13 = 3.461538461538461538461538462")
 if num1 == 45 and sign == '/' and num2 == 14:
-    print("45/14 = 3.2142857142857144")
+    print("45/14 = 3.214285714285714285714285714")
 if num1 == 45 and sign == '/' and num2 == 15:
-    print("45/15 = 3.0")
+    print("45/15 = 3")
 if num1 == 45 and sign == '/' and num2 == 16:
     print("45/16 = 2.8125")
 if num1 == 45 and sign == '/' and num2 == 17:
-    print("45/17 = 2.6470588235294117")
+    print("45/17 = 2.647058823529411764705882353")
 if num1 == 45 and sign == '/' and num2 == 18:
     print("45/18 = 2.5")
 if num1 == 45 and sign == '/' and num2 == 19:
-    print("45/19 = 2.3684210526315788")
+    print("45/19 = 2.368421052631578947368421053")
 if num1 == 45 and sign == '/' and num2 == 20:
     print("45/20 = 2.25")
 if num1 == 45 and sign == '/' and num2 == 21:
-    print("45/21 = 2.142857142857143")
+    print("45/21 = 2.142857142857142857142857143")
 if num1 == 45 and sign == '/' and num2 == 22:
-    print("45/22 = 2.0454545454545454")
+    print("45/22 = 2.045454545454545454545454545")
 if num1 == 45 and sign == '/' and num2 == 23:
-    print("45/23 = 1.9565217391304348")
+    print("45/23 = 1.956521739130434782608695652")
 if num1 == 45 and sign == '/' and num2 == 24:
     print("45/24 = 1.875")
 if num1 == 45 and sign == '/' and num2 == 25:
     print("45/25 = 1.8")
 if num1 == 45 and sign == '/' and num2 == 26:
-    print("45/26 = 1.7307692307692308")
+    print("45/26 = 1.730769230769230769230769231")
 if num1 == 45 and sign == '/' and num2 == 27:
-    print("45/27 = 1.6666666666666667")
+    print("45/27 = 1.666666666666666666666666667")
 if num1 == 45 and sign == '/' and num2 == 28:
-    print("45/28 = 1.6071428571428572")
+    print("45/28 = 1.607142857142857142857142857")
 if num1 == 45 and sign == '/' and num2 == 29:
-    print("45/29 = 1.5517241379310345")
+    print("45/29 = 1.551724137931034482758620690")
 if num1 == 45 and sign == '/' and num2 == 30:
     print("45/30 = 1.5")
 if num1 == 45 and sign == '/' and num2 == 31:
-    print("45/31 = 1.4516129032258065")
+    print("45/31 = 1.451612903225806451612903226")
 if num1 == 45 and sign == '/' and num2 == 32:
     print("45/32 = 1.40625")
 if num1 == 45 and sign == '/' and num2 == 33:
-    print("45/33 = 1.3636363636363635")
+    print("45/33 = 1.363636363636363636363636364")
 if num1 == 45 and sign == '/' and num2 == 34:
-    print("45/34 = 1.3235294117647058")
+    print("45/34 = 1.323529411764705882352941176")
 if num1 == 45 and sign == '/' and num2 == 35:
-    print("45/35 = 1.2857142857142858")
+    print("45/35 = 1.285714285714285714285714286")
 if num1 == 45 and sign == '/' and num2 == 36:
     print("45/36 = 1.25")
 if num1 == 45 and sign == '/' and num2 == 37:
-    print("45/37 = 1.2162162162162162")
+    print("45/37 = 1.216216216216216216216216216")
 if num1 == 45 and sign == '/' and num2 == 38:
-    print("45/38 = 1.1842105263157894")
+    print("45/38 = 1.184210526315789473684210526")
 if num1 == 45 and sign == '/' and num2 == 39:
-    print("45/39 = 1.1538461538461537")
+    print("45/39 = 1.153846153846153846153846154")
 if num1 == 45 and sign == '/' and num2 == 40:
     print("45/40 = 1.125")
 if num1 == 45 and sign == '/' and num2 == 41:
-    print("45/41 = 1.0975609756097562")
+    print("45/41 = 1.097560975609756097560975610")
 if num1 == 45 and sign == '/' and num2 == 42:
-    print("45/42 = 1.0714285714285714")
+    print("45/42 = 1.071428571428571428571428571")
 if num1 == 45 and sign == '/' and num2 == 43:
-    print("45/43 = 1.0465116279069768")
+    print("45/43 = 1.046511627906976744186046512")
 if num1 == 45 and sign == '/' and num2 == 44:
-    print("45/44 = 1.0227272727272727")
+    print("45/44 = 1.022727272727272727272727273")
 if num1 == 45 and sign == '/' and num2 == 45:
-    print("45/45 = 1.0")
+    print("45/45 = 1")
 if num1 == 45 and sign == '/' and num2 == 46:
-    print("45/46 = 0.9782608695652174")
+    print("45/46 = 0.9782608695652173913043478261")
 if num1 == 45 and sign == '/' and num2 == 47:
-    print("45/47 = 0.9574468085106383")
+    print("45/47 = 0.9574468085106382978723404255")
 if num1 == 45 and sign == '/' and num2 == 48:
     print("45/48 = 0.9375")
 if num1 == 45 and sign == '/' and num2 == 49:
-    print("45/49 = 0.9183673469387755")
+    print("45/49 = 0.9183673469387755102040816327")
 if num1 == 45 and sign == '/' and num2 == 50:
     print("45/50 = 0.9")
 if num1 == 46 and sign == '/' and num2 == 0:
     print("46/0 = Inf")
 if num1 == 46 and sign == '/' and num2 == 1:
-    print("46/1 = 46.0")
+    print("46/1 = 46")
 if num1 == 46 and sign == '/' and num2 == 2:
-    print("46/2 = 23.0")
+    print("46/2 = 23")
 if num1 == 46 and sign == '/' and num2 == 3:
-    print("46/3 = 15.333333333333334")
+    print("46/3 = 15.33333333333333333333333333")
 if num1 == 46 and sign == '/' and num2 == 4:
     print("46/4 = 11.5")
 if num1 == 46 and sign == '/' and num2 == 5:
     print("46/5 = 9.2")
 if num1 == 46 and sign == '/' and num2 == 6:
-    print("46/6 = 7.666666666666667")
+    print("46/6 = 7.666666666666666666666666667")
 if num1 == 46 and sign == '/' and num2 == 7:
-    print("46/7 = 6.571428571428571")
+    print("46/7 = 6.571428571428571428571428571")
 if num1 == 46 and sign == '/' and num2 == 8:
     print("46/8 = 5.75")
 if num1 == 46 and sign == '/' and num2 == 9:
-    print("46/9 = 5.111111111111111")
+    print("46/9 = 5.111111111111111111111111111")
 if num1 == 46 and sign == '/' and num2 == 10:
     print("46/10 = 4.6")
 if num1 == 46 and sign == '/' and num2 == 11:
-    print("46/11 = 4.181818181818182")
+    print("46/11 = 4.181818181818181818181818182")
 if num1 == 46 and sign == '/' and num2 == 12:
-    print("46/12 = 3.8333333333333335")
+    print("46/12 = 3.833333333333333333333333333")
 if num1 == 46 and sign == '/' and num2 == 13:
-    print("46/13 = 3.5384615384615383")
+    print("46/13 = 3.538461538461538461538461538")
 if num1 == 46 and sign == '/' and num2 == 14:
-    print("46/14 = 3.2857142857142856")
+    print("46/14 = 3.285714285714285714285714286")
 if num1 == 46 and sign == '/' and num2 == 15:
-    print("46/15 = 3.066666666666667")
+    print("46/15 = 3.066666666666666666666666667")
 if num1 == 46 and sign == '/' and num2 == 16:
     print("46/16 = 2.875")
 if num1 == 46 and sign == '/' and num2 == 17:
-    print("46/17 = 2.7058823529411766")
+    print("46/17 = 2.705882352941176470588235294")
 if num1 == 46 and sign == '/' and num2 == 18:
-    print("46/18 = 2.5555555555555554")
+    print("46/18 = 2.555555555555555555555555556")
 if num1 == 46 and sign == '/' and num2 == 19:
-    print("46/19 = 2.4210526315789473")
+    print("46/19 = 2.421052631578947368421052632")
 if num1 == 46 and sign == '/' and num2 == 20:
     print("46/20 = 2.3")
 if num1 == 46 and sign == '/' and num2 == 21:
-    print("46/21 = 2.1904761904761907")
+    print("46/21 = 2.190476190476190476190476190")
 if num1 == 46 and sign == '/' and num2 == 22:
-    print("46/22 = 2.090909090909091")
+    print("46/22 = 2.090909090909090909090909091")
 if num1 == 46 and sign == '/' and num2 == 23:
-    print("46/23 = 2.0")
+    print("46/23 = 2")
 if num1 == 46 and sign == '/' and num2 == 24:
-    print("46/24 = 1.9166666666666667")
+    print("46/24 = 1.916666666666666666666666667")
 if num1 == 46 and sign == '/' and num2 == 25:
     print("46/25 = 1.84")
 if num1 == 46 and sign == '/' and num2 == 26:
-    print("46/26 = 1.7692307692307692")
+    print("46/26 = 1.769230769230769230769230769")
 if num1 == 46 and sign == '/' and num2 == 27:
-    print("46/27 = 1.7037037037037037")
+    print("46/27 = 1.703703703703703703703703704")
 if num1 == 46 and sign == '/' and num2 == 28:
-    print("46/28 = 1.6428571428571428")
+    print("46/28 = 1.642857142857142857142857143")
 if num1 == 46 and sign == '/' and num2 == 29:
-    print("46/29 = 1.5862068965517242")
+    print("46/29 = 1.586206896551724137931034483")
 if num1 == 46 and sign == '/' and num2 == 30:
-    print("46/30 = 1.5333333333333334")
+    print("46/30 = 1.533333333333333333333333333")
 if num1 == 46 and sign == '/' and num2 == 31:
-    print("46/31 = 1.4838709677419355")
+    print("46/31 = 1.483870967741935483870967742")
 if num1 == 46 and sign == '/' and num2 == 32:
     print("46/32 = 1.4375")
 if num1 == 46 and sign == '/' and num2 == 33:
-    print("46/33 = 1.393939393939394")
+    print("46/33 = 1.393939393939393939393939394")
 if num1 == 46 and sign == '/' and num2 == 34:
-    print("46/34 = 1.3529411764705883")
+    print("46/34 = 1.352941176470588235294117647")
 if num1 == 46 and sign == '/' and num2 == 35:
-    print("46/35 = 1.3142857142857143")
+    print("46/35 = 1.314285714285714285714285714")
 if num1 == 46 and sign == '/' and num2 == 36:
-    print("46/36 = 1.2777777777777777")
+    print("46/36 = 1.277777777777777777777777778")
 if num1 == 46 and sign == '/' and num2 == 37:
-    print("46/37 = 1.2432432432432432")
+    print("46/37 = 1.243243243243243243243243243")
 if num1 == 46 and sign == '/' and num2 == 38:
-    print("46/38 = 1.2105263157894737")
+    print("46/38 = 1.210526315789473684210526316")
 if num1 == 46 and sign == '/' and num2 == 39:
-    print("46/39 = 1.1794871794871795")
+    print("46/39 = 1.179487179487179487179487179")
 if num1 == 46 and sign == '/' and num2 == 40:
     print("46/40 = 1.15")
 if num1 == 46 and sign == '/' and num2 == 41:
-    print("46/41 = 1.1219512195121952")
+    print("46/41 = 1.121951219512195121951219512")
 if num1 == 46 and sign == '/' and num2 == 42:
-    print("46/42 = 1.0952380952380953")
+    print("46/42 = 1.095238095238095238095238095")
 if num1 == 46 and sign == '/' and num2 == 43:
-    print("46/43 = 1.069767441860465")
+    print("46/43 = 1.069767441860465116279069767")
 if num1 == 46 and sign == '/' and num2 == 44:
-    print("46/44 = 1.0454545454545454")
+    print("46/44 = 1.045454545454545454545454545")
 if num1 == 46 and sign == '/' and num2 == 45:
-    print("46/45 = 1.0222222222222221")
+    print("46/45 = 1.022222222222222222222222222")
 if num1 == 46 and sign == '/' and num2 == 46:
-    print("46/46 = 1.0")
+    print("46/46 = 1")
 if num1 == 46 and sign == '/' and num2 == 47:
-    print("46/47 = 0.9787234042553191")
+    print("46/47 = 0.9787234042553191489361702128")
 if num1 == 46 and sign == '/' and num2 == 48:
-    print("46/48 = 0.9583333333333334")
+    print("46/48 = 0.9583333333333333333333333333")
 if num1 == 46 and sign == '/' and num2 == 49:
-    print("46/49 = 0.9387755102040817")
+    print("46/49 = 0.9387755102040816326530612245")
 if num1 == 46 and sign == '/' and num2 == 50:
     print("46/50 = 0.92")
 if num1 == 47 and sign == '/' and num2 == 0:
     print("47/0 = Inf")
 if num1 == 47 and sign == '/' and num2 == 1:
-    print("47/1 = 47.0")
+    print("47/1 = 47")
 if num1 == 47 and sign == '/' and num2 == 2:
     print("47/2 = 23.5")
 if num1 == 47 and sign == '/' and num2 == 3:
-    print("47/3 = 15.666666666666666")
+    print("47/3 = 15.66666666666666666666666667")
 if num1 == 47 and sign == '/' and num2 == 4:
     print("47/4 = 11.75")
 if num1 == 47 and sign == '/' and num2 == 5:
     print("47/5 = 9.4")
 if num1 == 47 and sign == '/' and num2 == 6:
-    print("47/6 = 7.833333333333333")
+    print("47/6 = 7.833333333333333333333333333")
 if num1 == 47 and sign == '/' and num2 == 7:
-    print("47/7 = 6.714285714285714")
+    print("47/7 = 6.714285714285714285714285714")
 if num1 == 47 and sign == '/' and num2 == 8:
     print("47/8 = 5.875")
 if num1 == 47 and sign == '/' and num2 == 9:
-    print("47/9 = 5.222222222222222")
+    print("47/9 = 5.222222222222222222222222222")
 if num1 == 47 and sign == '/' and num2 == 10:
     print("47/10 = 4.7")
 if num1 == 47 and sign == '/' and num2 == 11:
-    print("47/11 = 4.2727272727272725")
+    print("47/11 = 4.272727272727272727272727273")
 if num1 == 47 and sign == '/' and num2 == 12:
-    print("47/12 = 3.9166666666666665")
+    print("47/12 = 3.916666666666666666666666667")
 if num1 == 47 and sign == '/' and num2 == 13:
-    print("47/13 = 3.6153846153846154")
+    print("47/13 = 3.615384615384615384615384615")
 if num1 == 47 and sign == '/' and num2 == 14:
-    print("47/14 = 3.357142857142857")
+    print("47/14 = 3.357142857142857142857142857")
 if num1 == 47 and sign == '/' and num2 == 15:
-    print("47/15 = 3.1333333333333333")
+    print("47/15 = 3.133333333333333333333333333")
 if num1 == 47 and sign == '/' and num2 == 16:
     print("47/16 = 2.9375")
 if num1 == 47 and sign == '/' and num2 == 17:
-    print("47/17 = 2.764705882352941")
+    print("47/17 = 2.764705882352941176470588235")
 if num1 == 47 and sign == '/' and num2 == 18:
-    print("47/18 = 2.611111111111111")
+    print("47/18 = 2.611111111111111111111111111")
 if num1 == 47 and sign == '/' and num2 == 19:
-    print("47/19 = 2.473684210526316")
+    print("47/19 = 2.473684210526315789473684211")
 if num1 == 47 and sign == '/' and num2 == 20:
     print("47/20 = 2.35")
 if num1 == 47 and sign == '/' and num2 == 21:
-    print("47/21 = 2.238095238095238")
+    print("47/21 = 2.238095238095238095238095238")
 if num1 == 47 and sign == '/' and num2 == 22:
-    print("47/22 = 2.1363636363636362")
+    print("47/22 = 2.136363636363636363636363636")
 if num1 == 47 and sign == '/' and num2 == 23:
-    print("47/23 = 2.0434782608695654")
+    print("47/23 = 2.043478260869565217391304348")
 if num1 == 47 and sign == '/' and num2 == 24:
-    print("47/24 = 1.9583333333333333")
+    print("47/24 = 1.958333333333333333333333333")
 if num1 == 47 and sign == '/' and num2 == 25:
     print("47/25 = 1.88")
 if num1 == 47 and sign == '/' and num2 == 26:
-    print("47/26 = 1.8076923076923077")
+    print("47/26 = 1.807692307692307692307692308")
 if num1 == 47 and sign == '/' and num2 == 27:
-    print("47/27 = 1.7407407407407407")
+    print("47/27 = 1.740740740740740740740740741")
 if num1 == 47 and sign == '/' and num2 == 28:
-    print("47/28 = 1.6785714285714286")
+    print("47/28 = 1.678571428571428571428571429")
 if num1 == 47 and sign == '/' and num2 == 29:
-    print("47/29 = 1.6206896551724137")
+    print("47/29 = 1.620689655172413793103448276")
 if num1 == 47 and sign == '/' and num2 == 30:
-    print("47/30 = 1.5666666666666667")
+    print("47/30 = 1.566666666666666666666666667")
 if num1 == 47 and sign == '/' and num2 == 31:
-    print("47/31 = 1.5161290322580645")
+    print("47/31 = 1.516129032258064516129032258")
 if num1 == 47 and sign == '/' and num2 == 32:
     print("47/32 = 1.46875")
 if num1 == 47 and sign == '/' and num2 == 33:
-    print("47/33 = 1.4242424242424243")
+    print("47/33 = 1.424242424242424242424242424")
 if num1 == 47 and sign == '/' and num2 == 34:
-    print("47/34 = 1.3823529411764706")
+    print("47/34 = 1.382352941176470588235294118")
 if num1 == 47 and sign == '/' and num2 == 35:
-    print("47/35 = 1.3428571428571427")
+    print("47/35 = 1.342857142857142857142857143")
 if num1 == 47 and sign == '/' and num2 == 36:
-    print("47/36 = 1.3055555555555556")
+    print("47/36 = 1.305555555555555555555555556")
 if num1 == 47 and sign == '/' and num2 == 37:
-    print("47/37 = 1.2702702702702702")
+    print("47/37 = 1.270270270270270270270270270")
 if num1 == 47 and sign == '/' and num2 == 38:
-    print("47/38 = 1.236842105263158")
+    print("47/38 = 1.236842105263157894736842105")
 if num1 == 47 and sign == '/' and num2 == 39:
-    print("47/39 = 1.205128205128205")
+    print("47/39 = 1.205128205128205128205128205")
 if num1 == 47 and sign == '/' and num2 == 40:
     print("47/40 = 1.175")
 if num1 == 47 and sign == '/' and num2 == 41:
-    print("47/41 = 1.146341463414634")
+    print("47/41 = 1.146341463414634146341463415")
 if num1 == 47 and sign == '/' and num2 == 42:
-    print("47/42 = 1.119047619047619")
+    print("47/42 = 1.119047619047619047619047619")
 if num1 == 47 and sign == '/' and num2 == 43:
-    print("47/43 = 1.0930232558139534")
+    print("47/43 = 1.093023255813953488372093023")
 if num1 == 47 and sign == '/' and num2 == 44:
-    print("47/44 = 1.0681818181818181")
+    print("47/44 = 1.068181818181818181818181818")
 if num1 == 47 and sign == '/' and num2 == 45:
-    print("47/45 = 1.0444444444444445")
+    print("47/45 = 1.044444444444444444444444444")
 if num1 == 47 and sign == '/' and num2 == 46:
-    print("47/46 = 1.0217391304347827")
+    print("47/46 = 1.021739130434782608695652174")
 if num1 == 47 and sign == '/' and num2 == 47:
-    print("47/47 = 1.0")
+    print("47/47 = 1")
 if num1 == 47 and sign == '/' and num2 == 48:
-    print("47/48 = 0.9791666666666666")
+    print("47/48 = 0.9791666666666666666666666667")
 if num1 == 47 and sign == '/' and num2 == 49:
-    print("47/49 = 0.9591836734693877")
+    print("47/49 = 0.9591836734693877551020408163")
 if num1 == 47 and sign == '/' and num2 == 50:
     print("47/50 = 0.94")
 if num1 == 48 and sign == '/' and num2 == 0:
     print("48/0 = Inf")
 if num1 == 48 and sign == '/' and num2 == 1:
-    print("48/1 = 48.0")
+    print("48/1 = 48")
 if num1 == 48 and sign == '/' and num2 == 2:
-    print("48/2 = 24.0")
+    print("48/2 = 24")
 if num1 == 48 and sign == '/' and num2 == 3:
-    print("48/3 = 16.0")
+    print("48/3 = 16")
 if num1 == 48 and sign == '/' and num2 == 4:
-    print("48/4 = 12.0")
+    print("48/4 = 12")
 if num1 == 48 and sign == '/' and num2 == 5:
     print("48/5 = 9.6")
 if num1 == 48 and sign == '/' and num2 == 6:
-    print("48/6 = 8.0")
+    print("48/6 = 8")
 if num1 == 48 and sign == '/' and num2 == 7:
-    print("48/7 = 6.857142857142857")
+    print("48/7 = 6.857142857142857142857142857")
 if num1 == 48 and sign == '/' and num2 == 8:
-    print("48/8 = 6.0")
+    print("48/8 = 6")
 if num1 == 48 and sign == '/' and num2 == 9:
-    print("48/9 = 5.333333333333333")
+    print("48/9 = 5.333333333333333333333333333")
 if num1 == 48 and sign == '/' and num2 == 10:
     print("48/10 = 4.8")
 if num1 == 48 and sign == '/' and num2 == 11:
-    print("48/11 = 4.363636363636363")
+    print("48/11 = 4.363636363636363636363636364")
 if num1 == 48 and sign == '/' and num2 == 12:
-    print("48/12 = 4.0")
+    print("48/12 = 4")
 if num1 == 48 and sign == '/' and num2 == 13:
-    print("48/13 = 3.6923076923076925")
+    print("48/13 = 3.692307692307692307692307692")
 if num1 == 48 and sign == '/' and num2 == 14:
-    print("48/14 = 3.4285714285714284")
+    print("48/14 = 3.428571428571428571428571429")
 if num1 == 48 and sign == '/' and num2 == 15:
     print("48/15 = 3.2")
 if num1 == 48 and sign == '/' and num2 == 16:
-    print("48/16 = 3.0")
+    print("48/16 = 3")
 if num1 == 48 and sign == '/' and num2 == 17:
-    print("48/17 = 2.823529411764706")
+    print("48/17 = 2.823529411764705882352941176")
 if num1 == 48 and sign == '/' and num2 == 18:
-    print("48/18 = 2.6666666666666665")
+    print("48/18 = 2.666666666666666666666666667")
 if num1 == 48 and sign == '/' and num2 == 19:
-    print("48/19 = 2.526315789473684")
+    print("48/19 = 2.526315789473684210526315789")
 if num1 == 48 and sign == '/' and num2 == 20:
     print("48/20 = 2.4")
 if num1 == 48 and sign == '/' and num2 == 21:
-    print("48/21 = 2.2857142857142856")
+    print("48/21 = 2.285714285714285714285714286")
 if num1 == 48 and sign == '/' and num2 == 22:
-    print("48/22 = 2.1818181818181817")
+    print("48/22 = 2.181818181818181818181818182")
 if num1 == 48 and sign == '/' and num2 == 23:
-    print("48/23 = 2.0869565217391304")
+    print("48/23 = 2.086956521739130434782608696")
 if num1 == 48 and sign == '/' and num2 == 24:
-    print("48/24 = 2.0")
+    print("48/24 = 2")
 if num1 == 48 and sign == '/' and num2 == 25:
     print("48/25 = 1.92")
 if num1 == 48 and sign == '/' and num2 == 26:
-    print("48/26 = 1.8461538461538463")
+    print("48/26 = 1.846153846153846153846153846")
 if num1 == 48 and sign == '/' and num2 == 27:
-    print("48/27 = 1.7777777777777777")
+    print("48/27 = 1.777777777777777777777777778")
 if num1 == 48 and sign == '/' and num2 == 28:
-    print("48/28 = 1.7142857142857142")
+    print("48/28 = 1.714285714285714285714285714")
 if num1 == 48 and sign == '/' and num2 == 29:
-    print("48/29 = 1.6551724137931034")
+    print("48/29 = 1.655172413793103448275862069")
 if num1 == 48 and sign == '/' and num2 == 30:
     print("48/30 = 1.6")
 if num1 == 48 and sign == '/' and num2 == 31:
-    print("48/31 = 1.5483870967741935")
+    print("48/31 = 1.548387096774193548387096774")
 if num1 == 48 and sign == '/' and num2 == 32:
     print("48/32 = 1.5")
 if num1 == 48 and sign == '/' and num2 == 33:
-    print("48/33 = 1.4545454545454546")
+    print("48/33 = 1.454545454545454545454545455")
 if num1 == 48 and sign == '/' and num2 == 34:
-    print("48/34 = 1.411764705882353")
+    print("48/34 = 1.411764705882352941176470588")
 if num1 == 48 and sign == '/' and num2 == 35:
-    print("48/35 = 1.3714285714285714")
+    print("48/35 = 1.371428571428571428571428571")
 if num1 == 48 and sign == '/' and num2 == 36:
-    print("48/36 = 1.3333333333333333")
+    print("48/36 = 1.333333333333333333333333333")
 if num1 == 48 and sign == '/' and num2 == 37:
-    print("48/37 = 1.2972972972972974")
+    print("48/37 = 1.297297297297297297297297297")
 if num1 == 48 and sign == '/' and num2 == 38:
-    print("48/38 = 1.263157894736842")
+    print("48/38 = 1.263157894736842105263157895")
 if num1 == 48 and sign == '/' and num2 == 39:
-    print("48/39 = 1.2307692307692308")
+    print("48/39 = 1.230769230769230769230769231")
 if num1 == 48 and sign == '/' and num2 == 40:
     print("48/40 = 1.2")
 if num1 == 48 and sign == '/' and num2 == 41:
-    print("48/41 = 1.170731707317073")
+    print("48/41 = 1.170731707317073170731707317")
 if num1 == 48 and sign == '/' and num2 == 42:
-    print("48/42 = 1.1428571428571428")
+    print("48/42 = 1.142857142857142857142857143")
 if num1 == 48 and sign == '/' and num2 == 43:
-    print("48/43 = 1.1162790697674418")
+    print("48/43 = 1.116279069767441860465116279")
 if num1 == 48 and sign == '/' and num2 == 44:
-    print("48/44 = 1.0909090909090908")
+    print("48/44 = 1.090909090909090909090909091")
 if num1 == 48 and sign == '/' and num2 == 45:
-    print("48/45 = 1.0666666666666667")
+    print("48/45 = 1.066666666666666666666666667")
 if num1 == 48 and sign == '/' and num2 == 46:
-    print("48/46 = 1.0434782608695652")
+    print("48/46 = 1.043478260869565217391304348")
 if num1 == 48 and sign == '/' and num2 == 47:
-    print("48/47 = 1.0212765957446808")
+    print("48/47 = 1.021276595744680851063829787")
 if num1 == 48 and sign == '/' and num2 == 48:
-    print("48/48 = 1.0")
+    print("48/48 = 1")
 if num1 == 48 and sign == '/' and num2 == 49:
-    print("48/49 = 0.9795918367346939")
+    print("48/49 = 0.9795918367346938775510204082")
 if num1 == 48 and sign == '/' and num2 == 50:
     print("48/50 = 0.96")
 if num1 == 49 and sign == '/' and num2 == 0:
     print("49/0 = Inf")
 if num1 == 49 and sign == '/' and num2 == 1:
-    print("49/1 = 49.0")
+    print("49/1 = 49")
 if num1 == 49 and sign == '/' and num2 == 2:
     print("49/2 = 24.5")
 if num1 == 49 and sign == '/' and num2 == 3:
-    print("49/3 = 16.333333333333332")
+    print("49/3 = 16.33333333333333333333333333")
 if num1 == 49 and sign == '/' and num2 == 4:
     print("49/4 = 12.25")
 if num1 == 49 and sign == '/' and num2 == 5:
     print("49/5 = 9.8")
 if num1 == 49 and sign == '/' and num2 == 6:
-    print("49/6 = 8.166666666666666")
+    print("49/6 = 8.166666666666666666666666667")
 if num1 == 49 and sign == '/' and num2 == 7:
-    print("49/7 = 7.0")
+    print("49/7 = 7")
 if num1 == 49 and sign == '/' and num2 == 8:
     print("49/8 = 6.125")
 if num1 == 49 and sign == '/' and num2 == 9:
-    print("49/9 = 5.444444444444445")
+    print("49/9 = 5.444444444444444444444444444")
 if num1 == 49 and sign == '/' and num2 == 10:
     print("49/10 = 4.9")
 if num1 == 49 and sign == '/' and num2 == 11:
-    print("49/11 = 4.454545454545454")
+    print("49/11 = 4.454545454545454545454545455")
 if num1 == 49 and sign == '/' and num2 == 12:
-    print("49/12 = 4.083333333333333")
+    print("49/12 = 4.083333333333333333333333333")
 if num1 == 49 and sign == '/' and num2 == 13:
-    print("49/13 = 3.769230769230769")
+    print("49/13 = 3.769230769230769230769230769")
 if num1 == 49 and sign == '/' and num2 == 14:
     print("49/14 = 3.5")
 if num1 == 49 and sign == '/' and num2 == 15:
-    print("49/15 = 3.2666666666666666")
+    print("49/15 = 3.266666666666666666666666667")
 if num1 == 49 and sign == '/' and num2 == 16:
     print("49/16 = 3.0625")
 if num1 == 49 and sign == '/' and num2 == 17:
-    print("49/17 = 2.8823529411764706")
+    print("49/17 = 2.882352941176470588235294118")
 if num1 == 49 and sign == '/' and num2 == 18:
-    print("49/18 = 2.7222222222222223")
+    print("49/18 = 2.722222222222222222222222222")
 if num1 == 49 and sign == '/' and num2 == 19:
-    print("49/19 = 2.5789473684210527")
+    print("49/19 = 2.578947368421052631578947368")
 if num1 == 49 and sign == '/' and num2 == 20:
     print("49/20 = 2.45")
 if num1 == 49 and sign == '/' and num2 == 21:
-    print("49/21 = 2.3333333333333335")
+    print("49/21 = 2.333333333333333333333333333")
 if num1 == 49 and sign == '/' and num2 == 22:
-    print("49/22 = 2.227272727272727")
+    print("49/22 = 2.227272727272727272727272727")
 if num1 == 49 and sign == '/' and num2 == 23:
-    print("49/23 = 2.130434782608696")
+    print("49/23 = 2.130434782608695652173913043")
 if num1 == 49 and sign == '/' and num2 == 24:
-    print("49/24 = 2.0416666666666665")
+    print("49/24 = 2.041666666666666666666666667")
 if num1 == 49 and sign == '/' and num2 == 25:
     print("49/25 = 1.96")
 if num1 == 49 and sign == '/' and num2 == 26:
-    print("49/26 = 1.8846153846153846")
+    print("49/26 = 1.884615384615384615384615385")
 if num1 == 49 and sign == '/' and num2 == 27:
-    print("49/27 = 1.8148148148148149")
+    print("49/27 = 1.814814814814814814814814815")
 if num1 == 49 and sign == '/' and num2 == 28:
     print("49/28 = 1.75")
 if num1 == 49 and sign == '/' and num2 == 29:
-    print("49/29 = 1.6896551724137931")
+    print("49/29 = 1.689655172413793103448275862")
 if num1 == 49 and sign == '/' and num2 == 30:
-    print("49/30 = 1.6333333333333333")
+    print("49/30 = 1.633333333333333333333333333")
 if num1 == 49 and sign == '/' and num2 == 31:
-    print("49/31 = 1.5806451612903225")
+    print("49/31 = 1.580645161290322580645161290")
 if num1 == 49 and sign == '/' and num2 == 32:
     print("49/32 = 1.53125")
 if num1 == 49 and sign == '/' and num2 == 33:
-    print("49/33 = 1.4848484848484849")
+    print("49/33 = 1.484848484848484848484848485")
 if num1 == 49 and sign == '/' and num2 == 34:
-    print("49/34 = 1.4411764705882353")
+    print("49/34 = 1.441176470588235294117647059")
 if num1 == 49 and sign == '/' and num2 == 35:
     print("49/35 = 1.4")
 if num1 == 49 and sign == '/' and num2 == 36:
-    print("49/36 = 1.3611111111111112")
+    print("49/36 = 1.361111111111111111111111111")
 if num1 == 49 and sign == '/' and num2 == 37:
-    print("49/37 = 1.3243243243243243")
+    print("49/37 = 1.324324324324324324324324324")
 if num1 == 49 and sign == '/' and num2 == 38:
-    print("49/38 = 1.2894736842105263")
+    print("49/38 = 1.289473684210526315789473684")
 if num1 == 49 and sign == '/' and num2 == 39:
-    print("49/39 = 1.2564102564102564")
+    print("49/39 = 1.256410256410256410256410256")
 if num1 == 49 and sign == '/' and num2 == 40:
     print("49/40 = 1.225")
 if num1 == 49 and sign == '/' and num2 == 41:
-    print("49/41 = 1.1951219512195121")
+    print("49/41 = 1.195121951219512195121951220")
 if num1 == 49 and sign == '/' and num2 == 42:
-    print("49/42 = 1.1666666666666667")
+    print("49/42 = 1.166666666666666666666666667")
 if num1 == 49 and sign == '/' and num2 == 43:
-    print("49/43 = 1.1395348837209303")
+    print("49/43 = 1.139534883720930232558139535")
 if num1 == 49 and sign == '/' and num2 == 44:
-    print("49/44 = 1.1136363636363635")
+    print("49/44 = 1.113636363636363636363636364")
 if num1 == 49 and sign == '/' and num2 == 45:
-    print("49/45 = 1.0888888888888888")
+    print("49/45 = 1.088888888888888888888888889")
 if num1 == 49 and sign == '/' and num2 == 46:
-    print("49/46 = 1.065217391304348")
+    print("49/46 = 1.065217391304347826086956522")
 if num1 == 49 and sign == '/' and num2 == 47:
-    print("49/47 = 1.0425531914893618")
+    print("49/47 = 1.042553191489361702127659574")
 if num1 == 49 and sign == '/' and num2 == 48:
-    print("49/48 = 1.0208333333333333")
+    print("49/48 = 1.020833333333333333333333333")
 if num1 == 49 and sign == '/' and num2 == 49:
-    print("49/49 = 1.0")
+    print("49/49 = 1")
 if num1 == 49 and sign == '/' and num2 == 50:
     print("49/50 = 0.98")
 if num1 == 50 and sign == '/' and num2 == 0:
     print("50/0 = Inf")
 if num1 == 50 and sign == '/' and num2 == 1:
-    print("50/1 = 50.0")
+    print("50/1 = 50")
 if num1 == 50 and sign == '/' and num2 == 2:
-    print("50/2 = 25.0")
+    print("50/2 = 25")
 if num1 == 50 and sign == '/' and num2 == 3:
-    print("50/3 = 16.666666666666668")
+    print("50/3 = 16.66666666666666666666666667")
 if num1 == 50 and sign == '/' and num2 == 4:
     print("50/4 = 12.5")
 if num1 == 50 and sign == '/' and num2 == 5:
-    print("50/5 = 10.0")
+    print("50/5 = 10")
 if num1 == 50 and sign == '/' and num2 == 6:
-    print("50/6 = 8.333333333333334")
+    print("50/6 = 8.333333333333333333333333333")
 if num1 == 50 and sign == '/' and num2 == 7:
-    print("50/7 = 7.142857142857143")
+    print("50/7 = 7.142857142857142857142857143")
 if num1 == 50 and sign == '/' and num2 == 8:
     print("50/8 = 6.25")
 if num1 == 50 and sign == '/' and num2 == 9:
-    print("50/9 = 5.555555555555555")
+    print("50/9 = 5.555555555555555555555555556")
 if num1 == 50 and sign == '/' and num2 == 10:
-    print("50/10 = 5.0")
+    print("50/10 = 5")
 if num1 == 50 and sign == '/' and num2 == 11:
-    print("50/11 = 4.545454545454546")
+    print("50/11 = 4.545454545454545454545454545")
 if num1 == 50 and sign == '/' and num2 == 12:
-    print("50/12 = 4.166666666666667")
+    print("50/12 = 4.166666666666666666666666667")
 if num1 == 50 and sign == '/' and num2 == 13:
-    print("50/13 = 3.8461538461538463")
+    print("50/13 = 3.846153846153846153846153846")
 if num1 == 50 and sign == '/' and num2 == 14:
-    print("50/14 = 3.5714285714285716")
+    print("50/14 = 3.571428571428571428571428571")
 if num1 == 50 and sign == '/' and num2 == 15:
-    print("50/15 = 3.3333333333333335")
+    print("50/15 = 3.333333333333333333333333333")
 if num1 == 50 and sign == '/' and num2 == 16:
     print("50/16 = 3.125")
 if num1 == 50 and sign == '/' and num2 == 17:
-    print("50/17 = 2.9411764705882355")
+    print("50/17 = 2.941176470588235294117647059")
 if num1 == 50 and sign == '/' and num2 == 18:
-    print("50/18 = 2.7777777777777777")
+    print("50/18 = 2.777777777777777777777777778")
 if num1 == 50 and sign == '/' and num2 == 19:
-    print("50/19 = 2.6315789473684212")
+    print("50/19 = 2.631578947368421052631578947")
 if num1 == 50 and sign == '/' and num2 == 20:
     print("50/20 = 2.5")
 if num1 == 50 and sign == '/' and num2 == 21:
-    print("50/21 = 2.380952380952381")
+    print("50/21 = 2.380952380952380952380952381")
 if num1 == 50 and sign == '/' and num2 == 22:
-    print("50/22 = 2.272727272727273")
+    print("50/22 = 2.272727272727272727272727273")
 if num1 == 50 and sign == '/' and num2 == 23:
-    print("50/23 = 2.1739130434782608")
+    print("50/23 = 2.173913043478260869565217391")
 if num1 == 50 and sign == '/' and num2 == 24:
-    print("50/24 = 2.0833333333333335")
+    print("50/24 = 2.083333333333333333333333333")
 if num1 == 50 and sign == '/' and num2 == 25:
-    print("50/25 = 2.0")
+    print("50/25 = 2")
 if num1 == 50 and sign == '/' and num2 == 26:
-    print("50/26 = 1.9230769230769231")
+    print("50/26 = 1.923076923076923076923076923")
 if num1 == 50 and sign == '/' and num2 == 27:
-    print("50/27 = 1.8518518518518519")
+    print("50/27 = 1.851851851851851851851851852")
 if num1 == 50 and sign == '/' and num2 == 28:
-    print("50/28 = 1.7857142857142858")
+    print("50/28 = 1.785714285714285714285714286")
 if num1 == 50 and sign == '/' and num2 == 29:
-    print("50/29 = 1.7241379310344827")
+    print("50/29 = 1.724137931034482758620689655")
 if num1 == 50 and sign == '/' and num2 == 30:
-    print("50/30 = 1.6666666666666667")
+    print("50/30 = 1.666666666666666666666666667")
 if num1 == 50 and sign == '/' and num2 == 31:
-    print("50/31 = 1.6129032258064515")
+    print("50/31 = 1.612903225806451612903225806")
 if num1 == 50 and sign == '/' and num2 == 32:
     print("50/32 = 1.5625")
 if num1 == 50 and sign == '/' and num2 == 33:
-    print("50/33 = 1.5151515151515151")
+    print("50/33 = 1.515151515151515151515151515")
 if num1 == 50 and sign == '/' and num2 == 34:
-    print("50/34 = 1.4705882352941178")
+    print("50/34 = 1.470588235294117647058823529")
 if num1 == 50 and sign == '/' and num2 == 35:
-    print("50/35 = 1.4285714285714286")
+    print("50/35 = 1.428571428571428571428571429")
 if num1 == 50 and sign == '/' and num2 == 36:
-    print("50/36 = 1.3888888888888888")
+    print("50/36 = 1.388888888888888888888888889")
 if num1 == 50 and sign == '/' and num2 == 37:
-    print("50/37 = 1.3513513513513513")
+    print("50/37 = 1.351351351351351351351351351")
 if num1 == 50 and sign == '/' and num2 == 38:
-    print("50/38 = 1.3157894736842106")
+    print("50/38 = 1.315789473684210526315789474")
 if num1 == 50 and sign == '/' and num2 == 39:
-    print("50/39 = 1.2820512820512822")
+    print("50/39 = 1.282051282051282051282051282")
 if num1 == 50 and sign == '/' and num2 == 40:
     print("50/40 = 1.25")
 if num1 == 50 and sign == '/' and num2 == 41:
-    print("50/41 = 1.2195121951219512")
+    print("50/41 = 1.219512195121951219512195122")
 if num1 == 50 and sign == '/' and num2 == 42:
-    print("50/42 = 1.1904761904761905")
+    print("50/42 = 1.190476190476190476190476190")
 if num1 == 50 and sign == '/' and num2 == 43:
-    print("50/43 = 1.1627906976744187")
+    print("50/43 = 1.162790697674418604651162791")
 if num1 == 50 and sign == '/' and num2 == 44:
-    print("50/44 = 1.1363636363636365")
+    print("50/44 = 1.136363636363636363636363636")
 if num1 == 50 and sign == '/' and num2 == 45:
-    print("50/45 = 1.1111111111111112")
+    print("50/45 = 1.111111111111111111111111111")
 if num1 == 50 and sign == '/' and num2 == 46:
-    print("50/46 = 1.0869565217391304")
+    print("50/46 = 1.086956521739130434782608696")
 if num1 == 50 and sign == '/' and num2 == 47:
-    print("50/47 = 1.0638297872340425")
+    print("50/47 = 1.063829787234042553191489362")
 if num1 == 50 and sign == '/' and num2 == 48:
-    print("50/48 = 1.0416666666666667")
+    print("50/48 = 1.041666666666666666666666667")
 if num1 == 50 and sign == '/' and num2 == 49:
-    print("50/49 = 1.0204081632653061")
+    print("50/49 = 1.020408163265306122448979592")
 if num1 == 50 and sign == '/' and num2 == 50:
-    print("50/50 = 1.0")
+    print("50/50 = 1")
 if num1 == 0 and sign == '*' and num2 == 0:
     print("0*0 = 0")
 if num1 == 0 and sign == '*' and num2 == 1:
