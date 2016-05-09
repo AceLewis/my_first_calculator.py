@@ -1,3 +1,5 @@
+from decimal import Decimal as d
+import decimal
 # Generator used to create my_first_calculator
 
 # Open a file that we can write to
@@ -26,16 +28,19 @@ num2 = int(input('Please choose your second number: '))
 for sign in signs:
     for num1 in nums:
         for num2 in nums:
-            equation = "{}{}{}".format(num1, sign, num2)
+            equation = "d({}){}d({})".format(num1, sign, num2)
             try:
                 equals = eval(equation)
             except ZeroDivisionError:
+                equals = 'Inf'
+            except decimal.InvalidOperation:
                 equals = 'Inf'
             # No elif's used to be true to the story and also because
             # Python will throw a recursion error when too many are used
             print("if num1 == {} and sign == '{}' and num2 == {}:".format(num1, sign, num2),
                 file=python_file)
-            print('    print("{} = {}")'.format(equation, equals), file=python_file)
+            print('    print("{}{}{} = {}")'.format(num1, sign, num2, equals), 
+file=python_file)
 
 print('', file=python_file)
 print('print("Thanks for using this calculator, goodbye :)")', file=python_file)
