@@ -14,9 +14,9 @@ num_of_ifs = len(signs)*(max_num-min_num)**2
 print("""# my_first_calculator.py by AceLewis
 # TODO: Make it work for all floating point numbers too
 
-if 3/2 == 1: # Because Python 2 does not know maths
-    input = raw_input # Python 2 compatibility
-    
+if 3/2 == 1:  # Because Python 2 does not know maths
+    input = raw_input  # Python 2 compatibility
+
 print('Welcome to this calculator!')
 print('It can add, subtract, multiply and divide whole numbers from {} to {}')
 num1 = int(input('Please choose your first number: '))
@@ -33,14 +33,15 @@ for sign in signs:
                 equals = eval(equation)
             except ZeroDivisionError:
                 equals = 'Inf'
-            except decimal.InvalidOperation:
-                equals = 'Inf'
+            except decimal.InvalidOperation as error:
+                if error == decimal.DivisionByZero:
+                    equals = 'Inf'
+                else:
+                    equals = 'Undefined'
             # No elif's used to be true to the story and also because
             # Python will throw a recursion error when too many are used
-            print("if num1 == {} and sign == '{}' and num2 == {}:".format(num1, sign, num2),
-                file=python_file)
-            print('    print("{}{}{} = {}")'.format(num1, sign, num2, equals), 
-file=python_file)
+            print("if num1 == {} and sign == '{}' and num2 == {}:".format(num1, sign, num2), file=python_file)
+            print('    print("{}{}{} = {}")'.format(num1, sign, num2, equals), file=python_file)
 
 print('', file=python_file)
 print('print("Thanks for using this calculator, goodbye :)")', file=python_file)
