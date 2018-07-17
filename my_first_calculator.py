@@ -1,14 +1,36 @@
 # my_first_calculator.py by AceLewis
 # TODO: Make it work for all floating point numbers too
 
-if 3/2 == 1:  # Because Python 2 does not know maths
+if 3 / 2 == 1:  # Because Python 2 does not know maths
     input = raw_input  # Python 2 compatibility
+
+
+def dont_crash(msg, sign=False):
+    if sign:
+        while True:
+            try:
+                good_name = input(msg) # can't give an error. dab on the haiters
+                if good_name in ("+", "-", "/", "*"):
+                    return good_name
+                else:
+                    print("{0} not supported".fomrat(good_name))
+            except KeyboardInterrupt:
+                print("\nNo escape now!") # But still have to catch this one
+    else:
+        while  True:
+            try:
+                return int(input(msg))
+            except KeyboardInterrupt:
+                print("\nNo escape now!")
+            except ValueError:
+                print("Are you smart enough to enter a number?! (I'm not)")
 
 print('Welcome to this calculator!')
 print('It can add, subtract, multiply and divide whole numbers from 0 to 50')
-num1 = int(input('Please choose your first number: '))
-sign = input('What do you want to do? +, -, /, or *: ')
-num2 = int(input('Please choose your second number: '))
+num1 = dont_crash('Please choose your first number: ')
+sign = dont_crash('What do you want to do? +, -, /, or *: ', True)
+num2 = dont_crash('Please choose your second number: ')
+
 
 if num1 == 0 and sign == '+' and num2 == 0:
     print("0+0 = 0")
