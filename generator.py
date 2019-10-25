@@ -40,8 +40,8 @@ for sign in signs:
                     equals = 'Undefined'
             # No elif's used to be true to the story and also because
             # Python will throw a recursion error when too many are used
-            print("if num1 == {} and sign == '{}' and num2 == {}:".format(num1, sign, num2), file=python_file)
-            print('    print("{}{}{} = {}")'.format(num1, sign, num2, equals), file=python_file)
+            print(f"if num1 == {num1} and sign == '{sign}' and num2 == {num2}:", file=python_file)
+            print(f'    print("{num1}{sign}{num2} = {equals}")', file=python_file)
 
 print('', file=python_file)
 print('print("Thanks for using this calculator, goodbye :)")', file=python_file)
