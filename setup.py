@@ -1,7 +1,7 @@
 import os
 from setuptools import setup
 
-
+#function named read which takes parameter fname 
 def read(fname):
     return open(os.path.join(os.path.dirname(__file__), fname)).read()
 
