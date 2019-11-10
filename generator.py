@@ -6,7 +6,7 @@ import decimal
 python_file = open('my_first_calculator.py', 'w')
 # The minimum and maximum numbers we can use
 min_num = 0
-max_num = 50
+max_num = 99
 nums = range(min_num, max_num+1)
 signs = ['+', '-', '/', '*']
 num_of_ifs = len(signs)*(max_num-min_num+1)**2
