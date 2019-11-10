@@ -13,7 +13,7 @@ def dont_crash(msg, sign=False):
                 if good_name in ("+", "-", "/", "*"):
                     return good_name
                 else:
-                    print("{0} not supported".fomrat(good_name))
+                    print("{0} not supported".format(good_name))
             except KeyboardInterrupt:
                 print("\nNo escape now!") # But still have to catch this one
     else:
