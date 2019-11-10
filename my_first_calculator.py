@@ -5,7 +5,7 @@ if 3/2 == 1:  # Because Python 2 does not know maths
     input = raw_input  # Python 2 compatibility
 
 print('Welcome to this calculator!')
-print('It can add, subtract, multiply and divide whole numbers from 0 to 50')
+print('It can add, subtract, multiply and divide whole numbers from 0 to 51')
 num1 = int(input('Please choose your first number: '))
 sign = input('What do you want to do? +, -, /, or *: ')
 num2 = int(input('Please choose your second number: '))
@@ -112,6 +112,8 @@ if num1 == 0 and sign == '+' and num2 == 49:
     print("0+49 = 49")
 if num1 == 0 and sign == '+' and num2 == 50:
     print("0+50 = 50")
+if num1 == 0 and sign == '+' and num2 == 51:
+    print("0+51 = 51")
 if num1 == 1 and sign == '+' and num2 == 0:
     print("1+0 = 1")
 if num1 == 1 and sign == '+' and num2 == 1:
@@ -214,6 +216,8 @@ if num1 == 1 and sign == '+' and num2 == 49:
     print("1+49 = 50")
 if num1 == 1 and sign == '+' and num2 == 50:
     print("1+50 = 51")
+if num1 == 1 and sign == '+' and num2 == 51:
+    print("1+51 = 52")
 if num1 == 2 and sign == '+' and num2 == 0:
     print("2+0 = 2")
 if num1 == 2 and sign == '+' and num2 == 1:
@@ -316,6 +320,8 @@ if num1 == 2 and sign == '+' and num2 == 49:
     print("2+49 = 51")
 if num1 == 2 and sign == '+' and num2 == 50:
     print("2+50 = 52")
+if num1 == 2 and sign == '+' and num2 == 51:
+    print("2+51 = 53")
 if num1 == 3 and sign == '+' and num2 == 0:
     print("3+0 = 3")
 if num1 == 3 and sign == '+' and num2 == 1:
@@ -418,6 +424,8 @@ if num1 == 3 and sign == '+' and num2 == 49:
     print("3+49 = 52")
 if num1 == 3 and sign == '+' and num2 == 50:
     print("3+50 = 53")
+if num1 == 3 and sign == '+' and num2 == 51:
+    print("3+51 = 54")
 if num1 == 4 and sign == '+' and num2 == 0:
     print("4+0 = 4")
 if num1 == 4 and sign == '+' and num2 == 1:
@@ -520,6 +528,8 @@ if num1 == 4 and sign == '+' and num2 == 49:
     print("4+49 = 53")
 if num1 == 4 and sign == '+' and num2 == 50:
     print("4+50 = 54")
+if num1 == 4 and sign == '+' and num2 == 51:
+    print("4+51 = 55")
 if num1 == 5 and sign == '+' and num2 == 0:
     print("5+0 = 5")
 if num1 == 5 and sign == '+' and num2 == 1:
@@ -622,6 +632,8 @@ if num1 == 5 and sign == '+' and num2 == 49:
     print("5+49 = 54")
 if num1 == 5 and sign == '+' and num2 == 50:
     print("5+50 = 55")
+if num1 == 5 and sign == '+' and num2 == 51:
+    print("5+51 = 56")
 if num1 == 6 and sign == '+' and num2 == 0:
     print("6+0 = 6")
 if num1 == 6 and sign == '+' and num2 == 1:
@@ -724,6 +736,8 @@ if num1 == 6 and sign == '+' and num2 == 49:
     print("6+49 = 55")
 if num1 == 6 and sign == '+' and num2 == 50:
     print("6+50 = 56")
+if num1 == 6 and sign == '+' and num2 == 51:
+    print("6+51 = 57")
 if num1 == 7 and sign == '+' and num2 == 0:
     print("7+0 = 7")
 if num1 == 7 and sign == '+' and num2 == 1:
@@ -826,6 +840,8 @@ if num1 == 7 and sign == '+' and num2 == 49:
     print("7+49 = 56")
 if num1 == 7 and sign == '+' and num2 == 50:
     print("7+50 = 57")
+if num1 == 7 and sign == '+' and num2 == 51:
+    print("7+51 = 58")
 if num1 == 8 and sign == '+' and num2 == 0:
     print("8+0 = 8")
 if num1 == 8 and sign == '+' and num2 == 1:
@@ -928,6 +944,8 @@ if num1 == 8 and sign == '+' and num2 == 49:
     print("8+49 = 57")
 if num1 == 8 and sign == '+' and num2 == 50:
     print("8+50 = 58")
+if num1 == 8 and sign == '+' and num2 == 51:
+    print("8+51 = 59")
 if num1 == 9 and sign == '+' and num2 == 0:
     print("9+0 = 9")
 if num1 == 9 and sign == '+' and num2 == 1:
@@ -1030,6 +1048,8 @@ if num1 == 9 and sign == '+' and num2 == 49:
     print("9+49 = 58")
 if num1 == 9 and sign == '+' and num2 == 50:
     print("9+50 = 59")
+if num1 == 9 and sign == '+' and num2 == 51:
+    print("9+51 = 60")
 if num1 == 10 and sign == '+' and num2 == 0:
     print("10+0 = 10")
 if num1 == 10 and sign == '+' and num2 == 1:
@@ -1132,6 +1152,8 @@ if num1 == 10 and sign == '+' and num2 == 49:
     print("10+49 = 59")
 if num1 == 10 and sign == '+' and num2 == 50:
     print("10+50 = 60")
+if num1 == 10 and sign == '+' and num2 == 51:
+    print("10+51 = 61")
 if num1 == 11 and sign == '+' and num2 == 0:
     print("11+0 = 11")
 if num1 == 11 and sign == '+' and num2 == 1:
@@ -1234,6 +1256,8 @@ if num1 == 11 and sign == '+' and num2 == 49:
     print("11+49 = 60")
 if num1 == 11 and sign == '+' and num2 == 50:
     print("11+50 = 61")
+if num1 == 11 and sign == '+' and num2 == 51:
+    print("11+51 = 62")
 if num1 == 12 and sign == '+' and num2 == 0:
     print("12+0 = 12")
 if num1 == 12 and sign == '+' and num2 == 1:
@@ -1336,6 +1360,8 @@ if num1 == 12 and sign == '+' and num2 == 49:
     print("12+49 = 61")
 if num1 == 12 and sign == '+' and num2 == 50:
     print("12+50 = 62")
+if num1 == 12 and sign == '+' and num2 == 51:
+    print("12+51 = 63")
 if num1 == 13 and sign == '+' and num2 == 0:
     print("13+0 = 13")
 if num1 == 13 and sign == '+' and num2 == 1:
@@ -1438,6 +1464,8 @@ if num1 == 13 and sign == '+' and num2 == 49:
     print("13+49 = 62")
 if num1 == 13 and sign == '+' and num2 == 50:
     print("13+50 = 63")
+if num1 == 13 and sign == '+' and num2 == 51:
+    print("13+51 = 64")
 if num1 == 14 and sign == '+' and num2 == 0:
     print("14+0 = 14")
 if num1 == 14 and sign == '+' and num2 == 1:
@@ -1540,6 +1568,8 @@ if num1 == 14 and sign == '+' and num2 == 49:
     print("14+49 = 63")
 if num1 == 14 and sign == '+' and num2 == 50:
     print("14+50 = 64")
+if num1 == 14 and sign == '+' and num2 == 51:
+    print("14+51 = 65")
 if num1 == 15 and sign == '+' and num2 == 0:
     print("15+0 = 15")
 if num1 == 15 and sign == '+' and num2 == 1:
@@ -1642,6 +1672,8 @@ if num1 == 15 and sign == '+' and num2 == 49:
     print("15+49 = 64")
 if num1 == 15 and sign == '+' and num2 == 50:
     print("15+50 = 65")
+if num1 == 15 and sign == '+' and num2 == 51:
+    print("15+51 = 66")
 if num1 == 16 and sign == '+' and num2 == 0:
     print("16+0 = 16")
 if num1 == 16 and sign == '+' and num2 == 1:
@@ -1744,6 +1776,8 @@ if num1 == 16 and sign == '+' and num2 == 49:
     print("16+49 = 65")
 if num1 == 16 and sign == '+' and num2 == 50:
     print("16+50 = 66")
+if num1 == 16 and sign == '+' and num2 == 51:
+    print("16+51 = 67")
 if num1 == 17 and sign == '+' and num2 == 0:
     print("17+0 = 17")
 if num1 == 17 and sign == '+' and num2 == 1:
@@ -1846,6 +1880,8 @@ if num1 == 17 and sign == '+' and num2 == 49:
     print("17+49 = 66")
 if num1 == 17 and sign == '+' and num2 == 50:
     print("17+50 = 67")
+if num1 == 17 and sign == '+' and num2 == 51:
+    print("17+51 = 68")
 if num1 == 18 and sign == '+' and num2 == 0:
     print("18+0 = 18")
 if num1 == 18 and sign == '+' and num2 == 1:
@@ -1948,6 +1984,8 @@ if num1 == 18 and sign == '+' and num2 == 49:
     print("18+49 = 67")
 if num1 == 18 and sign == '+' and num2 == 50:
     print("18+50 = 68")
+if num1 == 18 and sign == '+' and num2 == 51:
+    print("18+51 = 69")
 if num1 == 19 and sign == '+' and num2 == 0:
     print("19+0 = 19")
 if num1 == 19 and sign == '+' and num2 == 1:
@@ -2050,6 +2088,8 @@ if num1 == 19 and sign == '+' and num2 == 49:
     print("19+49 = 68")
 if num1 == 19 and sign == '+' and num2 == 50:
     print("19+50 = 69")
+if num1 == 19 and sign == '+' and num2 == 51:
+    print("19+51 = 70")
 if num1 == 20 and sign == '+' and num2 == 0:
     print("20+0 = 20")
 if num1 == 20 and sign == '+' and num2 == 1:
@@ -2152,6 +2192,8 @@ if num1 == 20 and sign == '+' and num2 == 49:
     print("20+49 = 69")
 if num1 == 20 and sign == '+' and num2 == 50:
     print("20+50 = 70")
+if num1 == 20 and sign == '+' and num2 == 51:
+    print("20+51 = 71")
 if num1 == 21 and sign == '+' and num2 == 0:
     print("21+0 = 21")
 if num1 == 21 and sign == '+' and num2 == 1:
@@ -2254,6 +2296,8 @@ if num1 == 21 and sign == '+' and num2 == 49:
     print("21+49 = 70")
 if num1 == 21 and sign == '+' and num2 == 50:
     print("21+50 = 71")
+if num1 == 21 and sign == '+' and num2 == 51:
+    print("21+51 = 72")
 if num1 == 22 and sign == '+' and num2 == 0:
     print("22+0 = 22")
 if num1 == 22 and sign == '+' and num2 == 1:
@@ -2356,6 +2400,8 @@ if num1 == 22 and sign == '+' and num2 == 49:
     print("22+49 = 71")
 if num1 == 22 and sign == '+' and num2 == 50:
     print("22+50 = 72")
+if num1 == 22 and sign == '+' and num2 == 51:
+    print("22+51 = 73")
 if num1 == 23 and sign == '+' and num2 == 0:
     print("23+0 = 23")
 if num1 == 23 and sign == '+' and num2 == 1:
@@ -2458,6 +2504,8 @@ if num1 == 23 and sign == '+' and num2 == 49:
     print("23+49 = 72")
 if num1 == 23 and sign == '+' and num2 == 50:
     print("23+50 = 73")
+if num1 == 23 and sign == '+' and num2 == 51:
+    print("23+51 = 74")
 if num1 == 24 and sign == '+' and num2 == 0:
     print("24+0 = 24")
 if num1 == 24 and sign == '+' and num2 == 1:
@@ -2560,6 +2608,8 @@ if num1 == 24 and sign == '+' and num2 == 49:
     print("24+49 = 73")
 if num1 == 24 and sign == '+' and num2 == 50:
     print("24+50 = 74")
+if num1 == 24 and sign == '+' and num2 == 51:
+    print("24+51 = 75")
 if num1 == 25 and sign == '+' and num2 == 0:
     print("25+0 = 25")
 if num1 == 25 and sign == '+' and num2 == 1:
@@ -2662,6 +2712,8 @@ if num1 == 25 and sign == '+' and num2 == 49:
     print("25+49 = 74")
 if num1 == 25 and sign == '+' and num2 == 50:
     print("25+50 = 75")
+if num1 == 25 and sign == '+' and num2 == 51:
+    print("25+51 = 76")
 if num1 == 26 and sign == '+' and num2 == 0:
     print("26+0 = 26")
 if num1 == 26 and sign == '+' and num2 == 1:
@@ -2764,6 +2816,8 @@ if num1 == 26 and sign == '+' and num2 == 49:
     print("26+49 = 75")
 if num1 == 26 and sign == '+' and num2 == 50:
     print("26+50 = 76")
+if num1 == 26 and sign == '+' and num2 == 51:
+    print("26+51 = 77")
 if num1 == 27 and sign == '+' and num2 == 0:
     print("27+0 = 27")
 if num1 == 27 and sign == '+' and num2 == 1:
@@ -2866,6 +2920,8 @@ if num1 == 27 and sign == '+' and num2 == 49:
     print("27+49 = 76")
 if num1 == 27 and sign == '+' and num2 == 50:
     print("27+50 = 77")
+if num1 == 27 and sign == '+' and num2 == 51:
+    print("27+51 = 78")
 if num1 == 28 and sign == '+' and num2 == 0:
     print("28+0 = 28")
 if num1 == 28 and sign == '+' and num2 == 1:
@@ -2968,6 +3024,8 @@ if num1 == 28 and sign == '+' and num2 == 49:
     print("28+49 = 77")
 if num1 == 28 and sign == '+' and num2 == 50:
     print("28+50 = 78")
+if num1 == 28 and sign == '+' and num2 == 51:
+    print("28+51 = 79")
 if num1 == 29 and sign == '+' and num2 == 0:
     print("29+0 = 29")
 if num1 == 29 and sign == '+' and num2 == 1:
@@ -3070,6 +3128,8 @@ if num1 == 29 and sign == '+' and num2 == 49:
     print("29+49 = 78")
 if num1 == 29 and sign == '+' and num2 == 50:
     print("29+50 = 79")
+if num1 == 29 and sign == '+' and num2 == 51:
+    print("29+51 = 80")
 if num1 == 30 and sign == '+' and num2 == 0:
     print("30+0 = 30")
 if num1 == 30 and sign == '+' and num2 == 1:
@@ -3172,6 +3232,8 @@ if num1 == 30 and sign == '+' and num2 == 49:
     print("30+49 = 79")
 if num1 == 30 and sign == '+' and num2 == 50:
     print("30+50 = 80")
+if num1 == 30 and sign == '+' and num2 == 51:
+    print("30+51 = 81")
 if num1 == 31 and sign == '+' and num2 == 0:
     print("31+0 = 31")
 if num1 == 31 and sign == '+' and num2 == 1:
@@ -3274,6 +3336,8 @@ if num1 == 31 and sign == '+' and num2 == 49:
     print("31+49 = 80")
 if num1 == 31 and sign == '+' and num2 == 50:
     print("31+50 = 81")
+if num1 == 31 and sign == '+' and num2 == 51:
+    print("31+51 = 82")
 if num1 == 32 and sign == '+' and num2 == 0:
     print("32+0 = 32")
 if num1 == 32 and sign == '+' and num2 == 1:
@@ -3376,6 +3440,8 @@ if num1 == 32 and sign == '+' and num2 == 49:
     print("32+49 = 81")
 if num1 == 32 and sign == '+' and num2 == 50:
     print("32+50 = 82")
+if num1 == 32 and sign == '+' and num2 == 51:
+    print("32+51 = 83")
 if num1 == 33 and sign == '+' and num2 == 0:
     print("33+0 = 33")
 if num1 == 33 and sign == '+' and num2 == 1:
@@ -3478,6 +3544,8 @@ if num1 == 33 and sign == '+' and num2 == 49:
     print("33+49 = 82")
 if num1 == 33 and sign == '+' and num2 == 50:
     print("33+50 = 83")
+if num1 == 33 and sign == '+' and num2 == 51:
+    print("33+51 = 84")
 if num1 == 34 and sign == '+' and num2 == 0:
     print("34+0 = 34")
 if num1 == 34 and sign == '+' and num2 == 1:
@@ -3580,6 +3648,8 @@ if num1 == 34 and sign == '+' and num2 == 49:
     print("34+49 = 83")
 if num1 == 34 and sign == '+' and num2 == 50:
     print("34+50 = 84")
+if num1 == 34 and sign == '+' and num2 == 51:
+    print("34+51 = 85")
 if num1 == 35 and sign == '+' and num2 == 0:
     print("35+0 = 35")
 if num1 == 35 and sign == '+' and num2 == 1:
@@ -3682,6 +3752,8 @@ if num1 == 35 and sign == '+' and num2 == 49:
     print("35+49 = 84")
 if num1 == 35 and sign == '+' and num2 == 50:
     print("35+50 = 85")
+if num1 == 35 and sign == '+' and num2 == 51:
+    print("35+51 = 86")
 if num1 == 36 and sign == '+' and num2 == 0:
     print("36+0 = 36")
 if num1 == 36 and sign == '+' and num2 == 1:
@@ -3784,6 +3856,8 @@ if num1 == 36 and sign == '+' and num2 == 49:
     print("36+49 = 85")
 if num1 == 36 and sign == '+' and num2 == 50:
     print("36+50 = 86")
+if num1 == 36 and sign == '+' and num2 == 51:
+    print("36+51 = 87")
 if num1 == 37 and sign == '+' and num2 == 0:
     print("37+0 = 37")
 if num1 == 37 and sign == '+' and num2 == 1:
@@ -3886,6 +3960,8 @@ if num1 == 37 and sign == '+' and num2 == 49:
     print("37+49 = 86")
 if num1 == 37 and sign == '+' and num2 == 50:
     print("37+50 = 87")
+if num1 == 37 and sign == '+' and num2 == 51:
+    print("37+51 = 88")
 if num1 == 38 and sign == '+' and num2 == 0:
     print("38+0 = 38")
 if num1 == 38 and sign == '+' and num2 == 1:
@@ -3988,6 +4064,8 @@ if num1 == 38 and sign == '+' and num2 == 49:
     print("38+49 = 87")
 if num1 == 38 and sign == '+' and num2 == 50:
     print("38+50 = 88")
+if num1 == 38 and sign == '+' and num2 == 51:
+    print("38+51 = 89")
 if num1 == 39 and sign == '+' and num2 == 0:
     print("39+0 = 39")
 if num1 == 39 and sign == '+' and num2 == 1:
@@ -4090,6 +4168,8 @@ if num1 == 39 and sign == '+' and num2 == 49:
     print("39+49 = 88")
 if num1 == 39 and sign == '+' and num2 == 50:
     print("39+50 = 89")
+if num1 == 39 and sign == '+' and num2 == 51:
+    print("39+51 = 90")
 if num1 == 40 and sign == '+' and num2 == 0:
     print("40+0 = 40")
 if num1 == 40 and sign == '+' and num2 == 1:
@@ -4192,6 +4272,8 @@ if num1 == 40 and sign == '+' and num2 == 49:
     print("40+49 = 89")
 if num1 == 40 and sign == '+' and num2 == 50:
     print("40+50 = 90")
+if num1 == 40 and sign == '+' and num2 == 51:
+    print("40+51 = 91")
 if num1 == 41 and sign == '+' and num2 == 0:
     print("41+0 = 41")
 if num1 == 41 and sign == '+' and num2 == 1:
@@ -4294,6 +4376,8 @@ if num1 == 41 and sign == '+' and num2 == 49:
     print("41+49 = 90")
 if num1 == 41 and sign == '+' and num2 == 50:
     print("41+50 = 91")
+if num1 == 41 and sign == '+' and num2 == 51:
+    print("41+51 = 92")
 if num1 == 42 and sign == '+' and num2 == 0:
     print("42+0 = 42")
 if num1 == 42 and sign == '+' and num2 == 1:
@@ -4396,6 +4480,8 @@ if num1 == 42 and sign == '+' and num2 == 49:
     print("42+49 = 91")
 if num1 == 42 and sign == '+' and num2 == 50:
     print("42+50 = 92")
+if num1 == 42 and sign == '+' and num2 == 51:
+    print("42+51 = 93")
 if num1 == 43 and sign == '+' and num2 == 0:
     print("43+0 = 43")
 if num1 == 43 and sign == '+' and num2 == 1:
@@ -4498,6 +4584,8 @@ if num1 == 43 and sign == '+' and num2 == 49:
     print("43+49 = 92")
 if num1 == 43 and sign == '+' and num2 == 50:
     print("43+50 = 93")
+if num1 == 43 and sign == '+' and num2 == 51:
+    print("43+51 = 94")
 if num1 == 44 and sign == '+' and num2 == 0:
     print("44+0 = 44")
 if num1 == 44 and sign == '+' and num2 == 1:
@@ -4600,6 +4688,8 @@ if num1 == 44 and sign == '+' and num2 == 49:
     print("44+49 = 93")
 if num1 == 44 and sign == '+' and num2 == 50:
     print("44+50 = 94")
+if num1 == 44 and sign == '+' and num2 == 51:
+    print("44+51 = 95")
 if num1 == 45 and sign == '+' and num2 == 0:
     print("45+0 = 45")
 if num1 == 45 and sign == '+' and num2 == 1:
@@ -4702,6 +4792,8 @@ if num1 == 45 and sign == '+' and num2 == 49:
     print("45+49 = 94")
 if num1 == 45 and sign == '+' and num2 == 50:
     print("45+50 = 95")
+if num1 == 45 and sign == '+' and num2 == 51:
+    print("45+51 = 96")
 if num1 == 46 and sign == '+' and num2 == 0:
     print("46+0 = 46")
 if num1 == 46 and sign == '+' and num2 == 1:
@@ -4804,6 +4896,8 @@ if num1 == 46 and sign == '+' and num2 == 49:
     print("46+49 = 95")
 if num1 == 46 and sign == '+' and num2 == 50:
     print("46+50 = 96")
+if num1 == 46 and sign == '+' and num2 == 51:
+    print("46+51 = 97")
 if num1 == 47 and sign == '+' and num2 == 0:
     print("47+0 = 47")
 if num1 == 47 and sign == '+' and num2 == 1:
@@ -4906,6 +5000,8 @@ if num1 == 47 and sign == '+' and num2 == 49:
     print("47+49 = 96")
 if num1 == 47 and sign == '+' and num2 == 50:
     print("47+50 = 97")
+if num1 == 47 and sign == '+' and num2 == 51:
+    print("47+51 = 98")
 if num1 == 48 and sign == '+' and num2 == 0:
     print("48+0 = 48")
 if num1 == 48 and sign == '+' and num2 == 1:
@@ -5008,6 +5104,8 @@ if num1 == 48 and sign == '+' and num2 == 49:
     print("48+49 = 97")
 if num1 == 48 and sign == '+' and num2 == 50:
     print("48+50 = 98")
+if num1 == 48 and sign == '+' and num2 == 51:
+    print("48+51 = 99")
 if num1 == 49 and sign == '+' and num2 == 0:
     print("49+0 = 49")
 if num1 == 49 and sign == '+' and num2 == 1:
@@ -5110,6 +5208,8 @@ if num1 == 49 and sign == '+' and num2 == 49:
     print("49+49 = 98")
 if num1 == 49 and sign == '+' and num2 == 50:
     print("49+50 = 99")
+if num1 == 49 and sign == '+' and num2 == 51:
+    print("49+51 = 100")
 if num1 == 50 and sign == '+' and num2 == 0:
     print("50+0 = 50")
 if num1 == 50 and sign == '+' and num2 == 1:
@@ -5212,6 +5312,112 @@ if num1 == 50 and sign == '+' and num2 == 49:
     print("50+49 = 99")
 if num1 == 50 and sign == '+' and num2 == 50:
     print("50+50 = 100")
+if num1 == 50 and sign == '+' and num2 == 51:
+    print("50+51 = 101")
+if num1 == 51 and sign == '+' and num2 == 0:
+    print("51+0 = 51")
+if num1 == 51 and sign == '+' and num2 == 1:
+    print("51+1 = 52")
+if num1 == 51 and sign == '+' and num2 == 2:
+    print("51+2 = 53")
+if num1 == 51 and sign == '+' and num2 == 3:
+    print("51+3 = 54")
+if num1 == 51 and sign == '+' and num2 == 4:
+    print("51+4 = 55")
+if num1 == 51 and sign == '+' and num2 == 5:
+    print("51+5 = 56")
+if num1 == 51 and sign == '+' and num2 == 6:
+    print("51+6 = 57")
+if num1 == 51 and sign == '+' and num2 == 7:
+    print("51+7 = 58")
+if num1 == 51 and sign == '+' and num2 == 8:
+    print("51+8 = 59")
+if num1 == 51 and sign == '+' and num2 == 9:
+    print("51+9 = 60")
+if num1 == 51 and sign == '+' and num2 == 10:
+    print("51+10 = 61")
+if num1 == 51 and sign == '+' and num2 == 11:
+    print("51+11 = 62")
+if num1 == 51 and sign == '+' and num2 == 12:
+    print("51+12 = 63")
+if num1 == 51 and sign == '+' and num2 == 13:
+    print("51+13 = 64")
+if num1 == 51 and sign == '+' and num2 == 14:
+    print("51+14 = 65")
+if num1 == 51 and sign == '+' and num2 == 15:
+    print("51+15 = 66")
+if num1 == 51 and sign == '+' and num2 == 16:
+    print("51+16 = 67")
+if num1 == 51 and sign == '+' and num2 == 17:
+    print("51+17 = 68")
+if num1 == 51 and sign == '+' and num2 == 18:
+    print("51+18 = 69")
+if num1 == 51 and sign == '+' and num2 == 19:
+    print("51+19 = 70")
+if num1 == 51 and sign == '+' and num2 == 20:
+    print("51+20 = 71")
+if num1 == 51 and sign == '+' and num2 == 21:
+    print("51+21 = 72")
+if num1 == 51 and sign == '+' and num2 == 22:
+    print("51+22 = 73")
+if num1 == 51 and sign == '+' and num2 == 23:
+    print("51+23 = 74")
+if num1 == 51 and sign == '+' and num2 == 24:
+    print("51+24 = 75")
+if num1 == 51 and sign == '+' and num2 == 25:
+    print("51+25 = 76")
+if num1 == 51 and sign == '+' and num2 == 26:
+    print("51+26 = 77")
+if num1 == 51 and sign == '+' and num2 == 27:
+    print("51+27 = 78")
+if num1 == 51 and sign == '+' and num2 == 28:
+    print("51+28 = 79")
+if num1 == 51 and sign == '+' and num2 == 29:
+    print("51+29 = 80")
+if num1 == 51 and sign == '+' and num2 == 30:
+    print("51+30 = 81")
+if num1 == 51 and sign == '+' and num2 == 31:
+    print("51+31 = 82")
+if num1 == 51 and sign == '+' and num2 == 32:
+    print("51+32 = 83")
+if num1 == 51 and sign == '+' and num2 == 33:
+    print("51+33 = 84")
+if num1 == 51 and sign == '+' and num2 == 34:
+    print("51+34 = 85")
+if num1 == 51 and sign == '+' and num2 == 35:
+    print("51+35 = 86")
+if num1 == 51 and sign == '+' and num2 == 36:
+    print("51+36 = 87")
+if num1 == 51 and sign == '+' and num2 == 37:
+    print("51+37 = 88")
+if num1 == 51 and sign == '+' and num2 == 38:
+    print("51+38 = 89")
+if num1 == 51 and sign == '+' and num2 == 39:
+    print("51+39 = 90")
+if num1 == 51 and sign == '+' and num2 == 40:
+    print("51+40 = 91")
+if num1 == 51 and sign == '+' and num2 == 41:
+    print("51+41 = 92")
+if num1 == 51 and sign == '+' and num2 == 42:
+    print("51+42 = 93")
+if num1 == 51 and sign == '+' and num2 == 43:
+    print("51+43 = 94")
+if num1 == 51 and sign == '+' and num2 == 44:
+    print("51+44 = 95")
+if num1 == 51 and sign == '+' and num2 == 45:
+    print("51+45 = 96")
+if num1 == 51 and sign == '+' and num2 == 46:
+    print("51+46 = 97")
+if num1 == 51 and sign == '+' and num2 == 47:
+    print("51+47 = 98")
+if num1 == 51 and sign == '+' and num2 == 48:
+    print("51+48 = 99")
+if num1 == 51 and sign == '+' and num2 == 49:
+    print("51+49 = 100")
+if num1 == 51 and sign == '+' and num2 == 50:
+    print("51+50 = 101")
+if num1 == 51 and sign == '+' and num2 == 51:
+    print("51+51 = 102")
 if num1 == 0 and sign == '-' and num2 == 0:
     print("0-0 = 0")
 if num1 == 0 and sign == '-' and num2 == 1:
@@ -5314,6 +5520,8 @@ if num1 == 0 and sign == '-' and num2 == 49:
     print("0-49 = -49")
 if num1 == 0 and sign == '-' and num2 == 50:
     print("0-50 = -50")
+if num1 == 0 and sign == '-' and num2 == 51:
+    print("0-51 = -51")
 if num1 == 1 and sign == '-' and num2 == 0:
     print("1-0 = 1")
 if num1 == 1 and sign == '-' and num2 == 1:
@@ -5416,6 +5624,8 @@ if num1 == 1 and sign == '-' and num2 == 49:
     print("1-49 = -48")
 if num1 == 1 and sign == '-' and num2 == 50:
     print("1-50 = -49")
+if num1 == 1 and sign == '-' and num2 == 51:
+    print("1-51 = -50")
 if num1 == 2 and sign == '-' and num2 == 0:
     print("2-0 = 2")
 if num1 == 2 and sign == '-' and num2 == 1:
@@ -5518,6 +5728,8 @@ if num1 == 2 and sign == '-' and num2 == 49:
     print("2-49 = -47")
 if num1 == 2 and sign == '-' and num2 == 50:
     print("2-50 = -48")
+if num1 == 2 and sign == '-' and num2 == 51:
+    print("2-51 = -49")
 if num1 == 3 and sign == '-' and num2 == 0:
     print("3-0 = 3")
 if num1 == 3 and sign == '-' and num2 == 1:
@@ -5620,6 +5832,8 @@ if num1 == 3 and sign == '-' and num2 == 49:
     print("3-49 = -46")
 if num1 == 3 and sign == '-' and num2 == 50:
     print("3-50 = -47")
+if num1 == 3 and sign == '-' and num2 == 51:
+    print("3-51 = -48")
 if num1 == 4 and sign == '-' and num2 == 0:
     print("4-0 = 4")
 if num1 == 4 and sign == '-' and num2 == 1:
@@ -5722,6 +5936,8 @@ if num1 == 4 and sign == '-' and num2 == 49:
     print("4-49 = -45")
 if num1 == 4 and sign == '-' and num2 == 50:
     print("4-50 = -46")
+if num1 == 4 and sign == '-' and num2 == 51:
+    print("4-51 = -47")
 if num1 == 5 and sign == '-' and num2 == 0:
     print("5-0 = 5")
 if num1 == 5 and sign == '-' and num2 == 1:
@@ -5824,6 +6040,8 @@ if num1 == 5 and sign == '-' and num2 == 49:
     print("5-49 = -44")
 if num1 == 5 and sign == '-' and num2 == 50:
     print("5-50 = -45")
+if num1 == 5 and sign == '-' and num2 == 51:
+    print("5-51 = -46")
 if num1 == 6 and sign == '-' and num2 == 0:
     print("6-0 = 6")
 if num1 == 6 and sign == '-' and num2 == 1:
@@ -5926,6 +6144,8 @@ if num1 == 6 and sign == '-' and num2 == 49:
     print("6-49 = -43")
 if num1 == 6 and sign == '-' and num2 == 50:
     print("6-50 = -44")
+if num1 == 6 and sign == '-' and num2 == 51:
+    print("6-51 = -45")
 if num1 == 7 and sign == '-' and num2 == 0:
     print("7-0 = 7")
 if num1 == 7 and sign == '-' and num2 == 1:
@@ -6028,6 +6248,8 @@ if num1 == 7 and sign == '-' and num2 == 49:
     print("7-49 = -42")
 if num1 == 7 and sign == '-' and num2 == 50:
     print("7-50 = -43")
+if num1 == 7 and sign == '-' and num2 == 51:
+    print("7-51 = -44")
 if num1 == 8 and sign == '-' and num2 == 0:
     print("8-0 = 8")
 if num1 == 8 and sign == '-' and num2 == 1:
@@ -6130,6 +6352,8 @@ if num1 == 8 and sign == '-' and num2 == 49:
     print("8-49 = -41")
 if num1 == 8 and sign == '-' and num2 == 50:
     print("8-50 = -42")
+if num1 == 8 and sign == '-' and num2 == 51:
+    print("8-51 = -43")
 if num1 == 9 and sign == '-' and num2 == 0:
     print("9-0 = 9")
 if num1 == 9 and sign == '-' and num2 == 1:
@@ -6232,6 +6456,8 @@ if num1 == 9 and sign == '-' and num2 == 49:
     print("9-49 = -40")
 if num1 == 9 and sign == '-' and num2 == 50:
     print("9-50 = -41")
+if num1 == 9 and sign == '-' and num2 == 51:
+    print("9-51 = -42")
 if num1 == 10 and sign == '-' and num2 == 0:
     print("10-0 = 10")
 if num1 == 10 and sign == '-' and num2 == 1:
@@ -6334,6 +6560,8 @@ if num1 == 10 and sign == '-' and num2 == 49:
     print("10-49 = -39")
 if num1 == 10 and sign == '-' and num2 == 50:
     print("10-50 = -40")
+if num1 == 10 and sign == '-' and num2 == 51:
+    print("10-51 = -41")
 if num1 == 11 and sign == '-' and num2 == 0:
     print("11-0 = 11")
 if num1 == 11 and sign == '-' and num2 == 1:
@@ -6436,6 +6664,8 @@ if num1 == 11 and sign == '-' and num2 == 49:
     print("11-49 = -38")
 if num1 == 11 and sign == '-' and num2 == 50:
     print("11-50 = -39")
+if num1 == 11 and sign == '-' and num2 == 51:
+    print("11-51 = -40")
 if num1 == 12 and sign == '-' and num2 == 0:
     print("12-0 = 12")
 if num1 == 12 and sign == '-' and num2 == 1:
@@ -6538,6 +6768,8 @@ if num1 == 12 and sign == '-' and num2 == 49:
     print("12-49 = -37")
 if num1 == 12 and sign == '-' and num2 == 50:
     print("12-50 = -38")
+if num1 == 12 and sign == '-' and num2 == 51:
+    print("12-51 = -39")
 if num1 == 13 and sign == '-' and num2 == 0:
     print("13-0 = 13")
 if num1 == 13 and sign == '-' and num2 == 1:
@@ -6640,6 +6872,8 @@ if num1 == 13 and sign == '-' and num2 == 49:
     print("13-49 = -36")
 if num1 == 13 and sign == '-' and num2 == 50:
     print("13-50 = -37")
+if num1 == 13 and sign == '-' and num2 == 51:
+    print("13-51 = -38")
 if num1 == 14 and sign == '-' and num2 == 0:
     print("14-0 = 14")
 if num1 == 14 and sign == '-' and num2 == 1:
@@ -6742,6 +6976,8 @@ if num1 == 14 and sign == '-' and num2 == 49:
     print("14-49 = -35")
 if num1 == 14 and sign == '-' and num2 == 50:
     print("14-50 = -36")
+if num1 == 14 and sign == '-' and num2 == 51:
+    print("14-51 = -37")
 if num1 == 15 and sign == '-' and num2 == 0:
     print("15-0 = 15")
 if num1 == 15 and sign == '-' and num2 == 1:
@@ -6844,6 +7080,8 @@ if num1 == 15 and sign == '-' and num2 == 49:
     print("15-49 = -34")
 if num1 == 15 and sign == '-' and num2 == 50:
     print("15-50 = -35")
+if num1 == 15 and sign == '-' and num2 == 51:
+    print("15-51 = -36")
 if num1 == 16 and sign == '-' and num2 == 0:
     print("16-0 = 16")
 if num1 == 16 and sign == '-' and num2 == 1:
@@ -6946,6 +7184,8 @@ if num1 == 16 and sign == '-' and num2 == 49:
     print("16-49 = -33")
 if num1 == 16 and sign == '-' and num2 == 50:
     print("16-50 = -34")
+if num1 == 16 and sign == '-' and num2 == 51:
+    print("16-51 = -35")
 if num1 == 17 and sign == '-' and num2 == 0:
     print("17-0 = 17")
 if num1 == 17 and sign == '-' and num2 == 1:
@@ -7048,6 +7288,8 @@ if num1 == 17 and sign == '-' and num2 == 49:
     print("17-49 = -32")
 if num1 == 17 and sign == '-' and num2 == 50:
     print("17-50 = -33")
+if num1 == 17 and sign == '-' and num2 == 51:
+    print("17-51 = -34")
 if num1 == 18 and sign == '-' and num2 == 0:
     print("18-0 = 18")
 if num1 == 18 and sign == '-' and num2 == 1:
@@ -7150,6 +7392,8 @@ if num1 == 18 and sign == '-' and num2 == 49:
     print("18-49 = -31")
 if num1 == 18 and sign == '-' and num2 == 50:
     print("18-50 = -32")
+if num1 == 18 and sign == '-' and num2 == 51:
+    print("18-51 = -33")
 if num1 == 19 and sign == '-' and num2 == 0:
     print("19-0 = 19")
 if num1 == 19 and sign == '-' and num2 == 1:
@@ -7252,6 +7496,8 @@ if num1 == 19 and sign == '-' and num2 == 49:
     print("19-49 = -30")
 if num1 == 19 and sign == '-' and num2 == 50:
     print("19-50 = -31")
+if num1 == 19 and sign == '-' and num2 == 51:
+    print("19-51 = -32")
 if num1 == 20 and sign == '-' and num2 == 0:
     print("20-0 = 20")
 if num1 == 20 and sign == '-' and num2 == 1:
@@ -7354,6 +7600,8 @@ if num1 == 20 and sign == '-' and num2 == 49:
     print("20-49 = -29")
 if num1 == 20 and sign == '-' and num2 == 50:
     print("20-50 = -30")
+if num1 == 20 and sign == '-' and num2 == 51:
+    print("20-51 = -31")
 if num1 == 21 and sign == '-' and num2 == 0:
     print("21-0 = 21")
 if num1 == 21 and sign == '-' and num2 == 1:
@@ -7456,6 +7704,8 @@ if num1 == 21 and sign == '-' and num2 == 49:
     print("21-49 = -28")
 if num1 == 21 and sign == '-' and num2 == 50:
     print("21-50 = -29")
+if num1 == 21 and sign == '-' and num2 == 51:
+    print("21-51 = -30")
 if num1 == 22 and sign == '-' and num2 == 0:
     print("22-0 = 22")
 if num1 == 22 and sign == '-' and num2 == 1:
@@ -7558,6 +7808,8 @@ if num1 == 22 and sign == '-' and num2 == 49:
     print("22-49 = -27")
 if num1 == 22 and sign == '-' and num2 == 50:
     print("22-50 = -28")
+if num1 == 22 and sign == '-' and num2 == 51:
+    print("22-51 = -29")
 if num1 == 23 and sign == '-' and num2 == 0:
     print("23-0 = 23")
 if num1 == 23 and sign == '-' and num2 == 1:
@@ -7660,6 +7912,8 @@ if num1 == 23 and sign == '-' and num2 == 49:
     print("23-49 = -26")
 if num1 == 23 and sign == '-' and num2 == 50:
     print("23-50 = -27")
+if num1 == 23 and sign == '-' and num2 == 51:
+    print("23-51 = -28")
 if num1 == 24 and sign == '-' and num2 == 0:
     print("24-0 = 24")
 if num1 == 24 and sign == '-' and num2 == 1:
@@ -7762,6 +8016,8 @@ if num1 == 24 and sign == '-' and num2 == 49:
     print("24-49 = -25")
 if num1 == 24 and sign == '-' and num2 == 50:
     print("24-50 = -26")
+if num1 == 24 and sign == '-' and num2 == 51:
+    print("24-51 = -27")
 if num1 == 25 and sign == '-' and num2 == 0:
     print("25-0 = 25")
 if num1 == 25 and sign == '-' and num2 == 1:
@@ -7864,6 +8120,8 @@ if num1 == 25 and sign == '-' and num2 == 49:
     print("25-49 = -24")
 if num1 == 25 and sign == '-' and num2 == 50:
     print("25-50 = -25")
+if num1 == 25 and sign == '-' and num2 == 51:
+    print("25-51 = -26")
 if num1 == 26 and sign == '-' and num2 == 0:
     print("26-0 = 26")
 if num1 == 26 and sign == '-' and num2 == 1:
@@ -7966,6 +8224,8 @@ if num1 == 26 and sign == '-' and num2 == 49:
     print("26-49 = -23")
 if num1 == 26 and sign == '-' and num2 == 50:
     print("26-50 = -24")
+if num1 == 26 and sign == '-' and num2 == 51:
+    print("26-51 = -25")
 if num1 == 27 and sign == '-' and num2 == 0:
     print("27-0 = 27")
 if num1 == 27 and sign == '-' and num2 == 1:
@@ -8068,6 +8328,8 @@ if num1 == 27 and sign == '-' and num2 == 49:
     print("27-49 = -22")
 if num1 == 27 and sign == '-' and num2 == 50:
     print("27-50 = -23")
+if num1 == 27 and sign == '-' and num2 == 51:
+    print("27-51 = -24")
 if num1 == 28 and sign == '-' and num2 == 0:
     print("28-0 = 28")
 if num1 == 28 and sign == '-' and num2 == 1:
@@ -8170,6 +8432,8 @@ if num1 == 28 and sign == '-' and num2 == 49:
     print("28-49 = -21")
 if num1 == 28 and sign == '-' and num2 == 50:
     print("28-50 = -22")
+if num1 == 28 and sign == '-' and num2 == 51:
+    print("28-51 = -23")
 if num1 == 29 and sign == '-' and num2 == 0:
     print("29-0 = 29")
 if num1 == 29 and sign == '-' and num2 == 1:
@@ -8272,6 +8536,8 @@ if num1 == 29 and sign == '-' and num2 == 49:
     print("29-49 = -20")
 if num1 == 29 and sign == '-' and num2 == 50:
     print("29-50 = -21")
+if num1 == 29 and sign == '-' and num2 == 51:
+    print("29-51 = -22")
 if num1 == 30 and sign == '-' and num2 == 0:
     print("30-0 = 30")
 if num1 == 30 and sign == '-' and num2 == 1:
@@ -8374,6 +8640,8 @@ if num1 == 30 and sign == '-' and num2 == 49:
     print("30-49 = -19")
 if num1 == 30 and sign == '-' and num2 == 50:
     print("30-50 = -20")
+if num1 == 30 and sign == '-' and num2 == 51:
+    print("30-51 = -21")
 if num1 == 31 and sign == '-' and num2 == 0:
     print("31-0 = 31")
 if num1 == 31 and sign == '-' and num2 == 1:
@@ -8476,6 +8744,8 @@ if num1 == 31 and sign == '-' and num2 == 49:
     print("31-49 = -18")
 if num1 == 31 and sign == '-' and num2 == 50:
     print("31-50 = -19")
+if num1 == 31 and sign == '-' and num2 == 51:
+    print("31-51 = -20")
 if num1 == 32 and sign == '-' and num2 == 0:
     print("32-0 = 32")
 if num1 == 32 and sign == '-' and num2 == 1:
@@ -8578,6 +8848,8 @@ if num1 == 32 and sign == '-' and num2 == 49:
     print("32-49 = -17")
 if num1 == 32 and sign == '-' and num2 == 50:
     print("32-50 = -18")
+if num1 == 32 and sign == '-' and num2 == 51:
+    print("32-51 = -19")
 if num1 == 33 and sign == '-' and num2 == 0:
     print("33-0 = 33")
 if num1 == 33 and sign == '-' and num2 == 1:
@@ -8680,6 +8952,8 @@ if num1 == 33 and sign == '-' and num2 == 49:
     print("33-49 = -16")
 if num1 == 33 and sign == '-' and num2 == 50:
     print("33-50 = -17")
+if num1 == 33 and sign == '-' and num2 == 51:
+    print("33-51 = -18")
 if num1 == 34 and sign == '-' and num2 == 0:
     print("34-0 = 34")
 if num1 == 34 and sign == '-' and num2 == 1:
@@ -8782,6 +9056,8 @@ if num1 == 34 and sign == '-' and num2 == 49:
     print("34-49 = -15")
 if num1 == 34 and sign == '-' and num2 == 50:
     print("34-50 = -16")
+if num1 == 34 and sign == '-' and num2 == 51:
+    print("34-51 = -17")
 if num1 == 35 and sign == '-' and num2 == 0:
     print("35-0 = 35")
 if num1 == 35 and sign == '-' and num2 == 1:
@@ -8884,6 +9160,8 @@ if num1 == 35 and sign == '-' and num2 == 49:
     print("35-49 = -14")
 if num1 == 35 and sign == '-' and num2 == 50:
     print("35-50 = -15")
+if num1 == 35 and sign == '-' and num2 == 51:
+    print("35-51 = -16")
 if num1 == 36 and sign == '-' and num2 == 0:
     print("36-0 = 36")
 if num1 == 36 and sign == '-' and num2 == 1:
@@ -8986,6 +9264,8 @@ if num1 == 36 and sign == '-' and num2 == 49:
     print("36-49 = -13")
 if num1 == 36 and sign == '-' and num2 == 50:
     print("36-50 = -14")
+if num1 == 36 and sign == '-' and num2 == 51:
+    print("36-51 = -15")
 if num1 == 37 and sign == '-' and num2 == 0:
     print("37-0 = 37")
 if num1 == 37 and sign == '-' and num2 == 1:
@@ -9088,6 +9368,8 @@ if num1 == 37 and sign == '-' and num2 == 49:
     print("37-49 = -12")
 if num1 == 37 and sign == '-' and num2 == 50:
     print("37-50 = -13")
+if num1 == 37 and sign == '-' and num2 == 51:
+    print("37-51 = -14")
 if num1 == 38 and sign == '-' and num2 == 0:
     print("38-0 = 38")
 if num1 == 38 and sign == '-' and num2 == 1:
@@ -9190,6 +9472,8 @@ if num1 == 38 and sign == '-' and num2 == 49:
     print("38-49 = -11")
 if num1 == 38 and sign == '-' and num2 == 50:
     print("38-50 = -12")
+if num1 == 38 and sign == '-' and num2 == 51:
+    print("38-51 = -13")
 if num1 == 39 and sign == '-' and num2 == 0:
     print("39-0 = 39")
 if num1 == 39 and sign == '-' and num2 == 1:
@@ -9292,6 +9576,8 @@ if num1 == 39 and sign == '-' and num2 == 49:
     print("39-49 = -10")
 if num1 == 39 and sign == '-' and num2 == 50:
     print("39-50 = -11")
+if num1 == 39 and sign == '-' and num2 == 51:
+    print("39-51 = -12")
 if num1 == 40 and sign == '-' and num2 == 0:
     print("40-0 = 40")
 if num1 == 40 and sign == '-' and num2 == 1:
@@ -9394,6 +9680,8 @@ if num1 == 40 and sign == '-' and num2 == 49:
     print("40-49 = -9")
 if num1 == 40 and sign == '-' and num2 == 50:
     print("40-50 = -10")
+if num1 == 40 and sign == '-' and num2 == 51:
+    print("40-51 = -11")
 if num1 == 41 and sign == '-' and num2 == 0:
     print("41-0 = 41")
 if num1 == 41 and sign == '-' and num2 == 1:
@@ -9496,6 +9784,8 @@ if num1 == 41 and sign == '-' and num2 == 49:
     print("41-49 = -8")
 if num1 == 41 and sign == '-' and num2 == 50:
     print("41-50 = -9")
+if num1 == 41 and sign == '-' and num2 == 51:
+    print("41-51 = -10")
 if num1 == 42 and sign == '-' and num2 == 0:
     print("42-0 = 42")
 if num1 == 42 and sign == '-' and num2 == 1:
@@ -9598,6 +9888,8 @@ if num1 == 42 and sign == '-' and num2 == 49:
     print("42-49 = -7")
 if num1 == 42 and sign == '-' and num2 == 50:
     print("42-50 = -8")
+if num1 == 42 and sign == '-' and num2 == 51:
+    print("42-51 = -9")
 if num1 == 43 and sign == '-' and num2 == 0:
     print("43-0 = 43")
 if num1 == 43 and sign == '-' and num2 == 1:
@@ -9700,6 +9992,8 @@ if num1 == 43 and sign == '-' and num2 == 49:
     print("43-49 = -6")
 if num1 == 43 and sign == '-' and num2 == 50:
     print("43-50 = -7")
+if num1 == 43 and sign == '-' and num2 == 51:
+    print("43-51 = -8")
 if num1 == 44 and sign == '-' and num2 == 0:
     print("44-0 = 44")
 if num1 == 44 and sign == '-' and num2 == 1:
@@ -9802,6 +10096,8 @@ if num1 == 44 and sign == '-' and num2 == 49:
     print("44-49 = -5")
 if num1 == 44 and sign == '-' and num2 == 50:
     print("44-50 = -6")
+if num1 == 44 and sign == '-' and num2 == 51:
+    print("44-51 = -7")
 if num1 == 45 and sign == '-' and num2 == 0:
     print("45-0 = 45")
 if num1 == 45 and sign == '-' and num2 == 1:
@@ -9904,6 +10200,8 @@ if num1 == 45 and sign == '-' and num2 == 49:
     print("45-49 = -4")
 if num1 == 45 and sign == '-' and num2 == 50:
     print("45-50 = -5")
+if num1 == 45 and sign == '-' and num2 == 51:
+    print("45-51 = -6")
 if num1 == 46 and sign == '-' and num2 == 0:
     print("46-0 = 46")
 if num1 == 46 and sign == '-' and num2 == 1:
@@ -10006,6 +10304,8 @@ if num1 == 46 and sign == '-' and num2 == 49:
     print("46-49 = -3")
 if num1 == 46 and sign == '-' and num2 == 50:
     print("46-50 = -4")
+if num1 == 46 and sign == '-' and num2 == 51:
+    print("46-51 = -5")
 if num1 == 47 and sign == '-' and num2 == 0:
     print("47-0 = 47")
 if num1 == 47 and sign == '-' and num2 == 1:
@@ -10108,6 +10408,8 @@ if num1 == 47 and sign == '-' and num2 == 49:
     print("47-49 = -2")
 if num1 == 47 and sign == '-' and num2 == 50:
     print("47-50 = -3")
+if num1 == 47 and sign == '-' and num2 == 51:
+    print("47-51 = -4")
 if num1 == 48 and sign == '-' and num2 == 0:
     print("48-0 = 48")
 if num1 == 48 and sign == '-' and num2 == 1:
@@ -10210,6 +10512,8 @@ if num1 == 48 and sign == '-' and num2 == 49:
     print("48-49 = -1")
 if num1 == 48 and sign == '-' and num2 == 50:
     print("48-50 = -2")
+if num1 == 48 and sign == '-' and num2 == 51:
+    print("48-51 = -3")
 if num1 == 49 and sign == '-' and num2 == 0:
     print("49-0 = 49")
 if num1 == 49 and sign == '-' and num2 == 1:
@@ -10312,6 +10616,8 @@ if num1 == 49 and sign == '-' and num2 == 49:
     print("49-49 = 0")
 if num1 == 49 and sign == '-' and num2 == 50:
     print("49-50 = -1")
+if num1 == 49 and sign == '-' and num2 == 51:
+    print("49-51 = -2")
 if num1 == 50 and sign == '-' and num2 == 0:
     print("50-0 = 50")
 if num1 == 50 and sign == '-' and num2 == 1:
@@ -10414,6 +10720,112 @@ if num1 == 50 and sign == '-' and num2 == 49:
     print("50-49 = 1")
 if num1 == 50 and sign == '-' and num2 == 50:
     print("50-50 = 0")
+if num1 == 50 and sign == '-' and num2 == 51:
+    print("50-51 = -1")
+if num1 == 51 and sign == '-' and num2 == 0:
+    print("51-0 = 51")
+if num1 == 51 and sign == '-' and num2 == 1:
+    print("51-1 = 50")
+if num1 == 51 and sign == '-' and num2 == 2:
+    print("51-2 = 49")
+if num1 == 51 and sign == '-' and num2 == 3:
+    print("51-3 = 48")
+if num1 == 51 and sign == '-' and num2 == 4:
+    print("51-4 = 47")
+if num1 == 51 and sign == '-' and num2 == 5:
+    print("51-5 = 46")
+if num1 == 51 and sign == '-' and num2 == 6:
+    print("51-6 = 45")
+if num1 == 51 and sign == '-' and num2 == 7:
+    print("51-7 = 44")
+if num1 == 51 and sign == '-' and num2 == 8:
+    print("51-8 = 43")
+if num1 == 51 and sign == '-' and num2 == 9:
+    print("51-9 = 42")
+if num1 == 51 and sign == '-' and num2 == 10:
+    print("51-10 = 41")
+if num1 == 51 and sign == '-' and num2 == 11:
+    print("51-11 = 40")
+if num1 == 51 and sign == '-' and num2 == 12:
+    print("51-12 = 39")
+if num1 == 51 and sign == '-' and num2 == 13:
+    print("51-13 = 38")
+if num1 == 51 and sign == '-' and num2 == 14:
+    print("51-14 = 37")
+if num1 == 51 and sign == '-' and num2 == 15:
+    print("51-15 = 36")
+if num1 == 51 and sign == '-' and num2 == 16:
+    print("51-16 = 35")
+if num1 == 51 and sign == '-' and num2 == 17:
+    print("51-17 = 34")
+if num1 == 51 and sign == '-' and num2 == 18:
+    print("51-18 = 33")
+if num1 == 51 and sign == '-' and num2 == 19:
+    print("51-19 = 32")
+if num1 == 51 and sign == '-' and num2 == 20:
+    print("51-20 = 31")
+if num1 == 51 and sign == '-' and num2 == 21:
+    print("51-21 = 30")
+if num1 == 51 and sign == '-' and num2 == 22:
+    print("51-22 = 29")
+if num1 == 51 and sign == '-' and num2 == 23:
+    print("51-23 = 28")
+if num1 == 51 and sign == '-' and num2 == 24:
+    print("51-24 = 27")
+if num1 == 51 and sign == '-' and num2 == 25:
+    print("51-25 = 26")
+if num1 == 51 and sign == '-' and num2 == 26:
+    print("51-26 = 25")
+if num1 == 51 and sign == '-' and num2 == 27:
+    print("51-27 = 24")
+if num1 == 51 and sign == '-' and num2 == 28:
+    print("51-28 = 23")
+if num1 == 51 and sign == '-' and num2 == 29:
+    print("51-29 = 22")
+if num1 == 51 and sign == '-' and num2 == 30:
+    print("51-30 = 21")
+if num1 == 51 and sign == '-' and num2 == 31:
+    print("51-31 = 20")
+if num1 == 51 and sign == '-' and num2 == 32:
+    print("51-32 = 19")
+if num1 == 51 and sign == '-' and num2 == 33:
+    print("51-33 = 18")
+if num1 == 51 and sign == '-' and num2 == 34:
+    print("51-34 = 17")
+if num1 == 51 and sign == '-' and num2 == 35:
+    print("51-35 = 16")
+if num1 == 51 and sign == '-' and num2 == 36:
+    print("51-36 = 15")
+if num1 == 51 and sign == '-' and num2 == 37:
+    print("51-37 = 14")
+if num1 == 51 and sign == '-' and num2 == 38:
+    print("51-38 = 13")
+if num1 == 51 and sign == '-' and num2 == 39:
+    print("51-39 = 12")
+if num1 == 51 and sign == '-' and num2 == 40:
+    print("51-40 = 11")
+if num1 == 51 and sign == '-' and num2 == 41:
+    print("51-41 = 10")
+if num1 == 51 and sign == '-' and num2 == 42:
+    print("51-42 = 9")
+if num1 == 51 and sign == '-' and num2 == 43:
+    print("51-43 = 8")
+if num1 == 51 and sign == '-' and num2 == 44:
+    print("51-44 = 7")
+if num1 == 51 and sign == '-' and num2 == 45:
+    print("51-45 = 6")
+if num1 == 51 and sign == '-' and num2 == 46:
+    print("51-46 = 5")
+if num1 == 51 and sign == '-' and num2 == 47:
+    print("51-47 = 4")
+if num1 == 51 and sign == '-' and num2 == 48:
+    print("51-48 = 3")
+if num1 == 51 and sign == '-' and num2 == 49:
+    print("51-49 = 2")
+if num1 == 51 and sign == '-' and num2 == 50:
+    print("51-50 = 1")
+if num1 == 51 and sign == '-' and num2 == 51:
+    print("51-51 = 0")
 if num1 == 0 and sign == '/' and num2 == 0:
     print("0/0 = Undefined")
 if num1 == 0 and sign == '/' and num2 == 1:
@@ -10516,6 +10928,8 @@ if num1 == 0 and sign == '/' and num2 == 49:
     print("0/49 = 0")
 if num1 == 0 and sign == '/' and num2 == 50:
     print("0/50 = 0")
+if num1 == 0 and sign == '/' and num2 == 51:
+    print("0/51 = 0")
 if num1 == 1 and sign == '/' and num2 == 0:
     print("1/0 = Inf")
 if num1 == 1 and sign == '/' and num2 == 1:
@@ -10618,6 +11032,8 @@ if num1 == 1 and sign == '/' and num2 == 49:
     print("1/49 = 0.02040816326530612244897959184")
 if num1 == 1 and sign == '/' and num2 == 50:
     print("1/50 = 0.02")
+if num1 == 1 and sign == '/' and num2 == 51:
+    print("1/51 = 0.01960784313725490196078431373")
 if num1 == 2 and sign == '/' and num2 == 0:
     print("2/0 = Inf")
 if num1 == 2 and sign == '/' and num2 == 1:
@@ -10720,6 +11136,8 @@ if num1 == 2 and sign == '/' and num2 == 49:
     print("2/49 = 0.04081632653061224489795918367")
 if num1 == 2 and sign == '/' and num2 == 50:
     print("2/50 = 0.04")
+if num1 == 2 and sign == '/' and num2 == 51:
+    print("2/51 = 0.03921568627450980392156862745")
 if num1 == 3 and sign == '/' and num2 == 0:
     print("3/0 = Inf")
 if num1 == 3 and sign == '/' and num2 == 1:
@@ -10822,6 +11240,8 @@ if num1 == 3 and sign == '/' and num2 == 49:
     print("3/49 = 0.06122448979591836734693877551")
 if num1 == 3 and sign == '/' and num2 == 50:
     print("3/50 = 0.06")
+if num1 == 3 and sign == '/' and num2 == 51:
+    print("3/51 = 0.05882352941176470588235294118")
 if num1 == 4 and sign == '/' and num2 == 0:
     print("4/0 = Inf")
 if num1 == 4 and sign == '/' and num2 == 1:
@@ -10924,6 +11344,8 @@ if num1 == 4 and sign == '/' and num2 == 49:
     print("4/49 = 0.08163265306122448979591836735")
 if num1 == 4 and sign == '/' and num2 == 50:
     print("4/50 = 0.08")
+if num1 == 4 and sign == '/' and num2 == 51:
+    print("4/51 = 0.07843137254901960784313725490")
 if num1 == 5 and sign == '/' and num2 == 0:
     print("5/0 = Inf")
 if num1 == 5 and sign == '/' and num2 == 1:
@@ -11026,6 +11448,8 @@ if num1 == 5 and sign == '/' and num2 == 49:
     print("5/49 = 0.1020408163265306122448979592")
 if num1 == 5 and sign == '/' and num2 == 50:
     print("5/50 = 0.1")
+if num1 == 5 and sign == '/' and num2 == 51:
+    print("5/51 = 0.09803921568627450980392156863")
 if num1 == 6 and sign == '/' and num2 == 0:
     print("6/0 = Inf")
 if num1 == 6 and sign == '/' and num2 == 1:
@@ -11128,6 +11552,8 @@ if num1 == 6 and sign == '/' and num2 == 49:
     print("6/49 = 0.1224489795918367346938775510")
 if num1 == 6 and sign == '/' and num2 == 50:
     print("6/50 = 0.12")
+if num1 == 6 and sign == '/' and num2 == 51:
+    print("6/51 = 0.1176470588235294117647058824")
 if num1 == 7 and sign == '/' and num2 == 0:
     print("7/0 = Inf")
 if num1 == 7 and sign == '/' and num2 == 1:
@@ -11230,6 +11656,8 @@ if num1 == 7 and sign == '/' and num2 == 49:
     print("7/49 = 0.1428571428571428571428571429")
 if num1 == 7 and sign == '/' and num2 == 50:
     print("7/50 = 0.14")
+if num1 == 7 and sign == '/' and num2 == 51:
+    print("7/51 = 0.1372549019607843137254901961")
 if num1 == 8 and sign == '/' and num2 == 0:
     print("8/0 = Inf")
 if num1 == 8 and sign == '/' and num2 == 1:
@@ -11332,6 +11760,8 @@ if num1 == 8 and sign == '/' and num2 == 49:
     print("8/49 = 0.1632653061224489795918367347")
 if num1 == 8 and sign == '/' and num2 == 50:
     print("8/50 = 0.16")
+if num1 == 8 and sign == '/' and num2 == 51:
+    print("8/51 = 0.1568627450980392156862745098")
 if num1 == 9 and sign == '/' and num2 == 0:
     print("9/0 = Inf")
 if num1 == 9 and sign == '/' and num2 == 1:
@@ -11434,6 +11864,8 @@ if num1 == 9 and sign == '/' and num2 == 49:
     print("9/49 = 0.1836734693877551020408163265")
 if num1 == 9 and sign == '/' and num2 == 50:
     print("9/50 = 0.18")
+if num1 == 9 and sign == '/' and num2 == 51:
+    print("9/51 = 0.1764705882352941176470588235")
 if num1 == 10 and sign == '/' and num2 == 0:
     print("10/0 = Inf")
 if num1 == 10 and sign == '/' and num2 == 1:
@@ -11536,6 +11968,8 @@ if num1 == 10 and sign == '/' and num2 == 49:
     print("10/49 = 0.2040816326530612244897959184")
 if num1 == 10 and sign == '/' and num2 == 50:
     print("10/50 = 0.2")
+if num1 == 10 and sign == '/' and num2 == 51:
+    print("10/51 = 0.1960784313725490196078431373")
 if num1 == 11 and sign == '/' and num2 == 0:
     print("11/0 = Inf")
 if num1 == 11 and sign == '/' and num2 == 1:
@@ -11638,6 +12072,8 @@ if num1 == 11 and sign == '/' and num2 == 49:
     print("11/49 = 0.2244897959183673469387755102")
 if num1 == 11 and sign == '/' and num2 == 50:
     print("11/50 = 0.22")
+if num1 == 11 and sign == '/' and num2 == 51:
+    print("11/51 = 0.2156862745098039215686274510")
 if num1 == 12 and sign == '/' and num2 == 0:
     print("12/0 = Inf")
 if num1 == 12 and sign == '/' and num2 == 1:
@@ -11740,6 +12176,8 @@ if num1 == 12 and sign == '/' and num2 == 49:
     print("12/49 = 0.2448979591836734693877551020")
 if num1 == 12 and sign == '/' and num2 == 50:
     print("12/50 = 0.24")
+if num1 == 12 and sign == '/' and num2 == 51:
+    print("12/51 = 0.2352941176470588235294117647")
 if num1 == 13 and sign == '/' and num2 == 0:
     print("13/0 = Inf")
 if num1 == 13 and sign == '/' and num2 == 1:
@@ -11842,6 +12280,8 @@ if num1 == 13 and sign == '/' and num2 == 49:
     print("13/49 = 0.2653061224489795918367346939")
 if num1 == 13 and sign == '/' and num2 == 50:
     print("13/50 = 0.26")
+if num1 == 13 and sign == '/' and num2 == 51:
+    print("13/51 = 0.2549019607843137254901960784")
 if num1 == 14 and sign == '/' and num2 == 0:
     print("14/0 = Inf")
 if num1 == 14 and sign == '/' and num2 == 1:
@@ -11944,6 +12384,8 @@ if num1 == 14 and sign == '/' and num2 == 49:
     print("14/49 = 0.2857142857142857142857142857")
 if num1 == 14 and sign == '/' and num2 == 50:
     print("14/50 = 0.28")
+if num1 == 14 and sign == '/' and num2 == 51:
+    print("14/51 = 0.2745098039215686274509803922")
 if num1 == 15 and sign == '/' and num2 == 0:
     print("15/0 = Inf")
 if num1 == 15 and sign == '/' and num2 == 1:
@@ -12046,6 +12488,8 @@ if num1 == 15 and sign == '/' and num2 == 49:
     print("15/49 = 0.3061224489795918367346938776")
 if num1 == 15 and sign == '/' and num2 == 50:
     print("15/50 = 0.3")
+if num1 == 15 and sign == '/' and num2 == 51:
+    print("15/51 = 0.2941176470588235294117647059")
 if num1 == 16 and sign == '/' and num2 == 0:
     print("16/0 = Inf")
 if num1 == 16 and sign == '/' and num2 == 1:
@@ -12148,6 +12592,8 @@ if num1 == 16 and sign == '/' and num2 == 49:
     print("16/49 = 0.3265306122448979591836734694")
 if num1 == 16 and sign == '/' and num2 == 50:
     print("16/50 = 0.32")
+if num1 == 16 and sign == '/' and num2 == 51:
+    print("16/51 = 0.3137254901960784313725490196")
 if num1 == 17 and sign == '/' and num2 == 0:
     print("17/0 = Inf")
 if num1 == 17 and sign == '/' and num2 == 1:
@@ -12250,6 +12696,8 @@ if num1 == 17 and sign == '/' and num2 == 49:
     print("17/49 = 0.3469387755102040816326530612")
 if num1 == 17 and sign == '/' and num2 == 50:
     print("17/50 = 0.34")
+if num1 == 17 and sign == '/' and num2 == 51:
+    print("17/51 = 0.3333333333333333333333333333")
 if num1 == 18 and sign == '/' and num2 == 0:
     print("18/0 = Inf")
 if num1 == 18 and sign == '/' and num2 == 1:
@@ -12352,6 +12800,8 @@ if num1 == 18 and sign == '/' and num2 == 49:
     print("18/49 = 0.3673469387755102040816326531")
 if num1 == 18 and sign == '/' and num2 == 50:
     print("18/50 = 0.36")
+if num1 == 18 and sign == '/' and num2 == 51:
+    print("18/51 = 0.3529411764705882352941176471")
 if num1 == 19 and sign == '/' and num2 == 0:
     print("19/0 = Inf")
 if num1 == 19 and sign == '/' and num2 == 1:
@@ -12454,6 +12904,8 @@ if num1 == 19 and sign == '/' and num2 == 49:
     print("19/49 = 0.3877551020408163265306122449")
 if num1 == 19 and sign == '/' and num2 == 50:
     print("19/50 = 0.38")
+if num1 == 19 and sign == '/' and num2 == 51:
+    print("19/51 = 0.3725490196078431372549019608")
 if num1 == 20 and sign == '/' and num2 == 0:
     print("20/0 = Inf")
 if num1 == 20 and sign == '/' and num2 == 1:
@@ -12556,6 +13008,8 @@ if num1 == 20 and sign == '/' and num2 == 49:
     print("20/49 = 0.4081632653061224489795918367")
 if num1 == 20 and sign == '/' and num2 == 50:
     print("20/50 = 0.4")
+if num1 == 20 and sign == '/' and num2 == 51:
+    print("20/51 = 0.3921568627450980392156862745")
 if num1 == 21 and sign == '/' and num2 == 0:
     print("21/0 = Inf")
 if num1 == 21 and sign == '/' and num2 == 1:
@@ -12658,6 +13112,8 @@ if num1 == 21 and sign == '/' and num2 == 49:
     print("21/49 = 0.4285714285714285714285714286")
 if num1 == 21 and sign == '/' and num2 == 50:
     print("21/50 = 0.42")
+if num1 == 21 and sign == '/' and num2 == 51:
+    print("21/51 = 0.4117647058823529411764705882")
 if num1 == 22 and sign == '/' and num2 == 0:
     print("22/0 = Inf")
 if num1 == 22 and sign == '/' and num2 == 1:
@@ -12760,6 +13216,8 @@ if num1 == 22 and sign == '/' and num2 == 49:
     print("22/49 = 0.4489795918367346938775510204")
 if num1 == 22 and sign == '/' and num2 == 50:
     print("22/50 = 0.44")
+if num1 == 22 and sign == '/' and num2 == 51:
+    print("22/51 = 0.4313725490196078431372549020")
 if num1 == 23 and sign == '/' and num2 == 0:
     print("23/0 = Inf")
 if num1 == 23 and sign == '/' and num2 == 1:
@@ -12862,6 +13320,8 @@ if num1 == 23 and sign == '/' and num2 == 49:
     print("23/49 = 0.4693877551020408163265306122")
 if num1 == 23 and sign == '/' and num2 == 50:
     print("23/50 = 0.46")
+if num1 == 23 and sign == '/' and num2 == 51:
+    print("23/51 = 0.4509803921568627450980392157")
 if num1 == 24 and sign == '/' and num2 == 0:
     print("24/0 = Inf")
 if num1 == 24 and sign == '/' and num2 == 1:
@@ -12964,6 +13424,8 @@ if num1 == 24 and sign == '/' and num2 == 49:
     print("24/49 = 0.4897959183673469387755102041")
 if num1 == 24 and sign == '/' and num2 == 50:
     print("24/50 = 0.48")
+if num1 == 24 and sign == '/' and num2 == 51:
+    print("24/51 = 0.4705882352941176470588235294")
 if num1 == 25 and sign == '/' and num2 == 0:
     print("25/0 = Inf")
 if num1 == 25 and sign == '/' and num2 == 1:
@@ -13066,6 +13528,8 @@ if num1 == 25 and sign == '/' and num2 == 49:
     print("25/49 = 0.5102040816326530612244897959")
 if num1 == 25 and sign == '/' and num2 == 50:
     print("25/50 = 0.5")
+if num1 == 25 and sign == '/' and num2 == 51:
+    print("25/51 = 0.4901960784313725490196078431")
 if num1 == 26 and sign == '/' and num2 == 0:
     print("26/0 = Inf")
 if num1 == 26 and sign == '/' and num2 == 1:
@@ -13168,6 +13632,8 @@ if num1 == 26 and sign == '/' and num2 == 49:
     print("26/49 = 0.5306122448979591836734693878")
 if num1 == 26 and sign == '/' and num2 == 50:
     print("26/50 = 0.52")
+if num1 == 26 and sign == '/' and num2 == 51:
+    print("26/51 = 0.5098039215686274509803921569")
 if num1 == 27 and sign == '/' and num2 == 0:
     print("27/0 = Inf")
 if num1 == 27 and sign == '/' and num2 == 1:
@@ -13270,6 +13736,8 @@ if num1 == 27 and sign == '/' and num2 == 49:
     print("27/49 = 0.5510204081632653061224489796")
 if num1 == 27 and sign == '/' and num2 == 50:
     print("27/50 = 0.54")
+if num1 == 27 and sign == '/' and num2 == 51:
+    print("27/51 = 0.5294117647058823529411764706")
 if num1 == 28 and sign == '/' and num2 == 0:
     print("28/0 = Inf")
 if num1 == 28 and sign == '/' and num2 == 1:
@@ -13372,6 +13840,8 @@ if num1 == 28 and sign == '/' and num2 == 49:
     print("28/49 = 0.5714285714285714285714285714")
 if num1 == 28 and sign == '/' and num2 == 50:
     print("28/50 = 0.56")
+if num1 == 28 and sign == '/' and num2 == 51:
+    print("28/51 = 0.5490196078431372549019607843")
 if num1 == 29 and sign == '/' and num2 == 0:
     print("29/0 = Inf")
 if num1 == 29 and sign == '/' and num2 == 1:
@@ -13474,6 +13944,8 @@ if num1 == 29 and sign == '/' and num2 == 49:
     print("29/49 = 0.5918367346938775510204081633")
 if num1 == 29 and sign == '/' and num2 == 50:
     print("29/50 = 0.58")
+if num1 == 29 and sign == '/' and num2 == 51:
+    print("29/51 = 0.5686274509803921568627450980")
 if num1 == 30 and sign == '/' and num2 == 0:
     print("30/0 = Inf")
 if num1 == 30 and sign == '/' and num2 == 1:
@@ -13576,6 +14048,8 @@ if num1 == 30 and sign == '/' and num2 == 49:
     print("30/49 = 0.6122448979591836734693877551")
 if num1 == 30 and sign == '/' and num2 == 50:
     print("30/50 = 0.6")
+if num1 == 30 and sign == '/' and num2 == 51:
+    print("30/51 = 0.5882352941176470588235294118")
 if num1 == 31 and sign == '/' and num2 == 0:
     print("31/0 = Inf")
 if num1 == 31 and sign == '/' and num2 == 1:
@@ -13678,6 +14152,8 @@ if num1 == 31 and sign == '/' and num2 == 49:
     print("31/49 = 0.6326530612244897959183673469")
 if num1 == 31 and sign == '/' and num2 == 50:
     print("31/50 = 0.62")
+if num1 == 31 and sign == '/' and num2 == 51:
+    print("31/51 = 0.6078431372549019607843137255")
 if num1 == 32 and sign == '/' and num2 == 0:
     print("32/0 = Inf")
 if num1 == 32 and sign == '/' and num2 == 1:
@@ -13780,6 +14256,8 @@ if num1 == 32 and sign == '/' and num2 == 49:
     print("32/49 = 0.6530612244897959183673469388")
 if num1 == 32 and sign == '/' and num2 == 50:
     print("32/50 = 0.64")
+if num1 == 32 and sign == '/' and num2 == 51:
+    print("32/51 = 0.6274509803921568627450980392")
 if num1 == 33 and sign == '/' and num2 == 0:
     print("33/0 = Inf")
 if num1 == 33 and sign == '/' and num2 == 1:
@@ -13882,6 +14360,8 @@ if num1 == 33 and sign == '/' and num2 == 49:
     print("33/49 = 0.6734693877551020408163265306")
 if num1 == 33 and sign == '/' and num2 == 50:
     print("33/50 = 0.66")
+if num1 == 33 and sign == '/' and num2 == 51:
+    print("33/51 = 0.6470588235294117647058823529")
 if num1 == 34 and sign == '/' and num2 == 0:
     print("34/0 = Inf")
 if num1 == 34 and sign == '/' and num2 == 1:
@@ -13984,6 +14464,8 @@ if num1 == 34 and sign == '/' and num2 == 49:
     print("34/49 = 0.6938775510204081632653061224")
 if num1 == 34 and sign == '/' and num2 == 50:
     print("34/50 = 0.68")
+if num1 == 34 and sign == '/' and num2 == 51:
+    print("34/51 = 0.6666666666666666666666666667")
 if num1 == 35 and sign == '/' and num2 == 0:
     print("35/0 = Inf")
 if num1 == 35 and sign == '/' and num2 == 1:
@@ -14086,6 +14568,8 @@ if num1 == 35 and sign == '/' and num2 == 49:
     print("35/49 = 0.7142857142857142857142857143")
 if num1 == 35 and sign == '/' and num2 == 50:
     print("35/50 = 0.7")
+if num1 == 35 and sign == '/' and num2 == 51:
+    print("35/51 = 0.6862745098039215686274509804")
 if num1 == 36 and sign == '/' and num2 == 0:
     print("36/0 = Inf")
 if num1 == 36 and sign == '/' and num2 == 1:
@@ -14188,6 +14672,8 @@ if num1 == 36 and sign == '/' and num2 == 49:
     print("36/49 = 0.7346938775510204081632653061")
 if num1 == 36 and sign == '/' and num2 == 50:
     print("36/50 = 0.72")
+if num1 == 36 and sign == '/' and num2 == 51:
+    print("36/51 = 0.7058823529411764705882352941")
 if num1 == 37 and sign == '/' and num2 == 0:
     print("37/0 = Inf")
 if num1 == 37 and sign == '/' and num2 == 1:
@@ -14290,6 +14776,8 @@ if num1 == 37 and sign == '/' and num2 == 49:
     print("37/49 = 0.7551020408163265306122448980")
 if num1 == 37 and sign == '/' and num2 == 50:
     print("37/50 = 0.74")
+if num1 == 37 and sign == '/' and num2 == 51:
+    print("37/51 = 0.7254901960784313725490196078")
 if num1 == 38 and sign == '/' and num2 == 0:
     print("38/0 = Inf")
 if num1 == 38 and sign == '/' and num2 == 1:
@@ -14392,6 +14880,8 @@ if num1 == 38 and sign == '/' and num2 == 49:
     print("38/49 = 0.7755102040816326530612244898")
 if num1 == 38 and sign == '/' and num2 == 50:
     print("38/50 = 0.76")
+if num1 == 38 and sign == '/' and num2 == 51:
+    print("38/51 = 0.7450980392156862745098039216")
 if num1 == 39 and sign == '/' and num2 == 0:
     print("39/0 = Inf")
 if num1 == 39 and sign == '/' and num2 == 1:
@@ -14494,6 +14984,8 @@ if num1 == 39 and sign == '/' and num2 == 49:
     print("39/49 = 0.7959183673469387755102040816")
 if num1 == 39 and sign == '/' and num2 == 50:
     print("39/50 = 0.78")
+if num1 == 39 and sign == '/' and num2 == 51:
+    print("39/51 = 0.7647058823529411764705882353")
 if num1 == 40 and sign == '/' and num2 == 0:
     print("40/0 = Inf")
 if num1 == 40 and sign == '/' and num2 == 1:
@@ -14596,6 +15088,8 @@ if num1 == 40 and sign == '/' and num2 == 49:
     print("40/49 = 0.8163265306122448979591836735")
 if num1 == 40 and sign == '/' and num2 == 50:
     print("40/50 = 0.8")
+if num1 == 40 and sign == '/' and num2 == 51:
+    print("40/51 = 0.7843137254901960784313725490")
 if num1 == 41 and sign == '/' and num2 == 0:
     print("41/0 = Inf")
 if num1 == 41 and sign == '/' and num2 == 1:
@@ -14698,6 +15192,8 @@ if num1 == 41 and sign == '/' and num2 == 49:
     print("41/49 = 0.8367346938775510204081632653")
 if num1 == 41 and sign == '/' and num2 == 50:
     print("41/50 = 0.82")
+if num1 == 41 and sign == '/' and num2 == 51:
+    print("41/51 = 0.8039215686274509803921568627")
 if num1 == 42 and sign == '/' and num2 == 0:
     print("42/0 = Inf")
 if num1 == 42 and sign == '/' and num2 == 1:
@@ -14800,6 +15296,8 @@ if num1 == 42 and sign == '/' and num2 == 49:
     print("42/49 = 0.8571428571428571428571428571")
 if num1 == 42 and sign == '/' and num2 == 50:
     print("42/50 = 0.84")
+if num1 == 42 and sign == '/' and num2 == 51:
+    print("42/51 = 0.8235294117647058823529411765")
 if num1 == 43 and sign == '/' and num2 == 0:
     print("43/0 = Inf")
 if num1 == 43 and sign == '/' and num2 == 1:
@@ -14902,6 +15400,8 @@ if num1 == 43 and sign == '/' and num2 == 49:
     print("43/49 = 0.8775510204081632653061224490")
 if num1 == 43 and sign == '/' and num2 == 50:
     print("43/50 = 0.86")
+if num1 == 43 and sign == '/' and num2 == 51:
+    print("43/51 = 0.8431372549019607843137254902")
 if num1 == 44 and sign == '/' and num2 == 0:
     print("44/0 = Inf")
 if num1 == 44 and sign == '/' and num2 == 1:
@@ -15004,6 +15504,8 @@ if num1 == 44 and sign == '/' and num2 == 49:
     print("44/49 = 0.8979591836734693877551020408")
 if num1 == 44 and sign == '/' and num2 == 50:
     print("44/50 = 0.88")
+if num1 == 44 and sign == '/' and num2 == 51:
+    print("44/51 = 0.8627450980392156862745098039")
 if num1 == 45 and sign == '/' and num2 == 0:
     print("45/0 = Inf")
 if num1 == 45 and sign == '/' and num2 == 1:
@@ -15106,6 +15608,8 @@ if num1 == 45 and sign == '/' and num2 == 49:
     print("45/49 = 0.9183673469387755102040816327")
 if num1 == 45 and sign == '/' and num2 == 50:
     print("45/50 = 0.9")
+if num1 == 45 and sign == '/' and num2 == 51:
+    print("45/51 = 0.8823529411764705882352941176")
 if num1 == 46 and sign == '/' and num2 == 0:
     print("46/0 = Inf")
 if num1 == 46 and sign == '/' and num2 == 1:
@@ -15208,6 +15712,8 @@ if num1 == 46 and sign == '/' and num2 == 49:
     print("46/49 = 0.9387755102040816326530612245")
 if num1 == 46 and sign == '/' and num2 == 50:
     print("46/50 = 0.92")
+if num1 == 46 and sign == '/' and num2 == 51:
+    print("46/51 = 0.9019607843137254901960784314")
 if num1 == 47 and sign == '/' and num2 == 0:
     print("47/0 = Inf")
 if num1 == 47 and sign == '/' and num2 == 1:
@@ -15310,6 +15816,8 @@ if num1 == 47 and sign == '/' and num2 == 49:
     print("47/49 = 0.9591836734693877551020408163")
 if num1 == 47 and sign == '/' and num2 == 50:
     print("47/50 = 0.94")
+if num1 == 47 and sign == '/' and num2 == 51:
+    print("47/51 = 0.9215686274509803921568627451")
 if num1 == 48 and sign == '/' and num2 == 0:
     print("48/0 = Inf")
 if num1 == 48 and sign == '/' and num2 == 1:
@@ -15412,6 +15920,8 @@ if num1 == 48 and sign == '/' and num2 == 49:
     print("48/49 = 0.9795918367346938775510204082")
 if num1 == 48 and sign == '/' and num2 == 50:
     print("48/50 = 0.96")
+if num1 == 48 and sign == '/' and num2 == 51:
+    print("48/51 = 0.9411764705882352941176470588")
 if num1 == 49 and sign == '/' and num2 == 0:
     print("49/0 = Inf")
 if num1 == 49 and sign == '/' and num2 == 1:
@@ -15514,6 +16024,8 @@ if num1 == 49 and sign == '/' and num2 == 49:
     print("49/49 = 1")
 if num1 == 49 and sign == '/' and num2 == 50:
     print("49/50 = 0.98")
+if num1 == 49 and sign == '/' and num2 == 51:
+    print("49/51 = 0.9607843137254901960784313725")
 if num1 == 50 and sign == '/' and num2 == 0:
     print("50/0 = Inf")
 if num1 == 50 and sign == '/' and num2 == 1:
@@ -15616,6 +16128,112 @@ if num1 == 50 and sign == '/' and num2 == 49:
     print("50/49 = 1.020408163265306122448979592")
 if num1 == 50 and sign == '/' and num2 == 50:
     print("50/50 = 1")
+if num1 == 50 and sign == '/' and num2 == 51:
+    print("50/51 = 0.9803921568627450980392156863")
+if num1 == 51 and sign == '/' and num2 == 0:
+    print("51/0 = Inf")
+if num1 == 51 and sign == '/' and num2 == 1:
+    print("51/1 = 51")
+if num1 == 51 and sign == '/' and num2 == 2:
+    print("51/2 = 25.5")
+if num1 == 51 and sign == '/' and num2 == 3:
+    print("51/3 = 17")
+if num1 == 51 and sign == '/' and num2 == 4:
+    print("51/4 = 12.75")
+if num1 == 51 and sign == '/' and num2 == 5:
+    print("51/5 = 10.2")
+if num1 == 51 and sign == '/' and num2 == 6:
+    print("51/6 = 8.5")
+if num1 == 51 and sign == '/' and num2 == 7:
+    print("51/7 = 7.285714285714285714285714286")
+if num1 == 51 and sign == '/' and num2 == 8:
+    print("51/8 = 6.375")
+if num1 == 51 and sign == '/' and num2 == 9:
+    print("51/9 = 5.666666666666666666666666667")
+if num1 == 51 and sign == '/' and num2 == 10:
+    print("51/10 = 5.1")
+if num1 == 51 and sign == '/' and num2 == 11:
+    print("51/11 = 4.636363636363636363636363636")
+if num1 == 51 and sign == '/' and num2 == 12:
+    print("51/12 = 4.25")
+if num1 == 51 and sign == '/' and num2 == 13:
+    print("51/13 = 3.923076923076923076923076923")
+if num1 == 51 and sign == '/' and num2 == 14:
+    print("51/14 = 3.642857142857142857142857143")
+if num1 == 51 and sign == '/' and num2 == 15:
+    print("51/15 = 3.4")
+if num1 == 51 and sign == '/' and num2 == 16:
+    print("51/16 = 3.1875")
+if num1 == 51 and sign == '/' and num2 == 17:
+    print("51/17 = 3")
+if num1 == 51 and sign == '/' and num2 == 18:
+    print("51/18 = 2.833333333333333333333333333")
+if num1 == 51 and sign == '/' and num2 == 19:
+    print("51/19 = 2.684210526315789473684210526")
+if num1 == 51 and sign == '/' and num2 == 20:
+    print("51/20 = 2.55")
+if num1 == 51 and sign == '/' and num2 == 21:
+    print("51/21 = 2.428571428571428571428571429")
+if num1 == 51 and sign == '/' and num2 == 22:
+    print("51/22 = 2.318181818181818181818181818")
+if num1 == 51 and sign == '/' and num2 == 23:
+    print("51/23 = 2.217391304347826086956521739")
+if num1 == 51 and sign == '/' and num2 == 24:
+    print("51/24 = 2.125")
+if num1 == 51 and sign == '/' and num2 == 25:
+    print("51/25 = 2.04")
+if num1 == 51 and sign == '/' and num2 == 26:
+    print("51/26 = 1.961538461538461538461538462")
+if num1 == 51 and sign == '/' and num2 == 27:
+    print("51/27 = 1.888888888888888888888888889")
+if num1 == 51 and sign == '/' and num2 == 28:
+    print("51/28 = 1.821428571428571428571428571")
+if num1 == 51 and sign == '/' and num2 == 29:
+    print("51/29 = 1.758620689655172413793103448")
+if num1 == 51 and sign == '/' and num2 == 30:
+    print("51/30 = 1.7")
+if num1 == 51 and sign == '/' and num2 == 31:
+    print("51/31 = 1.645161290322580645161290323")
+if num1 == 51 and sign == '/' and num2 == 32:
+    print("51/32 = 1.59375")
+if num1 == 51 and sign == '/' and num2 == 33:
+    print("51/33 = 1.545454545454545454545454545")
+if num1 == 51 and sign == '/' and num2 == 34:
+    print("51/34 = 1.5")
+if num1 == 51 and sign == '/' and num2 == 35:
+    print("51/35 = 1.457142857142857142857142857")
+if num1 == 51 and sign == '/' and num2 == 36:
+    print("51/36 = 1.416666666666666666666666667")
+if num1 == 51 and sign == '/' and num2 == 37:
+    print("51/37 = 1.378378378378378378378378378")
+if num1 == 51 and sign == '/' and num2 == 38:
+    print("51/38 = 1.342105263157894736842105263")
+if num1 == 51 and sign == '/' and num2 == 39:
+    print("51/39 = 1.307692307692307692307692308")
+if num1 == 51 and sign == '/' and num2 == 40:
+    print("51/40 = 1.275")
+if num1 == 51 and sign == '/' and num2 == 41:
+    print("51/41 = 1.243902439024390243902439024")
+if num1 == 51 and sign == '/' and num2 == 42:
+    print("51/42 = 1.214285714285714285714285714")
+if num1 == 51 and sign == '/' and num2 == 43:
+    print("51/43 = 1.186046511627906976744186047")
+if num1 == 51 and sign == '/' and num2 == 44:
+    print("51/44 = 1.159090909090909090909090909")
+if num1 == 51 and sign == '/' and num2 == 45:
+    print("51/45 = 1.133333333333333333333333333")
+if num1 == 51 and sign == '/' and num2 == 46:
+    print("51/46 = 1.108695652173913043478260870")
+if num1 == 51 and sign == '/' and num2 == 47:
+    print("51/47 = 1.085106382978723404255319149")
+if num1 == 51 and sign == '/' and num2 == 48:
+    print("51/48 = 1.0625")
+if num1 == 51 and sign == '/' and num2 == 49:
+    print("51/49 = 1.040816326530612244897959184")
+if num1 == 51 and sign == '/' and num2 == 50:
+    print("51/50 = 1.02")
+if num1 == 51 and sign == '/' and num2 == 51:
+    print("51/51 = 1")
 if num1 == 0 and sign == '*' and num2 == 0:
     print("0*0 = 0")
 if num1 == 0 and sign == '*' and num2 == 1:
@@ -15718,6 +16336,8 @@ if num1 == 0 and sign == '*' and num2 == 49:
     print("0*49 = 0")
 if num1 == 0 and sign == '*' and num2 == 50:
     print("0*50 = 0")
+if num1 == 0 and sign == '*' and num2 == 51:
+    print("0*51 = 0")
 if num1 == 1 and sign == '*' and num2 == 0:
     print("1*0 = 0")
 if num1 == 1 and sign == '*' and num2 == 1:
@@ -15820,6 +16440,8 @@ if num1 == 1 and sign == '*' and num2 == 49:
     print("1*49 = 49")
 if num1 == 1 and sign == '*' and num2 == 50:
     print("1*50 = 50")
+if num1 == 1 and sign == '*' and num2 == 51:
+    print("1*51 = 51")
 if num1 == 2 and sign == '*' and num2 == 0:
     print("2*0 = 0")
 if num1 == 2 and sign == '*' and num2 == 1:
@@ -15922,6 +16544,8 @@ if num1 == 2 and sign == '*' and num2 == 49:
     print("2*49 = 98")
 if num1 == 2 and sign == '*' and num2 == 50:
     print("2*50 = 100")
+if num1 == 2 and sign == '*' and num2 == 51:
+    print("2*51 = 102")
 if num1 == 3 and sign == '*' and num2 == 0:
     print("3*0 = 0")
 if num1 == 3 and sign == '*' and num2 == 1:
@@ -16024,6 +16648,8 @@ if num1 == 3 and sign == '*' and num2 == 49:
     print("3*49 = 147")
 if num1 == 3 and sign == '*' and num2 == 50:
     print("3*50 = 150")
+if num1 == 3 and sign == '*' and num2 == 51:
+    print("3*51 = 153")
 if num1 == 4 and sign == '*' and num2 == 0:
     print("4*0 = 0")
 if num1 == 4 and sign == '*' and num2 == 1:
@@ -16126,6 +16752,8 @@ if num1 == 4 and sign == '*' and num2 == 49:
     print("4*49 = 196")
 if num1 == 4 and sign == '*' and num2 == 50:
     print("4*50 = 200")
+if num1 == 4 and sign == '*' and num2 == 51:
+    print("4*51 = 204")
 if num1 == 5 and sign == '*' and num2 == 0:
     print("5*0 = 0")
 if num1 == 5 and sign == '*' and num2 == 1:
@@ -16228,6 +16856,8 @@ if num1 == 5 and sign == '*' and num2 == 49:
     print("5*49 = 245")
 if num1 == 5 and sign == '*' and num2 == 50:
     print("5*50 = 250")
+if num1 == 5 and sign == '*' and num2 == 51:
+    print("5*51 = 255")
 if num1 == 6 and sign == '*' and num2 == 0:
     print("6*0 = 0")
 if num1 == 6 and sign == '*' and num2 == 1:
@@ -16330,6 +16960,8 @@ if num1 == 6 and sign == '*' and num2 == 49:
     print("6*49 = 294")
 if num1 == 6 and sign == '*' and num2 == 50:
     print("6*50 = 300")
+if num1 == 6 and sign == '*' and num2 == 51:
+    print("6*51 = 306")
 if num1 == 7 and sign == '*' and num2 == 0:
     print("7*0 = 0")
 if num1 == 7 and sign == '*' and num2 == 1:
@@ -16432,6 +17064,8 @@ if num1 == 7 and sign == '*' and num2 == 49:
     print("7*49 = 343")
 if num1 == 7 and sign == '*' and num2 == 50:
     print("7*50 = 350")
+if num1 == 7 and sign == '*' and num2 == 51:
+    print("7*51 = 357")
 if num1 == 8 and sign == '*' and num2 == 0:
     print("8*0 = 0")
 if num1 == 8 and sign == '*' and num2 == 1:
@@ -16534,6 +17168,8 @@ if num1 == 8 and sign == '*' and num2 == 49:
     print("8*49 = 392")
 if num1 == 8 and sign == '*' and num2 == 50:
     print("8*50 = 400")
+if num1 == 8 and sign == '*' and num2 == 51:
+    print("8*51 = 408")
 if num1 == 9 and sign == '*' and num2 == 0:
     print("9*0 = 0")
 if num1 == 9 and sign == '*' and num2 == 1:
@@ -16636,6 +17272,8 @@ if num1 == 9 and sign == '*' and num2 == 49:
     print("9*49 = 441")
 if num1 == 9 and sign == '*' and num2 == 50:
     print("9*50 = 450")
+if num1 == 9 and sign == '*' and num2 == 51:
+    print("9*51 = 459")
 if num1 == 10 and sign == '*' and num2 == 0:
     print("10*0 = 0")
 if num1 == 10 and sign == '*' and num2 == 1:
@@ -16738,6 +17376,8 @@ if num1 == 10 and sign == '*' and num2 == 49:
     print("10*49 = 490")
 if num1 == 10 and sign == '*' and num2 == 50:
     print("10*50 = 500")
+if num1 == 10 and sign == '*' and num2 == 51:
+    print("10*51 = 510")
 if num1 == 11 and sign == '*' and num2 == 0:
     print("11*0 = 0")
 if num1 == 11 and sign == '*' and num2 == 1:
@@ -16840,6 +17480,8 @@ if num1 == 11 and sign == '*' and num2 == 49:
     print("11*49 = 539")
 if num1 == 11 and sign == '*' and num2 == 50:
     print("11*50 = 550")
+if num1 == 11 and sign == '*' and num2 == 51:
+    print("11*51 = 561")
 if num1 == 12 and sign == '*' and num2 == 0:
     print("12*0 = 0")
 if num1 == 12 and sign == '*' and num2 == 1:
@@ -16942,6 +17584,8 @@ if num1 == 12 and sign == '*' and num2 == 49:
     print("12*49 = 588")
 if num1 == 12 and sign == '*' and num2 == 50:
     print("12*50 = 600")
+if num1 == 12 and sign == '*' and num2 == 51:
+    print("12*51 = 612")
 if num1 == 13 and sign == '*' and num2 == 0:
     print("13*0 = 0")
 if num1 == 13 and sign == '*' and num2 == 1:
@@ -17044,6 +17688,8 @@ if num1 == 13 and sign == '*' and num2 == 49:
     print("13*49 = 637")
 if num1 == 13 and sign == '*' and num2 == 50:
     print("13*50 = 650")
+if num1 == 13 and sign == '*' and num2 == 51:
+    print("13*51 = 663")
 if num1 == 14 and sign == '*' and num2 == 0:
     print("14*0 = 0")
 if num1 == 14 and sign == '*' and num2 == 1:
@@ -17146,6 +17792,8 @@ if num1 == 14 and sign == '*' and num2 == 49:
     print("14*49 = 686")
 if num1 == 14 and sign == '*' and num2 == 50:
     print("14*50 = 700")
+if num1 == 14 and sign == '*' and num2 == 51:
+    print("14*51 = 714")
 if num1 == 15 and sign == '*' and num2 == 0:
     print("15*0 = 0")
 if num1 == 15 and sign == '*' and num2 == 1:
@@ -17248,6 +17896,8 @@ if num1 == 15 and sign == '*' and num2 == 49:
     print("15*49 = 735")
 if num1 == 15 and sign == '*' and num2 == 50:
     print("15*50 = 750")
+if num1 == 15 and sign == '*' and num2 == 51:
+    print("15*51 = 765")
 if num1 == 16 and sign == '*' and num2 == 0:
     print("16*0 = 0")
 if num1 == 16 and sign == '*' and num2 == 1:
@@ -17350,6 +18000,8 @@ if num1 == 16 and sign == '*' and num2 == 49:
     print("16*49 = 784")
 if num1 == 16 and sign == '*' and num2 == 50:
     print("16*50 = 800")
+if num1 == 16 and sign == '*' and num2 == 51:
+    print("16*51 = 816")
 if num1 == 17 and sign == '*' and num2 == 0:
     print("17*0 = 0")
 if num1 == 17 and sign == '*' and num2 == 1:
@@ -17452,6 +18104,8 @@ if num1 == 17 and sign == '*' and num2 == 49:
     print("17*49 = 833")
 if num1 == 17 and sign == '*' and num2 == 50:
     print("17*50 = 850")
+if num1 == 17 and sign == '*' and num2 == 51:
+    print("17*51 = 867")
 if num1 == 18 and sign == '*' and num2 == 0:
     print("18*0 = 0")
 if num1 == 18 and sign == '*' and num2 == 1:
@@ -17554,6 +18208,8 @@ if num1 == 18 and sign == '*' and num2 == 49:
     print("18*49 = 882")
 if num1 == 18 and sign == '*' and num2 == 50:
     print("18*50 = 900")
+if num1 == 18 and sign == '*' and num2 == 51:
+    print("18*51 = 918")
 if num1 == 19 and sign == '*' and num2 == 0:
     print("19*0 = 0")
 if num1 == 19 and sign == '*' and num2 == 1:
@@ -17656,6 +18312,8 @@ if num1 == 19 and sign == '*' and num2 == 49:
     print("19*49 = 931")
 if num1 == 19 and sign == '*' and num2 == 50:
     print("19*50 = 950")
+if num1 == 19 and sign == '*' and num2 == 51:
+    print("19*51 = 969")
 if num1 == 20 and sign == '*' and num2 == 0:
     print("20*0 = 0")
 if num1 == 20 and sign == '*' and num2 == 1:
@@ -17758,6 +18416,8 @@ if num1 == 20 and sign == '*' and num2 == 49:
     print("20*49 = 980")
 if num1 == 20 and sign == '*' and num2 == 50:
     print("20*50 = 1000")
+if num1 == 20 and sign == '*' and num2 == 51:
+    print("20*51 = 1020")
 if num1 == 21 and sign == '*' and num2 == 0:
     print("21*0 = 0")
 if num1 == 21 and sign == '*' and num2 == 1:
@@ -17860,6 +18520,8 @@ if num1 == 21 and sign == '*' and num2 == 49:
     print("21*49 = 1029")
 if num1 == 21 and sign == '*' and num2 == 50:
     print("21*50 = 1050")
+if num1 == 21 and sign == '*' and num2 == 51:
+    print("21*51 = 1071")
 if num1 == 22 and sign == '*' and num2 == 0:
     print("22*0 = 0")
 if num1 == 22 and sign == '*' and num2 == 1:
@@ -17962,6 +18624,8 @@ if num1 == 22 and sign == '*' and num2 == 49:
     print("22*49 = 1078")
 if num1 == 22 and sign == '*' and num2 == 50:
     print("22*50 = 1100")
+if num1 == 22 and sign == '*' and num2 == 51:
+    print("22*51 = 1122")
 if num1 == 23 and sign == '*' and num2 == 0:
     print("23*0 = 0")
 if num1 == 23 and sign == '*' and num2 == 1:
@@ -18064,6 +18728,8 @@ if num1 == 23 and sign == '*' and num2 == 49:
     print("23*49 = 1127")
 if num1 == 23 and sign == '*' and num2 == 50:
     print("23*50 = 1150")
+if num1 == 23 and sign == '*' and num2 == 51:
+    print("23*51 = 1173")
 if num1 == 24 and sign == '*' and num2 == 0:
     print("24*0 = 0")
 if num1 == 24 and sign == '*' and num2 == 1:
@@ -18166,6 +18832,8 @@ if num1 == 24 and sign == '*' and num2 == 49:
     print("24*49 = 1176")
 if num1 == 24 and sign == '*' and num2 == 50:
     print("24*50 = 1200")
+if num1 == 24 and sign == '*' and num2 == 51:
+    print("24*51 = 1224")
 if num1 == 25 and sign == '*' and num2 == 0:
     print("25*0 = 0")
 if num1 == 25 and sign == '*' and num2 == 1:
@@ -18268,6 +18936,8 @@ if num1 == 25 and sign == '*' and num2 == 49:
     print("25*49 = 1225")
 if num1 == 25 and sign == '*' and num2 == 50:
     print("25*50 = 1250")
+if num1 == 25 and sign == '*' and num2 == 51:
+    print("25*51 = 1275")
 if num1 == 26 and sign == '*' and num2 == 0:
     print("26*0 = 0")
 if num1 == 26 and sign == '*' and num2 == 1:
@@ -18370,6 +19040,8 @@ if num1 == 26 and sign == '*' and num2 == 49:
     print("26*49 = 1274")
 if num1 == 26 and sign == '*' and num2 == 50:
     print("26*50 = 1300")
+if num1 == 26 and sign == '*' and num2 == 51:
+    print("26*51 = 1326")
 if num1 == 27 and sign == '*' and num2 == 0:
     print("27*0 = 0")
 if num1 == 27 and sign == '*' and num2 == 1:
@@ -18472,6 +19144,8 @@ if num1 == 27 and sign == '*' and num2 == 49:
     print("27*49 = 1323")
 if num1 == 27 and sign == '*' and num2 == 50:
     print("27*50 = 1350")
+if num1 == 27 and sign == '*' and num2 == 51:
+    print("27*51 = 1377")
 if num1 == 28 and sign == '*' and num2 == 0:
     print("28*0 = 0")
 if num1 == 28 and sign == '*' and num2 == 1:
@@ -18574,6 +19248,8 @@ if num1 == 28 and sign == '*' and num2 == 49:
     print("28*49 = 1372")
 if num1 == 28 and sign == '*' and num2 == 50:
     print("28*50 = 1400")
+if num1 == 28 and sign == '*' and num2 == 51:
+    print("28*51 = 1428")
 if num1 == 29 and sign == '*' and num2 == 0:
     print("29*0 = 0")
 if num1 == 29 and sign == '*' and num2 == 1:
@@ -18676,6 +19352,8 @@ if num1 == 29 and sign == '*' and num2 == 49:
     print("29*49 = 1421")
 if num1 == 29 and sign == '*' and num2 == 50:
     print("29*50 = 1450")
+if num1 == 29 and sign == '*' and num2 == 51:
+    print("29*51 = 1479")
 if num1 == 30 and sign == '*' and num2 == 0:
     print("30*0 = 0")
 if num1 == 30 and sign == '*' and num2 == 1:
@@ -18778,6 +19456,8 @@ if num1 == 30 and sign == '*' and num2 == 49:
     print("30*49 = 1470")
 if num1 == 30 and sign == '*' and num2 == 50:
     print("30*50 = 1500")
+if num1 == 30 and sign == '*' and num2 == 51:
+    print("30*51 = 1530")
 if num1 == 31 and sign == '*' and num2 == 0:
     print("31*0 = 0")
 if num1 == 31 and sign == '*' and num2 == 1:
@@ -18880,6 +19560,8 @@ if num1 == 31 and sign == '*' and num2 == 49:
     print("31*49 = 1519")
 if num1 == 31 and sign == '*' and num2 == 50:
     print("31*50 = 1550")
+if num1 == 31 and sign == '*' and num2 == 51:
+    print("31*51 = 1581")
 if num1 == 32 and sign == '*' and num2 == 0:
     print("32*0 = 0")
 if num1 == 32 and sign == '*' and num2 == 1:
@@ -18982,6 +19664,8 @@ if num1 == 32 and sign == '*' and num2 == 49:
     print("32*49 = 1568")
 if num1 == 32 and sign == '*' and num2 == 50:
     print("32*50 = 1600")
+if num1 == 32 and sign == '*' and num2 == 51:
+    print("32*51 = 1632")
 if num1 == 33 and sign == '*' and num2 == 0:
     print("33*0 = 0")
 if num1 == 33 and sign == '*' and num2 == 1:
@@ -19084,6 +19768,8 @@ if num1 == 33 and sign == '*' and num2 == 49:
     print("33*49 = 1617")
 if num1 == 33 and sign == '*' and num2 == 50:
     print("33*50 = 1650")
+if num1 == 33 and sign == '*' and num2 == 51:
+    print("33*51 = 1683")
 if num1 == 34 and sign == '*' and num2 == 0:
     print("34*0 = 0")
 if num1 == 34 and sign == '*' and num2 == 1:
@@ -19186,6 +19872,8 @@ if num1 == 34 and sign == '*' and num2 == 49:
     print("34*49 = 1666")
 if num1 == 34 and sign == '*' and num2 == 50:
     print("34*50 = 1700")
+if num1 == 34 and sign == '*' and num2 == 51:
+    print("34*51 = 1734")
 if num1 == 35 and sign == '*' and num2 == 0:
     print("35*0 = 0")
 if num1 == 35 and sign == '*' and num2 == 1:
@@ -19288,6 +19976,8 @@ if num1 == 35 and sign == '*' and num2 == 49:
     print("35*49 = 1715")
 if num1 == 35 and sign == '*' and num2 == 50:
     print("35*50 = 1750")
+if num1 == 35 and sign == '*' and num2 == 51:
+    print("35*51 = 1785")
 if num1 == 36 and sign == '*' and num2 == 0:
     print("36*0 = 0")
 if num1 == 36 and sign == '*' and num2 == 1:
@@ -19390,6 +20080,8 @@ if num1 == 36 and sign == '*' and num2 == 49:
     print("36*49 = 1764")
 if num1 == 36 and sign == '*' and num2 == 50:
     print("36*50 = 1800")
+if num1 == 36 and sign == '*' and num2 == 51:
+    print("36*51 = 1836")
 if num1 == 37 and sign == '*' and num2 == 0:
     print("37*0 = 0")
 if num1 == 37 and sign == '*' and num2 == 1:
@@ -19492,6 +20184,8 @@ if num1 == 37 and sign == '*' and num2 == 49:
     print("37*49 = 1813")
 if num1 == 37 and sign == '*' and num2 == 50:
     print("37*50 = 1850")
+if num1 == 37 and sign == '*' and num2 == 51:
+    print("37*51 = 1887")
 if num1 == 38 and sign == '*' and num2 == 0:
     print("38*0 = 0")
 if num1 == 38 and sign == '*' and num2 == 1:
@@ -19594,6 +20288,8 @@ if num1 == 38 and sign == '*' and num2 == 49:
     print("38*49 = 1862")
 if num1 == 38 and sign == '*' and num2 == 50:
     print("38*50 = 1900")
+if num1 == 38 and sign == '*' and num2 == 51:
+    print("38*51 = 1938")
 if num1 == 39 and sign == '*' and num2 == 0:
     print("39*0 = 0")
 if num1 == 39 and sign == '*' and num2 == 1:
@@ -19696,6 +20392,8 @@ if num1 == 39 and sign == '*' and num2 == 49:
     print("39*49 = 1911")
 if num1 == 39 and sign == '*' and num2 == 50:
     print("39*50 = 1950")
+if num1 == 39 and sign == '*' and num2 == 51:
+    print("39*51 = 1989")
 if num1 == 40 and sign == '*' and num2 == 0:
     print("40*0 = 0")
 if num1 == 40 and sign == '*' and num2 == 1:
@@ -19798,6 +20496,8 @@ if num1 == 40 and sign == '*' and num2 == 49:
     print("40*49 = 1960")
 if num1 == 40 and sign == '*' and num2 == 50:
     print("40*50 = 2000")
+if num1 == 40 and sign == '*' and num2 == 51:
+    print("40*51 = 2040")
 if num1 == 41 and sign == '*' and num2 == 0:
     print("41*0 = 0")
 if num1 == 41 and sign == '*' and num2 == 1:
@@ -19900,6 +20600,8 @@ if num1 == 41 and sign == '*' and num2 == 49:
     print("41*49 = 2009")
 if num1 == 41 and sign == '*' and num2 == 50:
     print("41*50 = 2050")
+if num1 == 41 and sign == '*' and num2 == 51:
+    print("41*51 = 2091")
 if num1 == 42 and sign == '*' and num2 == 0:
     print("42*0 = 0")
 if num1 == 42 and sign == '*' and num2 == 1:
@@ -20002,6 +20704,8 @@ if num1 == 42 and sign == '*' and num2 == 49:
     print("42*49 = 2058")
 if num1 == 42 and sign == '*' and num2 == 50:
     print("42*50 = 2100")
+if num1 == 42 and sign == '*' and num2 == 51:
+    print("42*51 = 2142")
 if num1 == 43 and sign == '*' and num2 == 0:
     print("43*0 = 0")
 if num1 == 43 and sign == '*' and num2 == 1:
@@ -20104,6 +20808,8 @@ if num1 == 43 and sign == '*' and num2 == 49:
     print("43*49 = 2107")
 if num1 == 43 and sign == '*' and num2 == 50:
     print("43*50 = 2150")
+if num1 == 43 and sign == '*' and num2 == 51:
+    print("43*51 = 2193")
 if num1 == 44 and sign == '*' and num2 == 0:
     print("44*0 = 0")
 if num1 == 44 and sign == '*' and num2 == 1:
@@ -20206,6 +20912,8 @@ if num1 == 44 and sign == '*' and num2 == 49:
     print("44*49 = 2156")
 if num1 == 44 and sign == '*' and num2 == 50:
     print("44*50 = 2200")
+if num1 == 44 and sign == '*' and num2 == 51:
+    print("44*51 = 2244")
 if num1 == 45 and sign == '*' and num2 == 0:
     print("45*0 = 0")
 if num1 == 45 and sign == '*' and num2 == 1:
@@ -20308,6 +21016,8 @@ if num1 == 45 and sign == '*' and num2 == 49:
     print("45*49 = 2205")
 if num1 == 45 and sign == '*' and num2 == 50:
     print("45*50 = 2250")
+if num1 == 45 and sign == '*' and num2 == 51:
+    print("45*51 = 2295")
 if num1 == 46 and sign == '*' and num2 == 0:
     print("46*0 = 0")
 if num1 == 46 and sign == '*' and num2 == 1:
@@ -20410,6 +21120,8 @@ if num1 == 46 and sign == '*' and num2 == 49:
     print("46*49 = 2254")
 if num1 == 46 and sign == '*' and num2 == 50:
     print("46*50 = 2300")
+if num1 == 46 and sign == '*' and num2 == 51:
+    print("46*51 = 2346")
 if num1 == 47 and sign == '*' and num2 == 0:
     print("47*0 = 0")
 if num1 == 47 and sign == '*' and num2 == 1:
@@ -20512,6 +21224,8 @@ if num1 == 47 and sign == '*' and num2 == 49:
     print("47*49 = 2303")
 if num1 == 47 and sign == '*' and num2 == 50:
     print("47*50 = 2350")
+if num1 == 47 and sign == '*' and num2 == 51:
+    print("47*51 = 2397")
 if num1 == 48 and sign == '*' and num2 == 0:
     print("48*0 = 0")
 if num1 == 48 and sign == '*' and num2 == 1:
@@ -20614,6 +21328,8 @@ if num1 == 48 and sign == '*' and num2 == 49:
     print("48*49 = 2352")
 if num1 == 48 and sign == '*' and num2 == 50:
     print("48*50 = 2400")
+if num1 == 48 and sign == '*' and num2 == 51:
+    print("48*51 = 2448")
 if num1 == 49 and sign == '*' and num2 == 0:
     print("49*0 = 0")
 if num1 == 49 and sign == '*' and num2 == 1:
@@ -20716,6 +21432,8 @@ if num1 == 49 and sign == '*' and num2 == 49:
     print("49*49 = 2401")
 if num1 == 49 and sign == '*' and num2 == 50:
     print("49*50 = 2450")
+if num1 == 49 and sign == '*' and num2 == 51:
+    print("49*51 = 2499")
 if num1 == 50 and sign == '*' and num2 == 0:
     print("50*0 = 0")
 if num1 == 50 and sign == '*' and num2 == 1:
@@ -20818,5 +21536,111 @@ if num1 == 50 and sign == '*' and num2 == 49:
     print("50*49 = 2450")
 if num1 == 50 and sign == '*' and num2 == 50:
     print("50*50 = 2500")
+if num1 == 50 and sign == '*' and num2 == 51:
+    print("50*51 = 2550")
+if num1 == 51 and sign == '*' and num2 == 0:
+    print("51*0 = 0")
+if num1 == 51 and sign == '*' and num2 == 1:
+    print("51*1 = 51")
+if num1 == 51 and sign == '*' and num2 == 2:
+    print("51*2 = 102")
+if num1 == 51 and sign == '*' and num2 == 3:
+    print("51*3 = 153")
+if num1 == 51 and sign == '*' and num2 == 4:
+    print("51*4 = 204")
+if num1 == 51 and sign == '*' and num2 == 5:
+    print("51*5 = 255")
+if num1 == 51 and sign == '*' and num2 == 6:
+    print("51*6 = 306")
+if num1 == 51 and sign == '*' and num2 == 7:
+    print("51*7 = 357")
+if num1 == 51 and sign == '*' and num2 == 8:
+    print("51*8 = 408")
+if num1 == 51 and sign == '*' and num2 == 9:
+    print("51*9 = 459")
+if num1 == 51 and sign == '*' and num2 == 10:
+    print("51*10 = 510")
+if num1 == 51 and sign == '*' and num2 == 11:
+    print("51*11 = 561")
+if num1 == 51 and sign == '*' and num2 == 12:
+    print("51*12 = 612")
+if num1 == 51 and sign == '*' and num2 == 13:
+    print("51*13 = 663")
+if num1 == 51 and sign == '*' and num2 == 14:
+    print("51*14 = 714")
+if num1 == 51 and sign == '*' and num2 == 15:
+    print("51*15 = 765")
+if num1 == 51 and sign == '*' and num2 == 16:
+    print("51*16 = 816")
+if num1 == 51 and sign == '*' and num2 == 17:
+    print("51*17 = 867")
+if num1 == 51 and sign == '*' and num2 == 18:
+    print("51*18 = 918")
+if num1 == 51 and sign == '*' and num2 == 19:
+    print("51*19 = 969")
+if num1 == 51 and sign == '*' and num2 == 20:
+    print("51*20 = 1020")
+if num1 == 51 and sign == '*' and num2 == 21:
+    print("51*21 = 1071")
+if num1 == 51 and sign == '*' and num2 == 22:
+    print("51*22 = 1122")
+if num1 == 51 and sign == '*' and num2 == 23:
+    print("51*23 = 1173")
+if num1 == 51 and sign == '*' and num2 == 24:
+    print("51*24 = 1224")
+if num1 == 51 and sign == '*' and num2 == 25:
+    print("51*25 = 1275")
+if num1 == 51 and sign == '*' and num2 == 26:
+    print("51*26 = 1326")
+if num1 == 51 and sign == '*' and num2 == 27:
+    print("51*27 = 1377")
+if num1 == 51 and sign == '*' and num2 == 28:
+    print("51*28 = 1428")
+if num1 == 51 and sign == '*' and num2 == 29:
+    print("51*29 = 1479")
+if num1 == 51 and sign == '*' and num2 == 30:
+    print("51*30 = 1530")
+if num1 == 51 and sign == '*' and num2 == 31:
+    print("51*31 = 1581")
+if num1 == 51 and sign == '*' and num2 == 32:
+    print("51*32 = 1632")
+if num1 == 51 and sign == '*' and num2 == 33:
+    print("51*33 = 1683")
+if num1 == 51 and sign == '*' and num2 == 34:
+    print("51*34 = 1734")
+if num1 == 51 and sign == '*' and num2 == 35:
+    print("51*35 = 1785")
+if num1 == 51 and sign == '*' and num2 == 36:
+    print("51*36 = 1836")
+if num1 == 51 and sign == '*' and num2 == 37:
+    print("51*37 = 1887")
+if num1 == 51 and sign == '*' and num2 == 38:
+    print("51*38 = 1938")
+if num1 == 51 and sign == '*' and num2 == 39:
+    print("51*39 = 1989")
+if num1 == 51 and sign == '*' and num2 == 40:
+    print("51*40 = 2040")
+if num1 == 51 and sign == '*' and num2 == 41:
+    print("51*41 = 2091")
+if num1 == 51 and sign == '*' and num2 == 42:
+    print("51*42 = 2142")
+if num1 == 51 and sign == '*' and num2 == 43:
+    print("51*43 = 2193")
+if num1 == 51 and sign == '*' and num2 == 44:
+    print("51*44 = 2244")
+if num1 == 51 and sign == '*' and num2 == 45:
+    print("51*45 = 2295")
+if num1 == 51 and sign == '*' and num2 == 46:
+    print("51*46 = 2346")
+if num1 == 51 and sign == '*' and num2 == 47:
+    print("51*47 = 2397")
+if num1 == 51 and sign == '*' and num2 == 48:
+    print("51*48 = 2448")
+if num1 == 51 and sign == '*' and num2 == 49:
+    print("51*49 = 2499")
+if num1 == 51 and sign == '*' and num2 == 50:
+    print("51*50 = 2550")
+if num1 == 51 and sign == '*' and num2 == 51:
+    print("51*51 = 2601")
 
 print("Thanks for using this calculator, goodbye :)")
