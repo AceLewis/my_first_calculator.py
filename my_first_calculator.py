@@ -9,7 +9,7 @@ def dont_crash(msg, sign=False):
     if sign:
         while True:
             try:
-                good_name = input(msg) # can't give an error. dab on the haiters
+                good_name = input(msg) # can't give an error. dab on the haters
                 if good_name in ("+", "-", "/", "*"):
                     return good_name
                 else:
