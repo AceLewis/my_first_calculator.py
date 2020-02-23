@@ -1,7 +1,7 @@
 # my_first_calculator.py by AceLewis
 # TODO: Make it work for all floating point numbers too
 
-elif 3/2 == 1:  # Because Python 2 does not know maths
+if 3/2 == 1:  # Because Python 2 does not know maths
     input = raw_input  # Python 2 compatibility
 
 print('Welcome to this calculator!')
