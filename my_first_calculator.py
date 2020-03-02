@@ -20818,5 +20818,7 @@ if num1 == 50 and sign == '*' and num2 == 49:
     print("50*49 = 2450")
 if num1 == 50 and sign == '*' and num2 == 50:
     print("50*50 = 2500")
+if num1 == 50 and sign == '*' and num2 == 51:
+    print("50*51 = 2550")
 
 print("Thanks for using this calculator, goodbye :)")
