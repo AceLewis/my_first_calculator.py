@@ -7,7 +7,7 @@ if 3/2 == 1:  # Because Python 2 does not know maths
 print('Welcome to this calculator!')
 print('It can add, subtract, multiply and divide whole numbers from 0 to 50')
 num1 = int(input('Please choose your first number: '))
-sign = input('What do you want to do? +, -, /, or *: ')
+sign = input('What do you want to do? +, -, /, *, or p: ')
 num2 = int(input('Please choose your second number: '))
 
 if num1 == 0 and sign == '+' and num2 == 0:
@@ -20818,5 +20818,5207 @@ if num1 == 50 and sign == '*' and num2 == 49:
     print("50*49 = 2450")
 if num1 == 50 and sign == '*' and num2 == 50:
     print("50*50 = 2500")
+if num1 == 0 and sign == 'p' and num2 == 0:
+    print("0 power 0 = 1.0")
+if num1 == 0 and sign == 'p' and num2 == 1:
+    print("0 power 1 = 0.0")
+if num1 == 0 and sign == 'p' and num2 == 2:
+    print("0 power 2 = 0.0")
+if num1 == 0 and sign == 'p' and num2 == 3:
+    print("0 power 3 = 0.0")
+if num1 == 0 and sign == 'p' and num2 == 4:
+    print("0 power 4 = 0.0")
+if num1 == 0 and sign == 'p' and num2 == 5:
+    print("0 power 5 = 0.0")
+if num1 == 0 and sign == 'p' and num2 == 6:
+    print("0 power 6 = 0.0")
+if num1 == 0 and sign == 'p' and num2 == 7:
+    print("0 power 7 = 0.0")
+if num1 == 0 and sign == 'p' and num2 == 8:
+    print("0 power 8 = 0.0")
+if num1 == 0 and sign == 'p' and num2 == 9:
+    print("0 power 9 = 0.0")
+if num1 == 0 and sign == 'p' and num2 == 10:
+    print("0 power 10 = 0.0")
+if num1 == 0 and sign == 'p' and num2 == 11:
+    print("0 power 11 = 0.0")
+if num1 == 0 and sign == 'p' and num2 == 12:
+    print("0 power 12 = 0.0")
+if num1 == 0 and sign == 'p' and num2 == 13:
+    print("0 power 13 = 0.0")
+if num1 == 0 and sign == 'p' and num2 == 14:
+    print("0 power 14 = 0.0")
+if num1 == 0 and sign == 'p' and num2 == 15:
+    print("0 power 15 = 0.0")
+if num1 == 0 and sign == 'p' and num2 == 16:
+    print("0 power 16 = 0.0")
+if num1 == 0 and sign == 'p' and num2 == 17:
+    print("0 power 17 = 0.0")
+if num1 == 0 and sign == 'p' and num2 == 18:
+    print("0 power 18 = 0.0")
+if num1 == 0 and sign == 'p' and num2 == 19:
+    print("0 power 19 = 0.0")
+if num1 == 0 and sign == 'p' and num2 == 20:
+    print("0 power 20 = 0.0")
+if num1 == 0 and sign == 'p' and num2 == 21:
+    print("0 power 21 = 0.0")
+if num1 == 0 and sign == 'p' and num2 == 22:
+    print("0 power 22 = 0.0")
+if num1 == 0 and sign == 'p' and num2 == 23:
+    print("0 power 23 = 0.0")
+if num1 == 0 and sign == 'p' and num2 == 24:
+    print("0 power 24 = 0.0")
+if num1 == 0 and sign == 'p' and num2 == 25:
+    print("0 power 25 = 0.0")
+if num1 == 0 and sign == 'p' and num2 == 26:
+    print("0 power 26 = 0.0")
+if num1 == 0 and sign == 'p' and num2 == 27:
+    print("0 power 27 = 0.0")
+if num1 == 0 and sign == 'p' and num2 == 28:
+    print("0 power 28 = 0.0")
+if num1 == 0 and sign == 'p' and num2 == 29:
+    print("0 power 29 = 0.0")
+if num1 == 0 and sign == 'p' and num2 == 30:
+    print("0 power 30 = 0.0")
+if num1 == 0 and sign == 'p' and num2 == 31:
+    print("0 power 31 = 0.0")
+if num1 == 0 and sign == 'p' and num2 == 32:
+    print("0 power 32 = 0.0")
+if num1 == 0 and sign == 'p' and num2 == 33:
+    print("0 power 33 = 0.0")
+if num1 == 0 and sign == 'p' and num2 == 34:
+    print("0 power 34 = 0.0")
+if num1 == 0 and sign == 'p' and num2 == 35:
+    print("0 power 35 = 0.0")
+if num1 == 0 and sign == 'p' and num2 == 36:
+    print("0 power 36 = 0.0")
+if num1 == 0 and sign == 'p' and num2 == 37:
+    print("0 power 37 = 0.0")
+if num1 == 0 and sign == 'p' and num2 == 38:
+    print("0 power 38 = 0.0")
+if num1 == 0 and sign == 'p' and num2 == 39:
+    print("0 power 39 = 0.0")
+if num1 == 0 and sign == 'p' and num2 == 40:
+    print("0 power 40 = 0.0")
+if num1 == 0 and sign == 'p' and num2 == 41:
+    print("0 power 41 = 0.0")
+if num1 == 0 and sign == 'p' and num2 == 42:
+    print("0 power 42 = 0.0")
+if num1 == 0 and sign == 'p' and num2 == 43:
+    print("0 power 43 = 0.0")
+if num1 == 0 and sign == 'p' and num2 == 44:
+    print("0 power 44 = 0.0")
+if num1 == 0 and sign == 'p' and num2 == 45:
+    print("0 power 45 = 0.0")
+if num1 == 0 and sign == 'p' and num2 == 46:
+    print("0 power 46 = 0.0")
+if num1 == 0 and sign == 'p' and num2 == 47:
+    print("0 power 47 = 0.0")
+if num1 == 0 and sign == 'p' and num2 == 48:
+    print("0 power 48 = 0.0")
+if num1 == 0 and sign == 'p' and num2 == 49:
+    print("0 power 49 = 0.0")
+if num1 == 0 and sign == 'p' and num2 == 50:
+    print("0 power 50 = 0.0")
+if num1 == 1 and sign == 'p' and num2 == 0:
+    print("1 power 0 = 1.0")
+if num1 == 1 and sign == 'p' and num2 == 1:
+    print("1 power 1 = 1.0")
+if num1 == 1 and sign == 'p' and num2 == 2:
+    print("1 power 2 = 1.0")
+if num1 == 1 and sign == 'p' and num2 == 3:
+    print("1 power 3 = 1.0")
+if num1 == 1 and sign == 'p' and num2 == 4:
+    print("1 power 4 = 1.0")
+if num1 == 1 and sign == 'p' and num2 == 5:
+    print("1 power 5 = 1.0")
+if num1 == 1 and sign == 'p' and num2 == 6:
+    print("1 power 6 = 1.0")
+if num1 == 1 and sign == 'p' and num2 == 7:
+    print("1 power 7 = 1.0")
+if num1 == 1 and sign == 'p' and num2 == 8:
+    print("1 power 8 = 1.0")
+if num1 == 1 and sign == 'p' and num2 == 9:
+    print("1 power 9 = 1.0")
+if num1 == 1 and sign == 'p' and num2 == 10:
+    print("1 power 10 = 1.0")
+if num1 == 1 and sign == 'p' and num2 == 11:
+    print("1 power 11 = 1.0")
+if num1 == 1 and sign == 'p' and num2 == 12:
+    print("1 power 12 = 1.0")
+if num1 == 1 and sign == 'p' and num2 == 13:
+    print("1 power 13 = 1.0")
+if num1 == 1 and sign == 'p' and num2 == 14:
+    print("1 power 14 = 1.0")
+if num1 == 1 and sign == 'p' and num2 == 15:
+    print("1 power 15 = 1.0")
+if num1 == 1 and sign == 'p' and num2 == 16:
+    print("1 power 16 = 1.0")
+if num1 == 1 and sign == 'p' and num2 == 17:
+    print("1 power 17 = 1.0")
+if num1 == 1 and sign == 'p' and num2 == 18:
+    print("1 power 18 = 1.0")
+if num1 == 1 and sign == 'p' and num2 == 19:
+    print("1 power 19 = 1.0")
+if num1 == 1 and sign == 'p' and num2 == 20:
+    print("1 power 20 = 1.0")
+if num1 == 1 and sign == 'p' and num2 == 21:
+    print("1 power 21 = 1.0")
+if num1 == 1 and sign == 'p' and num2 == 22:
+    print("1 power 22 = 1.0")
+if num1 == 1 and sign == 'p' and num2 == 23:
+    print("1 power 23 = 1.0")
+if num1 == 1 and sign == 'p' and num2 == 24:
+    print("1 power 24 = 1.0")
+if num1 == 1 and sign == 'p' and num2 == 25:
+    print("1 power 25 = 1.0")
+if num1 == 1 and sign == 'p' and num2 == 26:
+    print("1 power 26 = 1.0")
+if num1 == 1 and sign == 'p' and num2 == 27:
+    print("1 power 27 = 1.0")
+if num1 == 1 and sign == 'p' and num2 == 28:
+    print("1 power 28 = 1.0")
+if num1 == 1 and sign == 'p' and num2 == 29:
+    print("1 power 29 = 1.0")
+if num1 == 1 and sign == 'p' and num2 == 30:
+    print("1 power 30 = 1.0")
+if num1 == 1 and sign == 'p' and num2 == 31:
+    print("1 power 31 = 1.0")
+if num1 == 1 and sign == 'p' and num2 == 32:
+    print("1 power 32 = 1.0")
+if num1 == 1 and sign == 'p' and num2 == 33:
+    print("1 power 33 = 1.0")
+if num1 == 1 and sign == 'p' and num2 == 34:
+    print("1 power 34 = 1.0")
+if num1 == 1 and sign == 'p' and num2 == 35:
+    print("1 power 35 = 1.0")
+if num1 == 1 and sign == 'p' and num2 == 36:
+    print("1 power 36 = 1.0")
+if num1 == 1 and sign == 'p' and num2 == 37:
+    print("1 power 37 = 1.0")
+if num1 == 1 and sign == 'p' and num2 == 38:
+    print("1 power 38 = 1.0")
+if num1 == 1 and sign == 'p' and num2 == 39:
+    print("1 power 39 = 1.0")
+if num1 == 1 and sign == 'p' and num2 == 40:
+    print("1 power 40 = 1.0")
+if num1 == 1 and sign == 'p' and num2 == 41:
+    print("1 power 41 = 1.0")
+if num1 == 1 and sign == 'p' and num2 == 42:
+    print("1 power 42 = 1.0")
+if num1 == 1 and sign == 'p' and num2 == 43:
+    print("1 power 43 = 1.0")
+if num1 == 1 and sign == 'p' and num2 == 44:
+    print("1 power 44 = 1.0")
+if num1 == 1 and sign == 'p' and num2 == 45:
+    print("1 power 45 = 1.0")
+if num1 == 1 and sign == 'p' and num2 == 46:
+    print("1 power 46 = 1.0")
+if num1 == 1 and sign == 'p' and num2 == 47:
+    print("1 power 47 = 1.0")
+if num1 == 1 and sign == 'p' and num2 == 48:
+    print("1 power 48 = 1.0")
+if num1 == 1 and sign == 'p' and num2 == 49:
+    print("1 power 49 = 1.0")
+if num1 == 1 and sign == 'p' and num2 == 50:
+    print("1 power 50 = 1.0")
+if num1 == 2 and sign == 'p' and num2 == 0:
+    print("2 power 0 = 1.0")
+if num1 == 2 and sign == 'p' and num2 == 1:
+    print("2 power 1 = 2.0")
+if num1 == 2 and sign == 'p' and num2 == 2:
+    print("2 power 2 = 4.0")
+if num1 == 2 and sign == 'p' and num2 == 3:
+    print("2 power 3 = 8.0")
+if num1 == 2 and sign == 'p' and num2 == 4:
+    print("2 power 4 = 16.0")
+if num1 == 2 and sign == 'p' and num2 == 5:
+    print("2 power 5 = 32.0")
+if num1 == 2 and sign == 'p' and num2 == 6:
+    print("2 power 6 = 64.0")
+if num1 == 2 and sign == 'p' and num2 == 7:
+    print("2 power 7 = 128.0")
+if num1 == 2 and sign == 'p' and num2 == 8:
+    print("2 power 8 = 256.0")
+if num1 == 2 and sign == 'p' and num2 == 9:
+    print("2 power 9 = 512.0")
+if num1 == 2 and sign == 'p' and num2 == 10:
+    print("2 power 10 = 1024.0")
+if num1 == 2 and sign == 'p' and num2 == 11:
+    print("2 power 11 = 2048.0")
+if num1 == 2 and sign == 'p' and num2 == 12:
+    print("2 power 12 = 4096.0")
+if num1 == 2 and sign == 'p' and num2 == 13:
+    print("2 power 13 = 8192.0")
+if num1 == 2 and sign == 'p' and num2 == 14:
+    print("2 power 14 = 16384.0")
+if num1 == 2 and sign == 'p' and num2 == 15:
+    print("2 power 15 = 32768.0")
+if num1 == 2 and sign == 'p' and num2 == 16:
+    print("2 power 16 = 65536.0")
+if num1 == 2 and sign == 'p' and num2 == 17:
+    print("2 power 17 = 131072.0")
+if num1 == 2 and sign == 'p' and num2 == 18:
+    print("2 power 18 = 262144.0")
+if num1 == 2 and sign == 'p' and num2 == 19:
+    print("2 power 19 = 524288.0")
+if num1 == 2 and sign == 'p' and num2 == 20:
+    print("2 power 20 = 1048576.0")
+if num1 == 2 and sign == 'p' and num2 == 21:
+    print("2 power 21 = 2097152.0")
+if num1 == 2 and sign == 'p' and num2 == 22:
+    print("2 power 22 = 4194304.0")
+if num1 == 2 and sign == 'p' and num2 == 23:
+    print("2 power 23 = 8388608.0")
+if num1 == 2 and sign == 'p' and num2 == 24:
+    print("2 power 24 = 16777216.0")
+if num1 == 2 and sign == 'p' and num2 == 25:
+    print("2 power 25 = 33554432.0")
+if num1 == 2 and sign == 'p' and num2 == 26:
+    print("2 power 26 = 67108864.0")
+if num1 == 2 and sign == 'p' and num2 == 27:
+    print("2 power 27 = 134217728.0")
+if num1 == 2 and sign == 'p' and num2 == 28:
+    print("2 power 28 = 268435456.0")
+if num1 == 2 and sign == 'p' and num2 == 29:
+    print("2 power 29 = 536870912.0")
+if num1 == 2 and sign == 'p' and num2 == 30:
+    print("2 power 30 = 1073741824.0")
+if num1 == 2 and sign == 'p' and num2 == 31:
+    print("2 power 31 = 2147483648.0")
+if num1 == 2 and sign == 'p' and num2 == 32:
+    print("2 power 32 = 4294967296.0")
+if num1 == 2 and sign == 'p' and num2 == 33:
+    print("2 power 33 = 8589934592.0")
+if num1 == 2 and sign == 'p' and num2 == 34:
+    print("2 power 34 = 17179869184.0")
+if num1 == 2 and sign == 'p' and num2 == 35:
+    print("2 power 35 = 34359738368.0")
+if num1 == 2 and sign == 'p' and num2 == 36:
+    print("2 power 36 = 68719476736.0")
+if num1 == 2 and sign == 'p' and num2 == 37:
+    print("2 power 37 = 137438953472.0")
+if num1 == 2 and sign == 'p' and num2 == 38:
+    print("2 power 38 = 274877906944.0")
+if num1 == 2 and sign == 'p' and num2 == 39:
+    print("2 power 39 = 549755813888.0")
+if num1 == 2 and sign == 'p' and num2 == 40:
+    print("2 power 40 = 1099511627776.0")
+if num1 == 2 and sign == 'p' and num2 == 41:
+    print("2 power 41 = 2199023255552.0")
+if num1 == 2 and sign == 'p' and num2 == 42:
+    print("2 power 42 = 4398046511104.0")
+if num1 == 2 and sign == 'p' and num2 == 43:
+    print("2 power 43 = 8796093022208.0")
+if num1 == 2 and sign == 'p' and num2 == 44:
+    print("2 power 44 = 17592186044416.0")
+if num1 == 2 and sign == 'p' and num2 == 45:
+    print("2 power 45 = 35184372088832.0")
+if num1 == 2 and sign == 'p' and num2 == 46:
+    print("2 power 46 = 70368744177664.0")
+if num1 == 2 and sign == 'p' and num2 == 47:
+    print("2 power 47 = 140737488355328.0")
+if num1 == 2 and sign == 'p' and num2 == 48:
+    print("2 power 48 = 281474976710656.0")
+if num1 == 2 and sign == 'p' and num2 == 49:
+    print("2 power 49 = 562949953421312.0")
+if num1 == 2 and sign == 'p' and num2 == 50:
+    print("2 power 50 = 1125899906842624.0")
+if num1 == 3 and sign == 'p' and num2 == 0:
+    print("3 power 0 = 1.0")
+if num1 == 3 and sign == 'p' and num2 == 1:
+    print("3 power 1 = 3.0")
+if num1 == 3 and sign == 'p' and num2 == 2:
+    print("3 power 2 = 9.0")
+if num1 == 3 and sign == 'p' and num2 == 3:
+    print("3 power 3 = 27.0")
+if num1 == 3 and sign == 'p' and num2 == 4:
+    print("3 power 4 = 81.0")
+if num1 == 3 and sign == 'p' and num2 == 5:
+    print("3 power 5 = 243.0")
+if num1 == 3 and sign == 'p' and num2 == 6:
+    print("3 power 6 = 729.0")
+if num1 == 3 and sign == 'p' and num2 == 7:
+    print("3 power 7 = 2187.0")
+if num1 == 3 and sign == 'p' and num2 == 8:
+    print("3 power 8 = 6561.0")
+if num1 == 3 and sign == 'p' and num2 == 9:
+    print("3 power 9 = 19683.0")
+if num1 == 3 and sign == 'p' and num2 == 10:
+    print("3 power 10 = 59049.0")
+if num1 == 3 and sign == 'p' and num2 == 11:
+    print("3 power 11 = 177147.0")
+if num1 == 3 and sign == 'p' and num2 == 12:
+    print("3 power 12 = 531441.0")
+if num1 == 3 and sign == 'p' and num2 == 13:
+    print("3 power 13 = 1594323.0")
+if num1 == 3 and sign == 'p' and num2 == 14:
+    print("3 power 14 = 4782969.0")
+if num1 == 3 and sign == 'p' and num2 == 15:
+    print("3 power 15 = 14348907.0")
+if num1 == 3 and sign == 'p' and num2 == 16:
+    print("3 power 16 = 43046721.0")
+if num1 == 3 and sign == 'p' and num2 == 17:
+    print("3 power 17 = 129140163.0")
+if num1 == 3 and sign == 'p' and num2 == 18:
+    print("3 power 18 = 387420489.0")
+if num1 == 3 and sign == 'p' and num2 == 19:
+    print("3 power 19 = 1162261467.0")
+if num1 == 3 and sign == 'p' and num2 == 20:
+    print("3 power 20 = 3486784401.0")
+if num1 == 3 and sign == 'p' and num2 == 21:
+    print("3 power 21 = 10460353203.0")
+if num1 == 3 and sign == 'p' and num2 == 22:
+    print("3 power 22 = 31381059609.0")
+if num1 == 3 and sign == 'p' and num2 == 23:
+    print("3 power 23 = 94143178827.0")
+if num1 == 3 and sign == 'p' and num2 == 24:
+    print("3 power 24 = 282429536481.0")
+if num1 == 3 and sign == 'p' and num2 == 25:
+    print("3 power 25 = 847288609443.0")
+if num1 == 3 and sign == 'p' and num2 == 26:
+    print("3 power 26 = 2541865828329.0")
+if num1 == 3 and sign == 'p' and num2 == 27:
+    print("3 power 27 = 7625597484987.0")
+if num1 == 3 and sign == 'p' and num2 == 28:
+    print("3 power 28 = 22876792454961.0")
+if num1 == 3 and sign == 'p' and num2 == 29:
+    print("3 power 29 = 68630377364883.0")
+if num1 == 3 and sign == 'p' and num2 == 30:
+    print("3 power 30 = 205891132094649.0")
+if num1 == 3 and sign == 'p' and num2 == 31:
+    print("3 power 31 = 617673396283947.0")
+if num1 == 3 and sign == 'p' and num2 == 32:
+    print("3 power 32 = 1853020188851841.0")
+if num1 == 3 and sign == 'p' and num2 == 33:
+    print("3 power 33 = 5559060566555523.0")
+if num1 == 3 and sign == 'p' and num2 == 34:
+    print("3 power 34 = 1.6677181699666568e+16")
+if num1 == 3 and sign == 'p' and num2 == 35:
+    print("3 power 35 = 5.0031545098999704e+16")
+if num1 == 3 and sign == 'p' and num2 == 36:
+    print("3 power 36 = 1.5009463529699914e+17")
+if num1 == 3 and sign == 'p' and num2 == 37:
+    print("3 power 37 = 4.502839058909974e+17")
+if num1 == 3 and sign == 'p' and num2 == 38:
+    print("3 power 38 = 1.350851717672992e+18")
+if num1 == 3 and sign == 'p' and num2 == 39:
+    print("3 power 39 = 4.052555153018976e+18")
+if num1 == 3 and sign == 'p' and num2 == 40:
+    print("3 power 40 = 1.2157665459056929e+19")
+if num1 == 3 and sign == 'p' and num2 == 41:
+    print("3 power 41 = 3.647299637717079e+19")
+if num1 == 3 and sign == 'p' and num2 == 42:
+    print("3 power 42 = 1.0941898913151237e+20")
+if num1 == 3 and sign == 'p' and num2 == 43:
+    print("3 power 43 = 3.2825696739453705e+20")
+if num1 == 3 and sign == 'p' and num2 == 44:
+    print("3 power 44 = 9.847709021836112e+20")
+if num1 == 3 and sign == 'p' and num2 == 45:
+    print("3 power 45 = 2.9543127065508336e+21")
+if num1 == 3 and sign == 'p' and num2 == 46:
+    print("3 power 46 = 8.862938119652501e+21")
+if num1 == 3 and sign == 'p' and num2 == 47:
+    print("3 power 47 = 2.65888143589575e+22")
+if num1 == 3 and sign == 'p' and num2 == 48:
+    print("3 power 48 = 7.976644307687251e+22")
+if num1 == 3 and sign == 'p' and num2 == 49:
+    print("3 power 49 = 2.3929932923061753e+23")
+if num1 == 3 and sign == 'p' and num2 == 50:
+    print("3 power 50 = 7.178979876918526e+23")
+if num1 == 4 and sign == 'p' and num2 == 0:
+    print("4 power 0 = 1.0")
+if num1 == 4 and sign == 'p' and num2 == 1:
+    print("4 power 1 = 4.0")
+if num1 == 4 and sign == 'p' and num2 == 2:
+    print("4 power 2 = 16.0")
+if num1 == 4 and sign == 'p' and num2 == 3:
+    print("4 power 3 = 64.0")
+if num1 == 4 and sign == 'p' and num2 == 4:
+    print("4 power 4 = 256.0")
+if num1 == 4 and sign == 'p' and num2 == 5:
+    print("4 power 5 = 1024.0")
+if num1 == 4 and sign == 'p' and num2 == 6:
+    print("4 power 6 = 4096.0")
+if num1 == 4 and sign == 'p' and num2 == 7:
+    print("4 power 7 = 16384.0")
+if num1 == 4 and sign == 'p' and num2 == 8:
+    print("4 power 8 = 65536.0")
+if num1 == 4 and sign == 'p' and num2 == 9:
+    print("4 power 9 = 262144.0")
+if num1 == 4 and sign == 'p' and num2 == 10:
+    print("4 power 10 = 1048576.0")
+if num1 == 4 and sign == 'p' and num2 == 11:
+    print("4 power 11 = 4194304.0")
+if num1 == 4 and sign == 'p' and num2 == 12:
+    print("4 power 12 = 16777216.0")
+if num1 == 4 and sign == 'p' and num2 == 13:
+    print("4 power 13 = 67108864.0")
+if num1 == 4 and sign == 'p' and num2 == 14:
+    print("4 power 14 = 268435456.0")
+if num1 == 4 and sign == 'p' and num2 == 15:
+    print("4 power 15 = 1073741824.0")
+if num1 == 4 and sign == 'p' and num2 == 16:
+    print("4 power 16 = 4294967296.0")
+if num1 == 4 and sign == 'p' and num2 == 17:
+    print("4 power 17 = 17179869184.0")
+if num1 == 4 and sign == 'p' and num2 == 18:
+    print("4 power 18 = 68719476736.0")
+if num1 == 4 and sign == 'p' and num2 == 19:
+    print("4 power 19 = 274877906944.0")
+if num1 == 4 and sign == 'p' and num2 == 20:
+    print("4 power 20 = 1099511627776.0")
+if num1 == 4 and sign == 'p' and num2 == 21:
+    print("4 power 21 = 4398046511104.0")
+if num1 == 4 and sign == 'p' and num2 == 22:
+    print("4 power 22 = 17592186044416.0")
+if num1 == 4 and sign == 'p' and num2 == 23:
+    print("4 power 23 = 70368744177664.0")
+if num1 == 4 and sign == 'p' and num2 == 24:
+    print("4 power 24 = 281474976710656.0")
+if num1 == 4 and sign == 'p' and num2 == 25:
+    print("4 power 25 = 1125899906842624.0")
+if num1 == 4 and sign == 'p' and num2 == 26:
+    print("4 power 26 = 4503599627370496.0")
+if num1 == 4 and sign == 'p' and num2 == 27:
+    print("4 power 27 = 1.8014398509481984e+16")
+if num1 == 4 and sign == 'p' and num2 == 28:
+    print("4 power 28 = 7.205759403792794e+16")
+if num1 == 4 and sign == 'p' and num2 == 29:
+    print("4 power 29 = 2.8823037615171174e+17")
+if num1 == 4 and sign == 'p' and num2 == 30:
+    print("4 power 30 = 1.152921504606847e+18")
+if num1 == 4 and sign == 'p' and num2 == 31:
+    print("4 power 31 = 4.611686018427388e+18")
+if num1 == 4 and sign == 'p' and num2 == 32:
+    print("4 power 32 = 1.8446744073709552e+19")
+if num1 == 4 and sign == 'p' and num2 == 33:
+    print("4 power 33 = 7.378697629483821e+19")
+if num1 == 4 and sign == 'p' and num2 == 34:
+    print("4 power 34 = 2.9514790517935283e+20")
+if num1 == 4 and sign == 'p' and num2 == 35:
+    print("4 power 35 = 1.1805916207174113e+21")
+if num1 == 4 and sign == 'p' and num2 == 36:
+    print("4 power 36 = 4.722366482869645e+21")
+if num1 == 4 and sign == 'p' and num2 == 37:
+    print("4 power 37 = 1.888946593147858e+22")
+if num1 == 4 and sign == 'p' and num2 == 38:
+    print("4 power 38 = 7.555786372591432e+22")
+if num1 == 4 and sign == 'p' and num2 == 39:
+    print("4 power 39 = 3.022314549036573e+23")
+if num1 == 4 and sign == 'p' and num2 == 40:
+    print("4 power 40 = 1.2089258196146292e+24")
+if num1 == 4 and sign == 'p' and num2 == 41:
+    print("4 power 41 = 4.835703278458517e+24")
+if num1 == 4 and sign == 'p' and num2 == 42:
+    print("4 power 42 = 1.9342813113834067e+25")
+if num1 == 4 and sign == 'p' and num2 == 43:
+    print("4 power 43 = 7.737125245533627e+25")
+if num1 == 4 and sign == 'p' and num2 == 44:
+    print("4 power 44 = 3.094850098213451e+26")
+if num1 == 4 and sign == 'p' and num2 == 45:
+    print("4 power 45 = 1.2379400392853803e+27")
+if num1 == 4 and sign == 'p' and num2 == 46:
+    print("4 power 46 = 4.951760157141521e+27")
+if num1 == 4 and sign == 'p' and num2 == 47:
+    print("4 power 47 = 1.9807040628566084e+28")
+if num1 == 4 and sign == 'p' and num2 == 48:
+    print("4 power 48 = 7.922816251426434e+28")
+if num1 == 4 and sign == 'p' and num2 == 49:
+    print("4 power 49 = 3.1691265005705735e+29")
+if num1 == 4 and sign == 'p' and num2 == 50:
+    print("4 power 50 = 1.2676506002282294e+30")
+if num1 == 5 and sign == 'p' and num2 == 0:
+    print("5 power 0 = 1.0")
+if num1 == 5 and sign == 'p' and num2 == 1:
+    print("5 power 1 = 5.0")
+if num1 == 5 and sign == 'p' and num2 == 2:
+    print("5 power 2 = 25.0")
+if num1 == 5 and sign == 'p' and num2 == 3:
+    print("5 power 3 = 125.0")
+if num1 == 5 and sign == 'p' and num2 == 4:
+    print("5 power 4 = 625.0")
+if num1 == 5 and sign == 'p' and num2 == 5:
+    print("5 power 5 = 3125.0")
+if num1 == 5 and sign == 'p' and num2 == 6:
+    print("5 power 6 = 15625.0")
+if num1 == 5 and sign == 'p' and num2 == 7:
+    print("5 power 7 = 78125.0")
+if num1 == 5 and sign == 'p' and num2 == 8:
+    print("5 power 8 = 390625.0")
+if num1 == 5 and sign == 'p' and num2 == 9:
+    print("5 power 9 = 1953125.0")
+if num1 == 5 and sign == 'p' and num2 == 10:
+    print("5 power 10 = 9765625.0")
+if num1 == 5 and sign == 'p' and num2 == 11:
+    print("5 power 11 = 48828125.0")
+if num1 == 5 and sign == 'p' and num2 == 12:
+    print("5 power 12 = 244140625.0")
+if num1 == 5 and sign == 'p' and num2 == 13:
+    print("5 power 13 = 1220703125.0")
+if num1 == 5 and sign == 'p' and num2 == 14:
+    print("5 power 14 = 6103515625.0")
+if num1 == 5 and sign == 'p' and num2 == 15:
+    print("5 power 15 = 30517578125.0")
+if num1 == 5 and sign == 'p' and num2 == 16:
+    print("5 power 16 = 152587890625.0")
+if num1 == 5 and sign == 'p' and num2 == 17:
+    print("5 power 17 = 762939453125.0")
+if num1 == 5 and sign == 'p' and num2 == 18:
+    print("5 power 18 = 3814697265625.0")
+if num1 == 5 and sign == 'p' and num2 == 19:
+    print("5 power 19 = 19073486328125.0")
+if num1 == 5 and sign == 'p' and num2 == 20:
+    print("5 power 20 = 95367431640625.0")
+if num1 == 5 and sign == 'p' and num2 == 21:
+    print("5 power 21 = 476837158203125.0")
+if num1 == 5 and sign == 'p' and num2 == 22:
+    print("5 power 22 = 2384185791015625.0")
+if num1 == 5 and sign == 'p' and num2 == 23:
+    print("5 power 23 = 1.1920928955078124e+16")
+if num1 == 5 and sign == 'p' and num2 == 24:
+    print("5 power 24 = 5.960464477539062e+16")
+if num1 == 5 and sign == 'p' and num2 == 25:
+    print("5 power 25 = 2.9802322387695315e+17")
+if num1 == 5 and sign == 'p' and num2 == 26:
+    print("5 power 26 = 1.4901161193847657e+18")
+if num1 == 5 and sign == 'p' and num2 == 27:
+    print("5 power 27 = 7.450580596923828e+18")
+if num1 == 5 and sign == 'p' and num2 == 28:
+    print("5 power 28 = 3.725290298461914e+19")
+if num1 == 5 and sign == 'p' and num2 == 29:
+    print("5 power 29 = 1.862645149230957e+20")
+if num1 == 5 and sign == 'p' and num2 == 30:
+    print("5 power 30 = 9.313225746154785e+20")
+if num1 == 5 and sign == 'p' and num2 == 31:
+    print("5 power 31 = 4.6566128730773924e+21")
+if num1 == 5 and sign == 'p' and num2 == 32:
+    print("5 power 32 = 2.3283064365386964e+22")
+if num1 == 5 and sign == 'p' and num2 == 33:
+    print("5 power 33 = 1.164153218269348e+23")
+if num1 == 5 and sign == 'p' and num2 == 34:
+    print("5 power 34 = 5.8207660913467404e+23")
+if num1 == 5 and sign == 'p' and num2 == 35:
+    print("5 power 35 = 2.9103830456733703e+24")
+if num1 == 5 and sign == 'p' and num2 == 36:
+    print("5 power 36 = 1.4551915228366852e+25")
+if num1 == 5 and sign == 'p' and num2 == 37:
+    print("5 power 37 = 7.2759576141834256e+25")
+if num1 == 5 and sign == 'p' and num2 == 38:
+    print("5 power 38 = 3.637978807091713e+26")
+if num1 == 5 and sign == 'p' and num2 == 39:
+    print("5 power 39 = 1.8189894035458564e+27")
+if num1 == 5 and sign == 'p' and num2 == 40:
+    print("5 power 40 = 9.094947017729283e+27")
+if num1 == 5 and sign == 'p' and num2 == 41:
+    print("5 power 41 = 4.547473508864641e+28")
+if num1 == 5 and sign == 'p' and num2 == 42:
+    print("5 power 42 = 2.2737367544323207e+29")
+if num1 == 5 and sign == 'p' and num2 == 43:
+    print("5 power 43 = 1.1368683772161603e+30")
+if num1 == 5 and sign == 'p' and num2 == 44:
+    print("5 power 44 = 5.684341886080802e+30")
+if num1 == 5 and sign == 'p' and num2 == 45:
+    print("5 power 45 = 2.8421709430404005e+31")
+if num1 == 5 and sign == 'p' and num2 == 46:
+    print("5 power 46 = 1.4210854715202004e+32")
+if num1 == 5 and sign == 'p' and num2 == 47:
+    print("5 power 47 = 7.105427357601002e+32")
+if num1 == 5 and sign == 'p' and num2 == 48:
+    print("5 power 48 = 3.552713678800501e+33")
+if num1 == 5 and sign == 'p' and num2 == 49:
+    print("5 power 49 = 1.7763568394002504e+34")
+if num1 == 5 and sign == 'p' and num2 == 50:
+    print("5 power 50 = 8.881784197001253e+34")
+if num1 == 6 and sign == 'p' and num2 == 0:
+    print("6 power 0 = 1.0")
+if num1 == 6 and sign == 'p' and num2 == 1:
+    print("6 power 1 = 6.0")
+if num1 == 6 and sign == 'p' and num2 == 2:
+    print("6 power 2 = 36.0")
+if num1 == 6 and sign == 'p' and num2 == 3:
+    print("6 power 3 = 216.0")
+if num1 == 6 and sign == 'p' and num2 == 4:
+    print("6 power 4 = 1296.0")
+if num1 == 6 and sign == 'p' and num2 == 5:
+    print("6 power 5 = 7776.0")
+if num1 == 6 and sign == 'p' and num2 == 6:
+    print("6 power 6 = 46656.0")
+if num1 == 6 and sign == 'p' and num2 == 7:
+    print("6 power 7 = 279936.0")
+if num1 == 6 and sign == 'p' and num2 == 8:
+    print("6 power 8 = 1679616.0")
+if num1 == 6 and sign == 'p' and num2 == 9:
+    print("6 power 9 = 10077696.0")
+if num1 == 6 and sign == 'p' and num2 == 10:
+    print("6 power 10 = 60466176.0")
+if num1 == 6 and sign == 'p' and num2 == 11:
+    print("6 power 11 = 362797056.0")
+if num1 == 6 and sign == 'p' and num2 == 12:
+    print("6 power 12 = 2176782336.0")
+if num1 == 6 and sign == 'p' and num2 == 13:
+    print("6 power 13 = 13060694016.0")
+if num1 == 6 and sign == 'p' and num2 == 14:
+    print("6 power 14 = 78364164096.0")
+if num1 == 6 and sign == 'p' and num2 == 15:
+    print("6 power 15 = 470184984576.0")
+if num1 == 6 and sign == 'p' and num2 == 16:
+    print("6 power 16 = 2821109907456.0")
+if num1 == 6 and sign == 'p' and num2 == 17:
+    print("6 power 17 = 16926659444736.0")
+if num1 == 6 and sign == 'p' and num2 == 18:
+    print("6 power 18 = 101559956668416.0")
+if num1 == 6 and sign == 'p' and num2 == 19:
+    print("6 power 19 = 609359740010496.0")
+if num1 == 6 and sign == 'p' and num2 == 20:
+    print("6 power 20 = 3656158440062976.0")
+if num1 == 6 and sign == 'p' and num2 == 21:
+    print("6 power 21 = 2.1936950640377856e+16")
+if num1 == 6 and sign == 'p' and num2 == 22:
+    print("6 power 22 = 1.3162170384226714e+17")
+if num1 == 6 and sign == 'p' and num2 == 23:
+    print("6 power 23 = 7.897302230536028e+17")
+if num1 == 6 and sign == 'p' and num2 == 24:
+    print("6 power 24 = 4.738381338321617e+18")
+if num1 == 6 and sign == 'p' and num2 == 25:
+    print("6 power 25 = 2.84302880299297e+19")
+if num1 == 6 and sign == 'p' and num2 == 26:
+    print("6 power 26 = 1.705817281795782e+20")
+if num1 == 6 and sign == 'p' and num2 == 27:
+    print("6 power 27 = 1.0234903690774692e+21")
+if num1 == 6 and sign == 'p' and num2 == 28:
+    print("6 power 28 = 6.140942214464815e+21")
+if num1 == 6 and sign == 'p' and num2 == 29:
+    print("6 power 29 = 3.6845653286788893e+22")
+if num1 == 6 and sign == 'p' and num2 == 30:
+    print("6 power 30 = 2.2107391972073336e+23")
+if num1 == 6 and sign == 'p' and num2 == 31:
+    print("6 power 31 = 1.3264435183244001e+24")
+if num1 == 6 and sign == 'p' and num2 == 32:
+    print("6 power 32 = 7.958661109946401e+24")
+if num1 == 6 and sign == 'p' and num2 == 33:
+    print("6 power 33 = 4.7751966659678405e+25")
+if num1 == 6 and sign == 'p' and num2 == 34:
+    print("6 power 34 = 2.865117999580704e+26")
+if num1 == 6 and sign == 'p' and num2 == 35:
+    print("6 power 35 = 1.7190707997484225e+27")
+if num1 == 6 and sign == 'p' and num2 == 36:
+    print("6 power 36 = 1.0314424798490537e+28")
+if num1 == 6 and sign == 'p' and num2 == 37:
+    print("6 power 37 = 6.1886548790943215e+28")
+if num1 == 6 and sign == 'p' and num2 == 38:
+    print("6 power 38 = 3.7131929274565926e+29")
+if num1 == 6 and sign == 'p' and num2 == 39:
+    print("6 power 39 = 2.2279157564739557e+30")
+if num1 == 6 and sign == 'p' and num2 == 40:
+    print("6 power 40 = 1.3367494538843734e+31")
+if num1 == 6 and sign == 'p' and num2 == 41:
+    print("6 power 41 = 8.020496723306241e+31")
+if num1 == 6 and sign == 'p' and num2 == 42:
+    print("6 power 42 = 4.8122980339837445e+32")
+if num1 == 6 and sign == 'p' and num2 == 43:
+    print("6 power 43 = 2.887378820390246e+33")
+if num1 == 6 and sign == 'p' and num2 == 44:
+    print("6 power 44 = 1.7324272922341479e+34")
+if num1 == 6 and sign == 'p' and num2 == 45:
+    print("6 power 45 = 1.0394563753404887e+35")
+if num1 == 6 and sign == 'p' and num2 == 46:
+    print("6 power 46 = 6.236738252042933e+35")
+if num1 == 6 and sign == 'p' and num2 == 47:
+    print("6 power 47 = 3.7420429512257594e+36")
+if num1 == 6 and sign == 'p' and num2 == 48:
+    print("6 power 48 = 2.245225770735456e+37")
+if num1 == 6 and sign == 'p' and num2 == 49:
+    print("6 power 49 = 1.3471354624412734e+38")
+if num1 == 6 and sign == 'p' and num2 == 50:
+    print("6 power 50 = 8.08281277464764e+38")
+if num1 == 7 and sign == 'p' and num2 == 0:
+    print("7 power 0 = 1.0")
+if num1 == 7 and sign == 'p' and num2 == 1:
+    print("7 power 1 = 7.0")
+if num1 == 7 and sign == 'p' and num2 == 2:
+    print("7 power 2 = 49.0")
+if num1 == 7 and sign == 'p' and num2 == 3:
+    print("7 power 3 = 343.0")
+if num1 == 7 and sign == 'p' and num2 == 4:
+    print("7 power 4 = 2401.0")
+if num1 == 7 and sign == 'p' and num2 == 5:
+    print("7 power 5 = 16807.0")
+if num1 == 7 and sign == 'p' and num2 == 6:
+    print("7 power 6 = 117649.0")
+if num1 == 7 and sign == 'p' and num2 == 7:
+    print("7 power 7 = 823543.0")
+if num1 == 7 and sign == 'p' and num2 == 8:
+    print("7 power 8 = 5764801.0")
+if num1 == 7 and sign == 'p' and num2 == 9:
+    print("7 power 9 = 40353607.0")
+if num1 == 7 and sign == 'p' and num2 == 10:
+    print("7 power 10 = 282475249.0")
+if num1 == 7 and sign == 'p' and num2 == 11:
+    print("7 power 11 = 1977326743.0")
+if num1 == 7 and sign == 'p' and num2 == 12:
+    print("7 power 12 = 13841287201.0")
+if num1 == 7 and sign == 'p' and num2 == 13:
+    print("7 power 13 = 96889010407.0")
+if num1 == 7 and sign == 'p' and num2 == 14:
+    print("7 power 14 = 678223072849.0")
+if num1 == 7 and sign == 'p' and num2 == 15:
+    print("7 power 15 = 4747561509943.0")
+if num1 == 7 and sign == 'p' and num2 == 16:
+    print("7 power 16 = 33232930569601.0")
+if num1 == 7 and sign == 'p' and num2 == 17:
+    print("7 power 17 = 232630513987207.0")
+if num1 == 7 and sign == 'p' and num2 == 18:
+    print("7 power 18 = 1628413597910449.0")
+if num1 == 7 and sign == 'p' and num2 == 19:
+    print("7 power 19 = 1.1398895185373144e+16")
+if num1 == 7 and sign == 'p' and num2 == 20:
+    print("7 power 20 = 7.9792266297612e+16")
+if num1 == 7 and sign == 'p' and num2 == 21:
+    print("7 power 21 = 5.5854586408328403e+17")
+if num1 == 7 and sign == 'p' and num2 == 22:
+    print("7 power 22 = 3.9098210485829883e+18")
+if num1 == 7 and sign == 'p' and num2 == 23:
+    print("7 power 23 = 2.7368747340080914e+19")
+if num1 == 7 and sign == 'p' and num2 == 24:
+    print("7 power 24 = 1.915812313805664e+20")
+if num1 == 7 and sign == 'p' and num2 == 25:
+    print("7 power 25 = 1.341068619663965e+21")
+if num1 == 7 and sign == 'p' and num2 == 26:
+    print("7 power 26 = 9.387480337647754e+21")
+if num1 == 7 and sign == 'p' and num2 == 27:
+    print("7 power 27 = 6.571236236353428e+22")
+if num1 == 7 and sign == 'p' and num2 == 28:
+    print("7 power 28 = 4.5998653654474e+23")
+if num1 == 7 and sign == 'p' and num2 == 29:
+    print("7 power 29 = 3.21990575581318e+24")
+if num1 == 7 and sign == 'p' and num2 == 30:
+    print("7 power 30 = 2.2539340290692256e+25")
+if num1 == 7 and sign == 'p' and num2 == 31:
+    print("7 power 31 = 1.577753820348458e+26")
+if num1 == 7 and sign == 'p' and num2 == 32:
+    print("7 power 32 = 1.1044276742439207e+27")
+if num1 == 7 and sign == 'p' and num2 == 33:
+    print("7 power 33 = 7.730993719707444e+27")
+if num1 == 7 and sign == 'p' and num2 == 34:
+    print("7 power 34 = 5.411695603795211e+28")
+if num1 == 7 and sign == 'p' and num2 == 35:
+    print("7 power 35 = 3.788186922656648e+29")
+if num1 == 7 and sign == 'p' and num2 == 36:
+    print("7 power 36 = 2.6517308458596536e+30")
+if num1 == 7 and sign == 'p' and num2 == 37:
+    print("7 power 37 = 1.8562115921017575e+31")
+if num1 == 7 and sign == 'p' and num2 == 38:
+    print("7 power 38 = 1.2993481144712303e+32")
+if num1 == 7 and sign == 'p' and num2 == 39:
+    print("7 power 39 = 9.095436801298612e+32")
+if num1 == 7 and sign == 'p' and num2 == 40:
+    print("7 power 40 = 6.366805760909028e+33")
+if num1 == 7 and sign == 'p' and num2 == 41:
+    print("7 power 41 = 4.456764032636319e+34")
+if num1 == 7 and sign == 'p' and num2 == 42:
+    print("7 power 42 = 3.1197348228454238e+35")
+if num1 == 7 and sign == 'p' and num2 == 43:
+    print("7 power 43 = 2.1838143759917966e+36")
+if num1 == 7 and sign == 'p' and num2 == 44:
+    print("7 power 44 = 1.5286700631942576e+37")
+if num1 == 7 and sign == 'p' and num2 == 45:
+    print("7 power 45 = 1.0700690442359803e+38")
+if num1 == 7 and sign == 'p' and num2 == 46:
+    print("7 power 46 = 7.490483309651862e+38")
+if num1 == 7 and sign == 'p' and num2 == 47:
+    print("7 power 47 = 5.243338316756304e+39")
+if num1 == 7 and sign == 'p' and num2 == 48:
+    print("7 power 48 = 3.670336821729413e+40")
+if num1 == 7 and sign == 'p' and num2 == 49:
+    print("7 power 49 = 2.5692357752105887e+41")
+if num1 == 7 and sign == 'p' and num2 == 50:
+    print("7 power 50 = 1.798465042647412e+42")
+if num1 == 8 and sign == 'p' and num2 == 0:
+    print("8 power 0 = 1.0")
+if num1 == 8 and sign == 'p' and num2 == 1:
+    print("8 power 1 = 8.0")
+if num1 == 8 and sign == 'p' and num2 == 2:
+    print("8 power 2 = 64.0")
+if num1 == 8 and sign == 'p' and num2 == 3:
+    print("8 power 3 = 512.0")
+if num1 == 8 and sign == 'p' and num2 == 4:
+    print("8 power 4 = 4096.0")
+if num1 == 8 and sign == 'p' and num2 == 5:
+    print("8 power 5 = 32768.0")
+if num1 == 8 and sign == 'p' and num2 == 6:
+    print("8 power 6 = 262144.0")
+if num1 == 8 and sign == 'p' and num2 == 7:
+    print("8 power 7 = 2097152.0")
+if num1 == 8 and sign == 'p' and num2 == 8:
+    print("8 power 8 = 16777216.0")
+if num1 == 8 and sign == 'p' and num2 == 9:
+    print("8 power 9 = 134217728.0")
+if num1 == 8 and sign == 'p' and num2 == 10:
+    print("8 power 10 = 1073741824.0")
+if num1 == 8 and sign == 'p' and num2 == 11:
+    print("8 power 11 = 8589934592.0")
+if num1 == 8 and sign == 'p' and num2 == 12:
+    print("8 power 12 = 68719476736.0")
+if num1 == 8 and sign == 'p' and num2 == 13:
+    print("8 power 13 = 549755813888.0")
+if num1 == 8 and sign == 'p' and num2 == 14:
+    print("8 power 14 = 4398046511104.0")
+if num1 == 8 and sign == 'p' and num2 == 15:
+    print("8 power 15 = 35184372088832.0")
+if num1 == 8 and sign == 'p' and num2 == 16:
+    print("8 power 16 = 281474976710656.0")
+if num1 == 8 and sign == 'p' and num2 == 17:
+    print("8 power 17 = 2251799813685248.0")
+if num1 == 8 and sign == 'p' and num2 == 18:
+    print("8 power 18 = 1.8014398509481984e+16")
+if num1 == 8 and sign == 'p' and num2 == 19:
+    print("8 power 19 = 1.4411518807585587e+17")
+if num1 == 8 and sign == 'p' and num2 == 20:
+    print("8 power 20 = 1.152921504606847e+18")
+if num1 == 8 and sign == 'p' and num2 == 21:
+    print("8 power 21 = 9.223372036854776e+18")
+if num1 == 8 and sign == 'p' and num2 == 22:
+    print("8 power 22 = 7.378697629483821e+19")
+if num1 == 8 and sign == 'p' and num2 == 23:
+    print("8 power 23 = 5.902958103587057e+20")
+if num1 == 8 and sign == 'p' and num2 == 24:
+    print("8 power 24 = 4.722366482869645e+21")
+if num1 == 8 and sign == 'p' and num2 == 25:
+    print("8 power 25 = 3.777893186295716e+22")
+if num1 == 8 and sign == 'p' and num2 == 26:
+    print("8 power 26 = 3.022314549036573e+23")
+if num1 == 8 and sign == 'p' and num2 == 27:
+    print("8 power 27 = 2.4178516392292583e+24")
+if num1 == 8 and sign == 'p' and num2 == 28:
+    print("8 power 28 = 1.9342813113834067e+25")
+if num1 == 8 and sign == 'p' and num2 == 29:
+    print("8 power 29 = 1.5474250491067253e+26")
+if num1 == 8 and sign == 'p' and num2 == 30:
+    print("8 power 30 = 1.2379400392853803e+27")
+if num1 == 8 and sign == 'p' and num2 == 31:
+    print("8 power 31 = 9.903520314283042e+27")
+if num1 == 8 and sign == 'p' and num2 == 32:
+    print("8 power 32 = 7.922816251426434e+28")
+if num1 == 8 and sign == 'p' and num2 == 33:
+    print("8 power 33 = 6.338253001141147e+29")
+if num1 == 8 and sign == 'p' and num2 == 34:
+    print("8 power 34 = 5.070602400912918e+30")
+if num1 == 8 and sign == 'p' and num2 == 35:
+    print("8 power 35 = 4.056481920730334e+31")
+if num1 == 8 and sign == 'p' and num2 == 36:
+    print("8 power 36 = 3.2451855365842673e+32")
+if num1 == 8 and sign == 'p' and num2 == 37:
+    print("8 power 37 = 2.596148429267414e+33")
+if num1 == 8 and sign == 'p' and num2 == 38:
+    print("8 power 38 = 2.076918743413931e+34")
+if num1 == 8 and sign == 'p' and num2 == 39:
+    print("8 power 39 = 1.661534994731145e+35")
+if num1 == 8 and sign == 'p' and num2 == 40:
+    print("8 power 40 = 1.329227995784916e+36")
+if num1 == 8 and sign == 'p' and num2 == 41:
+    print("8 power 41 = 1.0633823966279327e+37")
+if num1 == 8 and sign == 'p' and num2 == 42:
+    print("8 power 42 = 8.507059173023462e+37")
+if num1 == 8 and sign == 'p' and num2 == 43:
+    print("8 power 43 = 6.80564733841877e+38")
+if num1 == 8 and sign == 'p' and num2 == 44:
+    print("8 power 44 = 5.444517870735016e+39")
+if num1 == 8 and sign == 'p' and num2 == 45:
+    print("8 power 45 = 4.3556142965880123e+40")
+if num1 == 8 and sign == 'p' and num2 == 46:
+    print("8 power 46 = 3.48449143727041e+41")
+if num1 == 8 and sign == 'p' and num2 == 47:
+    print("8 power 47 = 2.787593149816328e+42")
+if num1 == 8 and sign == 'p' and num2 == 48:
+    print("8 power 48 = 2.2300745198530623e+43")
+if num1 == 8 and sign == 'p' and num2 == 49:
+    print("8 power 49 = 1.78405961588245e+44")
+if num1 == 8 and sign == 'p' and num2 == 50:
+    print("8 power 50 = 1.42724769270596e+45")
+if num1 == 9 and sign == 'p' and num2 == 0:
+    print("9 power 0 = 1.0")
+if num1 == 9 and sign == 'p' and num2 == 1:
+    print("9 power 1 = 9.0")
+if num1 == 9 and sign == 'p' and num2 == 2:
+    print("9 power 2 = 81.0")
+if num1 == 9 and sign == 'p' and num2 == 3:
+    print("9 power 3 = 729.0")
+if num1 == 9 and sign == 'p' and num2 == 4:
+    print("9 power 4 = 6561.0")
+if num1 == 9 and sign == 'p' and num2 == 5:
+    print("9 power 5 = 59049.0")
+if num1 == 9 and sign == 'p' and num2 == 6:
+    print("9 power 6 = 531441.0")
+if num1 == 9 and sign == 'p' and num2 == 7:
+    print("9 power 7 = 4782969.0")
+if num1 == 9 and sign == 'p' and num2 == 8:
+    print("9 power 8 = 43046721.0")
+if num1 == 9 and sign == 'p' and num2 == 9:
+    print("9 power 9 = 387420489.0")
+if num1 == 9 and sign == 'p' and num2 == 10:
+    print("9 power 10 = 3486784401.0")
+if num1 == 9 and sign == 'p' and num2 == 11:
+    print("9 power 11 = 31381059609.0")
+if num1 == 9 and sign == 'p' and num2 == 12:
+    print("9 power 12 = 282429536481.0")
+if num1 == 9 and sign == 'p' and num2 == 13:
+    print("9 power 13 = 2541865828329.0")
+if num1 == 9 and sign == 'p' and num2 == 14:
+    print("9 power 14 = 22876792454961.0")
+if num1 == 9 and sign == 'p' and num2 == 15:
+    print("9 power 15 = 205891132094649.0")
+if num1 == 9 and sign == 'p' and num2 == 16:
+    print("9 power 16 = 1853020188851841.0")
+if num1 == 9 and sign == 'p' and num2 == 17:
+    print("9 power 17 = 1.6677181699666568e+16")
+if num1 == 9 and sign == 'p' and num2 == 18:
+    print("9 power 18 = 1.5009463529699914e+17")
+if num1 == 9 and sign == 'p' and num2 == 19:
+    print("9 power 19 = 1.350851717672992e+18")
+if num1 == 9 and sign == 'p' and num2 == 20:
+    print("9 power 20 = 1.2157665459056929e+19")
+if num1 == 9 and sign == 'p' and num2 == 21:
+    print("9 power 21 = 1.0941898913151237e+20")
+if num1 == 9 and sign == 'p' and num2 == 22:
+    print("9 power 22 = 9.847709021836112e+20")
+if num1 == 9 and sign == 'p' and num2 == 23:
+    print("9 power 23 = 8.862938119652501e+21")
+if num1 == 9 and sign == 'p' and num2 == 24:
+    print("9 power 24 = 7.976644307687251e+22")
+if num1 == 9 and sign == 'p' and num2 == 25:
+    print("9 power 25 = 7.178979876918526e+23")
+if num1 == 9 and sign == 'p' and num2 == 26:
+    print("9 power 26 = 6.461081889226673e+24")
+if num1 == 9 and sign == 'p' and num2 == 27:
+    print("9 power 27 = 5.814973700304006e+25")
+if num1 == 9 and sign == 'p' and num2 == 28:
+    print("9 power 28 = 5.233476330273606e+26")
+if num1 == 9 and sign == 'p' and num2 == 29:
+    print("9 power 29 = 4.710128697246245e+27")
+if num1 == 9 and sign == 'p' and num2 == 30:
+    print("9 power 30 = 4.23911582752162e+28")
+if num1 == 9 and sign == 'p' and num2 == 31:
+    print("9 power 31 = 3.8152042447694586e+29")
+if num1 == 9 and sign == 'p' and num2 == 32:
+    print("9 power 32 = 3.4336838202925124e+30")
+if num1 == 9 and sign == 'p' and num2 == 33:
+    print("9 power 33 = 3.090315438263261e+31")
+if num1 == 9 and sign == 'p' and num2 == 34:
+    print("9 power 34 = 2.7812838944369352e+32")
+if num1 == 9 and sign == 'p' and num2 == 35:
+    print("9 power 35 = 2.5031555049932416e+33")
+if num1 == 9 and sign == 'p' and num2 == 36:
+    print("9 power 36 = 2.252839954493917e+34")
+if num1 == 9 and sign == 'p' and num2 == 37:
+    print("9 power 37 = 2.0275559590445257e+35")
+if num1 == 9 and sign == 'p' and num2 == 38:
+    print("9 power 38 = 1.8248003631400732e+36")
+if num1 == 9 and sign == 'p' and num2 == 39:
+    print("9 power 39 = 1.6423203268260657e+37")
+if num1 == 9 and sign == 'p' and num2 == 40:
+    print("9 power 40 = 1.4780882941434593e+38")
+if num1 == 9 and sign == 'p' and num2 == 41:
+    print("9 power 41 = 1.3302794647291133e+39")
+if num1 == 9 and sign == 'p' and num2 == 42:
+    print("9 power 42 = 1.197251518256202e+40")
+if num1 == 9 and sign == 'p' and num2 == 43:
+    print("9 power 43 = 1.0775263664305817e+41")
+if num1 == 9 and sign == 'p' and num2 == 44:
+    print("9 power 44 = 9.697737297875236e+41")
+if num1 == 9 and sign == 'p' and num2 == 45:
+    print("9 power 45 = 8.727963568087712e+42")
+if num1 == 9 and sign == 'p' and num2 == 46:
+    print("9 power 46 = 7.855167211278941e+43")
+if num1 == 9 and sign == 'p' and num2 == 47:
+    print("9 power 47 = 7.069650490151047e+44")
+if num1 == 9 and sign == 'p' and num2 == 48:
+    print("9 power 48 = 6.362685441135942e+45")
+if num1 == 9 and sign == 'p' and num2 == 49:
+    print("9 power 49 = 5.726416897022348e+46")
+if num1 == 9 and sign == 'p' and num2 == 50:
+    print("9 power 50 = 5.153775207320113e+47")
+if num1 == 10 and sign == 'p' and num2 == 0:
+    print("10 power 0 = 1.0")
+if num1 == 10 and sign == 'p' and num2 == 1:
+    print("10 power 1 = 10.0")
+if num1 == 10 and sign == 'p' and num2 == 2:
+    print("10 power 2 = 100.0")
+if num1 == 10 and sign == 'p' and num2 == 3:
+    print("10 power 3 = 1000.0")
+if num1 == 10 and sign == 'p' and num2 == 4:
+    print("10 power 4 = 10000.0")
+if num1 == 10 and sign == 'p' and num2 == 5:
+    print("10 power 5 = 100000.0")
+if num1 == 10 and sign == 'p' and num2 == 6:
+    print("10 power 6 = 1000000.0")
+if num1 == 10 and sign == 'p' and num2 == 7:
+    print("10 power 7 = 10000000.0")
+if num1 == 10 and sign == 'p' and num2 == 8:
+    print("10 power 8 = 100000000.0")
+if num1 == 10 and sign == 'p' and num2 == 9:
+    print("10 power 9 = 1000000000.0")
+if num1 == 10 and sign == 'p' and num2 == 10:
+    print("10 power 10 = 10000000000.0")
+if num1 == 10 and sign == 'p' and num2 == 11:
+    print("10 power 11 = 100000000000.0")
+if num1 == 10 and sign == 'p' and num2 == 12:
+    print("10 power 12 = 1000000000000.0")
+if num1 == 10 and sign == 'p' and num2 == 13:
+    print("10 power 13 = 10000000000000.0")
+if num1 == 10 and sign == 'p' and num2 == 14:
+    print("10 power 14 = 100000000000000.0")
+if num1 == 10 and sign == 'p' and num2 == 15:
+    print("10 power 15 = 1000000000000000.0")
+if num1 == 10 and sign == 'p' and num2 == 16:
+    print("10 power 16 = 1e+16")
+if num1 == 10 and sign == 'p' and num2 == 17:
+    print("10 power 17 = 1e+17")
+if num1 == 10 and sign == 'p' and num2 == 18:
+    print("10 power 18 = 1e+18")
+if num1 == 10 and sign == 'p' and num2 == 19:
+    print("10 power 19 = 1e+19")
+if num1 == 10 and sign == 'p' and num2 == 20:
+    print("10 power 20 = 1e+20")
+if num1 == 10 and sign == 'p' and num2 == 21:
+    print("10 power 21 = 1e+21")
+if num1 == 10 and sign == 'p' and num2 == 22:
+    print("10 power 22 = 1e+22")
+if num1 == 10 and sign == 'p' and num2 == 23:
+    print("10 power 23 = 1.0000000000000001e+23")
+if num1 == 10 and sign == 'p' and num2 == 24:
+    print("10 power 24 = 1e+24")
+if num1 == 10 and sign == 'p' and num2 == 25:
+    print("10 power 25 = 1e+25")
+if num1 == 10 and sign == 'p' and num2 == 26:
+    print("10 power 26 = 1e+26")
+if num1 == 10 and sign == 'p' and num2 == 27:
+    print("10 power 27 = 1e+27")
+if num1 == 10 and sign == 'p' and num2 == 28:
+    print("10 power 28 = 1e+28")
+if num1 == 10 and sign == 'p' and num2 == 29:
+    print("10 power 29 = 1e+29")
+if num1 == 10 and sign == 'p' and num2 == 30:
+    print("10 power 30 = 1e+30")
+if num1 == 10 and sign == 'p' and num2 == 31:
+    print("10 power 31 = 1e+31")
+if num1 == 10 and sign == 'p' and num2 == 32:
+    print("10 power 32 = 1e+32")
+if num1 == 10 and sign == 'p' and num2 == 33:
+    print("10 power 33 = 1e+33")
+if num1 == 10 and sign == 'p' and num2 == 34:
+    print("10 power 34 = 1e+34")
+if num1 == 10 and sign == 'p' and num2 == 35:
+    print("10 power 35 = 1e+35")
+if num1 == 10 and sign == 'p' and num2 == 36:
+    print("10 power 36 = 1e+36")
+if num1 == 10 and sign == 'p' and num2 == 37:
+    print("10 power 37 = 1e+37")
+if num1 == 10 and sign == 'p' and num2 == 38:
+    print("10 power 38 = 1e+38")
+if num1 == 10 and sign == 'p' and num2 == 39:
+    print("10 power 39 = 1e+39")
+if num1 == 10 and sign == 'p' and num2 == 40:
+    print("10 power 40 = 1e+40")
+if num1 == 10 and sign == 'p' and num2 == 41:
+    print("10 power 41 = 1e+41")
+if num1 == 10 and sign == 'p' and num2 == 42:
+    print("10 power 42 = 1e+42")
+if num1 == 10 and sign == 'p' and num2 == 43:
+    print("10 power 43 = 1e+43")
+if num1 == 10 and sign == 'p' and num2 == 44:
+    print("10 power 44 = 1e+44")
+if num1 == 10 and sign == 'p' and num2 == 45:
+    print("10 power 45 = 1e+45")
+if num1 == 10 and sign == 'p' and num2 == 46:
+    print("10 power 46 = 1e+46")
+if num1 == 10 and sign == 'p' and num2 == 47:
+    print("10 power 47 = 1e+47")
+if num1 == 10 and sign == 'p' and num2 == 48:
+    print("10 power 48 = 1e+48")
+if num1 == 10 and sign == 'p' and num2 == 49:
+    print("10 power 49 = 1e+49")
+if num1 == 10 and sign == 'p' and num2 == 50:
+    print("10 power 50 = 1e+50")
+if num1 == 11 and sign == 'p' and num2 == 0:
+    print("11 power 0 = 1.0")
+if num1 == 11 and sign == 'p' and num2 == 1:
+    print("11 power 1 = 11.0")
+if num1 == 11 and sign == 'p' and num2 == 2:
+    print("11 power 2 = 121.0")
+if num1 == 11 and sign == 'p' and num2 == 3:
+    print("11 power 3 = 1331.0")
+if num1 == 11 and sign == 'p' and num2 == 4:
+    print("11 power 4 = 14641.0")
+if num1 == 11 and sign == 'p' and num2 == 5:
+    print("11 power 5 = 161051.0")
+if num1 == 11 and sign == 'p' and num2 == 6:
+    print("11 power 6 = 1771561.0")
+if num1 == 11 and sign == 'p' and num2 == 7:
+    print("11 power 7 = 19487171.0")
+if num1 == 11 and sign == 'p' and num2 == 8:
+    print("11 power 8 = 214358881.0")
+if num1 == 11 and sign == 'p' and num2 == 9:
+    print("11 power 9 = 2357947691.0")
+if num1 == 11 and sign == 'p' and num2 == 10:
+    print("11 power 10 = 25937424601.0")
+if num1 == 11 and sign == 'p' and num2 == 11:
+    print("11 power 11 = 285311670611.0")
+if num1 == 11 and sign == 'p' and num2 == 12:
+    print("11 power 12 = 3138428376721.0")
+if num1 == 11 and sign == 'p' and num2 == 13:
+    print("11 power 13 = 34522712143931.0")
+if num1 == 11 and sign == 'p' and num2 == 14:
+    print("11 power 14 = 379749833583241.0")
+if num1 == 11 and sign == 'p' and num2 == 15:
+    print("11 power 15 = 4177248169415651.0")
+if num1 == 11 and sign == 'p' and num2 == 16:
+    print("11 power 16 = 4.594972986357216e+16")
+if num1 == 11 and sign == 'p' and num2 == 17:
+    print("11 power 17 = 5.0544702849929376e+17")
+if num1 == 11 and sign == 'p' and num2 == 18:
+    print("11 power 18 = 5.559917313492231e+18")
+if num1 == 11 and sign == 'p' and num2 == 19:
+    print("11 power 19 = 6.115909044841455e+19")
+if num1 == 11 and sign == 'p' and num2 == 20:
+    print("11 power 20 = 6.727499949325601e+20")
+if num1 == 11 and sign == 'p' and num2 == 21:
+    print("11 power 21 = 7.400249944258161e+21")
+if num1 == 11 and sign == 'p' and num2 == 22:
+    print("11 power 22 = 8.140274938683976e+22")
+if num1 == 11 and sign == 'p' and num2 == 23:
+    print("11 power 23 = 8.954302432552374e+23")
+if num1 == 11 and sign == 'p' and num2 == 24:
+    print("11 power 24 = 9.84973267580761e+24")
+if num1 == 11 and sign == 'p' and num2 == 25:
+    print("11 power 25 = 1.0834705943388373e+26")
+if num1 == 11 and sign == 'p' and num2 == 26:
+    print("11 power 26 = 1.191817653772721e+27")
+if num1 == 11 and sign == 'p' and num2 == 27:
+    print("11 power 27 = 1.310999419149993e+28")
+if num1 == 11 and sign == 'p' and num2 == 28:
+    print("11 power 28 = 1.4420993610649923e+29")
+if num1 == 11 and sign == 'p' and num2 == 29:
+    print("11 power 29 = 1.5863092971714916e+30")
+if num1 == 11 and sign == 'p' and num2 == 30:
+    print("11 power 30 = 1.7449402268886406e+31")
+if num1 == 11 and sign == 'p' and num2 == 31:
+    print("11 power 31 = 1.9194342495775046e+32")
+if num1 == 11 and sign == 'p' and num2 == 32:
+    print("11 power 32 = 2.1113776745352554e+33")
+if num1 == 11 and sign == 'p' and num2 == 33:
+    print("11 power 33 = 2.3225154419887806e+34")
+if num1 == 11 and sign == 'p' and num2 == 34:
+    print("11 power 34 = 2.554766986187659e+35")
+if num1 == 11 and sign == 'p' and num2 == 35:
+    print("11 power 35 = 2.810243684806425e+36")
+if num1 == 11 and sign == 'p' and num2 == 36:
+    print("11 power 36 = 3.091268053287067e+37")
+if num1 == 11 and sign == 'p' and num2 == 37:
+    print("11 power 37 = 3.400394858615774e+38")
+if num1 == 11 and sign == 'p' and num2 == 38:
+    print("11 power 38 = 3.7404343444773513e+39")
+if num1 == 11 and sign == 'p' and num2 == 39:
+    print("11 power 39 = 4.1144777789250867e+40")
+if num1 == 11 and sign == 'p' and num2 == 40:
+    print("11 power 40 = 4.525925556817595e+41")
+if num1 == 11 and sign == 'p' and num2 == 41:
+    print("11 power 41 = 4.9785181124993545e+42")
+if num1 == 11 and sign == 'p' and num2 == 42:
+    print("11 power 42 = 5.47636992374929e+43")
+if num1 == 11 and sign == 'p' and num2 == 43:
+    print("11 power 43 = 6.0240069161242195e+44")
+if num1 == 11 and sign == 'p' and num2 == 44:
+    print("11 power 44 = 6.626407607736641e+45")
+if num1 == 11 and sign == 'p' and num2 == 45:
+    print("11 power 45 = 7.289048368510305e+46")
+if num1 == 11 and sign == 'p' and num2 == 46:
+    print("11 power 46 = 8.017953205361335e+47")
+if num1 == 11 and sign == 'p' and num2 == 47:
+    print("11 power 47 = 8.819748525897469e+48")
+if num1 == 11 and sign == 'p' and num2 == 48:
+    print("11 power 48 = 9.701723378487217e+49")
+if num1 == 11 and sign == 'p' and num2 == 49:
+    print("11 power 49 = 1.0671895716335938e+51")
+if num1 == 11 and sign == 'p' and num2 == 50:
+    print("11 power 50 = 1.1739085287969532e+52")
+if num1 == 12 and sign == 'p' and num2 == 0:
+    print("12 power 0 = 1.0")
+if num1 == 12 and sign == 'p' and num2 == 1:
+    print("12 power 1 = 12.0")
+if num1 == 12 and sign == 'p' and num2 == 2:
+    print("12 power 2 = 144.0")
+if num1 == 12 and sign == 'p' and num2 == 3:
+    print("12 power 3 = 1728.0")
+if num1 == 12 and sign == 'p' and num2 == 4:
+    print("12 power 4 = 20736.0")
+if num1 == 12 and sign == 'p' and num2 == 5:
+    print("12 power 5 = 248832.0")
+if num1 == 12 and sign == 'p' and num2 == 6:
+    print("12 power 6 = 2985984.0")
+if num1 == 12 and sign == 'p' and num2 == 7:
+    print("12 power 7 = 35831808.0")
+if num1 == 12 and sign == 'p' and num2 == 8:
+    print("12 power 8 = 429981696.0")
+if num1 == 12 and sign == 'p' and num2 == 9:
+    print("12 power 9 = 5159780352.0")
+if num1 == 12 and sign == 'p' and num2 == 10:
+    print("12 power 10 = 61917364224.0")
+if num1 == 12 and sign == 'p' and num2 == 11:
+    print("12 power 11 = 743008370688.0")
+if num1 == 12 and sign == 'p' and num2 == 12:
+    print("12 power 12 = 8916100448256.0")
+if num1 == 12 and sign == 'p' and num2 == 13:
+    print("12 power 13 = 106993205379072.0")
+if num1 == 12 and sign == 'p' and num2 == 14:
+    print("12 power 14 = 1283918464548864.0")
+if num1 == 12 and sign == 'p' and num2 == 15:
+    print("12 power 15 = 1.5407021574586368e+16")
+if num1 == 12 and sign == 'p' and num2 == 16:
+    print("12 power 16 = 1.848842588950364e+17")
+if num1 == 12 and sign == 'p' and num2 == 17:
+    print("12 power 17 = 2.218611106740437e+18")
+if num1 == 12 and sign == 'p' and num2 == 18:
+    print("12 power 18 = 2.6623333280885244e+19")
+if num1 == 12 and sign == 'p' and num2 == 19:
+    print("12 power 19 = 3.194799993706229e+20")
+if num1 == 12 and sign == 'p' and num2 == 20:
+    print("12 power 20 = 3.833759992447475e+21")
+if num1 == 12 and sign == 'p' and num2 == 21:
+    print("12 power 21 = 4.60051199093697e+22")
+if num1 == 12 and sign == 'p' and num2 == 22:
+    print("12 power 22 = 5.520614389124364e+23")
+if num1 == 12 and sign == 'p' and num2 == 23:
+    print("12 power 23 = 6.624737266949237e+24")
+if num1 == 12 and sign == 'p' and num2 == 24:
+    print("12 power 24 = 7.949684720339084e+25")
+if num1 == 12 and sign == 'p' and num2 == 25:
+    print("12 power 25 = 9.539621664406901e+26")
+if num1 == 12 and sign == 'p' and num2 == 26:
+    print("12 power 26 = 1.1447545997288282e+28")
+if num1 == 12 and sign == 'p' and num2 == 27:
+    print("12 power 27 = 1.3737055196745938e+29")
+if num1 == 12 and sign == 'p' and num2 == 28:
+    print("12 power 28 = 1.6484466236095125e+30")
+if num1 == 12 and sign == 'p' and num2 == 29:
+    print("12 power 29 = 1.978135948331415e+31")
+if num1 == 12 and sign == 'p' and num2 == 30:
+    print("12 power 30 = 2.373763137997698e+32")
+if num1 == 12 and sign == 'p' and num2 == 31:
+    print("12 power 31 = 2.8485157655972377e+33")
+if num1 == 12 and sign == 'p' and num2 == 32:
+    print("12 power 32 = 3.418218918716685e+34")
+if num1 == 12 and sign == 'p' and num2 == 33:
+    print("12 power 33 = 4.101862702460022e+35")
+if num1 == 12 and sign == 'p' and num2 == 34:
+    print("12 power 34 = 4.9222352429520264e+36")
+if num1 == 12 and sign == 'p' and num2 == 35:
+    print("12 power 35 = 5.906682291542432e+37")
+if num1 == 12 and sign == 'p' and num2 == 36:
+    print("12 power 36 = 7.088018749850919e+38")
+if num1 == 12 and sign == 'p' and num2 == 37:
+    print("12 power 37 = 8.505622499821102e+39")
+if num1 == 12 and sign == 'p' and num2 == 38:
+    print("12 power 38 = 1.0206746999785322e+41")
+if num1 == 12 and sign == 'p' and num2 == 39:
+    print("12 power 39 = 1.2248096399742387e+42")
+if num1 == 12 and sign == 'p' and num2 == 40:
+    print("12 power 40 = 1.4697715679690864e+43")
+if num1 == 12 and sign == 'p' and num2 == 41:
+    print("12 power 41 = 1.7637258815629038e+44")
+if num1 == 12 and sign == 'p' and num2 == 42:
+    print("12 power 42 = 2.1164710578754846e+45")
+if num1 == 12 and sign == 'p' and num2 == 43:
+    print("12 power 43 = 2.539765269450581e+46")
+if num1 == 12 and sign == 'p' and num2 == 44:
+    print("12 power 44 = 3.0477183233406976e+47")
+if num1 == 12 and sign == 'p' and num2 == 45:
+    print("12 power 45 = 3.657261988008837e+48")
+if num1 == 12 and sign == 'p' and num2 == 46:
+    print("12 power 46 = 4.388714385610605e+49")
+if num1 == 12 and sign == 'p' and num2 == 47:
+    print("12 power 47 = 5.266457262732725e+50")
+if num1 == 12 and sign == 'p' and num2 == 48:
+    print("12 power 48 = 6.319748715279271e+51")
+if num1 == 12 and sign == 'p' and num2 == 49:
+    print("12 power 49 = 7.583698458335125e+52")
+if num1 == 12 and sign == 'p' and num2 == 50:
+    print("12 power 50 = 9.10043815000215e+53")
+if num1 == 13 and sign == 'p' and num2 == 0:
+    print("13 power 0 = 1.0")
+if num1 == 13 and sign == 'p' and num2 == 1:
+    print("13 power 1 = 13.0")
+if num1 == 13 and sign == 'p' and num2 == 2:
+    print("13 power 2 = 169.0")
+if num1 == 13 and sign == 'p' and num2 == 3:
+    print("13 power 3 = 2197.0")
+if num1 == 13 and sign == 'p' and num2 == 4:
+    print("13 power 4 = 28561.0")
+if num1 == 13 and sign == 'p' and num2 == 5:
+    print("13 power 5 = 371293.0")
+if num1 == 13 and sign == 'p' and num2 == 6:
+    print("13 power 6 = 4826809.0")
+if num1 == 13 and sign == 'p' and num2 == 7:
+    print("13 power 7 = 62748517.0")
+if num1 == 13 and sign == 'p' and num2 == 8:
+    print("13 power 8 = 815730721.0")
+if num1 == 13 and sign == 'p' and num2 == 9:
+    print("13 power 9 = 10604499373.0")
+if num1 == 13 and sign == 'p' and num2 == 10:
+    print("13 power 10 = 137858491849.0")
+if num1 == 13 and sign == 'p' and num2 == 11:
+    print("13 power 11 = 1792160394037.0")
+if num1 == 13 and sign == 'p' and num2 == 12:
+    print("13 power 12 = 23298085122481.0")
+if num1 == 13 and sign == 'p' and num2 == 13:
+    print("13 power 13 = 302875106592253.0")
+if num1 == 13 and sign == 'p' and num2 == 14:
+    print("13 power 14 = 3937376385699289.0")
+if num1 == 13 and sign == 'p' and num2 == 15:
+    print("13 power 15 = 5.118589301409076e+16")
+if num1 == 13 and sign == 'p' and num2 == 16:
+    print("13 power 16 = 6.654166091831799e+17")
+if num1 == 13 and sign == 'p' and num2 == 17:
+    print("13 power 17 = 8.650415919381338e+18")
+if num1 == 13 and sign == 'p' and num2 == 18:
+    print("13 power 18 = 1.124554069519574e+20")
+if num1 == 13 and sign == 'p' and num2 == 19:
+    print("13 power 19 = 1.461920290375446e+21")
+if num1 == 13 and sign == 'p' and num2 == 20:
+    print("13 power 20 = 1.90049637748808e+22")
+if num1 == 13 and sign == 'p' and num2 == 21:
+    print("13 power 21 = 2.470645290734504e+23")
+if num1 == 13 and sign == 'p' and num2 == 22:
+    print("13 power 22 = 3.2118388779548553e+24")
+if num1 == 13 and sign == 'p' and num2 == 23:
+    print("13 power 23 = 4.175390541341312e+25")
+if num1 == 13 and sign == 'p' and num2 == 24:
+    print("13 power 24 = 5.428007703743705e+26")
+if num1 == 13 and sign == 'p' and num2 == 25:
+    print("13 power 25 = 7.056410014866817e+27")
+if num1 == 13 and sign == 'p' and num2 == 26:
+    print("13 power 26 = 9.173333019326862e+28")
+if num1 == 13 and sign == 'p' and num2 == 27:
+    print("13 power 27 = 1.192533292512492e+30")
+if num1 == 13 and sign == 'p' and num2 == 28:
+    print("13 power 28 = 1.5502932802662396e+31")
+if num1 == 13 and sign == 'p' and num2 == 29:
+    print("13 power 29 = 2.0153812643461114e+32")
+if num1 == 13 and sign == 'p' and num2 == 30:
+    print("13 power 30 = 2.619995643649945e+33")
+if num1 == 13 and sign == 'p' and num2 == 31:
+    print("13 power 31 = 3.4059943367449283e+34")
+if num1 == 13 and sign == 'p' and num2 == 32:
+    print("13 power 32 = 4.427792637768407e+35")
+if num1 == 13 and sign == 'p' and num2 == 33:
+    print("13 power 33 = 5.756130429098929e+36")
+if num1 == 13 and sign == 'p' and num2 == 34:
+    print("13 power 34 = 7.482969557828608e+37")
+if num1 == 13 and sign == 'p' and num2 == 35:
+    print("13 power 35 = 9.727860425177191e+38")
+if num1 == 13 and sign == 'p' and num2 == 36:
+    print("13 power 36 = 1.2646218552730348e+40")
+if num1 == 13 and sign == 'p' and num2 == 37:
+    print("13 power 37 = 1.644008411854945e+41")
+if num1 == 13 and sign == 'p' and num2 == 38:
+    print("13 power 38 = 2.1372109354114287e+42")
+if num1 == 13 and sign == 'p' and num2 == 39:
+    print("13 power 39 = 2.7783742160348573e+43")
+if num1 == 13 and sign == 'p' and num2 == 40:
+    print("13 power 40 = 3.611886480845314e+44")
+if num1 == 13 and sign == 'p' and num2 == 41:
+    print("13 power 41 = 4.695452425098909e+45")
+if num1 == 13 and sign == 'p' and num2 == 42:
+    print("13 power 42 = 6.104088152628582e+46")
+if num1 == 13 and sign == 'p' and num2 == 43:
+    print("13 power 43 = 7.935314598417156e+47")
+if num1 == 13 and sign == 'p' and num2 == 44:
+    print("13 power 44 = 1.0315908977942302e+49")
+if num1 == 13 and sign == 'p' and num2 == 45:
+    print("13 power 45 = 1.3410681671324994e+50")
+if num1 == 13 and sign == 'p' and num2 == 46:
+    print("13 power 46 = 1.743388617272249e+51")
+if num1 == 13 and sign == 'p' and num2 == 47:
+    print("13 power 47 = 2.2664052024539239e+52")
+if num1 == 13 and sign == 'p' and num2 == 48:
+    print("13 power 48 = 2.946326763190101e+53")
+if num1 == 13 and sign == 'p' and num2 == 49:
+    print("13 power 49 = 3.830224792147131e+54")
+if num1 == 13 and sign == 'p' and num2 == 50:
+    print("13 power 50 = 4.97929222979127e+55")
+if num1 == 14 and sign == 'p' and num2 == 0:
+    print("14 power 0 = 1.0")
+if num1 == 14 and sign == 'p' and num2 == 1:
+    print("14 power 1 = 14.0")
+if num1 == 14 and sign == 'p' and num2 == 2:
+    print("14 power 2 = 196.0")
+if num1 == 14 and sign == 'p' and num2 == 3:
+    print("14 power 3 = 2744.0")
+if num1 == 14 and sign == 'p' and num2 == 4:
+    print("14 power 4 = 38416.0")
+if num1 == 14 and sign == 'p' and num2 == 5:
+    print("14 power 5 = 537824.0")
+if num1 == 14 and sign == 'p' and num2 == 6:
+    print("14 power 6 = 7529536.0")
+if num1 == 14 and sign == 'p' and num2 == 7:
+    print("14 power 7 = 105413504.0")
+if num1 == 14 and sign == 'p' and num2 == 8:
+    print("14 power 8 = 1475789056.0")
+if num1 == 14 and sign == 'p' and num2 == 9:
+    print("14 power 9 = 20661046784.0")
+if num1 == 14 and sign == 'p' and num2 == 10:
+    print("14 power 10 = 289254654976.0")
+if num1 == 14 and sign == 'p' and num2 == 11:
+    print("14 power 11 = 4049565169664.0")
+if num1 == 14 and sign == 'p' and num2 == 12:
+    print("14 power 12 = 56693912375296.0")
+if num1 == 14 and sign == 'p' and num2 == 13:
+    print("14 power 13 = 793714773254144.0")
+if num1 == 14 and sign == 'p' and num2 == 14:
+    print("14 power 14 = 1.1112006825558016e+16")
+if num1 == 14 and sign == 'p' and num2 == 15:
+    print("14 power 15 = 1.5556809555781222e+17")
+if num1 == 14 and sign == 'p' and num2 == 16:
+    print("14 power 16 = 2.1779533378093711e+18")
+if num1 == 14 and sign == 'p' and num2 == 17:
+    print("14 power 17 = 3.0491346729331196e+19")
+if num1 == 14 and sign == 'p' and num2 == 18:
+    print("14 power 18 = 4.2687885421063674e+20")
+if num1 == 14 and sign == 'p' and num2 == 19:
+    print("14 power 19 = 5.976303958948915e+21")
+if num1 == 14 and sign == 'p' and num2 == 20:
+    print("14 power 20 = 8.36682554252848e+22")
+if num1 == 14 and sign == 'p' and num2 == 21:
+    print("14 power 21 = 1.1713555759539873e+24")
+if num1 == 14 and sign == 'p' and num2 == 22:
+    print("14 power 22 = 1.6398978063355822e+25")
+if num1 == 14 and sign == 'p' and num2 == 23:
+    print("14 power 23 = 2.2958569288698148e+26")
+if num1 == 14 and sign == 'p' and num2 == 24:
+    print("14 power 24 = 3.214199700417741e+27")
+if num1 == 14 and sign == 'p' and num2 == 25:
+    print("14 power 25 = 4.499879580584837e+28")
+if num1 == 14 and sign == 'p' and num2 == 26:
+    print("14 power 26 = 6.299831412818772e+29")
+if num1 == 14 and sign == 'p' and num2 == 27:
+    print("14 power 27 = 8.819763977946281e+30")
+if num1 == 14 and sign == 'p' and num2 == 28:
+    print("14 power 28 = 1.2347669569124794e+32")
+if num1 == 14 and sign == 'p' and num2 == 29:
+    print("14 power 29 = 1.7286737396774712e+33")
+if num1 == 14 and sign == 'p' and num2 == 30:
+    print("14 power 30 = 2.4201432355484593e+34")
+if num1 == 14 and sign == 'p' and num2 == 31:
+    print("14 power 31 = 3.388200529767843e+35")
+if num1 == 14 and sign == 'p' and num2 == 32:
+    print("14 power 32 = 4.743480741674981e+36")
+if num1 == 14 and sign == 'p' and num2 == 33:
+    print("14 power 33 = 6.640873038344973e+37")
+if num1 == 14 and sign == 'p' and num2 == 34:
+    print("14 power 34 = 9.297222253682961e+38")
+if num1 == 14 and sign == 'p' and num2 == 35:
+    print("14 power 35 = 1.3016111155156147e+40")
+if num1 == 14 and sign == 'p' and num2 == 36:
+    print("14 power 36 = 1.8222555617218607e+41")
+if num1 == 14 and sign == 'p' and num2 == 37:
+    print("14 power 37 = 2.551157786410605e+42")
+if num1 == 14 and sign == 'p' and num2 == 38:
+    print("14 power 38 = 3.571620900974847e+43")
+if num1 == 14 and sign == 'p' and num2 == 39:
+    print("14 power 39 = 5.000269261364786e+44")
+if num1 == 14 and sign == 'p' and num2 == 40:
+    print("14 power 40 = 7.0003769659107e+45")
+if num1 == 14 and sign == 'p' and num2 == 41:
+    print("14 power 41 = 9.800527752274979e+46")
+if num1 == 14 and sign == 'p' and num2 == 42:
+    print("14 power 42 = 1.3720738853184972e+48")
+if num1 == 14 and sign == 'p' and num2 == 43:
+    print("14 power 43 = 1.920903439445896e+49")
+if num1 == 14 and sign == 'p' and num2 == 44:
+    print("14 power 44 = 2.6892648152242544e+50")
+if num1 == 14 and sign == 'p' and num2 == 45:
+    print("14 power 45 = 3.764970741313956e+51")
+if num1 == 14 and sign == 'p' and num2 == 46:
+    print("14 power 46 = 5.270959037839539e+52")
+if num1 == 14 and sign == 'p' and num2 == 47:
+    print("14 power 47 = 7.379342652975354e+53")
+if num1 == 14 and sign == 'p' and num2 == 48:
+    print("14 power 48 = 1.0331079714165496e+55")
+if num1 == 14 and sign == 'p' and num2 == 49:
+    print("14 power 49 = 1.4463511599831693e+56")
+if num1 == 14 and sign == 'p' and num2 == 50:
+    print("14 power 50 = 2.024891623976437e+57")
+if num1 == 15 and sign == 'p' and num2 == 0:
+    print("15 power 0 = 1.0")
+if num1 == 15 and sign == 'p' and num2 == 1:
+    print("15 power 1 = 15.0")
+if num1 == 15 and sign == 'p' and num2 == 2:
+    print("15 power 2 = 225.0")
+if num1 == 15 and sign == 'p' and num2 == 3:
+    print("15 power 3 = 3375.0")
+if num1 == 15 and sign == 'p' and num2 == 4:
+    print("15 power 4 = 50625.0")
+if num1 == 15 and sign == 'p' and num2 == 5:
+    print("15 power 5 = 759375.0")
+if num1 == 15 and sign == 'p' and num2 == 6:
+    print("15 power 6 = 11390625.0")
+if num1 == 15 and sign == 'p' and num2 == 7:
+    print("15 power 7 = 170859375.0")
+if num1 == 15 and sign == 'p' and num2 == 8:
+    print("15 power 8 = 2562890625.0")
+if num1 == 15 and sign == 'p' and num2 == 9:
+    print("15 power 9 = 38443359375.0")
+if num1 == 15 and sign == 'p' and num2 == 10:
+    print("15 power 10 = 576650390625.0")
+if num1 == 15 and sign == 'p' and num2 == 11:
+    print("15 power 11 = 8649755859375.0")
+if num1 == 15 and sign == 'p' and num2 == 12:
+    print("15 power 12 = 129746337890625.0")
+if num1 == 15 and sign == 'p' and num2 == 13:
+    print("15 power 13 = 1946195068359375.0")
+if num1 == 15 and sign == 'p' and num2 == 14:
+    print("15 power 14 = 2.9192926025390624e+16")
+if num1 == 15 and sign == 'p' and num2 == 15:
+    print("15 power 15 = 4.378938903808594e+17")
+if num1 == 15 and sign == 'p' and num2 == 16:
+    print("15 power 16 = 6.568408355712891e+18")
+if num1 == 15 and sign == 'p' and num2 == 17:
+    print("15 power 17 = 9.852612533569336e+19")
+if num1 == 15 and sign == 'p' and num2 == 18:
+    print("15 power 18 = 1.4778918800354003e+21")
+if num1 == 15 and sign == 'p' and num2 == 19:
+    print("15 power 19 = 2.2168378200531004e+22")
+if num1 == 15 and sign == 'p' and num2 == 20:
+    print("15 power 20 = 3.3252567300796506e+23")
+if num1 == 15 and sign == 'p' and num2 == 21:
+    print("15 power 21 = 4.987885095119477e+24")
+if num1 == 15 and sign == 'p' and num2 == 22:
+    print("15 power 22 = 7.481827642679214e+25")
+if num1 == 15 and sign == 'p' and num2 == 23:
+    print("15 power 23 = 1.1222741464018821e+27")
+if num1 == 15 and sign == 'p' and num2 == 24:
+    print("15 power 24 = 1.6834112196028233e+28")
+if num1 == 15 and sign == 'p' and num2 == 25:
+    print("15 power 25 = 2.525116829404235e+29")
+if num1 == 15 and sign == 'p' and num2 == 26:
+    print("15 power 26 = 3.787675244106352e+30")
+if num1 == 15 and sign == 'p' and num2 == 27:
+    print("15 power 27 = 5.681512866159529e+31")
+if num1 == 15 and sign == 'p' and num2 == 28:
+    print("15 power 28 = 8.522269299239293e+32")
+if num1 == 15 and sign == 'p' and num2 == 29:
+    print("15 power 29 = 1.2783403948858939e+34")
+if num1 == 15 and sign == 'p' and num2 == 30:
+    print("15 power 30 = 1.9175105923288408e+35")
+if num1 == 15 and sign == 'p' and num2 == 31:
+    print("15 power 31 = 2.8762658884932614e+36")
+if num1 == 15 and sign == 'p' and num2 == 32:
+    print("15 power 32 = 4.314398832739892e+37")
+if num1 == 15 and sign == 'p' and num2 == 33:
+    print("15 power 33 = 6.471598249109838e+38")
+if num1 == 15 and sign == 'p' and num2 == 34:
+    print("15 power 34 = 9.707397373664757e+39")
+if num1 == 15 and sign == 'p' and num2 == 35:
+    print("15 power 35 = 1.4561096060497136e+41")
+if num1 == 15 and sign == 'p' and num2 == 36:
+    print("15 power 36 = 2.1841644090745702e+42")
+if num1 == 15 and sign == 'p' and num2 == 37:
+    print("15 power 37 = 3.2762466136118553e+43")
+if num1 == 15 and sign == 'p' and num2 == 38:
+    print("15 power 38 = 4.9143699204177834e+44")
+if num1 == 15 and sign == 'p' and num2 == 39:
+    print("15 power 39 = 7.371554880626674e+45")
+if num1 == 15 and sign == 'p' and num2 == 40:
+    print("15 power 40 = 1.1057332320940012e+47")
+if num1 == 15 and sign == 'p' and num2 == 41:
+    print("15 power 41 = 1.6585998481410018e+48")
+if num1 == 15 and sign == 'p' and num2 == 42:
+    print("15 power 42 = 2.4878997722115026e+49")
+if num1 == 15 and sign == 'p' and num2 == 43:
+    print("15 power 43 = 3.731849658317254e+50")
+if num1 == 15 and sign == 'p' and num2 == 44:
+    print("15 power 44 = 5.597774487475881e+51")
+if num1 == 15 and sign == 'p' and num2 == 45:
+    print("15 power 45 = 8.396661731213822e+52")
+if num1 == 15 and sign == 'p' and num2 == 46:
+    print("15 power 46 = 1.2594992596820732e+54")
+if num1 == 15 and sign == 'p' and num2 == 47:
+    print("15 power 47 = 1.88924888952311e+55")
+if num1 == 15 and sign == 'p' and num2 == 48:
+    print("15 power 48 = 2.833873334284665e+56")
+if num1 == 15 and sign == 'p' and num2 == 49:
+    print("15 power 49 = 4.250810001426997e+57")
+if num1 == 15 and sign == 'p' and num2 == 50:
+    print("15 power 50 = 6.376215002140496e+58")
+if num1 == 16 and sign == 'p' and num2 == 0:
+    print("16 power 0 = 1.0")
+if num1 == 16 and sign == 'p' and num2 == 1:
+    print("16 power 1 = 16.0")
+if num1 == 16 and sign == 'p' and num2 == 2:
+    print("16 power 2 = 256.0")
+if num1 == 16 and sign == 'p' and num2 == 3:
+    print("16 power 3 = 4096.0")
+if num1 == 16 and sign == 'p' and num2 == 4:
+    print("16 power 4 = 65536.0")
+if num1 == 16 and sign == 'p' and num2 == 5:
+    print("16 power 5 = 1048576.0")
+if num1 == 16 and sign == 'p' and num2 == 6:
+    print("16 power 6 = 16777216.0")
+if num1 == 16 and sign == 'p' and num2 == 7:
+    print("16 power 7 = 268435456.0")
+if num1 == 16 and sign == 'p' and num2 == 8:
+    print("16 power 8 = 4294967296.0")
+if num1 == 16 and sign == 'p' and num2 == 9:
+    print("16 power 9 = 68719476736.0")
+if num1 == 16 and sign == 'p' and num2 == 10:
+    print("16 power 10 = 1099511627776.0")
+if num1 == 16 and sign == 'p' and num2 == 11:
+    print("16 power 11 = 17592186044416.0")
+if num1 == 16 and sign == 'p' and num2 == 12:
+    print("16 power 12 = 281474976710656.0")
+if num1 == 16 and sign == 'p' and num2 == 13:
+    print("16 power 13 = 4503599627370496.0")
+if num1 == 16 and sign == 'p' and num2 == 14:
+    print("16 power 14 = 7.205759403792794e+16")
+if num1 == 16 and sign == 'p' and num2 == 15:
+    print("16 power 15 = 1.152921504606847e+18")
+if num1 == 16 and sign == 'p' and num2 == 16:
+    print("16 power 16 = 1.8446744073709552e+19")
+if num1 == 16 and sign == 'p' and num2 == 17:
+    print("16 power 17 = 2.9514790517935283e+20")
+if num1 == 16 and sign == 'p' and num2 == 18:
+    print("16 power 18 = 4.722366482869645e+21")
+if num1 == 16 and sign == 'p' and num2 == 19:
+    print("16 power 19 = 7.555786372591432e+22")
+if num1 == 16 and sign == 'p' and num2 == 20:
+    print("16 power 20 = 1.2089258196146292e+24")
+if num1 == 16 and sign == 'p' and num2 == 21:
+    print("16 power 21 = 1.9342813113834067e+25")
+if num1 == 16 and sign == 'p' and num2 == 22:
+    print("16 power 22 = 3.094850098213451e+26")
+if num1 == 16 and sign == 'p' and num2 == 23:
+    print("16 power 23 = 4.951760157141521e+27")
+if num1 == 16 and sign == 'p' and num2 == 24:
+    print("16 power 24 = 7.922816251426434e+28")
+if num1 == 16 and sign == 'p' and num2 == 25:
+    print("16 power 25 = 1.2676506002282294e+30")
+if num1 == 16 and sign == 'p' and num2 == 26:
+    print("16 power 26 = 2.028240960365167e+31")
+if num1 == 16 and sign == 'p' and num2 == 27:
+    print("16 power 27 = 3.2451855365842673e+32")
+if num1 == 16 and sign == 'p' and num2 == 28:
+    print("16 power 28 = 5.192296858534828e+33")
+if num1 == 16 and sign == 'p' and num2 == 29:
+    print("16 power 29 = 8.307674973655724e+34")
+if num1 == 16 and sign == 'p' and num2 == 30:
+    print("16 power 30 = 1.329227995784916e+36")
+if num1 == 16 and sign == 'p' and num2 == 31:
+    print("16 power 31 = 2.1267647932558654e+37")
+if num1 == 16 and sign == 'p' and num2 == 32:
+    print("16 power 32 = 3.402823669209385e+38")
+if num1 == 16 and sign == 'p' and num2 == 33:
+    print("16 power 33 = 5.444517870735016e+39")
+if num1 == 16 and sign == 'p' and num2 == 34:
+    print("16 power 34 = 8.711228593176025e+40")
+if num1 == 16 and sign == 'p' and num2 == 35:
+    print("16 power 35 = 1.393796574908164e+42")
+if num1 == 16 and sign == 'p' and num2 == 36:
+    print("16 power 36 = 2.2300745198530623e+43")
+if num1 == 16 and sign == 'p' and num2 == 37:
+    print("16 power 37 = 3.5681192317649e+44")
+if num1 == 16 and sign == 'p' and num2 == 38:
+    print("16 power 38 = 5.70899077082384e+45")
+if num1 == 16 and sign == 'p' and num2 == 39:
+    print("16 power 39 = 9.134385233318143e+46")
+if num1 == 16 and sign == 'p' and num2 == 40:
+    print("16 power 40 = 1.461501637330903e+48")
+if num1 == 16 and sign == 'p' and num2 == 41:
+    print("16 power 41 = 2.3384026197294447e+49")
+if num1 == 16 and sign == 'p' and num2 == 42:
+    print("16 power 42 = 3.7414441915671115e+50")
+if num1 == 16 and sign == 'p' and num2 == 43:
+    print("16 power 43 = 5.986310706507379e+51")
+if num1 == 16 and sign == 'p' and num2 == 44:
+    print("16 power 44 = 9.578097130411805e+52")
+if num1 == 16 and sign == 'p' and num2 == 45:
+    print("16 power 45 = 1.532495540865889e+54")
+if num1 == 16 and sign == 'p' and num2 == 46:
+    print("16 power 46 = 2.4519928653854222e+55")
+if num1 == 16 and sign == 'p' and num2 == 47:
+    print("16 power 47 = 3.9231885846166755e+56")
+if num1 == 16 and sign == 'p' and num2 == 48:
+    print("16 power 48 = 6.277101735386681e+57")
+if num1 == 16 and sign == 'p' and num2 == 49:
+    print("16 power 49 = 1.004336277661869e+59")
+if num1 == 16 and sign == 'p' and num2 == 50:
+    print("16 power 50 = 1.6069380442589903e+60")
+if num1 == 17 and sign == 'p' and num2 == 0:
+    print("17 power 0 = 1.0")
+if num1 == 17 and sign == 'p' and num2 == 1:
+    print("17 power 1 = 17.0")
+if num1 == 17 and sign == 'p' and num2 == 2:
+    print("17 power 2 = 289.0")
+if num1 == 17 and sign == 'p' and num2 == 3:
+    print("17 power 3 = 4913.0")
+if num1 == 17 and sign == 'p' and num2 == 4:
+    print("17 power 4 = 83521.0")
+if num1 == 17 and sign == 'p' and num2 == 5:
+    print("17 power 5 = 1419857.0")
+if num1 == 17 and sign == 'p' and num2 == 6:
+    print("17 power 6 = 24137569.0")
+if num1 == 17 and sign == 'p' and num2 == 7:
+    print("17 power 7 = 410338673.0")
+if num1 == 17 and sign == 'p' and num2 == 8:
+    print("17 power 8 = 6975757441.0")
+if num1 == 17 and sign == 'p' and num2 == 9:
+    print("17 power 9 = 118587876497.0")
+if num1 == 17 and sign == 'p' and num2 == 10:
+    print("17 power 10 = 2015993900449.0")
+if num1 == 17 and sign == 'p' and num2 == 11:
+    print("17 power 11 = 34271896307633.0")
+if num1 == 17 and sign == 'p' and num2 == 12:
+    print("17 power 12 = 582622237229761.0")
+if num1 == 17 and sign == 'p' and num2 == 13:
+    print("17 power 13 = 9904578032905938.0")
+if num1 == 17 and sign == 'p' and num2 == 14:
+    print("17 power 14 = 1.6837782655940093e+17")
+if num1 == 17 and sign == 'p' and num2 == 15:
+    print("17 power 15 = 2.862423051509816e+18")
+if num1 == 17 and sign == 'p' and num2 == 16:
+    print("17 power 16 = 4.866119187566687e+19")
+if num1 == 17 and sign == 'p' and num2 == 17:
+    print("17 power 17 = 8.272402618863368e+20")
+if num1 == 17 and sign == 'p' and num2 == 18:
+    print("17 power 18 = 1.4063084452067724e+22")
+if num1 == 17 and sign == 'p' and num2 == 19:
+    print("17 power 19 = 2.3907243568515132e+23")
+if num1 == 17 and sign == 'p' and num2 == 20:
+    print("17 power 20 = 4.0642314066475725e+24")
+if num1 == 17 and sign == 'p' and num2 == 21:
+    print("17 power 21 = 6.909193391300873e+25")
+if num1 == 17 and sign == 'p' and num2 == 22:
+    print("17 power 22 = 1.1745628765211484e+27")
+if num1 == 17 and sign == 'p' and num2 == 23:
+    print("17 power 23 = 1.9967568900859523e+28")
+if num1 == 17 and sign == 'p' and num2 == 24:
+    print("17 power 24 = 3.394486713146119e+29")
+if num1 == 17 and sign == 'p' and num2 == 25:
+    print("17 power 25 = 5.770627412348402e+30")
+if num1 == 17 and sign == 'p' and num2 == 26:
+    print("17 power 26 = 9.810066600992284e+31")
+if num1 == 17 and sign == 'p' and num2 == 27:
+    print("17 power 27 = 1.6677113221686882e+33")
+if num1 == 17 and sign == 'p' and num2 == 28:
+    print("17 power 28 = 2.83510924768677e+34")
+if num1 == 17 and sign == 'p' and num2 == 29:
+    print("17 power 29 = 4.819685721067509e+35")
+if num1 == 17 and sign == 'p' and num2 == 30:
+    print("17 power 30 = 8.193465725814766e+36")
+if num1 == 17 and sign == 'p' and num2 == 31:
+    print("17 power 31 = 1.39288917338851e+38")
+if num1 == 17 and sign == 'p' and num2 == 32:
+    print("17 power 32 = 2.3679115947604673e+39")
+if num1 == 17 and sign == 'p' and num2 == 33:
+    print("17 power 33 = 4.0254497110927945e+40")
+if num1 == 17 and sign == 'p' and num2 == 34:
+    print("17 power 34 = 6.84326450885775e+41")
+if num1 == 17 and sign == 'p' and num2 == 35:
+    print("17 power 35 = 1.1633549665058175e+43")
+if num1 == 17 and sign == 'p' and num2 == 36:
+    print("17 power 36 = 1.97770344305989e+44")
+if num1 == 17 and sign == 'p' and num2 == 37:
+    print("17 power 37 = 3.362095853201813e+45")
+if num1 == 17 and sign == 'p' and num2 == 38:
+    print("17 power 38 = 5.715562950443082e+46")
+if num1 == 17 and sign == 'p' and num2 == 39:
+    print("17 power 39 = 9.716457015753239e+47")
+if num1 == 17 and sign == 'p' and num2 == 40:
+    print("17 power 40 = 1.6517976926780506e+49")
+if num1 == 17 and sign == 'p' and num2 == 41:
+    print("17 power 41 = 2.808056077552686e+50")
+if num1 == 17 and sign == 'p' and num2 == 42:
+    print("17 power 42 = 4.773695331839566e+51")
+if num1 == 17 and sign == 'p' and num2 == 43:
+    print("17 power 43 = 8.115282064127263e+52")
+if num1 == 17 and sign == 'p' and num2 == 44:
+    print("17 power 44 = 1.3795979509016346e+54")
+if num1 == 17 and sign == 'p' and num2 == 45:
+    print("17 power 45 = 2.345316516532779e+55")
+if num1 == 17 and sign == 'p' and num2 == 46:
+    print("17 power 46 = 3.987038078105724e+56")
+if num1 == 17 and sign == 'p' and num2 == 47:
+    print("17 power 47 = 6.777964732779731e+57")
+if num1 == 17 and sign == 'p' and num2 == 48:
+    print("17 power 48 = 1.1522540045725542e+59")
+if num1 == 17 and sign == 'p' and num2 == 49:
+    print("17 power 49 = 1.9588318077733424e+60")
+if num1 == 17 and sign == 'p' and num2 == 50:
+    print("17 power 50 = 3.3300140732146817e+61")
+if num1 == 18 and sign == 'p' and num2 == 0:
+    print("18 power 0 = 1.0")
+if num1 == 18 and sign == 'p' and num2 == 1:
+    print("18 power 1 = 18.0")
+if num1 == 18 and sign == 'p' and num2 == 2:
+    print("18 power 2 = 324.0")
+if num1 == 18 and sign == 'p' and num2 == 3:
+    print("18 power 3 = 5832.0")
+if num1 == 18 and sign == 'p' and num2 == 4:
+    print("18 power 4 = 104976.0")
+if num1 == 18 and sign == 'p' and num2 == 5:
+    print("18 power 5 = 1889568.0")
+if num1 == 18 and sign == 'p' and num2 == 6:
+    print("18 power 6 = 34012224.0")
+if num1 == 18 and sign == 'p' and num2 == 7:
+    print("18 power 7 = 612220032.0")
+if num1 == 18 and sign == 'p' and num2 == 8:
+    print("18 power 8 = 11019960576.0")
+if num1 == 18 and sign == 'p' and num2 == 9:
+    print("18 power 9 = 198359290368.0")
+if num1 == 18 and sign == 'p' and num2 == 10:
+    print("18 power 10 = 3570467226624.0")
+if num1 == 18 and sign == 'p' and num2 == 11:
+    print("18 power 11 = 64268410079232.0")
+if num1 == 18 and sign == 'p' and num2 == 12:
+    print("18 power 12 = 1156831381426176.0")
+if num1 == 18 and sign == 'p' and num2 == 13:
+    print("18 power 13 = 2.082296486567117e+16")
+if num1 == 18 and sign == 'p' and num2 == 14:
+    print("18 power 14 = 3.74813367582081e+17")
+if num1 == 18 and sign == 'p' and num2 == 15:
+    print("18 power 15 = 6.746640616477458e+18")
+if num1 == 18 and sign == 'p' and num2 == 16:
+    print("18 power 16 = 1.2143953109659425e+20")
+if num1 == 18 and sign == 'p' and num2 == 17:
+    print("18 power 17 = 2.1859115597386964e+21")
+if num1 == 18 and sign == 'p' and num2 == 18:
+    print("18 power 18 = 3.934640807529654e+22")
+if num1 == 18 and sign == 'p' and num2 == 19:
+    print("18 power 19 = 7.082353453553376e+23")
+if num1 == 18 and sign == 'p' and num2 == 20:
+    print("18 power 20 = 1.2748236216396078e+25")
+if num1 == 18 and sign == 'p' and num2 == 21:
+    print("18 power 21 = 2.2946825189512942e+26")
+if num1 == 18 and sign == 'p' and num2 == 22:
+    print("18 power 22 = 4.130428534112329e+27")
+if num1 == 18 and sign == 'p' and num2 == 23:
+    print("18 power 23 = 7.434771361402193e+28")
+if num1 == 18 and sign == 'p' and num2 == 24:
+    print("18 power 24 = 1.3382588450523948e+30")
+if num1 == 18 and sign == 'p' and num2 == 25:
+    print("18 power 25 = 2.4088659210943104e+31")
+if num1 == 18 and sign == 'p' and num2 == 26:
+    print("18 power 26 = 4.3359586579697586e+32")
+if num1 == 18 and sign == 'p' and num2 == 27:
+    print("18 power 27 = 7.804725584345566e+33")
+if num1 == 18 and sign == 'p' and num2 == 28:
+    print("18 power 28 = 1.404850605182202e+35")
+if num1 == 18 and sign == 'p' and num2 == 29:
+    print("18 power 29 = 2.5287310893279634e+36")
+if num1 == 18 and sign == 'p' and num2 == 30:
+    print("18 power 30 = 4.551715960790334e+37")
+if num1 == 18 and sign == 'p' and num2 == 31:
+    print("18 power 31 = 8.193088729422602e+38")
+if num1 == 18 and sign == 'p' and num2 == 32:
+    print("18 power 32 = 1.4747559712960682e+40")
+if num1 == 18 and sign == 'p' and num2 == 33:
+    print("18 power 33 = 2.6545607483329227e+41")
+if num1 == 18 and sign == 'p' and num2 == 34:
+    print("18 power 34 = 4.778209346999261e+42")
+if num1 == 18 and sign == 'p' and num2 == 35:
+    print("18 power 35 = 8.60077682459867e+43")
+if num1 == 18 and sign == 'p' and num2 == 36:
+    print("18 power 36 = 1.5481398284277604e+45")
+if num1 == 18 and sign == 'p' and num2 == 37:
+    print("18 power 37 = 2.786651691169969e+46")
+if num1 == 18 and sign == 'p' and num2 == 38:
+    print("18 power 38 = 5.0159730441059446e+47")
+if num1 == 18 and sign == 'p' and num2 == 39:
+    print("18 power 39 = 9.028751479390699e+48")
+if num1 == 18 and sign == 'p' and num2 == 40:
+    print("18 power 40 = 1.625175266290326e+50")
+if num1 == 18 and sign == 'p' and num2 == 41:
+    print("18 power 41 = 2.9253154793225868e+51")
+if num1 == 18 and sign == 'p' and num2 == 42:
+    print("18 power 42 = 5.265567862780656e+52")
+if num1 == 18 and sign == 'p' and num2 == 43:
+    print("18 power 43 = 9.47802215300518e+53")
+if num1 == 18 and sign == 'p' and num2 == 44:
+    print("18 power 44 = 1.7060439875409326e+55")
+if num1 == 18 and sign == 'p' and num2 == 45:
+    print("18 power 45 = 3.0708791775736785e+56")
+if num1 == 18 and sign == 'p' and num2 == 46:
+    print("18 power 46 = 5.5275825196326215e+57")
+if num1 == 18 and sign == 'p' and num2 == 47:
+    print("18 power 47 = 9.949648535338719e+58")
+if num1 == 18 and sign == 'p' and num2 == 48:
+    print("18 power 48 = 1.7909367363609693e+60")
+if num1 == 18 and sign == 'p' and num2 == 49:
+    print("18 power 49 = 3.223686125449745e+61")
+if num1 == 18 and sign == 'p' and num2 == 50:
+    print("18 power 50 = 5.802635025809541e+62")
+if num1 == 19 and sign == 'p' and num2 == 0:
+    print("19 power 0 = 1.0")
+if num1 == 19 and sign == 'p' and num2 == 1:
+    print("19 power 1 = 19.0")
+if num1 == 19 and sign == 'p' and num2 == 2:
+    print("19 power 2 = 361.0")
+if num1 == 19 and sign == 'p' and num2 == 3:
+    print("19 power 3 = 6859.0")
+if num1 == 19 and sign == 'p' and num2 == 4:
+    print("19 power 4 = 130321.0")
+if num1 == 19 and sign == 'p' and num2 == 5:
+    print("19 power 5 = 2476099.0")
+if num1 == 19 and sign == 'p' and num2 == 6:
+    print("19 power 6 = 47045881.0")
+if num1 == 19 and sign == 'p' and num2 == 7:
+    print("19 power 7 = 893871739.0")
+if num1 == 19 and sign == 'p' and num2 == 8:
+    print("19 power 8 = 16983563041.0")
+if num1 == 19 and sign == 'p' and num2 == 9:
+    print("19 power 9 = 322687697779.0")
+if num1 == 19 and sign == 'p' and num2 == 10:
+    print("19 power 10 = 6131066257801.0")
+if num1 == 19 and sign == 'p' and num2 == 11:
+    print("19 power 11 = 116490258898219.0")
+if num1 == 19 and sign == 'p' and num2 == 12:
+    print("19 power 12 = 2213314919066161.0")
+if num1 == 19 and sign == 'p' and num2 == 13:
+    print("19 power 13 = 4.205298346225706e+16")
+if num1 == 19 and sign == 'p' and num2 == 14:
+    print("19 power 14 = 7.990066857828841e+17")
+if num1 == 19 and sign == 'p' and num2 == 15:
+    print("19 power 15 = 1.5181127029874799e+19")
+if num1 == 19 and sign == 'p' and num2 == 16:
+    print("19 power 16 = 2.8844141356762117e+20")
+if num1 == 19 and sign == 'p' and num2 == 17:
+    print("19 power 17 = 5.480386857784803e+21")
+if num1 == 19 and sign == 'p' and num2 == 18:
+    print("19 power 18 = 1.0412735029791125e+23")
+if num1 == 19 and sign == 'p' and num2 == 19:
+    print("19 power 19 = 1.9784196556603136e+24")
+if num1 == 19 and sign == 'p' and num2 == 20:
+    print("19 power 20 = 3.758997345754596e+25")
+if num1 == 19 and sign == 'p' and num2 == 21:
+    print("19 power 21 = 7.142094956933733e+26")
+if num1 == 19 and sign == 'p' and num2 == 22:
+    print("19 power 22 = 1.356998041817409e+28")
+if num1 == 19 and sign == 'p' and num2 == 23:
+    print("19 power 23 = 2.5782962794530772e+29")
+if num1 == 19 and sign == 'p' and num2 == 24:
+    print("19 power 24 = 4.8987629309608467e+30")
+if num1 == 19 and sign == 'p' and num2 == 25:
+    print("19 power 25 = 9.30764956882561e+31")
+if num1 == 19 and sign == 'p' and num2 == 26:
+    print("19 power 26 = 1.7684534180768656e+33")
+if num1 == 19 and sign == 'p' and num2 == 27:
+    print("19 power 27 = 3.360061494346045e+34")
+if num1 == 19 and sign == 'p' and num2 == 28:
+    print("19 power 28 = 6.3841168392574854e+35")
+if num1 == 19 and sign == 'p' and num2 == 29:
+    print("19 power 29 = 1.2129821994589221e+37")
+if num1 == 19 and sign == 'p' and num2 == 30:
+    print("19 power 30 = 2.304666178971952e+38")
+if num1 == 19 and sign == 'p' and num2 == 31:
+    print("19 power 31 = 4.378865740046709e+39")
+if num1 == 19 and sign == 'p' and num2 == 32:
+    print("19 power 32 = 8.319844906088747e+40")
+if num1 == 19 and sign == 'p' and num2 == 33:
+    print("19 power 33 = 1.580770532156862e+42")
+if num1 == 19 and sign == 'p' and num2 == 34:
+    print("19 power 34 = 3.003464011098038e+43")
+if num1 == 19 and sign == 'p' and num2 == 35:
+    print("19 power 35 = 5.706581621086272e+44")
+if num1 == 19 and sign == 'p' and num2 == 36:
+    print("19 power 36 = 1.0842505080063916e+46")
+if num1 == 19 and sign == 'p' and num2 == 37:
+    print("19 power 37 = 2.0600759652121443e+47")
+if num1 == 19 and sign == 'p' and num2 == 38:
+    print("19 power 38 = 3.914144333903074e+48")
+if num1 == 19 and sign == 'p' and num2 == 39:
+    print("19 power 39 = 7.43687423441584e+49")
+if num1 == 19 and sign == 'p' and num2 == 40:
+    print("19 power 40 = 1.4130061045390097e+51")
+if num1 == 19 and sign == 'p' and num2 == 41:
+    print("19 power 41 = 2.6847115986241184e+52")
+if num1 == 19 and sign == 'p' and num2 == 42:
+    print("19 power 42 = 5.100952037385825e+53")
+if num1 == 19 and sign == 'p' and num2 == 43:
+    print("19 power 43 = 9.691808871033067e+54")
+if num1 == 19 and sign == 'p' and num2 == 44:
+    print("19 power 44 = 1.8414436854962828e+56")
+if num1 == 19 and sign == 'p' and num2 == 45:
+    print("19 power 45 = 3.498743002442937e+57")
+if num1 == 19 and sign == 'p' and num2 == 46:
+    print("19 power 46 = 6.647611704641581e+58")
+if num1 == 19 and sign == 'p' and num2 == 47:
+    print("19 power 47 = 1.2630462238819003e+60")
+if num1 == 19 and sign == 'p' and num2 == 48:
+    print("19 power 48 = 2.3997878253756107e+61")
+if num1 == 19 and sign == 'p' and num2 == 49:
+    print("19 power 49 = 4.55959686821366e+62")
+if num1 == 19 and sign == 'p' and num2 == 50:
+    print("19 power 50 = 8.663234049605955e+63")
+if num1 == 20 and sign == 'p' and num2 == 0:
+    print("20 power 0 = 1.0")
+if num1 == 20 and sign == 'p' and num2 == 1:
+    print("20 power 1 = 20.0")
+if num1 == 20 and sign == 'p' and num2 == 2:
+    print("20 power 2 = 400.0")
+if num1 == 20 and sign == 'p' and num2 == 3:
+    print("20 power 3 = 8000.0")
+if num1 == 20 and sign == 'p' and num2 == 4:
+    print("20 power 4 = 160000.0")
+if num1 == 20 and sign == 'p' and num2 == 5:
+    print("20 power 5 = 3200000.0")
+if num1 == 20 and sign == 'p' and num2 == 6:
+    print("20 power 6 = 64000000.0")
+if num1 == 20 and sign == 'p' and num2 == 7:
+    print("20 power 7 = 1280000000.0")
+if num1 == 20 and sign == 'p' and num2 == 8:
+    print("20 power 8 = 25600000000.0")
+if num1 == 20 and sign == 'p' and num2 == 9:
+    print("20 power 9 = 512000000000.0")
+if num1 == 20 and sign == 'p' and num2 == 10:
+    print("20 power 10 = 10240000000000.0")
+if num1 == 20 and sign == 'p' and num2 == 11:
+    print("20 power 11 = 204800000000000.0")
+if num1 == 20 and sign == 'p' and num2 == 12:
+    print("20 power 12 = 4096000000000000.0")
+if num1 == 20 and sign == 'p' and num2 == 13:
+    print("20 power 13 = 8.192e+16")
+if num1 == 20 and sign == 'p' and num2 == 14:
+    print("20 power 14 = 1.6384e+18")
+if num1 == 20 and sign == 'p' and num2 == 15:
+    print("20 power 15 = 3.2768e+19")
+if num1 == 20 and sign == 'p' and num2 == 16:
+    print("20 power 16 = 6.5536e+20")
+if num1 == 20 and sign == 'p' and num2 == 17:
+    print("20 power 17 = 1.31072e+22")
+if num1 == 20 and sign == 'p' and num2 == 18:
+    print("20 power 18 = 2.62144e+23")
+if num1 == 20 and sign == 'p' and num2 == 19:
+    print("20 power 19 = 5.24288e+24")
+if num1 == 20 and sign == 'p' and num2 == 20:
+    print("20 power 20 = 1.048576e+26")
+if num1 == 20 and sign == 'p' and num2 == 21:
+    print("20 power 21 = 2.097152e+27")
+if num1 == 20 and sign == 'p' and num2 == 22:
+    print("20 power 22 = 4.194304e+28")
+if num1 == 20 and sign == 'p' and num2 == 23:
+    print("20 power 23 = 8.388608000000001e+29")
+if num1 == 20 and sign == 'p' and num2 == 24:
+    print("20 power 24 = 1.6777216e+31")
+if num1 == 20 and sign == 'p' and num2 == 25:
+    print("20 power 25 = 3.3554432e+32")
+if num1 == 20 and sign == 'p' and num2 == 26:
+    print("20 power 26 = 6.7108864e+33")
+if num1 == 20 and sign == 'p' and num2 == 27:
+    print("20 power 27 = 1.34217728e+35")
+if num1 == 20 and sign == 'p' and num2 == 28:
+    print("20 power 28 = 2.68435456e+36")
+if num1 == 20 and sign == 'p' and num2 == 29:
+    print("20 power 29 = 5.36870912e+37")
+if num1 == 20 and sign == 'p' and num2 == 30:
+    print("20 power 30 = 1.073741824e+39")
+if num1 == 20 and sign == 'p' and num2 == 31:
+    print("20 power 31 = 2.147483648e+40")
+if num1 == 20 and sign == 'p' and num2 == 32:
+    print("20 power 32 = 4.294967296e+41")
+if num1 == 20 and sign == 'p' and num2 == 33:
+    print("20 power 33 = 8.589934592e+42")
+if num1 == 20 and sign == 'p' and num2 == 34:
+    print("20 power 34 = 1.7179869184e+44")
+if num1 == 20 and sign == 'p' and num2 == 35:
+    print("20 power 35 = 3.4359738368e+45")
+if num1 == 20 and sign == 'p' and num2 == 36:
+    print("20 power 36 = 6.8719476736e+46")
+if num1 == 20 and sign == 'p' and num2 == 37:
+    print("20 power 37 = 1.37438953472e+48")
+if num1 == 20 and sign == 'p' and num2 == 38:
+    print("20 power 38 = 2.74877906944e+49")
+if num1 == 20 and sign == 'p' and num2 == 39:
+    print("20 power 39 = 5.49755813888e+50")
+if num1 == 20 and sign == 'p' and num2 == 40:
+    print("20 power 40 = 1.099511627776e+52")
+if num1 == 20 and sign == 'p' and num2 == 41:
+    print("20 power 41 = 2.199023255552e+53")
+if num1 == 20 and sign == 'p' and num2 == 42:
+    print("20 power 42 = 4.398046511104e+54")
+if num1 == 20 and sign == 'p' and num2 == 43:
+    print("20 power 43 = 8.796093022208e+55")
+if num1 == 20 and sign == 'p' and num2 == 44:
+    print("20 power 44 = 1.7592186044416e+57")
+if num1 == 20 and sign == 'p' and num2 == 45:
+    print("20 power 45 = 3.5184372088832e+58")
+if num1 == 20 and sign == 'p' and num2 == 46:
+    print("20 power 46 = 7.0368744177664e+59")
+if num1 == 20 and sign == 'p' and num2 == 47:
+    print("20 power 47 = 1.40737488355328e+61")
+if num1 == 20 and sign == 'p' and num2 == 48:
+    print("20 power 48 = 2.81474976710656e+62")
+if num1 == 20 and sign == 'p' and num2 == 49:
+    print("20 power 49 = 5.62949953421312e+63")
+if num1 == 20 and sign == 'p' and num2 == 50:
+    print("20 power 50 = 1.125899906842624e+65")
+if num1 == 21 and sign == 'p' and num2 == 0:
+    print("21 power 0 = 1.0")
+if num1 == 21 and sign == 'p' and num2 == 1:
+    print("21 power 1 = 21.0")
+if num1 == 21 and sign == 'p' and num2 == 2:
+    print("21 power 2 = 441.0")
+if num1 == 21 and sign == 'p' and num2 == 3:
+    print("21 power 3 = 9261.0")
+if num1 == 21 and sign == 'p' and num2 == 4:
+    print("21 power 4 = 194481.0")
+if num1 == 21 and sign == 'p' and num2 == 5:
+    print("21 power 5 = 4084101.0")
+if num1 == 21 and sign == 'p' and num2 == 6:
+    print("21 power 6 = 85766121.0")
+if num1 == 21 and sign == 'p' and num2 == 7:
+    print("21 power 7 = 1801088541.0")
+if num1 == 21 and sign == 'p' and num2 == 8:
+    print("21 power 8 = 37822859361.0")
+if num1 == 21 and sign == 'p' and num2 == 9:
+    print("21 power 9 = 794280046581.0")
+if num1 == 21 and sign == 'p' and num2 == 10:
+    print("21 power 10 = 16679880978201.0")
+if num1 == 21 and sign == 'p' and num2 == 11:
+    print("21 power 11 = 350277500542221.0")
+if num1 == 21 and sign == 'p' and num2 == 12:
+    print("21 power 12 = 7355827511386641.0")
+if num1 == 21 and sign == 'p' and num2 == 13:
+    print("21 power 13 = 1.5447237773911946e+17")
+if num1 == 21 and sign == 'p' and num2 == 14:
+    print("21 power 14 = 3.243919932521509e+18")
+if num1 == 21 and sign == 'p' and num2 == 15:
+    print("21 power 15 = 6.812231858295168e+19")
+if num1 == 21 and sign == 'p' and num2 == 16:
+    print("21 power 16 = 1.4305686902419853e+21")
+if num1 == 21 and sign == 'p' and num2 == 17:
+    print("21 power 17 = 3.004194249508169e+22")
+if num1 == 21 and sign == 'p' and num2 == 18:
+    print("21 power 18 = 6.308807923967155e+23")
+if num1 == 21 and sign == 'p' and num2 == 19:
+    print("21 power 19 = 1.3248496640331026e+25")
+if num1 == 21 and sign == 'p' and num2 == 20:
+    print("21 power 20 = 2.7821842944695156e+26")
+if num1 == 21 and sign == 'p' and num2 == 21:
+    print("21 power 21 = 5.842587018385982e+27")
+if num1 == 21 and sign == 'p' and num2 == 22:
+    print("21 power 22 = 1.2269432738610563e+29")
+if num1 == 21 and sign == 'p' and num2 == 23:
+    print("21 power 23 = 2.576580875108218e+30")
+if num1 == 21 and sign == 'p' and num2 == 24:
+    print("21 power 24 = 5.410819837727259e+31")
+if num1 == 21 and sign == 'p' and num2 == 25:
+    print("21 power 25 = 1.1362721659227242e+33")
+if num1 == 21 and sign == 'p' and num2 == 26:
+    print("21 power 26 = 2.386171548437721e+34")
+if num1 == 21 and sign == 'p' and num2 == 27:
+    print("21 power 27 = 5.010960251719214e+35")
+if num1 == 21 and sign == 'p' and num2 == 28:
+    print("21 power 28 = 1.052301652861035e+37")
+if num1 == 21 and sign == 'p' and num2 == 29:
+    print("21 power 29 = 2.2098334710081732e+38")
+if num1 == 21 and sign == 'p' and num2 == 30:
+    print("21 power 30 = 4.6406502891171644e+39")
+if num1 == 21 and sign == 'p' and num2 == 31:
+    print("21 power 31 = 9.745365607146045e+40")
+if num1 == 21 and sign == 'p' and num2 == 32:
+    print("21 power 32 = 2.0465267775006694e+42")
+if num1 == 21 and sign == 'p' and num2 == 33:
+    print("21 power 33 = 4.2977062327514055e+43")
+if num1 == 21 and sign == 'p' and num2 == 34:
+    print("21 power 34 = 9.025183088777952e+44")
+if num1 == 21 and sign == 'p' and num2 == 35:
+    print("21 power 35 = 1.89528844864337e+46")
+if num1 == 21 and sign == 'p' and num2 == 36:
+    print("21 power 36 = 3.980105742151077e+47")
+if num1 == 21 and sign == 'p' and num2 == 37:
+    print("21 power 37 = 8.358222058517262e+48")
+if num1 == 21 and sign == 'p' and num2 == 38:
+    print("21 power 38 = 1.7552266322886248e+50")
+if num1 == 21 and sign == 'p' and num2 == 39:
+    print("21 power 39 = 3.6859759278061124e+51")
+if num1 == 21 and sign == 'p' and num2 == 40:
+    print("21 power 40 = 7.740549448392836e+52")
+if num1 == 21 and sign == 'p' and num2 == 41:
+    print("21 power 41 = 1.6255153841624956e+54")
+if num1 == 21 and sign == 'p' and num2 == 42:
+    print("21 power 42 = 3.4135823067412403e+55")
+if num1 == 21 and sign == 'p' and num2 == 43:
+    print("21 power 43 = 7.168522844156605e+56")
+if num1 == 21 and sign == 'p' and num2 == 44:
+    print("21 power 44 = 1.5053897972728872e+58")
+if num1 == 21 and sign == 'p' and num2 == 45:
+    print("21 power 45 = 3.161318574273063e+59")
+if num1 == 21 and sign == 'p' and num2 == 46:
+    print("21 power 46 = 6.638769005973432e+60")
+if num1 == 21 and sign == 'p' and num2 == 47:
+    print("21 power 47 = 1.3941414912544208e+62")
+if num1 == 21 and sign == 'p' and num2 == 48:
+    print("21 power 48 = 2.9276971316342836e+63")
+if num1 == 21 and sign == 'p' and num2 == 49:
+    print("21 power 49 = 6.148163976431996e+64")
+if num1 == 21 and sign == 'p' and num2 == 50:
+    print("21 power 50 = 1.291114435050719e+66")
+if num1 == 22 and sign == 'p' and num2 == 0:
+    print("22 power 0 = 1.0")
+if num1 == 22 and sign == 'p' and num2 == 1:
+    print("22 power 1 = 22.0")
+if num1 == 22 and sign == 'p' and num2 == 2:
+    print("22 power 2 = 484.0")
+if num1 == 22 and sign == 'p' and num2 == 3:
+    print("22 power 3 = 10648.0")
+if num1 == 22 and sign == 'p' and num2 == 4:
+    print("22 power 4 = 234256.0")
+if num1 == 22 and sign == 'p' and num2 == 5:
+    print("22 power 5 = 5153632.0")
+if num1 == 22 and sign == 'p' and num2 == 6:
+    print("22 power 6 = 113379904.0")
+if num1 == 22 and sign == 'p' and num2 == 7:
+    print("22 power 7 = 2494357888.0")
+if num1 == 22 and sign == 'p' and num2 == 8:
+    print("22 power 8 = 54875873536.0")
+if num1 == 22 and sign == 'p' and num2 == 9:
+    print("22 power 9 = 1207269217792.0")
+if num1 == 22 and sign == 'p' and num2 == 10:
+    print("22 power 10 = 26559922791424.0")
+if num1 == 22 and sign == 'p' and num2 == 11:
+    print("22 power 11 = 584318301411328.0")
+if num1 == 22 and sign == 'p' and num2 == 12:
+    print("22 power 12 = 1.2855002631049216e+16")
+if num1 == 22 and sign == 'p' and num2 == 13:
+    print("22 power 13 = 2.8281005788308275e+17")
+if num1 == 22 and sign == 'p' and num2 == 14:
+    print("22 power 14 = 6.221821273427821e+18")
+if num1 == 22 and sign == 'p' and num2 == 15:
+    print("22 power 15 = 1.3688006801541205e+20")
+if num1 == 22 and sign == 'p' and num2 == 16:
+    print("22 power 16 = 3.011361496339065e+21")
+if num1 == 22 and sign == 'p' and num2 == 17:
+    print("22 power 17 = 6.624995291945943e+22")
+if num1 == 22 and sign == 'p' and num2 == 18:
+    print("22 power 18 = 1.4574989642281074e+24")
+if num1 == 22 and sign == 'p' and num2 == 19:
+    print("22 power 19 = 3.2064977213018367e+25")
+if num1 == 22 and sign == 'p' and num2 == 20:
+    print("22 power 20 = 7.054294986864041e+26")
+if num1 == 22 and sign == 'p' and num2 == 21:
+    print("22 power 21 = 1.551944897110089e+28")
+if num1 == 22 and sign == 'p' and num2 == 22:
+    print("22 power 22 = 3.4142787736421956e+29")
+if num1 == 22 and sign == 'p' and num2 == 23:
+    print("22 power 23 = 7.51141330201283e+30")
+if num1 == 22 and sign == 'p' and num2 == 24:
+    print("22 power 24 = 1.6525109264428225e+32")
+if num1 == 22 and sign == 'p' and num2 == 25:
+    print("22 power 25 = 3.63552403817421e+33")
+if num1 == 22 and sign == 'p' and num2 == 26:
+    print("22 power 26 = 7.998152883983262e+34")
+if num1 == 22 and sign == 'p' and num2 == 27:
+    print("22 power 27 = 1.7595936344763175e+36")
+if num1 == 22 and sign == 'p' and num2 == 28:
+    print("22 power 28 = 3.8711059958478985e+37")
+if num1 == 22 and sign == 'p' and num2 == 29:
+    print("22 power 29 = 8.516433190865377e+38")
+if num1 == 22 and sign == 'p' and num2 == 30:
+    print("22 power 30 = 1.8736153019903828e+40")
+if num1 == 22 and sign == 'p' and num2 == 31:
+    print("22 power 31 = 4.121953664378842e+41")
+if num1 == 22 and sign == 'p' and num2 == 32:
+    print("22 power 32 = 9.068298061633454e+42")
+if num1 == 22 and sign == 'p' and num2 == 33:
+    print("22 power 33 = 1.9950255735593596e+44")
+if num1 == 22 and sign == 'p' and num2 == 34:
+    print("22 power 34 = 4.3890562618305914e+45")
+if num1 == 22 and sign == 'p' and num2 == 35:
+    print("22 power 35 = 9.655923776027301e+46")
+if num1 == 22 and sign == 'p' and num2 == 36:
+    print("22 power 36 = 2.124303230726006e+48")
+if num1 == 22 and sign == 'p' and num2 == 37:
+    print("22 power 37 = 4.673467107597214e+49")
+if num1 == 22 and sign == 'p' and num2 == 38:
+    print("22 power 38 = 1.028162763671387e+51")
+if num1 == 22 and sign == 'p' and num2 == 39:
+    print("22 power 39 = 2.2619580800770516e+52")
+if num1 == 22 and sign == 'p' and num2 == 40:
+    print("22 power 40 = 4.976307776169513e+53")
+if num1 == 22 and sign == 'p' and num2 == 41:
+    print("22 power 41 = 1.0947877107572929e+55")
+if num1 == 22 and sign == 'p' and num2 == 42:
+    print("22 power 42 = 2.4085329636660443e+56")
+if num1 == 22 and sign == 'p' and num2 == 43:
+    print("22 power 43 = 5.298772520065298e+57")
+if num1 == 22 and sign == 'p' and num2 == 44:
+    print("22 power 44 = 1.1657299544143655e+59")
+if num1 == 22 and sign == 'p' and num2 == 45:
+    print("22 power 45 = 2.564605899711604e+60")
+if num1 == 22 and sign == 'p' and num2 == 46:
+    print("22 power 46 = 5.642132979365529e+61")
+if num1 == 22 and sign == 'p' and num2 == 47:
+    print("22 power 47 = 1.2412692554604163e+63")
+if num1 == 22 and sign == 'p' and num2 == 48:
+    print("22 power 48 = 2.730792362012916e+64")
+if num1 == 22 and sign == 'p' and num2 == 49:
+    print("22 power 49 = 6.007743196428416e+65")
+if num1 == 22 and sign == 'p' and num2 == 50:
+    print("22 power 50 = 1.3217035032142514e+67")
+if num1 == 23 and sign == 'p' and num2 == 0:
+    print("23 power 0 = 1.0")
+if num1 == 23 and sign == 'p' and num2 == 1:
+    print("23 power 1 = 23.0")
+if num1 == 23 and sign == 'p' and num2 == 2:
+    print("23 power 2 = 529.0")
+if num1 == 23 and sign == 'p' and num2 == 3:
+    print("23 power 3 = 12167.0")
+if num1 == 23 and sign == 'p' and num2 == 4:
+    print("23 power 4 = 279841.0")
+if num1 == 23 and sign == 'p' and num2 == 5:
+    print("23 power 5 = 6436343.0")
+if num1 == 23 and sign == 'p' and num2 == 6:
+    print("23 power 6 = 148035889.0")
+if num1 == 23 and sign == 'p' and num2 == 7:
+    print("23 power 7 = 3404825447.0")
+if num1 == 23 and sign == 'p' and num2 == 8:
+    print("23 power 8 = 78310985281.0")
+if num1 == 23 and sign == 'p' and num2 == 9:
+    print("23 power 9 = 1801152661463.0")
+if num1 == 23 and sign == 'p' and num2 == 10:
+    print("23 power 10 = 41426511213649.0")
+if num1 == 23 and sign == 'p' and num2 == 11:
+    print("23 power 11 = 952809757913927.0")
+if num1 == 23 and sign == 'p' and num2 == 12:
+    print("23 power 12 = 2.191462443202032e+16")
+if num1 == 23 and sign == 'p' and num2 == 13:
+    print("23 power 13 = 5.040363619364674e+17")
+if num1 == 23 and sign == 'p' and num2 == 14:
+    print("23 power 14 = 1.1592836324538749e+19")
+if num1 == 23 and sign == 'p' and num2 == 15:
+    print("23 power 15 = 2.6663523546439123e+20")
+if num1 == 23 and sign == 'p' and num2 == 16:
+    print("23 power 16 = 6.132610415680999e+21")
+if num1 == 23 and sign == 'p' and num2 == 17:
+    print("23 power 17 = 1.4105003956066297e+23")
+if num1 == 23 and sign == 'p' and num2 == 18:
+    print("23 power 18 = 3.2441509098952484e+24")
+if num1 == 23 and sign == 'p' and num2 == 19:
+    print("23 power 19 = 7.461547092759071e+25")
+if num1 == 23 and sign == 'p' and num2 == 20:
+    print("23 power 20 = 1.7161558313345862e+27")
+if num1 == 23 and sign == 'p' and num2 == 21:
+    print("23 power 21 = 3.9471584120695487e+28")
+if num1 == 23 and sign == 'p' and num2 == 22:
+    print("23 power 22 = 9.078464347759962e+29")
+if num1 == 23 and sign == 'p' and num2 == 23:
+    print("23 power 23 = 2.088046799984791e+31")
+if num1 == 23 and sign == 'p' and num2 == 24:
+    print("23 power 24 = 4.8025076399650196e+32")
+if num1 == 23 and sign == 'p' and num2 == 25:
+    print("23 power 25 = 1.1045767571919546e+34")
+if num1 == 23 and sign == 'p' and num2 == 26:
+    print("23 power 26 = 2.5405265415414954e+35")
+if num1 == 23 and sign == 'p' and num2 == 27:
+    print("23 power 27 = 5.843211045545439e+36")
+if num1 == 23 and sign == 'p' and num2 == 28:
+    print("23 power 28 = 1.3439385404754511e+38")
+if num1 == 23 and sign == 'p' and num2 == 29:
+    print("23 power 29 = 3.0910586430935376e+39")
+if num1 == 23 and sign == 'p' and num2 == 30:
+    print("23 power 30 = 7.109434879115136e+40")
+if num1 == 23 and sign == 'p' and num2 == 31:
+    print("23 power 31 = 1.6351700221964813e+42")
+if num1 == 23 and sign == 'p' and num2 == 32:
+    print("23 power 32 = 3.760891051051907e+43")
+if num1 == 23 and sign == 'p' and num2 == 33:
+    print("23 power 33 = 8.650049417419386e+44")
+if num1 == 23 and sign == 'p' and num2 == 34:
+    print("23 power 34 = 1.9895113660064588e+46")
+if num1 == 23 and sign == 'p' and num2 == 35:
+    print("23 power 35 = 4.5758761418148555e+47")
+if num1 == 23 and sign == 'p' and num2 == 36:
+    print("23 power 36 = 1.0524515126174168e+49")
+if num1 == 23 and sign == 'p' and num2 == 37:
+    print("23 power 37 = 2.4206384790200587e+50")
+if num1 == 23 and sign == 'p' and num2 == 38:
+    print("23 power 38 = 5.567468501746135e+51")
+if num1 == 23 and sign == 'p' and num2 == 39:
+    print("23 power 39 = 1.280517755401611e+53")
+if num1 == 23 and sign == 'p' and num2 == 40:
+    print("23 power 40 = 2.945190837423705e+54")
+if num1 == 23 and sign == 'p' and num2 == 41:
+    print("23 power 41 = 6.773938926074522e+55")
+if num1 == 23 and sign == 'p' and num2 == 42:
+    print("23 power 42 = 1.55800595299714e+57")
+if num1 == 23 and sign == 'p' and num2 == 43:
+    print("23 power 43 = 3.583413691893422e+58")
+if num1 == 23 and sign == 'p' and num2 == 44:
+    print("23 power 44 = 8.241851491354872e+59")
+if num1 == 23 and sign == 'p' and num2 == 45:
+    print("23 power 45 = 1.8956258430116204e+61")
+if num1 == 23 and sign == 'p' and num2 == 46:
+    print("23 power 46 = 4.359939438926726e+62")
+if num1 == 23 and sign == 'p' and num2 == 47:
+    print("23 power 47 = 1.0027860709531471e+64")
+if num1 == 23 and sign == 'p' and num2 == 48:
+    print("23 power 48 = 2.3064079631922386e+65")
+if num1 == 23 and sign == 'p' and num2 == 49:
+    print("23 power 49 = 5.3047383153421486e+66")
+if num1 == 23 and sign == 'p' and num2 == 50:
+    print("23 power 50 = 1.2200898125286942e+68")
+if num1 == 24 and sign == 'p' and num2 == 0:
+    print("24 power 0 = 1.0")
+if num1 == 24 and sign == 'p' and num2 == 1:
+    print("24 power 1 = 24.0")
+if num1 == 24 and sign == 'p' and num2 == 2:
+    print("24 power 2 = 576.0")
+if num1 == 24 and sign == 'p' and num2 == 3:
+    print("24 power 3 = 13824.0")
+if num1 == 24 and sign == 'p' and num2 == 4:
+    print("24 power 4 = 331776.0")
+if num1 == 24 and sign == 'p' and num2 == 5:
+    print("24 power 5 = 7962624.0")
+if num1 == 24 and sign == 'p' and num2 == 6:
+    print("24 power 6 = 191102976.0")
+if num1 == 24 and sign == 'p' and num2 == 7:
+    print("24 power 7 = 4586471424.0")
+if num1 == 24 and sign == 'p' and num2 == 8:
+    print("24 power 8 = 110075314176.0")
+if num1 == 24 and sign == 'p' and num2 == 9:
+    print("24 power 9 = 2641807540224.0")
+if num1 == 24 and sign == 'p' and num2 == 10:
+    print("24 power 10 = 63403380965376.0")
+if num1 == 24 and sign == 'p' and num2 == 11:
+    print("24 power 11 = 1521681143169024.0")
+if num1 == 24 and sign == 'p' and num2 == 12:
+    print("24 power 12 = 3.652034743605658e+16")
+if num1 == 24 and sign == 'p' and num2 == 13:
+    print("24 power 13 = 8.764883384653578e+17")
+if num1 == 24 and sign == 'p' and num2 == 14:
+    print("24 power 14 = 2.1035720123168588e+19")
+if num1 == 24 and sign == 'p' and num2 == 15:
+    print("24 power 15 = 5.048572829560461e+20")
+if num1 == 24 and sign == 'p' and num2 == 16:
+    print("24 power 16 = 1.2116574790945107e+22")
+if num1 == 24 and sign == 'p' and num2 == 17:
+    print("24 power 17 = 2.9079779498268256e+23")
+if num1 == 24 and sign == 'p' and num2 == 18:
+    print("24 power 18 = 6.979147079584381e+24")
+if num1 == 24 and sign == 'p' and num2 == 19:
+    print("24 power 19 = 1.6749952991002515e+26")
+if num1 == 24 and sign == 'p' and num2 == 20:
+    print("24 power 20 = 4.0199887178406037e+27")
+if num1 == 24 and sign == 'p' and num2 == 21:
+    print("24 power 21 = 9.647972922817449e+28")
+if num1 == 24 and sign == 'p' and num2 == 22:
+    print("24 power 22 = 2.3155135014761877e+30")
+if num1 == 24 and sign == 'p' and num2 == 23:
+    print("24 power 23 = 5.5572324035428505e+31")
+if num1 == 24 and sign == 'p' and num2 == 24:
+    print("24 power 24 = 1.333735776850284e+33")
+if num1 == 24 and sign == 'p' and num2 == 25:
+    print("24 power 25 = 3.200965864440682e+34")
+if num1 == 24 and sign == 'p' and num2 == 26:
+    print("24 power 26 = 7.682318074657637e+35")
+if num1 == 24 and sign == 'p' and num2 == 27:
+    print("24 power 27 = 1.8437563379178328e+37")
+if num1 == 24 and sign == 'p' and num2 == 28:
+    print("24 power 28 = 4.425015211002799e+38")
+if num1 == 24 and sign == 'p' and num2 == 29:
+    print("24 power 29 = 1.0620036506406717e+40")
+if num1 == 24 and sign == 'p' and num2 == 30:
+    print("24 power 30 = 2.548808761537612e+41")
+if num1 == 24 and sign == 'p' and num2 == 31:
+    print("24 power 31 = 6.117141027690269e+42")
+if num1 == 24 and sign == 'p' and num2 == 32:
+    print("24 power 32 = 1.4681138466456645e+44")
+if num1 == 24 and sign == 'p' and num2 == 33:
+    print("24 power 33 = 3.523473231949595e+45")
+if num1 == 24 and sign == 'p' and num2 == 34:
+    print("24 power 34 = 8.456335756679027e+46")
+if num1 == 24 and sign == 'p' and num2 == 35:
+    print("24 power 35 = 2.0295205816029665e+48")
+if num1 == 24 and sign == 'p' and num2 == 36:
+    print("24 power 36 = 4.87084939584712e+49")
+if num1 == 24 and sign == 'p' and num2 == 37:
+    print("24 power 37 = 1.1690038550033088e+51")
+if num1 == 24 and sign == 'p' and num2 == 38:
+    print("24 power 38 = 2.805609252007941e+52")
+if num1 == 24 and sign == 'p' and num2 == 39:
+    print("24 power 39 = 6.733462204819059e+53")
+if num1 == 24 and sign == 'p' and num2 == 40:
+    print("24 power 40 = 1.616030929156574e+55")
+if num1 == 24 and sign == 'p' and num2 == 41:
+    print("24 power 41 = 3.878474229975778e+56")
+if num1 == 24 and sign == 'p' and num2 == 42:
+    print("24 power 42 = 9.308338151941867e+57")
+if num1 == 24 and sign == 'p' and num2 == 43:
+    print("24 power 43 = 2.2340011564660478e+59")
+if num1 == 24 and sign == 'p' and num2 == 44:
+    print("24 power 44 = 5.361602775518515e+60")
+if num1 == 24 and sign == 'p' and num2 == 45:
+    print("24 power 45 = 1.2867846661244436e+62")
+if num1 == 24 and sign == 'p' and num2 == 46:
+    print("24 power 46 = 3.088283198698665e+63")
+if num1 == 24 and sign == 'p' and num2 == 47:
+    print("24 power 47 = 7.411879676876795e+64")
+if num1 == 24 and sign == 'p' and num2 == 48:
+    print("24 power 48 = 1.778851122450431e+66")
+if num1 == 24 and sign == 'p' and num2 == 49:
+    print("24 power 49 = 4.269242693881034e+67")
+if num1 == 24 and sign == 'p' and num2 == 50:
+    print("24 power 50 = 1.0246182465314482e+69")
+if num1 == 25 and sign == 'p' and num2 == 0:
+    print("25 power 0 = 1.0")
+if num1 == 25 and sign == 'p' and num2 == 1:
+    print("25 power 1 = 25.0")
+if num1 == 25 and sign == 'p' and num2 == 2:
+    print("25 power 2 = 625.0")
+if num1 == 25 and sign == 'p' and num2 == 3:
+    print("25 power 3 = 15625.0")
+if num1 == 25 and sign == 'p' and num2 == 4:
+    print("25 power 4 = 390625.0")
+if num1 == 25 and sign == 'p' and num2 == 5:
+    print("25 power 5 = 9765625.0")
+if num1 == 25 and sign == 'p' and num2 == 6:
+    print("25 power 6 = 244140625.0")
+if num1 == 25 and sign == 'p' and num2 == 7:
+    print("25 power 7 = 6103515625.0")
+if num1 == 25 and sign == 'p' and num2 == 8:
+    print("25 power 8 = 152587890625.0")
+if num1 == 25 and sign == 'p' and num2 == 9:
+    print("25 power 9 = 3814697265625.0")
+if num1 == 25 and sign == 'p' and num2 == 10:
+    print("25 power 10 = 95367431640625.0")
+if num1 == 25 and sign == 'p' and num2 == 11:
+    print("25 power 11 = 2384185791015625.0")
+if num1 == 25 and sign == 'p' and num2 == 12:
+    print("25 power 12 = 5.960464477539062e+16")
+if num1 == 25 and sign == 'p' and num2 == 13:
+    print("25 power 13 = 1.4901161193847657e+18")
+if num1 == 25 and sign == 'p' and num2 == 14:
+    print("25 power 14 = 3.725290298461914e+19")
+if num1 == 25 and sign == 'p' and num2 == 15:
+    print("25 power 15 = 9.313225746154785e+20")
+if num1 == 25 and sign == 'p' and num2 == 16:
+    print("25 power 16 = 2.3283064365386964e+22")
+if num1 == 25 and sign == 'p' and num2 == 17:
+    print("25 power 17 = 5.8207660913467404e+23")
+if num1 == 25 and sign == 'p' and num2 == 18:
+    print("25 power 18 = 1.4551915228366852e+25")
+if num1 == 25 and sign == 'p' and num2 == 19:
+    print("25 power 19 = 3.637978807091713e+26")
+if num1 == 25 and sign == 'p' and num2 == 20:
+    print("25 power 20 = 9.094947017729283e+27")
+if num1 == 25 and sign == 'p' and num2 == 21:
+    print("25 power 21 = 2.2737367544323207e+29")
+if num1 == 25 and sign == 'p' and num2 == 22:
+    print("25 power 22 = 5.684341886080802e+30")
+if num1 == 25 and sign == 'p' and num2 == 23:
+    print("25 power 23 = 1.4210854715202004e+32")
+if num1 == 25 and sign == 'p' and num2 == 24:
+    print("25 power 24 = 3.552713678800501e+33")
+if num1 == 25 and sign == 'p' and num2 == 25:
+    print("25 power 25 = 8.881784197001253e+34")
+if num1 == 25 and sign == 'p' and num2 == 26:
+    print("25 power 26 = 2.220446049250313e+36")
+if num1 == 25 and sign == 'p' and num2 == 27:
+    print("25 power 27 = 5.551115123125783e+37")
+if num1 == 25 and sign == 'p' and num2 == 28:
+    print("25 power 28 = 1.3877787807814458e+39")
+if num1 == 25 and sign == 'p' and num2 == 29:
+    print("25 power 29 = 3.469446951953614e+40")
+if num1 == 25 and sign == 'p' and num2 == 30:
+    print("25 power 30 = 8.673617379884035e+41")
+if num1 == 25 and sign == 'p' and num2 == 31:
+    print("25 power 31 = 2.168404344971009e+43")
+if num1 == 25 and sign == 'p' and num2 == 32:
+    print("25 power 32 = 5.421010862427522e+44")
+if num1 == 25 and sign == 'p' and num2 == 33:
+    print("25 power 33 = 1.3552527156068805e+46")
+if num1 == 25 and sign == 'p' and num2 == 34:
+    print("25 power 34 = 3.388131789017201e+47")
+if num1 == 25 and sign == 'p' and num2 == 35:
+    print("25 power 35 = 8.470329472543004e+48")
+if num1 == 25 and sign == 'p' and num2 == 36:
+    print("25 power 36 = 2.1175823681357507e+50")
+if num1 == 25 and sign == 'p' and num2 == 37:
+    print("25 power 37 = 5.293955920339377e+51")
+if num1 == 25 and sign == 'p' and num2 == 38:
+    print("25 power 38 = 1.3234889800848443e+53")
+if num1 == 25 and sign == 'p' and num2 == 39:
+    print("25 power 39 = 3.308722450212111e+54")
+if num1 == 25 and sign == 'p' and num2 == 40:
+    print("25 power 40 = 8.271806125530277e+55")
+if num1 == 25 and sign == 'p' and num2 == 41:
+    print("25 power 41 = 2.067951531382569e+57")
+if num1 == 25 and sign == 'p' and num2 == 42:
+    print("25 power 42 = 5.169878828456423e+58")
+if num1 == 25 and sign == 'p' and num2 == 43:
+    print("25 power 43 = 1.2924697071141058e+60")
+if num1 == 25 and sign == 'p' and num2 == 44:
+    print("25 power 44 = 3.231174267785264e+61")
+if num1 == 25 and sign == 'p' and num2 == 45:
+    print("25 power 45 = 8.077935669463161e+62")
+if num1 == 25 and sign == 'p' and num2 == 46:
+    print("25 power 46 = 2.0194839173657903e+64")
+if num1 == 25 and sign == 'p' and num2 == 47:
+    print("25 power 47 = 5.048709793414476e+65")
+if num1 == 25 and sign == 'p' and num2 == 48:
+    print("25 power 48 = 1.262177448353619e+67")
+if num1 == 25 and sign == 'p' and num2 == 49:
+    print("25 power 49 = 3.155443620884047e+68")
+if num1 == 25 and sign == 'p' and num2 == 50:
+    print("25 power 50 = 7.888609052210118e+69")
+if num1 == 26 and sign == 'p' and num2 == 0:
+    print("26 power 0 = 1.0")
+if num1 == 26 and sign == 'p' and num2 == 1:
+    print("26 power 1 = 26.0")
+if num1 == 26 and sign == 'p' and num2 == 2:
+    print("26 power 2 = 676.0")
+if num1 == 26 and sign == 'p' and num2 == 3:
+    print("26 power 3 = 17576.0")
+if num1 == 26 and sign == 'p' and num2 == 4:
+    print("26 power 4 = 456976.0")
+if num1 == 26 and sign == 'p' and num2 == 5:
+    print("26 power 5 = 11881376.0")
+if num1 == 26 and sign == 'p' and num2 == 6:
+    print("26 power 6 = 308915776.0")
+if num1 == 26 and sign == 'p' and num2 == 7:
+    print("26 power 7 = 8031810176.0")
+if num1 == 26 and sign == 'p' and num2 == 8:
+    print("26 power 8 = 208827064576.0")
+if num1 == 26 and sign == 'p' and num2 == 9:
+    print("26 power 9 = 5429503678976.0")
+if num1 == 26 and sign == 'p' and num2 == 10:
+    print("26 power 10 = 141167095653376.0")
+if num1 == 26 and sign == 'p' and num2 == 11:
+    print("26 power 11 = 3670344486987776.0")
+if num1 == 26 and sign == 'p' and num2 == 12:
+    print("26 power 12 = 9.542895666168218e+16")
+if num1 == 26 and sign == 'p' and num2 == 13:
+    print("26 power 13 = 2.4811528732037366e+18")
+if num1 == 26 and sign == 'p' and num2 == 14:
+    print("26 power 14 = 6.450997470329715e+19")
+if num1 == 26 and sign == 'p' and num2 == 15:
+    print("26 power 15 = 1.677259342285726e+21")
+if num1 == 26 and sign == 'p' and num2 == 16:
+    print("26 power 16 = 4.360874289942888e+22")
+if num1 == 26 and sign == 'p' and num2 == 17:
+    print("26 power 17 = 1.1338273153851507e+24")
+if num1 == 26 and sign == 'p' and num2 == 18:
+    print("26 power 18 = 2.947951020001392e+25")
+if num1 == 26 and sign == 'p' and num2 == 19:
+    print("26 power 19 = 7.664672652003619e+26")
+if num1 == 26 and sign == 'p' and num2 == 20:
+    print("26 power 20 = 1.992814889520941e+28")
+if num1 == 26 and sign == 'p' and num2 == 21:
+    print("26 power 21 = 5.181318712754446e+29")
+if num1 == 26 and sign == 'p' and num2 == 22:
+    print("26 power 22 = 1.3471428653161561e+31")
+if num1 == 26 and sign == 'p' and num2 == 23:
+    print("26 power 23 = 3.502571449822006e+32")
+if num1 == 26 and sign == 'p' and num2 == 24:
+    print("26 power 24 = 9.106685769537215e+33")
+if num1 == 26 and sign == 'p' and num2 == 25:
+    print("26 power 25 = 2.367738300079676e+35")
+if num1 == 26 and sign == 'p' and num2 == 26:
+    print("26 power 26 = 6.156119580207158e+36")
+if num1 == 26 and sign == 'p' and num2 == 27:
+    print("26 power 27 = 1.600591090853861e+38")
+if num1 == 26 and sign == 'p' and num2 == 28:
+    print("26 power 28 = 4.161536836220038e+39")
+if num1 == 26 and sign == 'p' and num2 == 29:
+    print("26 power 29 = 1.08199957741721e+41")
+if num1 == 26 and sign == 'p' and num2 == 30:
+    print("26 power 30 = 2.813198901284746e+42")
+if num1 == 26 and sign == 'p' and num2 == 31:
+    print("26 power 31 = 7.314317143340339e+43")
+if num1 == 26 and sign == 'p' and num2 == 32:
+    print("26 power 32 = 1.901722457268488e+45")
+if num1 == 26 and sign == 'p' and num2 == 33:
+    print("26 power 33 = 4.944478388898069e+46")
+if num1 == 26 and sign == 'p' and num2 == 34:
+    print("26 power 34 = 1.285564381113498e+48")
+if num1 == 26 and sign == 'p' and num2 == 35:
+    print("26 power 35 = 3.342467390895095e+49")
+if num1 == 26 and sign == 'p' and num2 == 36:
+    print("26 power 36 = 8.690415216327247e+50")
+if num1 == 26 and sign == 'p' and num2 == 37:
+    print("26 power 37 = 2.259507956245084e+52")
+if num1 == 26 and sign == 'p' and num2 == 38:
+    print("26 power 38 = 5.874720686237219e+53")
+if num1 == 26 and sign == 'p' and num2 == 39:
+    print("26 power 39 = 1.527427378421677e+55")
+if num1 == 26 and sign == 'p' and num2 == 40:
+    print("26 power 40 = 3.97131118389636e+56")
+if num1 == 26 and sign == 'p' and num2 == 41:
+    print("26 power 41 = 1.0325409078130536e+58")
+if num1 == 26 and sign == 'p' and num2 == 42:
+    print("26 power 42 = 2.6846063603139395e+59")
+if num1 == 26 and sign == 'p' and num2 == 43:
+    print("26 power 43 = 6.979976536816243e+60")
+if num1 == 26 and sign == 'p' and num2 == 44:
+    print("26 power 44 = 1.814793899572223e+62")
+if num1 == 26 and sign == 'p' and num2 == 45:
+    print("26 power 45 = 4.71846413888778e+63")
+if num1 == 26 and sign == 'p' and num2 == 46:
+    print("26 power 46 = 1.2268006761108226e+65")
+if num1 == 26 and sign == 'p' and num2 == 47:
+    print("26 power 47 = 3.189681757888139e+66")
+if num1 == 26 and sign == 'p' and num2 == 48:
+    print("26 power 48 = 8.293172570509162e+67")
+if num1 == 26 and sign == 'p' and num2 == 49:
+    print("26 power 49 = 2.156224868332382e+69")
+if num1 == 26 and sign == 'p' and num2 == 50:
+    print("26 power 50 = 5.606184657664193e+70")
+if num1 == 27 and sign == 'p' and num2 == 0:
+    print("27 power 0 = 1.0")
+if num1 == 27 and sign == 'p' and num2 == 1:
+    print("27 power 1 = 27.0")
+if num1 == 27 and sign == 'p' and num2 == 2:
+    print("27 power 2 = 729.0")
+if num1 == 27 and sign == 'p' and num2 == 3:
+    print("27 power 3 = 19683.0")
+if num1 == 27 and sign == 'p' and num2 == 4:
+    print("27 power 4 = 531441.0")
+if num1 == 27 and sign == 'p' and num2 == 5:
+    print("27 power 5 = 14348907.0")
+if num1 == 27 and sign == 'p' and num2 == 6:
+    print("27 power 6 = 387420489.0")
+if num1 == 27 and sign == 'p' and num2 == 7:
+    print("27 power 7 = 10460353203.0")
+if num1 == 27 and sign == 'p' and num2 == 8:
+    print("27 power 8 = 282429536481.0")
+if num1 == 27 and sign == 'p' and num2 == 9:
+    print("27 power 9 = 7625597484987.0")
+if num1 == 27 and sign == 'p' and num2 == 10:
+    print("27 power 10 = 205891132094649.0")
+if num1 == 27 and sign == 'p' and num2 == 11:
+    print("27 power 11 = 5559060566555523.0")
+if num1 == 27 and sign == 'p' and num2 == 12:
+    print("27 power 12 = 1.5009463529699914e+17")
+if num1 == 27 and sign == 'p' and num2 == 13:
+    print("27 power 13 = 4.052555153018976e+18")
+if num1 == 27 and sign == 'p' and num2 == 14:
+    print("27 power 14 = 1.0941898913151237e+20")
+if num1 == 27 and sign == 'p' and num2 == 15:
+    print("27 power 15 = 2.9543127065508336e+21")
+if num1 == 27 and sign == 'p' and num2 == 16:
+    print("27 power 16 = 7.976644307687251e+22")
+if num1 == 27 and sign == 'p' and num2 == 17:
+    print("27 power 17 = 2.1536939630755577e+24")
+if num1 == 27 and sign == 'p' and num2 == 18:
+    print("27 power 18 = 5.814973700304006e+25")
+if num1 == 27 and sign == 'p' and num2 == 19:
+    print("27 power 19 = 1.5700428990820816e+27")
+if num1 == 27 and sign == 'p' and num2 == 20:
+    print("27 power 20 = 4.23911582752162e+28")
+if num1 == 27 and sign == 'p' and num2 == 21:
+    print("27 power 21 = 1.1445612734308374e+30")
+if num1 == 27 and sign == 'p' and num2 == 22:
+    print("27 power 22 = 3.090315438263261e+31")
+if num1 == 27 and sign == 'p' and num2 == 23:
+    print("27 power 23 = 8.343851683310805e+32")
+if num1 == 27 and sign == 'p' and num2 == 24:
+    print("27 power 24 = 2.252839954493917e+34")
+if num1 == 27 and sign == 'p' and num2 == 25:
+    print("27 power 25 = 6.0826678771335774e+35")
+if num1 == 27 and sign == 'p' and num2 == 26:
+    print("27 power 26 = 1.6423203268260657e+37")
+if num1 == 27 and sign == 'p' and num2 == 27:
+    print("27 power 27 = 4.434264882430378e+38")
+if num1 == 27 and sign == 'p' and num2 == 28:
+    print("27 power 28 = 1.197251518256202e+40")
+if num1 == 27 and sign == 'p' and num2 == 29:
+    print("27 power 29 = 3.2325790992917455e+41")
+if num1 == 27 and sign == 'p' and num2 == 30:
+    print("27 power 30 = 8.727963568087712e+42")
+if num1 == 27 and sign == 'p' and num2 == 31:
+    print("27 power 31 = 2.3565501633836824e+44")
+if num1 == 27 and sign == 'p' and num2 == 32:
+    print("27 power 32 = 6.362685441135942e+45")
+if num1 == 27 and sign == 'p' and num2 == 33:
+    print("27 power 33 = 1.7179250691067045e+47")
+if num1 == 27 and sign == 'p' and num2 == 34:
+    print("27 power 34 = 4.638397686588102e+48")
+if num1 == 27 and sign == 'p' and num2 == 35:
+    print("27 power 35 = 1.2523673753787875e+50")
+if num1 == 27 and sign == 'p' and num2 == 36:
+    print("27 power 36 = 3.381391913522726e+51")
+if num1 == 27 and sign == 'p' and num2 == 37:
+    print("27 power 37 = 9.129758166511361e+52")
+if num1 == 27 and sign == 'p' and num2 == 38:
+    print("27 power 38 = 2.4650347049580673e+54")
+if num1 == 27 and sign == 'p' and num2 == 39:
+    print("27 power 39 = 6.655593703386782e+55")
+if num1 == 27 and sign == 'p' and num2 == 40:
+    print("27 power 40 = 1.797010299914431e+57")
+if num1 == 27 and sign == 'p' and num2 == 41:
+    print("27 power 41 = 4.851927809768964e+58")
+if num1 == 27 and sign == 'p' and num2 == 42:
+    print("27 power 42 = 1.3100205086376204e+60")
+if num1 == 27 and sign == 'p' and num2 == 43:
+    print("27 power 43 = 3.537055373321575e+61")
+if num1 == 27 and sign == 'p' and num2 == 44:
+    print("27 power 44 = 9.550049507968253e+62")
+if num1 == 27 and sign == 'p' and num2 == 45:
+    print("27 power 45 = 2.5785133671514282e+64")
+if num1 == 27 and sign == 'p' and num2 == 46:
+    print("27 power 46 = 6.961986091308856e+65")
+if num1 == 27 and sign == 'p' and num2 == 47:
+    print("27 power 47 = 1.8797362446533912e+67")
+if num1 == 27 and sign == 'p' and num2 == 48:
+    print("27 power 48 = 5.075287860564156e+68")
+if num1 == 27 and sign == 'p' and num2 == 49:
+    print("27 power 49 = 1.3703277223523221e+70")
+if num1 == 27 and sign == 'p' and num2 == 50:
+    print("27 power 50 = 3.69988485035127e+71")
+if num1 == 28 and sign == 'p' and num2 == 0:
+    print("28 power 0 = 1.0")
+if num1 == 28 and sign == 'p' and num2 == 1:
+    print("28 power 1 = 28.0")
+if num1 == 28 and sign == 'p' and num2 == 2:
+    print("28 power 2 = 784.0")
+if num1 == 28 and sign == 'p' and num2 == 3:
+    print("28 power 3 = 21952.0")
+if num1 == 28 and sign == 'p' and num2 == 4:
+    print("28 power 4 = 614656.0")
+if num1 == 28 and sign == 'p' and num2 == 5:
+    print("28 power 5 = 17210368.0")
+if num1 == 28 and sign == 'p' and num2 == 6:
+    print("28 power 6 = 481890304.0")
+if num1 == 28 and sign == 'p' and num2 == 7:
+    print("28 power 7 = 13492928512.0")
+if num1 == 28 and sign == 'p' and num2 == 8:
+    print("28 power 8 = 377801998336.0")
+if num1 == 28 and sign == 'p' and num2 == 9:
+    print("28 power 9 = 10578455953408.0")
+if num1 == 28 and sign == 'p' and num2 == 10:
+    print("28 power 10 = 296196766695424.0")
+if num1 == 28 and sign == 'p' and num2 == 11:
+    print("28 power 11 = 8293509467471872.0")
+if num1 == 28 and sign == 'p' and num2 == 12:
+    print("28 power 12 = 2.322182650892124e+17")
+if num1 == 28 and sign == 'p' and num2 == 13:
+    print("28 power 13 = 6.502111422497948e+18")
+if num1 == 28 and sign == 'p' and num2 == 14:
+    print("28 power 14 = 1.8205911982994253e+20")
+if num1 == 28 and sign == 'p' and num2 == 15:
+    print("28 power 15 = 5.097655355238391e+21")
+if num1 == 28 and sign == 'p' and num2 == 16:
+    print("28 power 16 = 1.4273434994667495e+23")
+if num1 == 28 and sign == 'p' and num2 == 17:
+    print("28 power 17 = 3.9965617985068985e+24")
+if num1 == 28 and sign == 'p' and num2 == 18:
+    print("28 power 18 = 1.1190373035819316e+26")
+if num1 == 28 and sign == 'p' and num2 == 19:
+    print("28 power 19 = 3.1333044500294087e+27")
+if num1 == 28 and sign == 'p' and num2 == 20:
+    print("28 power 20 = 8.773252460082343e+28")
+if num1 == 28 and sign == 'p' and num2 == 21:
+    print("28 power 21 = 2.4565106888230563e+30")
+if num1 == 28 and sign == 'p' and num2 == 22:
+    print("28 power 22 = 6.878229928704558e+31")
+if num1 == 28 and sign == 'p' and num2 == 23:
+    print("28 power 23 = 1.925904380037276e+33")
+if num1 == 28 and sign == 'p' and num2 == 24:
+    print("28 power 24 = 5.392532264104373e+34")
+if num1 == 28 and sign == 'p' and num2 == 25:
+    print("28 power 25 = 1.5099090339492244e+36")
+if num1 == 28 and sign == 'p' and num2 == 26:
+    print("28 power 26 = 4.2277452950578284e+37")
+if num1 == 28 and sign == 'p' and num2 == 27:
+    print("28 power 27 = 1.183768682616192e+39")
+if num1 == 28 and sign == 'p' and num2 == 28:
+    print("28 power 28 = 3.3145523113253375e+40")
+if num1 == 28 and sign == 'p' and num2 == 29:
+    print("28 power 29 = 9.280746471710946e+41")
+if num1 == 28 and sign == 'p' and num2 == 30:
+    print("28 power 30 = 2.5986090120790644e+43")
+if num1 == 28 and sign == 'p' and num2 == 31:
+    print("28 power 31 = 7.276105233821381e+44")
+if num1 == 28 and sign == 'p' and num2 == 32:
+    print("28 power 32 = 2.0373094654699867e+46")
+if num1 == 28 and sign == 'p' and num2 == 33:
+    print("28 power 33 = 5.704466503315962e+47")
+if num1 == 28 and sign == 'p' and num2 == 34:
+    print("28 power 34 = 1.5972506209284694e+49")
+if num1 == 28 and sign == 'p' and num2 == 35:
+    print("28 power 35 = 4.4723017385997145e+50")
+if num1 == 28 and sign == 'p' and num2 == 36:
+    print("28 power 36 = 1.2522444868079202e+52")
+if num1 == 28 and sign == 'p' and num2 == 37:
+    print("28 power 37 = 3.5062845630621764e+53")
+if num1 == 28 and sign == 'p' and num2 == 38:
+    print("28 power 38 = 9.817596776574094e+54")
+if num1 == 28 and sign == 'p' and num2 == 39:
+    print("28 power 39 = 2.7489270974407464e+56")
+if num1 == 28 and sign == 'p' and num2 == 40:
+    print("28 power 40 = 7.69699587283409e+57")
+if num1 == 28 and sign == 'p' and num2 == 41:
+    print("28 power 41 = 2.155158844393545e+59")
+if num1 == 28 and sign == 'p' and num2 == 42:
+    print("28 power 42 = 6.034444764301926e+60")
+if num1 == 28 and sign == 'p' and num2 == 43:
+    print("28 power 43 = 1.6896445340045393e+62")
+if num1 == 28 and sign == 'p' and num2 == 44:
+    print("28 power 44 = 4.73100469521271e+63")
+if num1 == 28 and sign == 'p' and num2 == 45:
+    print("28 power 45 = 1.3246813146595588e+65")
+if num1 == 28 and sign == 'p' and num2 == 46:
+    print("28 power 46 = 3.709107681046765e+66")
+if num1 == 28 and sign == 'p' and num2 == 47:
+    print("28 power 47 = 1.0385501506930942e+68")
+if num1 == 28 and sign == 'p' and num2 == 48:
+    print("28 power 48 = 2.9079404219406637e+69")
+if num1 == 28 and sign == 'p' and num2 == 49:
+    print("28 power 49 = 8.142233181433858e+70")
+if num1 == 28 and sign == 'p' and num2 == 50:
+    print("28 power 50 = 2.27982529080148e+72")
+if num1 == 29 and sign == 'p' and num2 == 0:
+    print("29 power 0 = 1.0")
+if num1 == 29 and sign == 'p' and num2 == 1:
+    print("29 power 1 = 29.0")
+if num1 == 29 and sign == 'p' and num2 == 2:
+    print("29 power 2 = 841.0")
+if num1 == 29 and sign == 'p' and num2 == 3:
+    print("29 power 3 = 24389.0")
+if num1 == 29 and sign == 'p' and num2 == 4:
+    print("29 power 4 = 707281.0")
+if num1 == 29 and sign == 'p' and num2 == 5:
+    print("29 power 5 = 20511149.0")
+if num1 == 29 and sign == 'p' and num2 == 6:
+    print("29 power 6 = 594823321.0")
+if num1 == 29 and sign == 'p' and num2 == 7:
+    print("29 power 7 = 17249876309.0")
+if num1 == 29 and sign == 'p' and num2 == 8:
+    print("29 power 8 = 500246412961.0")
+if num1 == 29 and sign == 'p' and num2 == 9:
+    print("29 power 9 = 14507145975869.0")
+if num1 == 29 and sign == 'p' and num2 == 10:
+    print("29 power 10 = 420707233300201.0")
+if num1 == 29 and sign == 'p' and num2 == 11:
+    print("29 power 11 = 1.2200509765705828e+16")
+if num1 == 29 and sign == 'p' and num2 == 12:
+    print("29 power 12 = 3.5381478320546906e+17")
+if num1 == 29 and sign == 'p' and num2 == 13:
+    print("29 power 13 = 1.0260628712958601e+19")
+if num1 == 29 and sign == 'p' and num2 == 14:
+    print("29 power 14 = 2.9755823267579947e+20")
+if num1 == 29 and sign == 'p' and num2 == 15:
+    print("29 power 15 = 8.629188747598184e+21")
+if num1 == 29 and sign == 'p' and num2 == 16:
+    print("29 power 16 = 2.5024647368034736e+23")
+if num1 == 29 and sign == 'p' and num2 == 17:
+    print("29 power 17 = 7.257147736730074e+24")
+if num1 == 29 and sign == 'p' and num2 == 18:
+    print("29 power 18 = 2.104572843651721e+26")
+if num1 == 29 and sign == 'p' and num2 == 19:
+    print("29 power 19 = 6.103261246589992e+27")
+if num1 == 29 and sign == 'p' and num2 == 20:
+    print("29 power 20 = 1.7699457615110974e+29")
+if num1 == 29 and sign == 'p' and num2 == 21:
+    print("29 power 21 = 5.132842708382183e+30")
+if num1 == 29 and sign == 'p' and num2 == 22:
+    print("29 power 22 = 1.488524385430833e+32")
+if num1 == 29 and sign == 'p' and num2 == 23:
+    print("29 power 23 = 4.3167207177494157e+33")
+if num1 == 29 and sign == 'p' and num2 == 24:
+    print("29 power 24 = 1.2518490081473306e+35")
+if num1 == 29 and sign == 'p' and num2 == 25:
+    print("29 power 25 = 3.6303621236272586e+36")
+if num1 == 29 and sign == 'p' and num2 == 26:
+    print("29 power 26 = 1.052805015851905e+38")
+if num1 == 29 and sign == 'p' and num2 == 27:
+    print("29 power 27 = 3.0531345459705245e+39")
+if num1 == 29 and sign == 'p' and num2 == 28:
+    print("29 power 28 = 8.85409018331452e+40")
+if num1 == 29 and sign == 'p' and num2 == 29:
+    print("29 power 29 = 2.5676861531612113e+42")
+if num1 == 29 and sign == 'p' and num2 == 30:
+    print("29 power 30 = 7.446289844167513e+43")
+if num1 == 29 and sign == 'p' and num2 == 31:
+    print("29 power 31 = 2.1594240548085784e+45")
+if num1 == 29 and sign == 'p' and num2 == 32:
+    print("29 power 32 = 6.262329758944878e+46")
+if num1 == 29 and sign == 'p' and num2 == 33:
+    print("29 power 33 = 1.8160756300940147e+48")
+if num1 == 29 and sign == 'p' and num2 == 34:
+    print("29 power 34 = 5.266619327272643e+49")
+if num1 == 29 and sign == 'p' and num2 == 35:
+    print("29 power 35 = 1.5273196049090663e+51")
+if num1 == 29 and sign == 'p' and num2 == 36:
+    print("29 power 36 = 4.4292268542362923e+52")
+if num1 == 29 and sign == 'p' and num2 == 37:
+    print("29 power 37 = 1.2844757877285248e+54")
+if num1 == 29 and sign == 'p' and num2 == 38:
+    print("29 power 38 = 3.724979784412722e+55")
+if num1 == 29 and sign == 'p' and num2 == 39:
+    print("29 power 39 = 1.0802441374796892e+57")
+if num1 == 29 and sign == 'p' and num2 == 40:
+    print("29 power 40 = 3.132707998691099e+58")
+if num1 == 29 and sign == 'p' and num2 == 41:
+    print("29 power 41 = 9.084853196204186e+59")
+if num1 == 29 and sign == 'p' and num2 == 42:
+    print("29 power 42 = 2.634607426899214e+61")
+if num1 == 29 and sign == 'p' and num2 == 43:
+    print("29 power 43 = 7.640361538007721e+62")
+if num1 == 29 and sign == 'p' and num2 == 44:
+    print("29 power 44 = 2.2157048460222392e+64")
+if num1 == 29 and sign == 'p' and num2 == 45:
+    print("29 power 45 = 6.425544053464493e+65")
+if num1 == 29 and sign == 'p' and num2 == 46:
+    print("29 power 46 = 1.8634077755047032e+67")
+if num1 == 29 and sign == 'p' and num2 == 47:
+    print("29 power 47 = 5.403882548963639e+68")
+if num1 == 29 and sign == 'p' and num2 == 48:
+    print("29 power 48 = 1.5671259391994553e+70")
+if num1 == 29 and sign == 'p' and num2 == 49:
+    print("29 power 49 = 4.54466522367842e+71")
+if num1 == 29 and sign == 'p' and num2 == 50:
+    print("29 power 50 = 1.3179529148667419e+73")
+if num1 == 30 and sign == 'p' and num2 == 0:
+    print("30 power 0 = 1.0")
+if num1 == 30 and sign == 'p' and num2 == 1:
+    print("30 power 1 = 30.0")
+if num1 == 30 and sign == 'p' and num2 == 2:
+    print("30 power 2 = 900.0")
+if num1 == 30 and sign == 'p' and num2 == 3:
+    print("30 power 3 = 27000.0")
+if num1 == 30 and sign == 'p' and num2 == 4:
+    print("30 power 4 = 810000.0")
+if num1 == 30 and sign == 'p' and num2 == 5:
+    print("30 power 5 = 24300000.0")
+if num1 == 30 and sign == 'p' and num2 == 6:
+    print("30 power 6 = 729000000.0")
+if num1 == 30 and sign == 'p' and num2 == 7:
+    print("30 power 7 = 21870000000.0")
+if num1 == 30 and sign == 'p' and num2 == 8:
+    print("30 power 8 = 656100000000.0")
+if num1 == 30 and sign == 'p' and num2 == 9:
+    print("30 power 9 = 19683000000000.0")
+if num1 == 30 and sign == 'p' and num2 == 10:
+    print("30 power 10 = 590490000000000.0")
+if num1 == 30 and sign == 'p' and num2 == 11:
+    print("30 power 11 = 1.77147e+16")
+if num1 == 30 and sign == 'p' and num2 == 12:
+    print("30 power 12 = 5.31441e+17")
+if num1 == 30 and sign == 'p' and num2 == 13:
+    print("30 power 13 = 1.594323e+19")
+if num1 == 30 and sign == 'p' and num2 == 14:
+    print("30 power 14 = 4.782969e+20")
+if num1 == 30 and sign == 'p' and num2 == 15:
+    print("30 power 15 = 1.4348907e+22")
+if num1 == 30 and sign == 'p' and num2 == 16:
+    print("30 power 16 = 4.3046721e+23")
+if num1 == 30 and sign == 'p' and num2 == 17:
+    print("30 power 17 = 1.29140163e+25")
+if num1 == 30 and sign == 'p' and num2 == 18:
+    print("30 power 18 = 3.87420489e+26")
+if num1 == 30 and sign == 'p' and num2 == 19:
+    print("30 power 19 = 1.162261467e+28")
+if num1 == 30 and sign == 'p' and num2 == 20:
+    print("30 power 20 = 3.486784401e+29")
+if num1 == 30 and sign == 'p' and num2 == 21:
+    print("30 power 21 = 1.0460353203e+31")
+if num1 == 30 and sign == 'p' and num2 == 22:
+    print("30 power 22 = 3.1381059609e+32")
+if num1 == 30 and sign == 'p' and num2 == 23:
+    print("30 power 23 = 9.4143178827e+33")
+if num1 == 30 and sign == 'p' and num2 == 24:
+    print("30 power 24 = 2.82429536481e+35")
+if num1 == 30 and sign == 'p' and num2 == 25:
+    print("30 power 25 = 8.47288609443e+36")
+if num1 == 30 and sign == 'p' and num2 == 26:
+    print("30 power 26 = 2.541865828329e+38")
+if num1 == 30 and sign == 'p' and num2 == 27:
+    print("30 power 27 = 7.625597484987e+39")
+if num1 == 30 and sign == 'p' and num2 == 28:
+    print("30 power 28 = 2.2876792454961e+41")
+if num1 == 30 and sign == 'p' and num2 == 29:
+    print("30 power 29 = 6.8630377364883e+42")
+if num1 == 30 and sign == 'p' and num2 == 30:
+    print("30 power 30 = 2.05891132094649e+44")
+if num1 == 30 and sign == 'p' and num2 == 31:
+    print("30 power 31 = 6.17673396283947e+45")
+if num1 == 30 and sign == 'p' and num2 == 32:
+    print("30 power 32 = 1.853020188851841e+47")
+if num1 == 30 and sign == 'p' and num2 == 33:
+    print("30 power 33 = 5.559060566555523e+48")
+if num1 == 30 and sign == 'p' and num2 == 34:
+    print("30 power 34 = 1.667718169966657e+50")
+if num1 == 30 and sign == 'p' and num2 == 35:
+    print("30 power 35 = 5.003154509899971e+51")
+if num1 == 30 and sign == 'p' and num2 == 36:
+    print("30 power 36 = 1.5009463529699911e+53")
+if num1 == 30 and sign == 'p' and num2 == 37:
+    print("30 power 37 = 4.5028390589099734e+54")
+if num1 == 30 and sign == 'p' and num2 == 38:
+    print("30 power 38 = 1.3508517176729922e+56")
+if num1 == 30 and sign == 'p' and num2 == 39:
+    print("30 power 39 = 4.052555153018976e+57")
+if num1 == 30 and sign == 'p' and num2 == 40:
+    print("30 power 40 = 1.215766545905693e+59")
+if num1 == 30 and sign == 'p' and num2 == 41:
+    print("30 power 41 = 3.647299637717079e+60")
+if num1 == 30 and sign == 'p' and num2 == 42:
+    print("30 power 42 = 1.0941898913151235e+62")
+if num1 == 30 and sign == 'p' and num2 == 43:
+    print("30 power 43 = 3.282569673945371e+63")
+if num1 == 30 and sign == 'p' and num2 == 44:
+    print("30 power 44 = 9.847709021836113e+64")
+if num1 == 30 and sign == 'p' and num2 == 45:
+    print("30 power 45 = 2.9543127065508337e+66")
+if num1 == 30 and sign == 'p' and num2 == 46:
+    print("30 power 46 = 8.862938119652501e+67")
+if num1 == 30 and sign == 'p' and num2 == 47:
+    print("30 power 47 = 2.6588814358957504e+69")
+if num1 == 30 and sign == 'p' and num2 == 48:
+    print("30 power 48 = 7.976644307687251e+70")
+if num1 == 30 and sign == 'p' and num2 == 49:
+    print("30 power 49 = 2.3929932923061753e+72")
+if num1 == 30 and sign == 'p' and num2 == 50:
+    print("30 power 50 = 7.178979876918526e+73")
+if num1 == 31 and sign == 'p' and num2 == 0:
+    print("31 power 0 = 1.0")
+if num1 == 31 and sign == 'p' and num2 == 1:
+    print("31 power 1 = 31.0")
+if num1 == 31 and sign == 'p' and num2 == 2:
+    print("31 power 2 = 961.0")
+if num1 == 31 and sign == 'p' and num2 == 3:
+    print("31 power 3 = 29791.0")
+if num1 == 31 and sign == 'p' and num2 == 4:
+    print("31 power 4 = 923521.0")
+if num1 == 31 and sign == 'p' and num2 == 5:
+    print("31 power 5 = 28629151.0")
+if num1 == 31 and sign == 'p' and num2 == 6:
+    print("31 power 6 = 887503681.0")
+if num1 == 31 and sign == 'p' and num2 == 7:
+    print("31 power 7 = 27512614111.0")
+if num1 == 31 and sign == 'p' and num2 == 8:
+    print("31 power 8 = 852891037441.0")
+if num1 == 31 and sign == 'p' and num2 == 9:
+    print("31 power 9 = 26439622160671.0")
+if num1 == 31 and sign == 'p' and num2 == 10:
+    print("31 power 10 = 819628286980801.0")
+if num1 == 31 and sign == 'p' and num2 == 11:
+    print("31 power 11 = 2.540847689640483e+16")
+if num1 == 31 and sign == 'p' and num2 == 12:
+    print("31 power 12 = 7.876627837885498e+17")
+if num1 == 31 and sign == 'p' and num2 == 13:
+    print("31 power 13 = 2.4417546297445044e+19")
+if num1 == 31 and sign == 'p' and num2 == 14:
+    print("31 power 14 = 7.569439352207964e+20")
+if num1 == 31 and sign == 'p' and num2 == 15:
+    print("31 power 15 = 2.3465261991844685e+22")
+if num1 == 31 and sign == 'p' and num2 == 16:
+    print("31 power 16 = 7.274231217471853e+23")
+if num1 == 31 and sign == 'p' and num2 == 17:
+    print("31 power 17 = 2.2550116774162744e+25")
+if num1 == 31 and sign == 'p' and num2 == 18:
+    print("31 power 18 = 6.99053619999045e+26")
+if num1 == 31 and sign == 'p' and num2 == 19:
+    print("31 power 19 = 2.16706622199704e+28")
+if num1 == 31 and sign == 'p' and num2 == 20:
+    print("31 power 20 = 6.717905288190824e+29")
+if num1 == 31 and sign == 'p' and num2 == 21:
+    print("31 power 21 = 2.0825506393391553e+31")
+if num1 == 31 and sign == 'p' and num2 == 22:
+    print("31 power 22 = 6.455906981951381e+32")
+if num1 == 31 and sign == 'p' and num2 == 23:
+    print("31 power 23 = 2.001331164404928e+34")
+if num1 == 31 and sign == 'p' and num2 == 24:
+    print("31 power 24 = 6.204126609655277e+35")
+if num1 == 31 and sign == 'p' and num2 == 25:
+    print("31 power 25 = 1.9232792489931358e+37")
+if num1 == 31 and sign == 'p' and num2 == 26:
+    print("31 power 26 = 5.962165671878721e+38")
+if num1 == 31 and sign == 'p' and num2 == 27:
+    print("31 power 27 = 1.8482713582824035e+40")
+if num1 == 31 and sign == 'p' and num2 == 28:
+    print("31 power 28 = 5.729641210675451e+41")
+if num1 == 31 and sign == 'p' and num2 == 29:
+    print("31 power 29 = 1.7761887753093899e+43")
+if num1 == 31 and sign == 'p' and num2 == 30:
+    print("31 power 30 = 5.506185203459108e+44")
+if num1 == 31 and sign == 'p' and num2 == 31:
+    print("31 power 31 = 1.7069174130723237e+46")
+if num1 == 31 and sign == 'p' and num2 == 32:
+    print("31 power 32 = 5.2914439805242035e+47")
+if num1 == 31 and sign == 'p' and num2 == 33:
+    print("31 power 33 = 1.640347633962503e+49")
+if num1 == 31 and sign == 'p' and num2 == 34:
+    print("31 power 34 = 5.085077665283759e+50")
+if num1 == 31 and sign == 'p' and num2 == 35:
+    print("31 power 35 = 1.5763740762379654e+52")
+if num1 == 31 and sign == 'p' and num2 == 36:
+    print("31 power 36 = 4.886759636337693e+53")
+if num1 == 31 and sign == 'p' and num2 == 37:
+    print("31 power 37 = 1.5148954872646847e+55")
+if num1 == 31 and sign == 'p' and num2 == 38:
+    print("31 power 38 = 4.696176010520522e+56")
+if num1 == 31 and sign == 'p' and num2 == 39:
+    print("31 power 39 = 1.455814563261362e+58")
+if num1 == 31 and sign == 'p' and num2 == 40:
+    print("31 power 40 = 4.513025146110222e+59")
+if num1 == 31 and sign == 'p' and num2 == 41:
+    print("31 power 41 = 1.399037795294169e+61")
+if num1 == 31 and sign == 'p' and num2 == 42:
+    print("31 power 42 = 4.337017165411923e+62")
+if num1 == 31 and sign == 'p' and num2 == 43:
+    print("31 power 43 = 1.3444753212776964e+64")
+if num1 == 31 and sign == 'p' and num2 == 44:
+    print("31 power 44 = 4.1678734959608585e+65")
+if num1 == 31 and sign == 'p' and num2 == 45:
+    print("31 power 45 = 1.2920407837478662e+67")
+if num1 == 31 and sign == 'p' and num2 == 46:
+    print("31 power 46 = 4.005326429618385e+68")
+if num1 == 31 and sign == 'p' and num2 == 47:
+    print("31 power 47 = 1.2416511931816994e+70")
+if num1 == 31 and sign == 'p' and num2 == 48:
+    print("31 power 48 = 3.849118698863268e+71")
+if num1 == 31 and sign == 'p' and num2 == 49:
+    print("31 power 49 = 1.1932267966476131e+73")
+if num1 == 31 and sign == 'p' and num2 == 50:
+    print("31 power 50 = 3.6990030696076007e+74")
+if num1 == 32 and sign == 'p' and num2 == 0:
+    print("32 power 0 = 1.0")
+if num1 == 32 and sign == 'p' and num2 == 1:
+    print("32 power 1 = 32.0")
+if num1 == 32 and sign == 'p' and num2 == 2:
+    print("32 power 2 = 1024.0")
+if num1 == 32 and sign == 'p' and num2 == 3:
+    print("32 power 3 = 32768.0")
+if num1 == 32 and sign == 'p' and num2 == 4:
+    print("32 power 4 = 1048576.0")
+if num1 == 32 and sign == 'p' and num2 == 5:
+    print("32 power 5 = 33554432.0")
+if num1 == 32 and sign == 'p' and num2 == 6:
+    print("32 power 6 = 1073741824.0")
+if num1 == 32 and sign == 'p' and num2 == 7:
+    print("32 power 7 = 34359738368.0")
+if num1 == 32 and sign == 'p' and num2 == 8:
+    print("32 power 8 = 1099511627776.0")
+if num1 == 32 and sign == 'p' and num2 == 9:
+    print("32 power 9 = 35184372088832.0")
+if num1 == 32 and sign == 'p' and num2 == 10:
+    print("32 power 10 = 1125899906842624.0")
+if num1 == 32 and sign == 'p' and num2 == 11:
+    print("32 power 11 = 3.602879701896397e+16")
+if num1 == 32 and sign == 'p' and num2 == 12:
+    print("32 power 12 = 1.152921504606847e+18")
+if num1 == 32 and sign == 'p' and num2 == 13:
+    print("32 power 13 = 3.6893488147419103e+19")
+if num1 == 32 and sign == 'p' and num2 == 14:
+    print("32 power 14 = 1.1805916207174113e+21")
+if num1 == 32 and sign == 'p' and num2 == 15:
+    print("32 power 15 = 3.777893186295716e+22")
+if num1 == 32 and sign == 'p' and num2 == 16:
+    print("32 power 16 = 1.2089258196146292e+24")
+if num1 == 32 and sign == 'p' and num2 == 17:
+    print("32 power 17 = 3.8685626227668134e+25")
+if num1 == 32 and sign == 'p' and num2 == 18:
+    print("32 power 18 = 1.2379400392853803e+27")
+if num1 == 32 and sign == 'p' and num2 == 19:
+    print("32 power 19 = 3.961408125713217e+28")
+if num1 == 32 and sign == 'p' and num2 == 20:
+    print("32 power 20 = 1.2676506002282294e+30")
+if num1 == 32 and sign == 'p' and num2 == 21:
+    print("32 power 21 = 4.056481920730334e+31")
+if num1 == 32 and sign == 'p' and num2 == 22:
+    print("32 power 22 = 1.298074214633707e+33")
+if num1 == 32 and sign == 'p' and num2 == 23:
+    print("32 power 23 = 4.153837486827862e+34")
+if num1 == 32 and sign == 'p' and num2 == 24:
+    print("32 power 24 = 1.329227995784916e+36")
+if num1 == 32 and sign == 'p' and num2 == 25:
+    print("32 power 25 = 4.253529586511731e+37")
+if num1 == 32 and sign == 'p' and num2 == 26:
+    print("32 power 26 = 1.361129467683754e+39")
+if num1 == 32 and sign == 'p' and num2 == 27:
+    print("32 power 27 = 4.3556142965880123e+40")
+if num1 == 32 and sign == 'p' and num2 == 28:
+    print("32 power 28 = 1.393796574908164e+42")
+if num1 == 32 and sign == 'p' and num2 == 29:
+    print("32 power 29 = 4.460149039706125e+43")
+if num1 == 32 and sign == 'p' and num2 == 30:
+    print("32 power 30 = 1.42724769270596e+45")
+if num1 == 32 and sign == 'p' and num2 == 31:
+    print("32 power 31 = 4.567192616659072e+46")
+if num1 == 32 and sign == 'p' and num2 == 32:
+    print("32 power 32 = 1.461501637330903e+48")
+if num1 == 32 and sign == 'p' and num2 == 33:
+    print("32 power 33 = 4.6768052394588893e+49")
+if num1 == 32 and sign == 'p' and num2 == 34:
+    print("32 power 34 = 1.4965776766268446e+51")
+if num1 == 32 and sign == 'p' and num2 == 35:
+    print("32 power 35 = 4.789048565205903e+52")
+if num1 == 32 and sign == 'p' and num2 == 36:
+    print("32 power 36 = 1.532495540865889e+54")
+if num1 == 32 and sign == 'p' and num2 == 37:
+    print("32 power 37 = 4.9039857307708443e+55")
+if num1 == 32 and sign == 'p' and num2 == 38:
+    print("32 power 38 = 1.5692754338466702e+57")
+if num1 == 32 and sign == 'p' and num2 == 39:
+    print("32 power 39 = 5.021681388309345e+58")
+if num1 == 32 and sign == 'p' and num2 == 40:
+    print("32 power 40 = 1.6069380442589903e+60")
+if num1 == 32 and sign == 'p' and num2 == 41:
+    print("32 power 41 = 5.142201741628769e+61")
+if num1 == 32 and sign == 'p' and num2 == 42:
+    print("32 power 42 = 1.645504557321206e+63")
+if num1 == 32 and sign == 'p' and num2 == 43:
+    print("32 power 43 = 5.2656145834278593e+64")
+if num1 == 32 and sign == 'p' and num2 == 44:
+    print("32 power 44 = 1.684996666696915e+66")
+if num1 == 32 and sign == 'p' and num2 == 45:
+    print("32 power 45 = 5.391989333430128e+67")
+if num1 == 32 and sign == 'p' and num2 == 46:
+    print("32 power 46 = 1.725436586697641e+69")
+if num1 == 32 and sign == 'p' and num2 == 47:
+    print("32 power 47 = 5.521397077432451e+70")
+if num1 == 32 and sign == 'p' and num2 == 48:
+    print("32 power 48 = 1.7668470647783843e+72")
+if num1 == 32 and sign == 'p' and num2 == 49:
+    print("32 power 49 = 5.65391060729083e+73")
+if num1 == 32 and sign == 'p' and num2 == 50:
+    print("32 power 50 = 1.8092513943330656e+75")
+if num1 == 33 and sign == 'p' and num2 == 0:
+    print("33 power 0 = 1.0")
+if num1 == 33 and sign == 'p' and num2 == 1:
+    print("33 power 1 = 33.0")
+if num1 == 33 and sign == 'p' and num2 == 2:
+    print("33 power 2 = 1089.0")
+if num1 == 33 and sign == 'p' and num2 == 3:
+    print("33 power 3 = 35937.0")
+if num1 == 33 and sign == 'p' and num2 == 4:
+    print("33 power 4 = 1185921.0")
+if num1 == 33 and sign == 'p' and num2 == 5:
+    print("33 power 5 = 39135393.0")
+if num1 == 33 and sign == 'p' and num2 == 6:
+    print("33 power 6 = 1291467969.0")
+if num1 == 33 and sign == 'p' and num2 == 7:
+    print("33 power 7 = 42618442977.0")
+if num1 == 33 and sign == 'p' and num2 == 8:
+    print("33 power 8 = 1406408618241.0")
+if num1 == 33 and sign == 'p' and num2 == 9:
+    print("33 power 9 = 46411484401953.0")
+if num1 == 33 and sign == 'p' and num2 == 10:
+    print("33 power 10 = 1531578985264449.0")
+if num1 == 33 and sign == 'p' and num2 == 11:
+    print("33 power 11 = 5.054210651372682e+16")
+if num1 == 33 and sign == 'p' and num2 == 12:
+    print("33 power 12 = 1.667889514952985e+18")
+if num1 == 33 and sign == 'p' and num2 == 13:
+    print("33 power 13 = 5.5040353993448505e+19")
+if num1 == 33 and sign == 'p' and num2 == 14:
+    print("33 power 14 = 1.8163316817838007e+21")
+if num1 == 33 and sign == 'p' and num2 == 15:
+    print("33 power 15 = 5.993894549886542e+22")
+if num1 == 33 and sign == 'p' and num2 == 16:
+    print("33 power 16 = 1.9779852014625588e+24")
+if num1 == 33 and sign == 'p' and num2 == 17:
+    print("33 power 17 = 6.527351164826444e+25")
+if num1 == 33 and sign == 'p' and num2 == 18:
+    print("33 power 18 = 2.1540258843927267e+27")
+if num1 == 33 and sign == 'p' and num2 == 19:
+    print("33 power 19 = 7.108285418495998e+28")
+if num1 == 33 and sign == 'p' and num2 == 20:
+    print("33 power 20 = 2.3457341881036794e+30")
+if num1 == 33 and sign == 'p' and num2 == 21:
+    print("33 power 21 = 7.740922820742142e+31")
+if num1 == 33 and sign == 'p' and num2 == 22:
+    print("33 power 22 = 2.5545045308449068e+33")
+if num1 == 33 and sign == 'p' and num2 == 23:
+    print("33 power 23 = 8.429864951788192e+34")
+if num1 == 33 and sign == 'p' and num2 == 24:
+    print("33 power 24 = 2.7818554340901036e+36")
+if num1 == 33 and sign == 'p' and num2 == 25:
+    print("33 power 25 = 9.18012293249734e+37")
+if num1 == 33 and sign == 'p' and num2 == 26:
+    print("33 power 26 = 3.0294405677241224e+39")
+if num1 == 33 and sign == 'p' and num2 == 27:
+    print("33 power 27 = 9.997153873489605e+40")
+if num1 == 33 and sign == 'p' and num2 == 28:
+    print("33 power 28 = 3.2990607782515697e+42")
+if num1 == 33 and sign == 'p' and num2 == 29:
+    print("33 power 29 = 1.088690056823018e+44")
+if num1 == 33 and sign == 'p' and num2 == 30:
+    print("33 power 30 = 3.5926771875159594e+45")
+if num1 == 33 and sign == 'p' and num2 == 31:
+    print("33 power 31 = 1.1855834718802666e+47")
+if num1 == 33 and sign == 'p' and num2 == 32:
+    print("33 power 32 = 3.91242545720488e+48")
+if num1 == 33 and sign == 'p' and num2 == 33:
+    print("33 power 33 = 1.2911004008776103e+50")
+if num1 == 33 and sign == 'p' and num2 == 34:
+    print("33 power 34 = 4.2606313228961136e+51")
+if num1 == 33 and sign == 'p' and num2 == 35:
+    print("33 power 35 = 1.4060083365557175e+53")
+if num1 == 33 and sign == 'p' and num2 == 36:
+    print("33 power 36 = 4.639827510633868e+54")
+if num1 == 33 and sign == 'p' and num2 == 37:
+    print("33 power 37 = 1.5311430785091766e+56")
+if num1 == 33 and sign == 'p' and num2 == 38:
+    print("33 power 38 = 5.052772159080282e+57")
+if num1 == 33 and sign == 'p' and num2 == 39:
+    print("33 power 39 = 1.6674148124964932e+59")
+if num1 == 33 and sign == 'p' and num2 == 40:
+    print("33 power 40 = 5.502468881238428e+60")
+if num1 == 33 and sign == 'p' and num2 == 41:
+    print("33 power 41 = 1.815814730808681e+62")
+if num1 == 33 and sign == 'p' and num2 == 42:
+    print("33 power 42 = 5.9921886116686474e+63")
+if num1 == 33 and sign == 'p' and num2 == 43:
+    print("33 power 43 = 1.9774222418506536e+65")
+if num1 == 33 and sign == 'p' and num2 == 44:
+    print("33 power 44 = 6.525493398107157e+66")
+if num1 == 33 and sign == 'p' and num2 == 45:
+    print("33 power 45 = 2.153412821375362e+68")
+if num1 == 33 and sign == 'p' and num2 == 46:
+    print("33 power 46 = 7.106262310538694e+69")
+if num1 == 33 and sign == 'p' and num2 == 47:
+    print("33 power 47 = 2.345066562477769e+71")
+if num1 == 33 and sign == 'p' and num2 == 48:
+    print("33 power 48 = 7.738719656176638e+72")
+if num1 == 33 and sign == 'p' and num2 == 49:
+    print("33 power 49 = 2.5537774865382907e+74")
+if num1 == 33 and sign == 'p' and num2 == 50:
+    print("33 power 50 = 8.42746570557636e+75")
+if num1 == 34 and sign == 'p' and num2 == 0:
+    print("34 power 0 = 1.0")
+if num1 == 34 and sign == 'p' and num2 == 1:
+    print("34 power 1 = 34.0")
+if num1 == 34 and sign == 'p' and num2 == 2:
+    print("34 power 2 = 1156.0")
+if num1 == 34 and sign == 'p' and num2 == 3:
+    print("34 power 3 = 39304.0")
+if num1 == 34 and sign == 'p' and num2 == 4:
+    print("34 power 4 = 1336336.0")
+if num1 == 34 and sign == 'p' and num2 == 5:
+    print("34 power 5 = 45435424.0")
+if num1 == 34 and sign == 'p' and num2 == 6:
+    print("34 power 6 = 1544804416.0")
+if num1 == 34 and sign == 'p' and num2 == 7:
+    print("34 power 7 = 52523350144.0")
+if num1 == 34 and sign == 'p' and num2 == 8:
+    print("34 power 8 = 1785793904896.0")
+if num1 == 34 and sign == 'p' and num2 == 9:
+    print("34 power 9 = 60716992766464.0")
+if num1 == 34 and sign == 'p' and num2 == 10:
+    print("34 power 10 = 2064377754059776.0")
+if num1 == 34 and sign == 'p' and num2 == 11:
+    print("34 power 11 = 7.018884363803238e+16")
+if num1 == 34 and sign == 'p' and num2 == 12:
+    print("34 power 12 = 2.386420683693101e+18")
+if num1 == 34 and sign == 'p' and num2 == 13:
+    print("34 power 13 = 8.113830324556544e+19")
+if num1 == 34 and sign == 'p' and num2 == 14:
+    print("34 power 14 = 2.758702310349225e+21")
+if num1 == 34 and sign == 'p' and num2 == 15:
+    print("34 power 15 = 9.379587855187364e+22")
+if num1 == 34 and sign == 'p' and num2 == 16:
+    print("34 power 16 = 3.189059870763704e+24")
+if num1 == 34 and sign == 'p' and num2 == 17:
+    print("34 power 17 = 1.0842803560596594e+26")
+if num1 == 34 and sign == 'p' and num2 == 18:
+    print("34 power 18 = 3.6865532106028416e+27")
+if num1 == 34 and sign == 'p' and num2 == 19:
+    print("34 power 19 = 1.2534280916049662e+29")
+if num1 == 34 and sign == 'p' and num2 == 20:
+    print("34 power 20 = 4.261655511456885e+30")
+if num1 == 34 and sign == 'p' and num2 == 21:
+    print("34 power 21 = 1.4489628738953409e+32")
+if num1 == 34 and sign == 'p' and num2 == 22:
+    print("34 power 22 = 4.926473771244159e+33")
+if num1 == 34 and sign == 'p' and num2 == 23:
+    print("34 power 23 = 1.675001082223014e+35")
+if num1 == 34 and sign == 'p' and num2 == 24:
+    print("34 power 24 = 5.695003679558248e+36")
+if num1 == 34 and sign == 'p' and num2 == 25:
+    print("34 power 25 = 1.9363012510498043e+38")
+if num1 == 34 and sign == 'p' and num2 == 26:
+    print("34 power 26 = 6.583424253569334e+39")
+if num1 == 34 and sign == 'p' and num2 == 27:
+    print("34 power 27 = 2.2383642462135736e+41")
+if num1 == 34 and sign == 'p' and num2 == 28:
+    print("34 power 28 = 7.61043843712615e+42")
+if num1 == 34 and sign == 'p' and num2 == 29:
+    print("34 power 29 = 2.5875490686228913e+44")
+if num1 == 34 and sign == 'p' and num2 == 30:
+    print("34 power 30 = 8.79766683331783e+45")
+if num1 == 34 and sign == 'p' and num2 == 31:
+    print("34 power 31 = 2.991206723328062e+47")
+if num1 == 34 and sign == 'p' and num2 == 32:
+    print("34 power 32 = 1.0170102859315412e+49")
+if num1 == 34 and sign == 'p' and num2 == 33:
+    print("34 power 33 = 3.45783497216724e+50")
+if num1 == 34 and sign == 'p' and num2 == 34:
+    print("34 power 34 = 1.1756638905368616e+52")
+if num1 == 34 and sign == 'p' and num2 == 35:
+    print("34 power 35 = 3.997257227825329e+53")
+if num1 == 34 and sign == 'p' and num2 == 36:
+    print("34 power 36 = 1.359067457460612e+55")
+if num1 == 34 and sign == 'p' and num2 == 37:
+    print("34 power 37 = 4.620829355366081e+56")
+if num1 == 34 and sign == 'p' and num2 == 38:
+    print("34 power 38 = 1.5710819808244675e+58")
+if num1 == 34 and sign == 'p' and num2 == 39:
+    print("34 power 39 = 5.3416787348031895e+59")
+if num1 == 34 and sign == 'p' and num2 == 40:
+    print("34 power 40 = 1.8161707698330844e+61")
+if num1 == 34 and sign == 'p' and num2 == 41:
+    print("34 power 41 = 6.174980617432487e+62")
+if num1 == 34 and sign == 'p' and num2 == 42:
+    print("34 power 42 = 2.0994934099270455e+64")
+if num1 == 34 and sign == 'p' and num2 == 43:
+    print("34 power 43 = 7.138277593751955e+65")
+if num1 == 34 and sign == 'p' and num2 == 44:
+    print("34 power 44 = 2.4270143818756646e+67")
+if num1 == 34 and sign == 'p' and num2 == 45:
+    print("34 power 45 = 8.25184889837726e+68")
+if num1 == 34 and sign == 'p' and num2 == 46:
+    print("34 power 46 = 2.805628625448268e+70")
+if num1 == 34 and sign == 'p' and num2 == 47:
+    print("34 power 47 = 9.539137326524112e+71")
+if num1 == 34 and sign == 'p' and num2 == 48:
+    print("34 power 48 = 3.243306691018198e+73")
+if num1 == 34 and sign == 'p' and num2 == 49:
+    print("34 power 49 = 1.1027242749461875e+75")
+if num1 == 34 and sign == 'p' and num2 == 50:
+    print("34 power 50 = 3.749262534817037e+76")
+if num1 == 35 and sign == 'p' and num2 == 0:
+    print("35 power 0 = 1.0")
+if num1 == 35 and sign == 'p' and num2 == 1:
+    print("35 power 1 = 35.0")
+if num1 == 35 and sign == 'p' and num2 == 2:
+    print("35 power 2 = 1225.0")
+if num1 == 35 and sign == 'p' and num2 == 3:
+    print("35 power 3 = 42875.0")
+if num1 == 35 and sign == 'p' and num2 == 4:
+    print("35 power 4 = 1500625.0")
+if num1 == 35 and sign == 'p' and num2 == 5:
+    print("35 power 5 = 52521875.0")
+if num1 == 35 and sign == 'p' and num2 == 6:
+    print("35 power 6 = 1838265625.0")
+if num1 == 35 and sign == 'p' and num2 == 7:
+    print("35 power 7 = 64339296875.0")
+if num1 == 35 and sign == 'p' and num2 == 8:
+    print("35 power 8 = 2251875390625.0")
+if num1 == 35 and sign == 'p' and num2 == 9:
+    print("35 power 9 = 78815638671875.0")
+if num1 == 35 and sign == 'p' and num2 == 10:
+    print("35 power 10 = 2758547353515625.0")
+if num1 == 35 and sign == 'p' and num2 == 11:
+    print("35 power 11 = 9.654915737304688e+16")
+if num1 == 35 and sign == 'p' and num2 == 12:
+    print("35 power 12 = 3.3792205080566405e+18")
+if num1 == 35 and sign == 'p' and num2 == 13:
+    print("35 power 13 = 1.1827271778198243e+20")
+if num1 == 35 and sign == 'p' and num2 == 14:
+    print("35 power 14 = 4.139545122369385e+21")
+if num1 == 35 and sign == 'p' and num2 == 15:
+    print("35 power 15 = 1.4488407928292846e+23")
+if num1 == 35 and sign == 'p' and num2 == 16:
+    print("35 power 16 = 5.070942774902497e+24")
+if num1 == 35 and sign == 'p' and num2 == 17:
+    print("35 power 17 = 1.7748299712158738e+26")
+if num1 == 35 and sign == 'p' and num2 == 18:
+    print("35 power 18 = 6.211904899255558e+27")
+if num1 == 35 and sign == 'p' and num2 == 19:
+    print("35 power 19 = 2.1741667147394452e+29")
+if num1 == 35 and sign == 'p' and num2 == 20:
+    print("35 power 20 = 7.609583501588058e+30")
+if num1 == 35 and sign == 'p' and num2 == 21:
+    print("35 power 21 = 2.6633542255558205e+32")
+if num1 == 35 and sign == 'p' and num2 == 22:
+    print("35 power 22 = 9.321739789445372e+33")
+if num1 == 35 and sign == 'p' and num2 == 23:
+    print("35 power 23 = 3.2626089263058802e+35")
+if num1 == 35 and sign == 'p' and num2 == 24:
+    print("35 power 24 = 1.1419131242070582e+37")
+if num1 == 35 and sign == 'p' and num2 == 25:
+    print("35 power 25 = 3.996695934724703e+38")
+if num1 == 35 and sign == 'p' and num2 == 26:
+    print("35 power 26 = 1.398843577153646e+40")
+if num1 == 35 and sign == 'p' and num2 == 27:
+    print("35 power 27 = 4.895952520037761e+41")
+if num1 == 35 and sign == 'p' and num2 == 28:
+    print("35 power 28 = 1.7135833820132166e+43")
+if num1 == 35 and sign == 'p' and num2 == 29:
+    print("35 power 29 = 5.997541837046257e+44")
+if num1 == 35 and sign == 'p' and num2 == 30:
+    print("35 power 30 = 2.0991396429661903e+46")
+if num1 == 35 and sign == 'p' and num2 == 31:
+    print("35 power 31 = 7.346988750381666e+47")
+if num1 == 35 and sign == 'p' and num2 == 32:
+    print("35 power 32 = 2.571446062633583e+49")
+if num1 == 35 and sign == 'p' and num2 == 33:
+    print("35 power 33 = 9.000061219217541e+50")
+if num1 == 35 and sign == 'p' and num2 == 34:
+    print("35 power 34 = 3.150021426726139e+52")
+if num1 == 35 and sign == 'p' and num2 == 35:
+    print("35 power 35 = 1.1025074993541487e+54")
+if num1 == 35 and sign == 'p' and num2 == 36:
+    print("35 power 36 = 3.85877624773952e+55")
+if num1 == 35 and sign == 'p' and num2 == 37:
+    print("35 power 37 = 1.3505716867088322e+57")
+if num1 == 35 and sign == 'p' and num2 == 38:
+    print("35 power 38 = 4.7270009034809127e+58")
+if num1 == 35 and sign == 'p' and num2 == 39:
+    print("35 power 39 = 1.6544503162183194e+60")
+if num1 == 35 and sign == 'p' and num2 == 40:
+    print("35 power 40 = 5.790576106764118e+61")
+if num1 == 35 and sign == 'p' and num2 == 41:
+    print("35 power 41 = 2.0267016373674413e+63")
+if num1 == 35 and sign == 'p' and num2 == 42:
+    print("35 power 42 = 7.093455730786044e+64")
+if num1 == 35 and sign == 'p' and num2 == 43:
+    print("35 power 43 = 2.4827095057751155e+66")
+if num1 == 35 and sign == 'p' and num2 == 44:
+    print("35 power 44 = 8.689483270212904e+67")
+if num1 == 35 and sign == 'p' and num2 == 45:
+    print("35 power 45 = 3.0413191445745164e+69")
+if num1 == 35 and sign == 'p' and num2 == 46:
+    print("35 power 46 = 1.0644617006010808e+71")
+if num1 == 35 and sign == 'p' and num2 == 47:
+    print("35 power 47 = 3.725615952103783e+72")
+if num1 == 35 and sign == 'p' and num2 == 48:
+    print("35 power 48 = 1.303965583236324e+74")
+if num1 == 35 and sign == 'p' and num2 == 49:
+    print("35 power 49 = 4.563879541327134e+75")
+if num1 == 35 and sign == 'p' and num2 == 50:
+    print("35 power 50 = 1.5973578394644968e+77")
+if num1 == 36 and sign == 'p' and num2 == 0:
+    print("36 power 0 = 1.0")
+if num1 == 36 and sign == 'p' and num2 == 1:
+    print("36 power 1 = 36.0")
+if num1 == 36 and sign == 'p' and num2 == 2:
+    print("36 power 2 = 1296.0")
+if num1 == 36 and sign == 'p' and num2 == 3:
+    print("36 power 3 = 46656.0")
+if num1 == 36 and sign == 'p' and num2 == 4:
+    print("36 power 4 = 1679616.0")
+if num1 == 36 and sign == 'p' and num2 == 5:
+    print("36 power 5 = 60466176.0")
+if num1 == 36 and sign == 'p' and num2 == 6:
+    print("36 power 6 = 2176782336.0")
+if num1 == 36 and sign == 'p' and num2 == 7:
+    print("36 power 7 = 78364164096.0")
+if num1 == 36 and sign == 'p' and num2 == 8:
+    print("36 power 8 = 2821109907456.0")
+if num1 == 36 and sign == 'p' and num2 == 9:
+    print("36 power 9 = 101559956668416.0")
+if num1 == 36 and sign == 'p' and num2 == 10:
+    print("36 power 10 = 3656158440062976.0")
+if num1 == 36 and sign == 'p' and num2 == 11:
+    print("36 power 11 = 1.3162170384226714e+17")
+if num1 == 36 and sign == 'p' and num2 == 12:
+    print("36 power 12 = 4.738381338321617e+18")
+if num1 == 36 and sign == 'p' and num2 == 13:
+    print("36 power 13 = 1.705817281795782e+20")
+if num1 == 36 and sign == 'p' and num2 == 14:
+    print("36 power 14 = 6.140942214464815e+21")
+if num1 == 36 and sign == 'p' and num2 == 15:
+    print("36 power 15 = 2.2107391972073336e+23")
+if num1 == 36 and sign == 'p' and num2 == 16:
+    print("36 power 16 = 7.958661109946401e+24")
+if num1 == 36 and sign == 'p' and num2 == 17:
+    print("36 power 17 = 2.865117999580704e+26")
+if num1 == 36 and sign == 'p' and num2 == 18:
+    print("36 power 18 = 1.0314424798490537e+28")
+if num1 == 36 and sign == 'p' and num2 == 19:
+    print("36 power 19 = 3.7131929274565926e+29")
+if num1 == 36 and sign == 'p' and num2 == 20:
+    print("36 power 20 = 1.3367494538843734e+31")
+if num1 == 36 and sign == 'p' and num2 == 21:
+    print("36 power 21 = 4.8122980339837445e+32")
+if num1 == 36 and sign == 'p' and num2 == 22:
+    print("36 power 22 = 1.7324272922341479e+34")
+if num1 == 36 and sign == 'p' and num2 == 23:
+    print("36 power 23 = 6.236738252042933e+35")
+if num1 == 36 and sign == 'p' and num2 == 24:
+    print("36 power 24 = 2.245225770735456e+37")
+if num1 == 36 and sign == 'p' and num2 == 25:
+    print("36 power 25 = 8.08281277464764e+38")
+if num1 == 36 and sign == 'p' and num2 == 26:
+    print("36 power 26 = 2.9098125988731505e+40")
+if num1 == 36 and sign == 'p' and num2 == 27:
+    print("36 power 27 = 1.0475325355943343e+42")
+if num1 == 36 and sign == 'p' and num2 == 28:
+    print("36 power 28 = 3.7711171281396034e+43")
+if num1 == 36 and sign == 'p' and num2 == 29:
+    print("36 power 29 = 1.3576021661302572e+45")
+if num1 == 36 and sign == 'p' and num2 == 30:
+    print("36 power 30 = 4.887367798068926e+46")
+if num1 == 36 and sign == 'p' and num2 == 31:
+    print("36 power 31 = 1.7594524073048134e+48")
+if num1 == 36 and sign == 'p' and num2 == 32:
+    print("36 power 32 = 6.334028666297328e+49")
+if num1 == 36 and sign == 'p' and num2 == 33:
+    print("36 power 33 = 2.280250319867038e+51")
+if num1 == 36 and sign == 'p' and num2 == 34:
+    print("36 power 34 = 8.208901151521337e+52")
+if num1 == 36 and sign == 'p' and num2 == 35:
+    print("36 power 35 = 2.9552044145476813e+54")
+if num1 == 36 and sign == 'p' and num2 == 36:
+    print("36 power 36 = 1.0638735892371651e+56")
+if num1 == 36 and sign == 'p' and num2 == 37:
+    print("36 power 37 = 3.829944921253795e+57")
+if num1 == 36 and sign == 'p' and num2 == 38:
+    print("36 power 38 = 1.3787801716513662e+59")
+if num1 == 36 and sign == 'p' and num2 == 39:
+    print("36 power 39 = 4.963608617944918e+60")
+if num1 == 36 and sign == 'p' and num2 == 40:
+    print("36 power 40 = 1.7868991024601706e+62")
+if num1 == 36 and sign == 'p' and num2 == 41:
+    print("36 power 41 = 6.432836768856614e+63")
+if num1 == 36 and sign == 'p' and num2 == 42:
+    print("36 power 42 = 2.315821236788381e+65")
+if num1 == 36 and sign == 'p' and num2 == 43:
+    print("36 power 43 = 8.336956452438171e+66")
+if num1 == 36 and sign == 'p' and num2 == 44:
+    print("36 power 44 = 3.001304322877742e+68")
+if num1 == 36 and sign == 'p' and num2 == 45:
+    print("36 power 45 = 1.080469556235987e+70")
+if num1 == 36 and sign == 'p' and num2 == 46:
+    print("36 power 46 = 3.8896904024495534e+71")
+if num1 == 36 and sign == 'p' and num2 == 47:
+    print("36 power 47 = 1.4002885448818393e+73")
+if num1 == 36 and sign == 'p' and num2 == 48:
+    print("36 power 48 = 5.041038761574621e+74")
+if num1 == 36 and sign == 'p' and num2 == 49:
+    print("36 power 49 = 1.8147739541668637e+76")
+if num1 == 36 and sign == 'p' and num2 == 50:
+    print("36 power 50 = 6.533186235000709e+77")
+if num1 == 37 and sign == 'p' and num2 == 0:
+    print("37 power 0 = 1.0")
+if num1 == 37 and sign == 'p' and num2 == 1:
+    print("37 power 1 = 37.0")
+if num1 == 37 and sign == 'p' and num2 == 2:
+    print("37 power 2 = 1369.0")
+if num1 == 37 and sign == 'p' and num2 == 3:
+    print("37 power 3 = 50653.0")
+if num1 == 37 and sign == 'p' and num2 == 4:
+    print("37 power 4 = 1874161.0")
+if num1 == 37 and sign == 'p' and num2 == 5:
+    print("37 power 5 = 69343957.0")
+if num1 == 37 and sign == 'p' and num2 == 6:
+    print("37 power 6 = 2565726409.0")
+if num1 == 37 and sign == 'p' and num2 == 7:
+    print("37 power 7 = 94931877133.0")
+if num1 == 37 and sign == 'p' and num2 == 8:
+    print("37 power 8 = 3512479453921.0")
+if num1 == 37 and sign == 'p' and num2 == 9:
+    print("37 power 9 = 129961739795077.0")
+if num1 == 37 and sign == 'p' and num2 == 10:
+    print("37 power 10 = 4808584372417849.0")
+if num1 == 37 and sign == 'p' and num2 == 11:
+    print("37 power 11 = 1.779176217794604e+17")
+if num1 == 37 and sign == 'p' and num2 == 12:
+    print("37 power 12 = 6.582952005840035e+18")
+if num1 == 37 and sign == 'p' and num2 == 13:
+    print("37 power 13 = 2.435692242160813e+20")
+if num1 == 37 and sign == 'p' and num2 == 14:
+    print("37 power 14 = 9.012061295995008e+21")
+if num1 == 37 and sign == 'p' and num2 == 15:
+    print("37 power 15 = 3.334462679518153e+23")
+if num1 == 37 and sign == 'p' and num2 == 16:
+    print("37 power 16 = 1.2337511914217166e+25")
+if num1 == 37 and sign == 'p' and num2 == 17:
+    print("37 power 17 = 4.5648794082603513e+26")
+if num1 == 37 and sign == 'p' and num2 == 18:
+    print("37 power 18 = 1.6890053810563301e+28")
+if num1 == 37 and sign == 'p' and num2 == 19:
+    print("37 power 19 = 6.249319909908421e+29")
+if num1 == 37 and sign == 'p' and num2 == 20:
+    print("37 power 20 = 2.3122483666661157e+31")
+if num1 == 37 and sign == 'p' and num2 == 21:
+    print("37 power 21 = 8.555318956664628e+32")
+if num1 == 37 and sign == 'p' and num2 == 22:
+    print("37 power 22 = 3.1654680139659126e+34")
+if num1 == 37 and sign == 'p' and num2 == 23:
+    print("37 power 23 = 1.1712231651673877e+36")
+if num1 == 37 and sign == 'p' and num2 == 24:
+    print("37 power 24 = 4.333525711119334e+37")
+if num1 == 37 and sign == 'p' and num2 == 25:
+    print("37 power 25 = 1.6034045131141537e+39")
+if num1 == 37 and sign == 'p' and num2 == 26:
+    print("37 power 26 = 5.932596698522368e+40")
+if num1 == 37 and sign == 'p' and num2 == 27:
+    print("37 power 27 = 2.1950607784532765e+42")
+if num1 == 37 and sign == 'p' and num2 == 28:
+    print("37 power 28 = 8.121724880277123e+43")
+if num1 == 37 and sign == 'p' and num2 == 29:
+    print("37 power 29 = 3.005038205702535e+45")
+if num1 == 37 and sign == 'p' and num2 == 30:
+    print("37 power 30 = 1.111864136109938e+47")
+if num1 == 37 and sign == 'p' and num2 == 31:
+    print("37 power 31 = 4.113897303606771e+48")
+if num1 == 37 and sign == 'p' and num2 == 32:
+    print("37 power 32 = 1.5221420023345053e+50")
+if num1 == 37 and sign == 'p' and num2 == 33:
+    print("37 power 33 = 5.6319254086376695e+51")
+if num1 == 37 and sign == 'p' and num2 == 34:
+    print("37 power 34 = 2.0838124011959378e+53")
+if num1 == 37 and sign == 'p' and num2 == 35:
+    print("37 power 35 = 7.71010588442497e+54")
+if num1 == 37 and sign == 'p' and num2 == 36:
+    print("37 power 36 = 2.8527391772372387e+56")
+if num1 == 37 and sign == 'p' and num2 == 37:
+    print("37 power 37 = 1.0555134955777783e+58")
+if num1 == 37 and sign == 'p' and num2 == 38:
+    print("37 power 38 = 3.9053999336377797e+59")
+if num1 == 37 and sign == 'p' and num2 == 39:
+    print("37 power 39 = 1.4449979754459786e+61")
+if num1 == 37 and sign == 'p' and num2 == 40:
+    print("37 power 40 = 5.346492509150121e+62")
+if num1 == 37 and sign == 'p' and num2 == 41:
+    print("37 power 41 = 1.9782022283855447e+64")
+if num1 == 37 and sign == 'p' and num2 == 42:
+    print("37 power 42 = 7.319348245026515e+65")
+if num1 == 37 and sign == 'p' and num2 == 43:
+    print("37 power 43 = 2.7081588506598106e+67")
+if num1 == 37 and sign == 'p' and num2 == 44:
+    print("37 power 44 = 1.0020187747441298e+69")
+if num1 == 37 and sign == 'p' and num2 == 45:
+    print("37 power 45 = 3.7074694665532806e+70")
+if num1 == 37 and sign == 'p' and num2 == 46:
+    print("37 power 46 = 1.3717637026247139e+72")
+if num1 == 37 and sign == 'p' and num2 == 47:
+    print("37 power 47 = 5.075525699711441e+73")
+if num1 == 37 and sign == 'p' and num2 == 48:
+    print("37 power 48 = 1.8779445088932334e+75")
+if num1 == 37 and sign == 'p' and num2 == 49:
+    print("37 power 49 = 6.948394682904964e+76")
+if num1 == 37 and sign == 'p' and num2 == 50:
+    print("37 power 50 = 2.5709060326748365e+78")
+if num1 == 38 and sign == 'p' and num2 == 0:
+    print("38 power 0 = 1.0")
+if num1 == 38 and sign == 'p' and num2 == 1:
+    print("38 power 1 = 38.0")
+if num1 == 38 and sign == 'p' and num2 == 2:
+    print("38 power 2 = 1444.0")
+if num1 == 38 and sign == 'p' and num2 == 3:
+    print("38 power 3 = 54872.0")
+if num1 == 38 and sign == 'p' and num2 == 4:
+    print("38 power 4 = 2085136.0")
+if num1 == 38 and sign == 'p' and num2 == 5:
+    print("38 power 5 = 79235168.0")
+if num1 == 38 and sign == 'p' and num2 == 6:
+    print("38 power 6 = 3010936384.0")
+if num1 == 38 and sign == 'p' and num2 == 7:
+    print("38 power 7 = 114415582592.0")
+if num1 == 38 and sign == 'p' and num2 == 8:
+    print("38 power 8 = 4347792138496.0")
+if num1 == 38 and sign == 'p' and num2 == 9:
+    print("38 power 9 = 165216101262848.0")
+if num1 == 38 and sign == 'p' and num2 == 10:
+    print("38 power 10 = 6278211847988224.0")
+if num1 == 38 and sign == 'p' and num2 == 11:
+    print("38 power 11 = 2.385720502235525e+17")
+if num1 == 38 and sign == 'p' and num2 == 12:
+    print("38 power 12 = 9.065737908494995e+18")
+if num1 == 38 and sign == 'p' and num2 == 13:
+    print("38 power 13 = 3.444980405228098e+20")
+if num1 == 38 and sign == 'p' and num2 == 14:
+    print("38 power 14 = 1.3090925539866773e+22")
+if num1 == 38 and sign == 'p' and num2 == 15:
+    print("38 power 15 = 4.974551705149374e+23")
+if num1 == 38 and sign == 'p' and num2 == 16:
+    print("38 power 16 = 1.890329647956762e+25")
+if num1 == 38 and sign == 'p' and num2 == 17:
+    print("38 power 17 = 7.183252662235696e+26")
+if num1 == 38 and sign == 'p' and num2 == 18:
+    print("38 power 18 = 2.7296360116495646e+28")
+if num1 == 38 and sign == 'p' and num2 == 19:
+    print("38 power 19 = 1.0372616844268345e+30")
+if num1 == 38 and sign == 'p' and num2 == 20:
+    print("38 power 20 = 3.9415944008219712e+31")
+if num1 == 38 and sign == 'p' and num2 == 21:
+    print("38 power 21 = 1.4978058723123491e+33")
+if num1 == 38 and sign == 'p' and num2 == 22:
+    print("38 power 22 = 5.691662314786926e+34")
+if num1 == 38 and sign == 'p' and num2 == 23:
+    print("38 power 23 = 2.162831679619032e+36")
+if num1 == 38 and sign == 'p' and num2 == 24:
+    print("38 power 24 = 8.218760382552321e+37")
+if num1 == 38 and sign == 'p' and num2 == 25:
+    print("38 power 25 = 3.123128945369882e+39")
+if num1 == 38 and sign == 'p' and num2 == 26:
+    print("38 power 26 = 1.1867889992405552e+41")
+if num1 == 38 and sign == 'p' and num2 == 27:
+    print("38 power 27 = 4.50979819711411e+42")
+if num1 == 38 and sign == 'p' and num2 == 28:
+    print("38 power 28 = 1.7137233149033618e+44")
+if num1 == 38 and sign == 'p' and num2 == 29:
+    print("38 power 29 = 6.512148596632774e+45")
+if num1 == 38 and sign == 'p' and num2 == 30:
+    print("38 power 30 = 2.4746164667204542e+47")
+if num1 == 38 and sign == 'p' and num2 == 31:
+    print("38 power 31 = 9.403542573537726e+48")
+if num1 == 38 and sign == 'p' and num2 == 32:
+    print("38 power 32 = 3.573346177944336e+50")
+if num1 == 38 and sign == 'p' and num2 == 33:
+    print("38 power 33 = 1.3578715476188477e+52")
+if num1 == 38 and sign == 'p' and num2 == 34:
+    print("38 power 34 = 5.159911880951622e+53")
+if num1 == 38 and sign == 'p' and num2 == 35:
+    print("38 power 35 = 1.9607665147616162e+55")
+if num1 == 38 and sign == 'p' and num2 == 36:
+    print("38 power 36 = 7.450912756094141e+56")
+if num1 == 38 and sign == 'p' and num2 == 37:
+    print("38 power 37 = 2.831346847315774e+58")
+if num1 == 38 and sign == 'p' and num2 == 38:
+    print("38 power 38 = 1.075911801979994e+60")
+if num1 == 38 and sign == 'p' and num2 == 39:
+    print("38 power 39 = 4.088464847523977e+61")
+if num1 == 38 and sign == 'p' and num2 == 40:
+    print("38 power 40 = 1.5536166420591114e+63")
+if num1 == 38 and sign == 'p' and num2 == 41:
+    print("38 power 41 = 5.903743239824623e+64")
+if num1 == 38 and sign == 'p' and num2 == 42:
+    print("38 power 42 = 2.2434224311333567e+66")
+if num1 == 38 and sign == 'p' and num2 == 43:
+    print("38 power 43 = 8.525005238306756e+67")
+if num1 == 38 and sign == 'p' and num2 == 44:
+    print("38 power 44 = 3.2395019905565673e+69")
+if num1 == 38 and sign == 'p' and num2 == 45:
+    print("38 power 45 = 1.2310107564114954e+71")
+if num1 == 38 and sign == 'p' and num2 == 46:
+    print("38 power 46 = 4.677840874363683e+72")
+if num1 == 38 and sign == 'p' and num2 == 47:
+    print("38 power 47 = 1.7775795322581995e+74")
+if num1 == 38 and sign == 'p' and num2 == 48:
+    print("38 power 48 = 6.754802222581158e+75")
+if num1 == 38 and sign == 'p' and num2 == 49:
+    print("38 power 49 = 2.56682484458084e+77")
+if num1 == 38 and sign == 'p' and num2 == 50:
+    print("38 power 50 = 9.753934409407193e+78")
+if num1 == 39 and sign == 'p' and num2 == 0:
+    print("39 power 0 = 1.0")
+if num1 == 39 and sign == 'p' and num2 == 1:
+    print("39 power 1 = 39.0")
+if num1 == 39 and sign == 'p' and num2 == 2:
+    print("39 power 2 = 1521.0")
+if num1 == 39 and sign == 'p' and num2 == 3:
+    print("39 power 3 = 59319.0")
+if num1 == 39 and sign == 'p' and num2 == 4:
+    print("39 power 4 = 2313441.0")
+if num1 == 39 and sign == 'p' and num2 == 5:
+    print("39 power 5 = 90224199.0")
+if num1 == 39 and sign == 'p' and num2 == 6:
+    print("39 power 6 = 3518743761.0")
+if num1 == 39 and sign == 'p' and num2 == 7:
+    print("39 power 7 = 137231006679.0")
+if num1 == 39 and sign == 'p' and num2 == 8:
+    print("39 power 8 = 5352009260481.0")
+if num1 == 39 and sign == 'p' and num2 == 9:
+    print("39 power 9 = 208728361158759.0")
+if num1 == 39 and sign == 'p' and num2 == 10:
+    print("39 power 10 = 8140406085191601.0")
+if num1 == 39 and sign == 'p' and num2 == 11:
+    print("39 power 11 = 3.1747583732247245e+17")
+if num1 == 39 and sign == 'p' and num2 == 12:
+    print("39 power 12 = 1.2381557655576424e+19")
+if num1 == 39 and sign == 'p' and num2 == 13:
+    print("39 power 13 = 4.8288074856748057e+20")
+if num1 == 39 and sign == 'p' and num2 == 14:
+    print("39 power 14 = 1.8832349194131742e+22")
+if num1 == 39 and sign == 'p' and num2 == 15:
+    print("39 power 15 = 7.34461618571138e+23")
+if num1 == 39 and sign == 'p' and num2 == 16:
+    print("39 power 16 = 2.8644003124274382e+25")
+if num1 == 39 and sign == 'p' and num2 == 17:
+    print("39 power 17 = 1.1171161218467009e+27")
+if num1 == 39 and sign == 'p' and num2 == 18:
+    print("39 power 18 = 4.3567528752021335e+28")
+if num1 == 39 and sign == 'p' and num2 == 19:
+    print("39 power 19 = 1.699133621328832e+30")
+if num1 == 39 and sign == 'p' and num2 == 20:
+    print("39 power 20 = 6.626621123182445e+31")
+if num1 == 39 and sign == 'p' and num2 == 21:
+    print("39 power 21 = 2.5843822380411536e+33")
+if num1 == 39 and sign == 'p' and num2 == 22:
+    print("39 power 22 = 1.0079090728360499e+35")
+if num1 == 39 and sign == 'p' and num2 == 23:
+    print("39 power 23 = 3.9308453840605945e+36")
+if num1 == 39 and sign == 'p' and num2 == 24:
+    print("39 power 24 = 1.5330296997836319e+38")
+if num1 == 39 and sign == 'p' and num2 == 25:
+    print("39 power 25 = 5.978815829156164e+39")
+if num1 == 39 and sign == 'p' and num2 == 26:
+    print("39 power 26 = 2.331738173370904e+41")
+if num1 == 39 and sign == 'p' and num2 == 27:
+    print("39 power 27 = 9.093778876146525e+42")
+if num1 == 39 and sign == 'p' and num2 == 28:
+    print("39 power 28 = 3.546573761697145e+44")
+if num1 == 39 and sign == 'p' and num2 == 29:
+    print("39 power 29 = 1.3831637670618866e+46")
+if num1 == 39 and sign == 'p' and num2 == 30:
+    print("39 power 30 = 5.394338691541357e+47")
+if num1 == 39 and sign == 'p' and num2 == 31:
+    print("39 power 31 = 2.1037920897011295e+49")
+if num1 == 39 and sign == 'p' and num2 == 32:
+    print("39 power 32 = 8.204789149834405e+50")
+if num1 == 39 and sign == 'p' and num2 == 33:
+    print("39 power 33 = 3.1998677684354177e+52")
+if num1 == 39 and sign == 'p' and num2 == 34:
+    print("39 power 34 = 1.247948429689813e+54")
+if num1 == 39 and sign == 'p' and num2 == 35:
+    print("39 power 35 = 4.8669988757902707e+55")
+if num1 == 39 and sign == 'p' and num2 == 36:
+    print("39 power 36 = 1.8981295615582055e+57")
+if num1 == 39 and sign == 'p' and num2 == 37:
+    print("39 power 37 = 7.402705290077001e+58")
+if num1 == 39 and sign == 'p' and num2 == 38:
+    print("39 power 38 = 2.8870550631300305e+60")
+if num1 == 39 and sign == 'p' and num2 == 39:
+    print("39 power 39 = 1.125951474620712e+62")
+if num1 == 39 and sign == 'p' and num2 == 40:
+    print("39 power 40 = 4.391210751020777e+63")
+if num1 == 39 and sign == 'p' and num2 == 41:
+    print("39 power 41 = 1.712572192898103e+65")
+if num1 == 39 and sign == 'p' and num2 == 42:
+    print("39 power 42 = 6.6790315523026014e+66")
+if num1 == 39 and sign == 'p' and num2 == 43:
+    print("39 power 43 = 2.6048223053980145e+68")
+if num1 == 39 and sign == 'p' and num2 == 44:
+    print("39 power 44 = 1.0158806991052256e+70")
+if num1 == 39 and sign == 'p' and num2 == 45:
+    print("39 power 45 = 3.96193472651038e+71")
+if num1 == 39 and sign == 'p' and num2 == 46:
+    print("39 power 46 = 1.5451545433390483e+73")
+if num1 == 39 and sign == 'p' and num2 == 47:
+    print("39 power 47 = 6.026102719022288e+74")
+if num1 == 39 and sign == 'p' and num2 == 48:
+    print("39 power 48 = 2.3501800604186924e+76")
+if num1 == 39 and sign == 'p' and num2 == 49:
+    print("39 power 49 = 9.165702235632899e+77")
+if num1 == 39 and sign == 'p' and num2 == 50:
+    print("39 power 50 = 3.574623871896831e+79")
+if num1 == 40 and sign == 'p' and num2 == 0:
+    print("40 power 0 = 1.0")
+if num1 == 40 and sign == 'p' and num2 == 1:
+    print("40 power 1 = 40.0")
+if num1 == 40 and sign == 'p' and num2 == 2:
+    print("40 power 2 = 1600.0")
+if num1 == 40 and sign == 'p' and num2 == 3:
+    print("40 power 3 = 64000.0")
+if num1 == 40 and sign == 'p' and num2 == 4:
+    print("40 power 4 = 2560000.0")
+if num1 == 40 and sign == 'p' and num2 == 5:
+    print("40 power 5 = 102400000.0")
+if num1 == 40 and sign == 'p' and num2 == 6:
+    print("40 power 6 = 4096000000.0")
+if num1 == 40 and sign == 'p' and num2 == 7:
+    print("40 power 7 = 163840000000.0")
+if num1 == 40 and sign == 'p' and num2 == 8:
+    print("40 power 8 = 6553600000000.0")
+if num1 == 40 and sign == 'p' and num2 == 9:
+    print("40 power 9 = 262144000000000.0")
+if num1 == 40 and sign == 'p' and num2 == 10:
+    print("40 power 10 = 1.048576e+16")
+if num1 == 40 and sign == 'p' and num2 == 11:
+    print("40 power 11 = 4.194304e+17")
+if num1 == 40 and sign == 'p' and num2 == 12:
+    print("40 power 12 = 1.6777216e+19")
+if num1 == 40 and sign == 'p' and num2 == 13:
+    print("40 power 13 = 6.7108864e+20")
+if num1 == 40 and sign == 'p' and num2 == 14:
+    print("40 power 14 = 2.68435456e+22")
+if num1 == 40 and sign == 'p' and num2 == 15:
+    print("40 power 15 = 1.073741824e+24")
+if num1 == 40 and sign == 'p' and num2 == 16:
+    print("40 power 16 = 4.294967296e+25")
+if num1 == 40 and sign == 'p' and num2 == 17:
+    print("40 power 17 = 1.7179869184e+27")
+if num1 == 40 and sign == 'p' and num2 == 18:
+    print("40 power 18 = 6.8719476736e+28")
+if num1 == 40 and sign == 'p' and num2 == 19:
+    print("40 power 19 = 2.74877906944e+30")
+if num1 == 40 and sign == 'p' and num2 == 20:
+    print("40 power 20 = 1.099511627776e+32")
+if num1 == 40 and sign == 'p' and num2 == 21:
+    print("40 power 21 = 4.398046511104e+33")
+if num1 == 40 and sign == 'p' and num2 == 22:
+    print("40 power 22 = 1.7592186044416e+35")
+if num1 == 40 and sign == 'p' and num2 == 23:
+    print("40 power 23 = 7.036874417766401e+36")
+if num1 == 40 and sign == 'p' and num2 == 24:
+    print("40 power 24 = 2.81474976710656e+38")
+if num1 == 40 and sign == 'p' and num2 == 25:
+    print("40 power 25 = 1.125899906842624e+40")
+if num1 == 40 and sign == 'p' and num2 == 26:
+    print("40 power 26 = 4.503599627370496e+41")
+if num1 == 40 and sign == 'p' and num2 == 27:
+    print("40 power 27 = 1.8014398509481984e+43")
+if num1 == 40 and sign == 'p' and num2 == 28:
+    print("40 power 28 = 7.205759403792793e+44")
+if num1 == 40 and sign == 'p' and num2 == 29:
+    print("40 power 29 = 2.882303761517117e+46")
+if num1 == 40 and sign == 'p' and num2 == 30:
+    print("40 power 30 = 1.152921504606847e+48")
+if num1 == 40 and sign == 'p' and num2 == 31:
+    print("40 power 31 = 4.6116860184273877e+49")
+if num1 == 40 and sign == 'p' and num2 == 32:
+    print("40 power 32 = 1.8446744073709553e+51")
+if num1 == 40 and sign == 'p' and num2 == 33:
+    print("40 power 33 = 7.37869762948382e+52")
+if num1 == 40 and sign == 'p' and num2 == 34:
+    print("40 power 34 = 2.951479051793528e+54")
+if num1 == 40 and sign == 'p' and num2 == 35:
+    print("40 power 35 = 1.1805916207174113e+56")
+if num1 == 40 and sign == 'p' and num2 == 36:
+    print("40 power 36 = 4.7223664828696454e+57")
+if num1 == 40 and sign == 'p' and num2 == 37:
+    print("40 power 37 = 1.888946593147858e+59")
+if num1 == 40 and sign == 'p' and num2 == 38:
+    print("40 power 38 = 7.555786372591432e+60")
+if num1 == 40 and sign == 'p' and num2 == 39:
+    print("40 power 39 = 3.0223145490365728e+62")
+if num1 == 40 and sign == 'p' and num2 == 40:
+    print("40 power 40 = 1.2089258196146292e+64")
+if num1 == 40 and sign == 'p' and num2 == 41:
+    print("40 power 41 = 4.835703278458517e+65")
+if num1 == 40 and sign == 'p' and num2 == 42:
+    print("40 power 42 = 1.9342813113834068e+67")
+if num1 == 40 and sign == 'p' and num2 == 43:
+    print("40 power 43 = 7.737125245533627e+68")
+if num1 == 40 and sign == 'p' and num2 == 44:
+    print("40 power 44 = 3.094850098213451e+70")
+if num1 == 40 and sign == 'p' and num2 == 45:
+    print("40 power 45 = 1.2379400392853802e+72")
+if num1 == 40 and sign == 'p' and num2 == 46:
+    print("40 power 46 = 4.951760157141521e+73")
+if num1 == 40 and sign == 'p' and num2 == 47:
+    print("40 power 47 = 1.9807040628566085e+75")
+if num1 == 40 and sign == 'p' and num2 == 48:
+    print("40 power 48 = 7.922816251426434e+76")
+if num1 == 40 and sign == 'p' and num2 == 49:
+    print("40 power 49 = 3.1691265005705733e+78")
+if num1 == 40 and sign == 'p' and num2 == 50:
+    print("40 power 50 = 1.2676506002282295e+80")
+if num1 == 41 and sign == 'p' and num2 == 0:
+    print("41 power 0 = 1.0")
+if num1 == 41 and sign == 'p' and num2 == 1:
+    print("41 power 1 = 41.0")
+if num1 == 41 and sign == 'p' and num2 == 2:
+    print("41 power 2 = 1681.0")
+if num1 == 41 and sign == 'p' and num2 == 3:
+    print("41 power 3 = 68921.0")
+if num1 == 41 and sign == 'p' and num2 == 4:
+    print("41 power 4 = 2825761.0")
+if num1 == 41 and sign == 'p' and num2 == 5:
+    print("41 power 5 = 115856201.0")
+if num1 == 41 and sign == 'p' and num2 == 6:
+    print("41 power 6 = 4750104241.0")
+if num1 == 41 and sign == 'p' and num2 == 7:
+    print("41 power 7 = 194754273881.0")
+if num1 == 41 and sign == 'p' and num2 == 8:
+    print("41 power 8 = 7984925229121.0")
+if num1 == 41 and sign == 'p' and num2 == 9:
+    print("41 power 9 = 327381934393961.0")
+if num1 == 41 and sign == 'p' and num2 == 10:
+    print("41 power 10 = 1.34226593101524e+16")
+if num1 == 41 and sign == 'p' and num2 == 11:
+    print("41 power 11 = 5.5032903171624845e+17")
+if num1 == 41 and sign == 'p' and num2 == 12:
+    print("41 power 12 = 2.2563490300366184e+19")
+if num1 == 41 and sign == 'p' and num2 == 13:
+    print("41 power 13 = 9.251031023150136e+20")
+if num1 == 41 and sign == 'p' and num2 == 14:
+    print("41 power 14 = 3.792922719491556e+22")
+if num1 == 41 and sign == 'p' and num2 == 15:
+    print("41 power 15 = 1.555098314991538e+24")
+if num1 == 41 and sign == 'p' and num2 == 16:
+    print("41 power 16 = 6.375903091465305e+25")
+if num1 == 41 and sign == 'p' and num2 == 17:
+    print("41 power 17 = 2.6141202675007753e+27")
+if num1 == 41 and sign == 'p' and num2 == 18:
+    print("41 power 18 = 1.0717893096753178e+29")
+if num1 == 41 and sign == 'p' and num2 == 19:
+    print("41 power 19 = 4.394336169668803e+30")
+if num1 == 41 and sign == 'p' and num2 == 20:
+    print("41 power 20 = 1.8016778295642092e+32")
+if num1 == 41 and sign == 'p' and num2 == 21:
+    print("41 power 21 = 7.386879101213258e+33")
+if num1 == 41 and sign == 'p' and num2 == 22:
+    print("41 power 22 = 3.0286204314974357e+35")
+if num1 == 41 and sign == 'p' and num2 == 23:
+    print("41 power 23 = 1.2417343769139487e+37")
+if num1 == 41 and sign == 'p' and num2 == 24:
+    print("41 power 24 = 5.091110945347189e+38")
+if num1 == 41 and sign == 'p' and num2 == 25:
+    print("41 power 25 = 2.0873554875923478e+40")
+if num1 == 41 and sign == 'p' and num2 == 26:
+    print("41 power 26 = 8.558157499128625e+41")
+if num1 == 41 and sign == 'p' and num2 == 27:
+    print("41 power 27 = 3.508844574642737e+43")
+if num1 == 41 and sign == 'p' and num2 == 28:
+    print("41 power 28 = 1.438626275603522e+45")
+if num1 == 41 and sign == 'p' and num2 == 29:
+    print("41 power 29 = 5.89836772997444e+46")
+if num1 == 41 and sign == 'p' and num2 == 30:
+    print("41 power 30 = 2.4183307692895205e+48")
+if num1 == 41 and sign == 'p' and num2 == 31:
+    print("41 power 31 = 9.915156154087034e+49")
+if num1 == 41 and sign == 'p' and num2 == 32:
+    print("41 power 32 = 4.065214023175684e+51")
+if num1 == 41 and sign == 'p' and num2 == 33:
+    print("41 power 33 = 1.6667377495020305e+53")
+if num1 == 41 and sign == 'p' and num2 == 34:
+    print("41 power 34 = 6.833624772958324e+54")
+if num1 == 41 and sign == 'p' and num2 == 35:
+    print("41 power 35 = 2.801786156912913e+56")
+if num1 == 41 and sign == 'p' and num2 == 36:
+    print("41 power 36 = 1.1487323243342944e+58")
+if num1 == 41 and sign == 'p' and num2 == 37:
+    print("41 power 37 = 4.709802529770607e+59")
+if num1 == 41 and sign == 'p' and num2 == 38:
+    print("41 power 38 = 1.9310190372059488e+61")
+if num1 == 41 and sign == 'p' and num2 == 39:
+    print("41 power 39 = 7.9171780525443905e+62")
+if num1 == 41 and sign == 'p' and num2 == 40:
+    print("41 power 40 = 3.2460430015432e+64")
+if num1 == 41 and sign == 'p' and num2 == 41:
+    print("41 power 41 = 1.330877630632712e+66")
+if num1 == 41 and sign == 'p' and num2 == 42:
+    print("41 power 42 = 5.45659828559412e+67")
+if num1 == 41 and sign == 'p' and num2 == 43:
+    print("41 power 43 = 2.237205297093589e+69")
+if num1 == 41 and sign == 'p' and num2 == 44:
+    print("41 power 44 = 9.172541718083714e+70")
+if num1 == 41 and sign == 'p' and num2 == 45:
+    print("41 power 45 = 3.760742104414323e+72")
+if num1 == 41 and sign == 'p' and num2 == 46:
+    print("41 power 46 = 1.5419042628098723e+74")
+if num1 == 41 and sign == 'p' and num2 == 47:
+    print("41 power 47 = 6.321807477520477e+75")
+if num1 == 41 and sign == 'p' and num2 == 48:
+    print("41 power 48 = 2.5919410657833954e+77")
+if num1 == 41 and sign == 'p' and num2 == 49:
+    print("41 power 49 = 1.0626958369711921e+79")
+if num1 == 41 and sign == 'p' and num2 == 50:
+    print("41 power 50 = 4.357052931581888e+80")
+if num1 == 42 and sign == 'p' and num2 == 0:
+    print("42 power 0 = 1.0")
+if num1 == 42 and sign == 'p' and num2 == 1:
+    print("42 power 1 = 42.0")
+if num1 == 42 and sign == 'p' and num2 == 2:
+    print("42 power 2 = 1764.0")
+if num1 == 42 and sign == 'p' and num2 == 3:
+    print("42 power 3 = 74088.0")
+if num1 == 42 and sign == 'p' and num2 == 4:
+    print("42 power 4 = 3111696.0")
+if num1 == 42 and sign == 'p' and num2 == 5:
+    print("42 power 5 = 130691232.0")
+if num1 == 42 and sign == 'p' and num2 == 6:
+    print("42 power 6 = 5489031744.0")
+if num1 == 42 and sign == 'p' and num2 == 7:
+    print("42 power 7 = 230539333248.0")
+if num1 == 42 and sign == 'p' and num2 == 8:
+    print("42 power 8 = 9682651996416.0")
+if num1 == 42 and sign == 'p' and num2 == 9:
+    print("42 power 9 = 406671383849472.0")
+if num1 == 42 and sign == 'p' and num2 == 10:
+    print("42 power 10 = 1.7080198121677824e+16")
+if num1 == 42 and sign == 'p' and num2 == 11:
+    print("42 power 11 = 7.173683211104686e+17")
+if num1 == 42 and sign == 'p' and num2 == 12:
+    print("42 power 12 = 3.012946948663968e+19")
+if num1 == 42 and sign == 'p' and num2 == 13:
+    print("42 power 13 = 1.2654377184388666e+21")
+if num1 == 42 and sign == 'p' and num2 == 14:
+    print("42 power 14 = 5.31483841744324e+22")
+if num1 == 42 and sign == 'p' and num2 == 15:
+    print("42 power 15 = 2.2322321353261607e+24")
+if num1 == 42 and sign == 'p' and num2 == 16:
+    print("42 power 16 = 9.375374968369875e+25")
+if num1 == 42 and sign == 'p' and num2 == 17:
+    print("42 power 17 = 3.9376574867153474e+27")
+if num1 == 42 and sign == 'p' and num2 == 18:
+    print("42 power 18 = 1.6538161444204458e+29")
+if num1 == 42 and sign == 'p' and num2 == 19:
+    print("42 power 19 = 6.946027806565873e+30")
+if num1 == 42 and sign == 'p' and num2 == 20:
+    print("42 power 20 = 2.917331678757667e+32")
+if num1 == 42 and sign == 'p' and num2 == 21:
+    print("42 power 21 = 1.22527930507822e+34")
+if num1 == 42 and sign == 'p' and num2 == 22:
+    print("42 power 22 = 5.146173081328524e+35")
+if num1 == 42 and sign == 'p' and num2 == 23:
+    print("42 power 23 = 2.16139269415798e+37")
+if num1 == 42 and sign == 'p' and num2 == 24:
+    print("42 power 24 = 9.077849315463517e+38")
+if num1 == 42 and sign == 'p' and num2 == 25:
+    print("42 power 25 = 3.812696712494677e+40")
+if num1 == 42 and sign == 'p' and num2 == 26:
+    print("42 power 26 = 1.6013326192477642e+42")
+if num1 == 42 and sign == 'p' and num2 == 27:
+    print("42 power 27 = 6.72559700084061e+43")
+if num1 == 42 and sign == 'p' and num2 == 28:
+    print("42 power 28 = 2.8247507403530563e+45")
+if num1 == 42 and sign == 'p' and num2 == 29:
+    print("42 power 29 = 1.1863953109482835e+47")
+if num1 == 42 and sign == 'p' and num2 == 30:
+    print("42 power 30 = 4.9828603059827914e+48")
+if num1 == 42 and sign == 'p' and num2 == 31:
+    print("42 power 31 = 2.0928013285127723e+50")
+if num1 == 42 and sign == 'p' and num2 == 32:
+    print("42 power 32 = 8.789765579753644e+51")
+if num1 == 42 and sign == 'p' and num2 == 33:
+    print("42 power 33 = 3.69170154349653e+53")
+if num1 == 42 and sign == 'p' and num2 == 34:
+    print("42 power 34 = 1.5505146482685427e+55")
+if num1 == 42 and sign == 'p' and num2 == 35:
+    print("42 power 35 = 6.51216152272788e+56")
+if num1 == 42 and sign == 'p' and num2 == 36:
+    print("42 power 36 = 2.7351078395457096e+58")
+if num1 == 42 and sign == 'p' and num2 == 37:
+    print("42 power 37 = 1.148745292609198e+60")
+if num1 == 42 and sign == 'p' and num2 == 38:
+    print("42 power 38 = 4.824730228958631e+61")
+if num1 == 42 and sign == 'p' and num2 == 39:
+    print("42 power 39 = 2.0263866961626253e+63")
+if num1 == 42 and sign == 'p' and num2 == 40:
+    print("42 power 40 = 8.510824123883026e+64")
+if num1 == 42 and sign == 'p' and num2 == 41:
+    print("42 power 41 = 3.574546132030871e+66")
+if num1 == 42 and sign == 'p' and num2 == 42:
+    print("42 power 42 = 1.5013093754529656e+68")
+if num1 == 42 and sign == 'p' and num2 == 43:
+    print("42 power 43 = 6.305499376902456e+69")
+if num1 == 42 and sign == 'p' and num2 == 44:
+    print("42 power 44 = 2.648309738299032e+71")
+if num1 == 42 and sign == 'p' and num2 == 45:
+    print("42 power 45 = 1.1122900900855932e+73")
+if num1 == 42 and sign == 'p' and num2 == 46:
+    print("42 power 46 = 4.671618378359491e+74")
+if num1 == 42 and sign == 'p' and num2 == 47:
+    print("42 power 47 = 1.9620797189109866e+76")
+if num1 == 42 and sign == 'p' and num2 == 48:
+    print("42 power 48 = 8.240734819426144e+77")
+if num1 == 42 and sign == 'p' and num2 == 49:
+    print("42 power 49 = 3.4611086241589803e+79")
+if num1 == 42 and sign == 'p' and num2 == 50:
+    print("42 power 50 = 1.4536656221467717e+81")
+if num1 == 43 and sign == 'p' and num2 == 0:
+    print("43 power 0 = 1.0")
+if num1 == 43 and sign == 'p' and num2 == 1:
+    print("43 power 1 = 43.0")
+if num1 == 43 and sign == 'p' and num2 == 2:
+    print("43 power 2 = 1849.0")
+if num1 == 43 and sign == 'p' and num2 == 3:
+    print("43 power 3 = 79507.0")
+if num1 == 43 and sign == 'p' and num2 == 4:
+    print("43 power 4 = 3418801.0")
+if num1 == 43 and sign == 'p' and num2 == 5:
+    print("43 power 5 = 147008443.0")
+if num1 == 43 and sign == 'p' and num2 == 6:
+    print("43 power 6 = 6321363049.0")
+if num1 == 43 and sign == 'p' and num2 == 7:
+    print("43 power 7 = 271818611107.0")
+if num1 == 43 and sign == 'p' and num2 == 8:
+    print("43 power 8 = 11688200277601.0")
+if num1 == 43 and sign == 'p' and num2 == 9:
+    print("43 power 9 = 502592611936843.0")
+if num1 == 43 and sign == 'p' and num2 == 10:
+    print("43 power 10 = 2.161148231328425e+16")
+if num1 == 43 and sign == 'p' and num2 == 11:
+    print("43 power 11 = 9.292937394712227e+17")
+if num1 == 43 and sign == 'p' and num2 == 12:
+    print("43 power 12 = 3.995963079726258e+19")
+if num1 == 43 and sign == 'p' and num2 == 13:
+    print("43 power 13 = 1.7182641242822908e+21")
+if num1 == 43 and sign == 'p' and num2 == 14:
+    print("43 power 14 = 7.3885357344138505e+22")
+if num1 == 43 and sign == 'p' and num2 == 15:
+    print("43 power 15 = 3.1770703657979555e+24")
+if num1 == 43 and sign == 'p' and num2 == 16:
+    print("43 power 16 = 1.3661402572931209e+26")
+if num1 == 43 and sign == 'p' and num2 == 17:
+    print("43 power 17 = 5.87440310636042e+27")
+if num1 == 43 and sign == 'p' and num2 == 18:
+    print("43 power 18 = 2.5259933357349805e+29")
+if num1 == 43 and sign == 'p' and num2 == 19:
+    print("43 power 19 = 1.0861771343660416e+31")
+if num1 == 43 and sign == 'p' and num2 == 20:
+    print("43 power 20 = 4.670561677773979e+32")
+if num1 == 43 and sign == 'p' and num2 == 21:
+    print("43 power 21 = 2.008341521442811e+34")
+if num1 == 43 and sign == 'p' and num2 == 22:
+    print("43 power 22 = 8.635868542204087e+35")
+if num1 == 43 and sign == 'p' and num2 == 23:
+    print("43 power 23 = 3.7134234731477574e+37")
+if num1 == 43 and sign == 'p' and num2 == 24:
+    print("43 power 24 = 1.5967720934535357e+39")
+if num1 == 43 and sign == 'p' and num2 == 25:
+    print("43 power 25 = 6.866120001850204e+40")
+if num1 == 43 and sign == 'p' and num2 == 26:
+    print("43 power 26 = 2.9524316007955874e+42")
+if num1 == 43 and sign == 'p' and num2 == 27:
+    print("43 power 27 = 1.2695455883421027e+44")
+if num1 == 43 and sign == 'p' and num2 == 28:
+    print("43 power 28 = 5.4590460298710416e+45")
+if num1 == 43 and sign == 'p' and num2 == 29:
+    print("43 power 29 = 2.3473897928445477e+47")
+if num1 == 43 and sign == 'p' and num2 == 30:
+    print("43 power 30 = 1.0093776109231556e+49")
+if num1 == 43 and sign == 'p' and num2 == 31:
+    print("43 power 31 = 4.340323726969569e+50")
+if num1 == 43 and sign == 'p' and num2 == 32:
+    print("43 power 32 = 1.8663392025969147e+52")
+if num1 == 43 and sign == 'p' and num2 == 33:
+    print("43 power 33 = 8.025258571166733e+53")
+if num1 == 43 and sign == 'p' and num2 == 34:
+    print("43 power 34 = 3.4508611856016955e+55")
+if num1 == 43 and sign == 'p' and num2 == 35:
+    print("43 power 35 = 1.4838703098087289e+57")
+if num1 == 43 and sign == 'p' and num2 == 36:
+    print("43 power 36 = 6.380642332177535e+58")
+if num1 == 43 and sign == 'p' and num2 == 37:
+    print("43 power 37 = 2.74367620283634e+60")
+if num1 == 43 and sign == 'p' and num2 == 38:
+    print("43 power 38 = 1.1797807672196262e+62")
+if num1 == 43 and sign == 'p' and num2 == 39:
+    print("43 power 39 = 5.073057299044392e+63")
+if num1 == 43 and sign == 'p' and num2 == 40:
+    print("43 power 40 = 2.1814146385890887e+65")
+if num1 == 43 and sign == 'p' and num2 == 41:
+    print("43 power 41 = 9.380082945933081e+66")
+if num1 == 43 and sign == 'p' and num2 == 42:
+    print("43 power 42 = 4.033435666751225e+68")
+if num1 == 43 and sign == 'p' and num2 == 43:
+    print("43 power 43 = 1.7343773367030268e+70")
+if num1 == 43 and sign == 'p' and num2 == 44:
+    print("43 power 44 = 7.457822547823015e+71")
+if num1 == 43 and sign == 'p' and num2 == 45:
+    print("43 power 45 = 3.206863695563896e+73")
+if num1 == 43 and sign == 'p' and num2 == 46:
+    print("43 power 46 = 1.3789513890924755e+75")
+if num1 == 43 and sign == 'p' and num2 == 47:
+    print("43 power 47 = 5.929490973097644e+76")
+if num1 == 43 and sign == 'p' and num2 == 48:
+    print("43 power 48 = 2.549681118431987e+78")
+if num1 == 43 and sign == 'p' and num2 == 49:
+    print("43 power 49 = 1.0963628809257545e+80")
+if num1 == 43 and sign == 'p' and num2 == 50:
+    print("43 power 50 = 4.7143603879807445e+81")
+if num1 == 44 and sign == 'p' and num2 == 0:
+    print("44 power 0 = 1.0")
+if num1 == 44 and sign == 'p' and num2 == 1:
+    print("44 power 1 = 44.0")
+if num1 == 44 and sign == 'p' and num2 == 2:
+    print("44 power 2 = 1936.0")
+if num1 == 44 and sign == 'p' and num2 == 3:
+    print("44 power 3 = 85184.0")
+if num1 == 44 and sign == 'p' and num2 == 4:
+    print("44 power 4 = 3748096.0")
+if num1 == 44 and sign == 'p' and num2 == 5:
+    print("44 power 5 = 164916224.0")
+if num1 == 44 and sign == 'p' and num2 == 6:
+    print("44 power 6 = 7256313856.0")
+if num1 == 44 and sign == 'p' and num2 == 7:
+    print("44 power 7 = 319277809664.0")
+if num1 == 44 and sign == 'p' and num2 == 8:
+    print("44 power 8 = 14048223625216.0")
+if num1 == 44 and sign == 'p' and num2 == 9:
+    print("44 power 9 = 618121839509504.0")
+if num1 == 44 and sign == 'p' and num2 == 10:
+    print("44 power 10 = 2.7197360938418176e+16")
+if num1 == 44 and sign == 'p' and num2 == 11:
+    print("44 power 11 = 1.1966838812903997e+18")
+if num1 == 44 and sign == 'p' and num2 == 12:
+    print("44 power 12 = 5.265409077677759e+19")
+if num1 == 44 and sign == 'p' and num2 == 13:
+    print("44 power 13 = 2.316779994178214e+21")
+if num1 == 44 and sign == 'p' and num2 == 14:
+    print("44 power 14 = 1.0193831974384141e+23")
+if num1 == 44 and sign == 'p' and num2 == 15:
+    print("44 power 15 = 4.485286068729022e+24")
+if num1 == 44 and sign == 'p' and num2 == 16:
+    print("44 power 16 = 1.9735258702407697e+26")
+if num1 == 44 and sign == 'p' and num2 == 17:
+    print("44 power 17 = 8.683513829059387e+27")
+if num1 == 44 and sign == 'p' and num2 == 18:
+    print("44 power 18 = 3.82074608478613e+29")
+if num1 == 44 and sign == 'p' and num2 == 19:
+    print("44 power 19 = 1.6811282773058973e+31")
+if num1 == 44 and sign == 'p' and num2 == 20:
+    print("44 power 20 = 7.396964420145949e+32")
+if num1 == 44 and sign == 'p' and num2 == 21:
+    print("44 power 21 = 3.2546643448642174e+34")
+if num1 == 44 and sign == 'p' and num2 == 22:
+    print("44 power 22 = 1.4320523117402556e+36")
+if num1 == 44 and sign == 'p' and num2 == 23:
+    print("44 power 23 = 6.301030171657124e+37")
+if num1 == 44 and sign == 'p' and num2 == 24:
+    print("44 power 24 = 2.7724532755291345e+39")
+if num1 == 44 and sign == 'p' and num2 == 25:
+    print("44 power 25 = 1.2198794412328194e+41")
+if num1 == 44 and sign == 'p' and num2 == 26:
+    print("44 power 26 = 5.367469541424405e+42")
+if num1 == 44 and sign == 'p' and num2 == 27:
+    print("44 power 27 = 2.361686598226738e+44")
+if num1 == 44 and sign == 'p' and num2 == 28:
+    print("44 power 28 = 1.0391421032197647e+46")
+if num1 == 44 and sign == 'p' and num2 == 29:
+    print("44 power 29 = 4.572225254166965e+47")
+if num1 == 44 and sign == 'p' and num2 == 30:
+    print("44 power 30 = 2.0117791118334645e+49")
+if num1 == 44 and sign == 'p' and num2 == 31:
+    print("44 power 31 = 8.851828092067244e+50")
+if num1 == 44 and sign == 'p' and num2 == 32:
+    print("44 power 32 = 3.894804360509588e+52")
+if num1 == 44 and sign == 'p' and num2 == 33:
+    print("44 power 33 = 1.7137139186242184e+54")
+if num1 == 44 and sign == 'p' and num2 == 34:
+    print("44 power 34 = 7.540341241946561e+55")
+if num1 == 44 and sign == 'p' and num2 == 35:
+    print("44 power 35 = 3.317750146456487e+57")
+if num1 == 44 and sign == 'p' and num2 == 36:
+    print("44 power 36 = 1.4598100644408542e+59")
+if num1 == 44 and sign == 'p' and num2 == 37:
+    print("44 power 37 = 6.423164283539759e+60")
+if num1 == 44 and sign == 'p' and num2 == 38:
+    print("44 power 38 = 2.826192284757494e+62")
+if num1 == 44 and sign == 'p' and num2 == 39:
+    print("44 power 39 = 1.2435246052932974e+64")
+if num1 == 44 and sign == 'p' and num2 == 40:
+    print("44 power 40 = 5.471508263290508e+65")
+if num1 == 44 and sign == 'p' and num2 == 41:
+    print("44 power 41 = 2.4074636358478235e+67")
+if num1 == 44 and sign == 'p' and num2 == 42:
+    print("44 power 42 = 1.0592839997730423e+69")
+if num1 == 44 and sign == 'p' and num2 == 43:
+    print("44 power 43 = 4.660849599001387e+70")
+if num1 == 44 and sign == 'p' and num2 == 44:
+    print("44 power 44 = 2.05077382356061e+72")
+if num1 == 44 and sign == 'p' and num2 == 45:
+    print("44 power 45 = 9.023404823666684e+73")
+if num1 == 44 and sign == 'p' and num2 == 46:
+    print("44 power 46 = 3.970298122413341e+75")
+if num1 == 44 and sign == 'p' and num2 == 47:
+    print("44 power 47 = 1.74693117386187e+77")
+if num1 == 44 and sign == 'p' and num2 == 48:
+    print("44 power 48 = 7.686497164992229e+78")
+if num1 == 44 and sign == 'p' and num2 == 49:
+    print("44 power 49 = 3.3820587525965806e+80")
+if num1 == 44 and sign == 'p' and num2 == 50:
+    print("44 power 50 = 1.4881058511424954e+82")
+if num1 == 45 and sign == 'p' and num2 == 0:
+    print("45 power 0 = 1.0")
+if num1 == 45 and sign == 'p' and num2 == 1:
+    print("45 power 1 = 45.0")
+if num1 == 45 and sign == 'p' and num2 == 2:
+    print("45 power 2 = 2025.0")
+if num1 == 45 and sign == 'p' and num2 == 3:
+    print("45 power 3 = 91125.0")
+if num1 == 45 and sign == 'p' and num2 == 4:
+    print("45 power 4 = 4100625.0")
+if num1 == 45 and sign == 'p' and num2 == 5:
+    print("45 power 5 = 184528125.0")
+if num1 == 45 and sign == 'p' and num2 == 6:
+    print("45 power 6 = 8303765625.0")
+if num1 == 45 and sign == 'p' and num2 == 7:
+    print("45 power 7 = 373669453125.0")
+if num1 == 45 and sign == 'p' and num2 == 8:
+    print("45 power 8 = 16815125390625.0")
+if num1 == 45 and sign == 'p' and num2 == 9:
+    print("45 power 9 = 756680642578125.0")
+if num1 == 45 and sign == 'p' and num2 == 10:
+    print("45 power 10 = 3.4050628916015624e+16")
+if num1 == 45 and sign == 'p' and num2 == 11:
+    print("45 power 11 = 1.5322783012207032e+18")
+if num1 == 45 and sign == 'p' and num2 == 12:
+    print("45 power 12 = 6.895252355493164e+19")
+if num1 == 45 and sign == 'p' and num2 == 13:
+    print("45 power 13 = 3.102863559971924e+21")
+if num1 == 45 and sign == 'p' and num2 == 14:
+    print("45 power 14 = 1.3962886019873658e+23")
+if num1 == 45 and sign == 'p' and num2 == 15:
+    print("45 power 15 = 6.283298708943146e+24")
+if num1 == 45 and sign == 'p' and num2 == 16:
+    print("45 power 16 = 2.8274844190244157e+26")
+if num1 == 45 and sign == 'p' and num2 == 17:
+    print("45 power 17 = 1.272367988560987e+28")
+if num1 == 45 and sign == 'p' and num2 == 18:
+    print("45 power 18 = 5.7256559485244415e+29")
+if num1 == 45 and sign == 'p' and num2 == 19:
+    print("45 power 19 = 2.576545176835999e+31")
+if num1 == 45 and sign == 'p' and num2 == 20:
+    print("45 power 20 = 1.1594453295761994e+33")
+if num1 == 45 and sign == 'p' and num2 == 21:
+    print("45 power 21 = 5.217503983092897e+34")
+if num1 == 45 and sign == 'p' and num2 == 22:
+    print("45 power 22 = 2.347876792391804e+36")
+if num1 == 45 and sign == 'p' and num2 == 23:
+    print("45 power 23 = 1.0565445565763116e+38")
+if num1 == 45 and sign == 'p' and num2 == 24:
+    print("45 power 24 = 4.754450504593403e+39")
+if num1 == 45 and sign == 'p' and num2 == 25:
+    print("45 power 25 = 2.1395027270670313e+41")
+if num1 == 45 and sign == 'p' and num2 == 26:
+    print("45 power 26 = 9.627762271801641e+42")
+if num1 == 45 and sign == 'p' and num2 == 27:
+    print("45 power 27 = 4.332493022310738e+44")
+if num1 == 45 and sign == 'p' and num2 == 28:
+    print("45 power 28 = 1.9496218600398322e+46")
+if num1 == 45 and sign == 'p' and num2 == 29:
+    print("45 power 29 = 8.773298370179245e+47")
+if num1 == 45 and sign == 'p' and num2 == 30:
+    print("45 power 30 = 3.94798426658066e+49")
+if num1 == 45 and sign == 'p' and num2 == 31:
+    print("45 power 31 = 1.776592919961297e+51")
+if num1 == 45 and sign == 'p' and num2 == 32:
+    print("45 power 32 = 7.994668139825837e+52")
+if num1 == 45 and sign == 'p' and num2 == 33:
+    print("45 power 33 = 3.597600662921627e+54")
+if num1 == 45 and sign == 'p' and num2 == 34:
+    print("45 power 34 = 1.618920298314732e+56")
+if num1 == 45 and sign == 'p' and num2 == 35:
+    print("45 power 35 = 7.285141342416294e+57")
+if num1 == 45 and sign == 'p' and num2 == 36:
+    print("45 power 36 = 3.2783136040873322e+59")
+if num1 == 45 and sign == 'p' and num2 == 37:
+    print("45 power 37 = 1.4752411218392995e+61")
+if num1 == 45 and sign == 'p' and num2 == 38:
+    print("45 power 38 = 6.638585048276848e+62")
+if num1 == 45 and sign == 'p' and num2 == 39:
+    print("45 power 39 = 2.987363271724582e+64")
+if num1 == 45 and sign == 'p' and num2 == 40:
+    print("45 power 40 = 1.3443134722760617e+66")
+if num1 == 45 and sign == 'p' and num2 == 41:
+    print("45 power 41 = 6.049410625242277e+67")
+if num1 == 45 and sign == 'p' and num2 == 42:
+    print("45 power 42 = 2.722234781359025e+69")
+if num1 == 45 and sign == 'p' and num2 == 43:
+    print("45 power 43 = 1.2250056516115613e+71")
+if num1 == 45 and sign == 'p' and num2 == 44:
+    print("45 power 44 = 5.512525432252025e+72")
+if num1 == 45 and sign == 'p' and num2 == 45:
+    print("45 power 45 = 2.4806364445134117e+74")
+if num1 == 45 and sign == 'p' and num2 == 46:
+    print("45 power 46 = 1.1162864000310352e+76")
+if num1 == 45 and sign == 'p' and num2 == 47:
+    print("45 power 47 = 5.023288800139658e+77")
+if num1 == 45 and sign == 'p' and num2 == 48:
+    print("45 power 48 = 2.260479960062846e+79")
+if num1 == 45 and sign == 'p' and num2 == 49:
+    print("45 power 49 = 1.0172159820282808e+81")
+if num1 == 45 and sign == 'p' and num2 == 50:
+    print("45 power 50 = 4.5774719191272634e+82")
+if num1 == 46 and sign == 'p' and num2 == 0:
+    print("46 power 0 = 1.0")
+if num1 == 46 and sign == 'p' and num2 == 1:
+    print("46 power 1 = 46.0")
+if num1 == 46 and sign == 'p' and num2 == 2:
+    print("46 power 2 = 2116.0")
+if num1 == 46 and sign == 'p' and num2 == 3:
+    print("46 power 3 = 97336.0")
+if num1 == 46 and sign == 'p' and num2 == 4:
+    print("46 power 4 = 4477456.0")
+if num1 == 46 and sign == 'p' and num2 == 5:
+    print("46 power 5 = 205962976.0")
+if num1 == 46 and sign == 'p' and num2 == 6:
+    print("46 power 6 = 9474296896.0")
+if num1 == 46 and sign == 'p' and num2 == 7:
+    print("46 power 7 = 435817657216.0")
+if num1 == 46 and sign == 'p' and num2 == 8:
+    print("46 power 8 = 20047612231936.0")
+if num1 == 46 and sign == 'p' and num2 == 9:
+    print("46 power 9 = 922190162669056.0")
+if num1 == 46 and sign == 'p' and num2 == 10:
+    print("46 power 10 = 4.242074748277658e+16")
+if num1 == 46 and sign == 'p' and num2 == 11:
+    print("46 power 11 = 1.9513543842077225e+18")
+if num1 == 46 and sign == 'p' and num2 == 12:
+    print("46 power 12 = 8.976230167355523e+19")
+if num1 == 46 and sign == 'p' and num2 == 13:
+    print("46 power 13 = 4.129065876983541e+21")
+if num1 == 46 and sign == 'p' and num2 == 14:
+    print("46 power 14 = 1.8993703034124286e+23")
+if num1 == 46 and sign == 'p' and num2 == 15:
+    print("46 power 15 = 8.737103395697172e+24")
+if num1 == 46 and sign == 'p' and num2 == 16:
+    print("46 power 16 = 4.019067562020699e+26")
+if num1 == 46 and sign == 'p' and num2 == 17:
+    print("46 power 17 = 1.8487710785295217e+28")
+if num1 == 46 and sign == 'p' and num2 == 18:
+    print("46 power 18 = 8.5043469612358e+29")
+if num1 == 46 and sign == 'p' and num2 == 19:
+    print("46 power 19 = 3.911999602168468e+31")
+if num1 == 46 and sign == 'p' and num2 == 20:
+    print("46 power 20 = 1.799519816997495e+33")
+if num1 == 46 and sign == 'p' and num2 == 21:
+    print("46 power 21 = 8.277791158188478e+34")
+if num1 == 46 and sign == 'p' and num2 == 22:
+    print("46 power 22 = 3.8077839327667e+36")
+if num1 == 46 and sign == 'p' and num2 == 23:
+    print("46 power 23 = 1.751580609072682e+38")
+if num1 == 46 and sign == 'p' and num2 == 24:
+    print("46 power 24 = 8.057270801734337e+39")
+if num1 == 46 and sign == 'p' and num2 == 25:
+    print("46 power 25 = 3.706344568797795e+41")
+if num1 == 46 and sign == 'p' and num2 == 26:
+    print("46 power 26 = 1.7049185016469856e+43")
+if num1 == 46 and sign == 'p' and num2 == 27:
+    print("46 power 27 = 7.842625107576133e+44")
+if num1 == 46 and sign == 'p' and num2 == 28:
+    print("46 power 28 = 3.607607549485022e+46")
+if num1 == 46 and sign == 'p' and num2 == 29:
+    print("46 power 29 = 1.65949947276311e+48")
+if num1 == 46 and sign == 'p' and num2 == 30:
+    print("46 power 30 = 7.633697574710306e+49")
+if num1 == 46 and sign == 'p' and num2 == 31:
+    print("46 power 31 = 3.511500884366741e+51")
+if num1 == 46 and sign == 'p' and num2 == 32:
+    print("46 power 32 = 1.6152904068087006e+53")
+if num1 == 46 and sign == 'p' and num2 == 33:
+    print("46 power 33 = 7.430335871320023e+54")
+if num1 == 46 and sign == 'p' and num2 == 34:
+    print("46 power 34 = 3.4179545008072106e+56")
+if num1 == 46 and sign == 'p' and num2 == 35:
+    print("46 power 35 = 1.572259070371317e+58")
+if num1 == 46 and sign == 'p' and num2 == 36:
+    print("46 power 36 = 7.232391723708058e+59")
+if num1 == 46 and sign == 'p' and num2 == 37:
+    print("46 power 37 = 3.326900192905707e+61")
+if num1 == 46 and sign == 'p' and num2 == 38:
+    print("46 power 38 = 1.5303740887366251e+63")
+if num1 == 46 and sign == 'p' and num2 == 39:
+    print("46 power 39 = 7.039720808188476e+64")
+if num1 == 46 and sign == 'p' and num2 == 40:
+    print("46 power 40 = 3.2382715717666986e+66")
+if num1 == 46 and sign == 'p' and num2 == 41:
+    print("46 power 41 = 1.4896049230126815e+68")
+if num1 == 46 and sign == 'p' and num2 == 42:
+    print("46 power 42 = 6.852182645858334e+69")
+if num1 == 46 and sign == 'p' and num2 == 43:
+    print("46 power 43 = 3.152004017094834e+71")
+if num1 == 46 and sign == 'p' and num2 == 44:
+    print("46 power 44 = 1.4499218478636237e+73")
+if num1 == 46 and sign == 'p' and num2 == 45:
+    print("46 power 45 = 6.669640500172669e+74")
+if num1 == 46 and sign == 'p' and num2 == 46:
+    print("46 power 46 = 3.068034630079427e+76")
+if num1 == 46 and sign == 'p' and num2 == 47:
+    print("46 power 47 = 1.4112959298365365e+78")
+if num1 == 46 and sign == 'p' and num2 == 48:
+    print("46 power 48 = 6.491961277248069e+79")
+if num1 == 46 and sign == 'p' and num2 == 49:
+    print("46 power 49 = 2.9863021875341116e+81")
+if num1 == 46 and sign == 'p' and num2 == 50:
+    print("46 power 50 = 1.3736990062656914e+83")
+if num1 == 47 and sign == 'p' and num2 == 0:
+    print("47 power 0 = 1.0")
+if num1 == 47 and sign == 'p' and num2 == 1:
+    print("47 power 1 = 47.0")
+if num1 == 47 and sign == 'p' and num2 == 2:
+    print("47 power 2 = 2209.0")
+if num1 == 47 and sign == 'p' and num2 == 3:
+    print("47 power 3 = 103823.0")
+if num1 == 47 and sign == 'p' and num2 == 4:
+    print("47 power 4 = 4879681.0")
+if num1 == 47 and sign == 'p' and num2 == 5:
+    print("47 power 5 = 229345007.0")
+if num1 == 47 and sign == 'p' and num2 == 6:
+    print("47 power 6 = 10779215329.0")
+if num1 == 47 and sign == 'p' and num2 == 7:
+    print("47 power 7 = 506623120463.0")
+if num1 == 47 and sign == 'p' and num2 == 8:
+    print("47 power 8 = 23811286661761.0")
+if num1 == 47 and sign == 'p' and num2 == 9:
+    print("47 power 9 = 1119130473102767.0")
+if num1 == 47 and sign == 'p' and num2 == 10:
+    print("47 power 10 = 5.259913223583005e+16")
+if num1 == 47 and sign == 'p' and num2 == 11:
+    print("47 power 11 = 2.4721592150840125e+18")
+if num1 == 47 and sign == 'p' and num2 == 12:
+    print("47 power 12 = 1.1619148310894857e+20")
+if num1 == 47 and sign == 'p' and num2 == 13:
+    print("47 power 13 = 5.460999706120583e+21")
+if num1 == 47 and sign == 'p' and num2 == 14:
+    print("47 power 14 = 2.566669861876674e+23")
+if num1 == 47 and sign == 'p' and num2 == 15:
+    print("47 power 15 = 1.2063348350820368e+25")
+if num1 == 47 and sign == 'p' and num2 == 16:
+    print("47 power 16 = 5.669773724885573e+26")
+if num1 == 47 and sign == 'p' and num2 == 17:
+    print("47 power 17 = 2.6647936506962194e+28")
+if num1 == 47 and sign == 'p' and num2 == 18:
+    print("47 power 18 = 1.2524530158272232e+30")
+if num1 == 47 and sign == 'p' and num2 == 19:
+    print("47 power 19 = 5.886529174387949e+31")
+if num1 == 47 and sign == 'p' and num2 == 20:
+    print("47 power 20 = 2.766668711962336e+33")
+if num1 == 47 and sign == 'p' and num2 == 21:
+    print("47 power 21 = 1.3003342946222977e+35")
+if num1 == 47 and sign == 'p' and num2 == 22:
+    print("47 power 22 = 6.1115711847248e+36")
+if num1 == 47 and sign == 'p' and num2 == 23:
+    print("47 power 23 = 2.872438456820656e+38")
+if num1 == 47 and sign == 'p' and num2 == 24:
+    print("47 power 24 = 1.3500460747057084e+40")
+if num1 == 47 and sign == 'p' and num2 == 25:
+    print("47 power 25 = 6.345216551116829e+41")
+if num1 == 47 and sign == 'p' and num2 == 26:
+    print("47 power 26 = 2.9822517790249094e+43")
+if num1 == 47 and sign == 'p' and num2 == 27:
+    print("47 power 27 = 1.4016583361417075e+45")
+if num1 == 47 and sign == 'p' and num2 == 28:
+    print("47 power 28 = 6.587794179866025e+46")
+if num1 == 47 and sign == 'p' and num2 == 29:
+    print("47 power 29 = 3.096263264537032e+48")
+if num1 == 47 and sign == 'p' and num2 == 30:
+    print("47 power 30 = 1.455243734332405e+50")
+if num1 == 47 and sign == 'p' and num2 == 31:
+    print("47 power 31 = 6.839645551362304e+51")
+if num1 == 47 and sign == 'p' and num2 == 32:
+    print("47 power 32 = 3.2146334091402826e+53")
+if num1 == 47 and sign == 'p' and num2 == 33:
+    print("47 power 33 = 1.5108777022959328e+55")
+if num1 == 47 and sign == 'p' and num2 == 34:
+    print("47 power 34 = 7.1011252007908845e+56")
+if num1 == 47 and sign == 'p' and num2 == 35:
+    print("47 power 35 = 3.3375288443717156e+58")
+if num1 == 47 and sign == 'p' and num2 == 36:
+    print("47 power 36 = 1.5686385568547063e+60")
+if num1 == 47 and sign == 'p' and num2 == 37:
+    print("47 power 37 = 7.37260121721712e+61")
+if num1 == 47 and sign == 'p' and num2 == 38:
+    print("47 power 38 = 3.465122572092046e+63")
+if num1 == 47 and sign == 'p' and num2 == 39:
+    print("47 power 39 = 1.6286076088832617e+65")
+if num1 == 47 and sign == 'p' and num2 == 40:
+    print("47 power 40 = 7.65445576175133e+66")
+if num1 == 47 and sign == 'p' and num2 == 41:
+    print("47 power 41 = 3.5975942080231253e+68")
+if num1 == 47 and sign == 'p' and num2 == 42:
+    print("47 power 42 = 1.6908692777708687e+70")
+if num1 == 47 and sign == 'p' and num2 == 43:
+    print("47 power 43 = 7.947085605523083e+71")
+if num1 == 47 and sign == 'p' and num2 == 44:
+    print("47 power 44 = 3.735130234595849e+73")
+if num1 == 47 and sign == 'p' and num2 == 45:
+    print("47 power 45 = 1.7555112102600491e+75")
+if num1 == 47 and sign == 'p' and num2 == 46:
+    print("47 power 46 = 8.250902688222232e+76")
+if num1 == 47 and sign == 'p' and num2 == 47:
+    print("47 power 47 = 3.877924263464449e+78")
+if num1 == 47 and sign == 'p' and num2 == 48:
+    print("47 power 48 = 1.8226244038282908e+80")
+if num1 == 47 and sign == 'p' and num2 == 49:
+    print("47 power 49 = 8.566334697992967e+81")
+if num1 == 47 and sign == 'p' and num2 == 50:
+    print("47 power 50 = 4.0261773080566945e+83")
+if num1 == 48 and sign == 'p' and num2 == 0:
+    print("48 power 0 = 1.0")
+if num1 == 48 and sign == 'p' and num2 == 1:
+    print("48 power 1 = 48.0")
+if num1 == 48 and sign == 'p' and num2 == 2:
+    print("48 power 2 = 2304.0")
+if num1 == 48 and sign == 'p' and num2 == 3:
+    print("48 power 3 = 110592.0")
+if num1 == 48 and sign == 'p' and num2 == 4:
+    print("48 power 4 = 5308416.0")
+if num1 == 48 and sign == 'p' and num2 == 5:
+    print("48 power 5 = 254803968.0")
+if num1 == 48 and sign == 'p' and num2 == 6:
+    print("48 power 6 = 12230590464.0")
+if num1 == 48 and sign == 'p' and num2 == 7:
+    print("48 power 7 = 587068342272.0")
+if num1 == 48 and sign == 'p' and num2 == 8:
+    print("48 power 8 = 28179280429056.0")
+if num1 == 48 and sign == 'p' and num2 == 9:
+    print("48 power 9 = 1352605460594688.0")
+if num1 == 48 and sign == 'p' and num2 == 10:
+    print("48 power 10 = 6.492506210854502e+16")
+if num1 == 48 and sign == 'p' and num2 == 11:
+    print("48 power 11 = 3.116402981210161e+18")
+if num1 == 48 and sign == 'p' and num2 == 12:
+    print("48 power 12 = 1.4958734309808774e+20")
+if num1 == 48 and sign == 'p' and num2 == 13:
+    print("48 power 13 = 7.180192468708211e+21")
+if num1 == 48 and sign == 'p' and num2 == 14:
+    print("48 power 14 = 3.4464923849799414e+23")
+if num1 == 48 and sign == 'p' and num2 == 15:
+    print("48 power 15 = 1.6543163447903719e+25")
+if num1 == 48 and sign == 'p' and num2 == 16:
+    print("48 power 16 = 7.940718454993785e+26")
+if num1 == 48 and sign == 'p' and num2 == 17:
+    print("48 power 17 = 3.811544858397017e+28")
+if num1 == 48 and sign == 'p' and num2 == 18:
+    print("48 power 18 = 1.829541532030568e+30")
+if num1 == 48 and sign == 'p' and num2 == 19:
+    print("48 power 19 = 8.781799353746727e+31")
+if num1 == 48 and sign == 'p' and num2 == 20:
+    print("48 power 20 = 4.215263689798429e+33")
+if num1 == 48 and sign == 'p' and num2 == 21:
+    print("48 power 21 = 2.023326571103246e+35")
+if num1 == 48 and sign == 'p' and num2 == 22:
+    print("48 power 22 = 9.71196754129558e+36")
+if num1 == 48 and sign == 'p' and num2 == 23:
+    print("48 power 23 = 4.6617444198218784e+38")
+if num1 == 48 and sign == 'p' and num2 == 24:
+    print("48 power 24 = 2.2376373215145016e+40")
+if num1 == 48 and sign == 'p' and num2 == 25:
+    print("48 power 25 = 1.0740659143269608e+42")
+if num1 == 48 and sign == 'p' and num2 == 26:
+    print("48 power 26 = 5.155516388769412e+43")
+if num1 == 48 and sign == 'p' and num2 == 27:
+    print("48 power 27 = 2.4746478666093177e+45")
+if num1 == 48 and sign == 'p' and num2 == 28:
+    print("48 power 28 = 1.1878309759724725e+47")
+if num1 == 48 and sign == 'p' and num2 == 29:
+    print("48 power 29 = 5.701588684667868e+48")
+if num1 == 48 and sign == 'p' and num2 == 30:
+    print("48 power 30 = 2.7367625686405766e+50")
+if num1 == 48 and sign == 'p' and num2 == 31:
+    print("48 power 31 = 1.3136460329474768e+52")
+if num1 == 48 and sign == 'p' and num2 == 32:
+    print("48 power 32 = 6.3055009581478884e+53")
+if num1 == 48 and sign == 'p' and num2 == 33:
+    print("48 power 33 = 3.0266404599109865e+55")
+if num1 == 48 and sign == 'p' and num2 == 34:
+    print("48 power 34 = 1.4527874207572734e+57")
+if num1 == 48 and sign == 'p' and num2 == 35:
+    print("48 power 35 = 6.973379619634912e+58")
+if num1 == 48 and sign == 'p' and num2 == 36:
+    print("48 power 36 = 3.3472222174247585e+60")
+if num1 == 48 and sign == 'p' and num2 == 37:
+    print("48 power 37 = 1.606666664363884e+62")
+if num1 == 48 and sign == 'p' and num2 == 38:
+    print("48 power 38 = 7.711999988946642e+63")
+if num1 == 48 and sign == 'p' and num2 == 39:
+    print("48 power 39 = 3.7017599946943885e+65")
+if num1 == 48 and sign == 'p' and num2 == 40:
+    print("48 power 40 = 1.7768447974533065e+67")
+if num1 == 48 and sign == 'p' and num2 == 41:
+    print("48 power 41 = 8.528855027775872e+68")
+if num1 == 48 and sign == 'p' and num2 == 42:
+    print("48 power 42 = 4.0938504133324184e+70")
+if num1 == 48 and sign == 'p' and num2 == 43:
+    print("48 power 43 = 1.9650481983995605e+72")
+if num1 == 48 and sign == 'p' and num2 == 44:
+    print("48 power 44 = 9.432231352317891e+73")
+if num1 == 48 and sign == 'p' and num2 == 45:
+    print("48 power 45 = 4.527471049112588e+75")
+if num1 == 48 and sign == 'p' and num2 == 46:
+    print("48 power 46 = 2.1731861035740422e+77")
+if num1 == 48 and sign == 'p' and num2 == 47:
+    print("48 power 47 = 1.0431293297155402e+79")
+if num1 == 48 and sign == 'p' and num2 == 48:
+    print("48 power 48 = 5.007020782634593e+80")
+if num1 == 48 and sign == 'p' and num2 == 49:
+    print("48 power 49 = 2.4033699756646047e+82")
+if num1 == 48 and sign == 'p' and num2 == 50:
+    print("48 power 50 = 1.1536175883190103e+84")
+if num1 == 49 and sign == 'p' and num2 == 0:
+    print("49 power 0 = 1.0")
+if num1 == 49 and sign == 'p' and num2 == 1:
+    print("49 power 1 = 49.0")
+if num1 == 49 and sign == 'p' and num2 == 2:
+    print("49 power 2 = 2401.0")
+if num1 == 49 and sign == 'p' and num2 == 3:
+    print("49 power 3 = 117649.0")
+if num1 == 49 and sign == 'p' and num2 == 4:
+    print("49 power 4 = 5764801.0")
+if num1 == 49 and sign == 'p' and num2 == 5:
+    print("49 power 5 = 282475249.0")
+if num1 == 49 and sign == 'p' and num2 == 6:
+    print("49 power 6 = 13841287201.0")
+if num1 == 49 and sign == 'p' and num2 == 7:
+    print("49 power 7 = 678223072849.0")
+if num1 == 49 and sign == 'p' and num2 == 8:
+    print("49 power 8 = 33232930569601.0")
+if num1 == 49 and sign == 'p' and num2 == 9:
+    print("49 power 9 = 1628413597910449.0")
+if num1 == 49 and sign == 'p' and num2 == 10:
+    print("49 power 10 = 7.9792266297612e+16")
+if num1 == 49 and sign == 'p' and num2 == 11:
+    print("49 power 11 = 3.9098210485829883e+18")
+if num1 == 49 and sign == 'p' and num2 == 12:
+    print("49 power 12 = 1.915812313805664e+20")
+if num1 == 49 and sign == 'p' and num2 == 13:
+    print("49 power 13 = 9.387480337647754e+21")
+if num1 == 49 and sign == 'p' and num2 == 14:
+    print("49 power 14 = 4.5998653654474e+23")
+if num1 == 49 and sign == 'p' and num2 == 15:
+    print("49 power 15 = 2.2539340290692256e+25")
+if num1 == 49 and sign == 'p' and num2 == 16:
+    print("49 power 16 = 1.1044276742439207e+27")
+if num1 == 49 and sign == 'p' and num2 == 17:
+    print("49 power 17 = 5.411695603795211e+28")
+if num1 == 49 and sign == 'p' and num2 == 18:
+    print("49 power 18 = 2.6517308458596536e+30")
+if num1 == 49 and sign == 'p' and num2 == 19:
+    print("49 power 19 = 1.2993481144712303e+32")
+if num1 == 49 and sign == 'p' and num2 == 20:
+    print("49 power 20 = 6.366805760909028e+33")
+if num1 == 49 and sign == 'p' and num2 == 21:
+    print("49 power 21 = 3.1197348228454238e+35")
+if num1 == 49 and sign == 'p' and num2 == 22:
+    print("49 power 22 = 1.5286700631942576e+37")
+if num1 == 49 and sign == 'p' and num2 == 23:
+    print("49 power 23 = 7.490483309651862e+38")
+if num1 == 49 and sign == 'p' and num2 == 24:
+    print("49 power 24 = 3.670336821729413e+40")
+if num1 == 49 and sign == 'p' and num2 == 25:
+    print("49 power 25 = 1.798465042647412e+42")
+if num1 == 49 and sign == 'p' and num2 == 26:
+    print("49 power 26 = 8.81247870897232e+43")
+if num1 == 49 and sign == 'p' and num2 == 27:
+    print("49 power 27 = 4.318114567396436e+45")
+if num1 == 49 and sign == 'p' and num2 == 28:
+    print("49 power 28 = 2.1158761380242538e+47")
+if num1 == 49 and sign == 'p' and num2 == 29:
+    print("49 power 29 = 1.0367793076318844e+49")
+if num1 == 49 and sign == 'p' and num2 == 30:
+    print("49 power 30 = 5.0802186073962335e+50")
+if num1 == 49 and sign == 'p' and num2 == 31:
+    print("49 power 31 = 2.4893071176241543e+52")
+if num1 == 49 and sign == 'p' and num2 == 32:
+    print("49 power 32 = 1.2197604876358358e+54")
+if num1 == 49 and sign == 'p' and num2 == 33:
+    print("49 power 33 = 5.976826389415595e+55")
+if num1 == 49 and sign == 'p' and num2 == 34:
+    print("49 power 34 = 2.9286449308136415e+57")
+if num1 == 49 and sign == 'p' and num2 == 35:
+    print("49 power 35 = 1.4350360160986842e+59")
+if num1 == 49 and sign == 'p' and num2 == 36:
+    print("49 power 36 = 7.031676478883553e+60")
+if num1 == 49 and sign == 'p' and num2 == 37:
+    print("49 power 37 = 3.445521474652941e+62")
+if num1 == 49 and sign == 'p' and num2 == 38:
+    print("49 power 38 = 1.688305522579941e+64")
+if num1 == 49 and sign == 'p' and num2 == 39:
+    print("49 power 39 = 8.272697060641711e+65")
+if num1 == 49 and sign == 'p' and num2 == 40:
+    print("49 power 40 = 4.0536215597144385e+67")
+if num1 == 49 and sign == 'p' and num2 == 41:
+    print("49 power 41 = 1.986274564260075e+69")
+if num1 == 49 and sign == 'p' and num2 == 42:
+    print("49 power 42 = 9.732745364874367e+70")
+if num1 == 49 and sign == 'p' and num2 == 43:
+    print("49 power 43 = 4.76904522878844e+72")
+if num1 == 49 and sign == 'p' and num2 == 44:
+    print("49 power 44 = 2.3368321621063354e+74")
+if num1 == 49 and sign == 'p' and num2 == 45:
+    print("49 power 45 = 1.1450477594321044e+76")
+if num1 == 49 and sign == 'p' and num2 == 46:
+    print("49 power 46 = 5.610734021217312e+77")
+if num1 == 49 and sign == 'p' and num2 == 47:
+    print("49 power 47 = 2.7492596703964827e+79")
+if num1 == 49 and sign == 'p' and num2 == 48:
+    print("49 power 48 = 1.3471372384942766e+81")
+if num1 == 49 and sign == 'p' and num2 == 49:
+    print("49 power 49 = 6.600972468621954e+82")
+if num1 == 49 and sign == 'p' and num2 == 50:
+    print("49 power 50 = 3.234476509624758e+84")
+if num1 == 50 and sign == 'p' and num2 == 0:
+    print("50 power 0 = 1.0")
+if num1 == 50 and sign == 'p' and num2 == 1:
+    print("50 power 1 = 50.0")
+if num1 == 50 and sign == 'p' and num2 == 2:
+    print("50 power 2 = 2500.0")
+if num1 == 50 and sign == 'p' and num2 == 3:
+    print("50 power 3 = 125000.0")
+if num1 == 50 and sign == 'p' and num2 == 4:
+    print("50 power 4 = 6250000.0")
+if num1 == 50 and sign == 'p' and num2 == 5:
+    print("50 power 5 = 312500000.0")
+if num1 == 50 and sign == 'p' and num2 == 6:
+    print("50 power 6 = 15625000000.0")
+if num1 == 50 and sign == 'p' and num2 == 7:
+    print("50 power 7 = 781250000000.0")
+if num1 == 50 and sign == 'p' and num2 == 8:
+    print("50 power 8 = 39062500000000.0")
+if num1 == 50 and sign == 'p' and num2 == 9:
+    print("50 power 9 = 1953125000000000.0")
+if num1 == 50 and sign == 'p' and num2 == 10:
+    print("50 power 10 = 9.765625e+16")
+if num1 == 50 and sign == 'p' and num2 == 11:
+    print("50 power 11 = 4.8828125e+18")
+if num1 == 50 and sign == 'p' and num2 == 12:
+    print("50 power 12 = 2.44140625e+20")
+if num1 == 50 and sign == 'p' and num2 == 13:
+    print("50 power 13 = 1.220703125e+22")
+if num1 == 50 and sign == 'p' and num2 == 14:
+    print("50 power 14 = 6.103515625e+23")
+if num1 == 50 and sign == 'p' and num2 == 15:
+    print("50 power 15 = 3.0517578125e+25")
+if num1 == 50 and sign == 'p' and num2 == 16:
+    print("50 power 16 = 1.52587890625e+27")
+if num1 == 50 and sign == 'p' and num2 == 17:
+    print("50 power 17 = 7.62939453125e+28")
+if num1 == 50 and sign == 'p' and num2 == 18:
+    print("50 power 18 = 3.814697265625e+30")
+if num1 == 50 and sign == 'p' and num2 == 19:
+    print("50 power 19 = 1.9073486328125e+32")
+if num1 == 50 and sign == 'p' and num2 == 20:
+    print("50 power 20 = 9.5367431640625e+33")
+if num1 == 50 and sign == 'p' and num2 == 21:
+    print("50 power 21 = 4.76837158203125e+35")
+if num1 == 50 and sign == 'p' and num2 == 22:
+    print("50 power 22 = 2.384185791015625e+37")
+if num1 == 50 and sign == 'p' and num2 == 23:
+    print("50 power 23 = 1.1920928955078125e+39")
+if num1 == 50 and sign == 'p' and num2 == 24:
+    print("50 power 24 = 5.960464477539063e+40")
+if num1 == 50 and sign == 'p' and num2 == 25:
+    print("50 power 25 = 2.9802322387695315e+42")
+if num1 == 50 and sign == 'p' and num2 == 26:
+    print("50 power 26 = 1.4901161193847656e+44")
+if num1 == 50 and sign == 'p' and num2 == 27:
+    print("50 power 27 = 7.450580596923829e+45")
+if num1 == 50 and sign == 'p' and num2 == 28:
+    print("50 power 28 = 3.725290298461914e+47")
+if num1 == 50 and sign == 'p' and num2 == 29:
+    print("50 power 29 = 1.862645149230957e+49")
+if num1 == 50 and sign == 'p' and num2 == 30:
+    print("50 power 30 = 9.313225746154785e+50")
+if num1 == 50 and sign == 'p' and num2 == 31:
+    print("50 power 31 = 4.656612873077393e+52")
+if num1 == 50 and sign == 'p' and num2 == 32:
+    print("50 power 32 = 2.3283064365386963e+54")
+if num1 == 50 and sign == 'p' and num2 == 33:
+    print("50 power 33 = 1.164153218269348e+56")
+if num1 == 50 and sign == 'p' and num2 == 34:
+    print("50 power 34 = 5.8207660913467404e+57")
+if num1 == 50 and sign == 'p' and num2 == 35:
+    print("50 power 35 = 2.9103830456733706e+59")
+if num1 == 50 and sign == 'p' and num2 == 36:
+    print("50 power 36 = 1.455191522836685e+61")
+if num1 == 50 and sign == 'p' and num2 == 37:
+    print("50 power 37 = 7.275957614183426e+62")
+if num1 == 50 and sign == 'p' and num2 == 38:
+    print("50 power 38 = 3.637978807091713e+64")
+if num1 == 50 and sign == 'p' and num2 == 39:
+    print("50 power 39 = 1.8189894035458565e+66")
+if num1 == 50 and sign == 'p' and num2 == 40:
+    print("50 power 40 = 9.094947017729282e+67")
+if num1 == 50 and sign == 'p' and num2 == 41:
+    print("50 power 41 = 4.547473508864641e+69")
+if num1 == 50 and sign == 'p' and num2 == 42:
+    print("50 power 42 = 2.2737367544323207e+71")
+if num1 == 50 and sign == 'p' and num2 == 43:
+    print("50 power 43 = 1.1368683772161603e+73")
+if num1 == 50 and sign == 'p' and num2 == 44:
+    print("50 power 44 = 5.684341886080801e+74")
+if num1 == 50 and sign == 'p' and num2 == 45:
+    print("50 power 45 = 2.8421709430404006e+76")
+if num1 == 50 and sign == 'p' and num2 == 46:
+    print("50 power 46 = 1.4210854715202004e+78")
+if num1 == 50 and sign == 'p' and num2 == 47:
+    print("50 power 47 = 7.105427357601002e+79")
+if num1 == 50 and sign == 'p' and num2 == 48:
+    print("50 power 48 = 3.552713678800501e+81")
+if num1 == 50 and sign == 'p' and num2 == 49:
+    print("50 power 49 = 1.7763568394002505e+83")
+if num1 == 50 and sign == 'p' and num2 == 50:
+    print("50 power 50 = 8.881784197001252e+84")
 
 print("Thanks for using this calculator, goodbye :)")
