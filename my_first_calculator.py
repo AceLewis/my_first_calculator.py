@@ -20819,4 +20819,10 @@ if num1 == 50 and sign == '*' and num2 == 49:
 if num1 == 50 and sign == '*' and num2 == 50:
     print("50*50 = 2500")
 
+try:
+    num1 = int(num1)
+    num2 = int(num2)
+except e:
+    print(num1, sign, num2, "=", num1, sign, num2)
+    
 print("Thanks for using this calculator, goodbye :)")
