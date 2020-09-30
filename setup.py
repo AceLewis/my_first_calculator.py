@@ -7,8 +7,8 @@ def read(fname):
 
 
 setup(
-    name="my_first_calculator",
-    version="0.1",
+    name="Calculator",
+    version="v.0.01",
     author="Alexander Lewis",
     author_email="info@acelewis.com",
     description="This is my first calculator",
