@@ -9,3 +9,25 @@ So to be true to the "real" story I have only gone from 0-50 however higher numb
 The generator will not work in Python 2 however it can probably be patched to work by doing `from __future__ import division`
 
 ![The image](https://i.imgur.com/ZMvUovj.png)
+
+#Here is code to make a simple calculator using PYTHON 
+
+print("Enter your first number:")
+n1 = int(input())
+print("Enter your operation:")
+operation = input()
+print("Enter your second number:")
+n2 = int(input())
+
+if operation == "+":
+    print("Your answer is " , n1 + n2)
+elif operation == "-":
+    print("Your answer is " , n1 - n2)
+elif operation == "*":
+    print("Your answer is " , n1 * n2)
+elif operation == "/":
+    print("Your answer is " , n1 / n2)
+elif operation == "**":
+    print("Your answer is " , n1 ** n2)
+else:
+    print("Invalid Input")
