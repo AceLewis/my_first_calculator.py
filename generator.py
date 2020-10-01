@@ -21,7 +21,7 @@ print('Welcome to this calculator!')
 print('It can add, subtract, multiply and divide whole numbers from {} to {}')
 num1 = int(input('Please choose your first number: '))
 sign = input('What do you want to do? +, -, /, or *: ')
-num2 = int(input('Please choose your second number: '))
+num2 = int(input('Please choose your next number: '))
 """.format(min_num, max_num), file=python_file)
 
 # For all the numbers and all the
@@ -44,7 +44,7 @@ for sign in signs:
             print('    print("{}{}{} = {}")'.format(num1, sign, num2, equals), file=python_file)
 
 print('', file=python_file)
-print('print("Thanks for using this calculator, goodbye :)")', file=python_file)
+print('print("Thanks for using this calculator! :)")', file=python_file)
 
 # Close the file we have written to
 python_file.close()
