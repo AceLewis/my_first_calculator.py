@@ -1,20822 +1,10013 @@
 # my_first_calculator.py by AceLewis
 # TODO: Make it work for all floating point numbers too
-
 if 3/2 == 1:  # Because Python 2 does not know maths
-    input = raw_input  # Python 2 compatibility
-
+	input = raw_input  # Python 2 compatibility
 print('Welcome to this calculator!')
 print('It can add, subtract, multiply and divide whole numbers from 0 to 50')
 num1 = int(input('Please choose your first number: '))
 sign = input('What do you want to do? +, -, /, or *: ')
 num2 = int(input('Please choose your second number: '))
-
-if num1 == 0 and sign == '+' and num2 == 0:
-    print("0+0 = 0")
-if num1 == 0 and sign == '+' and num2 == 1:
-    print("0+1 = 1")
-if num1 == 0 and sign == '+' and num2 == 2:
-    print("0+2 = 2")
-if num1 == 0 and sign == '+' and num2 == 3:
-    print("0+3 = 3")
-if num1 == 0 and sign == '+' and num2 == 4:
-    print("0+4 = 4")
-if num1 == 0 and sign == '+' and num2 == 5:
-    print("0+5 = 5")
-if num1 == 0 and sign == '+' and num2 == 6:
-    print("0+6 = 6")
-if num1 == 0 and sign == '+' and num2 == 7:
-    print("0+7 = 7")
-if num1 == 0 and sign == '+' and num2 == 8:
-    print("0+8 = 8")
-if num1 == 0 and sign == '+' and num2 == 9:
-    print("0+9 = 9")
-if num1 == 0 and sign == '+' and num2 == 10:
-    print("0+10 = 10")
-if num1 == 0 and sign == '+' and num2 == 11:
-    print("0+11 = 11")
-if num1 == 0 and sign == '+' and num2 == 12:
-    print("0+12 = 12")
-if num1 == 0 and sign == '+' and num2 == 13:
-    print("0+13 = 13")
-if num1 == 0 and sign == '+' and num2 == 14:
-    print("0+14 = 14")
-if num1 == 0 and sign == '+' and num2 == 15:
-    print("0+15 = 15")
-if num1 == 0 and sign == '+' and num2 == 16:
-    print("0+16 = 16")
-if num1 == 0 and sign == '+' and num2 == 17:
-    print("0+17 = 17")
-if num1 == 0 and sign == '+' and num2 == 18:
-    print("0+18 = 18")
-if num1 == 0 and sign == '+' and num2 == 19:
-    print("0+19 = 19")
-if num1 == 0 and sign == '+' and num2 == 20:
-    print("0+20 = 20")
-if num1 == 0 and sign == '+' and num2 == 21:
-    print("0+21 = 21")
-if num1 == 0 and sign == '+' and num2 == 22:
-    print("0+22 = 22")
-if num1 == 0 and sign == '+' and num2 == 23:
-    print("0+23 = 23")
-if num1 == 0 and sign == '+' and num2 == 24:
-    print("0+24 = 24")
-if num1 == 0 and sign == '+' and num2 == 25:
-    print("0+25 = 25")
-if num1 == 0 and sign == '+' and num2 == 26:
-    print("0+26 = 26")
-if num1 == 0 and sign == '+' and num2 == 27:
-    print("0+27 = 27")
-if num1 == 0 and sign == '+' and num2 == 28:
-    print("0+28 = 28")
-if num1 == 0 and sign == '+' and num2 == 29:
-    print("0+29 = 29")
-if num1 == 0 and sign == '+' and num2 == 30:
-    print("0+30 = 30")
-if num1 == 0 and sign == '+' and num2 == 31:
-    print("0+31 = 31")
-if num1 == 0 and sign == '+' and num2 == 32:
-    print("0+32 = 32")
-if num1 == 0 and sign == '+' and num2 == 33:
-    print("0+33 = 33")
-if num1 == 0 and sign == '+' and num2 == 34:
-    print("0+34 = 34")
-if num1 == 0 and sign == '+' and num2 == 35:
-    print("0+35 = 35")
-if num1 == 0 and sign == '+' and num2 == 36:
-    print("0+36 = 36")
-if num1 == 0 and sign == '+' and num2 == 37:
-    print("0+37 = 37")
-if num1 == 0 and sign == '+' and num2 == 38:
-    print("0+38 = 38")
-if num1 == 0 and sign == '+' and num2 == 39:
-    print("0+39 = 39")
-if num1 == 0 and sign == '+' and num2 == 40:
-    print("0+40 = 40")
-if num1 == 0 and sign == '+' and num2 == 41:
-    print("0+41 = 41")
-if num1 == 0 and sign == '+' and num2 == 42:
-    print("0+42 = 42")
-if num1 == 0 and sign == '+' and num2 == 43:
-    print("0+43 = 43")
-if num1 == 0 and sign == '+' and num2 == 44:
-    print("0+44 = 44")
-if num1 == 0 and sign == '+' and num2 == 45:
-    print("0+45 = 45")
-if num1 == 0 and sign == '+' and num2 == 46:
-    print("0+46 = 46")
-if num1 == 0 and sign == '+' and num2 == 47:
-    print("0+47 = 47")
-if num1 == 0 and sign == '+' and num2 == 48:
-    print("0+48 = 48")
-if num1 == 0 and sign == '+' and num2 == 49:
-    print("0+49 = 49")
-if num1 == 0 and sign == '+' and num2 == 50:
-    print("0+50 = 50")
-if num1 == 1 and sign == '+' and num2 == 0:
-    print("1+0 = 1")
-if num1 == 1 and sign == '+' and num2 == 1:
-    print("1+1 = 2")
-if num1 == 1 and sign == '+' and num2 == 2:
-    print("1+2 = 3")
-if num1 == 1 and sign == '+' and num2 == 3:
-    print("1+3 = 4")
-if num1 == 1 and sign == '+' and num2 == 4:
-    print("1+4 = 5")
-if num1 == 1 and sign == '+' and num2 == 5:
-    print("1+5 = 6")
-if num1 == 1 and sign == '+' and num2 == 6:
-    print("1+6 = 7")
-if num1 == 1 and sign == '+' and num2 == 7:
-    print("1+7 = 8")
-if num1 == 1 and sign == '+' and num2 == 8:
-    print("1+8 = 9")
-if num1 == 1 and sign == '+' and num2 == 9:
-    print("1+9 = 10")
-if num1 == 1 and sign == '+' and num2 == 10:
-    print("1+10 = 11")
-if num1 == 1 and sign == '+' and num2 == 11:
-    print("1+11 = 12")
-if num1 == 1 and sign == '+' and num2 == 12:
-    print("1+12 = 13")
-if num1 == 1 and sign == '+' and num2 == 13:
-    print("1+13 = 14")
-if num1 == 1 and sign == '+' and num2 == 14:
-    print("1+14 = 15")
-if num1 == 1 and sign == '+' and num2 == 15:
-    print("1+15 = 16")
-if num1 == 1 and sign == '+' and num2 == 16:
-    print("1+16 = 17")
-if num1 == 1 and sign == '+' and num2 == 17:
-    print("1+17 = 18")
-if num1 == 1 and sign == '+' and num2 == 18:
-    print("1+18 = 19")
-if num1 == 1 and sign == '+' and num2 == 19:
-    print("1+19 = 20")
-if num1 == 1 and sign == '+' and num2 == 20:
-    print("1+20 = 21")
-if num1 == 1 and sign == '+' and num2 == 21:
-    print("1+21 = 22")
-if num1 == 1 and sign == '+' and num2 == 22:
-    print("1+22 = 23")
-if num1 == 1 and sign == '+' and num2 == 23:
-    print("1+23 = 24")
-if num1 == 1 and sign == '+' and num2 == 24:
-    print("1+24 = 25")
-if num1 == 1 and sign == '+' and num2 == 25:
-    print("1+25 = 26")
-if num1 == 1 and sign == '+' and num2 == 26:
-    print("1+26 = 27")
-if num1 == 1 and sign == '+' and num2 == 27:
-    print("1+27 = 28")
-if num1 == 1 and sign == '+' and num2 == 28:
-    print("1+28 = 29")
-if num1 == 1 and sign == '+' and num2 == 29:
-    print("1+29 = 30")
-if num1 == 1 and sign == '+' and num2 == 30:
-    print("1+30 = 31")
-if num1 == 1 and sign == '+' and num2 == 31:
-    print("1+31 = 32")
-if num1 == 1 and sign == '+' and num2 == 32:
-    print("1+32 = 33")
-if num1 == 1 and sign == '+' and num2 == 33:
-    print("1+33 = 34")
-if num1 == 1 and sign == '+' and num2 == 34:
-    print("1+34 = 35")
-if num1 == 1 and sign == '+' and num2 == 35:
-    print("1+35 = 36")
-if num1 == 1 and sign == '+' and num2 == 36:
-    print("1+36 = 37")
-if num1 == 1 and sign == '+' and num2 == 37:
-    print("1+37 = 38")
-if num1 == 1 and sign == '+' and num2 == 38:
-    print("1+38 = 39")
-if num1 == 1 and sign == '+' and num2 == 39:
-    print("1+39 = 40")
-if num1 == 1 and sign == '+' and num2 == 40:
-    print("1+40 = 41")
-if num1 == 1 and sign == '+' and num2 == 41:
-    print("1+41 = 42")
-if num1 == 1 and sign == '+' and num2 == 42:
-    print("1+42 = 43")
-if num1 == 1 and sign == '+' and num2 == 43:
-    print("1+43 = 44")
-if num1 == 1 and sign == '+' and num2 == 44:
-    print("1+44 = 45")
-if num1 == 1 and sign == '+' and num2 == 45:
-    print("1+45 = 46")
-if num1 == 1 and sign == '+' and num2 == 46:
-    print("1+46 = 47")
-if num1 == 1 and sign == '+' and num2 == 47:
-    print("1+47 = 48")
-if num1 == 1 and sign == '+' and num2 == 48:
-    print("1+48 = 49")
-if num1 == 1 and sign == '+' and num2 == 49:
-    print("1+49 = 50")
-if num1 == 1 and sign == '+' and num2 == 50:
-    print("1+50 = 51")
-if num1 == 2 and sign == '+' and num2 == 0:
-    print("2+0 = 2")
-if num1 == 2 and sign == '+' and num2 == 1:
-    print("2+1 = 3")
-if num1 == 2 and sign == '+' and num2 == 2:
-    print("2+2 = 4")
-if num1 == 2 and sign == '+' and num2 == 3:
-    print("2+3 = 5")
-if num1 == 2 and sign == '+' and num2 == 4:
-    print("2+4 = 6")
-if num1 == 2 and sign == '+' and num2 == 5:
-    print("2+5 = 7")
-if num1 == 2 and sign == '+' and num2 == 6:
-    print("2+6 = 8")
-if num1 == 2 and sign == '+' and num2 == 7:
-    print("2+7 = 9")
-if num1 == 2 and sign == '+' and num2 == 8:
-    print("2+8 = 10")
-if num1 == 2 and sign == '+' and num2 == 9:
-    print("2+9 = 11")
-if num1 == 2 and sign == '+' and num2 == 10:
-    print("2+10 = 12")
-if num1 == 2 and sign == '+' and num2 == 11:
-    print("2+11 = 13")
-if num1 == 2 and sign == '+' and num2 == 12:
-    print("2+12 = 14")
-if num1 == 2 and sign == '+' and num2 == 13:
-    print("2+13 = 15")
-if num1 == 2 and sign == '+' and num2 == 14:
-    print("2+14 = 16")
-if num1 == 2 and sign == '+' and num2 == 15:
-    print("2+15 = 17")
-if num1 == 2 and sign == '+' and num2 == 16:
-    print("2+16 = 18")
-if num1 == 2 and sign == '+' and num2 == 17:
-    print("2+17 = 19")
-if num1 == 2 and sign == '+' and num2 == 18:
-    print("2+18 = 20")
-if num1 == 2 and sign == '+' and num2 == 19:
-    print("2+19 = 21")
-if num1 == 2 and sign == '+' and num2 == 20:
-    print("2+20 = 22")
-if num1 == 2 and sign == '+' and num2 == 21:
-    print("2+21 = 23")
-if num1 == 2 and sign == '+' and num2 == 22:
-    print("2+22 = 24")
-if num1 == 2 and sign == '+' and num2 == 23:
-    print("2+23 = 25")
-if num1 == 2 and sign == '+' and num2 == 24:
-    print("2+24 = 26")
-if num1 == 2 and sign == '+' and num2 == 25:
-    print("2+25 = 27")
-if num1 == 2 and sign == '+' and num2 == 26:
-    print("2+26 = 28")
-if num1 == 2 and sign == '+' and num2 == 27:
-    print("2+27 = 29")
-if num1 == 2 and sign == '+' and num2 == 28:
-    print("2+28 = 30")
-if num1 == 2 and sign == '+' and num2 == 29:
-    print("2+29 = 31")
-if num1 == 2 and sign == '+' and num2 == 30:
-    print("2+30 = 32")
-if num1 == 2 and sign == '+' and num2 == 31:
-    print("2+31 = 33")
-if num1 == 2 and sign == '+' and num2 == 32:
-    print("2+32 = 34")
-if num1 == 2 and sign == '+' and num2 == 33:
-    print("2+33 = 35")
-if num1 == 2 and sign == '+' and num2 == 34:
-    print("2+34 = 36")
-if num1 == 2 and sign == '+' and num2 == 35:
-    print("2+35 = 37")
-if num1 == 2 and sign == '+' and num2 == 36:
-    print("2+36 = 38")
-if num1 == 2 and sign == '+' and num2 == 37:
-    print("2+37 = 39")
-if num1 == 2 and sign == '+' and num2 == 38:
-    print("2+38 = 40")
-if num1 == 2 and sign == '+' and num2 == 39:
-    print("2+39 = 41")
-if num1 == 2 and sign == '+' and num2 == 40:
-    print("2+40 = 42")
-if num1 == 2 and sign == '+' and num2 == 41:
-    print("2+41 = 43")
-if num1 == 2 and sign == '+' and num2 == 42:
-    print("2+42 = 44")
-if num1 == 2 and sign == '+' and num2 == 43:
-    print("2+43 = 45")
-if num1 == 2 and sign == '+' and num2 == 44:
-    print("2+44 = 46")
-if num1 == 2 and sign == '+' and num2 == 45:
-    print("2+45 = 47")
-if num1 == 2 and sign == '+' and num2 == 46:
-    print("2+46 = 48")
-if num1 == 2 and sign == '+' and num2 == 47:
-    print("2+47 = 49")
-if num1 == 2 and sign == '+' and num2 == 48:
-    print("2+48 = 50")
-if num1 == 2 and sign == '+' and num2 == 49:
-    print("2+49 = 51")
-if num1 == 2 and sign == '+' and num2 == 50:
-    print("2+50 = 52")
-if num1 == 3 and sign == '+' and num2 == 0:
-    print("3+0 = 3")
-if num1 == 3 and sign == '+' and num2 == 1:
-    print("3+1 = 4")
-if num1 == 3 and sign == '+' and num2 == 2:
-    print("3+2 = 5")
-if num1 == 3 and sign == '+' and num2 == 3:
-    print("3+3 = 6")
-if num1 == 3 and sign == '+' and num2 == 4:
-    print("3+4 = 7")
-if num1 == 3 and sign == '+' and num2 == 5:
-    print("3+5 = 8")
-if num1 == 3 and sign == '+' and num2 == 6:
-    print("3+6 = 9")
-if num1 == 3 and sign == '+' and num2 == 7:
-    print("3+7 = 10")
-if num1 == 3 and sign == '+' and num2 == 8:
-    print("3+8 = 11")
-if num1 == 3 and sign == '+' and num2 == 9:
-    print("3+9 = 12")
-if num1 == 3 and sign == '+' and num2 == 10:
-    print("3+10 = 13")
-if num1 == 3 and sign == '+' and num2 == 11:
-    print("3+11 = 14")
-if num1 == 3 and sign == '+' and num2 == 12:
-    print("3+12 = 15")
-if num1 == 3 and sign == '+' and num2 == 13:
-    print("3+13 = 16")
-if num1 == 3 and sign == '+' and num2 == 14:
-    print("3+14 = 17")
-if num1 == 3 and sign == '+' and num2 == 15:
-    print("3+15 = 18")
-if num1 == 3 and sign == '+' and num2 == 16:
-    print("3+16 = 19")
-if num1 == 3 and sign == '+' and num2 == 17:
-    print("3+17 = 20")
-if num1 == 3 and sign == '+' and num2 == 18:
-    print("3+18 = 21")
-if num1 == 3 and sign == '+' and num2 == 19:
-    print("3+19 = 22")
-if num1 == 3 and sign == '+' and num2 == 20:
-    print("3+20 = 23")
-if num1 == 3 and sign == '+' and num2 == 21:
-    print("3+21 = 24")
-if num1 == 3 and sign == '+' and num2 == 22:
-    print("3+22 = 25")
-if num1 == 3 and sign == '+' and num2 == 23:
-    print("3+23 = 26")
-if num1 == 3 and sign == '+' and num2 == 24:
-    print("3+24 = 27")
-if num1 == 3 and sign == '+' and num2 == 25:
-    print("3+25 = 28")
-if num1 == 3 and sign == '+' and num2 == 26:
-    print("3+26 = 29")
-if num1 == 3 and sign == '+' and num2 == 27:
-    print("3+27 = 30")
-if num1 == 3 and sign == '+' and num2 == 28:
-    print("3+28 = 31")
-if num1 == 3 and sign == '+' and num2 == 29:
-    print("3+29 = 32")
-if num1 == 3 and sign == '+' and num2 == 30:
-    print("3+30 = 33")
-if num1 == 3 and sign == '+' and num2 == 31:
-    print("3+31 = 34")
-if num1 == 3 and sign == '+' and num2 == 32:
-    print("3+32 = 35")
-if num1 == 3 and sign == '+' and num2 == 33:
-    print("3+33 = 36")
-if num1 == 3 and sign == '+' and num2 == 34:
-    print("3+34 = 37")
-if num1 == 3 and sign == '+' and num2 == 35:
-    print("3+35 = 38")
-if num1 == 3 and sign == '+' and num2 == 36:
-    print("3+36 = 39")
-if num1 == 3 and sign == '+' and num2 == 37:
-    print("3+37 = 40")
-if num1 == 3 and sign == '+' and num2 == 38:
-    print("3+38 = 41")
-if num1 == 3 and sign == '+' and num2 == 39:
-    print("3+39 = 42")
-if num1 == 3 and sign == '+' and num2 == 40:
-    print("3+40 = 43")
-if num1 == 3 and sign == '+' and num2 == 41:
-    print("3+41 = 44")
-if num1 == 3 and sign == '+' and num2 == 42:
-    print("3+42 = 45")
-if num1 == 3 and sign == '+' and num2 == 43:
-    print("3+43 = 46")
-if num1 == 3 and sign == '+' and num2 == 44:
-    print("3+44 = 47")
-if num1 == 3 and sign == '+' and num2 == 45:
-    print("3+45 = 48")
-if num1 == 3 and sign == '+' and num2 == 46:
-    print("3+46 = 49")
-if num1 == 3 and sign == '+' and num2 == 47:
-    print("3+47 = 50")
-if num1 == 3 and sign == '+' and num2 == 48:
-    print("3+48 = 51")
-if num1 == 3 and sign == '+' and num2 == 49:
-    print("3+49 = 52")
-if num1 == 3 and sign == '+' and num2 == 50:
-    print("3+50 = 53")
-if num1 == 4 and sign == '+' and num2 == 0:
-    print("4+0 = 4")
-if num1 == 4 and sign == '+' and num2 == 1:
-    print("4+1 = 5")
-if num1 == 4 and sign == '+' and num2 == 2:
-    print("4+2 = 6")
-if num1 == 4 and sign == '+' and num2 == 3:
-    print("4+3 = 7")
-if num1 == 4 and sign == '+' and num2 == 4:
-    print("4+4 = 8")
-if num1 == 4 and sign == '+' and num2 == 5:
-    print("4+5 = 9")
-if num1 == 4 and sign == '+' and num2 == 6:
-    print("4+6 = 10")
-if num1 == 4 and sign == '+' and num2 == 7:
-    print("4+7 = 11")
-if num1 == 4 and sign == '+' and num2 == 8:
-    print("4+8 = 12")
-if num1 == 4 and sign == '+' and num2 == 9:
-    print("4+9 = 13")
-if num1 == 4 and sign == '+' and num2 == 10:
-    print("4+10 = 14")
-if num1 == 4 and sign == '+' and num2 == 11:
-    print("4+11 = 15")
-if num1 == 4 and sign == '+' and num2 == 12:
-    print("4+12 = 16")
-if num1 == 4 and sign == '+' and num2 == 13:
-    print("4+13 = 17")
-if num1 == 4 and sign == '+' and num2 == 14:
-    print("4+14 = 18")
-if num1 == 4 and sign == '+' and num2 == 15:
-    print("4+15 = 19")
-if num1 == 4 and sign == '+' and num2 == 16:
-    print("4+16 = 20")
-if num1 == 4 and sign == '+' and num2 == 17:
-    print("4+17 = 21")
-if num1 == 4 and sign == '+' and num2 == 18:
-    print("4+18 = 22")
-if num1 == 4 and sign == '+' and num2 == 19:
-    print("4+19 = 23")
-if num1 == 4 and sign == '+' and num2 == 20:
-    print("4+20 = 24")
-if num1 == 4 and sign == '+' and num2 == 21:
-    print("4+21 = 25")
-if num1 == 4 and sign == '+' and num2 == 22:
-    print("4+22 = 26")
-if num1 == 4 and sign == '+' and num2 == 23:
-    print("4+23 = 27")
-if num1 == 4 and sign == '+' and num2 == 24:
-    print("4+24 = 28")
-if num1 == 4 and sign == '+' and num2 == 25:
-    print("4+25 = 29")
-if num1 == 4 and sign == '+' and num2 == 26:
-    print("4+26 = 30")
-if num1 == 4 and sign == '+' and num2 == 27:
-    print("4+27 = 31")
-if num1 == 4 and sign == '+' and num2 == 28:
-    print("4+28 = 32")
-if num1 == 4 and sign == '+' and num2 == 29:
-    print("4+29 = 33")
-if num1 == 4 and sign == '+' and num2 == 30:
-    print("4+30 = 34")
-if num1 == 4 and sign == '+' and num2 == 31:
-    print("4+31 = 35")
-if num1 == 4 and sign == '+' and num2 == 32:
-    print("4+32 = 36")
-if num1 == 4 and sign == '+' and num2 == 33:
-    print("4+33 = 37")
-if num1 == 4 and sign == '+' and num2 == 34:
-    print("4+34 = 38")
-if num1 == 4 and sign == '+' and num2 == 35:
-    print("4+35 = 39")
-if num1 == 4 and sign == '+' and num2 == 36:
-    print("4+36 = 40")
-if num1 == 4 and sign == '+' and num2 == 37:
-    print("4+37 = 41")
-if num1 == 4 and sign == '+' and num2 == 38:
-    print("4+38 = 42")
-if num1 == 4 and sign == '+' and num2 == 39:
-    print("4+39 = 43")
-if num1 == 4 and sign == '+' and num2 == 40:
-    print("4+40 = 44")
-if num1 == 4 and sign == '+' and num2 == 41:
-    print("4+41 = 45")
-if num1 == 4 and sign == '+' and num2 == 42:
-    print("4+42 = 46")
-if num1 == 4 and sign == '+' and num2 == 43:
-    print("4+43 = 47")
-if num1 == 4 and sign == '+' and num2 == 44:
-    print("4+44 = 48")
-if num1 == 4 and sign == '+' and num2 == 45:
-    print("4+45 = 49")
-if num1 == 4 and sign == '+' and num2 == 46:
-    print("4+46 = 50")
-if num1 == 4 and sign == '+' and num2 == 47:
-    print("4+47 = 51")
-if num1 == 4 and sign == '+' and num2 == 48:
-    print("4+48 = 52")
-if num1 == 4 and sign == '+' and num2 == 49:
-    print("4+49 = 53")
-if num1 == 4 and sign == '+' and num2 == 50:
-    print("4+50 = 54")
-if num1 == 5 and sign == '+' and num2 == 0:
-    print("5+0 = 5")
-if num1 == 5 and sign == '+' and num2 == 1:
-    print("5+1 = 6")
-if num1 == 5 and sign == '+' and num2 == 2:
-    print("5+2 = 7")
-if num1 == 5 and sign == '+' and num2 == 3:
-    print("5+3 = 8")
-if num1 == 5 and sign == '+' and num2 == 4:
-    print("5+4 = 9")
-if num1 == 5 and sign == '+' and num2 == 5:
-    print("5+5 = 10")
-if num1 == 5 and sign == '+' and num2 == 6:
-    print("5+6 = 11")
-if num1 == 5 and sign == '+' and num2 == 7:
-    print("5+7 = 12")
-if num1 == 5 and sign == '+' and num2 == 8:
-    print("5+8 = 13")
-if num1 == 5 and sign == '+' and num2 == 9:
-    print("5+9 = 14")
-if num1 == 5 and sign == '+' and num2 == 10:
-    print("5+10 = 15")
-if num1 == 5 and sign == '+' and num2 == 11:
-    print("5+11 = 16")
-if num1 == 5 and sign == '+' and num2 == 12:
-    print("5+12 = 17")
-if num1 == 5 and sign == '+' and num2 == 13:
-    print("5+13 = 18")
-if num1 == 5 and sign == '+' and num2 == 14:
-    print("5+14 = 19")
-if num1 == 5 and sign == '+' and num2 == 15:
-    print("5+15 = 20")
-if num1 == 5 and sign == '+' and num2 == 16:
-    print("5+16 = 21")
-if num1 == 5 and sign == '+' and num2 == 17:
-    print("5+17 = 22")
-if num1 == 5 and sign == '+' and num2 == 18:
-    print("5+18 = 23")
-if num1 == 5 and sign == '+' and num2 == 19:
-    print("5+19 = 24")
-if num1 == 5 and sign == '+' and num2 == 20:
-    print("5+20 = 25")
-if num1 == 5 and sign == '+' and num2 == 21:
-    print("5+21 = 26")
-if num1 == 5 and sign == '+' and num2 == 22:
-    print("5+22 = 27")
-if num1 == 5 and sign == '+' and num2 == 23:
-    print("5+23 = 28")
-if num1 == 5 and sign == '+' and num2 == 24:
-    print("5+24 = 29")
-if num1 == 5 and sign == '+' and num2 == 25:
-    print("5+25 = 30")
-if num1 == 5 and sign == '+' and num2 == 26:
-    print("5+26 = 31")
-if num1 == 5 and sign == '+' and num2 == 27:
-    print("5+27 = 32")
-if num1 == 5 and sign == '+' and num2 == 28:
-    print("5+28 = 33")
-if num1 == 5 and sign == '+' and num2 == 29:
-    print("5+29 = 34")
-if num1 == 5 and sign == '+' and num2 == 30:
-    print("5+30 = 35")
-if num1 == 5 and sign == '+' and num2 == 31:
-    print("5+31 = 36")
-if num1 == 5 and sign == '+' and num2 == 32:
-    print("5+32 = 37")
-if num1 == 5 and sign == '+' and num2 == 33:
-    print("5+33 = 38")
-if num1 == 5 and sign == '+' and num2 == 34:
-    print("5+34 = 39")
-if num1 == 5 and sign == '+' and num2 == 35:
-    print("5+35 = 40")
-if num1 == 5 and sign == '+' and num2 == 36:
-    print("5+36 = 41")
-if num1 == 5 and sign == '+' and num2 == 37:
-    print("5+37 = 42")
-if num1 == 5 and sign == '+' and num2 == 38:
-    print("5+38 = 43")
-if num1 == 5 and sign == '+' and num2 == 39:
-    print("5+39 = 44")
-if num1 == 5 and sign == '+' and num2 == 40:
-    print("5+40 = 45")
-if num1 == 5 and sign == '+' and num2 == 41:
-    print("5+41 = 46")
-if num1 == 5 and sign == '+' and num2 == 42:
-    print("5+42 = 47")
-if num1 == 5 and sign == '+' and num2 == 43:
-    print("5+43 = 48")
-if num1 == 5 and sign == '+' and num2 == 44:
-    print("5+44 = 49")
-if num1 == 5 and sign == '+' and num2 == 45:
-    print("5+45 = 50")
-if num1 == 5 and sign == '+' and num2 == 46:
-    print("5+46 = 51")
-if num1 == 5 and sign == '+' and num2 == 47:
-    print("5+47 = 52")
-if num1 == 5 and sign == '+' and num2 == 48:
-    print("5+48 = 53")
-if num1 == 5 and sign == '+' and num2 == 49:
-    print("5+49 = 54")
-if num1 == 5 and sign == '+' and num2 == 50:
-    print("5+50 = 55")
-if num1 == 6 and sign == '+' and num2 == 0:
-    print("6+0 = 6")
-if num1 == 6 and sign == '+' and num2 == 1:
-    print("6+1 = 7")
-if num1 == 6 and sign == '+' and num2 == 2:
-    print("6+2 = 8")
-if num1 == 6 and sign == '+' and num2 == 3:
-    print("6+3 = 9")
-if num1 == 6 and sign == '+' and num2 == 4:
-    print("6+4 = 10")
-if num1 == 6 and sign == '+' and num2 == 5:
-    print("6+5 = 11")
-if num1 == 6 and sign == '+' and num2 == 6:
-    print("6+6 = 12")
-if num1 == 6 and sign == '+' and num2 == 7:
-    print("6+7 = 13")
-if num1 == 6 and sign == '+' and num2 == 8:
-    print("6+8 = 14")
-if num1 == 6 and sign == '+' and num2 == 9:
-    print("6+9 = 15")
-if num1 == 6 and sign == '+' and num2 == 10:
-    print("6+10 = 16")
-if num1 == 6 and sign == '+' and num2 == 11:
-    print("6+11 = 17")
-if num1 == 6 and sign == '+' and num2 == 12:
-    print("6+12 = 18")
-if num1 == 6 and sign == '+' and num2 == 13:
-    print("6+13 = 19")
-if num1 == 6 and sign == '+' and num2 == 14:
-    print("6+14 = 20")
-if num1 == 6 and sign == '+' and num2 == 15:
-    print("6+15 = 21")
-if num1 == 6 and sign == '+' and num2 == 16:
-    print("6+16 = 22")
-if num1 == 6 and sign == '+' and num2 == 17:
-    print("6+17 = 23")
-if num1 == 6 and sign == '+' and num2 == 18:
-    print("6+18 = 24")
-if num1 == 6 and sign == '+' and num2 == 19:
-    print("6+19 = 25")
-if num1 == 6 and sign == '+' and num2 == 20:
-    print("6+20 = 26")
-if num1 == 6 and sign == '+' and num2 == 21:
-    print("6+21 = 27")
-if num1 == 6 and sign == '+' and num2 == 22:
-    print("6+22 = 28")
-if num1 == 6 and sign == '+' and num2 == 23:
-    print("6+23 = 29")
-if num1 == 6 and sign == '+' and num2 == 24:
-    print("6+24 = 30")
-if num1 == 6 and sign == '+' and num2 == 25:
-    print("6+25 = 31")
-if num1 == 6 and sign == '+' and num2 == 26:
-    print("6+26 = 32")
-if num1 == 6 and sign == '+' and num2 == 27:
-    print("6+27 = 33")
-if num1 == 6 and sign == '+' and num2 == 28:
-    print("6+28 = 34")
-if num1 == 6 and sign == '+' and num2 == 29:
-    print("6+29 = 35")
-if num1 == 6 and sign == '+' and num2 == 30:
-    print("6+30 = 36")
-if num1 == 6 and sign == '+' and num2 == 31:
-    print("6+31 = 37")
-if num1 == 6 and sign == '+' and num2 == 32:
-    print("6+32 = 38")
-if num1 == 6 and sign == '+' and num2 == 33:
-    print("6+33 = 39")
-if num1 == 6 and sign == '+' and num2 == 34:
-    print("6+34 = 40")
-if num1 == 6 and sign == '+' and num2 == 35:
-    print("6+35 = 41")
-if num1 == 6 and sign == '+' and num2 == 36:
-    print("6+36 = 42")
-if num1 == 6 and sign == '+' and num2 == 37:
-    print("6+37 = 43")
-if num1 == 6 and sign == '+' and num2 == 38:
-    print("6+38 = 44")
-if num1 == 6 and sign == '+' and num2 == 39:
-    print("6+39 = 45")
-if num1 == 6 and sign == '+' and num2 == 40:
-    print("6+40 = 46")
-if num1 == 6 and sign == '+' and num2 == 41:
-    print("6+41 = 47")
-if num1 == 6 and sign == '+' and num2 == 42:
-    print("6+42 = 48")
-if num1 == 6 and sign == '+' and num2 == 43:
-    print("6+43 = 49")
-if num1 == 6 and sign == '+' and num2 == 44:
-    print("6+44 = 50")
-if num1 == 6 and sign == '+' and num2 == 45:
-    print("6+45 = 51")
-if num1 == 6 and sign == '+' and num2 == 46:
-    print("6+46 = 52")
-if num1 == 6 and sign == '+' and num2 == 47:
-    print("6+47 = 53")
-if num1 == 6 and sign == '+' and num2 == 48:
-    print("6+48 = 54")
-if num1 == 6 and sign == '+' and num2 == 49:
-    print("6+49 = 55")
-if num1 == 6 and sign == '+' and num2 == 50:
-    print("6+50 = 56")
-if num1 == 7 and sign == '+' and num2 == 0:
-    print("7+0 = 7")
-if num1 == 7 and sign == '+' and num2 == 1:
-    print("7+1 = 8")
-if num1 == 7 and sign == '+' and num2 == 2:
-    print("7+2 = 9")
-if num1 == 7 and sign == '+' and num2 == 3:
-    print("7+3 = 10")
-if num1 == 7 and sign == '+' and num2 == 4:
-    print("7+4 = 11")
-if num1 == 7 and sign == '+' and num2 == 5:
-    print("7+5 = 12")
-if num1 == 7 and sign == '+' and num2 == 6:
-    print("7+6 = 13")
-if num1 == 7 and sign == '+' and num2 == 7:
-    print("7+7 = 14")
-if num1 == 7 and sign == '+' and num2 == 8:
-    print("7+8 = 15")
-if num1 == 7 and sign == '+' and num2 == 9:
-    print("7+9 = 16")
-if num1 == 7 and sign == '+' and num2 == 10:
-    print("7+10 = 17")
-if num1 == 7 and sign == '+' and num2 == 11:
-    print("7+11 = 18")
-if num1 == 7 and sign == '+' and num2 == 12:
-    print("7+12 = 19")
-if num1 == 7 and sign == '+' and num2 == 13:
-    print("7+13 = 20")
-if num1 == 7 and sign == '+' and num2 == 14:
-    print("7+14 = 21")
-if num1 == 7 and sign == '+' and num2 == 15:
-    print("7+15 = 22")
-if num1 == 7 and sign == '+' and num2 == 16:
-    print("7+16 = 23")
-if num1 == 7 and sign == '+' and num2 == 17:
-    print("7+17 = 24")
-if num1 == 7 and sign == '+' and num2 == 18:
-    print("7+18 = 25")
-if num1 == 7 and sign == '+' and num2 == 19:
-    print("7+19 = 26")
-if num1 == 7 and sign == '+' and num2 == 20:
-    print("7+20 = 27")
-if num1 == 7 and sign == '+' and num2 == 21:
-    print("7+21 = 28")
-if num1 == 7 and sign == '+' and num2 == 22:
-    print("7+22 = 29")
-if num1 == 7 and sign == '+' and num2 == 23:
-    print("7+23 = 30")
-if num1 == 7 and sign == '+' and num2 == 24:
-    print("7+24 = 31")
-if num1 == 7 and sign == '+' and num2 == 25:
-    print("7+25 = 32")
-if num1 == 7 and sign == '+' and num2 == 26:
-    print("7+26 = 33")
-if num1 == 7 and sign == '+' and num2 == 27:
-    print("7+27 = 34")
-if num1 == 7 and sign == '+' and num2 == 28:
-    print("7+28 = 35")
-if num1 == 7 and sign == '+' and num2 == 29:
-    print("7+29 = 36")
-if num1 == 7 and sign == '+' and num2 == 30:
-    print("7+30 = 37")
-if num1 == 7 and sign == '+' and num2 == 31:
-    print("7+31 = 38")
-if num1 == 7 and sign == '+' and num2 == 32:
-    print("7+32 = 39")
-if num1 == 7 and sign == '+' and num2 == 33:
-    print("7+33 = 40")
-if num1 == 7 and sign == '+' and num2 == 34:
-    print("7+34 = 41")
-if num1 == 7 and sign == '+' and num2 == 35:
-    print("7+35 = 42")
-if num1 == 7 and sign == '+' and num2 == 36:
-    print("7+36 = 43")
-if num1 == 7 and sign == '+' and num2 == 37:
-    print("7+37 = 44")
-if num1 == 7 and sign == '+' and num2 == 38:
-    print("7+38 = 45")
-if num1 == 7 and sign == '+' and num2 == 39:
-    print("7+39 = 46")
-if num1 == 7 and sign == '+' and num2 == 40:
-    print("7+40 = 47")
-if num1 == 7 and sign == '+' and num2 == 41:
-    print("7+41 = 48")
-if num1 == 7 and sign == '+' and num2 == 42:
-    print("7+42 = 49")
-if num1 == 7 and sign == '+' and num2 == 43:
-    print("7+43 = 50")
-if num1 == 7 and sign == '+' and num2 == 44:
-    print("7+44 = 51")
-if num1 == 7 and sign == '+' and num2 == 45:
-    print("7+45 = 52")
-if num1 == 7 and sign == '+' and num2 == 46:
-    print("7+46 = 53")
-if num1 == 7 and sign == '+' and num2 == 47:
-    print("7+47 = 54")
-if num1 == 7 and sign == '+' and num2 == 48:
-    print("7+48 = 55")
-if num1 == 7 and sign == '+' and num2 == 49:
-    print("7+49 = 56")
-if num1 == 7 and sign == '+' and num2 == 50:
-    print("7+50 = 57")
-if num1 == 8 and sign == '+' and num2 == 0:
-    print("8+0 = 8")
-if num1 == 8 and sign == '+' and num2 == 1:
-    print("8+1 = 9")
-if num1 == 8 and sign == '+' and num2 == 2:
-    print("8+2 = 10")
-if num1 == 8 and sign == '+' and num2 == 3:
-    print("8+3 = 11")
-if num1 == 8 and sign == '+' and num2 == 4:
-    print("8+4 = 12")
-if num1 == 8 and sign == '+' and num2 == 5:
-    print("8+5 = 13")
-if num1 == 8 and sign == '+' and num2 == 6:
-    print("8+6 = 14")
-if num1 == 8 and sign == '+' and num2 == 7:
-    print("8+7 = 15")
-if num1 == 8 and sign == '+' and num2 == 8:
-    print("8+8 = 16")
-if num1 == 8 and sign == '+' and num2 == 9:
-    print("8+9 = 17")
-if num1 == 8 and sign == '+' and num2 == 10:
-    print("8+10 = 18")
-if num1 == 8 and sign == '+' and num2 == 11:
-    print("8+11 = 19")
-if num1 == 8 and sign == '+' and num2 == 12:
-    print("8+12 = 20")
-if num1 == 8 and sign == '+' and num2 == 13:
-    print("8+13 = 21")
-if num1 == 8 and sign == '+' and num2 == 14:
-    print("8+14 = 22")
-if num1 == 8 and sign == '+' and num2 == 15:
-    print("8+15 = 23")
-if num1 == 8 and sign == '+' and num2 == 16:
-    print("8+16 = 24")
-if num1 == 8 and sign == '+' and num2 == 17:
-    print("8+17 = 25")
-if num1 == 8 and sign == '+' and num2 == 18:
-    print("8+18 = 26")
-if num1 == 8 and sign == '+' and num2 == 19:
-    print("8+19 = 27")
-if num1 == 8 and sign == '+' and num2 == 20:
-    print("8+20 = 28")
-if num1 == 8 and sign == '+' and num2 == 21:
-    print("8+21 = 29")
-if num1 == 8 and sign == '+' and num2 == 22:
-    print("8+22 = 30")
-if num1 == 8 and sign == '+' and num2 == 23:
-    print("8+23 = 31")
-if num1 == 8 and sign == '+' and num2 == 24:
-    print("8+24 = 32")
-if num1 == 8 and sign == '+' and num2 == 25:
-    print("8+25 = 33")
-if num1 == 8 and sign == '+' and num2 == 26:
-    print("8+26 = 34")
-if num1 == 8 and sign == '+' and num2 == 27:
-    print("8+27 = 35")
-if num1 == 8 and sign == '+' and num2 == 28:
-    print("8+28 = 36")
-if num1 == 8 and sign == '+' and num2 == 29:
-    print("8+29 = 37")
-if num1 == 8 and sign == '+' and num2 == 30:
-    print("8+30 = 38")
-if num1 == 8 and sign == '+' and num2 == 31:
-    print("8+31 = 39")
-if num1 == 8 and sign == '+' and num2 == 32:
-    print("8+32 = 40")
-if num1 == 8 and sign == '+' and num2 == 33:
-    print("8+33 = 41")
-if num1 == 8 and sign == '+' and num2 == 34:
-    print("8+34 = 42")
-if num1 == 8 and sign == '+' and num2 == 35:
-    print("8+35 = 43")
-if num1 == 8 and sign == '+' and num2 == 36:
-    print("8+36 = 44")
-if num1 == 8 and sign == '+' and num2 == 37:
-    print("8+37 = 45")
-if num1 == 8 and sign == '+' and num2 == 38:
-    print("8+38 = 46")
-if num1 == 8 and sign == '+' and num2 == 39:
-    print("8+39 = 47")
-if num1 == 8 and sign == '+' and num2 == 40:
-    print("8+40 = 48")
-if num1 == 8 and sign == '+' and num2 == 41:
-    print("8+41 = 49")
-if num1 == 8 and sign == '+' and num2 == 42:
-    print("8+42 = 50")
-if num1 == 8 and sign == '+' and num2 == 43:
-    print("8+43 = 51")
-if num1 == 8 and sign == '+' and num2 == 44:
-    print("8+44 = 52")
-if num1 == 8 and sign == '+' and num2 == 45:
-    print("8+45 = 53")
-if num1 == 8 and sign == '+' and num2 == 46:
-    print("8+46 = 54")
-if num1 == 8 and sign == '+' and num2 == 47:
-    print("8+47 = 55")
-if num1 == 8 and sign == '+' and num2 == 48:
-    print("8+48 = 56")
-if num1 == 8 and sign == '+' and num2 == 49:
-    print("8+49 = 57")
-if num1 == 8 and sign == '+' and num2 == 50:
-    print("8+50 = 58")
-if num1 == 9 and sign == '+' and num2 == 0:
-    print("9+0 = 9")
-if num1 == 9 and sign == '+' and num2 == 1:
-    print("9+1 = 10")
-if num1 == 9 and sign == '+' and num2 == 2:
-    print("9+2 = 11")
-if num1 == 9 and sign == '+' and num2 == 3:
-    print("9+3 = 12")
-if num1 == 9 and sign == '+' and num2 == 4:
-    print("9+4 = 13")
-if num1 == 9 and sign == '+' and num2 == 5:
-    print("9+5 = 14")
-if num1 == 9 and sign == '+' and num2 == 6:
-    print("9+6 = 15")
-if num1 == 9 and sign == '+' and num2 == 7:
-    print("9+7 = 16")
-if num1 == 9 and sign == '+' and num2 == 8:
-    print("9+8 = 17")
-if num1 == 9 and sign == '+' and num2 == 9:
-    print("9+9 = 18")
-if num1 == 9 and sign == '+' and num2 == 10:
-    print("9+10 = 19")
-if num1 == 9 and sign == '+' and num2 == 11:
-    print("9+11 = 20")
-if num1 == 9 and sign == '+' and num2 == 12:
-    print("9+12 = 21")
-if num1 == 9 and sign == '+' and num2 == 13:
-    print("9+13 = 22")
-if num1 == 9 and sign == '+' and num2 == 14:
-    print("9+14 = 23")
-if num1 == 9 and sign == '+' and num2 == 15:
-    print("9+15 = 24")
-if num1 == 9 and sign == '+' and num2 == 16:
-    print("9+16 = 25")
-if num1 == 9 and sign == '+' and num2 == 17:
-    print("9+17 = 26")
-if num1 == 9 and sign == '+' and num2 == 18:
-    print("9+18 = 27")
-if num1 == 9 and sign == '+' and num2 == 19:
-    print("9+19 = 28")
-if num1 == 9 and sign == '+' and num2 == 20:
-    print("9+20 = 29")
-if num1 == 9 and sign == '+' and num2 == 21:
-    print("9+21 = 30")
-if num1 == 9 and sign == '+' and num2 == 22:
-    print("9+22 = 31")
-if num1 == 9 and sign == '+' and num2 == 23:
-    print("9+23 = 32")
-if num1 == 9 and sign == '+' and num2 == 24:
-    print("9+24 = 33")
-if num1 == 9 and sign == '+' and num2 == 25:
-    print("9+25 = 34")
-if num1 == 9 and sign == '+' and num2 == 26:
-    print("9+26 = 35")
-if num1 == 9 and sign == '+' and num2 == 27:
-    print("9+27 = 36")
-if num1 == 9 and sign == '+' and num2 == 28:
-    print("9+28 = 37")
-if num1 == 9 and sign == '+' and num2 == 29:
-    print("9+29 = 38")
-if num1 == 9 and sign == '+' and num2 == 30:
-    print("9+30 = 39")
-if num1 == 9 and sign == '+' and num2 == 31:
-    print("9+31 = 40")
-if num1 == 9 and sign == '+' and num2 == 32:
-    print("9+32 = 41")
-if num1 == 9 and sign == '+' and num2 == 33:
-    print("9+33 = 42")
-if num1 == 9 and sign == '+' and num2 == 34:
-    print("9+34 = 43")
-if num1 == 9 and sign == '+' and num2 == 35:
-    print("9+35 = 44")
-if num1 == 9 and sign == '+' and num2 == 36:
-    print("9+36 = 45")
-if num1 == 9 and sign == '+' and num2 == 37:
-    print("9+37 = 46")
-if num1 == 9 and sign == '+' and num2 == 38:
-    print("9+38 = 47")
-if num1 == 9 and sign == '+' and num2 == 39:
-    print("9+39 = 48")
-if num1 == 9 and sign == '+' and num2 == 40:
-    print("9+40 = 49")
-if num1 == 9 and sign == '+' and num2 == 41:
-    print("9+41 = 50")
-if num1 == 9 and sign == '+' and num2 == 42:
-    print("9+42 = 51")
-if num1 == 9 and sign == '+' and num2 == 43:
-    print("9+43 = 52")
-if num1 == 9 and sign == '+' and num2 == 44:
-    print("9+44 = 53")
-if num1 == 9 and sign == '+' and num2 == 45:
-    print("9+45 = 54")
-if num1 == 9 and sign == '+' and num2 == 46:
-    print("9+46 = 55")
-if num1 == 9 and sign == '+' and num2 == 47:
-    print("9+47 = 56")
-if num1 == 9 and sign == '+' and num2 == 48:
-    print("9+48 = 57")
-if num1 == 9 and sign == '+' and num2 == 49:
-    print("9+49 = 58")
-if num1 == 9 and sign == '+' and num2 == 50:
-    print("9+50 = 59")
-if num1 == 10 and sign == '+' and num2 == 0:
-    print("10+0 = 10")
-if num1 == 10 and sign == '+' and num2 == 1:
-    print("10+1 = 11")
-if num1 == 10 and sign == '+' and num2 == 2:
-    print("10+2 = 12")
-if num1 == 10 and sign == '+' and num2 == 3:
-    print("10+3 = 13")
-if num1 == 10 and sign == '+' and num2 == 4:
-    print("10+4 = 14")
-if num1 == 10 and sign == '+' and num2 == 5:
-    print("10+5 = 15")
-if num1 == 10 and sign == '+' and num2 == 6:
-    print("10+6 = 16")
-if num1 == 10 and sign == '+' and num2 == 7:
-    print("10+7 = 17")
-if num1 == 10 and sign == '+' and num2 == 8:
-    print("10+8 = 18")
-if num1 == 10 and sign == '+' and num2 == 9:
-    print("10+9 = 19")
-if num1 == 10 and sign == '+' and num2 == 10:
-    print("10+10 = 20")
-if num1 == 10 and sign == '+' and num2 == 11:
-    print("10+11 = 21")
-if num1 == 10 and sign == '+' and num2 == 12:
-    print("10+12 = 22")
-if num1 == 10 and sign == '+' and num2 == 13:
-    print("10+13 = 23")
-if num1 == 10 and sign == '+' and num2 == 14:
-    print("10+14 = 24")
-if num1 == 10 and sign == '+' and num2 == 15:
-    print("10+15 = 25")
-if num1 == 10 and sign == '+' and num2 == 16:
-    print("10+16 = 26")
-if num1 == 10 and sign == '+' and num2 == 17:
-    print("10+17 = 27")
-if num1 == 10 and sign == '+' and num2 == 18:
-    print("10+18 = 28")
-if num1 == 10 and sign == '+' and num2 == 19:
-    print("10+19 = 29")
-if num1 == 10 and sign == '+' and num2 == 20:
-    print("10+20 = 30")
-if num1 == 10 and sign == '+' and num2 == 21:
-    print("10+21 = 31")
-if num1 == 10 and sign == '+' and num2 == 22:
-    print("10+22 = 32")
-if num1 == 10 and sign == '+' and num2 == 23:
-    print("10+23 = 33")
-if num1 == 10 and sign == '+' and num2 == 24:
-    print("10+24 = 34")
-if num1 == 10 and sign == '+' and num2 == 25:
-    print("10+25 = 35")
-if num1 == 10 and sign == '+' and num2 == 26:
-    print("10+26 = 36")
-if num1 == 10 and sign == '+' and num2 == 27:
-    print("10+27 = 37")
-if num1 == 10 and sign == '+' and num2 == 28:
-    print("10+28 = 38")
-if num1 == 10 and sign == '+' and num2 == 29:
-    print("10+29 = 39")
-if num1 == 10 and sign == '+' and num2 == 30:
-    print("10+30 = 40")
-if num1 == 10 and sign == '+' and num2 == 31:
-    print("10+31 = 41")
-if num1 == 10 and sign == '+' and num2 == 32:
-    print("10+32 = 42")
-if num1 == 10 and sign == '+' and num2 == 33:
-    print("10+33 = 43")
-if num1 == 10 and sign == '+' and num2 == 34:
-    print("10+34 = 44")
-if num1 == 10 and sign == '+' and num2 == 35:
-    print("10+35 = 45")
-if num1 == 10 and sign == '+' and num2 == 36:
-    print("10+36 = 46")
-if num1 == 10 and sign == '+' and num2 == 37:
-    print("10+37 = 47")
-if num1 == 10 and sign == '+' and num2 == 38:
-    print("10+38 = 48")
-if num1 == 10 and sign == '+' and num2 == 39:
-    print("10+39 = 49")
-if num1 == 10 and sign == '+' and num2 == 40:
-    print("10+40 = 50")
-if num1 == 10 and sign == '+' and num2 == 41:
-    print("10+41 = 51")
-if num1 == 10 and sign == '+' and num2 == 42:
-    print("10+42 = 52")
-if num1 == 10 and sign == '+' and num2 == 43:
-    print("10+43 = 53")
-if num1 == 10 and sign == '+' and num2 == 44:
-    print("10+44 = 54")
-if num1 == 10 and sign == '+' and num2 == 45:
-    print("10+45 = 55")
-if num1 == 10 and sign == '+' and num2 == 46:
-    print("10+46 = 56")
-if num1 == 10 and sign == '+' and num2 == 47:
-    print("10+47 = 57")
-if num1 == 10 and sign == '+' and num2 == 48:
-    print("10+48 = 58")
-if num1 == 10 and sign == '+' and num2 == 49:
-    print("10+49 = 59")
-if num1 == 10 and sign == '+' and num2 == 50:
-    print("10+50 = 60")
-if num1 == 11 and sign == '+' and num2 == 0:
-    print("11+0 = 11")
-if num1 == 11 and sign == '+' and num2 == 1:
-    print("11+1 = 12")
-if num1 == 11 and sign == '+' and num2 == 2:
-    print("11+2 = 13")
-if num1 == 11 and sign == '+' and num2 == 3:
-    print("11+3 = 14")
-if num1 == 11 and sign == '+' and num2 == 4:
-    print("11+4 = 15")
-if num1 == 11 and sign == '+' and num2 == 5:
-    print("11+5 = 16")
-if num1 == 11 and sign == '+' and num2 == 6:
-    print("11+6 = 17")
-if num1 == 11 and sign == '+' and num2 == 7:
-    print("11+7 = 18")
-if num1 == 11 and sign == '+' and num2 == 8:
-    print("11+8 = 19")
-if num1 == 11 and sign == '+' and num2 == 9:
-    print("11+9 = 20")
-if num1 == 11 and sign == '+' and num2 == 10:
-    print("11+10 = 21")
-if num1 == 11 and sign == '+' and num2 == 11:
-    print("11+11 = 22")
-if num1 == 11 and sign == '+' and num2 == 12:
-    print("11+12 = 23")
-if num1 == 11 and sign == '+' and num2 == 13:
-    print("11+13 = 24")
-if num1 == 11 and sign == '+' and num2 == 14:
-    print("11+14 = 25")
-if num1 == 11 and sign == '+' and num2 == 15:
-    print("11+15 = 26")
-if num1 == 11 and sign == '+' and num2 == 16:
-    print("11+16 = 27")
-if num1 == 11 and sign == '+' and num2 == 17:
-    print("11+17 = 28")
-if num1 == 11 and sign == '+' and num2 == 18:
-    print("11+18 = 29")
-if num1 == 11 and sign == '+' and num2 == 19:
-    print("11+19 = 30")
-if num1 == 11 and sign == '+' and num2 == 20:
-    print("11+20 = 31")
-if num1 == 11 and sign == '+' and num2 == 21:
-    print("11+21 = 32")
-if num1 == 11 and sign == '+' and num2 == 22:
-    print("11+22 = 33")
-if num1 == 11 and sign == '+' and num2 == 23:
-    print("11+23 = 34")
-if num1 == 11 and sign == '+' and num2 == 24:
-    print("11+24 = 35")
-if num1 == 11 and sign == '+' and num2 == 25:
-    print("11+25 = 36")
-if num1 == 11 and sign == '+' and num2 == 26:
-    print("11+26 = 37")
-if num1 == 11 and sign == '+' and num2 == 27:
-    print("11+27 = 38")
-if num1 == 11 and sign == '+' and num2 == 28:
-    print("11+28 = 39")
-if num1 == 11 and sign == '+' and num2 == 29:
-    print("11+29 = 40")
-if num1 == 11 and sign == '+' and num2 == 30:
-    print("11+30 = 41")
-if num1 == 11 and sign == '+' and num2 == 31:
-    print("11+31 = 42")
-if num1 == 11 and sign == '+' and num2 == 32:
-    print("11+32 = 43")
-if num1 == 11 and sign == '+' and num2 == 33:
-    print("11+33 = 44")
-if num1 == 11 and sign == '+' and num2 == 34:
-    print("11+34 = 45")
-if num1 == 11 and sign == '+' and num2 == 35:
-    print("11+35 = 46")
-if num1 == 11 and sign == '+' and num2 == 36:
-    print("11+36 = 47")
-if num1 == 11 and sign == '+' and num2 == 37:
-    print("11+37 = 48")
-if num1 == 11 and sign == '+' and num2 == 38:
-    print("11+38 = 49")
-if num1 == 11 and sign == '+' and num2 == 39:
-    print("11+39 = 50")
-if num1 == 11 and sign == '+' and num2 == 40:
-    print("11+40 = 51")
-if num1 == 11 and sign == '+' and num2 == 41:
-    print("11+41 = 52")
-if num1 == 11 and sign == '+' and num2 == 42:
-    print("11+42 = 53")
-if num1 == 11 and sign == '+' and num2 == 43:
-    print("11+43 = 54")
-if num1 == 11 and sign == '+' and num2 == 44:
-    print("11+44 = 55")
-if num1 == 11 and sign == '+' and num2 == 45:
-    print("11+45 = 56")
-if num1 == 11 and sign == '+' and num2 == 46:
-    print("11+46 = 57")
-if num1 == 11 and sign == '+' and num2 == 47:
-    print("11+47 = 58")
-if num1 == 11 and sign == '+' and num2 == 48:
-    print("11+48 = 59")
-if num1 == 11 and sign == '+' and num2 == 49:
-    print("11+49 = 60")
-if num1 == 11 and sign == '+' and num2 == 50:
-    print("11+50 = 61")
-if num1 == 12 and sign == '+' and num2 == 0:
-    print("12+0 = 12")
-if num1 == 12 and sign == '+' and num2 == 1:
-    print("12+1 = 13")
-if num1 == 12 and sign == '+' and num2 == 2:
-    print("12+2 = 14")
-if num1 == 12 and sign == '+' and num2 == 3:
-    print("12+3 = 15")
-if num1 == 12 and sign == '+' and num2 == 4:
-    print("12+4 = 16")
-if num1 == 12 and sign == '+' and num2 == 5:
-    print("12+5 = 17")
-if num1 == 12 and sign == '+' and num2 == 6:
-    print("12+6 = 18")
-if num1 == 12 and sign == '+' and num2 == 7:
-    print("12+7 = 19")
-if num1 == 12 and sign == '+' and num2 == 8:
-    print("12+8 = 20")
-if num1 == 12 and sign == '+' and num2 == 9:
-    print("12+9 = 21")
-if num1 == 12 and sign == '+' and num2 == 10:
-    print("12+10 = 22")
-if num1 == 12 and sign == '+' and num2 == 11:
-    print("12+11 = 23")
-if num1 == 12 and sign == '+' and num2 == 12:
-    print("12+12 = 24")
-if num1 == 12 and sign == '+' and num2 == 13:
-    print("12+13 = 25")
-if num1 == 12 and sign == '+' and num2 == 14:
-    print("12+14 = 26")
-if num1 == 12 and sign == '+' and num2 == 15:
-    print("12+15 = 27")
-if num1 == 12 and sign == '+' and num2 == 16:
-    print("12+16 = 28")
-if num1 == 12 and sign == '+' and num2 == 17:
-    print("12+17 = 29")
-if num1 == 12 and sign == '+' and num2 == 18:
-    print("12+18 = 30")
-if num1 == 12 and sign == '+' and num2 == 19:
-    print("12+19 = 31")
-if num1 == 12 and sign == '+' and num2 == 20:
-    print("12+20 = 32")
-if num1 == 12 and sign == '+' and num2 == 21:
-    print("12+21 = 33")
-if num1 == 12 and sign == '+' and num2 == 22:
-    print("12+22 = 34")
-if num1 == 12 and sign == '+' and num2 == 23:
-    print("12+23 = 35")
-if num1 == 12 and sign == '+' and num2 == 24:
-    print("12+24 = 36")
-if num1 == 12 and sign == '+' and num2 == 25:
-    print("12+25 = 37")
-if num1 == 12 and sign == '+' and num2 == 26:
-    print("12+26 = 38")
-if num1 == 12 and sign == '+' and num2 == 27:
-    print("12+27 = 39")
-if num1 == 12 and sign == '+' and num2 == 28:
-    print("12+28 = 40")
-if num1 == 12 and sign == '+' and num2 == 29:
-    print("12+29 = 41")
-if num1 == 12 and sign == '+' and num2 == 30:
-    print("12+30 = 42")
-if num1 == 12 and sign == '+' and num2 == 31:
-    print("12+31 = 43")
-if num1 == 12 and sign == '+' and num2 == 32:
-    print("12+32 = 44")
-if num1 == 12 and sign == '+' and num2 == 33:
-    print("12+33 = 45")
-if num1 == 12 and sign == '+' and num2 == 34:
-    print("12+34 = 46")
-if num1 == 12 and sign == '+' and num2 == 35:
-    print("12+35 = 47")
-if num1 == 12 and sign == '+' and num2 == 36:
-    print("12+36 = 48")
-if num1 == 12 and sign == '+' and num2 == 37:
-    print("12+37 = 49")
-if num1 == 12 and sign == '+' and num2 == 38:
-    print("12+38 = 50")
-if num1 == 12 and sign == '+' and num2 == 39:
-    print("12+39 = 51")
-if num1 == 12 and sign == '+' and num2 == 40:
-    print("12+40 = 52")
-if num1 == 12 and sign == '+' and num2 == 41:
-    print("12+41 = 53")
-if num1 == 12 and sign == '+' and num2 == 42:
-    print("12+42 = 54")
-if num1 == 12 and sign == '+' and num2 == 43:
-    print("12+43 = 55")
-if num1 == 12 and sign == '+' and num2 == 44:
-    print("12+44 = 56")
-if num1 == 12 and sign == '+' and num2 == 45:
-    print("12+45 = 57")
-if num1 == 12 and sign == '+' and num2 == 46:
-    print("12+46 = 58")
-if num1 == 12 and sign == '+' and num2 == 47:
-    print("12+47 = 59")
-if num1 == 12 and sign == '+' and num2 == 48:
-    print("12+48 = 60")
-if num1 == 12 and sign == '+' and num2 == 49:
-    print("12+49 = 61")
-if num1 == 12 and sign == '+' and num2 == 50:
-    print("12+50 = 62")
-if num1 == 13 and sign == '+' and num2 == 0:
-    print("13+0 = 13")
-if num1 == 13 and sign == '+' and num2 == 1:
-    print("13+1 = 14")
-if num1 == 13 and sign == '+' and num2 == 2:
-    print("13+2 = 15")
-if num1 == 13 and sign == '+' and num2 == 3:
-    print("13+3 = 16")
-if num1 == 13 and sign == '+' and num2 == 4:
-    print("13+4 = 17")
-if num1 == 13 and sign == '+' and num2 == 5:
-    print("13+5 = 18")
-if num1 == 13 and sign == '+' and num2 == 6:
-    print("13+6 = 19")
-if num1 == 13 and sign == '+' and num2 == 7:
-    print("13+7 = 20")
-if num1 == 13 and sign == '+' and num2 == 8:
-    print("13+8 = 21")
-if num1 == 13 and sign == '+' and num2 == 9:
-    print("13+9 = 22")
-if num1 == 13 and sign == '+' and num2 == 10:
-    print("13+10 = 23")
-if num1 == 13 and sign == '+' and num2 == 11:
-    print("13+11 = 24")
-if num1 == 13 and sign == '+' and num2 == 12:
-    print("13+12 = 25")
-if num1 == 13 and sign == '+' and num2 == 13:
-    print("13+13 = 26")
-if num1 == 13 and sign == '+' and num2 == 14:
-    print("13+14 = 27")
-if num1 == 13 and sign == '+' and num2 == 15:
-    print("13+15 = 28")
-if num1 == 13 and sign == '+' and num2 == 16:
-    print("13+16 = 29")
-if num1 == 13 and sign == '+' and num2 == 17:
-    print("13+17 = 30")
-if num1 == 13 and sign == '+' and num2 == 18:
-    print("13+18 = 31")
-if num1 == 13 and sign == '+' and num2 == 19:
-    print("13+19 = 32")
-if num1 == 13 and sign == '+' and num2 == 20:
-    print("13+20 = 33")
-if num1 == 13 and sign == '+' and num2 == 21:
-    print("13+21 = 34")
-if num1 == 13 and sign == '+' and num2 == 22:
-    print("13+22 = 35")
-if num1 == 13 and sign == '+' and num2 == 23:
-    print("13+23 = 36")
-if num1 == 13 and sign == '+' and num2 == 24:
-    print("13+24 = 37")
-if num1 == 13 and sign == '+' and num2 == 25:
-    print("13+25 = 38")
-if num1 == 13 and sign == '+' and num2 == 26:
-    print("13+26 = 39")
-if num1 == 13 and sign == '+' and num2 == 27:
-    print("13+27 = 40")
-if num1 == 13 and sign == '+' and num2 == 28:
-    print("13+28 = 41")
-if num1 == 13 and sign == '+' and num2 == 29:
-    print("13+29 = 42")
-if num1 == 13 and sign == '+' and num2 == 30:
-    print("13+30 = 43")
-if num1 == 13 and sign == '+' and num2 == 31:
-    print("13+31 = 44")
-if num1 == 13 and sign == '+' and num2 == 32:
-    print("13+32 = 45")
-if num1 == 13 and sign == '+' and num2 == 33:
-    print("13+33 = 46")
-if num1 == 13 and sign == '+' and num2 == 34:
-    print("13+34 = 47")
-if num1 == 13 and sign == '+' and num2 == 35:
-    print("13+35 = 48")
-if num1 == 13 and sign == '+' and num2 == 36:
-    print("13+36 = 49")
-if num1 == 13 and sign == '+' and num2 == 37:
-    print("13+37 = 50")
-if num1 == 13 and sign == '+' and num2 == 38:
-    print("13+38 = 51")
-if num1 == 13 and sign == '+' and num2 == 39:
-    print("13+39 = 52")
-if num1 == 13 and sign == '+' and num2 == 40:
-    print("13+40 = 53")
-if num1 == 13 and sign == '+' and num2 == 41:
-    print("13+41 = 54")
-if num1 == 13 and sign == '+' and num2 == 42:
-    print("13+42 = 55")
-if num1 == 13 and sign == '+' and num2 == 43:
-    print("13+43 = 56")
-if num1 == 13 and sign == '+' and num2 == 44:
-    print("13+44 = 57")
-if num1 == 13 and sign == '+' and num2 == 45:
-    print("13+45 = 58")
-if num1 == 13 and sign == '+' and num2 == 46:
-    print("13+46 = 59")
-if num1 == 13 and sign == '+' and num2 == 47:
-    print("13+47 = 60")
-if num1 == 13 and sign == '+' and num2 == 48:
-    print("13+48 = 61")
-if num1 == 13 and sign == '+' and num2 == 49:
-    print("13+49 = 62")
-if num1 == 13 and sign == '+' and num2 == 50:
-    print("13+50 = 63")
-if num1 == 14 and sign == '+' and num2 == 0:
-    print("14+0 = 14")
-if num1 == 14 and sign == '+' and num2 == 1:
-    print("14+1 = 15")
-if num1 == 14 and sign == '+' and num2 == 2:
-    print("14+2 = 16")
-if num1 == 14 and sign == '+' and num2 == 3:
-    print("14+3 = 17")
-if num1 == 14 and sign == '+' and num2 == 4:
-    print("14+4 = 18")
-if num1 == 14 and sign == '+' and num2 == 5:
-    print("14+5 = 19")
-if num1 == 14 and sign == '+' and num2 == 6:
-    print("14+6 = 20")
-if num1 == 14 and sign == '+' and num2 == 7:
-    print("14+7 = 21")
-if num1 == 14 and sign == '+' and num2 == 8:
-    print("14+8 = 22")
-if num1 == 14 and sign == '+' and num2 == 9:
-    print("14+9 = 23")
-if num1 == 14 and sign == '+' and num2 == 10:
-    print("14+10 = 24")
-if num1 == 14 and sign == '+' and num2 == 11:
-    print("14+11 = 25")
-if num1 == 14 and sign == '+' and num2 == 12:
-    print("14+12 = 26")
-if num1 == 14 and sign == '+' and num2 == 13:
-    print("14+13 = 27")
-if num1 == 14 and sign == '+' and num2 == 14:
-    print("14+14 = 28")
-if num1 == 14 and sign == '+' and num2 == 15:
-    print("14+15 = 29")
-if num1 == 14 and sign == '+' and num2 == 16:
-    print("14+16 = 30")
-if num1 == 14 and sign == '+' and num2 == 17:
-    print("14+17 = 31")
-if num1 == 14 and sign == '+' and num2 == 18:
-    print("14+18 = 32")
-if num1 == 14 and sign == '+' and num2 == 19:
-    print("14+19 = 33")
-if num1 == 14 and sign == '+' and num2 == 20:
-    print("14+20 = 34")
-if num1 == 14 and sign == '+' and num2 == 21:
-    print("14+21 = 35")
-if num1 == 14 and sign == '+' and num2 == 22:
-    print("14+22 = 36")
-if num1 == 14 and sign == '+' and num2 == 23:
-    print("14+23 = 37")
-if num1 == 14 and sign == '+' and num2 == 24:
-    print("14+24 = 38")
-if num1 == 14 and sign == '+' and num2 == 25:
-    print("14+25 = 39")
-if num1 == 14 and sign == '+' and num2 == 26:
-    print("14+26 = 40")
-if num1 == 14 and sign == '+' and num2 == 27:
-    print("14+27 = 41")
-if num1 == 14 and sign == '+' and num2 == 28:
-    print("14+28 = 42")
-if num1 == 14 and sign == '+' and num2 == 29:
-    print("14+29 = 43")
-if num1 == 14 and sign == '+' and num2 == 30:
-    print("14+30 = 44")
-if num1 == 14 and sign == '+' and num2 == 31:
-    print("14+31 = 45")
-if num1 == 14 and sign == '+' and num2 == 32:
-    print("14+32 = 46")
-if num1 == 14 and sign == '+' and num2 == 33:
-    print("14+33 = 47")
-if num1 == 14 and sign == '+' and num2 == 34:
-    print("14+34 = 48")
-if num1 == 14 and sign == '+' and num2 == 35:
-    print("14+35 = 49")
-if num1 == 14 and sign == '+' and num2 == 36:
-    print("14+36 = 50")
-if num1 == 14 and sign == '+' and num2 == 37:
-    print("14+37 = 51")
-if num1 == 14 and sign == '+' and num2 == 38:
-    print("14+38 = 52")
-if num1 == 14 and sign == '+' and num2 == 39:
-    print("14+39 = 53")
-if num1 == 14 and sign == '+' and num2 == 40:
-    print("14+40 = 54")
-if num1 == 14 and sign == '+' and num2 == 41:
-    print("14+41 = 55")
-if num1 == 14 and sign == '+' and num2 == 42:
-    print("14+42 = 56")
-if num1 == 14 and sign == '+' and num2 == 43:
-    print("14+43 = 57")
-if num1 == 14 and sign == '+' and num2 == 44:
-    print("14+44 = 58")
-if num1 == 14 and sign == '+' and num2 == 45:
-    print("14+45 = 59")
-if num1 == 14 and sign == '+' and num2 == 46:
-    print("14+46 = 60")
-if num1 == 14 and sign == '+' and num2 == 47:
-    print("14+47 = 61")
-if num1 == 14 and sign == '+' and num2 == 48:
-    print("14+48 = 62")
-if num1 == 14 and sign == '+' and num2 == 49:
-    print("14+49 = 63")
-if num1 == 14 and sign == '+' and num2 == 50:
-    print("14+50 = 64")
-if num1 == 15 and sign == '+' and num2 == 0:
-    print("15+0 = 15")
-if num1 == 15 and sign == '+' and num2 == 1:
-    print("15+1 = 16")
-if num1 == 15 and sign == '+' and num2 == 2:
-    print("15+2 = 17")
-if num1 == 15 and sign == '+' and num2 == 3:
-    print("15+3 = 18")
-if num1 == 15 and sign == '+' and num2 == 4:
-    print("15+4 = 19")
-if num1 == 15 and sign == '+' and num2 == 5:
-    print("15+5 = 20")
-if num1 == 15 and sign == '+' and num2 == 6:
-    print("15+6 = 21")
-if num1 == 15 and sign == '+' and num2 == 7:
-    print("15+7 = 22")
-if num1 == 15 and sign == '+' and num2 == 8:
-    print("15+8 = 23")
-if num1 == 15 and sign == '+' and num2 == 9:
-    print("15+9 = 24")
-if num1 == 15 and sign == '+' and num2 == 10:
-    print("15+10 = 25")
-if num1 == 15 and sign == '+' and num2 == 11:
-    print("15+11 = 26")
-if num1 == 15 and sign == '+' and num2 == 12:
-    print("15+12 = 27")
-if num1 == 15 and sign == '+' and num2 == 13:
-    print("15+13 = 28")
-if num1 == 15 and sign == '+' and num2 == 14:
-    print("15+14 = 29")
-if num1 == 15 and sign == '+' and num2 == 15:
-    print("15+15 = 30")
-if num1 == 15 and sign == '+' and num2 == 16:
-    print("15+16 = 31")
-if num1 == 15 and sign == '+' and num2 == 17:
-    print("15+17 = 32")
-if num1 == 15 and sign == '+' and num2 == 18:
-    print("15+18 = 33")
-if num1 == 15 and sign == '+' and num2 == 19:
-    print("15+19 = 34")
-if num1 == 15 and sign == '+' and num2 == 20:
-    print("15+20 = 35")
-if num1 == 15 and sign == '+' and num2 == 21:
-    print("15+21 = 36")
-if num1 == 15 and sign == '+' and num2 == 22:
-    print("15+22 = 37")
-if num1 == 15 and sign == '+' and num2 == 23:
-    print("15+23 = 38")
-if num1 == 15 and sign == '+' and num2 == 24:
-    print("15+24 = 39")
-if num1 == 15 and sign == '+' and num2 == 25:
-    print("15+25 = 40")
-if num1 == 15 and sign == '+' and num2 == 26:
-    print("15+26 = 41")
-if num1 == 15 and sign == '+' and num2 == 27:
-    print("15+27 = 42")
-if num1 == 15 and sign == '+' and num2 == 28:
-    print("15+28 = 43")
-if num1 == 15 and sign == '+' and num2 == 29:
-    print("15+29 = 44")
-if num1 == 15 and sign == '+' and num2 == 30:
-    print("15+30 = 45")
-if num1 == 15 and sign == '+' and num2 == 31:
-    print("15+31 = 46")
-if num1 == 15 and sign == '+' and num2 == 32:
-    print("15+32 = 47")
-if num1 == 15 and sign == '+' and num2 == 33:
-    print("15+33 = 48")
-if num1 == 15 and sign == '+' and num2 == 34:
-    print("15+34 = 49")
-if num1 == 15 and sign == '+' and num2 == 35:
-    print("15+35 = 50")
-if num1 == 15 and sign == '+' and num2 == 36:
-    print("15+36 = 51")
-if num1 == 15 and sign == '+' and num2 == 37:
-    print("15+37 = 52")
-if num1 == 15 and sign == '+' and num2 == 38:
-    print("15+38 = 53")
-if num1 == 15 and sign == '+' and num2 == 39:
-    print("15+39 = 54")
-if num1 == 15 and sign == '+' and num2 == 40:
-    print("15+40 = 55")
-if num1 == 15 and sign == '+' and num2 == 41:
-    print("15+41 = 56")
-if num1 == 15 and sign == '+' and num2 == 42:
-    print("15+42 = 57")
-if num1 == 15 and sign == '+' and num2 == 43:
-    print("15+43 = 58")
-if num1 == 15 and sign == '+' and num2 == 44:
-    print("15+44 = 59")
-if num1 == 15 and sign == '+' and num2 == 45:
-    print("15+45 = 60")
-if num1 == 15 and sign == '+' and num2 == 46:
-    print("15+46 = 61")
-if num1 == 15 and sign == '+' and num2 == 47:
-    print("15+47 = 62")
-if num1 == 15 and sign == '+' and num2 == 48:
-    print("15+48 = 63")
-if num1 == 15 and sign == '+' and num2 == 49:
-    print("15+49 = 64")
-if num1 == 15 and sign == '+' and num2 == 50:
-    print("15+50 = 65")
-if num1 == 16 and sign == '+' and num2 == 0:
-    print("16+0 = 16")
-if num1 == 16 and sign == '+' and num2 == 1:
-    print("16+1 = 17")
-if num1 == 16 and sign == '+' and num2 == 2:
-    print("16+2 = 18")
-if num1 == 16 and sign == '+' and num2 == 3:
-    print("16+3 = 19")
-if num1 == 16 and sign == '+' and num2 == 4:
-    print("16+4 = 20")
-if num1 == 16 and sign == '+' and num2 == 5:
-    print("16+5 = 21")
-if num1 == 16 and sign == '+' and num2 == 6:
-    print("16+6 = 22")
-if num1 == 16 and sign == '+' and num2 == 7:
-    print("16+7 = 23")
-if num1 == 16 and sign == '+' and num2 == 8:
-    print("16+8 = 24")
-if num1 == 16 and sign == '+' and num2 == 9:
-    print("16+9 = 25")
-if num1 == 16 and sign == '+' and num2 == 10:
-    print("16+10 = 26")
-if num1 == 16 and sign == '+' and num2 == 11:
-    print("16+11 = 27")
-if num1 == 16 and sign == '+' and num2 == 12:
-    print("16+12 = 28")
-if num1 == 16 and sign == '+' and num2 == 13:
-    print("16+13 = 29")
-if num1 == 16 and sign == '+' and num2 == 14:
-    print("16+14 = 30")
-if num1 == 16 and sign == '+' and num2 == 15:
-    print("16+15 = 31")
-if num1 == 16 and sign == '+' and num2 == 16:
-    print("16+16 = 32")
-if num1 == 16 and sign == '+' and num2 == 17:
-    print("16+17 = 33")
-if num1 == 16 and sign == '+' and num2 == 18:
-    print("16+18 = 34")
-if num1 == 16 and sign == '+' and num2 == 19:
-    print("16+19 = 35")
-if num1 == 16 and sign == '+' and num2 == 20:
-    print("16+20 = 36")
-if num1 == 16 and sign == '+' and num2 == 21:
-    print("16+21 = 37")
-if num1 == 16 and sign == '+' and num2 == 22:
-    print("16+22 = 38")
-if num1 == 16 and sign == '+' and num2 == 23:
-    print("16+23 = 39")
-if num1 == 16 and sign == '+' and num2 == 24:
-    print("16+24 = 40")
-if num1 == 16 and sign == '+' and num2 == 25:
-    print("16+25 = 41")
-if num1 == 16 and sign == '+' and num2 == 26:
-    print("16+26 = 42")
-if num1 == 16 and sign == '+' and num2 == 27:
-    print("16+27 = 43")
-if num1 == 16 and sign == '+' and num2 == 28:
-    print("16+28 = 44")
-if num1 == 16 and sign == '+' and num2 == 29:
-    print("16+29 = 45")
-if num1 == 16 and sign == '+' and num2 == 30:
-    print("16+30 = 46")
-if num1 == 16 and sign == '+' and num2 == 31:
-    print("16+31 = 47")
-if num1 == 16 and sign == '+' and num2 == 32:
-    print("16+32 = 48")
-if num1 == 16 and sign == '+' and num2 == 33:
-    print("16+33 = 49")
-if num1 == 16 and sign == '+' and num2 == 34:
-    print("16+34 = 50")
-if num1 == 16 and sign == '+' and num2 == 35:
-    print("16+35 = 51")
-if num1 == 16 and sign == '+' and num2 == 36:
-    print("16+36 = 52")
-if num1 == 16 and sign == '+' and num2 == 37:
-    print("16+37 = 53")
-if num1 == 16 and sign == '+' and num2 == 38:
-    print("16+38 = 54")
-if num1 == 16 and sign == '+' and num2 == 39:
-    print("16+39 = 55")
-if num1 == 16 and sign == '+' and num2 == 40:
-    print("16+40 = 56")
-if num1 == 16 and sign == '+' and num2 == 41:
-    print("16+41 = 57")
-if num1 == 16 and sign == '+' and num2 == 42:
-    print("16+42 = 58")
-if num1 == 16 and sign == '+' and num2 == 43:
-    print("16+43 = 59")
-if num1 == 16 and sign == '+' and num2 == 44:
-    print("16+44 = 60")
-if num1 == 16 and sign == '+' and num2 == 45:
-    print("16+45 = 61")
-if num1 == 16 and sign == '+' and num2 == 46:
-    print("16+46 = 62")
-if num1 == 16 and sign == '+' and num2 == 47:
-    print("16+47 = 63")
-if num1 == 16 and sign == '+' and num2 == 48:
-    print("16+48 = 64")
-if num1 == 16 and sign == '+' and num2 == 49:
-    print("16+49 = 65")
-if num1 == 16 and sign == '+' and num2 == 50:
-    print("16+50 = 66")
-if num1 == 17 and sign == '+' and num2 == 0:
-    print("17+0 = 17")
-if num1 == 17 and sign == '+' and num2 == 1:
-    print("17+1 = 18")
-if num1 == 17 and sign == '+' and num2 == 2:
-    print("17+2 = 19")
-if num1 == 17 and sign == '+' and num2 == 3:
-    print("17+3 = 20")
-if num1 == 17 and sign == '+' and num2 == 4:
-    print("17+4 = 21")
-if num1 == 17 and sign == '+' and num2 == 5:
-    print("17+5 = 22")
-if num1 == 17 and sign == '+' and num2 == 6:
-    print("17+6 = 23")
-if num1 == 17 and sign == '+' and num2 == 7:
-    print("17+7 = 24")
-if num1 == 17 and sign == '+' and num2 == 8:
-    print("17+8 = 25")
-if num1 == 17 and sign == '+' and num2 == 9:
-    print("17+9 = 26")
-if num1 == 17 and sign == '+' and num2 == 10:
-    print("17+10 = 27")
-if num1 == 17 and sign == '+' and num2 == 11:
-    print("17+11 = 28")
-if num1 == 17 and sign == '+' and num2 == 12:
-    print("17+12 = 29")
-if num1 == 17 and sign == '+' and num2 == 13:
-    print("17+13 = 30")
-if num1 == 17 and sign == '+' and num2 == 14:
-    print("17+14 = 31")
-if num1 == 17 and sign == '+' and num2 == 15:
-    print("17+15 = 32")
-if num1 == 17 and sign == '+' and num2 == 16:
-    print("17+16 = 33")
-if num1 == 17 and sign == '+' and num2 == 17:
-    print("17+17 = 34")
-if num1 == 17 and sign == '+' and num2 == 18:
-    print("17+18 = 35")
-if num1 == 17 and sign == '+' and num2 == 19:
-    print("17+19 = 36")
-if num1 == 17 and sign == '+' and num2 == 20:
-    print("17+20 = 37")
-if num1 == 17 and sign == '+' and num2 == 21:
-    print("17+21 = 38")
-if num1 == 17 and sign == '+' and num2 == 22:
-    print("17+22 = 39")
-if num1 == 17 and sign == '+' and num2 == 23:
-    print("17+23 = 40")
-if num1 == 17 and sign == '+' and num2 == 24:
-    print("17+24 = 41")
-if num1 == 17 and sign == '+' and num2 == 25:
-    print("17+25 = 42")
-if num1 == 17 and sign == '+' and num2 == 26:
-    print("17+26 = 43")
-if num1 == 17 and sign == '+' and num2 == 27:
-    print("17+27 = 44")
-if num1 == 17 and sign == '+' and num2 == 28:
-    print("17+28 = 45")
-if num1 == 17 and sign == '+' and num2 == 29:
-    print("17+29 = 46")
-if num1 == 17 and sign == '+' and num2 == 30:
-    print("17+30 = 47")
-if num1 == 17 and sign == '+' and num2 == 31:
-    print("17+31 = 48")
-if num1 == 17 and sign == '+' and num2 == 32:
-    print("17+32 = 49")
-if num1 == 17 and sign == '+' and num2 == 33:
-    print("17+33 = 50")
-if num1 == 17 and sign == '+' and num2 == 34:
-    print("17+34 = 51")
-if num1 == 17 and sign == '+' and num2 == 35:
-    print("17+35 = 52")
-if num1 == 17 and sign == '+' and num2 == 36:
-    print("17+36 = 53")
-if num1 == 17 and sign == '+' and num2 == 37:
-    print("17+37 = 54")
-if num1 == 17 and sign == '+' and num2 == 38:
-    print("17+38 = 55")
-if num1 == 17 and sign == '+' and num2 == 39:
-    print("17+39 = 56")
-if num1 == 17 and sign == '+' and num2 == 40:
-    print("17+40 = 57")
-if num1 == 17 and sign == '+' and num2 == 41:
-    print("17+41 = 58")
-if num1 == 17 and sign == '+' and num2 == 42:
-    print("17+42 = 59")
-if num1 == 17 and sign == '+' and num2 == 43:
-    print("17+43 = 60")
-if num1 == 17 and sign == '+' and num2 == 44:
-    print("17+44 = 61")
-if num1 == 17 and sign == '+' and num2 == 45:
-    print("17+45 = 62")
-if num1 == 17 and sign == '+' and num2 == 46:
-    print("17+46 = 63")
-if num1 == 17 and sign == '+' and num2 == 47:
-    print("17+47 = 64")
-if num1 == 17 and sign == '+' and num2 == 48:
-    print("17+48 = 65")
-if num1 == 17 and sign == '+' and num2 == 49:
-    print("17+49 = 66")
-if num1 == 17 and sign == '+' and num2 == 50:
-    print("17+50 = 67")
-if num1 == 18 and sign == '+' and num2 == 0:
-    print("18+0 = 18")
-if num1 == 18 and sign == '+' and num2 == 1:
-    print("18+1 = 19")
-if num1 == 18 and sign == '+' and num2 == 2:
-    print("18+2 = 20")
-if num1 == 18 and sign == '+' and num2 == 3:
-    print("18+3 = 21")
-if num1 == 18 and sign == '+' and num2 == 4:
-    print("18+4 = 22")
-if num1 == 18 and sign == '+' and num2 == 5:
-    print("18+5 = 23")
-if num1 == 18 and sign == '+' and num2 == 6:
-    print("18+6 = 24")
-if num1 == 18 and sign == '+' and num2 == 7:
-    print("18+7 = 25")
-if num1 == 18 and sign == '+' and num2 == 8:
-    print("18+8 = 26")
-if num1 == 18 and sign == '+' and num2 == 9:
-    print("18+9 = 27")
-if num1 == 18 and sign == '+' and num2 == 10:
-    print("18+10 = 28")
-if num1 == 18 and sign == '+' and num2 == 11:
-    print("18+11 = 29")
-if num1 == 18 and sign == '+' and num2 == 12:
-    print("18+12 = 30")
-if num1 == 18 and sign == '+' and num2 == 13:
-    print("18+13 = 31")
-if num1 == 18 and sign == '+' and num2 == 14:
-    print("18+14 = 32")
-if num1 == 18 and sign == '+' and num2 == 15:
-    print("18+15 = 33")
-if num1 == 18 and sign == '+' and num2 == 16:
-    print("18+16 = 34")
-if num1 == 18 and sign == '+' and num2 == 17:
-    print("18+17 = 35")
-if num1 == 18 and sign == '+' and num2 == 18:
-    print("18+18 = 36")
-if num1 == 18 and sign == '+' and num2 == 19:
-    print("18+19 = 37")
-if num1 == 18 and sign == '+' and num2 == 20:
-    print("18+20 = 38")
-if num1 == 18 and sign == '+' and num2 == 21:
-    print("18+21 = 39")
-if num1 == 18 and sign == '+' and num2 == 22:
-    print("18+22 = 40")
-if num1 == 18 and sign == '+' and num2 == 23:
-    print("18+23 = 41")
-if num1 == 18 and sign == '+' and num2 == 24:
-    print("18+24 = 42")
-if num1 == 18 and sign == '+' and num2 == 25:
-    print("18+25 = 43")
-if num1 == 18 and sign == '+' and num2 == 26:
-    print("18+26 = 44")
-if num1 == 18 and sign == '+' and num2 == 27:
-    print("18+27 = 45")
-if num1 == 18 and sign == '+' and num2 == 28:
-    print("18+28 = 46")
-if num1 == 18 and sign == '+' and num2 == 29:
-    print("18+29 = 47")
-if num1 == 18 and sign == '+' and num2 == 30:
-    print("18+30 = 48")
-if num1 == 18 and sign == '+' and num2 == 31:
-    print("18+31 = 49")
-if num1 == 18 and sign == '+' and num2 == 32:
-    print("18+32 = 50")
-if num1 == 18 and sign == '+' and num2 == 33:
-    print("18+33 = 51")
-if num1 == 18 and sign == '+' and num2 == 34:
-    print("18+34 = 52")
-if num1 == 18 and sign == '+' and num2 == 35:
-    print("18+35 = 53")
-if num1 == 18 and sign == '+' and num2 == 36:
-    print("18+36 = 54")
-if num1 == 18 and sign == '+' and num2 == 37:
-    print("18+37 = 55")
-if num1 == 18 and sign == '+' and num2 == 38:
-    print("18+38 = 56")
-if num1 == 18 and sign == '+' and num2 == 39:
-    print("18+39 = 57")
-if num1 == 18 and sign == '+' and num2 == 40:
-    print("18+40 = 58")
-if num1 == 18 and sign == '+' and num2 == 41:
-    print("18+41 = 59")
-if num1 == 18 and sign == '+' and num2 == 42:
-    print("18+42 = 60")
-if num1 == 18 and sign == '+' and num2 == 43:
-    print("18+43 = 61")
-if num1 == 18 and sign == '+' and num2 == 44:
-    print("18+44 = 62")
-if num1 == 18 and sign == '+' and num2 == 45:
-    print("18+45 = 63")
-if num1 == 18 and sign == '+' and num2 == 46:
-    print("18+46 = 64")
-if num1 == 18 and sign == '+' and num2 == 47:
-    print("18+47 = 65")
-if num1 == 18 and sign == '+' and num2 == 48:
-    print("18+48 = 66")
-if num1 == 18 and sign == '+' and num2 == 49:
-    print("18+49 = 67")
-if num1 == 18 and sign == '+' and num2 == 50:
-    print("18+50 = 68")
-if num1 == 19 and sign == '+' and num2 == 0:
-    print("19+0 = 19")
-if num1 == 19 and sign == '+' and num2 == 1:
-    print("19+1 = 20")
-if num1 == 19 and sign == '+' and num2 == 2:
-    print("19+2 = 21")
-if num1 == 19 and sign == '+' and num2 == 3:
-    print("19+3 = 22")
-if num1 == 19 and sign == '+' and num2 == 4:
-    print("19+4 = 23")
-if num1 == 19 and sign == '+' and num2 == 5:
-    print("19+5 = 24")
-if num1 == 19 and sign == '+' and num2 == 6:
-    print("19+6 = 25")
-if num1 == 19 and sign == '+' and num2 == 7:
-    print("19+7 = 26")
-if num1 == 19 and sign == '+' and num2 == 8:
-    print("19+8 = 27")
-if num1 == 19 and sign == '+' and num2 == 9:
-    print("19+9 = 28")
-if num1 == 19 and sign == '+' and num2 == 10:
-    print("19+10 = 29")
-if num1 == 19 and sign == '+' and num2 == 11:
-    print("19+11 = 30")
-if num1 == 19 and sign == '+' and num2 == 12:
-    print("19+12 = 31")
-if num1 == 19 and sign == '+' and num2 == 13:
-    print("19+13 = 32")
-if num1 == 19 and sign == '+' and num2 == 14:
-    print("19+14 = 33")
-if num1 == 19 and sign == '+' and num2 == 15:
-    print("19+15 = 34")
-if num1 == 19 and sign == '+' and num2 == 16:
-    print("19+16 = 35")
-if num1 == 19 and sign == '+' and num2 == 17:
-    print("19+17 = 36")
-if num1 == 19 and sign == '+' and num2 == 18:
-    print("19+18 = 37")
-if num1 == 19 and sign == '+' and num2 == 19:
-    print("19+19 = 38")
-if num1 == 19 and sign == '+' and num2 == 20:
-    print("19+20 = 39")
-if num1 == 19 and sign == '+' and num2 == 21:
-    print("19+21 = 40")
-if num1 == 19 and sign == '+' and num2 == 22:
-    print("19+22 = 41")
-if num1 == 19 and sign == '+' and num2 == 23:
-    print("19+23 = 42")
-if num1 == 19 and sign == '+' and num2 == 24:
-    print("19+24 = 43")
-if num1 == 19 and sign == '+' and num2 == 25:
-    print("19+25 = 44")
-if num1 == 19 and sign == '+' and num2 == 26:
-    print("19+26 = 45")
-if num1 == 19 and sign == '+' and num2 == 27:
-    print("19+27 = 46")
-if num1 == 19 and sign == '+' and num2 == 28:
-    print("19+28 = 47")
-if num1 == 19 and sign == '+' and num2 == 29:
-    print("19+29 = 48")
-if num1 == 19 and sign == '+' and num2 == 30:
-    print("19+30 = 49")
-if num1 == 19 and sign == '+' and num2 == 31:
-    print("19+31 = 50")
-if num1 == 19 and sign == '+' and num2 == 32:
-    print("19+32 = 51")
-if num1 == 19 and sign == '+' and num2 == 33:
-    print("19+33 = 52")
-if num1 == 19 and sign == '+' and num2 == 34:
-    print("19+34 = 53")
-if num1 == 19 and sign == '+' and num2 == 35:
-    print("19+35 = 54")
-if num1 == 19 and sign == '+' and num2 == 36:
-    print("19+36 = 55")
-if num1 == 19 and sign == '+' and num2 == 37:
-    print("19+37 = 56")
-if num1 == 19 and sign == '+' and num2 == 38:
-    print("19+38 = 57")
-if num1 == 19 and sign == '+' and num2 == 39:
-    print("19+39 = 58")
-if num1 == 19 and sign == '+' and num2 == 40:
-    print("19+40 = 59")
-if num1 == 19 and sign == '+' and num2 == 41:
-    print("19+41 = 60")
-if num1 == 19 and sign == '+' and num2 == 42:
-    print("19+42 = 61")
-if num1 == 19 and sign == '+' and num2 == 43:
-    print("19+43 = 62")
-if num1 == 19 and sign == '+' and num2 == 44:
-    print("19+44 = 63")
-if num1 == 19 and sign == '+' and num2 == 45:
-    print("19+45 = 64")
-if num1 == 19 and sign == '+' and num2 == 46:
-    print("19+46 = 65")
-if num1 == 19 and sign == '+' and num2 == 47:
-    print("19+47 = 66")
-if num1 == 19 and sign == '+' and num2 == 48:
-    print("19+48 = 67")
-if num1 == 19 and sign == '+' and num2 == 49:
-    print("19+49 = 68")
-if num1 == 19 and sign == '+' and num2 == 50:
-    print("19+50 = 69")
-if num1 == 20 and sign == '+' and num2 == 0:
-    print("20+0 = 20")
-if num1 == 20 and sign == '+' and num2 == 1:
-    print("20+1 = 21")
-if num1 == 20 and sign == '+' and num2 == 2:
-    print("20+2 = 22")
-if num1 == 20 and sign == '+' and num2 == 3:
-    print("20+3 = 23")
-if num1 == 20 and sign == '+' and num2 == 4:
-    print("20+4 = 24")
-if num1 == 20 and sign == '+' and num2 == 5:
-    print("20+5 = 25")
-if num1 == 20 and sign == '+' and num2 == 6:
-    print("20+6 = 26")
-if num1 == 20 and sign == '+' and num2 == 7:
-    print("20+7 = 27")
-if num1 == 20 and sign == '+' and num2 == 8:
-    print("20+8 = 28")
-if num1 == 20 and sign == '+' and num2 == 9:
-    print("20+9 = 29")
-if num1 == 20 and sign == '+' and num2 == 10:
-    print("20+10 = 30")
-if num1 == 20 and sign == '+' and num2 == 11:
-    print("20+11 = 31")
-if num1 == 20 and sign == '+' and num2 == 12:
-    print("20+12 = 32")
-if num1 == 20 and sign == '+' and num2 == 13:
-    print("20+13 = 33")
-if num1 == 20 and sign == '+' and num2 == 14:
-    print("20+14 = 34")
-if num1 == 20 and sign == '+' and num2 == 15:
-    print("20+15 = 35")
-if num1 == 20 and sign == '+' and num2 == 16:
-    print("20+16 = 36")
-if num1 == 20 and sign == '+' and num2 == 17:
-    print("20+17 = 37")
-if num1 == 20 and sign == '+' and num2 == 18:
-    print("20+18 = 38")
-if num1 == 20 and sign == '+' and num2 == 19:
-    print("20+19 = 39")
-if num1 == 20 and sign == '+' and num2 == 20:
-    print("20+20 = 40")
-if num1 == 20 and sign == '+' and num2 == 21:
-    print("20+21 = 41")
-if num1 == 20 and sign == '+' and num2 == 22:
-    print("20+22 = 42")
-if num1 == 20 and sign == '+' and num2 == 23:
-    print("20+23 = 43")
-if num1 == 20 and sign == '+' and num2 == 24:
-    print("20+24 = 44")
-if num1 == 20 and sign == '+' and num2 == 25:
-    print("20+25 = 45")
-if num1 == 20 and sign == '+' and num2 == 26:
-    print("20+26 = 46")
-if num1 == 20 and sign == '+' and num2 == 27:
-    print("20+27 = 47")
-if num1 == 20 and sign == '+' and num2 == 28:
-    print("20+28 = 48")
-if num1 == 20 and sign == '+' and num2 == 29:
-    print("20+29 = 49")
-if num1 == 20 and sign == '+' and num2 == 30:
-    print("20+30 = 50")
-if num1 == 20 and sign == '+' and num2 == 31:
-    print("20+31 = 51")
-if num1 == 20 and sign == '+' and num2 == 32:
-    print("20+32 = 52")
-if num1 == 20 and sign == '+' and num2 == 33:
-    print("20+33 = 53")
-if num1 == 20 and sign == '+' and num2 == 34:
-    print("20+34 = 54")
-if num1 == 20 and sign == '+' and num2 == 35:
-    print("20+35 = 55")
-if num1 == 20 and sign == '+' and num2 == 36:
-    print("20+36 = 56")
-if num1 == 20 and sign == '+' and num2 == 37:
-    print("20+37 = 57")
-if num1 == 20 and sign == '+' and num2 == 38:
-    print("20+38 = 58")
-if num1 == 20 and sign == '+' and num2 == 39:
-    print("20+39 = 59")
-if num1 == 20 and sign == '+' and num2 == 40:
-    print("20+40 = 60")
-if num1 == 20 and sign == '+' and num2 == 41:
-    print("20+41 = 61")
-if num1 == 20 and sign == '+' and num2 == 42:
-    print("20+42 = 62")
-if num1 == 20 and sign == '+' and num2 == 43:
-    print("20+43 = 63")
-if num1 == 20 and sign == '+' and num2 == 44:
-    print("20+44 = 64")
-if num1 == 20 and sign == '+' and num2 == 45:
-    print("20+45 = 65")
-if num1 == 20 and sign == '+' and num2 == 46:
-    print("20+46 = 66")
-if num1 == 20 and sign == '+' and num2 == 47:
-    print("20+47 = 67")
-if num1 == 20 and sign == '+' and num2 == 48:
-    print("20+48 = 68")
-if num1 == 20 and sign == '+' and num2 == 49:
-    print("20+49 = 69")
-if num1 == 20 and sign == '+' and num2 == 50:
-    print("20+50 = 70")
-if num1 == 21 and sign == '+' and num2 == 0:
-    print("21+0 = 21")
-if num1 == 21 and sign == '+' and num2 == 1:
-    print("21+1 = 22")
-if num1 == 21 and sign == '+' and num2 == 2:
-    print("21+2 = 23")
-if num1 == 21 and sign == '+' and num2 == 3:
-    print("21+3 = 24")
-if num1 == 21 and sign == '+' and num2 == 4:
-    print("21+4 = 25")
-if num1 == 21 and sign == '+' and num2 == 5:
-    print("21+5 = 26")
-if num1 == 21 and sign == '+' and num2 == 6:
-    print("21+6 = 27")
-if num1 == 21 and sign == '+' and num2 == 7:
-    print("21+7 = 28")
-if num1 == 21 and sign == '+' and num2 == 8:
-    print("21+8 = 29")
-if num1 == 21 and sign == '+' and num2 == 9:
-    print("21+9 = 30")
-if num1 == 21 and sign == '+' and num2 == 10:
-    print("21+10 = 31")
-if num1 == 21 and sign == '+' and num2 == 11:
-    print("21+11 = 32")
-if num1 == 21 and sign == '+' and num2 == 12:
-    print("21+12 = 33")
-if num1 == 21 and sign == '+' and num2 == 13:
-    print("21+13 = 34")
-if num1 == 21 and sign == '+' and num2 == 14:
-    print("21+14 = 35")
-if num1 == 21 and sign == '+' and num2 == 15:
-    print("21+15 = 36")
-if num1 == 21 and sign == '+' and num2 == 16:
-    print("21+16 = 37")
-if num1 == 21 and sign == '+' and num2 == 17:
-    print("21+17 = 38")
-if num1 == 21 and sign == '+' and num2 == 18:
-    print("21+18 = 39")
-if num1 == 21 and sign == '+' and num2 == 19:
-    print("21+19 = 40")
-if num1 == 21 and sign == '+' and num2 == 20:
-    print("21+20 = 41")
-if num1 == 21 and sign == '+' and num2 == 21:
-    print("21+21 = 42")
-if num1 == 21 and sign == '+' and num2 == 22:
-    print("21+22 = 43")
-if num1 == 21 and sign == '+' and num2 == 23:
-    print("21+23 = 44")
-if num1 == 21 and sign == '+' and num2 == 24:
-    print("21+24 = 45")
-if num1 == 21 and sign == '+' and num2 == 25:
-    print("21+25 = 46")
-if num1 == 21 and sign == '+' and num2 == 26:
-    print("21+26 = 47")
-if num1 == 21 and sign == '+' and num2 == 27:
-    print("21+27 = 48")
-if num1 == 21 and sign == '+' and num2 == 28:
-    print("21+28 = 49")
-if num1 == 21 and sign == '+' and num2 == 29:
-    print("21+29 = 50")
-if num1 == 21 and sign == '+' and num2 == 30:
-    print("21+30 = 51")
-if num1 == 21 and sign == '+' and num2 == 31:
-    print("21+31 = 52")
-if num1 == 21 and sign == '+' and num2 == 32:
-    print("21+32 = 53")
-if num1 == 21 and sign == '+' and num2 == 33:
-    print("21+33 = 54")
-if num1 == 21 and sign == '+' and num2 == 34:
-    print("21+34 = 55")
-if num1 == 21 and sign == '+' and num2 == 35:
-    print("21+35 = 56")
-if num1 == 21 and sign == '+' and num2 == 36:
-    print("21+36 = 57")
-if num1 == 21 and sign == '+' and num2 == 37:
-    print("21+37 = 58")
-if num1 == 21 and sign == '+' and num2 == 38:
-    print("21+38 = 59")
-if num1 == 21 and sign == '+' and num2 == 39:
-    print("21+39 = 60")
-if num1 == 21 and sign == '+' and num2 == 40:
-    print("21+40 = 61")
-if num1 == 21 and sign == '+' and num2 == 41:
-    print("21+41 = 62")
-if num1 == 21 and sign == '+' and num2 == 42:
-    print("21+42 = 63")
-if num1 == 21 and sign == '+' and num2 == 43:
-    print("21+43 = 64")
-if num1 == 21 and sign == '+' and num2 == 44:
-    print("21+44 = 65")
-if num1 == 21 and sign == '+' and num2 == 45:
-    print("21+45 = 66")
-if num1 == 21 and sign == '+' and num2 == 46:
-    print("21+46 = 67")
-if num1 == 21 and sign == '+' and num2 == 47:
-    print("21+47 = 68")
-if num1 == 21 and sign == '+' and num2 == 48:
-    print("21+48 = 69")
-if num1 == 21 and sign == '+' and num2 == 49:
-    print("21+49 = 70")
-if num1 == 21 and sign == '+' and num2 == 50:
-    print("21+50 = 71")
-if num1 == 22 and sign == '+' and num2 == 0:
-    print("22+0 = 22")
-if num1 == 22 and sign == '+' and num2 == 1:
-    print("22+1 = 23")
-if num1 == 22 and sign == '+' and num2 == 2:
-    print("22+2 = 24")
-if num1 == 22 and sign == '+' and num2 == 3:
-    print("22+3 = 25")
-if num1 == 22 and sign == '+' and num2 == 4:
-    print("22+4 = 26")
-if num1 == 22 and sign == '+' and num2 == 5:
-    print("22+5 = 27")
-if num1 == 22 and sign == '+' and num2 == 6:
-    print("22+6 = 28")
-if num1 == 22 and sign == '+' and num2 == 7:
-    print("22+7 = 29")
-if num1 == 22 and sign == '+' and num2 == 8:
-    print("22+8 = 30")
-if num1 == 22 and sign == '+' and num2 == 9:
-    print("22+9 = 31")
-if num1 == 22 and sign == '+' and num2 == 10:
-    print("22+10 = 32")
-if num1 == 22 and sign == '+' and num2 == 11:
-    print("22+11 = 33")
-if num1 == 22 and sign == '+' and num2 == 12:
-    print("22+12 = 34")
-if num1 == 22 and sign == '+' and num2 == 13:
-    print("22+13 = 35")
-if num1 == 22 and sign == '+' and num2 == 14:
-    print("22+14 = 36")
-if num1 == 22 and sign == '+' and num2 == 15:
-    print("22+15 = 37")
-if num1 == 22 and sign == '+' and num2 == 16:
-    print("22+16 = 38")
-if num1 == 22 and sign == '+' and num2 == 17:
-    print("22+17 = 39")
-if num1 == 22 and sign == '+' and num2 == 18:
-    print("22+18 = 40")
-if num1 == 22 and sign == '+' and num2 == 19:
-    print("22+19 = 41")
-if num1 == 22 and sign == '+' and num2 == 20:
-    print("22+20 = 42")
-if num1 == 22 and sign == '+' and num2 == 21:
-    print("22+21 = 43")
-if num1 == 22 and sign == '+' and num2 == 22:
-    print("22+22 = 44")
-if num1 == 22 and sign == '+' and num2 == 23:
-    print("22+23 = 45")
-if num1 == 22 and sign == '+' and num2 == 24:
-    print("22+24 = 46")
-if num1 == 22 and sign == '+' and num2 == 25:
-    print("22+25 = 47")
-if num1 == 22 and sign == '+' and num2 == 26:
-    print("22+26 = 48")
-if num1 == 22 and sign == '+' and num2 == 27:
-    print("22+27 = 49")
-if num1 == 22 and sign == '+' and num2 == 28:
-    print("22+28 = 50")
-if num1 == 22 and sign == '+' and num2 == 29:
-    print("22+29 = 51")
-if num1 == 22 and sign == '+' and num2 == 30:
-    print("22+30 = 52")
-if num1 == 22 and sign == '+' and num2 == 31:
-    print("22+31 = 53")
-if num1 == 22 and sign == '+' and num2 == 32:
-    print("22+32 = 54")
-if num1 == 22 and sign == '+' and num2 == 33:
-    print("22+33 = 55")
-if num1 == 22 and sign == '+' and num2 == 34:
-    print("22+34 = 56")
-if num1 == 22 and sign == '+' and num2 == 35:
-    print("22+35 = 57")
-if num1 == 22 and sign == '+' and num2 == 36:
-    print("22+36 = 58")
-if num1 == 22 and sign == '+' and num2 == 37:
-    print("22+37 = 59")
-if num1 == 22 and sign == '+' and num2 == 38:
-    print("22+38 = 60")
-if num1 == 22 and sign == '+' and num2 == 39:
-    print("22+39 = 61")
-if num1 == 22 and sign == '+' and num2 == 40:
-    print("22+40 = 62")
-if num1 == 22 and sign == '+' and num2 == 41:
-    print("22+41 = 63")
-if num1 == 22 and sign == '+' and num2 == 42:
-    print("22+42 = 64")
-if num1 == 22 and sign == '+' and num2 == 43:
-    print("22+43 = 65")
-if num1 == 22 and sign == '+' and num2 == 44:
-    print("22+44 = 66")
-if num1 == 22 and sign == '+' and num2 == 45:
-    print("22+45 = 67")
-if num1 == 22 and sign == '+' and num2 == 46:
-    print("22+46 = 68")
-if num1 == 22 and sign == '+' and num2 == 47:
-    print("22+47 = 69")
-if num1 == 22 and sign == '+' and num2 == 48:
-    print("22+48 = 70")
-if num1 == 22 and sign == '+' and num2 == 49:
-    print("22+49 = 71")
-if num1 == 22 and sign == '+' and num2 == 50:
-    print("22+50 = 72")
-if num1 == 23 and sign == '+' and num2 == 0:
-    print("23+0 = 23")
-if num1 == 23 and sign == '+' and num2 == 1:
-    print("23+1 = 24")
-if num1 == 23 and sign == '+' and num2 == 2:
-    print("23+2 = 25")
-if num1 == 23 and sign == '+' and num2 == 3:
-    print("23+3 = 26")
-if num1 == 23 and sign == '+' and num2 == 4:
-    print("23+4 = 27")
-if num1 == 23 and sign == '+' and num2 == 5:
-    print("23+5 = 28")
-if num1 == 23 and sign == '+' and num2 == 6:
-    print("23+6 = 29")
-if num1 == 23 and sign == '+' and num2 == 7:
-    print("23+7 = 30")
-if num1 == 23 and sign == '+' and num2 == 8:
-    print("23+8 = 31")
-if num1 == 23 and sign == '+' and num2 == 9:
-    print("23+9 = 32")
-if num1 == 23 and sign == '+' and num2 == 10:
-    print("23+10 = 33")
-if num1 == 23 and sign == '+' and num2 == 11:
-    print("23+11 = 34")
-if num1 == 23 and sign == '+' and num2 == 12:
-    print("23+12 = 35")
-if num1 == 23 and sign == '+' and num2 == 13:
-    print("23+13 = 36")
-if num1 == 23 and sign == '+' and num2 == 14:
-    print("23+14 = 37")
-if num1 == 23 and sign == '+' and num2 == 15:
-    print("23+15 = 38")
-if num1 == 23 and sign == '+' and num2 == 16:
-    print("23+16 = 39")
-if num1 == 23 and sign == '+' and num2 == 17:
-    print("23+17 = 40")
-if num1 == 23 and sign == '+' and num2 == 18:
-    print("23+18 = 41")
-if num1 == 23 and sign == '+' and num2 == 19:
-    print("23+19 = 42")
-if num1 == 23 and sign == '+' and num2 == 20:
-    print("23+20 = 43")
-if num1 == 23 and sign == '+' and num2 == 21:
-    print("23+21 = 44")
-if num1 == 23 and sign == '+' and num2 == 22:
-    print("23+22 = 45")
-if num1 == 23 and sign == '+' and num2 == 23:
-    print("23+23 = 46")
-if num1 == 23 and sign == '+' and num2 == 24:
-    print("23+24 = 47")
-if num1 == 23 and sign == '+' and num2 == 25:
-    print("23+25 = 48")
-if num1 == 23 and sign == '+' and num2 == 26:
-    print("23+26 = 49")
-if num1 == 23 and sign == '+' and num2 == 27:
-    print("23+27 = 50")
-if num1 == 23 and sign == '+' and num2 == 28:
-    print("23+28 = 51")
-if num1 == 23 and sign == '+' and num2 == 29:
-    print("23+29 = 52")
-if num1 == 23 and sign == '+' and num2 == 30:
-    print("23+30 = 53")
-if num1 == 23 and sign == '+' and num2 == 31:
-    print("23+31 = 54")
-if num1 == 23 and sign == '+' and num2 == 32:
-    print("23+32 = 55")
-if num1 == 23 and sign == '+' and num2 == 33:
-    print("23+33 = 56")
-if num1 == 23 and sign == '+' and num2 == 34:
-    print("23+34 = 57")
-if num1 == 23 and sign == '+' and num2 == 35:
-    print("23+35 = 58")
-if num1 == 23 and sign == '+' and num2 == 36:
-    print("23+36 = 59")
-if num1 == 23 and sign == '+' and num2 == 37:
-    print("23+37 = 60")
-if num1 == 23 and sign == '+' and num2 == 38:
-    print("23+38 = 61")
-if num1 == 23 and sign == '+' and num2 == 39:
-    print("23+39 = 62")
-if num1 == 23 and sign == '+' and num2 == 40:
-    print("23+40 = 63")
-if num1 == 23 and sign == '+' and num2 == 41:
-    print("23+41 = 64")
-if num1 == 23 and sign == '+' and num2 == 42:
-    print("23+42 = 65")
-if num1 == 23 and sign == '+' and num2 == 43:
-    print("23+43 = 66")
-if num1 == 23 and sign == '+' and num2 == 44:
-    print("23+44 = 67")
-if num1 == 23 and sign == '+' and num2 == 45:
-    print("23+45 = 68")
-if num1 == 23 and sign == '+' and num2 == 46:
-    print("23+46 = 69")
-if num1 == 23 and sign == '+' and num2 == 47:
-    print("23+47 = 70")
-if num1 == 23 and sign == '+' and num2 == 48:
-    print("23+48 = 71")
-if num1 == 23 and sign == '+' and num2 == 49:
-    print("23+49 = 72")
-if num1 == 23 and sign == '+' and num2 == 50:
-    print("23+50 = 73")
-if num1 == 24 and sign == '+' and num2 == 0:
-    print("24+0 = 24")
-if num1 == 24 and sign == '+' and num2 == 1:
-    print("24+1 = 25")
-if num1 == 24 and sign == '+' and num2 == 2:
-    print("24+2 = 26")
-if num1 == 24 and sign == '+' and num2 == 3:
-    print("24+3 = 27")
-if num1 == 24 and sign == '+' and num2 == 4:
-    print("24+4 = 28")
-if num1 == 24 and sign == '+' and num2 == 5:
-    print("24+5 = 29")
-if num1 == 24 and sign == '+' and num2 == 6:
-    print("24+6 = 30")
-if num1 == 24 and sign == '+' and num2 == 7:
-    print("24+7 = 31")
-if num1 == 24 and sign == '+' and num2 == 8:
-    print("24+8 = 32")
-if num1 == 24 and sign == '+' and num2 == 9:
-    print("24+9 = 33")
-if num1 == 24 and sign == '+' and num2 == 10:
-    print("24+10 = 34")
-if num1 == 24 and sign == '+' and num2 == 11:
-    print("24+11 = 35")
-if num1 == 24 and sign == '+' and num2 == 12:
-    print("24+12 = 36")
-if num1 == 24 and sign == '+' and num2 == 13:
-    print("24+13 = 37")
-if num1 == 24 and sign == '+' and num2 == 14:
-    print("24+14 = 38")
-if num1 == 24 and sign == '+' and num2 == 15:
-    print("24+15 = 39")
-if num1 == 24 and sign == '+' and num2 == 16:
-    print("24+16 = 40")
-if num1 == 24 and sign == '+' and num2 == 17:
-    print("24+17 = 41")
-if num1 == 24 and sign == '+' and num2 == 18:
-    print("24+18 = 42")
-if num1 == 24 and sign == '+' and num2 == 19:
-    print("24+19 = 43")
-if num1 == 24 and sign == '+' and num2 == 20:
-    print("24+20 = 44")
-if num1 == 24 and sign == '+' and num2 == 21:
-    print("24+21 = 45")
-if num1 == 24 and sign == '+' and num2 == 22:
-    print("24+22 = 46")
-if num1 == 24 and sign == '+' and num2 == 23:
-    print("24+23 = 47")
-if num1 == 24 and sign == '+' and num2 == 24:
-    print("24+24 = 48")
-if num1 == 24 and sign == '+' and num2 == 25:
-    print("24+25 = 49")
-if num1 == 24 and sign == '+' and num2 == 26:
-    print("24+26 = 50")
-if num1 == 24 and sign == '+' and num2 == 27:
-    print("24+27 = 51")
-if num1 == 24 and sign == '+' and num2 == 28:
-    print("24+28 = 52")
-if num1 == 24 and sign == '+' and num2 == 29:
-    print("24+29 = 53")
-if num1 == 24 and sign == '+' and num2 == 30:
-    print("24+30 = 54")
-if num1 == 24 and sign == '+' and num2 == 31:
-    print("24+31 = 55")
-if num1 == 24 and sign == '+' and num2 == 32:
-    print("24+32 = 56")
-if num1 == 24 and sign == '+' and num2 == 33:
-    print("24+33 = 57")
-if num1 == 24 and sign == '+' and num2 == 34:
-    print("24+34 = 58")
-if num1 == 24 and sign == '+' and num2 == 35:
-    print("24+35 = 59")
-if num1 == 24 and sign == '+' and num2 == 36:
-    print("24+36 = 60")
-if num1 == 24 and sign == '+' and num2 == 37:
-    print("24+37 = 61")
-if num1 == 24 and sign == '+' and num2 == 38:
-    print("24+38 = 62")
-if num1 == 24 and sign == '+' and num2 == 39:
-    print("24+39 = 63")
-if num1 == 24 and sign == '+' and num2 == 40:
-    print("24+40 = 64")
-if num1 == 24 and sign == '+' and num2 == 41:
-    print("24+41 = 65")
-if num1 == 24 and sign == '+' and num2 == 42:
-    print("24+42 = 66")
-if num1 == 24 and sign == '+' and num2 == 43:
-    print("24+43 = 67")
-if num1 == 24 and sign == '+' and num2 == 44:
-    print("24+44 = 68")
-if num1 == 24 and sign == '+' and num2 == 45:
-    print("24+45 = 69")
-if num1 == 24 and sign == '+' and num2 == 46:
-    print("24+46 = 70")
-if num1 == 24 and sign == '+' and num2 == 47:
-    print("24+47 = 71")
-if num1 == 24 and sign == '+' and num2 == 48:
-    print("24+48 = 72")
-if num1 == 24 and sign == '+' and num2 == 49:
-    print("24+49 = 73")
-if num1 == 24 and sign == '+' and num2 == 50:
-    print("24+50 = 74")
-if num1 == 25 and sign == '+' and num2 == 0:
-    print("25+0 = 25")
-if num1 == 25 and sign == '+' and num2 == 1:
-    print("25+1 = 26")
-if num1 == 25 and sign == '+' and num2 == 2:
-    print("25+2 = 27")
-if num1 == 25 and sign == '+' and num2 == 3:
-    print("25+3 = 28")
-if num1 == 25 and sign == '+' and num2 == 4:
-    print("25+4 = 29")
-if num1 == 25 and sign == '+' and num2 == 5:
-    print("25+5 = 30")
-if num1 == 25 and sign == '+' and num2 == 6:
-    print("25+6 = 31")
-if num1 == 25 and sign == '+' and num2 == 7:
-    print("25+7 = 32")
-if num1 == 25 and sign == '+' and num2 == 8:
-    print("25+8 = 33")
-if num1 == 25 and sign == '+' and num2 == 9:
-    print("25+9 = 34")
-if num1 == 25 and sign == '+' and num2 == 10:
-    print("25+10 = 35")
-if num1 == 25 and sign == '+' and num2 == 11:
-    print("25+11 = 36")
-if num1 == 25 and sign == '+' and num2 == 12:
-    print("25+12 = 37")
-if num1 == 25 and sign == '+' and num2 == 13:
-    print("25+13 = 38")
-if num1 == 25 and sign == '+' and num2 == 14:
-    print("25+14 = 39")
-if num1 == 25 and sign == '+' and num2 == 15:
-    print("25+15 = 40")
-if num1 == 25 and sign == '+' and num2 == 16:
-    print("25+16 = 41")
-if num1 == 25 and sign == '+' and num2 == 17:
-    print("25+17 = 42")
-if num1 == 25 and sign == '+' and num2 == 18:
-    print("25+18 = 43")
-if num1 == 25 and sign == '+' and num2 == 19:
-    print("25+19 = 44")
-if num1 == 25 and sign == '+' and num2 == 20:
-    print("25+20 = 45")
-if num1 == 25 and sign == '+' and num2 == 21:
-    print("25+21 = 46")
-if num1 == 25 and sign == '+' and num2 == 22:
-    print("25+22 = 47")
-if num1 == 25 and sign == '+' and num2 == 23:
-    print("25+23 = 48")
-if num1 == 25 and sign == '+' and num2 == 24:
-    print("25+24 = 49")
-if num1 == 25 and sign == '+' and num2 == 25:
-    print("25+25 = 50")
-if num1 == 25 and sign == '+' and num2 == 26:
-    print("25+26 = 51")
-if num1 == 25 and sign == '+' and num2 == 27:
-    print("25+27 = 52")
-if num1 == 25 and sign == '+' and num2 == 28:
-    print("25+28 = 53")
-if num1 == 25 and sign == '+' and num2 == 29:
-    print("25+29 = 54")
-if num1 == 25 and sign == '+' and num2 == 30:
-    print("25+30 = 55")
-if num1 == 25 and sign == '+' and num2 == 31:
-    print("25+31 = 56")
-if num1 == 25 and sign == '+' and num2 == 32:
-    print("25+32 = 57")
-if num1 == 25 and sign == '+' and num2 == 33:
-    print("25+33 = 58")
-if num1 == 25 and sign == '+' and num2 == 34:
-    print("25+34 = 59")
-if num1 == 25 and sign == '+' and num2 == 35:
-    print("25+35 = 60")
-if num1 == 25 and sign == '+' and num2 == 36:
-    print("25+36 = 61")
-if num1 == 25 and sign == '+' and num2 == 37:
-    print("25+37 = 62")
-if num1 == 25 and sign == '+' and num2 == 38:
-    print("25+38 = 63")
-if num1 == 25 and sign == '+' and num2 == 39:
-    print("25+39 = 64")
-if num1 == 25 and sign == '+' and num2 == 40:
-    print("25+40 = 65")
-if num1 == 25 and sign == '+' and num2 == 41:
-    print("25+41 = 66")
-if num1 == 25 and sign == '+' and num2 == 42:
-    print("25+42 = 67")
-if num1 == 25 and sign == '+' and num2 == 43:
-    print("25+43 = 68")
-if num1 == 25 and sign == '+' and num2 == 44:
-    print("25+44 = 69")
-if num1 == 25 and sign == '+' and num2 == 45:
-    print("25+45 = 70")
-if num1 == 25 and sign == '+' and num2 == 46:
-    print("25+46 = 71")
-if num1 == 25 and sign == '+' and num2 == 47:
-    print("25+47 = 72")
-if num1 == 25 and sign == '+' and num2 == 48:
-    print("25+48 = 73")
-if num1 == 25 and sign == '+' and num2 == 49:
-    print("25+49 = 74")
-if num1 == 25 and sign == '+' and num2 == 50:
-    print("25+50 = 75")
-if num1 == 26 and sign == '+' and num2 == 0:
-    print("26+0 = 26")
-if num1 == 26 and sign == '+' and num2 == 1:
-    print("26+1 = 27")
-if num1 == 26 and sign == '+' and num2 == 2:
-    print("26+2 = 28")
-if num1 == 26 and sign == '+' and num2 == 3:
-    print("26+3 = 29")
-if num1 == 26 and sign == '+' and num2 == 4:
-    print("26+4 = 30")
-if num1 == 26 and sign == '+' and num2 == 5:
-    print("26+5 = 31")
-if num1 == 26 and sign == '+' and num2 == 6:
-    print("26+6 = 32")
-if num1 == 26 and sign == '+' and num2 == 7:
-    print("26+7 = 33")
-if num1 == 26 and sign == '+' and num2 == 8:
-    print("26+8 = 34")
-if num1 == 26 and sign == '+' and num2 == 9:
-    print("26+9 = 35")
-if num1 == 26 and sign == '+' and num2 == 10:
-    print("26+10 = 36")
-if num1 == 26 and sign == '+' and num2 == 11:
-    print("26+11 = 37")
-if num1 == 26 and sign == '+' and num2 == 12:
-    print("26+12 = 38")
-if num1 == 26 and sign == '+' and num2 == 13:
-    print("26+13 = 39")
-if num1 == 26 and sign == '+' and num2 == 14:
-    print("26+14 = 40")
-if num1 == 26 and sign == '+' and num2 == 15:
-    print("26+15 = 41")
-if num1 == 26 and sign == '+' and num2 == 16:
-    print("26+16 = 42")
-if num1 == 26 and sign == '+' and num2 == 17:
-    print("26+17 = 43")
-if num1 == 26 and sign == '+' and num2 == 18:
-    print("26+18 = 44")
-if num1 == 26 and sign == '+' and num2 == 19:
-    print("26+19 = 45")
-if num1 == 26 and sign == '+' and num2 == 20:
-    print("26+20 = 46")
-if num1 == 26 and sign == '+' and num2 == 21:
-    print("26+21 = 47")
-if num1 == 26 and sign == '+' and num2 == 22:
-    print("26+22 = 48")
-if num1 == 26 and sign == '+' and num2 == 23:
-    print("26+23 = 49")
-if num1 == 26 and sign == '+' and num2 == 24:
-    print("26+24 = 50")
-if num1 == 26 and sign == '+' and num2 == 25:
-    print("26+25 = 51")
-if num1 == 26 and sign == '+' and num2 == 26:
-    print("26+26 = 52")
-if num1 == 26 and sign == '+' and num2 == 27:
-    print("26+27 = 53")
-if num1 == 26 and sign == '+' and num2 == 28:
-    print("26+28 = 54")
-if num1 == 26 and sign == '+' and num2 == 29:
-    print("26+29 = 55")
-if num1 == 26 and sign == '+' and num2 == 30:
-    print("26+30 = 56")
-if num1 == 26 and sign == '+' and num2 == 31:
-    print("26+31 = 57")
-if num1 == 26 and sign == '+' and num2 == 32:
-    print("26+32 = 58")
-if num1 == 26 and sign == '+' and num2 == 33:
-    print("26+33 = 59")
-if num1 == 26 and sign == '+' and num2 == 34:
-    print("26+34 = 60")
-if num1 == 26 and sign == '+' and num2 == 35:
-    print("26+35 = 61")
-if num1 == 26 and sign == '+' and num2 == 36:
-    print("26+36 = 62")
-if num1 == 26 and sign == '+' and num2 == 37:
-    print("26+37 = 63")
-if num1 == 26 and sign == '+' and num2 == 38:
-    print("26+38 = 64")
-if num1 == 26 and sign == '+' and num2 == 39:
-    print("26+39 = 65")
-if num1 == 26 and sign == '+' and num2 == 40:
-    print("26+40 = 66")
-if num1 == 26 and sign == '+' and num2 == 41:
-    print("26+41 = 67")
-if num1 == 26 and sign == '+' and num2 == 42:
-    print("26+42 = 68")
-if num1 == 26 and sign == '+' and num2 == 43:
-    print("26+43 = 69")
-if num1 == 26 and sign == '+' and num2 == 44:
-    print("26+44 = 70")
-if num1 == 26 and sign == '+' and num2 == 45:
-    print("26+45 = 71")
-if num1 == 26 and sign == '+' and num2 == 46:
-    print("26+46 = 72")
-if num1 == 26 and sign == '+' and num2 == 47:
-    print("26+47 = 73")
-if num1 == 26 and sign == '+' and num2 == 48:
-    print("26+48 = 74")
-if num1 == 26 and sign == '+' and num2 == 49:
-    print("26+49 = 75")
-if num1 == 26 and sign == '+' and num2 == 50:
-    print("26+50 = 76")
-if num1 == 27 and sign == '+' and num2 == 0:
-    print("27+0 = 27")
-if num1 == 27 and sign == '+' and num2 == 1:
-    print("27+1 = 28")
-if num1 == 27 and sign == '+' and num2 == 2:
-    print("27+2 = 29")
-if num1 == 27 and sign == '+' and num2 == 3:
-    print("27+3 = 30")
-if num1 == 27 and sign == '+' and num2 == 4:
-    print("27+4 = 31")
-if num1 == 27 and sign == '+' and num2 == 5:
-    print("27+5 = 32")
-if num1 == 27 and sign == '+' and num2 == 6:
-    print("27+6 = 33")
-if num1 == 27 and sign == '+' and num2 == 7:
-    print("27+7 = 34")
-if num1 == 27 and sign == '+' and num2 == 8:
-    print("27+8 = 35")
-if num1 == 27 and sign == '+' and num2 == 9:
-    print("27+9 = 36")
-if num1 == 27 and sign == '+' and num2 == 10:
-    print("27+10 = 37")
-if num1 == 27 and sign == '+' and num2 == 11:
-    print("27+11 = 38")
-if num1 == 27 and sign == '+' and num2 == 12:
-    print("27+12 = 39")
-if num1 == 27 and sign == '+' and num2 == 13:
-    print("27+13 = 40")
-if num1 == 27 and sign == '+' and num2 == 14:
-    print("27+14 = 41")
-if num1 == 27 and sign == '+' and num2 == 15:
-    print("27+15 = 42")
-if num1 == 27 and sign == '+' and num2 == 16:
-    print("27+16 = 43")
-if num1 == 27 and sign == '+' and num2 == 17:
-    print("27+17 = 44")
-if num1 == 27 and sign == '+' and num2 == 18:
-    print("27+18 = 45")
-if num1 == 27 and sign == '+' and num2 == 19:
-    print("27+19 = 46")
-if num1 == 27 and sign == '+' and num2 == 20:
-    print("27+20 = 47")
-if num1 == 27 and sign == '+' and num2 == 21:
-    print("27+21 = 48")
-if num1 == 27 and sign == '+' and num2 == 22:
-    print("27+22 = 49")
-if num1 == 27 and sign == '+' and num2 == 23:
-    print("27+23 = 50")
-if num1 == 27 and sign == '+' and num2 == 24:
-    print("27+24 = 51")
-if num1 == 27 and sign == '+' and num2 == 25:
-    print("27+25 = 52")
-if num1 == 27 and sign == '+' and num2 == 26:
-    print("27+26 = 53")
-if num1 == 27 and sign == '+' and num2 == 27:
-    print("27+27 = 54")
-if num1 == 27 and sign == '+' and num2 == 28:
-    print("27+28 = 55")
-if num1 == 27 and sign == '+' and num2 == 29:
-    print("27+29 = 56")
-if num1 == 27 and sign == '+' and num2 == 30:
-    print("27+30 = 57")
-if num1 == 27 and sign == '+' and num2 == 31:
-    print("27+31 = 58")
-if num1 == 27 and sign == '+' and num2 == 32:
-    print("27+32 = 59")
-if num1 == 27 and sign == '+' and num2 == 33:
-    print("27+33 = 60")
-if num1 == 27 and sign == '+' and num2 == 34:
-    print("27+34 = 61")
-if num1 == 27 and sign == '+' and num2 == 35:
-    print("27+35 = 62")
-if num1 == 27 and sign == '+' and num2 == 36:
-    print("27+36 = 63")
-if num1 == 27 and sign == '+' and num2 == 37:
-    print("27+37 = 64")
-if num1 == 27 and sign == '+' and num2 == 38:
-    print("27+38 = 65")
-if num1 == 27 and sign == '+' and num2 == 39:
-    print("27+39 = 66")
-if num1 == 27 and sign == '+' and num2 == 40:
-    print("27+40 = 67")
-if num1 == 27 and sign == '+' and num2 == 41:
-    print("27+41 = 68")
-if num1 == 27 and sign == '+' and num2 == 42:
-    print("27+42 = 69")
-if num1 == 27 and sign == '+' and num2 == 43:
-    print("27+43 = 70")
-if num1 == 27 and sign == '+' and num2 == 44:
-    print("27+44 = 71")
-if num1 == 27 and sign == '+' and num2 == 45:
-    print("27+45 = 72")
-if num1 == 27 and sign == '+' and num2 == 46:
-    print("27+46 = 73")
-if num1 == 27 and sign == '+' and num2 == 47:
-    print("27+47 = 74")
-if num1 == 27 and sign == '+' and num2 == 48:
-    print("27+48 = 75")
-if num1 == 27 and sign == '+' and num2 == 49:
-    print("27+49 = 76")
-if num1 == 27 and sign == '+' and num2 == 50:
-    print("27+50 = 77")
-if num1 == 28 and sign == '+' and num2 == 0:
-    print("28+0 = 28")
-if num1 == 28 and sign == '+' and num2 == 1:
-    print("28+1 = 29")
-if num1 == 28 and sign == '+' and num2 == 2:
-    print("28+2 = 30")
-if num1 == 28 and sign == '+' and num2 == 3:
-    print("28+3 = 31")
-if num1 == 28 and sign == '+' and num2 == 4:
-    print("28+4 = 32")
-if num1 == 28 and sign == '+' and num2 == 5:
-    print("28+5 = 33")
-if num1 == 28 and sign == '+' and num2 == 6:
-    print("28+6 = 34")
-if num1 == 28 and sign == '+' and num2 == 7:
-    print("28+7 = 35")
-if num1 == 28 and sign == '+' and num2 == 8:
-    print("28+8 = 36")
-if num1 == 28 and sign == '+' and num2 == 9:
-    print("28+9 = 37")
-if num1 == 28 and sign == '+' and num2 == 10:
-    print("28+10 = 38")
-if num1 == 28 and sign == '+' and num2 == 11:
-    print("28+11 = 39")
-if num1 == 28 and sign == '+' and num2 == 12:
-    print("28+12 = 40")
-if num1 == 28 and sign == '+' and num2 == 13:
-    print("28+13 = 41")
-if num1 == 28 and sign == '+' and num2 == 14:
-    print("28+14 = 42")
-if num1 == 28 and sign == '+' and num2 == 15:
-    print("28+15 = 43")
-if num1 == 28 and sign == '+' and num2 == 16:
-    print("28+16 = 44")
-if num1 == 28 and sign == '+' and num2 == 17:
-    print("28+17 = 45")
-if num1 == 28 and sign == '+' and num2 == 18:
-    print("28+18 = 46")
-if num1 == 28 and sign == '+' and num2 == 19:
-    print("28+19 = 47")
-if num1 == 28 and sign == '+' and num2 == 20:
-    print("28+20 = 48")
-if num1 == 28 and sign == '+' and num2 == 21:
-    print("28+21 = 49")
-if num1 == 28 and sign == '+' and num2 == 22:
-    print("28+22 = 50")
-if num1 == 28 and sign == '+' and num2 == 23:
-    print("28+23 = 51")
-if num1 == 28 and sign == '+' and num2 == 24:
-    print("28+24 = 52")
-if num1 == 28 and sign == '+' and num2 == 25:
-    print("28+25 = 53")
-if num1 == 28 and sign == '+' and num2 == 26:
-    print("28+26 = 54")
-if num1 == 28 and sign == '+' and num2 == 27:
-    print("28+27 = 55")
-if num1 == 28 and sign == '+' and num2 == 28:
-    print("28+28 = 56")
-if num1 == 28 and sign == '+' and num2 == 29:
-    print("28+29 = 57")
-if num1 == 28 and sign == '+' and num2 == 30:
-    print("28+30 = 58")
-if num1 == 28 and sign == '+' and num2 == 31:
-    print("28+31 = 59")
-if num1 == 28 and sign == '+' and num2 == 32:
-    print("28+32 = 60")
-if num1 == 28 and sign == '+' and num2 == 33:
-    print("28+33 = 61")
-if num1 == 28 and sign == '+' and num2 == 34:
-    print("28+34 = 62")
-if num1 == 28 and sign == '+' and num2 == 35:
-    print("28+35 = 63")
-if num1 == 28 and sign == '+' and num2 == 36:
-    print("28+36 = 64")
-if num1 == 28 and sign == '+' and num2 == 37:
-    print("28+37 = 65")
-if num1 == 28 and sign == '+' and num2 == 38:
-    print("28+38 = 66")
-if num1 == 28 and sign == '+' and num2 == 39:
-    print("28+39 = 67")
-if num1 == 28 and sign == '+' and num2 == 40:
-    print("28+40 = 68")
-if num1 == 28 and sign == '+' and num2 == 41:
-    print("28+41 = 69")
-if num1 == 28 and sign == '+' and num2 == 42:
-    print("28+42 = 70")
-if num1 == 28 and sign == '+' and num2 == 43:
-    print("28+43 = 71")
-if num1 == 28 and sign == '+' and num2 == 44:
-    print("28+44 = 72")
-if num1 == 28 and sign == '+' and num2 == 45:
-    print("28+45 = 73")
-if num1 == 28 and sign == '+' and num2 == 46:
-    print("28+46 = 74")
-if num1 == 28 and sign == '+' and num2 == 47:
-    print("28+47 = 75")
-if num1 == 28 and sign == '+' and num2 == 48:
-    print("28+48 = 76")
-if num1 == 28 and sign == '+' and num2 == 49:
-    print("28+49 = 77")
-if num1 == 28 and sign == '+' and num2 == 50:
-    print("28+50 = 78")
-if num1 == 29 and sign == '+' and num2 == 0:
-    print("29+0 = 29")
-if num1 == 29 and sign == '+' and num2 == 1:
-    print("29+1 = 30")
-if num1 == 29 and sign == '+' and num2 == 2:
-    print("29+2 = 31")
-if num1 == 29 and sign == '+' and num2 == 3:
-    print("29+3 = 32")
-if num1 == 29 and sign == '+' and num2 == 4:
-    print("29+4 = 33")
-if num1 == 29 and sign == '+' and num2 == 5:
-    print("29+5 = 34")
-if num1 == 29 and sign == '+' and num2 == 6:
-    print("29+6 = 35")
-if num1 == 29 and sign == '+' and num2 == 7:
-    print("29+7 = 36")
-if num1 == 29 and sign == '+' and num2 == 8:
-    print("29+8 = 37")
-if num1 == 29 and sign == '+' and num2 == 9:
-    print("29+9 = 38")
-if num1 == 29 and sign == '+' and num2 == 10:
-    print("29+10 = 39")
-if num1 == 29 and sign == '+' and num2 == 11:
-    print("29+11 = 40")
-if num1 == 29 and sign == '+' and num2 == 12:
-    print("29+12 = 41")
-if num1 == 29 and sign == '+' and num2 == 13:
-    print("29+13 = 42")
-if num1 == 29 and sign == '+' and num2 == 14:
-    print("29+14 = 43")
-if num1 == 29 and sign == '+' and num2 == 15:
-    print("29+15 = 44")
-if num1 == 29 and sign == '+' and num2 == 16:
-    print("29+16 = 45")
-if num1 == 29 and sign == '+' and num2 == 17:
-    print("29+17 = 46")
-if num1 == 29 and sign == '+' and num2 == 18:
-    print("29+18 = 47")
-if num1 == 29 and sign == '+' and num2 == 19:
-    print("29+19 = 48")
-if num1 == 29 and sign == '+' and num2 == 20:
-    print("29+20 = 49")
-if num1 == 29 and sign == '+' and num2 == 21:
-    print("29+21 = 50")
-if num1 == 29 and sign == '+' and num2 == 22:
-    print("29+22 = 51")
-if num1 == 29 and sign == '+' and num2 == 23:
-    print("29+23 = 52")
-if num1 == 29 and sign == '+' and num2 == 24:
-    print("29+24 = 53")
-if num1 == 29 and sign == '+' and num2 == 25:
-    print("29+25 = 54")
-if num1 == 29 and sign == '+' and num2 == 26:
-    print("29+26 = 55")
-if num1 == 29 and sign == '+' and num2 == 27:
-    print("29+27 = 56")
-if num1 == 29 and sign == '+' and num2 == 28:
-    print("29+28 = 57")
-if num1 == 29 and sign == '+' and num2 == 29:
-    print("29+29 = 58")
-if num1 == 29 and sign == '+' and num2 == 30:
-    print("29+30 = 59")
-if num1 == 29 and sign == '+' and num2 == 31:
-    print("29+31 = 60")
-if num1 == 29 and sign == '+' and num2 == 32:
-    print("29+32 = 61")
-if num1 == 29 and sign == '+' and num2 == 33:
-    print("29+33 = 62")
-if num1 == 29 and sign == '+' and num2 == 34:
-    print("29+34 = 63")
-if num1 == 29 and sign == '+' and num2 == 35:
-    print("29+35 = 64")
-if num1 == 29 and sign == '+' and num2 == 36:
-    print("29+36 = 65")
-if num1 == 29 and sign == '+' and num2 == 37:
-    print("29+37 = 66")
-if num1 == 29 and sign == '+' and num2 == 38:
-    print("29+38 = 67")
-if num1 == 29 and sign == '+' and num2 == 39:
-    print("29+39 = 68")
-if num1 == 29 and sign == '+' and num2 == 40:
-    print("29+40 = 69")
-if num1 == 29 and sign == '+' and num2 == 41:
-    print("29+41 = 70")
-if num1 == 29 and sign == '+' and num2 == 42:
-    print("29+42 = 71")
-if num1 == 29 and sign == '+' and num2 == 43:
-    print("29+43 = 72")
-if num1 == 29 and sign == '+' and num2 == 44:
-    print("29+44 = 73")
-if num1 == 29 and sign == '+' and num2 == 45:
-    print("29+45 = 74")
-if num1 == 29 and sign == '+' and num2 == 46:
-    print("29+46 = 75")
-if num1 == 29 and sign == '+' and num2 == 47:
-    print("29+47 = 76")
-if num1 == 29 and sign == '+' and num2 == 48:
-    print("29+48 = 77")
-if num1 == 29 and sign == '+' and num2 == 49:
-    print("29+49 = 78")
-if num1 == 29 and sign == '+' and num2 == 50:
-    print("29+50 = 79")
-if num1 == 30 and sign == '+' and num2 == 0:
-    print("30+0 = 30")
-if num1 == 30 and sign == '+' and num2 == 1:
-    print("30+1 = 31")
-if num1 == 30 and sign == '+' and num2 == 2:
-    print("30+2 = 32")
-if num1 == 30 and sign == '+' and num2 == 3:
-    print("30+3 = 33")
-if num1 == 30 and sign == '+' and num2 == 4:
-    print("30+4 = 34")
-if num1 == 30 and sign == '+' and num2 == 5:
-    print("30+5 = 35")
-if num1 == 30 and sign == '+' and num2 == 6:
-    print("30+6 = 36")
-if num1 == 30 and sign == '+' and num2 == 7:
-    print("30+7 = 37")
-if num1 == 30 and sign == '+' and num2 == 8:
-    print("30+8 = 38")
-if num1 == 30 and sign == '+' and num2 == 9:
-    print("30+9 = 39")
-if num1 == 30 and sign == '+' and num2 == 10:
-    print("30+10 = 40")
-if num1 == 30 and sign == '+' and num2 == 11:
-    print("30+11 = 41")
-if num1 == 30 and sign == '+' and num2 == 12:
-    print("30+12 = 42")
-if num1 == 30 and sign == '+' and num2 == 13:
-    print("30+13 = 43")
-if num1 == 30 and sign == '+' and num2 == 14:
-    print("30+14 = 44")
-if num1 == 30 and sign == '+' and num2 == 15:
-    print("30+15 = 45")
-if num1 == 30 and sign == '+' and num2 == 16:
-    print("30+16 = 46")
-if num1 == 30 and sign == '+' and num2 == 17:
-    print("30+17 = 47")
-if num1 == 30 and sign == '+' and num2 == 18:
-    print("30+18 = 48")
-if num1 == 30 and sign == '+' and num2 == 19:
-    print("30+19 = 49")
-if num1 == 30 and sign == '+' and num2 == 20:
-    print("30+20 = 50")
-if num1 == 30 and sign == '+' and num2 == 21:
-    print("30+21 = 51")
-if num1 == 30 and sign == '+' and num2 == 22:
-    print("30+22 = 52")
-if num1 == 30 and sign == '+' and num2 == 23:
-    print("30+23 = 53")
-if num1 == 30 and sign == '+' and num2 == 24:
-    print("30+24 = 54")
-if num1 == 30 and sign == '+' and num2 == 25:
-    print("30+25 = 55")
-if num1 == 30 and sign == '+' and num2 == 26:
-    print("30+26 = 56")
-if num1 == 30 and sign == '+' and num2 == 27:
-    print("30+27 = 57")
-if num1 == 30 and sign == '+' and num2 == 28:
-    print("30+28 = 58")
-if num1 == 30 and sign == '+' and num2 == 29:
-    print("30+29 = 59")
-if num1 == 30 and sign == '+' and num2 == 30:
-    print("30+30 = 60")
-if num1 == 30 and sign == '+' and num2 == 31:
-    print("30+31 = 61")
-if num1 == 30 and sign == '+' and num2 == 32:
-    print("30+32 = 62")
-if num1 == 30 and sign == '+' and num2 == 33:
-    print("30+33 = 63")
-if num1 == 30 and sign == '+' and num2 == 34:
-    print("30+34 = 64")
-if num1 == 30 and sign == '+' and num2 == 35:
-    print("30+35 = 65")
-if num1 == 30 and sign == '+' and num2 == 36:
-    print("30+36 = 66")
-if num1 == 30 and sign == '+' and num2 == 37:
-    print("30+37 = 67")
-if num1 == 30 and sign == '+' and num2 == 38:
-    print("30+38 = 68")
-if num1 == 30 and sign == '+' and num2 == 39:
-    print("30+39 = 69")
-if num1 == 30 and sign == '+' and num2 == 40:
-    print("30+40 = 70")
-if num1 == 30 and sign == '+' and num2 == 41:
-    print("30+41 = 71")
-if num1 == 30 and sign == '+' and num2 == 42:
-    print("30+42 = 72")
-if num1 == 30 and sign == '+' and num2 == 43:
-    print("30+43 = 73")
-if num1 == 30 and sign == '+' and num2 == 44:
-    print("30+44 = 74")
-if num1 == 30 and sign == '+' and num2 == 45:
-    print("30+45 = 75")
-if num1 == 30 and sign == '+' and num2 == 46:
-    print("30+46 = 76")
-if num1 == 30 and sign == '+' and num2 == 47:
-    print("30+47 = 77")
-if num1 == 30 and sign == '+' and num2 == 48:
-    print("30+48 = 78")
-if num1 == 30 and sign == '+' and num2 == 49:
-    print("30+49 = 79")
-if num1 == 30 and sign == '+' and num2 == 50:
-    print("30+50 = 80")
-if num1 == 31 and sign == '+' and num2 == 0:
-    print("31+0 = 31")
-if num1 == 31 and sign == '+' and num2 == 1:
-    print("31+1 = 32")
-if num1 == 31 and sign == '+' and num2 == 2:
-    print("31+2 = 33")
-if num1 == 31 and sign == '+' and num2 == 3:
-    print("31+3 = 34")
-if num1 == 31 and sign == '+' and num2 == 4:
-    print("31+4 = 35")
-if num1 == 31 and sign == '+' and num2 == 5:
-    print("31+5 = 36")
-if num1 == 31 and sign == '+' and num2 == 6:
-    print("31+6 = 37")
-if num1 == 31 and sign == '+' and num2 == 7:
-    print("31+7 = 38")
-if num1 == 31 and sign == '+' and num2 == 8:
-    print("31+8 = 39")
-if num1 == 31 and sign == '+' and num2 == 9:
-    print("31+9 = 40")
-if num1 == 31 and sign == '+' and num2 == 10:
-    print("31+10 = 41")
-if num1 == 31 and sign == '+' and num2 == 11:
-    print("31+11 = 42")
-if num1 == 31 and sign == '+' and num2 == 12:
-    print("31+12 = 43")
-if num1 == 31 and sign == '+' and num2 == 13:
-    print("31+13 = 44")
-if num1 == 31 and sign == '+' and num2 == 14:
-    print("31+14 = 45")
-if num1 == 31 and sign == '+' and num2 == 15:
-    print("31+15 = 46")
-if num1 == 31 and sign == '+' and num2 == 16:
-    print("31+16 = 47")
-if num1 == 31 and sign == '+' and num2 == 17:
-    print("31+17 = 48")
-if num1 == 31 and sign == '+' and num2 == 18:
-    print("31+18 = 49")
-if num1 == 31 and sign == '+' and num2 == 19:
-    print("31+19 = 50")
-if num1 == 31 and sign == '+' and num2 == 20:
-    print("31+20 = 51")
-if num1 == 31 and sign == '+' and num2 == 21:
-    print("31+21 = 52")
-if num1 == 31 and sign == '+' and num2 == 22:
-    print("31+22 = 53")
-if num1 == 31 and sign == '+' and num2 == 23:
-    print("31+23 = 54")
-if num1 == 31 and sign == '+' and num2 == 24:
-    print("31+24 = 55")
-if num1 == 31 and sign == '+' and num2 == 25:
-    print("31+25 = 56")
-if num1 == 31 and sign == '+' and num2 == 26:
-    print("31+26 = 57")
-if num1 == 31 and sign == '+' and num2 == 27:
-    print("31+27 = 58")
-if num1 == 31 and sign == '+' and num2 == 28:
-    print("31+28 = 59")
-if num1 == 31 and sign == '+' and num2 == 29:
-    print("31+29 = 60")
-if num1 == 31 and sign == '+' and num2 == 30:
-    print("31+30 = 61")
-if num1 == 31 and sign == '+' and num2 == 31:
-    print("31+31 = 62")
-if num1 == 31 and sign == '+' and num2 == 32:
-    print("31+32 = 63")
-if num1 == 31 and sign == '+' and num2 == 33:
-    print("31+33 = 64")
-if num1 == 31 and sign == '+' and num2 == 34:
-    print("31+34 = 65")
-if num1 == 31 and sign == '+' and num2 == 35:
-    print("31+35 = 66")
-if num1 == 31 and sign == '+' and num2 == 36:
-    print("31+36 = 67")
-if num1 == 31 and sign == '+' and num2 == 37:
-    print("31+37 = 68")
-if num1 == 31 and sign == '+' and num2 == 38:
-    print("31+38 = 69")
-if num1 == 31 and sign == '+' and num2 == 39:
-    print("31+39 = 70")
-if num1 == 31 and sign == '+' and num2 == 40:
-    print("31+40 = 71")
-if num1 == 31 and sign == '+' and num2 == 41:
-    print("31+41 = 72")
-if num1 == 31 and sign == '+' and num2 == 42:
-    print("31+42 = 73")
-if num1 == 31 and sign == '+' and num2 == 43:
-    print("31+43 = 74")
-if num1 == 31 and sign == '+' and num2 == 44:
-    print("31+44 = 75")
-if num1 == 31 and sign == '+' and num2 == 45:
-    print("31+45 = 76")
-if num1 == 31 and sign == '+' and num2 == 46:
-    print("31+46 = 77")
-if num1 == 31 and sign == '+' and num2 == 47:
-    print("31+47 = 78")
-if num1 == 31 and sign == '+' and num2 == 48:
-    print("31+48 = 79")
-if num1 == 31 and sign == '+' and num2 == 49:
-    print("31+49 = 80")
-if num1 == 31 and sign == '+' and num2 == 50:
-    print("31+50 = 81")
-if num1 == 32 and sign == '+' and num2 == 0:
-    print("32+0 = 32")
-if num1 == 32 and sign == '+' and num2 == 1:
-    print("32+1 = 33")
-if num1 == 32 and sign == '+' and num2 == 2:
-    print("32+2 = 34")
-if num1 == 32 and sign == '+' and num2 == 3:
-    print("32+3 = 35")
-if num1 == 32 and sign == '+' and num2 == 4:
-    print("32+4 = 36")
-if num1 == 32 and sign == '+' and num2 == 5:
-    print("32+5 = 37")
-if num1 == 32 and sign == '+' and num2 == 6:
-    print("32+6 = 38")
-if num1 == 32 and sign == '+' and num2 == 7:
-    print("32+7 = 39")
-if num1 == 32 and sign == '+' and num2 == 8:
-    print("32+8 = 40")
-if num1 == 32 and sign == '+' and num2 == 9:
-    print("32+9 = 41")
-if num1 == 32 and sign == '+' and num2 == 10:
-    print("32+10 = 42")
-if num1 == 32 and sign == '+' and num2 == 11:
-    print("32+11 = 43")
-if num1 == 32 and sign == '+' and num2 == 12:
-    print("32+12 = 44")
-if num1 == 32 and sign == '+' and num2 == 13:
-    print("32+13 = 45")
-if num1 == 32 and sign == '+' and num2 == 14:
-    print("32+14 = 46")
-if num1 == 32 and sign == '+' and num2 == 15:
-    print("32+15 = 47")
-if num1 == 32 and sign == '+' and num2 == 16:
-    print("32+16 = 48")
-if num1 == 32 and sign == '+' and num2 == 17:
-    print("32+17 = 49")
-if num1 == 32 and sign == '+' and num2 == 18:
-    print("32+18 = 50")
-if num1 == 32 and sign == '+' and num2 == 19:
-    print("32+19 = 51")
-if num1 == 32 and sign == '+' and num2 == 20:
-    print("32+20 = 52")
-if num1 == 32 and sign == '+' and num2 == 21:
-    print("32+21 = 53")
-if num1 == 32 and sign == '+' and num2 == 22:
-    print("32+22 = 54")
-if num1 == 32 and sign == '+' and num2 == 23:
-    print("32+23 = 55")
-if num1 == 32 and sign == '+' and num2 == 24:
-    print("32+24 = 56")
-if num1 == 32 and sign == '+' and num2 == 25:
-    print("32+25 = 57")
-if num1 == 32 and sign == '+' and num2 == 26:
-    print("32+26 = 58")
-if num1 == 32 and sign == '+' and num2 == 27:
-    print("32+27 = 59")
-if num1 == 32 and sign == '+' and num2 == 28:
-    print("32+28 = 60")
-if num1 == 32 and sign == '+' and num2 == 29:
-    print("32+29 = 61")
-if num1 == 32 and sign == '+' and num2 == 30:
-    print("32+30 = 62")
-if num1 == 32 and sign == '+' and num2 == 31:
-    print("32+31 = 63")
-if num1 == 32 and sign == '+' and num2 == 32:
-    print("32+32 = 64")
-if num1 == 32 and sign == '+' and num2 == 33:
-    print("32+33 = 65")
-if num1 == 32 and sign == '+' and num2 == 34:
-    print("32+34 = 66")
-if num1 == 32 and sign == '+' and num2 == 35:
-    print("32+35 = 67")
-if num1 == 32 and sign == '+' and num2 == 36:
-    print("32+36 = 68")
-if num1 == 32 and sign == '+' and num2 == 37:
-    print("32+37 = 69")
-if num1 == 32 and sign == '+' and num2 == 38:
-    print("32+38 = 70")
-if num1 == 32 and sign == '+' and num2 == 39:
-    print("32+39 = 71")
-if num1 == 32 and sign == '+' and num2 == 40:
-    print("32+40 = 72")
-if num1 == 32 and sign == '+' and num2 == 41:
-    print("32+41 = 73")
-if num1 == 32 and sign == '+' and num2 == 42:
-    print("32+42 = 74")
-if num1 == 32 and sign == '+' and num2 == 43:
-    print("32+43 = 75")
-if num1 == 32 and sign == '+' and num2 == 44:
-    print("32+44 = 76")
-if num1 == 32 and sign == '+' and num2 == 45:
-    print("32+45 = 77")
-if num1 == 32 and sign == '+' and num2 == 46:
-    print("32+46 = 78")
-if num1 == 32 and sign == '+' and num2 == 47:
-    print("32+47 = 79")
-if num1 == 32 and sign == '+' and num2 == 48:
-    print("32+48 = 80")
-if num1 == 32 and sign == '+' and num2 == 49:
-    print("32+49 = 81")
-if num1 == 32 and sign == '+' and num2 == 50:
-    print("32+50 = 82")
-if num1 == 33 and sign == '+' and num2 == 0:
-    print("33+0 = 33")
-if num1 == 33 and sign == '+' and num2 == 1:
-    print("33+1 = 34")
-if num1 == 33 and sign == '+' and num2 == 2:
-    print("33+2 = 35")
-if num1 == 33 and sign == '+' and num2 == 3:
-    print("33+3 = 36")
-if num1 == 33 and sign == '+' and num2 == 4:
-    print("33+4 = 37")
-if num1 == 33 and sign == '+' and num2 == 5:
-    print("33+5 = 38")
-if num1 == 33 and sign == '+' and num2 == 6:
-    print("33+6 = 39")
-if num1 == 33 and sign == '+' and num2 == 7:
-    print("33+7 = 40")
-if num1 == 33 and sign == '+' and num2 == 8:
-    print("33+8 = 41")
-if num1 == 33 and sign == '+' and num2 == 9:
-    print("33+9 = 42")
-if num1 == 33 and sign == '+' and num2 == 10:
-    print("33+10 = 43")
-if num1 == 33 and sign == '+' and num2 == 11:
-    print("33+11 = 44")
-if num1 == 33 and sign == '+' and num2 == 12:
-    print("33+12 = 45")
-if num1 == 33 and sign == '+' and num2 == 13:
-    print("33+13 = 46")
-if num1 == 33 and sign == '+' and num2 == 14:
-    print("33+14 = 47")
-if num1 == 33 and sign == '+' and num2 == 15:
-    print("33+15 = 48")
-if num1 == 33 and sign == '+' and num2 == 16:
-    print("33+16 = 49")
-if num1 == 33 and sign == '+' and num2 == 17:
-    print("33+17 = 50")
-if num1 == 33 and sign == '+' and num2 == 18:
-    print("33+18 = 51")
-if num1 == 33 and sign == '+' and num2 == 19:
-    print("33+19 = 52")
-if num1 == 33 and sign == '+' and num2 == 20:
-    print("33+20 = 53")
-if num1 == 33 and sign == '+' and num2 == 21:
-    print("33+21 = 54")
-if num1 == 33 and sign == '+' and num2 == 22:
-    print("33+22 = 55")
-if num1 == 33 and sign == '+' and num2 == 23:
-    print("33+23 = 56")
-if num1 == 33 and sign == '+' and num2 == 24:
-    print("33+24 = 57")
-if num1 == 33 and sign == '+' and num2 == 25:
-    print("33+25 = 58")
-if num1 == 33 and sign == '+' and num2 == 26:
-    print("33+26 = 59")
-if num1 == 33 and sign == '+' and num2 == 27:
-    print("33+27 = 60")
-if num1 == 33 and sign == '+' and num2 == 28:
-    print("33+28 = 61")
-if num1 == 33 and sign == '+' and num2 == 29:
-    print("33+29 = 62")
-if num1 == 33 and sign == '+' and num2 == 30:
-    print("33+30 = 63")
-if num1 == 33 and sign == '+' and num2 == 31:
-    print("33+31 = 64")
-if num1 == 33 and sign == '+' and num2 == 32:
-    print("33+32 = 65")
-if num1 == 33 and sign == '+' and num2 == 33:
-    print("33+33 = 66")
-if num1 == 33 and sign == '+' and num2 == 34:
-    print("33+34 = 67")
-if num1 == 33 and sign == '+' and num2 == 35:
-    print("33+35 = 68")
-if num1 == 33 and sign == '+' and num2 == 36:
-    print("33+36 = 69")
-if num1 == 33 and sign == '+' and num2 == 37:
-    print("33+37 = 70")
-if num1 == 33 and sign == '+' and num2 == 38:
-    print("33+38 = 71")
-if num1 == 33 and sign == '+' and num2 == 39:
-    print("33+39 = 72")
-if num1 == 33 and sign == '+' and num2 == 40:
-    print("33+40 = 73")
-if num1 == 33 and sign == '+' and num2 == 41:
-    print("33+41 = 74")
-if num1 == 33 and sign == '+' and num2 == 42:
-    print("33+42 = 75")
-if num1 == 33 and sign == '+' and num2 == 43:
-    print("33+43 = 76")
-if num1 == 33 and sign == '+' and num2 == 44:
-    print("33+44 = 77")
-if num1 == 33 and sign == '+' and num2 == 45:
-    print("33+45 = 78")
-if num1 == 33 and sign == '+' and num2 == 46:
-    print("33+46 = 79")
-if num1 == 33 and sign == '+' and num2 == 47:
-    print("33+47 = 80")
-if num1 == 33 and sign == '+' and num2 == 48:
-    print("33+48 = 81")
-if num1 == 33 and sign == '+' and num2 == 49:
-    print("33+49 = 82")
-if num1 == 33 and sign == '+' and num2 == 50:
-    print("33+50 = 83")
-if num1 == 34 and sign == '+' and num2 == 0:
-    print("34+0 = 34")
-if num1 == 34 and sign == '+' and num2 == 1:
-    print("34+1 = 35")
-if num1 == 34 and sign == '+' and num2 == 2:
-    print("34+2 = 36")
-if num1 == 34 and sign == '+' and num2 == 3:
-    print("34+3 = 37")
-if num1 == 34 and sign == '+' and num2 == 4:
-    print("34+4 = 38")
-if num1 == 34 and sign == '+' and num2 == 5:
-    print("34+5 = 39")
-if num1 == 34 and sign == '+' and num2 == 6:
-    print("34+6 = 40")
-if num1 == 34 and sign == '+' and num2 == 7:
-    print("34+7 = 41")
-if num1 == 34 and sign == '+' and num2 == 8:
-    print("34+8 = 42")
-if num1 == 34 and sign == '+' and num2 == 9:
-    print("34+9 = 43")
-if num1 == 34 and sign == '+' and num2 == 10:
-    print("34+10 = 44")
-if num1 == 34 and sign == '+' and num2 == 11:
-    print("34+11 = 45")
-if num1 == 34 and sign == '+' and num2 == 12:
-    print("34+12 = 46")
-if num1 == 34 and sign == '+' and num2 == 13:
-    print("34+13 = 47")
-if num1 == 34 and sign == '+' and num2 == 14:
-    print("34+14 = 48")
-if num1 == 34 and sign == '+' and num2 == 15:
-    print("34+15 = 49")
-if num1 == 34 and sign == '+' and num2 == 16:
-    print("34+16 = 50")
-if num1 == 34 and sign == '+' and num2 == 17:
-    print("34+17 = 51")
-if num1 == 34 and sign == '+' and num2 == 18:
-    print("34+18 = 52")
-if num1 == 34 and sign == '+' and num2 == 19:
-    print("34+19 = 53")
-if num1 == 34 and sign == '+' and num2 == 20:
-    print("34+20 = 54")
-if num1 == 34 and sign == '+' and num2 == 21:
-    print("34+21 = 55")
-if num1 == 34 and sign == '+' and num2 == 22:
-    print("34+22 = 56")
-if num1 == 34 and sign == '+' and num2 == 23:
-    print("34+23 = 57")
-if num1 == 34 and sign == '+' and num2 == 24:
-    print("34+24 = 58")
-if num1 == 34 and sign == '+' and num2 == 25:
-    print("34+25 = 59")
-if num1 == 34 and sign == '+' and num2 == 26:
-    print("34+26 = 60")
-if num1 == 34 and sign == '+' and num2 == 27:
-    print("34+27 = 61")
-if num1 == 34 and sign == '+' and num2 == 28:
-    print("34+28 = 62")
-if num1 == 34 and sign == '+' and num2 == 29:
-    print("34+29 = 63")
-if num1 == 34 and sign == '+' and num2 == 30:
-    print("34+30 = 64")
-if num1 == 34 and sign == '+' and num2 == 31:
-    print("34+31 = 65")
-if num1 == 34 and sign == '+' and num2 == 32:
-    print("34+32 = 66")
-if num1 == 34 and sign == '+' and num2 == 33:
-    print("34+33 = 67")
-if num1 == 34 and sign == '+' and num2 == 34:
-    print("34+34 = 68")
-if num1 == 34 and sign == '+' and num2 == 35:
-    print("34+35 = 69")
-if num1 == 34 and sign == '+' and num2 == 36:
-    print("34+36 = 70")
-if num1 == 34 and sign == '+' and num2 == 37:
-    print("34+37 = 71")
-if num1 == 34 and sign == '+' and num2 == 38:
-    print("34+38 = 72")
-if num1 == 34 and sign == '+' and num2 == 39:
-    print("34+39 = 73")
-if num1 == 34 and sign == '+' and num2 == 40:
-    print("34+40 = 74")
-if num1 == 34 and sign == '+' and num2 == 41:
-    print("34+41 = 75")
-if num1 == 34 and sign == '+' and num2 == 42:
-    print("34+42 = 76")
-if num1 == 34 and sign == '+' and num2 == 43:
-    print("34+43 = 77")
-if num1 == 34 and sign == '+' and num2 == 44:
-    print("34+44 = 78")
-if num1 == 34 and sign == '+' and num2 == 45:
-    print("34+45 = 79")
-if num1 == 34 and sign == '+' and num2 == 46:
-    print("34+46 = 80")
-if num1 == 34 and sign == '+' and num2 == 47:
-    print("34+47 = 81")
-if num1 == 34 and sign == '+' and num2 == 48:
-    print("34+48 = 82")
-if num1 == 34 and sign == '+' and num2 == 49:
-    print("34+49 = 83")
-if num1 == 34 and sign == '+' and num2 == 50:
-    print("34+50 = 84")
-if num1 == 35 and sign == '+' and num2 == 0:
-    print("35+0 = 35")
-if num1 == 35 and sign == '+' and num2 == 1:
-    print("35+1 = 36")
-if num1 == 35 and sign == '+' and num2 == 2:
-    print("35+2 = 37")
-if num1 == 35 and sign == '+' and num2 == 3:
-    print("35+3 = 38")
-if num1 == 35 and sign == '+' and num2 == 4:
-    print("35+4 = 39")
-if num1 == 35 and sign == '+' and num2 == 5:
-    print("35+5 = 40")
-if num1 == 35 and sign == '+' and num2 == 6:
-    print("35+6 = 41")
-if num1 == 35 and sign == '+' and num2 == 7:
-    print("35+7 = 42")
-if num1 == 35 and sign == '+' and num2 == 8:
-    print("35+8 = 43")
-if num1 == 35 and sign == '+' and num2 == 9:
-    print("35+9 = 44")
-if num1 == 35 and sign == '+' and num2 == 10:
-    print("35+10 = 45")
-if num1 == 35 and sign == '+' and num2 == 11:
-    print("35+11 = 46")
-if num1 == 35 and sign == '+' and num2 == 12:
-    print("35+12 = 47")
-if num1 == 35 and sign == '+' and num2 == 13:
-    print("35+13 = 48")
-if num1 == 35 and sign == '+' and num2 == 14:
-    print("35+14 = 49")
-if num1 == 35 and sign == '+' and num2 == 15:
-    print("35+15 = 50")
-if num1 == 35 and sign == '+' and num2 == 16:
-    print("35+16 = 51")
-if num1 == 35 and sign == '+' and num2 == 17:
-    print("35+17 = 52")
-if num1 == 35 and sign == '+' and num2 == 18:
-    print("35+18 = 53")
-if num1 == 35 and sign == '+' and num2 == 19:
-    print("35+19 = 54")
-if num1 == 35 and sign == '+' and num2 == 20:
-    print("35+20 = 55")
-if num1 == 35 and sign == '+' and num2 == 21:
-    print("35+21 = 56")
-if num1 == 35 and sign == '+' and num2 == 22:
-    print("35+22 = 57")
-if num1 == 35 and sign == '+' and num2 == 23:
-    print("35+23 = 58")
-if num1 == 35 and sign == '+' and num2 == 24:
-    print("35+24 = 59")
-if num1 == 35 and sign == '+' and num2 == 25:
-    print("35+25 = 60")
-if num1 == 35 and sign == '+' and num2 == 26:
-    print("35+26 = 61")
-if num1 == 35 and sign == '+' and num2 == 27:
-    print("35+27 = 62")
-if num1 == 35 and sign == '+' and num2 == 28:
-    print("35+28 = 63")
-if num1 == 35 and sign == '+' and num2 == 29:
-    print("35+29 = 64")
-if num1 == 35 and sign == '+' and num2 == 30:
-    print("35+30 = 65")
-if num1 == 35 and sign == '+' and num2 == 31:
-    print("35+31 = 66")
-if num1 == 35 and sign == '+' and num2 == 32:
-    print("35+32 = 67")
-if num1 == 35 and sign == '+' and num2 == 33:
-    print("35+33 = 68")
-if num1 == 35 and sign == '+' and num2 == 34:
-    print("35+34 = 69")
-if num1 == 35 and sign == '+' and num2 == 35:
-    print("35+35 = 70")
-if num1 == 35 and sign == '+' and num2 == 36:
-    print("35+36 = 71")
-if num1 == 35 and sign == '+' and num2 == 37:
-    print("35+37 = 72")
-if num1 == 35 and sign == '+' and num2 == 38:
-    print("35+38 = 73")
-if num1 == 35 and sign == '+' and num2 == 39:
-    print("35+39 = 74")
-if num1 == 35 and sign == '+' and num2 == 40:
-    print("35+40 = 75")
-if num1 == 35 and sign == '+' and num2 == 41:
-    print("35+41 = 76")
-if num1 == 35 and sign == '+' and num2 == 42:
-    print("35+42 = 77")
-if num1 == 35 and sign == '+' and num2 == 43:
-    print("35+43 = 78")
-if num1 == 35 and sign == '+' and num2 == 44:
-    print("35+44 = 79")
-if num1 == 35 and sign == '+' and num2 == 45:
-    print("35+45 = 80")
-if num1 == 35 and sign == '+' and num2 == 46:
-    print("35+46 = 81")
-if num1 == 35 and sign == '+' and num2 == 47:
-    print("35+47 = 82")
-if num1 == 35 and sign == '+' and num2 == 48:
-    print("35+48 = 83")
-if num1 == 35 and sign == '+' and num2 == 49:
-    print("35+49 = 84")
-if num1 == 35 and sign == '+' and num2 == 50:
-    print("35+50 = 85")
-if num1 == 36 and sign == '+' and num2 == 0:
-    print("36+0 = 36")
-if num1 == 36 and sign == '+' and num2 == 1:
-    print("36+1 = 37")
-if num1 == 36 and sign == '+' and num2 == 2:
-    print("36+2 = 38")
-if num1 == 36 and sign == '+' and num2 == 3:
-    print("36+3 = 39")
-if num1 == 36 and sign == '+' and num2 == 4:
-    print("36+4 = 40")
-if num1 == 36 and sign == '+' and num2 == 5:
-    print("36+5 = 41")
-if num1 == 36 and sign == '+' and num2 == 6:
-    print("36+6 = 42")
-if num1 == 36 and sign == '+' and num2 == 7:
-    print("36+7 = 43")
-if num1 == 36 and sign == '+' and num2 == 8:
-    print("36+8 = 44")
-if num1 == 36 and sign == '+' and num2 == 9:
-    print("36+9 = 45")
-if num1 == 36 and sign == '+' and num2 == 10:
-    print("36+10 = 46")
-if num1 == 36 and sign == '+' and num2 == 11:
-    print("36+11 = 47")
-if num1 == 36 and sign == '+' and num2 == 12:
-    print("36+12 = 48")
-if num1 == 36 and sign == '+' and num2 == 13:
-    print("36+13 = 49")
-if num1 == 36 and sign == '+' and num2 == 14:
-    print("36+14 = 50")
-if num1 == 36 and sign == '+' and num2 == 15:
-    print("36+15 = 51")
-if num1 == 36 and sign == '+' and num2 == 16:
-    print("36+16 = 52")
-if num1 == 36 and sign == '+' and num2 == 17:
-    print("36+17 = 53")
-if num1 == 36 and sign == '+' and num2 == 18:
-    print("36+18 = 54")
-if num1 == 36 and sign == '+' and num2 == 19:
-    print("36+19 = 55")
-if num1 == 36 and sign == '+' and num2 == 20:
-    print("36+20 = 56")
-if num1 == 36 and sign == '+' and num2 == 21:
-    print("36+21 = 57")
-if num1 == 36 and sign == '+' and num2 == 22:
-    print("36+22 = 58")
-if num1 == 36 and sign == '+' and num2 == 23:
-    print("36+23 = 59")
-if num1 == 36 and sign == '+' and num2 == 24:
-    print("36+24 = 60")
-if num1 == 36 and sign == '+' and num2 == 25:
-    print("36+25 = 61")
-if num1 == 36 and sign == '+' and num2 == 26:
-    print("36+26 = 62")
-if num1 == 36 and sign == '+' and num2 == 27:
-    print("36+27 = 63")
-if num1 == 36 and sign == '+' and num2 == 28:
-    print("36+28 = 64")
-if num1 == 36 and sign == '+' and num2 == 29:
-    print("36+29 = 65")
-if num1 == 36 and sign == '+' and num2 == 30:
-    print("36+30 = 66")
-if num1 == 36 and sign == '+' and num2 == 31:
-    print("36+31 = 67")
-if num1 == 36 and sign == '+' and num2 == 32:
-    print("36+32 = 68")
-if num1 == 36 and sign == '+' and num2 == 33:
-    print("36+33 = 69")
-if num1 == 36 and sign == '+' and num2 == 34:
-    print("36+34 = 70")
-if num1 == 36 and sign == '+' and num2 == 35:
-    print("36+35 = 71")
-if num1 == 36 and sign == '+' and num2 == 36:
-    print("36+36 = 72")
-if num1 == 36 and sign == '+' and num2 == 37:
-    print("36+37 = 73")
-if num1 == 36 and sign == '+' and num2 == 38:
-    print("36+38 = 74")
-if num1 == 36 and sign == '+' and num2 == 39:
-    print("36+39 = 75")
-if num1 == 36 and sign == '+' and num2 == 40:
-    print("36+40 = 76")
-if num1 == 36 and sign == '+' and num2 == 41:
-    print("36+41 = 77")
-if num1 == 36 and sign == '+' and num2 == 42:
-    print("36+42 = 78")
-if num1 == 36 and sign == '+' and num2 == 43:
-    print("36+43 = 79")
-if num1 == 36 and sign == '+' and num2 == 44:
-    print("36+44 = 80")
-if num1 == 36 and sign == '+' and num2 == 45:
-    print("36+45 = 81")
-if num1 == 36 and sign == '+' and num2 == 46:
-    print("36+46 = 82")
-if num1 == 36 and sign == '+' and num2 == 47:
-    print("36+47 = 83")
-if num1 == 36 and sign == '+' and num2 == 48:
-    print("36+48 = 84")
-if num1 == 36 and sign == '+' and num2 == 49:
-    print("36+49 = 85")
-if num1 == 36 and sign == '+' and num2 == 50:
-    print("36+50 = 86")
-if num1 == 37 and sign == '+' and num2 == 0:
-    print("37+0 = 37")
-if num1 == 37 and sign == '+' and num2 == 1:
-    print("37+1 = 38")
-if num1 == 37 and sign == '+' and num2 == 2:
-    print("37+2 = 39")
-if num1 == 37 and sign == '+' and num2 == 3:
-    print("37+3 = 40")
-if num1 == 37 and sign == '+' and num2 == 4:
-    print("37+4 = 41")
-if num1 == 37 and sign == '+' and num2 == 5:
-    print("37+5 = 42")
-if num1 == 37 and sign == '+' and num2 == 6:
-    print("37+6 = 43")
-if num1 == 37 and sign == '+' and num2 == 7:
-    print("37+7 = 44")
-if num1 == 37 and sign == '+' and num2 == 8:
-    print("37+8 = 45")
-if num1 == 37 and sign == '+' and num2 == 9:
-    print("37+9 = 46")
-if num1 == 37 and sign == '+' and num2 == 10:
-    print("37+10 = 47")
-if num1 == 37 and sign == '+' and num2 == 11:
-    print("37+11 = 48")
-if num1 == 37 and sign == '+' and num2 == 12:
-    print("37+12 = 49")
-if num1 == 37 and sign == '+' and num2 == 13:
-    print("37+13 = 50")
-if num1 == 37 and sign == '+' and num2 == 14:
-    print("37+14 = 51")
-if num1 == 37 and sign == '+' and num2 == 15:
-    print("37+15 = 52")
-if num1 == 37 and sign == '+' and num2 == 16:
-    print("37+16 = 53")
-if num1 == 37 and sign == '+' and num2 == 17:
-    print("37+17 = 54")
-if num1 == 37 and sign == '+' and num2 == 18:
-    print("37+18 = 55")
-if num1 == 37 and sign == '+' and num2 == 19:
-    print("37+19 = 56")
-if num1 == 37 and sign == '+' and num2 == 20:
-    print("37+20 = 57")
-if num1 == 37 and sign == '+' and num2 == 21:
-    print("37+21 = 58")
-if num1 == 37 and sign == '+' and num2 == 22:
-    print("37+22 = 59")
-if num1 == 37 and sign == '+' and num2 == 23:
-    print("37+23 = 60")
-if num1 == 37 and sign == '+' and num2 == 24:
-    print("37+24 = 61")
-if num1 == 37 and sign == '+' and num2 == 25:
-    print("37+25 = 62")
-if num1 == 37 and sign == '+' and num2 == 26:
-    print("37+26 = 63")
-if num1 == 37 and sign == '+' and num2 == 27:
-    print("37+27 = 64")
-if num1 == 37 and sign == '+' and num2 == 28:
-    print("37+28 = 65")
-if num1 == 37 and sign == '+' and num2 == 29:
-    print("37+29 = 66")
-if num1 == 37 and sign == '+' and num2 == 30:
-    print("37+30 = 67")
-if num1 == 37 and sign == '+' and num2 == 31:
-    print("37+31 = 68")
-if num1 == 37 and sign == '+' and num2 == 32:
-    print("37+32 = 69")
-if num1 == 37 and sign == '+' and num2 == 33:
-    print("37+33 = 70")
-if num1 == 37 and sign == '+' and num2 == 34:
-    print("37+34 = 71")
-if num1 == 37 and sign == '+' and num2 == 35:
-    print("37+35 = 72")
-if num1 == 37 and sign == '+' and num2 == 36:
-    print("37+36 = 73")
-if num1 == 37 and sign == '+' and num2 == 37:
-    print("37+37 = 74")
-if num1 == 37 and sign == '+' and num2 == 38:
-    print("37+38 = 75")
-if num1 == 37 and sign == '+' and num2 == 39:
-    print("37+39 = 76")
-if num1 == 37 and sign == '+' and num2 == 40:
-    print("37+40 = 77")
-if num1 == 37 and sign == '+' and num2 == 41:
-    print("37+41 = 78")
-if num1 == 37 and sign == '+' and num2 == 42:
-    print("37+42 = 79")
-if num1 == 37 and sign == '+' and num2 == 43:
-    print("37+43 = 80")
-if num1 == 37 and sign == '+' and num2 == 44:
-    print("37+44 = 81")
-if num1 == 37 and sign == '+' and num2 == 45:
-    print("37+45 = 82")
-if num1 == 37 and sign == '+' and num2 == 46:
-    print("37+46 = 83")
-if num1 == 37 and sign == '+' and num2 == 47:
-    print("37+47 = 84")
-if num1 == 37 and sign == '+' and num2 == 48:
-    print("37+48 = 85")
-if num1 == 37 and sign == '+' and num2 == 49:
-    print("37+49 = 86")
-if num1 == 37 and sign == '+' and num2 == 50:
-    print("37+50 = 87")
-if num1 == 38 and sign == '+' and num2 == 0:
-    print("38+0 = 38")
-if num1 == 38 and sign == '+' and num2 == 1:
-    print("38+1 = 39")
-if num1 == 38 and sign == '+' and num2 == 2:
-    print("38+2 = 40")
-if num1 == 38 and sign == '+' and num2 == 3:
-    print("38+3 = 41")
-if num1 == 38 and sign == '+' and num2 == 4:
-    print("38+4 = 42")
-if num1 == 38 and sign == '+' and num2 == 5:
-    print("38+5 = 43")
-if num1 == 38 and sign == '+' and num2 == 6:
-    print("38+6 = 44")
-if num1 == 38 and sign == '+' and num2 == 7:
-    print("38+7 = 45")
-if num1 == 38 and sign == '+' and num2 == 8:
-    print("38+8 = 46")
-if num1 == 38 and sign == '+' and num2 == 9:
-    print("38+9 = 47")
-if num1 == 38 and sign == '+' and num2 == 10:
-    print("38+10 = 48")
-if num1 == 38 and sign == '+' and num2 == 11:
-    print("38+11 = 49")
-if num1 == 38 and sign == '+' and num2 == 12:
-    print("38+12 = 50")
-if num1 == 38 and sign == '+' and num2 == 13:
-    print("38+13 = 51")
-if num1 == 38 and sign == '+' and num2 == 14:
-    print("38+14 = 52")
-if num1 == 38 and sign == '+' and num2 == 15:
-    print("38+15 = 53")
-if num1 == 38 and sign == '+' and num2 == 16:
-    print("38+16 = 54")
-if num1 == 38 and sign == '+' and num2 == 17:
-    print("38+17 = 55")
-if num1 == 38 and sign == '+' and num2 == 18:
-    print("38+18 = 56")
-if num1 == 38 and sign == '+' and num2 == 19:
-    print("38+19 = 57")
-if num1 == 38 and sign == '+' and num2 == 20:
-    print("38+20 = 58")
-if num1 == 38 and sign == '+' and num2 == 21:
-    print("38+21 = 59")
-if num1 == 38 and sign == '+' and num2 == 22:
-    print("38+22 = 60")
-if num1 == 38 and sign == '+' and num2 == 23:
-    print("38+23 = 61")
-if num1 == 38 and sign == '+' and num2 == 24:
-    print("38+24 = 62")
-if num1 == 38 and sign == '+' and num2 == 25:
-    print("38+25 = 63")
-if num1 == 38 and sign == '+' and num2 == 26:
-    print("38+26 = 64")
-if num1 == 38 and sign == '+' and num2 == 27:
-    print("38+27 = 65")
-if num1 == 38 and sign == '+' and num2 == 28:
-    print("38+28 = 66")
-if num1 == 38 and sign == '+' and num2 == 29:
-    print("38+29 = 67")
-if num1 == 38 and sign == '+' and num2 == 30:
-    print("38+30 = 68")
-if num1 == 38 and sign == '+' and num2 == 31:
-    print("38+31 = 69")
-if num1 == 38 and sign == '+' and num2 == 32:
-    print("38+32 = 70")
-if num1 == 38 and sign == '+' and num2 == 33:
-    print("38+33 = 71")
-if num1 == 38 and sign == '+' and num2 == 34:
-    print("38+34 = 72")
-if num1 == 38 and sign == '+' and num2 == 35:
-    print("38+35 = 73")
-if num1 == 38 and sign == '+' and num2 == 36:
-    print("38+36 = 74")
-if num1 == 38 and sign == '+' and num2 == 37:
-    print("38+37 = 75")
-if num1 == 38 and sign == '+' and num2 == 38:
-    print("38+38 = 76")
-if num1 == 38 and sign == '+' and num2 == 39:
-    print("38+39 = 77")
-if num1 == 38 and sign == '+' and num2 == 40:
-    print("38+40 = 78")
-if num1 == 38 and sign == '+' and num2 == 41:
-    print("38+41 = 79")
-if num1 == 38 and sign == '+' and num2 == 42:
-    print("38+42 = 80")
-if num1 == 38 and sign == '+' and num2 == 43:
-    print("38+43 = 81")
-if num1 == 38 and sign == '+' and num2 == 44:
-    print("38+44 = 82")
-if num1 == 38 and sign == '+' and num2 == 45:
-    print("38+45 = 83")
-if num1 == 38 and sign == '+' and num2 == 46:
-    print("38+46 = 84")
-if num1 == 38 and sign == '+' and num2 == 47:
-    print("38+47 = 85")
-if num1 == 38 and sign == '+' and num2 == 48:
-    print("38+48 = 86")
-if num1 == 38 and sign == '+' and num2 == 49:
-    print("38+49 = 87")
-if num1 == 38 and sign == '+' and num2 == 50:
-    print("38+50 = 88")
-if num1 == 39 and sign == '+' and num2 == 0:
-    print("39+0 = 39")
-if num1 == 39 and sign == '+' and num2 == 1:
-    print("39+1 = 40")
-if num1 == 39 and sign == '+' and num2 == 2:
-    print("39+2 = 41")
-if num1 == 39 and sign == '+' and num2 == 3:
-    print("39+3 = 42")
-if num1 == 39 and sign == '+' and num2 == 4:
-    print("39+4 = 43")
-if num1 == 39 and sign == '+' and num2 == 5:
-    print("39+5 = 44")
-if num1 == 39 and sign == '+' and num2 == 6:
-    print("39+6 = 45")
-if num1 == 39 and sign == '+' and num2 == 7:
-    print("39+7 = 46")
-if num1 == 39 and sign == '+' and num2 == 8:
-    print("39+8 = 47")
-if num1 == 39 and sign == '+' and num2 == 9:
-    print("39+9 = 48")
-if num1 == 39 and sign == '+' and num2 == 10:
-    print("39+10 = 49")
-if num1 == 39 and sign == '+' and num2 == 11:
-    print("39+11 = 50")
-if num1 == 39 and sign == '+' and num2 == 12:
-    print("39+12 = 51")
-if num1 == 39 and sign == '+' and num2 == 13:
-    print("39+13 = 52")
-if num1 == 39 and sign == '+' and num2 == 14:
-    print("39+14 = 53")
-if num1 == 39 and sign == '+' and num2 == 15:
-    print("39+15 = 54")
-if num1 == 39 and sign == '+' and num2 == 16:
-    print("39+16 = 55")
-if num1 == 39 and sign == '+' and num2 == 17:
-    print("39+17 = 56")
-if num1 == 39 and sign == '+' and num2 == 18:
-    print("39+18 = 57")
-if num1 == 39 and sign == '+' and num2 == 19:
-    print("39+19 = 58")
-if num1 == 39 and sign == '+' and num2 == 20:
-    print("39+20 = 59")
-if num1 == 39 and sign == '+' and num2 == 21:
-    print("39+21 = 60")
-if num1 == 39 and sign == '+' and num2 == 22:
-    print("39+22 = 61")
-if num1 == 39 and sign == '+' and num2 == 23:
-    print("39+23 = 62")
-if num1 == 39 and sign == '+' and num2 == 24:
-    print("39+24 = 63")
-if num1 == 39 and sign == '+' and num2 == 25:
-    print("39+25 = 64")
-if num1 == 39 and sign == '+' and num2 == 26:
-    print("39+26 = 65")
-if num1 == 39 and sign == '+' and num2 == 27:
-    print("39+27 = 66")
-if num1 == 39 and sign == '+' and num2 == 28:
-    print("39+28 = 67")
-if num1 == 39 and sign == '+' and num2 == 29:
-    print("39+29 = 68")
-if num1 == 39 and sign == '+' and num2 == 30:
-    print("39+30 = 69")
-if num1 == 39 and sign == '+' and num2 == 31:
-    print("39+31 = 70")
-if num1 == 39 and sign == '+' and num2 == 32:
-    print("39+32 = 71")
-if num1 == 39 and sign == '+' and num2 == 33:
-    print("39+33 = 72")
-if num1 == 39 and sign == '+' and num2 == 34:
-    print("39+34 = 73")
-if num1 == 39 and sign == '+' and num2 == 35:
-    print("39+35 = 74")
-if num1 == 39 and sign == '+' and num2 == 36:
-    print("39+36 = 75")
-if num1 == 39 and sign == '+' and num2 == 37:
-    print("39+37 = 76")
-if num1 == 39 and sign == '+' and num2 == 38:
-    print("39+38 = 77")
-if num1 == 39 and sign == '+' and num2 == 39:
-    print("39+39 = 78")
-if num1 == 39 and sign == '+' and num2 == 40:
-    print("39+40 = 79")
-if num1 == 39 and sign == '+' and num2 == 41:
-    print("39+41 = 80")
-if num1 == 39 and sign == '+' and num2 == 42:
-    print("39+42 = 81")
-if num1 == 39 and sign == '+' and num2 == 43:
-    print("39+43 = 82")
-if num1 == 39 and sign == '+' and num2 == 44:
-    print("39+44 = 83")
-if num1 == 39 and sign == '+' and num2 == 45:
-    print("39+45 = 84")
-if num1 == 39 and sign == '+' and num2 == 46:
-    print("39+46 = 85")
-if num1 == 39 and sign == '+' and num2 == 47:
-    print("39+47 = 86")
-if num1 == 39 and sign == '+' and num2 == 48:
-    print("39+48 = 87")
-if num1 == 39 and sign == '+' and num2 == 49:
-    print("39+49 = 88")
-if num1 == 39 and sign == '+' and num2 == 50:
-    print("39+50 = 89")
-if num1 == 40 and sign == '+' and num2 == 0:
-    print("40+0 = 40")
-if num1 == 40 and sign == '+' and num2 == 1:
-    print("40+1 = 41")
-if num1 == 40 and sign == '+' and num2 == 2:
-    print("40+2 = 42")
-if num1 == 40 and sign == '+' and num2 == 3:
-    print("40+3 = 43")
-if num1 == 40 and sign == '+' and num2 == 4:
-    print("40+4 = 44")
-if num1 == 40 and sign == '+' and num2 == 5:
-    print("40+5 = 45")
-if num1 == 40 and sign == '+' and num2 == 6:
-    print("40+6 = 46")
-if num1 == 40 and sign == '+' and num2 == 7:
-    print("40+7 = 47")
-if num1 == 40 and sign == '+' and num2 == 8:
-    print("40+8 = 48")
-if num1 == 40 and sign == '+' and num2 == 9:
-    print("40+9 = 49")
-if num1 == 40 and sign == '+' and num2 == 10:
-    print("40+10 = 50")
-if num1 == 40 and sign == '+' and num2 == 11:
-    print("40+11 = 51")
-if num1 == 40 and sign == '+' and num2 == 12:
-    print("40+12 = 52")
-if num1 == 40 and sign == '+' and num2 == 13:
-    print("40+13 = 53")
-if num1 == 40 and sign == '+' and num2 == 14:
-    print("40+14 = 54")
-if num1 == 40 and sign == '+' and num2 == 15:
-    print("40+15 = 55")
-if num1 == 40 and sign == '+' and num2 == 16:
-    print("40+16 = 56")
-if num1 == 40 and sign == '+' and num2 == 17:
-    print("40+17 = 57")
-if num1 == 40 and sign == '+' and num2 == 18:
-    print("40+18 = 58")
-if num1 == 40 and sign == '+' and num2 == 19:
-    print("40+19 = 59")
-if num1 == 40 and sign == '+' and num2 == 20:
-    print("40+20 = 60")
-if num1 == 40 and sign == '+' and num2 == 21:
-    print("40+21 = 61")
-if num1 == 40 and sign == '+' and num2 == 22:
-    print("40+22 = 62")
-if num1 == 40 and sign == '+' and num2 == 23:
-    print("40+23 = 63")
-if num1 == 40 and sign == '+' and num2 == 24:
-    print("40+24 = 64")
-if num1 == 40 and sign == '+' and num2 == 25:
-    print("40+25 = 65")
-if num1 == 40 and sign == '+' and num2 == 26:
-    print("40+26 = 66")
-if num1 == 40 and sign == '+' and num2 == 27:
-    print("40+27 = 67")
-if num1 == 40 and sign == '+' and num2 == 28:
-    print("40+28 = 68")
-if num1 == 40 and sign == '+' and num2 == 29:
-    print("40+29 = 69")
-if num1 == 40 and sign == '+' and num2 == 30:
-    print("40+30 = 70")
-if num1 == 40 and sign == '+' and num2 == 31:
-    print("40+31 = 71")
-if num1 == 40 and sign == '+' and num2 == 32:
-    print("40+32 = 72")
-if num1 == 40 and sign == '+' and num2 == 33:
-    print("40+33 = 73")
-if num1 == 40 and sign == '+' and num2 == 34:
-    print("40+34 = 74")
-if num1 == 40 and sign == '+' and num2 == 35:
-    print("40+35 = 75")
-if num1 == 40 and sign == '+' and num2 == 36:
-    print("40+36 = 76")
-if num1 == 40 and sign == '+' and num2 == 37:
-    print("40+37 = 77")
-if num1 == 40 and sign == '+' and num2 == 38:
-    print("40+38 = 78")
-if num1 == 40 and sign == '+' and num2 == 39:
-    print("40+39 = 79")
-if num1 == 40 and sign == '+' and num2 == 40:
-    print("40+40 = 80")
-if num1 == 40 and sign == '+' and num2 == 41:
-    print("40+41 = 81")
-if num1 == 40 and sign == '+' and num2 == 42:
-    print("40+42 = 82")
-if num1 == 40 and sign == '+' and num2 == 43:
-    print("40+43 = 83")
-if num1 == 40 and sign == '+' and num2 == 44:
-    print("40+44 = 84")
-if num1 == 40 and sign == '+' and num2 == 45:
-    print("40+45 = 85")
-if num1 == 40 and sign == '+' and num2 == 46:
-    print("40+46 = 86")
-if num1 == 40 and sign == '+' and num2 == 47:
-    print("40+47 = 87")
-if num1 == 40 and sign == '+' and num2 == 48:
-    print("40+48 = 88")
-if num1 == 40 and sign == '+' and num2 == 49:
-    print("40+49 = 89")
-if num1 == 40 and sign == '+' and num2 == 50:
-    print("40+50 = 90")
-if num1 == 41 and sign == '+' and num2 == 0:
-    print("41+0 = 41")
-if num1 == 41 and sign == '+' and num2 == 1:
-    print("41+1 = 42")
-if num1 == 41 and sign == '+' and num2 == 2:
-    print("41+2 = 43")
-if num1 == 41 and sign == '+' and num2 == 3:
-    print("41+3 = 44")
-if num1 == 41 and sign == '+' and num2 == 4:
-    print("41+4 = 45")
-if num1 == 41 and sign == '+' and num2 == 5:
-    print("41+5 = 46")
-if num1 == 41 and sign == '+' and num2 == 6:
-    print("41+6 = 47")
-if num1 == 41 and sign == '+' and num2 == 7:
-    print("41+7 = 48")
-if num1 == 41 and sign == '+' and num2 == 8:
-    print("41+8 = 49")
-if num1 == 41 and sign == '+' and num2 == 9:
-    print("41+9 = 50")
-if num1 == 41 and sign == '+' and num2 == 10:
-    print("41+10 = 51")
-if num1 == 41 and sign == '+' and num2 == 11:
-    print("41+11 = 52")
-if num1 == 41 and sign == '+' and num2 == 12:
-    print("41+12 = 53")
-if num1 == 41 and sign == '+' and num2 == 13:
-    print("41+13 = 54")
-if num1 == 41 and sign == '+' and num2 == 14:
-    print("41+14 = 55")
-if num1 == 41 and sign == '+' and num2 == 15:
-    print("41+15 = 56")
-if num1 == 41 and sign == '+' and num2 == 16:
-    print("41+16 = 57")
-if num1 == 41 and sign == '+' and num2 == 17:
-    print("41+17 = 58")
-if num1 == 41 and sign == '+' and num2 == 18:
-    print("41+18 = 59")
-if num1 == 41 and sign == '+' and num2 == 19:
-    print("41+19 = 60")
-if num1 == 41 and sign == '+' and num2 == 20:
-    print("41+20 = 61")
-if num1 == 41 and sign == '+' and num2 == 21:
-    print("41+21 = 62")
-if num1 == 41 and sign == '+' and num2 == 22:
-    print("41+22 = 63")
-if num1 == 41 and sign == '+' and num2 == 23:
-    print("41+23 = 64")
-if num1 == 41 and sign == '+' and num2 == 24:
-    print("41+24 = 65")
-if num1 == 41 and sign == '+' and num2 == 25:
-    print("41+25 = 66")
-if num1 == 41 and sign == '+' and num2 == 26:
-    print("41+26 = 67")
-if num1 == 41 and sign == '+' and num2 == 27:
-    print("41+27 = 68")
-if num1 == 41 and sign == '+' and num2 == 28:
-    print("41+28 = 69")
-if num1 == 41 and sign == '+' and num2 == 29:
-    print("41+29 = 70")
-if num1 == 41 and sign == '+' and num2 == 30:
-    print("41+30 = 71")
-if num1 == 41 and sign == '+' and num2 == 31:
-    print("41+31 = 72")
-if num1 == 41 and sign == '+' and num2 == 32:
-    print("41+32 = 73")
-if num1 == 41 and sign == '+' and num2 == 33:
-    print("41+33 = 74")
-if num1 == 41 and sign == '+' and num2 == 34:
-    print("41+34 = 75")
-if num1 == 41 and sign == '+' and num2 == 35:
-    print("41+35 = 76")
-if num1 == 41 and sign == '+' and num2 == 36:
-    print("41+36 = 77")
-if num1 == 41 and sign == '+' and num2 == 37:
-    print("41+37 = 78")
-if num1 == 41 and sign == '+' and num2 == 38:
-    print("41+38 = 79")
-if num1 == 41 and sign == '+' and num2 == 39:
-    print("41+39 = 80")
-if num1 == 41 and sign == '+' and num2 == 40:
-    print("41+40 = 81")
-if num1 == 41 and sign == '+' and num2 == 41:
-    print("41+41 = 82")
-if num1 == 41 and sign == '+' and num2 == 42:
-    print("41+42 = 83")
-if num1 == 41 and sign == '+' and num2 == 43:
-    print("41+43 = 84")
-if num1 == 41 and sign == '+' and num2 == 44:
-    print("41+44 = 85")
-if num1 == 41 and sign == '+' and num2 == 45:
-    print("41+45 = 86")
-if num1 == 41 and sign == '+' and num2 == 46:
-    print("41+46 = 87")
-if num1 == 41 and sign == '+' and num2 == 47:
-    print("41+47 = 88")
-if num1 == 41 and sign == '+' and num2 == 48:
-    print("41+48 = 89")
-if num1 == 41 and sign == '+' and num2 == 49:
-    print("41+49 = 90")
-if num1 == 41 and sign == '+' and num2 == 50:
-    print("41+50 = 91")
-if num1 == 42 and sign == '+' and num2 == 0:
-    print("42+0 = 42")
-if num1 == 42 and sign == '+' and num2 == 1:
-    print("42+1 = 43")
-if num1 == 42 and sign == '+' and num2 == 2:
-    print("42+2 = 44")
-if num1 == 42 and sign == '+' and num2 == 3:
-    print("42+3 = 45")
-if num1 == 42 and sign == '+' and num2 == 4:
-    print("42+4 = 46")
-if num1 == 42 and sign == '+' and num2 == 5:
-    print("42+5 = 47")
-if num1 == 42 and sign == '+' and num2 == 6:
-    print("42+6 = 48")
-if num1 == 42 and sign == '+' and num2 == 7:
-    print("42+7 = 49")
-if num1 == 42 and sign == '+' and num2 == 8:
-    print("42+8 = 50")
-if num1 == 42 and sign == '+' and num2 == 9:
-    print("42+9 = 51")
-if num1 == 42 and sign == '+' and num2 == 10:
-    print("42+10 = 52")
-if num1 == 42 and sign == '+' and num2 == 11:
-    print("42+11 = 53")
-if num1 == 42 and sign == '+' and num2 == 12:
-    print("42+12 = 54")
-if num1 == 42 and sign == '+' and num2 == 13:
-    print("42+13 = 55")
-if num1 == 42 and sign == '+' and num2 == 14:
-    print("42+14 = 56")
-if num1 == 42 and sign == '+' and num2 == 15:
-    print("42+15 = 57")
-if num1 == 42 and sign == '+' and num2 == 16:
-    print("42+16 = 58")
-if num1 == 42 and sign == '+' and num2 == 17:
-    print("42+17 = 59")
-if num1 == 42 and sign == '+' and num2 == 18:
-    print("42+18 = 60")
-if num1 == 42 and sign == '+' and num2 == 19:
-    print("42+19 = 61")
-if num1 == 42 and sign == '+' and num2 == 20:
-    print("42+20 = 62")
-if num1 == 42 and sign == '+' and num2 == 21:
-    print("42+21 = 63")
-if num1 == 42 and sign == '+' and num2 == 22:
-    print("42+22 = 64")
-if num1 == 42 and sign == '+' and num2 == 23:
-    print("42+23 = 65")
-if num1 == 42 and sign == '+' and num2 == 24:
-    print("42+24 = 66")
-if num1 == 42 and sign == '+' and num2 == 25:
-    print("42+25 = 67")
-if num1 == 42 and sign == '+' and num2 == 26:
-    print("42+26 = 68")
-if num1 == 42 and sign == '+' and num2 == 27:
-    print("42+27 = 69")
-if num1 == 42 and sign == '+' and num2 == 28:
-    print("42+28 = 70")
-if num1 == 42 and sign == '+' and num2 == 29:
-    print("42+29 = 71")
-if num1 == 42 and sign == '+' and num2 == 30:
-    print("42+30 = 72")
-if num1 == 42 and sign == '+' and num2 == 31:
-    print("42+31 = 73")
-if num1 == 42 and sign == '+' and num2 == 32:
-    print("42+32 = 74")
-if num1 == 42 and sign == '+' and num2 == 33:
-    print("42+33 = 75")
-if num1 == 42 and sign == '+' and num2 == 34:
-    print("42+34 = 76")
-if num1 == 42 and sign == '+' and num2 == 35:
-    print("42+35 = 77")
-if num1 == 42 and sign == '+' and num2 == 36:
-    print("42+36 = 78")
-if num1 == 42 and sign == '+' and num2 == 37:
-    print("42+37 = 79")
-if num1 == 42 and sign == '+' and num2 == 38:
-    print("42+38 = 80")
-if num1 == 42 and sign == '+' and num2 == 39:
-    print("42+39 = 81")
-if num1 == 42 and sign == '+' and num2 == 40:
-    print("42+40 = 82")
-if num1 == 42 and sign == '+' and num2 == 41:
-    print("42+41 = 83")
-if num1 == 42 and sign == '+' and num2 == 42:
-    print("42+42 = 84")
-if num1 == 42 and sign == '+' and num2 == 43:
-    print("42+43 = 85")
-if num1 == 42 and sign == '+' and num2 == 44:
-    print("42+44 = 86")
-if num1 == 42 and sign == '+' and num2 == 45:
-    print("42+45 = 87")
-if num1 == 42 and sign == '+' and num2 == 46:
-    print("42+46 = 88")
-if num1 == 42 and sign == '+' and num2 == 47:
-    print("42+47 = 89")
-if num1 == 42 and sign == '+' and num2 == 48:
-    print("42+48 = 90")
-if num1 == 42 and sign == '+' and num2 == 49:
-    print("42+49 = 91")
-if num1 == 42 and sign == '+' and num2 == 50:
-    print("42+50 = 92")
-if num1 == 43 and sign == '+' and num2 == 0:
-    print("43+0 = 43")
-if num1 == 43 and sign == '+' and num2 == 1:
-    print("43+1 = 44")
-if num1 == 43 and sign == '+' and num2 == 2:
-    print("43+2 = 45")
-if num1 == 43 and sign == '+' and num2 == 3:
-    print("43+3 = 46")
-if num1 == 43 and sign == '+' and num2 == 4:
-    print("43+4 = 47")
-if num1 == 43 and sign == '+' and num2 == 5:
-    print("43+5 = 48")
-if num1 == 43 and sign == '+' and num2 == 6:
-    print("43+6 = 49")
-if num1 == 43 and sign == '+' and num2 == 7:
-    print("43+7 = 50")
-if num1 == 43 and sign == '+' and num2 == 8:
-    print("43+8 = 51")
-if num1 == 43 and sign == '+' and num2 == 9:
-    print("43+9 = 52")
-if num1 == 43 and sign == '+' and num2 == 10:
-    print("43+10 = 53")
-if num1 == 43 and sign == '+' and num2 == 11:
-    print("43+11 = 54")
-if num1 == 43 and sign == '+' and num2 == 12:
-    print("43+12 = 55")
-if num1 == 43 and sign == '+' and num2 == 13:
-    print("43+13 = 56")
-if num1 == 43 and sign == '+' and num2 == 14:
-    print("43+14 = 57")
-if num1 == 43 and sign == '+' and num2 == 15:
-    print("43+15 = 58")
-if num1 == 43 and sign == '+' and num2 == 16:
-    print("43+16 = 59")
-if num1 == 43 and sign == '+' and num2 == 17:
-    print("43+17 = 60")
-if num1 == 43 and sign == '+' and num2 == 18:
-    print("43+18 = 61")
-if num1 == 43 and sign == '+' and num2 == 19:
-    print("43+19 = 62")
-if num1 == 43 and sign == '+' and num2 == 20:
-    print("43+20 = 63")
-if num1 == 43 and sign == '+' and num2 == 21:
-    print("43+21 = 64")
-if num1 == 43 and sign == '+' and num2 == 22:
-    print("43+22 = 65")
-if num1 == 43 and sign == '+' and num2 == 23:
-    print("43+23 = 66")
-if num1 == 43 and sign == '+' and num2 == 24:
-    print("43+24 = 67")
-if num1 == 43 and sign == '+' and num2 == 25:
-    print("43+25 = 68")
-if num1 == 43 and sign == '+' and num2 == 26:
-    print("43+26 = 69")
-if num1 == 43 and sign == '+' and num2 == 27:
-    print("43+27 = 70")
-if num1 == 43 and sign == '+' and num2 == 28:
-    print("43+28 = 71")
-if num1 == 43 and sign == '+' and num2 == 29:
-    print("43+29 = 72")
-if num1 == 43 and sign == '+' and num2 == 30:
-    print("43+30 = 73")
-if num1 == 43 and sign == '+' and num2 == 31:
-    print("43+31 = 74")
-if num1 == 43 and sign == '+' and num2 == 32:
-    print("43+32 = 75")
-if num1 == 43 and sign == '+' and num2 == 33:
-    print("43+33 = 76")
-if num1 == 43 and sign == '+' and num2 == 34:
-    print("43+34 = 77")
-if num1 == 43 and sign == '+' and num2 == 35:
-    print("43+35 = 78")
-if num1 == 43 and sign == '+' and num2 == 36:
-    print("43+36 = 79")
-if num1 == 43 and sign == '+' and num2 == 37:
-    print("43+37 = 80")
-if num1 == 43 and sign == '+' and num2 == 38:
-    print("43+38 = 81")
-if num1 == 43 and sign == '+' and num2 == 39:
-    print("43+39 = 82")
-if num1 == 43 and sign == '+' and num2 == 40:
-    print("43+40 = 83")
-if num1 == 43 and sign == '+' and num2 == 41:
-    print("43+41 = 84")
-if num1 == 43 and sign == '+' and num2 == 42:
-    print("43+42 = 85")
-if num1 == 43 and sign == '+' and num2 == 43:
-    print("43+43 = 86")
-if num1 == 43 and sign == '+' and num2 == 44:
-    print("43+44 = 87")
-if num1 == 43 and sign == '+' and num2 == 45:
-    print("43+45 = 88")
-if num1 == 43 and sign == '+' and num2 == 46:
-    print("43+46 = 89")
-if num1 == 43 and sign == '+' and num2 == 47:
-    print("43+47 = 90")
-if num1 == 43 and sign == '+' and num2 == 48:
-    print("43+48 = 91")
-if num1 == 43 and sign == '+' and num2 == 49:
-    print("43+49 = 92")
-if num1 == 43 and sign == '+' and num2 == 50:
-    print("43+50 = 93")
-if num1 == 44 and sign == '+' and num2 == 0:
-    print("44+0 = 44")
-if num1 == 44 and sign == '+' and num2 == 1:
-    print("44+1 = 45")
-if num1 == 44 and sign == '+' and num2 == 2:
-    print("44+2 = 46")
-if num1 == 44 and sign == '+' and num2 == 3:
-    print("44+3 = 47")
-if num1 == 44 and sign == '+' and num2 == 4:
-    print("44+4 = 48")
-if num1 == 44 and sign == '+' and num2 == 5:
-    print("44+5 = 49")
-if num1 == 44 and sign == '+' and num2 == 6:
-    print("44+6 = 50")
-if num1 == 44 and sign == '+' and num2 == 7:
-    print("44+7 = 51")
-if num1 == 44 and sign == '+' and num2 == 8:
-    print("44+8 = 52")
-if num1 == 44 and sign == '+' and num2 == 9:
-    print("44+9 = 53")
-if num1 == 44 and sign == '+' and num2 == 10:
-    print("44+10 = 54")
-if num1 == 44 and sign == '+' and num2 == 11:
-    print("44+11 = 55")
-if num1 == 44 and sign == '+' and num2 == 12:
-    print("44+12 = 56")
-if num1 == 44 and sign == '+' and num2 == 13:
-    print("44+13 = 57")
-if num1 == 44 and sign == '+' and num2 == 14:
-    print("44+14 = 58")
-if num1 == 44 and sign == '+' and num2 == 15:
-    print("44+15 = 59")
-if num1 == 44 and sign == '+' and num2 == 16:
-    print("44+16 = 60")
-if num1 == 44 and sign == '+' and num2 == 17:
-    print("44+17 = 61")
-if num1 == 44 and sign == '+' and num2 == 18:
-    print("44+18 = 62")
-if num1 == 44 and sign == '+' and num2 == 19:
-    print("44+19 = 63")
-if num1 == 44 and sign == '+' and num2 == 20:
-    print("44+20 = 64")
-if num1 == 44 and sign == '+' and num2 == 21:
-    print("44+21 = 65")
-if num1 == 44 and sign == '+' and num2 == 22:
-    print("44+22 = 66")
-if num1 == 44 and sign == '+' and num2 == 23:
-    print("44+23 = 67")
-if num1 == 44 and sign == '+' and num2 == 24:
-    print("44+24 = 68")
-if num1 == 44 and sign == '+' and num2 == 25:
-    print("44+25 = 69")
-if num1 == 44 and sign == '+' and num2 == 26:
-    print("44+26 = 70")
-if num1 == 44 and sign == '+' and num2 == 27:
-    print("44+27 = 71")
-if num1 == 44 and sign == '+' and num2 == 28:
-    print("44+28 = 72")
-if num1 == 44 and sign == '+' and num2 == 29:
-    print("44+29 = 73")
-if num1 == 44 and sign == '+' and num2 == 30:
-    print("44+30 = 74")
-if num1 == 44 and sign == '+' and num2 == 31:
-    print("44+31 = 75")
-if num1 == 44 and sign == '+' and num2 == 32:
-    print("44+32 = 76")
-if num1 == 44 and sign == '+' and num2 == 33:
-    print("44+33 = 77")
-if num1 == 44 and sign == '+' and num2 == 34:
-    print("44+34 = 78")
-if num1 == 44 and sign == '+' and num2 == 35:
-    print("44+35 = 79")
-if num1 == 44 and sign == '+' and num2 == 36:
-    print("44+36 = 80")
-if num1 == 44 and sign == '+' and num2 == 37:
-    print("44+37 = 81")
-if num1 == 44 and sign == '+' and num2 == 38:
-    print("44+38 = 82")
-if num1 == 44 and sign == '+' and num2 == 39:
-    print("44+39 = 83")
-if num1 == 44 and sign == '+' and num2 == 40:
-    print("44+40 = 84")
-if num1 == 44 and sign == '+' and num2 == 41:
-    print("44+41 = 85")
-if num1 == 44 and sign == '+' and num2 == 42:
-    print("44+42 = 86")
-if num1 == 44 and sign == '+' and num2 == 43:
-    print("44+43 = 87")
-if num1 == 44 and sign == '+' and num2 == 44:
-    print("44+44 = 88")
-if num1 == 44 and sign == '+' and num2 == 45:
-    print("44+45 = 89")
-if num1 == 44 and sign == '+' and num2 == 46:
-    print("44+46 = 90")
-if num1 == 44 and sign == '+' and num2 == 47:
-    print("44+47 = 91")
-if num1 == 44 and sign == '+' and num2 == 48:
-    print("44+48 = 92")
-if num1 == 44 and sign == '+' and num2 == 49:
-    print("44+49 = 93")
-if num1 == 44 and sign == '+' and num2 == 50:
-    print("44+50 = 94")
-if num1 == 45 and sign == '+' and num2 == 0:
-    print("45+0 = 45")
-if num1 == 45 and sign == '+' and num2 == 1:
-    print("45+1 = 46")
-if num1 == 45 and sign == '+' and num2 == 2:
-    print("45+2 = 47")
-if num1 == 45 and sign == '+' and num2 == 3:
-    print("45+3 = 48")
-if num1 == 45 and sign == '+' and num2 == 4:
-    print("45+4 = 49")
-if num1 == 45 and sign == '+' and num2 == 5:
-    print("45+5 = 50")
-if num1 == 45 and sign == '+' and num2 == 6:
-    print("45+6 = 51")
-if num1 == 45 and sign == '+' and num2 == 7:
-    print("45+7 = 52")
-if num1 == 45 and sign == '+' and num2 == 8:
-    print("45+8 = 53")
-if num1 == 45 and sign == '+' and num2 == 9:
-    print("45+9 = 54")
-if num1 == 45 and sign == '+' and num2 == 10:
-    print("45+10 = 55")
-if num1 == 45 and sign == '+' and num2 == 11:
-    print("45+11 = 56")
-if num1 == 45 and sign == '+' and num2 == 12:
-    print("45+12 = 57")
-if num1 == 45 and sign == '+' and num2 == 13:
-    print("45+13 = 58")
-if num1 == 45 and sign == '+' and num2 == 14:
-    print("45+14 = 59")
-if num1 == 45 and sign == '+' and num2 == 15:
-    print("45+15 = 60")
-if num1 == 45 and sign == '+' and num2 == 16:
-    print("45+16 = 61")
-if num1 == 45 and sign == '+' and num2 == 17:
-    print("45+17 = 62")
-if num1 == 45 and sign == '+' and num2 == 18:
-    print("45+18 = 63")
-if num1 == 45 and sign == '+' and num2 == 19:
-    print("45+19 = 64")
-if num1 == 45 and sign == '+' and num2 == 20:
-    print("45+20 = 65")
-if num1 == 45 and sign == '+' and num2 == 21:
-    print("45+21 = 66")
-if num1 == 45 and sign == '+' and num2 == 22:
-    print("45+22 = 67")
-if num1 == 45 and sign == '+' and num2 == 23:
-    print("45+23 = 68")
-if num1 == 45 and sign == '+' and num2 == 24:
-    print("45+24 = 69")
-if num1 == 45 and sign == '+' and num2 == 25:
-    print("45+25 = 70")
-if num1 == 45 and sign == '+' and num2 == 26:
-    print("45+26 = 71")
-if num1 == 45 and sign == '+' and num2 == 27:
-    print("45+27 = 72")
-if num1 == 45 and sign == '+' and num2 == 28:
-    print("45+28 = 73")
-if num1 == 45 and sign == '+' and num2 == 29:
-    print("45+29 = 74")
-if num1 == 45 and sign == '+' and num2 == 30:
-    print("45+30 = 75")
-if num1 == 45 and sign == '+' and num2 == 31:
-    print("45+31 = 76")
-if num1 == 45 and sign == '+' and num2 == 32:
-    print("45+32 = 77")
-if num1 == 45 and sign == '+' and num2 == 33:
-    print("45+33 = 78")
-if num1 == 45 and sign == '+' and num2 == 34:
-    print("45+34 = 79")
-if num1 == 45 and sign == '+' and num2 == 35:
-    print("45+35 = 80")
-if num1 == 45 and sign == '+' and num2 == 36:
-    print("45+36 = 81")
-if num1 == 45 and sign == '+' and num2 == 37:
-    print("45+37 = 82")
-if num1 == 45 and sign == '+' and num2 == 38:
-    print("45+38 = 83")
-if num1 == 45 and sign == '+' and num2 == 39:
-    print("45+39 = 84")
-if num1 == 45 and sign == '+' and num2 == 40:
-    print("45+40 = 85")
-if num1 == 45 and sign == '+' and num2 == 41:
-    print("45+41 = 86")
-if num1 == 45 and sign == '+' and num2 == 42:
-    print("45+42 = 87")
-if num1 == 45 and sign == '+' and num2 == 43:
-    print("45+43 = 88")
-if num1 == 45 and sign == '+' and num2 == 44:
-    print("45+44 = 89")
-if num1 == 45 and sign == '+' and num2 == 45:
-    print("45+45 = 90")
-if num1 == 45 and sign == '+' and num2 == 46:
-    print("45+46 = 91")
-if num1 == 45 and sign == '+' and num2 == 47:
-    print("45+47 = 92")
-if num1 == 45 and sign == '+' and num2 == 48:
-    print("45+48 = 93")
-if num1 == 45 and sign == '+' and num2 == 49:
-    print("45+49 = 94")
-if num1 == 45 and sign == '+' and num2 == 50:
-    print("45+50 = 95")
-if num1 == 46 and sign == '+' and num2 == 0:
-    print("46+0 = 46")
-if num1 == 46 and sign == '+' and num2 == 1:
-    print("46+1 = 47")
-if num1 == 46 and sign == '+' and num2 == 2:
-    print("46+2 = 48")
-if num1 == 46 and sign == '+' and num2 == 3:
-    print("46+3 = 49")
-if num1 == 46 and sign == '+' and num2 == 4:
-    print("46+4 = 50")
-if num1 == 46 and sign == '+' and num2 == 5:
-    print("46+5 = 51")
-if num1 == 46 and sign == '+' and num2 == 6:
-    print("46+6 = 52")
-if num1 == 46 and sign == '+' and num2 == 7:
-    print("46+7 = 53")
-if num1 == 46 and sign == '+' and num2 == 8:
-    print("46+8 = 54")
-if num1 == 46 and sign == '+' and num2 == 9:
-    print("46+9 = 55")
-if num1 == 46 and sign == '+' and num2 == 10:
-    print("46+10 = 56")
-if num1 == 46 and sign == '+' and num2 == 11:
-    print("46+11 = 57")
-if num1 == 46 and sign == '+' and num2 == 12:
-    print("46+12 = 58")
-if num1 == 46 and sign == '+' and num2 == 13:
-    print("46+13 = 59")
-if num1 == 46 and sign == '+' and num2 == 14:
-    print("46+14 = 60")
-if num1 == 46 and sign == '+' and num2 == 15:
-    print("46+15 = 61")
-if num1 == 46 and sign == '+' and num2 == 16:
-    print("46+16 = 62")
-if num1 == 46 and sign == '+' and num2 == 17:
-    print("46+17 = 63")
-if num1 == 46 and sign == '+' and num2 == 18:
-    print("46+18 = 64")
-if num1 == 46 and sign == '+' and num2 == 19:
-    print("46+19 = 65")
-if num1 == 46 and sign == '+' and num2 == 20:
-    print("46+20 = 66")
-if num1 == 46 and sign == '+' and num2 == 21:
-    print("46+21 = 67")
-if num1 == 46 and sign == '+' and num2 == 22:
-    print("46+22 = 68")
-if num1 == 46 and sign == '+' and num2 == 23:
-    print("46+23 = 69")
-if num1 == 46 and sign == '+' and num2 == 24:
-    print("46+24 = 70")
-if num1 == 46 and sign == '+' and num2 == 25:
-    print("46+25 = 71")
-if num1 == 46 and sign == '+' and num2 == 26:
-    print("46+26 = 72")
-if num1 == 46 and sign == '+' and num2 == 27:
-    print("46+27 = 73")
-if num1 == 46 and sign == '+' and num2 == 28:
-    print("46+28 = 74")
-if num1 == 46 and sign == '+' and num2 == 29:
-    print("46+29 = 75")
-if num1 == 46 and sign == '+' and num2 == 30:
-    print("46+30 = 76")
-if num1 == 46 and sign == '+' and num2 == 31:
-    print("46+31 = 77")
-if num1 == 46 and sign == '+' and num2 == 32:
-    print("46+32 = 78")
-if num1 == 46 and sign == '+' and num2 == 33:
-    print("46+33 = 79")
-if num1 == 46 and sign == '+' and num2 == 34:
-    print("46+34 = 80")
-if num1 == 46 and sign == '+' and num2 == 35:
-    print("46+35 = 81")
-if num1 == 46 and sign == '+' and num2 == 36:
-    print("46+36 = 82")
-if num1 == 46 and sign == '+' and num2 == 37:
-    print("46+37 = 83")
-if num1 == 46 and sign == '+' and num2 == 38:
-    print("46+38 = 84")
-if num1 == 46 and sign == '+' and num2 == 39:
-    print("46+39 = 85")
-if num1 == 46 and sign == '+' and num2 == 40:
-    print("46+40 = 86")
-if num1 == 46 and sign == '+' and num2 == 41:
-    print("46+41 = 87")
-if num1 == 46 and sign == '+' and num2 == 42:
-    print("46+42 = 88")
-if num1 == 46 and sign == '+' and num2 == 43:
-    print("46+43 = 89")
-if num1 == 46 and sign == '+' and num2 == 44:
-    print("46+44 = 90")
-if num1 == 46 and sign == '+' and num2 == 45:
-    print("46+45 = 91")
-if num1 == 46 and sign == '+' and num2 == 46:
-    print("46+46 = 92")
-if num1 == 46 and sign == '+' and num2 == 47:
-    print("46+47 = 93")
-if num1 == 46 and sign == '+' and num2 == 48:
-    print("46+48 = 94")
-if num1 == 46 and sign == '+' and num2 == 49:
-    print("46+49 = 95")
-if num1 == 46 and sign == '+' and num2 == 50:
-    print("46+50 = 96")
-if num1 == 47 and sign == '+' and num2 == 0:
-    print("47+0 = 47")
-if num1 == 47 and sign == '+' and num2 == 1:
-    print("47+1 = 48")
-if num1 == 47 and sign == '+' and num2 == 2:
-    print("47+2 = 49")
-if num1 == 47 and sign == '+' and num2 == 3:
-    print("47+3 = 50")
-if num1 == 47 and sign == '+' and num2 == 4:
-    print("47+4 = 51")
-if num1 == 47 and sign == '+' and num2 == 5:
-    print("47+5 = 52")
-if num1 == 47 and sign == '+' and num2 == 6:
-    print("47+6 = 53")
-if num1 == 47 and sign == '+' and num2 == 7:
-    print("47+7 = 54")
-if num1 == 47 and sign == '+' and num2 == 8:
-    print("47+8 = 55")
-if num1 == 47 and sign == '+' and num2 == 9:
-    print("47+9 = 56")
-if num1 == 47 and sign == '+' and num2 == 10:
-    print("47+10 = 57")
-if num1 == 47 and sign == '+' and num2 == 11:
-    print("47+11 = 58")
-if num1 == 47 and sign == '+' and num2 == 12:
-    print("47+12 = 59")
-if num1 == 47 and sign == '+' and num2 == 13:
-    print("47+13 = 60")
-if num1 == 47 and sign == '+' and num2 == 14:
-    print("47+14 = 61")
-if num1 == 47 and sign == '+' and num2 == 15:
-    print("47+15 = 62")
-if num1 == 47 and sign == '+' and num2 == 16:
-    print("47+16 = 63")
-if num1 == 47 and sign == '+' and num2 == 17:
-    print("47+17 = 64")
-if num1 == 47 and sign == '+' and num2 == 18:
-    print("47+18 = 65")
-if num1 == 47 and sign == '+' and num2 == 19:
-    print("47+19 = 66")
-if num1 == 47 and sign == '+' and num2 == 20:
-    print("47+20 = 67")
-if num1 == 47 and sign == '+' and num2 == 21:
-    print("47+21 = 68")
-if num1 == 47 and sign == '+' and num2 == 22:
-    print("47+22 = 69")
-if num1 == 47 and sign == '+' and num2 == 23:
-    print("47+23 = 70")
-if num1 == 47 and sign == '+' and num2 == 24:
-    print("47+24 = 71")
-if num1 == 47 and sign == '+' and num2 == 25:
-    print("47+25 = 72")
-if num1 == 47 and sign == '+' and num2 == 26:
-    print("47+26 = 73")
-if num1 == 47 and sign == '+' and num2 == 27:
-    print("47+27 = 74")
-if num1 == 47 and sign == '+' and num2 == 28:
-    print("47+28 = 75")
-if num1 == 47 and sign == '+' and num2 == 29:
-    print("47+29 = 76")
-if num1 == 47 and sign == '+' and num2 == 30:
-    print("47+30 = 77")
-if num1 == 47 and sign == '+' and num2 == 31:
-    print("47+31 = 78")
-if num1 == 47 and sign == '+' and num2 == 32:
-    print("47+32 = 79")
-if num1 == 47 and sign == '+' and num2 == 33:
-    print("47+33 = 80")
-if num1 == 47 and sign == '+' and num2 == 34:
-    print("47+34 = 81")
-if num1 == 47 and sign == '+' and num2 == 35:
-    print("47+35 = 82")
-if num1 == 47 and sign == '+' and num2 == 36:
-    print("47+36 = 83")
-if num1 == 47 and sign == '+' and num2 == 37:
-    print("47+37 = 84")
-if num1 == 47 and sign == '+' and num2 == 38:
-    print("47+38 = 85")
-if num1 == 47 and sign == '+' and num2 == 39:
-    print("47+39 = 86")
-if num1 == 47 and sign == '+' and num2 == 40:
-    print("47+40 = 87")
-if num1 == 47 and sign == '+' and num2 == 41:
-    print("47+41 = 88")
-if num1 == 47 and sign == '+' and num2 == 42:
-    print("47+42 = 89")
-if num1 == 47 and sign == '+' and num2 == 43:
-    print("47+43 = 90")
-if num1 == 47 and sign == '+' and num2 == 44:
-    print("47+44 = 91")
-if num1 == 47 and sign == '+' and num2 == 45:
-    print("47+45 = 92")
-if num1 == 47 and sign == '+' and num2 == 46:
-    print("47+46 = 93")
-if num1 == 47 and sign == '+' and num2 == 47:
-    print("47+47 = 94")
-if num1 == 47 and sign == '+' and num2 == 48:
-    print("47+48 = 95")
-if num1 == 47 and sign == '+' and num2 == 49:
-    print("47+49 = 96")
-if num1 == 47 and sign == '+' and num2 == 50:
-    print("47+50 = 97")
-if num1 == 48 and sign == '+' and num2 == 0:
-    print("48+0 = 48")
-if num1 == 48 and sign == '+' and num2 == 1:
-    print("48+1 = 49")
-if num1 == 48 and sign == '+' and num2 == 2:
-    print("48+2 = 50")
-if num1 == 48 and sign == '+' and num2 == 3:
-    print("48+3 = 51")
-if num1 == 48 and sign == '+' and num2 == 4:
-    print("48+4 = 52")
-if num1 == 48 and sign == '+' and num2 == 5:
-    print("48+5 = 53")
-if num1 == 48 and sign == '+' and num2 == 6:
-    print("48+6 = 54")
-if num1 == 48 and sign == '+' and num2 == 7:
-    print("48+7 = 55")
-if num1 == 48 and sign == '+' and num2 == 8:
-    print("48+8 = 56")
-if num1 == 48 and sign == '+' and num2 == 9:
-    print("48+9 = 57")
-if num1 == 48 and sign == '+' and num2 == 10:
-    print("48+10 = 58")
-if num1 == 48 and sign == '+' and num2 == 11:
-    print("48+11 = 59")
-if num1 == 48 and sign == '+' and num2 == 12:
-    print("48+12 = 60")
-if num1 == 48 and sign == '+' and num2 == 13:
-    print("48+13 = 61")
-if num1 == 48 and sign == '+' and num2 == 14:
-    print("48+14 = 62")
-if num1 == 48 and sign == '+' and num2 == 15:
-    print("48+15 = 63")
-if num1 == 48 and sign == '+' and num2 == 16:
-    print("48+16 = 64")
-if num1 == 48 and sign == '+' and num2 == 17:
-    print("48+17 = 65")
-if num1 == 48 and sign == '+' and num2 == 18:
-    print("48+18 = 66")
-if num1 == 48 and sign == '+' and num2 == 19:
-    print("48+19 = 67")
-if num1 == 48 and sign == '+' and num2 == 20:
-    print("48+20 = 68")
-if num1 == 48 and sign == '+' and num2 == 21:
-    print("48+21 = 69")
-if num1 == 48 and sign == '+' and num2 == 22:
-    print("48+22 = 70")
-if num1 == 48 and sign == '+' and num2 == 23:
-    print("48+23 = 71")
-if num1 == 48 and sign == '+' and num2 == 24:
-    print("48+24 = 72")
-if num1 == 48 and sign == '+' and num2 == 25:
-    print("48+25 = 73")
-if num1 == 48 and sign == '+' and num2 == 26:
-    print("48+26 = 74")
-if num1 == 48 and sign == '+' and num2 == 27:
-    print("48+27 = 75")
-if num1 == 48 and sign == '+' and num2 == 28:
-    print("48+28 = 76")
-if num1 == 48 and sign == '+' and num2 == 29:
-    print("48+29 = 77")
-if num1 == 48 and sign == '+' and num2 == 30:
-    print("48+30 = 78")
-if num1 == 48 and sign == '+' and num2 == 31:
-    print("48+31 = 79")
-if num1 == 48 and sign == '+' and num2 == 32:
-    print("48+32 = 80")
-if num1 == 48 and sign == '+' and num2 == 33:
-    print("48+33 = 81")
-if num1 == 48 and sign == '+' and num2 == 34:
-    print("48+34 = 82")
-if num1 == 48 and sign == '+' and num2 == 35:
-    print("48+35 = 83")
-if num1 == 48 and sign == '+' and num2 == 36:
-    print("48+36 = 84")
-if num1 == 48 and sign == '+' and num2 == 37:
-    print("48+37 = 85")
-if num1 == 48 and sign == '+' and num2 == 38:
-    print("48+38 = 86")
-if num1 == 48 and sign == '+' and num2 == 39:
-    print("48+39 = 87")
-if num1 == 48 and sign == '+' and num2 == 40:
-    print("48+40 = 88")
-if num1 == 48 and sign == '+' and num2 == 41:
-    print("48+41 = 89")
-if num1 == 48 and sign == '+' and num2 == 42:
-    print("48+42 = 90")
-if num1 == 48 and sign == '+' and num2 == 43:
-    print("48+43 = 91")
-if num1 == 48 and sign == '+' and num2 == 44:
-    print("48+44 = 92")
-if num1 == 48 and sign == '+' and num2 == 45:
-    print("48+45 = 93")
-if num1 == 48 and sign == '+' and num2 == 46:
-    print("48+46 = 94")
-if num1 == 48 and sign == '+' and num2 == 47:
-    print("48+47 = 95")
-if num1 == 48 and sign == '+' and num2 == 48:
-    print("48+48 = 96")
-if num1 == 48 and sign == '+' and num2 == 49:
-    print("48+49 = 97")
-if num1 == 48 and sign == '+' and num2 == 50:
-    print("48+50 = 98")
-if num1 == 49 and sign == '+' and num2 == 0:
-    print("49+0 = 49")
-if num1 == 49 and sign == '+' and num2 == 1:
-    print("49+1 = 50")
-if num1 == 49 and sign == '+' and num2 == 2:
-    print("49+2 = 51")
-if num1 == 49 and sign == '+' and num2 == 3:
-    print("49+3 = 52")
-if num1 == 49 and sign == '+' and num2 == 4:
-    print("49+4 = 53")
-if num1 == 49 and sign == '+' and num2 == 5:
-    print("49+5 = 54")
-if num1 == 49 and sign == '+' and num2 == 6:
-    print("49+6 = 55")
-if num1 == 49 and sign == '+' and num2 == 7:
-    print("49+7 = 56")
-if num1 == 49 and sign == '+' and num2 == 8:
-    print("49+8 = 57")
-if num1 == 49 and sign == '+' and num2 == 9:
-    print("49+9 = 58")
-if num1 == 49 and sign == '+' and num2 == 10:
-    print("49+10 = 59")
-if num1 == 49 and sign == '+' and num2 == 11:
-    print("49+11 = 60")
-if num1 == 49 and sign == '+' and num2 == 12:
-    print("49+12 = 61")
-if num1 == 49 and sign == '+' and num2 == 13:
-    print("49+13 = 62")
-if num1 == 49 and sign == '+' and num2 == 14:
-    print("49+14 = 63")
-if num1 == 49 and sign == '+' and num2 == 15:
-    print("49+15 = 64")
-if num1 == 49 and sign == '+' and num2 == 16:
-    print("49+16 = 65")
-if num1 == 49 and sign == '+' and num2 == 17:
-    print("49+17 = 66")
-if num1 == 49 and sign == '+' and num2 == 18:
-    print("49+18 = 67")
-if num1 == 49 and sign == '+' and num2 == 19:
-    print("49+19 = 68")
-if num1 == 49 and sign == '+' and num2 == 20:
-    print("49+20 = 69")
-if num1 == 49 and sign == '+' and num2 == 21:
-    print("49+21 = 70")
-if num1 == 49 and sign == '+' and num2 == 22:
-    print("49+22 = 71")
-if num1 == 49 and sign == '+' and num2 == 23:
-    print("49+23 = 72")
-if num1 == 49 and sign == '+' and num2 == 24:
-    print("49+24 = 73")
-if num1 == 49 and sign == '+' and num2 == 25:
-    print("49+25 = 74")
-if num1 == 49 and sign == '+' and num2 == 26:
-    print("49+26 = 75")
-if num1 == 49 and sign == '+' and num2 == 27:
-    print("49+27 = 76")
-if num1 == 49 and sign == '+' and num2 == 28:
-    print("49+28 = 77")
-if num1 == 49 and sign == '+' and num2 == 29:
-    print("49+29 = 78")
-if num1 == 49 and sign == '+' and num2 == 30:
-    print("49+30 = 79")
-if num1 == 49 and sign == '+' and num2 == 31:
-    print("49+31 = 80")
-if num1 == 49 and sign == '+' and num2 == 32:
-    print("49+32 = 81")
-if num1 == 49 and sign == '+' and num2 == 33:
-    print("49+33 = 82")
-if num1 == 49 and sign == '+' and num2 == 34:
-    print("49+34 = 83")
-if num1 == 49 and sign == '+' and num2 == 35:
-    print("49+35 = 84")
-if num1 == 49 and sign == '+' and num2 == 36:
-    print("49+36 = 85")
-if num1 == 49 and sign == '+' and num2 == 37:
-    print("49+37 = 86")
-if num1 == 49 and sign == '+' and num2 == 38:
-    print("49+38 = 87")
-if num1 == 49 and sign == '+' and num2 == 39:
-    print("49+39 = 88")
-if num1 == 49 and sign == '+' and num2 == 40:
-    print("49+40 = 89")
-if num1 == 49 and sign == '+' and num2 == 41:
-    print("49+41 = 90")
-if num1 == 49 and sign == '+' and num2 == 42:
-    print("49+42 = 91")
-if num1 == 49 and sign == '+' and num2 == 43:
-    print("49+43 = 92")
-if num1 == 49 and sign == '+' and num2 == 44:
-    print("49+44 = 93")
-if num1 == 49 and sign == '+' and num2 == 45:
-    print("49+45 = 94")
-if num1 == 49 and sign == '+' and num2 == 46:
-    print("49+46 = 95")
-if num1 == 49 and sign == '+' and num2 == 47:
-    print("49+47 = 96")
-if num1 == 49 and sign == '+' and num2 == 48:
-    print("49+48 = 97")
-if num1 == 49 and sign == '+' and num2 == 49:
-    print("49+49 = 98")
-if num1 == 49 and sign == '+' and num2 == 50:
-    print("49+50 = 99")
-if num1 == 50 and sign == '+' and num2 == 0:
-    print("50+0 = 50")
-if num1 == 50 and sign == '+' and num2 == 1:
-    print("50+1 = 51")
-if num1 == 50 and sign == '+' and num2 == 2:
-    print("50+2 = 52")
-if num1 == 50 and sign == '+' and num2 == 3:
-    print("50+3 = 53")
-if num1 == 50 and sign == '+' and num2 == 4:
-    print("50+4 = 54")
-if num1 == 50 and sign == '+' and num2 == 5:
-    print("50+5 = 55")
-if num1 == 50 and sign == '+' and num2 == 6:
-    print("50+6 = 56")
-if num1 == 50 and sign == '+' and num2 == 7:
-    print("50+7 = 57")
-if num1 == 50 and sign == '+' and num2 == 8:
-    print("50+8 = 58")
-if num1 == 50 and sign == '+' and num2 == 9:
-    print("50+9 = 59")
-if num1 == 50 and sign == '+' and num2 == 10:
-    print("50+10 = 60")
-if num1 == 50 and sign == '+' and num2 == 11:
-    print("50+11 = 61")
-if num1 == 50 and sign == '+' and num2 == 12:
-    print("50+12 = 62")
-if num1 == 50 and sign == '+' and num2 == 13:
-    print("50+13 = 63")
-if num1 == 50 and sign == '+' and num2 == 14:
-    print("50+14 = 64")
-if num1 == 50 and sign == '+' and num2 == 15:
-    print("50+15 = 65")
-if num1 == 50 and sign == '+' and num2 == 16:
-    print("50+16 = 66")
-if num1 == 50 and sign == '+' and num2 == 17:
-    print("50+17 = 67")
-if num1 == 50 and sign == '+' and num2 == 18:
-    print("50+18 = 68")
-if num1 == 50 and sign == '+' and num2 == 19:
-    print("50+19 = 69")
-if num1 == 50 and sign == '+' and num2 == 20:
-    print("50+20 = 70")
-if num1 == 50 and sign == '+' and num2 == 21:
-    print("50+21 = 71")
-if num1 == 50 and sign == '+' and num2 == 22:
-    print("50+22 = 72")
-if num1 == 50 and sign == '+' and num2 == 23:
-    print("50+23 = 73")
-if num1 == 50 and sign == '+' and num2 == 24:
-    print("50+24 = 74")
-if num1 == 50 and sign == '+' and num2 == 25:
-    print("50+25 = 75")
-if num1 == 50 and sign == '+' and num2 == 26:
-    print("50+26 = 76")
-if num1 == 50 and sign == '+' and num2 == 27:
-    print("50+27 = 77")
-if num1 == 50 and sign == '+' and num2 == 28:
-    print("50+28 = 78")
-if num1 == 50 and sign == '+' and num2 == 29:
-    print("50+29 = 79")
-if num1 == 50 and sign == '+' and num2 == 30:
-    print("50+30 = 80")
-if num1 == 50 and sign == '+' and num2 == 31:
-    print("50+31 = 81")
-if num1 == 50 and sign == '+' and num2 == 32:
-    print("50+32 = 82")
-if num1 == 50 and sign == '+' and num2 == 33:
-    print("50+33 = 83")
-if num1 == 50 and sign == '+' and num2 == 34:
-    print("50+34 = 84")
-if num1 == 50 and sign == '+' and num2 == 35:
-    print("50+35 = 85")
-if num1 == 50 and sign == '+' and num2 == 36:
-    print("50+36 = 86")
-if num1 == 50 and sign == '+' and num2 == 37:
-    print("50+37 = 87")
-if num1 == 50 and sign == '+' and num2 == 38:
-    print("50+38 = 88")
-if num1 == 50 and sign == '+' and num2 == 39:
-    print("50+39 = 89")
-if num1 == 50 and sign == '+' and num2 == 40:
-    print("50+40 = 90")
-if num1 == 50 and sign == '+' and num2 == 41:
-    print("50+41 = 91")
-if num1 == 50 and sign == '+' and num2 == 42:
-    print("50+42 = 92")
-if num1 == 50 and sign == '+' and num2 == 43:
-    print("50+43 = 93")
-if num1 == 50 and sign == '+' and num2 == 44:
-    print("50+44 = 94")
-if num1 == 50 and sign == '+' and num2 == 45:
-    print("50+45 = 95")
-if num1 == 50 and sign == '+' and num2 == 46:
-    print("50+46 = 96")
-if num1 == 50 and sign == '+' and num2 == 47:
-    print("50+47 = 97")
-if num1 == 50 and sign == '+' and num2 == 48:
-    print("50+48 = 98")
-if num1 == 50 and sign == '+' and num2 == 49:
-    print("50+49 = 99")
-if num1 == 50 and sign == '+' and num2 == 50:
-    print("50+50 = 100")
-if num1 == 0 and sign == '-' and num2 == 0:
-    print("0-0 = 0")
-if num1 == 0 and sign == '-' and num2 == 1:
-    print("0-1 = -1")
-if num1 == 0 and sign == '-' and num2 == 2:
-    print("0-2 = -2")
-if num1 == 0 and sign == '-' and num2 == 3:
-    print("0-3 = -3")
-if num1 == 0 and sign == '-' and num2 == 4:
-    print("0-4 = -4")
-if num1 == 0 and sign == '-' and num2 == 5:
-    print("0-5 = -5")
-if num1 == 0 and sign == '-' and num2 == 6:
-    print("0-6 = -6")
-if num1 == 0 and sign == '-' and num2 == 7:
-    print("0-7 = -7")
-if num1 == 0 and sign == '-' and num2 == 8:
-    print("0-8 = -8")
-if num1 == 0 and sign == '-' and num2 == 9:
-    print("0-9 = -9")
-if num1 == 0 and sign == '-' and num2 == 10:
-    print("0-10 = -10")
-if num1 == 0 and sign == '-' and num2 == 11:
-    print("0-11 = -11")
-if num1 == 0 and sign == '-' and num2 == 12:
-    print("0-12 = -12")
-if num1 == 0 and sign == '-' and num2 == 13:
-    print("0-13 = -13")
-if num1 == 0 and sign == '-' and num2 == 14:
-    print("0-14 = -14")
-if num1 == 0 and sign == '-' and num2 == 15:
-    print("0-15 = -15")
-if num1 == 0 and sign == '-' and num2 == 16:
-    print("0-16 = -16")
-if num1 == 0 and sign == '-' and num2 == 17:
-    print("0-17 = -17")
-if num1 == 0 and sign == '-' and num2 == 18:
-    print("0-18 = -18")
-if num1 == 0 and sign == '-' and num2 == 19:
-    print("0-19 = -19")
-if num1 == 0 and sign == '-' and num2 == 20:
-    print("0-20 = -20")
-if num1 == 0 and sign == '-' and num2 == 21:
-    print("0-21 = -21")
-if num1 == 0 and sign == '-' and num2 == 22:
-    print("0-22 = -22")
-if num1 == 0 and sign == '-' and num2 == 23:
-    print("0-23 = -23")
-if num1 == 0 and sign == '-' and num2 == 24:
-    print("0-24 = -24")
-if num1 == 0 and sign == '-' and num2 == 25:
-    print("0-25 = -25")
-if num1 == 0 and sign == '-' and num2 == 26:
-    print("0-26 = -26")
-if num1 == 0 and sign == '-' and num2 == 27:
-    print("0-27 = -27")
-if num1 == 0 and sign == '-' and num2 == 28:
-    print("0-28 = -28")
-if num1 == 0 and sign == '-' and num2 == 29:
-    print("0-29 = -29")
-if num1 == 0 and sign == '-' and num2 == 30:
-    print("0-30 = -30")
-if num1 == 0 and sign == '-' and num2 == 31:
-    print("0-31 = -31")
-if num1 == 0 and sign == '-' and num2 == 32:
-    print("0-32 = -32")
-if num1 == 0 and sign == '-' and num2 == 33:
-    print("0-33 = -33")
-if num1 == 0 and sign == '-' and num2 == 34:
-    print("0-34 = -34")
-if num1 == 0 and sign == '-' and num2 == 35:
-    print("0-35 = -35")
-if num1 == 0 and sign == '-' and num2 == 36:
-    print("0-36 = -36")
-if num1 == 0 and sign == '-' and num2 == 37:
-    print("0-37 = -37")
-if num1 == 0 and sign == '-' and num2 == 38:
-    print("0-38 = -38")
-if num1 == 0 and sign == '-' and num2 == 39:
-    print("0-39 = -39")
-if num1 == 0 and sign == '-' and num2 == 40:
-    print("0-40 = -40")
-if num1 == 0 and sign == '-' and num2 == 41:
-    print("0-41 = -41")
-if num1 == 0 and sign == '-' and num2 == 42:
-    print("0-42 = -42")
-if num1 == 0 and sign == '-' and num2 == 43:
-    print("0-43 = -43")
-if num1 == 0 and sign == '-' and num2 == 44:
-    print("0-44 = -44")
-if num1 == 0 and sign == '-' and num2 == 45:
-    print("0-45 = -45")
-if num1 == 0 and sign == '-' and num2 == 46:
-    print("0-46 = -46")
-if num1 == 0 and sign == '-' and num2 == 47:
-    print("0-47 = -47")
-if num1 == 0 and sign == '-' and num2 == 48:
-    print("0-48 = -48")
-if num1 == 0 and sign == '-' and num2 == 49:
-    print("0-49 = -49")
-if num1 == 0 and sign == '-' and num2 == 50:
-    print("0-50 = -50")
-if num1 == 1 and sign == '-' and num2 == 0:
-    print("1-0 = 1")
-if num1 == 1 and sign == '-' and num2 == 1:
-    print("1-1 = 0")
-if num1 == 1 and sign == '-' and num2 == 2:
-    print("1-2 = -1")
-if num1 == 1 and sign == '-' and num2 == 3:
-    print("1-3 = -2")
-if num1 == 1 and sign == '-' and num2 == 4:
-    print("1-4 = -3")
-if num1 == 1 and sign == '-' and num2 == 5:
-    print("1-5 = -4")
-if num1 == 1 and sign == '-' and num2 == 6:
-    print("1-6 = -5")
-if num1 == 1 and sign == '-' and num2 == 7:
-    print("1-7 = -6")
-if num1 == 1 and sign == '-' and num2 == 8:
-    print("1-8 = -7")
-if num1 == 1 and sign == '-' and num2 == 9:
-    print("1-9 = -8")
-if num1 == 1 and sign == '-' and num2 == 10:
-    print("1-10 = -9")
-if num1 == 1 and sign == '-' and num2 == 11:
-    print("1-11 = -10")
-if num1 == 1 and sign == '-' and num2 == 12:
-    print("1-12 = -11")
-if num1 == 1 and sign == '-' and num2 == 13:
-    print("1-13 = -12")
-if num1 == 1 and sign == '-' and num2 == 14:
-    print("1-14 = -13")
-if num1 == 1 and sign == '-' and num2 == 15:
-    print("1-15 = -14")
-if num1 == 1 and sign == '-' and num2 == 16:
-    print("1-16 = -15")
-if num1 == 1 and sign == '-' and num2 == 17:
-    print("1-17 = -16")
-if num1 == 1 and sign == '-' and num2 == 18:
-    print("1-18 = -17")
-if num1 == 1 and sign == '-' and num2 == 19:
-    print("1-19 = -18")
-if num1 == 1 and sign == '-' and num2 == 20:
-    print("1-20 = -19")
-if num1 == 1 and sign == '-' and num2 == 21:
-    print("1-21 = -20")
-if num1 == 1 and sign == '-' and num2 == 22:
-    print("1-22 = -21")
-if num1 == 1 and sign == '-' and num2 == 23:
-    print("1-23 = -22")
-if num1 == 1 and sign == '-' and num2 == 24:
-    print("1-24 = -23")
-if num1 == 1 and sign == '-' and num2 == 25:
-    print("1-25 = -24")
-if num1 == 1 and sign == '-' and num2 == 26:
-    print("1-26 = -25")
-if num1 == 1 and sign == '-' and num2 == 27:
-    print("1-27 = -26")
-if num1 == 1 and sign == '-' and num2 == 28:
-    print("1-28 = -27")
-if num1 == 1 and sign == '-' and num2 == 29:
-    print("1-29 = -28")
-if num1 == 1 and sign == '-' and num2 == 30:
-    print("1-30 = -29")
-if num1 == 1 and sign == '-' and num2 == 31:
-    print("1-31 = -30")
-if num1 == 1 and sign == '-' and num2 == 32:
-    print("1-32 = -31")
-if num1 == 1 and sign == '-' and num2 == 33:
-    print("1-33 = -32")
-if num1 == 1 and sign == '-' and num2 == 34:
-    print("1-34 = -33")
-if num1 == 1 and sign == '-' and num2 == 35:
-    print("1-35 = -34")
-if num1 == 1 and sign == '-' and num2 == 36:
-    print("1-36 = -35")
-if num1 == 1 and sign == '-' and num2 == 37:
-    print("1-37 = -36")
-if num1 == 1 and sign == '-' and num2 == 38:
-    print("1-38 = -37")
-if num1 == 1 and sign == '-' and num2 == 39:
-    print("1-39 = -38")
-if num1 == 1 and sign == '-' and num2 == 40:
-    print("1-40 = -39")
-if num1 == 1 and sign == '-' and num2 == 41:
-    print("1-41 = -40")
-if num1 == 1 and sign == '-' and num2 == 42:
-    print("1-42 = -41")
-if num1 == 1 and sign == '-' and num2 == 43:
-    print("1-43 = -42")
-if num1 == 1 and sign == '-' and num2 == 44:
-    print("1-44 = -43")
-if num1 == 1 and sign == '-' and num2 == 45:
-    print("1-45 = -44")
-if num1 == 1 and sign == '-' and num2 == 46:
-    print("1-46 = -45")
-if num1 == 1 and sign == '-' and num2 == 47:
-    print("1-47 = -46")
-if num1 == 1 and sign == '-' and num2 == 48:
-    print("1-48 = -47")
-if num1 == 1 and sign == '-' and num2 == 49:
-    print("1-49 = -48")
-if num1 == 1 and sign == '-' and num2 == 50:
-    print("1-50 = -49")
-if num1 == 2 and sign == '-' and num2 == 0:
-    print("2-0 = 2")
-if num1 == 2 and sign == '-' and num2 == 1:
-    print("2-1 = 1")
-if num1 == 2 and sign == '-' and num2 == 2:
-    print("2-2 = 0")
-if num1 == 2 and sign == '-' and num2 == 3:
-    print("2-3 = -1")
-if num1 == 2 and sign == '-' and num2 == 4:
-    print("2-4 = -2")
-if num1 == 2 and sign == '-' and num2 == 5:
-    print("2-5 = -3")
-if num1 == 2 and sign == '-' and num2 == 6:
-    print("2-6 = -4")
-if num1 == 2 and sign == '-' and num2 == 7:
-    print("2-7 = -5")
-if num1 == 2 and sign == '-' and num2 == 8:
-    print("2-8 = -6")
-if num1 == 2 and sign == '-' and num2 == 9:
-    print("2-9 = -7")
-if num1 == 2 and sign == '-' and num2 == 10:
-    print("2-10 = -8")
-if num1 == 2 and sign == '-' and num2 == 11:
-    print("2-11 = -9")
-if num1 == 2 and sign == '-' and num2 == 12:
-    print("2-12 = -10")
-if num1 == 2 and sign == '-' and num2 == 13:
-    print("2-13 = -11")
-if num1 == 2 and sign == '-' and num2 == 14:
-    print("2-14 = -12")
-if num1 == 2 and sign == '-' and num2 == 15:
-    print("2-15 = -13")
-if num1 == 2 and sign == '-' and num2 == 16:
-    print("2-16 = -14")
-if num1 == 2 and sign == '-' and num2 == 17:
-    print("2-17 = -15")
-if num1 == 2 and sign == '-' and num2 == 18:
-    print("2-18 = -16")
-if num1 == 2 and sign == '-' and num2 == 19:
-    print("2-19 = -17")
-if num1 == 2 and sign == '-' and num2 == 20:
-    print("2-20 = -18")
-if num1 == 2 and sign == '-' and num2 == 21:
-    print("2-21 = -19")
-if num1 == 2 and sign == '-' and num2 == 22:
-    print("2-22 = -20")
-if num1 == 2 and sign == '-' and num2 == 23:
-    print("2-23 = -21")
-if num1 == 2 and sign == '-' and num2 == 24:
-    print("2-24 = -22")
-if num1 == 2 and sign == '-' and num2 == 25:
-    print("2-25 = -23")
-if num1 == 2 and sign == '-' and num2 == 26:
-    print("2-26 = -24")
-if num1 == 2 and sign == '-' and num2 == 27:
-    print("2-27 = -25")
-if num1 == 2 and sign == '-' and num2 == 28:
-    print("2-28 = -26")
-if num1 == 2 and sign == '-' and num2 == 29:
-    print("2-29 = -27")
-if num1 == 2 and sign == '-' and num2 == 30:
-    print("2-30 = -28")
-if num1 == 2 and sign == '-' and num2 == 31:
-    print("2-31 = -29")
-if num1 == 2 and sign == '-' and num2 == 32:
-    print("2-32 = -30")
-if num1 == 2 and sign == '-' and num2 == 33:
-    print("2-33 = -31")
-if num1 == 2 and sign == '-' and num2 == 34:
-    print("2-34 = -32")
-if num1 == 2 and sign == '-' and num2 == 35:
-    print("2-35 = -33")
-if num1 == 2 and sign == '-' and num2 == 36:
-    print("2-36 = -34")
-if num1 == 2 and sign == '-' and num2 == 37:
-    print("2-37 = -35")
-if num1 == 2 and sign == '-' and num2 == 38:
-    print("2-38 = -36")
-if num1 == 2 and sign == '-' and num2 == 39:
-    print("2-39 = -37")
-if num1 == 2 and sign == '-' and num2 == 40:
-    print("2-40 = -38")
-if num1 == 2 and sign == '-' and num2 == 41:
-    print("2-41 = -39")
-if num1 == 2 and sign == '-' and num2 == 42:
-    print("2-42 = -40")
-if num1 == 2 and sign == '-' and num2 == 43:
-    print("2-43 = -41")
-if num1 == 2 and sign == '-' and num2 == 44:
-    print("2-44 = -42")
-if num1 == 2 and sign == '-' and num2 == 45:
-    print("2-45 = -43")
-if num1 == 2 and sign == '-' and num2 == 46:
-    print("2-46 = -44")
-if num1 == 2 and sign == '-' and num2 == 47:
-    print("2-47 = -45")
-if num1 == 2 and sign == '-' and num2 == 48:
-    print("2-48 = -46")
-if num1 == 2 and sign == '-' and num2 == 49:
-    print("2-49 = -47")
-if num1 == 2 and sign == '-' and num2 == 50:
-    print("2-50 = -48")
-if num1 == 3 and sign == '-' and num2 == 0:
-    print("3-0 = 3")
-if num1 == 3 and sign == '-' and num2 == 1:
-    print("3-1 = 2")
-if num1 == 3 and sign == '-' and num2 == 2:
-    print("3-2 = 1")
-if num1 == 3 and sign == '-' and num2 == 3:
-    print("3-3 = 0")
-if num1 == 3 and sign == '-' and num2 == 4:
-    print("3-4 = -1")
-if num1 == 3 and sign == '-' and num2 == 5:
-    print("3-5 = -2")
-if num1 == 3 and sign == '-' and num2 == 6:
-    print("3-6 = -3")
-if num1 == 3 and sign == '-' and num2 == 7:
-    print("3-7 = -4")
-if num1 == 3 and sign == '-' and num2 == 8:
-    print("3-8 = -5")
-if num1 == 3 and sign == '-' and num2 == 9:
-    print("3-9 = -6")
-if num1 == 3 and sign == '-' and num2 == 10:
-    print("3-10 = -7")
-if num1 == 3 and sign == '-' and num2 == 11:
-    print("3-11 = -8")
-if num1 == 3 and sign == '-' and num2 == 12:
-    print("3-12 = -9")
-if num1 == 3 and sign == '-' and num2 == 13:
-    print("3-13 = -10")
-if num1 == 3 and sign == '-' and num2 == 14:
-    print("3-14 = -11")
-if num1 == 3 and sign == '-' and num2 == 15:
-    print("3-15 = -12")
-if num1 == 3 and sign == '-' and num2 == 16:
-    print("3-16 = -13")
-if num1 == 3 and sign == '-' and num2 == 17:
-    print("3-17 = -14")
-if num1 == 3 and sign == '-' and num2 == 18:
-    print("3-18 = -15")
-if num1 == 3 and sign == '-' and num2 == 19:
-    print("3-19 = -16")
-if num1 == 3 and sign == '-' and num2 == 20:
-    print("3-20 = -17")
-if num1 == 3 and sign == '-' and num2 == 21:
-    print("3-21 = -18")
-if num1 == 3 and sign == '-' and num2 == 22:
-    print("3-22 = -19")
-if num1 == 3 and sign == '-' and num2 == 23:
-    print("3-23 = -20")
-if num1 == 3 and sign == '-' and num2 == 24:
-    print("3-24 = -21")
-if num1 == 3 and sign == '-' and num2 == 25:
-    print("3-25 = -22")
-if num1 == 3 and sign == '-' and num2 == 26:
-    print("3-26 = -23")
-if num1 == 3 and sign == '-' and num2 == 27:
-    print("3-27 = -24")
-if num1 == 3 and sign == '-' and num2 == 28:
-    print("3-28 = -25")
-if num1 == 3 and sign == '-' and num2 == 29:
-    print("3-29 = -26")
-if num1 == 3 and sign == '-' and num2 == 30:
-    print("3-30 = -27")
-if num1 == 3 and sign == '-' and num2 == 31:
-    print("3-31 = -28")
-if num1 == 3 and sign == '-' and num2 == 32:
-    print("3-32 = -29")
-if num1 == 3 and sign == '-' and num2 == 33:
-    print("3-33 = -30")
-if num1 == 3 and sign == '-' and num2 == 34:
-    print("3-34 = -31")
-if num1 == 3 and sign == '-' and num2 == 35:
-    print("3-35 = -32")
-if num1 == 3 and sign == '-' and num2 == 36:
-    print("3-36 = -33")
-if num1 == 3 and sign == '-' and num2 == 37:
-    print("3-37 = -34")
-if num1 == 3 and sign == '-' and num2 == 38:
-    print("3-38 = -35")
-if num1 == 3 and sign == '-' and num2 == 39:
-    print("3-39 = -36")
-if num1 == 3 and sign == '-' and num2 == 40:
-    print("3-40 = -37")
-if num1 == 3 and sign == '-' and num2 == 41:
-    print("3-41 = -38")
-if num1 == 3 and sign == '-' and num2 == 42:
-    print("3-42 = -39")
-if num1 == 3 and sign == '-' and num2 == 43:
-    print("3-43 = -40")
-if num1 == 3 and sign == '-' and num2 == 44:
-    print("3-44 = -41")
-if num1 == 3 and sign == '-' and num2 == 45:
-    print("3-45 = -42")
-if num1 == 3 and sign == '-' and num2 == 46:
-    print("3-46 = -43")
-if num1 == 3 and sign == '-' and num2 == 47:
-    print("3-47 = -44")
-if num1 == 3 and sign == '-' and num2 == 48:
-    print("3-48 = -45")
-if num1 == 3 and sign == '-' and num2 == 49:
-    print("3-49 = -46")
-if num1 == 3 and sign == '-' and num2 == 50:
-    print("3-50 = -47")
-if num1 == 4 and sign == '-' and num2 == 0:
-    print("4-0 = 4")
-if num1 == 4 and sign == '-' and num2 == 1:
-    print("4-1 = 3")
-if num1 == 4 and sign == '-' and num2 == 2:
-    print("4-2 = 2")
-if num1 == 4 and sign == '-' and num2 == 3:
-    print("4-3 = 1")
-if num1 == 4 and sign == '-' and num2 == 4:
-    print("4-4 = 0")
-if num1 == 4 and sign == '-' and num2 == 5:
-    print("4-5 = -1")
-if num1 == 4 and sign == '-' and num2 == 6:
-    print("4-6 = -2")
-if num1 == 4 and sign == '-' and num2 == 7:
-    print("4-7 = -3")
-if num1 == 4 and sign == '-' and num2 == 8:
-    print("4-8 = -4")
-if num1 == 4 and sign == '-' and num2 == 9:
-    print("4-9 = -5")
-if num1 == 4 and sign == '-' and num2 == 10:
-    print("4-10 = -6")
-if num1 == 4 and sign == '-' and num2 == 11:
-    print("4-11 = -7")
-if num1 == 4 and sign == '-' and num2 == 12:
-    print("4-12 = -8")
-if num1 == 4 and sign == '-' and num2 == 13:
-    print("4-13 = -9")
-if num1 == 4 and sign == '-' and num2 == 14:
-    print("4-14 = -10")
-if num1 == 4 and sign == '-' and num2 == 15:
-    print("4-15 = -11")
-if num1 == 4 and sign == '-' and num2 == 16:
-    print("4-16 = -12")
-if num1 == 4 and sign == '-' and num2 == 17:
-    print("4-17 = -13")
-if num1 == 4 and sign == '-' and num2 == 18:
-    print("4-18 = -14")
-if num1 == 4 and sign == '-' and num2 == 19:
-    print("4-19 = -15")
-if num1 == 4 and sign == '-' and num2 == 20:
-    print("4-20 = -16")
-if num1 == 4 and sign == '-' and num2 == 21:
-    print("4-21 = -17")
-if num1 == 4 and sign == '-' and num2 == 22:
-    print("4-22 = -18")
-if num1 == 4 and sign == '-' and num2 == 23:
-    print("4-23 = -19")
-if num1 == 4 and sign == '-' and num2 == 24:
-    print("4-24 = -20")
-if num1 == 4 and sign == '-' and num2 == 25:
-    print("4-25 = -21")
-if num1 == 4 and sign == '-' and num2 == 26:
-    print("4-26 = -22")
-if num1 == 4 and sign == '-' and num2 == 27:
-    print("4-27 = -23")
-if num1 == 4 and sign == '-' and num2 == 28:
-    print("4-28 = -24")
-if num1 == 4 and sign == '-' and num2 == 29:
-    print("4-29 = -25")
-if num1 == 4 and sign == '-' and num2 == 30:
-    print("4-30 = -26")
-if num1 == 4 and sign == '-' and num2 == 31:
-    print("4-31 = -27")
-if num1 == 4 and sign == '-' and num2 == 32:
-    print("4-32 = -28")
-if num1 == 4 and sign == '-' and num2 == 33:
-    print("4-33 = -29")
-if num1 == 4 and sign == '-' and num2 == 34:
-    print("4-34 = -30")
-if num1 == 4 and sign == '-' and num2 == 35:
-    print("4-35 = -31")
-if num1 == 4 and sign == '-' and num2 == 36:
-    print("4-36 = -32")
-if num1 == 4 and sign == '-' and num2 == 37:
-    print("4-37 = -33")
-if num1 == 4 and sign == '-' and num2 == 38:
-    print("4-38 = -34")
-if num1 == 4 and sign == '-' and num2 == 39:
-    print("4-39 = -35")
-if num1 == 4 and sign == '-' and num2 == 40:
-    print("4-40 = -36")
-if num1 == 4 and sign == '-' and num2 == 41:
-    print("4-41 = -37")
-if num1 == 4 and sign == '-' and num2 == 42:
-    print("4-42 = -38")
-if num1 == 4 and sign == '-' and num2 == 43:
-    print("4-43 = -39")
-if num1 == 4 and sign == '-' and num2 == 44:
-    print("4-44 = -40")
-if num1 == 4 and sign == '-' and num2 == 45:
-    print("4-45 = -41")
-if num1 == 4 and sign == '-' and num2 == 46:
-    print("4-46 = -42")
-if num1 == 4 and sign == '-' and num2 == 47:
-    print("4-47 = -43")
-if num1 == 4 and sign == '-' and num2 == 48:
-    print("4-48 = -44")
-if num1 == 4 and sign == '-' and num2 == 49:
-    print("4-49 = -45")
-if num1 == 4 and sign == '-' and num2 == 50:
-    print("4-50 = -46")
-if num1 == 5 and sign == '-' and num2 == 0:
-    print("5-0 = 5")
-if num1 == 5 and sign == '-' and num2 == 1:
-    print("5-1 = 4")
-if num1 == 5 and sign == '-' and num2 == 2:
-    print("5-2 = 3")
-if num1 == 5 and sign == '-' and num2 == 3:
-    print("5-3 = 2")
-if num1 == 5 and sign == '-' and num2 == 4:
-    print("5-4 = 1")
-if num1 == 5 and sign == '-' and num2 == 5:
-    print("5-5 = 0")
-if num1 == 5 and sign == '-' and num2 == 6:
-    print("5-6 = -1")
-if num1 == 5 and sign == '-' and num2 == 7:
-    print("5-7 = -2")
-if num1 == 5 and sign == '-' and num2 == 8:
-    print("5-8 = -3")
-if num1 == 5 and sign == '-' and num2 == 9:
-    print("5-9 = -4")
-if num1 == 5 and sign == '-' and num2 == 10:
-    print("5-10 = -5")
-if num1 == 5 and sign == '-' and num2 == 11:
-    print("5-11 = -6")
-if num1 == 5 and sign == '-' and num2 == 12:
-    print("5-12 = -7")
-if num1 == 5 and sign == '-' and num2 == 13:
-    print("5-13 = -8")
-if num1 == 5 and sign == '-' and num2 == 14:
-    print("5-14 = -9")
-if num1 == 5 and sign == '-' and num2 == 15:
-    print("5-15 = -10")
-if num1 == 5 and sign == '-' and num2 == 16:
-    print("5-16 = -11")
-if num1 == 5 and sign == '-' and num2 == 17:
-    print("5-17 = -12")
-if num1 == 5 and sign == '-' and num2 == 18:
-    print("5-18 = -13")
-if num1 == 5 and sign == '-' and num2 == 19:
-    print("5-19 = -14")
-if num1 == 5 and sign == '-' and num2 == 20:
-    print("5-20 = -15")
-if num1 == 5 and sign == '-' and num2 == 21:
-    print("5-21 = -16")
-if num1 == 5 and sign == '-' and num2 == 22:
-    print("5-22 = -17")
-if num1 == 5 and sign == '-' and num2 == 23:
-    print("5-23 = -18")
-if num1 == 5 and sign == '-' and num2 == 24:
-    print("5-24 = -19")
-if num1 == 5 and sign == '-' and num2 == 25:
-    print("5-25 = -20")
-if num1 == 5 and sign == '-' and num2 == 26:
-    print("5-26 = -21")
-if num1 == 5 and sign == '-' and num2 == 27:
-    print("5-27 = -22")
-if num1 == 5 and sign == '-' and num2 == 28:
-    print("5-28 = -23")
-if num1 == 5 and sign == '-' and num2 == 29:
-    print("5-29 = -24")
-if num1 == 5 and sign == '-' and num2 == 30:
-    print("5-30 = -25")
-if num1 == 5 and sign == '-' and num2 == 31:
-    print("5-31 = -26")
-if num1 == 5 and sign == '-' and num2 == 32:
-    print("5-32 = -27")
-if num1 == 5 and sign == '-' and num2 == 33:
-    print("5-33 = -28")
-if num1 == 5 and sign == '-' and num2 == 34:
-    print("5-34 = -29")
-if num1 == 5 and sign == '-' and num2 == 35:
-    print("5-35 = -30")
-if num1 == 5 and sign == '-' and num2 == 36:
-    print("5-36 = -31")
-if num1 == 5 and sign == '-' and num2 == 37:
-    print("5-37 = -32")
-if num1 == 5 and sign == '-' and num2 == 38:
-    print("5-38 = -33")
-if num1 == 5 and sign == '-' and num2 == 39:
-    print("5-39 = -34")
-if num1 == 5 and sign == '-' and num2 == 40:
-    print("5-40 = -35")
-if num1 == 5 and sign == '-' and num2 == 41:
-    print("5-41 = -36")
-if num1 == 5 and sign == '-' and num2 == 42:
-    print("5-42 = -37")
-if num1 == 5 and sign == '-' and num2 == 43:
-    print("5-43 = -38")
-if num1 == 5 and sign == '-' and num2 == 44:
-    print("5-44 = -39")
-if num1 == 5 and sign == '-' and num2 == 45:
-    print("5-45 = -40")
-if num1 == 5 and sign == '-' and num2 == 46:
-    print("5-46 = -41")
-if num1 == 5 and sign == '-' and num2 == 47:
-    print("5-47 = -42")
-if num1 == 5 and sign == '-' and num2 == 48:
-    print("5-48 = -43")
-if num1 == 5 and sign == '-' and num2 == 49:
-    print("5-49 = -44")
-if num1 == 5 and sign == '-' and num2 == 50:
-    print("5-50 = -45")
-if num1 == 6 and sign == '-' and num2 == 0:
-    print("6-0 = 6")
-if num1 == 6 and sign == '-' and num2 == 1:
-    print("6-1 = 5")
-if num1 == 6 and sign == '-' and num2 == 2:
-    print("6-2 = 4")
-if num1 == 6 and sign == '-' and num2 == 3:
-    print("6-3 = 3")
-if num1 == 6 and sign == '-' and num2 == 4:
-    print("6-4 = 2")
-if num1 == 6 and sign == '-' and num2 == 5:
-    print("6-5 = 1")
-if num1 == 6 and sign == '-' and num2 == 6:
-    print("6-6 = 0")
-if num1 == 6 and sign == '-' and num2 == 7:
-    print("6-7 = -1")
-if num1 == 6 and sign == '-' and num2 == 8:
-    print("6-8 = -2")
-if num1 == 6 and sign == '-' and num2 == 9:
-    print("6-9 = -3")
-if num1 == 6 and sign == '-' and num2 == 10:
-    print("6-10 = -4")
-if num1 == 6 and sign == '-' and num2 == 11:
-    print("6-11 = -5")
-if num1 == 6 and sign == '-' and num2 == 12:
-    print("6-12 = -6")
-if num1 == 6 and sign == '-' and num2 == 13:
-    print("6-13 = -7")
-if num1 == 6 and sign == '-' and num2 == 14:
-    print("6-14 = -8")
-if num1 == 6 and sign == '-' and num2 == 15:
-    print("6-15 = -9")
-if num1 == 6 and sign == '-' and num2 == 16:
-    print("6-16 = -10")
-if num1 == 6 and sign == '-' and num2 == 17:
-    print("6-17 = -11")
-if num1 == 6 and sign == '-' and num2 == 18:
-    print("6-18 = -12")
-if num1 == 6 and sign == '-' and num2 == 19:
-    print("6-19 = -13")
-if num1 == 6 and sign == '-' and num2 == 20:
-    print("6-20 = -14")
-if num1 == 6 and sign == '-' and num2 == 21:
-    print("6-21 = -15")
-if num1 == 6 and sign == '-' and num2 == 22:
-    print("6-22 = -16")
-if num1 == 6 and sign == '-' and num2 == 23:
-    print("6-23 = -17")
-if num1 == 6 and sign == '-' and num2 == 24:
-    print("6-24 = -18")
-if num1 == 6 and sign == '-' and num2 == 25:
-    print("6-25 = -19")
-if num1 == 6 and sign == '-' and num2 == 26:
-    print("6-26 = -20")
-if num1 == 6 and sign == '-' and num2 == 27:
-    print("6-27 = -21")
-if num1 == 6 and sign == '-' and num2 == 28:
-    print("6-28 = -22")
-if num1 == 6 and sign == '-' and num2 == 29:
-    print("6-29 = -23")
-if num1 == 6 and sign == '-' and num2 == 30:
-    print("6-30 = -24")
-if num1 == 6 and sign == '-' and num2 == 31:
-    print("6-31 = -25")
-if num1 == 6 and sign == '-' and num2 == 32:
-    print("6-32 = -26")
-if num1 == 6 and sign == '-' and num2 == 33:
-    print("6-33 = -27")
-if num1 == 6 and sign == '-' and num2 == 34:
-    print("6-34 = -28")
-if num1 == 6 and sign == '-' and num2 == 35:
-    print("6-35 = -29")
-if num1 == 6 and sign == '-' and num2 == 36:
-    print("6-36 = -30")
-if num1 == 6 and sign == '-' and num2 == 37:
-    print("6-37 = -31")
-if num1 == 6 and sign == '-' and num2 == 38:
-    print("6-38 = -32")
-if num1 == 6 and sign == '-' and num2 == 39:
-    print("6-39 = -33")
-if num1 == 6 and sign == '-' and num2 == 40:
-    print("6-40 = -34")
-if num1 == 6 and sign == '-' and num2 == 41:
-    print("6-41 = -35")
-if num1 == 6 and sign == '-' and num2 == 42:
-    print("6-42 = -36")
-if num1 == 6 and sign == '-' and num2 == 43:
-    print("6-43 = -37")
-if num1 == 6 and sign == '-' and num2 == 44:
-    print("6-44 = -38")
-if num1 == 6 and sign == '-' and num2 == 45:
-    print("6-45 = -39")
-if num1 == 6 and sign == '-' and num2 == 46:
-    print("6-46 = -40")
-if num1 == 6 and sign == '-' and num2 == 47:
-    print("6-47 = -41")
-if num1 == 6 and sign == '-' and num2 == 48:
-    print("6-48 = -42")
-if num1 == 6 and sign == '-' and num2 == 49:
-    print("6-49 = -43")
-if num1 == 6 and sign == '-' and num2 == 50:
-    print("6-50 = -44")
-if num1 == 7 and sign == '-' and num2 == 0:
-    print("7-0 = 7")
-if num1 == 7 and sign == '-' and num2 == 1:
-    print("7-1 = 6")
-if num1 == 7 and sign == '-' and num2 == 2:
-    print("7-2 = 5")
-if num1 == 7 and sign == '-' and num2 == 3:
-    print("7-3 = 4")
-if num1 == 7 and sign == '-' and num2 == 4:
-    print("7-4 = 3")
-if num1 == 7 and sign == '-' and num2 == 5:
-    print("7-5 = 2")
-if num1 == 7 and sign == '-' and num2 == 6:
-    print("7-6 = 1")
-if num1 == 7 and sign == '-' and num2 == 7:
-    print("7-7 = 0")
-if num1 == 7 and sign == '-' and num2 == 8:
-    print("7-8 = -1")
-if num1 == 7 and sign == '-' and num2 == 9:
-    print("7-9 = -2")
-if num1 == 7 and sign == '-' and num2 == 10:
-    print("7-10 = -3")
-if num1 == 7 and sign == '-' and num2 == 11:
-    print("7-11 = -4")
-if num1 == 7 and sign == '-' and num2 == 12:
-    print("7-12 = -5")
-if num1 == 7 and sign == '-' and num2 == 13:
-    print("7-13 = -6")
-if num1 == 7 and sign == '-' and num2 == 14:
-    print("7-14 = -7")
-if num1 == 7 and sign == '-' and num2 == 15:
-    print("7-15 = -8")
-if num1 == 7 and sign == '-' and num2 == 16:
-    print("7-16 = -9")
-if num1 == 7 and sign == '-' and num2 == 17:
-    print("7-17 = -10")
-if num1 == 7 and sign == '-' and num2 == 18:
-    print("7-18 = -11")
-if num1 == 7 and sign == '-' and num2 == 19:
-    print("7-19 = -12")
-if num1 == 7 and sign == '-' and num2 == 20:
-    print("7-20 = -13")
-if num1 == 7 and sign == '-' and num2 == 21:
-    print("7-21 = -14")
-if num1 == 7 and sign == '-' and num2 == 22:
-    print("7-22 = -15")
-if num1 == 7 and sign == '-' and num2 == 23:
-    print("7-23 = -16")
-if num1 == 7 and sign == '-' and num2 == 24:
-    print("7-24 = -17")
-if num1 == 7 and sign == '-' and num2 == 25:
-    print("7-25 = -18")
-if num1 == 7 and sign == '-' and num2 == 26:
-    print("7-26 = -19")
-if num1 == 7 and sign == '-' and num2 == 27:
-    print("7-27 = -20")
-if num1 == 7 and sign == '-' and num2 == 28:
-    print("7-28 = -21")
-if num1 == 7 and sign == '-' and num2 == 29:
-    print("7-29 = -22")
-if num1 == 7 and sign == '-' and num2 == 30:
-    print("7-30 = -23")
-if num1 == 7 and sign == '-' and num2 == 31:
-    print("7-31 = -24")
-if num1 == 7 and sign == '-' and num2 == 32:
-    print("7-32 = -25")
-if num1 == 7 and sign == '-' and num2 == 33:
-    print("7-33 = -26")
-if num1 == 7 and sign == '-' and num2 == 34:
-    print("7-34 = -27")
-if num1 == 7 and sign == '-' and num2 == 35:
-    print("7-35 = -28")
-if num1 == 7 and sign == '-' and num2 == 36:
-    print("7-36 = -29")
-if num1 == 7 and sign == '-' and num2 == 37:
-    print("7-37 = -30")
-if num1 == 7 and sign == '-' and num2 == 38:
-    print("7-38 = -31")
-if num1 == 7 and sign == '-' and num2 == 39:
-    print("7-39 = -32")
-if num1 == 7 and sign == '-' and num2 == 40:
-    print("7-40 = -33")
-if num1 == 7 and sign == '-' and num2 == 41:
-    print("7-41 = -34")
-if num1 == 7 and sign == '-' and num2 == 42:
-    print("7-42 = -35")
-if num1 == 7 and sign == '-' and num2 == 43:
-    print("7-43 = -36")
-if num1 == 7 and sign == '-' and num2 == 44:
-    print("7-44 = -37")
-if num1 == 7 and sign == '-' and num2 == 45:
-    print("7-45 = -38")
-if num1 == 7 and sign == '-' and num2 == 46:
-    print("7-46 = -39")
-if num1 == 7 and sign == '-' and num2 == 47:
-    print("7-47 = -40")
-if num1 == 7 and sign == '-' and num2 == 48:
-    print("7-48 = -41")
-if num1 == 7 and sign == '-' and num2 == 49:
-    print("7-49 = -42")
-if num1 == 7 and sign == '-' and num2 == 50:
-    print("7-50 = -43")
-if num1 == 8 and sign == '-' and num2 == 0:
-    print("8-0 = 8")
-if num1 == 8 and sign == '-' and num2 == 1:
-    print("8-1 = 7")
-if num1 == 8 and sign == '-' and num2 == 2:
-    print("8-2 = 6")
-if num1 == 8 and sign == '-' and num2 == 3:
-    print("8-3 = 5")
-if num1 == 8 and sign == '-' and num2 == 4:
-    print("8-4 = 4")
-if num1 == 8 and sign == '-' and num2 == 5:
-    print("8-5 = 3")
-if num1 == 8 and sign == '-' and num2 == 6:
-    print("8-6 = 2")
-if num1 == 8 and sign == '-' and num2 == 7:
-    print("8-7 = 1")
-if num1 == 8 and sign == '-' and num2 == 8:
-    print("8-8 = 0")
-if num1 == 8 and sign == '-' and num2 == 9:
-    print("8-9 = -1")
-if num1 == 8 and sign == '-' and num2 == 10:
-    print("8-10 = -2")
-if num1 == 8 and sign == '-' and num2 == 11:
-    print("8-11 = -3")
-if num1 == 8 and sign == '-' and num2 == 12:
-    print("8-12 = -4")
-if num1 == 8 and sign == '-' and num2 == 13:
-    print("8-13 = -5")
-if num1 == 8 and sign == '-' and num2 == 14:
-    print("8-14 = -6")
-if num1 == 8 and sign == '-' and num2 == 15:
-    print("8-15 = -7")
-if num1 == 8 and sign == '-' and num2 == 16:
-    print("8-16 = -8")
-if num1 == 8 and sign == '-' and num2 == 17:
-    print("8-17 = -9")
-if num1 == 8 and sign == '-' and num2 == 18:
-    print("8-18 = -10")
-if num1 == 8 and sign == '-' and num2 == 19:
-    print("8-19 = -11")
-if num1 == 8 and sign == '-' and num2 == 20:
-    print("8-20 = -12")
-if num1 == 8 and sign == '-' and num2 == 21:
-    print("8-21 = -13")
-if num1 == 8 and sign == '-' and num2 == 22:
-    print("8-22 = -14")
-if num1 == 8 and sign == '-' and num2 == 23:
-    print("8-23 = -15")
-if num1 == 8 and sign == '-' and num2 == 24:
-    print("8-24 = -16")
-if num1 == 8 and sign == '-' and num2 == 25:
-    print("8-25 = -17")
-if num1 == 8 and sign == '-' and num2 == 26:
-    print("8-26 = -18")
-if num1 == 8 and sign == '-' and num2 == 27:
-    print("8-27 = -19")
-if num1 == 8 and sign == '-' and num2 == 28:
-    print("8-28 = -20")
-if num1 == 8 and sign == '-' and num2 == 29:
-    print("8-29 = -21")
-if num1 == 8 and sign == '-' and num2 == 30:
-    print("8-30 = -22")
-if num1 == 8 and sign == '-' and num2 == 31:
-    print("8-31 = -23")
-if num1 == 8 and sign == '-' and num2 == 32:
-    print("8-32 = -24")
-if num1 == 8 and sign == '-' and num2 == 33:
-    print("8-33 = -25")
-if num1 == 8 and sign == '-' and num2 == 34:
-    print("8-34 = -26")
-if num1 == 8 and sign == '-' and num2 == 35:
-    print("8-35 = -27")
-if num1 == 8 and sign == '-' and num2 == 36:
-    print("8-36 = -28")
-if num1 == 8 and sign == '-' and num2 == 37:
-    print("8-37 = -29")
-if num1 == 8 and sign == '-' and num2 == 38:
-    print("8-38 = -30")
-if num1 == 8 and sign == '-' and num2 == 39:
-    print("8-39 = -31")
-if num1 == 8 and sign == '-' and num2 == 40:
-    print("8-40 = -32")
-if num1 == 8 and sign == '-' and num2 == 41:
-    print("8-41 = -33")
-if num1 == 8 and sign == '-' and num2 == 42:
-    print("8-42 = -34")
-if num1 == 8 and sign == '-' and num2 == 43:
-    print("8-43 = -35")
-if num1 == 8 and sign == '-' and num2 == 44:
-    print("8-44 = -36")
-if num1 == 8 and sign == '-' and num2 == 45:
-    print("8-45 = -37")
-if num1 == 8 and sign == '-' and num2 == 46:
-    print("8-46 = -38")
-if num1 == 8 and sign == '-' and num2 == 47:
-    print("8-47 = -39")
-if num1 == 8 and sign == '-' and num2 == 48:
-    print("8-48 = -40")
-if num1 == 8 and sign == '-' and num2 == 49:
-    print("8-49 = -41")
-if num1 == 8 and sign == '-' and num2 == 50:
-    print("8-50 = -42")
-if num1 == 9 and sign == '-' and num2 == 0:
-    print("9-0 = 9")
-if num1 == 9 and sign == '-' and num2 == 1:
-    print("9-1 = 8")
-if num1 == 9 and sign == '-' and num2 == 2:
-    print("9-2 = 7")
-if num1 == 9 and sign == '-' and num2 == 3:
-    print("9-3 = 6")
-if num1 == 9 and sign == '-' and num2 == 4:
-    print("9-4 = 5")
-if num1 == 9 and sign == '-' and num2 == 5:
-    print("9-5 = 4")
-if num1 == 9 and sign == '-' and num2 == 6:
-    print("9-6 = 3")
-if num1 == 9 and sign == '-' and num2 == 7:
-    print("9-7 = 2")
-if num1 == 9 and sign == '-' and num2 == 8:
-    print("9-8 = 1")
-if num1 == 9 and sign == '-' and num2 == 9:
-    print("9-9 = 0")
-if num1 == 9 and sign == '-' and num2 == 10:
-    print("9-10 = -1")
-if num1 == 9 and sign == '-' and num2 == 11:
-    print("9-11 = -2")
-if num1 == 9 and sign == '-' and num2 == 12:
-    print("9-12 = -3")
-if num1 == 9 and sign == '-' and num2 == 13:
-    print("9-13 = -4")
-if num1 == 9 and sign == '-' and num2 == 14:
-    print("9-14 = -5")
-if num1 == 9 and sign == '-' and num2 == 15:
-    print("9-15 = -6")
-if num1 == 9 and sign == '-' and num2 == 16:
-    print("9-16 = -7")
-if num1 == 9 and sign == '-' and num2 == 17:
-    print("9-17 = -8")
-if num1 == 9 and sign == '-' and num2 == 18:
-    print("9-18 = -9")
-if num1 == 9 and sign == '-' and num2 == 19:
-    print("9-19 = -10")
-if num1 == 9 and sign == '-' and num2 == 20:
-    print("9-20 = -11")
-if num1 == 9 and sign == '-' and num2 == 21:
-    print("9-21 = -12")
-if num1 == 9 and sign == '-' and num2 == 22:
-    print("9-22 = -13")
-if num1 == 9 and sign == '-' and num2 == 23:
-    print("9-23 = -14")
-if num1 == 9 and sign == '-' and num2 == 24:
-    print("9-24 = -15")
-if num1 == 9 and sign == '-' and num2 == 25:
-    print("9-25 = -16")
-if num1 == 9 and sign == '-' and num2 == 26:
-    print("9-26 = -17")
-if num1 == 9 and sign == '-' and num2 == 27:
-    print("9-27 = -18")
-if num1 == 9 and sign == '-' and num2 == 28:
-    print("9-28 = -19")
-if num1 == 9 and sign == '-' and num2 == 29:
-    print("9-29 = -20")
-if num1 == 9 and sign == '-' and num2 == 30:
-    print("9-30 = -21")
-if num1 == 9 and sign == '-' and num2 == 31:
-    print("9-31 = -22")
-if num1 == 9 and sign == '-' and num2 == 32:
-    print("9-32 = -23")
-if num1 == 9 and sign == '-' and num2 == 33:
-    print("9-33 = -24")
-if num1 == 9 and sign == '-' and num2 == 34:
-    print("9-34 = -25")
-if num1 == 9 and sign == '-' and num2 == 35:
-    print("9-35 = -26")
-if num1 == 9 and sign == '-' and num2 == 36:
-    print("9-36 = -27")
-if num1 == 9 and sign == '-' and num2 == 37:
-    print("9-37 = -28")
-if num1 == 9 and sign == '-' and num2 == 38:
-    print("9-38 = -29")
-if num1 == 9 and sign == '-' and num2 == 39:
-    print("9-39 = -30")
-if num1 == 9 and sign == '-' and num2 == 40:
-    print("9-40 = -31")
-if num1 == 9 and sign == '-' and num2 == 41:
-    print("9-41 = -32")
-if num1 == 9 and sign == '-' and num2 == 42:
-    print("9-42 = -33")
-if num1 == 9 and sign == '-' and num2 == 43:
-    print("9-43 = -34")
-if num1 == 9 and sign == '-' and num2 == 44:
-    print("9-44 = -35")
-if num1 == 9 and sign == '-' and num2 == 45:
-    print("9-45 = -36")
-if num1 == 9 and sign == '-' and num2 == 46:
-    print("9-46 = -37")
-if num1 == 9 and sign == '-' and num2 == 47:
-    print("9-47 = -38")
-if num1 == 9 and sign == '-' and num2 == 48:
-    print("9-48 = -39")
-if num1 == 9 and sign == '-' and num2 == 49:
-    print("9-49 = -40")
-if num1 == 9 and sign == '-' and num2 == 50:
-    print("9-50 = -41")
-if num1 == 10 and sign == '-' and num2 == 0:
-    print("10-0 = 10")
-if num1 == 10 and sign == '-' and num2 == 1:
-    print("10-1 = 9")
-if num1 == 10 and sign == '-' and num2 == 2:
-    print("10-2 = 8")
-if num1 == 10 and sign == '-' and num2 == 3:
-    print("10-3 = 7")
-if num1 == 10 and sign == '-' and num2 == 4:
-    print("10-4 = 6")
-if num1 == 10 and sign == '-' and num2 == 5:
-    print("10-5 = 5")
-if num1 == 10 and sign == '-' and num2 == 6:
-    print("10-6 = 4")
-if num1 == 10 and sign == '-' and num2 == 7:
-    print("10-7 = 3")
-if num1 == 10 and sign == '-' and num2 == 8:
-    print("10-8 = 2")
-if num1 == 10 and sign == '-' and num2 == 9:
-    print("10-9 = 1")
-if num1 == 10 and sign == '-' and num2 == 10:
-    print("10-10 = 0")
-if num1 == 10 and sign == '-' and num2 == 11:
-    print("10-11 = -1")
-if num1 == 10 and sign == '-' and num2 == 12:
-    print("10-12 = -2")
-if num1 == 10 and sign == '-' and num2 == 13:
-    print("10-13 = -3")
-if num1 == 10 and sign == '-' and num2 == 14:
-    print("10-14 = -4")
-if num1 == 10 and sign == '-' and num2 == 15:
-    print("10-15 = -5")
-if num1 == 10 and sign == '-' and num2 == 16:
-    print("10-16 = -6")
-if num1 == 10 and sign == '-' and num2 == 17:
-    print("10-17 = -7")
-if num1 == 10 and sign == '-' and num2 == 18:
-    print("10-18 = -8")
-if num1 == 10 and sign == '-' and num2 == 19:
-    print("10-19 = -9")
-if num1 == 10 and sign == '-' and num2 == 20:
-    print("10-20 = -10")
-if num1 == 10 and sign == '-' and num2 == 21:
-    print("10-21 = -11")
-if num1 == 10 and sign == '-' and num2 == 22:
-    print("10-22 = -12")
-if num1 == 10 and sign == '-' and num2 == 23:
-    print("10-23 = -13")
-if num1 == 10 and sign == '-' and num2 == 24:
-    print("10-24 = -14")
-if num1 == 10 and sign == '-' and num2 == 25:
-    print("10-25 = -15")
-if num1 == 10 and sign == '-' and num2 == 26:
-    print("10-26 = -16")
-if num1 == 10 and sign == '-' and num2 == 27:
-    print("10-27 = -17")
-if num1 == 10 and sign == '-' and num2 == 28:
-    print("10-28 = -18")
-if num1 == 10 and sign == '-' and num2 == 29:
-    print("10-29 = -19")
-if num1 == 10 and sign == '-' and num2 == 30:
-    print("10-30 = -20")
-if num1 == 10 and sign == '-' and num2 == 31:
-    print("10-31 = -21")
-if num1 == 10 and sign == '-' and num2 == 32:
-    print("10-32 = -22")
-if num1 == 10 and sign == '-' and num2 == 33:
-    print("10-33 = -23")
-if num1 == 10 and sign == '-' and num2 == 34:
-    print("10-34 = -24")
-if num1 == 10 and sign == '-' and num2 == 35:
-    print("10-35 = -25")
-if num1 == 10 and sign == '-' and num2 == 36:
-    print("10-36 = -26")
-if num1 == 10 and sign == '-' and num2 == 37:
-    print("10-37 = -27")
-if num1 == 10 and sign == '-' and num2 == 38:
-    print("10-38 = -28")
-if num1 == 10 and sign == '-' and num2 == 39:
-    print("10-39 = -29")
-if num1 == 10 and sign == '-' and num2 == 40:
-    print("10-40 = -30")
-if num1 == 10 and sign == '-' and num2 == 41:
-    print("10-41 = -31")
-if num1 == 10 and sign == '-' and num2 == 42:
-    print("10-42 = -32")
-if num1 == 10 and sign == '-' and num2 == 43:
-    print("10-43 = -33")
-if num1 == 10 and sign == '-' and num2 == 44:
-    print("10-44 = -34")
-if num1 == 10 and sign == '-' and num2 == 45:
-    print("10-45 = -35")
-if num1 == 10 and sign == '-' and num2 == 46:
-    print("10-46 = -36")
-if num1 == 10 and sign == '-' and num2 == 47:
-    print("10-47 = -37")
-if num1 == 10 and sign == '-' and num2 == 48:
-    print("10-48 = -38")
-if num1 == 10 and sign == '-' and num2 == 49:
-    print("10-49 = -39")
-if num1 == 10 and sign == '-' and num2 == 50:
-    print("10-50 = -40")
-if num1 == 11 and sign == '-' and num2 == 0:
-    print("11-0 = 11")
-if num1 == 11 and sign == '-' and num2 == 1:
-    print("11-1 = 10")
-if num1 == 11 and sign == '-' and num2 == 2:
-    print("11-2 = 9")
-if num1 == 11 and sign == '-' and num2 == 3:
-    print("11-3 = 8")
-if num1 == 11 and sign == '-' and num2 == 4:
-    print("11-4 = 7")
-if num1 == 11 and sign == '-' and num2 == 5:
-    print("11-5 = 6")
-if num1 == 11 and sign == '-' and num2 == 6:
-    print("11-6 = 5")
-if num1 == 11 and sign == '-' and num2 == 7:
-    print("11-7 = 4")
-if num1 == 11 and sign == '-' and num2 == 8:
-    print("11-8 = 3")
-if num1 == 11 and sign == '-' and num2 == 9:
-    print("11-9 = 2")
-if num1 == 11 and sign == '-' and num2 == 10:
-    print("11-10 = 1")
-if num1 == 11 and sign == '-' and num2 == 11:
-    print("11-11 = 0")
-if num1 == 11 and sign == '-' and num2 == 12:
-    print("11-12 = -1")
-if num1 == 11 and sign == '-' and num2 == 13:
-    print("11-13 = -2")
-if num1 == 11 and sign == '-' and num2 == 14:
-    print("11-14 = -3")
-if num1 == 11 and sign == '-' and num2 == 15:
-    print("11-15 = -4")
-if num1 == 11 and sign == '-' and num2 == 16:
-    print("11-16 = -5")
-if num1 == 11 and sign == '-' and num2 == 17:
-    print("11-17 = -6")
-if num1 == 11 and sign == '-' and num2 == 18:
-    print("11-18 = -7")
-if num1 == 11 and sign == '-' and num2 == 19:
-    print("11-19 = -8")
-if num1 == 11 and sign == '-' and num2 == 20:
-    print("11-20 = -9")
-if num1 == 11 and sign == '-' and num2 == 21:
-    print("11-21 = -10")
-if num1 == 11 and sign == '-' and num2 == 22:
-    print("11-22 = -11")
-if num1 == 11 and sign == '-' and num2 == 23:
-    print("11-23 = -12")
-if num1 == 11 and sign == '-' and num2 == 24:
-    print("11-24 = -13")
-if num1 == 11 and sign == '-' and num2 == 25:
-    print("11-25 = -14")
-if num1 == 11 and sign == '-' and num2 == 26:
-    print("11-26 = -15")
-if num1 == 11 and sign == '-' and num2 == 27:
-    print("11-27 = -16")
-if num1 == 11 and sign == '-' and num2 == 28:
-    print("11-28 = -17")
-if num1 == 11 and sign == '-' and num2 == 29:
-    print("11-29 = -18")
-if num1 == 11 and sign == '-' and num2 == 30:
-    print("11-30 = -19")
-if num1 == 11 and sign == '-' and num2 == 31:
-    print("11-31 = -20")
-if num1 == 11 and sign == '-' and num2 == 32:
-    print("11-32 = -21")
-if num1 == 11 and sign == '-' and num2 == 33:
-    print("11-33 = -22")
-if num1 == 11 and sign == '-' and num2 == 34:
-    print("11-34 = -23")
-if num1 == 11 and sign == '-' and num2 == 35:
-    print("11-35 = -24")
-if num1 == 11 and sign == '-' and num2 == 36:
-    print("11-36 = -25")
-if num1 == 11 and sign == '-' and num2 == 37:
-    print("11-37 = -26")
-if num1 == 11 and sign == '-' and num2 == 38:
-    print("11-38 = -27")
-if num1 == 11 and sign == '-' and num2 == 39:
-    print("11-39 = -28")
-if num1 == 11 and sign == '-' and num2 == 40:
-    print("11-40 = -29")
-if num1 == 11 and sign == '-' and num2 == 41:
-    print("11-41 = -30")
-if num1 == 11 and sign == '-' and num2 == 42:
-    print("11-42 = -31")
-if num1 == 11 and sign == '-' and num2 == 43:
-    print("11-43 = -32")
-if num1 == 11 and sign == '-' and num2 == 44:
-    print("11-44 = -33")
-if num1 == 11 and sign == '-' and num2 == 45:
-    print("11-45 = -34")
-if num1 == 11 and sign == '-' and num2 == 46:
-    print("11-46 = -35")
-if num1 == 11 and sign == '-' and num2 == 47:
-    print("11-47 = -36")
-if num1 == 11 and sign == '-' and num2 == 48:
-    print("11-48 = -37")
-if num1 == 11 and sign == '-' and num2 == 49:
-    print("11-49 = -38")
-if num1 == 11 and sign == '-' and num2 == 50:
-    print("11-50 = -39")
-if num1 == 12 and sign == '-' and num2 == 0:
-    print("12-0 = 12")
-if num1 == 12 and sign == '-' and num2 == 1:
-    print("12-1 = 11")
-if num1 == 12 and sign == '-' and num2 == 2:
-    print("12-2 = 10")
-if num1 == 12 and sign == '-' and num2 == 3:
-    print("12-3 = 9")
-if num1 == 12 and sign == '-' and num2 == 4:
-    print("12-4 = 8")
-if num1 == 12 and sign == '-' and num2 == 5:
-    print("12-5 = 7")
-if num1 == 12 and sign == '-' and num2 == 6:
-    print("12-6 = 6")
-if num1 == 12 and sign == '-' and num2 == 7:
-    print("12-7 = 5")
-if num1 == 12 and sign == '-' and num2 == 8:
-    print("12-8 = 4")
-if num1 == 12 and sign == '-' and num2 == 9:
-    print("12-9 = 3")
-if num1 == 12 and sign == '-' and num2 == 10:
-    print("12-10 = 2")
-if num1 == 12 and sign == '-' and num2 == 11:
-    print("12-11 = 1")
-if num1 == 12 and sign == '-' and num2 == 12:
-    print("12-12 = 0")
-if num1 == 12 and sign == '-' and num2 == 13:
-    print("12-13 = -1")
-if num1 == 12 and sign == '-' and num2 == 14:
-    print("12-14 = -2")
-if num1 == 12 and sign == '-' and num2 == 15:
-    print("12-15 = -3")
-if num1 == 12 and sign == '-' and num2 == 16:
-    print("12-16 = -4")
-if num1 == 12 and sign == '-' and num2 == 17:
-    print("12-17 = -5")
-if num1 == 12 and sign == '-' and num2 == 18:
-    print("12-18 = -6")
-if num1 == 12 and sign == '-' and num2 == 19:
-    print("12-19 = -7")
-if num1 == 12 and sign == '-' and num2 == 20:
-    print("12-20 = -8")
-if num1 == 12 and sign == '-' and num2 == 21:
-    print("12-21 = -9")
-if num1 == 12 and sign == '-' and num2 == 22:
-    print("12-22 = -10")
-if num1 == 12 and sign == '-' and num2 == 23:
-    print("12-23 = -11")
-if num1 == 12 and sign == '-' and num2 == 24:
-    print("12-24 = -12")
-if num1 == 12 and sign == '-' and num2 == 25:
-    print("12-25 = -13")
-if num1 == 12 and sign == '-' and num2 == 26:
-    print("12-26 = -14")
-if num1 == 12 and sign == '-' and num2 == 27:
-    print("12-27 = -15")
-if num1 == 12 and sign == '-' and num2 == 28:
-    print("12-28 = -16")
-if num1 == 12 and sign == '-' and num2 == 29:
-    print("12-29 = -17")
-if num1 == 12 and sign == '-' and num2 == 30:
-    print("12-30 = -18")
-if num1 == 12 and sign == '-' and num2 == 31:
-    print("12-31 = -19")
-if num1 == 12 and sign == '-' and num2 == 32:
-    print("12-32 = -20")
-if num1 == 12 and sign == '-' and num2 == 33:
-    print("12-33 = -21")
-if num1 == 12 and sign == '-' and num2 == 34:
-    print("12-34 = -22")
-if num1 == 12 and sign == '-' and num2 == 35:
-    print("12-35 = -23")
-if num1 == 12 and sign == '-' and num2 == 36:
-    print("12-36 = -24")
-if num1 == 12 and sign == '-' and num2 == 37:
-    print("12-37 = -25")
-if num1 == 12 and sign == '-' and num2 == 38:
-    print("12-38 = -26")
-if num1 == 12 and sign == '-' and num2 == 39:
-    print("12-39 = -27")
-if num1 == 12 and sign == '-' and num2 == 40:
-    print("12-40 = -28")
-if num1 == 12 and sign == '-' and num2 == 41:
-    print("12-41 = -29")
-if num1 == 12 and sign == '-' and num2 == 42:
-    print("12-42 = -30")
-if num1 == 12 and sign == '-' and num2 == 43:
-    print("12-43 = -31")
-if num1 == 12 and sign == '-' and num2 == 44:
-    print("12-44 = -32")
-if num1 == 12 and sign == '-' and num2 == 45:
-    print("12-45 = -33")
-if num1 == 12 and sign == '-' and num2 == 46:
-    print("12-46 = -34")
-if num1 == 12 and sign == '-' and num2 == 47:
-    print("12-47 = -35")
-if num1 == 12 and sign == '-' and num2 == 48:
-    print("12-48 = -36")
-if num1 == 12 and sign == '-' and num2 == 49:
-    print("12-49 = -37")
-if num1 == 12 and sign == '-' and num2 == 50:
-    print("12-50 = -38")
-if num1 == 13 and sign == '-' and num2 == 0:
-    print("13-0 = 13")
-if num1 == 13 and sign == '-' and num2 == 1:
-    print("13-1 = 12")
-if num1 == 13 and sign == '-' and num2 == 2:
-    print("13-2 = 11")
-if num1 == 13 and sign == '-' and num2 == 3:
-    print("13-3 = 10")
-if num1 == 13 and sign == '-' and num2 == 4:
-    print("13-4 = 9")
-if num1 == 13 and sign == '-' and num2 == 5:
-    print("13-5 = 8")
-if num1 == 13 and sign == '-' and num2 == 6:
-    print("13-6 = 7")
-if num1 == 13 and sign == '-' and num2 == 7:
-    print("13-7 = 6")
-if num1 == 13 and sign == '-' and num2 == 8:
-    print("13-8 = 5")
-if num1 == 13 and sign == '-' and num2 == 9:
-    print("13-9 = 4")
-if num1 == 13 and sign == '-' and num2 == 10:
-    print("13-10 = 3")
-if num1 == 13 and sign == '-' and num2 == 11:
-    print("13-11 = 2")
-if num1 == 13 and sign == '-' and num2 == 12:
-    print("13-12 = 1")
-if num1 == 13 and sign == '-' and num2 == 13:
-    print("13-13 = 0")
-if num1 == 13 and sign == '-' and num2 == 14:
-    print("13-14 = -1")
-if num1 == 13 and sign == '-' and num2 == 15:
-    print("13-15 = -2")
-if num1 == 13 and sign == '-' and num2 == 16:
-    print("13-16 = -3")
-if num1 == 13 and sign == '-' and num2 == 17:
-    print("13-17 = -4")
-if num1 == 13 and sign == '-' and num2 == 18:
-    print("13-18 = -5")
-if num1 == 13 and sign == '-' and num2 == 19:
-    print("13-19 = -6")
-if num1 == 13 and sign == '-' and num2 == 20:
-    print("13-20 = -7")
-if num1 == 13 and sign == '-' and num2 == 21:
-    print("13-21 = -8")
-if num1 == 13 and sign == '-' and num2 == 22:
-    print("13-22 = -9")
-if num1 == 13 and sign == '-' and num2 == 23:
-    print("13-23 = -10")
-if num1 == 13 and sign == '-' and num2 == 24:
-    print("13-24 = -11")
-if num1 == 13 and sign == '-' and num2 == 25:
-    print("13-25 = -12")
-if num1 == 13 and sign == '-' and num2 == 26:
-    print("13-26 = -13")
-if num1 == 13 and sign == '-' and num2 == 27:
-    print("13-27 = -14")
-if num1 == 13 and sign == '-' and num2 == 28:
-    print("13-28 = -15")
-if num1 == 13 and sign == '-' and num2 == 29:
-    print("13-29 = -16")
-if num1 == 13 and sign == '-' and num2 == 30:
-    print("13-30 = -17")
-if num1 == 13 and sign == '-' and num2 == 31:
-    print("13-31 = -18")
-if num1 == 13 and sign == '-' and num2 == 32:
-    print("13-32 = -19")
-if num1 == 13 and sign == '-' and num2 == 33:
-    print("13-33 = -20")
-if num1 == 13 and sign == '-' and num2 == 34:
-    print("13-34 = -21")
-if num1 == 13 and sign == '-' and num2 == 35:
-    print("13-35 = -22")
-if num1 == 13 and sign == '-' and num2 == 36:
-    print("13-36 = -23")
-if num1 == 13 and sign == '-' and num2 == 37:
-    print("13-37 = -24")
-if num1 == 13 and sign == '-' and num2 == 38:
-    print("13-38 = -25")
-if num1 == 13 and sign == '-' and num2 == 39:
-    print("13-39 = -26")
-if num1 == 13 and sign == '-' and num2 == 40:
-    print("13-40 = -27")
-if num1 == 13 and sign == '-' and num2 == 41:
-    print("13-41 = -28")
-if num1 == 13 and sign == '-' and num2 == 42:
-    print("13-42 = -29")
-if num1 == 13 and sign == '-' and num2 == 43:
-    print("13-43 = -30")
-if num1 == 13 and sign == '-' and num2 == 44:
-    print("13-44 = -31")
-if num1 == 13 and sign == '-' and num2 == 45:
-    print("13-45 = -32")
-if num1 == 13 and sign == '-' and num2 == 46:
-    print("13-46 = -33")
-if num1 == 13 and sign == '-' and num2 == 47:
-    print("13-47 = -34")
-if num1 == 13 and sign == '-' and num2 == 48:
-    print("13-48 = -35")
-if num1 == 13 and sign == '-' and num2 == 49:
-    print("13-49 = -36")
-if num1 == 13 and sign == '-' and num2 == 50:
-    print("13-50 = -37")
-if num1 == 14 and sign == '-' and num2 == 0:
-    print("14-0 = 14")
-if num1 == 14 and sign == '-' and num2 == 1:
-    print("14-1 = 13")
-if num1 == 14 and sign == '-' and num2 == 2:
-    print("14-2 = 12")
-if num1 == 14 and sign == '-' and num2 == 3:
-    print("14-3 = 11")
-if num1 == 14 and sign == '-' and num2 == 4:
-    print("14-4 = 10")
-if num1 == 14 and sign == '-' and num2 == 5:
-    print("14-5 = 9")
-if num1 == 14 and sign == '-' and num2 == 6:
-    print("14-6 = 8")
-if num1 == 14 and sign == '-' and num2 == 7:
-    print("14-7 = 7")
-if num1 == 14 and sign == '-' and num2 == 8:
-    print("14-8 = 6")
-if num1 == 14 and sign == '-' and num2 == 9:
-    print("14-9 = 5")
-if num1 == 14 and sign == '-' and num2 == 10:
-    print("14-10 = 4")
-if num1 == 14 and sign == '-' and num2 == 11:
-    print("14-11 = 3")
-if num1 == 14 and sign == '-' and num2 == 12:
-    print("14-12 = 2")
-if num1 == 14 and sign == '-' and num2 == 13:
-    print("14-13 = 1")
-if num1 == 14 and sign == '-' and num2 == 14:
-    print("14-14 = 0")
-if num1 == 14 and sign == '-' and num2 == 15:
-    print("14-15 = -1")
-if num1 == 14 and sign == '-' and num2 == 16:
-    print("14-16 = -2")
-if num1 == 14 and sign == '-' and num2 == 17:
-    print("14-17 = -3")
-if num1 == 14 and sign == '-' and num2 == 18:
-    print("14-18 = -4")
-if num1 == 14 and sign == '-' and num2 == 19:
-    print("14-19 = -5")
-if num1 == 14 and sign == '-' and num2 == 20:
-    print("14-20 = -6")
-if num1 == 14 and sign == '-' and num2 == 21:
-    print("14-21 = -7")
-if num1 == 14 and sign == '-' and num2 == 22:
-    print("14-22 = -8")
-if num1 == 14 and sign == '-' and num2 == 23:
-    print("14-23 = -9")
-if num1 == 14 and sign == '-' and num2 == 24:
-    print("14-24 = -10")
-if num1 == 14 and sign == '-' and num2 == 25:
-    print("14-25 = -11")
-if num1 == 14 and sign == '-' and num2 == 26:
-    print("14-26 = -12")
-if num1 == 14 and sign == '-' and num2 == 27:
-    print("14-27 = -13")
-if num1 == 14 and sign == '-' and num2 == 28:
-    print("14-28 = -14")
-if num1 == 14 and sign == '-' and num2 == 29:
-    print("14-29 = -15")
-if num1 == 14 and sign == '-' and num2 == 30:
-    print("14-30 = -16")
-if num1 == 14 and sign == '-' and num2 == 31:
-    print("14-31 = -17")
-if num1 == 14 and sign == '-' and num2 == 32:
-    print("14-32 = -18")
-if num1 == 14 and sign == '-' and num2 == 33:
-    print("14-33 = -19")
-if num1 == 14 and sign == '-' and num2 == 34:
-    print("14-34 = -20")
-if num1 == 14 and sign == '-' and num2 == 35:
-    print("14-35 = -21")
-if num1 == 14 and sign == '-' and num2 == 36:
-    print("14-36 = -22")
-if num1 == 14 and sign == '-' and num2 == 37:
-    print("14-37 = -23")
-if num1 == 14 and sign == '-' and num2 == 38:
-    print("14-38 = -24")
-if num1 == 14 and sign == '-' and num2 == 39:
-    print("14-39 = -25")
-if num1 == 14 and sign == '-' and num2 == 40:
-    print("14-40 = -26")
-if num1 == 14 and sign == '-' and num2 == 41:
-    print("14-41 = -27")
-if num1 == 14 and sign == '-' and num2 == 42:
-    print("14-42 = -28")
-if num1 == 14 and sign == '-' and num2 == 43:
-    print("14-43 = -29")
-if num1 == 14 and sign == '-' and num2 == 44:
-    print("14-44 = -30")
-if num1 == 14 and sign == '-' and num2 == 45:
-    print("14-45 = -31")
-if num1 == 14 and sign == '-' and num2 == 46:
-    print("14-46 = -32")
-if num1 == 14 and sign == '-' and num2 == 47:
-    print("14-47 = -33")
-if num1 == 14 and sign == '-' and num2 == 48:
-    print("14-48 = -34")
-if num1 == 14 and sign == '-' and num2 == 49:
-    print("14-49 = -35")
-if num1 == 14 and sign == '-' and num2 == 50:
-    print("14-50 = -36")
-if num1 == 15 and sign == '-' and num2 == 0:
-    print("15-0 = 15")
-if num1 == 15 and sign == '-' and num2 == 1:
-    print("15-1 = 14")
-if num1 == 15 and sign == '-' and num2 == 2:
-    print("15-2 = 13")
-if num1 == 15 and sign == '-' and num2 == 3:
-    print("15-3 = 12")
-if num1 == 15 and sign == '-' and num2 == 4:
-    print("15-4 = 11")
-if num1 == 15 and sign == '-' and num2 == 5:
-    print("15-5 = 10")
-if num1 == 15 and sign == '-' and num2 == 6:
-    print("15-6 = 9")
-if num1 == 15 and sign == '-' and num2 == 7:
-    print("15-7 = 8")
-if num1 == 15 and sign == '-' and num2 == 8:
-    print("15-8 = 7")
-if num1 == 15 and sign == '-' and num2 == 9:
-    print("15-9 = 6")
-if num1 == 15 and sign == '-' and num2 == 10:
-    print("15-10 = 5")
-if num1 == 15 and sign == '-' and num2 == 11:
-    print("15-11 = 4")
-if num1 == 15 and sign == '-' and num2 == 12:
-    print("15-12 = 3")
-if num1 == 15 and sign == '-' and num2 == 13:
-    print("15-13 = 2")
-if num1 == 15 and sign == '-' and num2 == 14:
-    print("15-14 = 1")
-if num1 == 15 and sign == '-' and num2 == 15:
-    print("15-15 = 0")
-if num1 == 15 and sign == '-' and num2 == 16:
-    print("15-16 = -1")
-if num1 == 15 and sign == '-' and num2 == 17:
-    print("15-17 = -2")
-if num1 == 15 and sign == '-' and num2 == 18:
-    print("15-18 = -3")
-if num1 == 15 and sign == '-' and num2 == 19:
-    print("15-19 = -4")
-if num1 == 15 and sign == '-' and num2 == 20:
-    print("15-20 = -5")
-if num1 == 15 and sign == '-' and num2 == 21:
-    print("15-21 = -6")
-if num1 == 15 and sign == '-' and num2 == 22:
-    print("15-22 = -7")
-if num1 == 15 and sign == '-' and num2 == 23:
-    print("15-23 = -8")
-if num1 == 15 and sign == '-' and num2 == 24:
-    print("15-24 = -9")
-if num1 == 15 and sign == '-' and num2 == 25:
-    print("15-25 = -10")
-if num1 == 15 and sign == '-' and num2 == 26:
-    print("15-26 = -11")
-if num1 == 15 and sign == '-' and num2 == 27:
-    print("15-27 = -12")
-if num1 == 15 and sign == '-' and num2 == 28:
-    print("15-28 = -13")
-if num1 == 15 and sign == '-' and num2 == 29:
-    print("15-29 = -14")
-if num1 == 15 and sign == '-' and num2 == 30:
-    print("15-30 = -15")
-if num1 == 15 and sign == '-' and num2 == 31:
-    print("15-31 = -16")
-if num1 == 15 and sign == '-' and num2 == 32:
-    print("15-32 = -17")
-if num1 == 15 and sign == '-' and num2 == 33:
-    print("15-33 = -18")
-if num1 == 15 and sign == '-' and num2 == 34:
-    print("15-34 = -19")
-if num1 == 15 and sign == '-' and num2 == 35:
-    print("15-35 = -20")
-if num1 == 15 and sign == '-' and num2 == 36:
-    print("15-36 = -21")
-if num1 == 15 and sign == '-' and num2 == 37:
-    print("15-37 = -22")
-if num1 == 15 and sign == '-' and num2 == 38:
-    print("15-38 = -23")
-if num1 == 15 and sign == '-' and num2 == 39:
-    print("15-39 = -24")
-if num1 == 15 and sign == '-' and num2 == 40:
-    print("15-40 = -25")
-if num1 == 15 and sign == '-' and num2 == 41:
-    print("15-41 = -26")
-if num1 == 15 and sign == '-' and num2 == 42:
-    print("15-42 = -27")
-if num1 == 15 and sign == '-' and num2 == 43:
-    print("15-43 = -28")
-if num1 == 15 and sign == '-' and num2 == 44:
-    print("15-44 = -29")
-if num1 == 15 and sign == '-' and num2 == 45:
-    print("15-45 = -30")
-if num1 == 15 and sign == '-' and num2 == 46:
-    print("15-46 = -31")
-if num1 == 15 and sign == '-' and num2 == 47:
-    print("15-47 = -32")
-if num1 == 15 and sign == '-' and num2 == 48:
-    print("15-48 = -33")
-if num1 == 15 and sign == '-' and num2 == 49:
-    print("15-49 = -34")
-if num1 == 15 and sign == '-' and num2 == 50:
-    print("15-50 = -35")
-if num1 == 16 and sign == '-' and num2 == 0:
-    print("16-0 = 16")
-if num1 == 16 and sign == '-' and num2 == 1:
-    print("16-1 = 15")
-if num1 == 16 and sign == '-' and num2 == 2:
-    print("16-2 = 14")
-if num1 == 16 and sign == '-' and num2 == 3:
-    print("16-3 = 13")
-if num1 == 16 and sign == '-' and num2 == 4:
-    print("16-4 = 12")
-if num1 == 16 and sign == '-' and num2 == 5:
-    print("16-5 = 11")
-if num1 == 16 and sign == '-' and num2 == 6:
-    print("16-6 = 10")
-if num1 == 16 and sign == '-' and num2 == 7:
-    print("16-7 = 9")
-if num1 == 16 and sign == '-' and num2 == 8:
-    print("16-8 = 8")
-if num1 == 16 and sign == '-' and num2 == 9:
-    print("16-9 = 7")
-if num1 == 16 and sign == '-' and num2 == 10:
-    print("16-10 = 6")
-if num1 == 16 and sign == '-' and num2 == 11:
-    print("16-11 = 5")
-if num1 == 16 and sign == '-' and num2 == 12:
-    print("16-12 = 4")
-if num1 == 16 and sign == '-' and num2 == 13:
-    print("16-13 = 3")
-if num1 == 16 and sign == '-' and num2 == 14:
-    print("16-14 = 2")
-if num1 == 16 and sign == '-' and num2 == 15:
-    print("16-15 = 1")
-if num1 == 16 and sign == '-' and num2 == 16:
-    print("16-16 = 0")
-if num1 == 16 and sign == '-' and num2 == 17:
-    print("16-17 = -1")
-if num1 == 16 and sign == '-' and num2 == 18:
-    print("16-18 = -2")
-if num1 == 16 and sign == '-' and num2 == 19:
-    print("16-19 = -3")
-if num1 == 16 and sign == '-' and num2 == 20:
-    print("16-20 = -4")
-if num1 == 16 and sign == '-' and num2 == 21:
-    print("16-21 = -5")
-if num1 == 16 and sign == '-' and num2 == 22:
-    print("16-22 = -6")
-if num1 == 16 and sign == '-' and num2 == 23:
-    print("16-23 = -7")
-if num1 == 16 and sign == '-' and num2 == 24:
-    print("16-24 = -8")
-if num1 == 16 and sign == '-' and num2 == 25:
-    print("16-25 = -9")
-if num1 == 16 and sign == '-' and num2 == 26:
-    print("16-26 = -10")
-if num1 == 16 and sign == '-' and num2 == 27:
-    print("16-27 = -11")
-if num1 == 16 and sign == '-' and num2 == 28:
-    print("16-28 = -12")
-if num1 == 16 and sign == '-' and num2 == 29:
-    print("16-29 = -13")
-if num1 == 16 and sign == '-' and num2 == 30:
-    print("16-30 = -14")
-if num1 == 16 and sign == '-' and num2 == 31:
-    print("16-31 = -15")
-if num1 == 16 and sign == '-' and num2 == 32:
-    print("16-32 = -16")
-if num1 == 16 and sign == '-' and num2 == 33:
-    print("16-33 = -17")
-if num1 == 16 and sign == '-' and num2 == 34:
-    print("16-34 = -18")
-if num1 == 16 and sign == '-' and num2 == 35:
-    print("16-35 = -19")
-if num1 == 16 and sign == '-' and num2 == 36:
-    print("16-36 = -20")
-if num1 == 16 and sign == '-' and num2 == 37:
-    print("16-37 = -21")
-if num1 == 16 and sign == '-' and num2 == 38:
-    print("16-38 = -22")
-if num1 == 16 and sign == '-' and num2 == 39:
-    print("16-39 = -23")
-if num1 == 16 and sign == '-' and num2 == 40:
-    print("16-40 = -24")
-if num1 == 16 and sign == '-' and num2 == 41:
-    print("16-41 = -25")
-if num1 == 16 and sign == '-' and num2 == 42:
-    print("16-42 = -26")
-if num1 == 16 and sign == '-' and num2 == 43:
-    print("16-43 = -27")
-if num1 == 16 and sign == '-' and num2 == 44:
-    print("16-44 = -28")
-if num1 == 16 and sign == '-' and num2 == 45:
-    print("16-45 = -29")
-if num1 == 16 and sign == '-' and num2 == 46:
-    print("16-46 = -30")
-if num1 == 16 and sign == '-' and num2 == 47:
-    print("16-47 = -31")
-if num1 == 16 and sign == '-' and num2 == 48:
-    print("16-48 = -32")
-if num1 == 16 and sign == '-' and num2 == 49:
-    print("16-49 = -33")
-if num1 == 16 and sign == '-' and num2 == 50:
-    print("16-50 = -34")
-if num1 == 17 and sign == '-' and num2 == 0:
-    print("17-0 = 17")
-if num1 == 17 and sign == '-' and num2 == 1:
-    print("17-1 = 16")
-if num1 == 17 and sign == '-' and num2 == 2:
-    print("17-2 = 15")
-if num1 == 17 and sign == '-' and num2 == 3:
-    print("17-3 = 14")
-if num1 == 17 and sign == '-' and num2 == 4:
-    print("17-4 = 13")
-if num1 == 17 and sign == '-' and num2 == 5:
-    print("17-5 = 12")
-if num1 == 17 and sign == '-' and num2 == 6:
-    print("17-6 = 11")
-if num1 == 17 and sign == '-' and num2 == 7:
-    print("17-7 = 10")
-if num1 == 17 and sign == '-' and num2 == 8:
-    print("17-8 = 9")
-if num1 == 17 and sign == '-' and num2 == 9:
-    print("17-9 = 8")
-if num1 == 17 and sign == '-' and num2 == 10:
-    print("17-10 = 7")
-if num1 == 17 and sign == '-' and num2 == 11:
-    print("17-11 = 6")
-if num1 == 17 and sign == '-' and num2 == 12:
-    print("17-12 = 5")
-if num1 == 17 and sign == '-' and num2 == 13:
-    print("17-13 = 4")
-if num1 == 17 and sign == '-' and num2 == 14:
-    print("17-14 = 3")
-if num1 == 17 and sign == '-' and num2 == 15:
-    print("17-15 = 2")
-if num1 == 17 and sign == '-' and num2 == 16:
-    print("17-16 = 1")
-if num1 == 17 and sign == '-' and num2 == 17:
-    print("17-17 = 0")
-if num1 == 17 and sign == '-' and num2 == 18:
-    print("17-18 = -1")
-if num1 == 17 and sign == '-' and num2 == 19:
-    print("17-19 = -2")
-if num1 == 17 and sign == '-' and num2 == 20:
-    print("17-20 = -3")
-if num1 == 17 and sign == '-' and num2 == 21:
-    print("17-21 = -4")
-if num1 == 17 and sign == '-' and num2 == 22:
-    print("17-22 = -5")
-if num1 == 17 and sign == '-' and num2 == 23:
-    print("17-23 = -6")
-if num1 == 17 and sign == '-' and num2 == 24:
-    print("17-24 = -7")
-if num1 == 17 and sign == '-' and num2 == 25:
-    print("17-25 = -8")
-if num1 == 17 and sign == '-' and num2 == 26:
-    print("17-26 = -9")
-if num1 == 17 and sign == '-' and num2 == 27:
-    print("17-27 = -10")
-if num1 == 17 and sign == '-' and num2 == 28:
-    print("17-28 = -11")
-if num1 == 17 and sign == '-' and num2 == 29:
-    print("17-29 = -12")
-if num1 == 17 and sign == '-' and num2 == 30:
-    print("17-30 = -13")
-if num1 == 17 and sign == '-' and num2 == 31:
-    print("17-31 = -14")
-if num1 == 17 and sign == '-' and num2 == 32:
-    print("17-32 = -15")
-if num1 == 17 and sign == '-' and num2 == 33:
-    print("17-33 = -16")
-if num1 == 17 and sign == '-' and num2 == 34:
-    print("17-34 = -17")
-if num1 == 17 and sign == '-' and num2 == 35:
-    print("17-35 = -18")
-if num1 == 17 and sign == '-' and num2 == 36:
-    print("17-36 = -19")
-if num1 == 17 and sign == '-' and num2 == 37:
-    print("17-37 = -20")
-if num1 == 17 and sign == '-' and num2 == 38:
-    print("17-38 = -21")
-if num1 == 17 and sign == '-' and num2 == 39:
-    print("17-39 = -22")
-if num1 == 17 and sign == '-' and num2 == 40:
-    print("17-40 = -23")
-if num1 == 17 and sign == '-' and num2 == 41:
-    print("17-41 = -24")
-if num1 == 17 and sign == '-' and num2 == 42:
-    print("17-42 = -25")
-if num1 == 17 and sign == '-' and num2 == 43:
-    print("17-43 = -26")
-if num1 == 17 and sign == '-' and num2 == 44:
-    print("17-44 = -27")
-if num1 == 17 and sign == '-' and num2 == 45:
-    print("17-45 = -28")
-if num1 == 17 and sign == '-' and num2 == 46:
-    print("17-46 = -29")
-if num1 == 17 and sign == '-' and num2 == 47:
-    print("17-47 = -30")
-if num1 == 17 and sign == '-' and num2 == 48:
-    print("17-48 = -31")
-if num1 == 17 and sign == '-' and num2 == 49:
-    print("17-49 = -32")
-if num1 == 17 and sign == '-' and num2 == 50:
-    print("17-50 = -33")
-if num1 == 18 and sign == '-' and num2 == 0:
-    print("18-0 = 18")
-if num1 == 18 and sign == '-' and num2 == 1:
-    print("18-1 = 17")
-if num1 == 18 and sign == '-' and num2 == 2:
-    print("18-2 = 16")
-if num1 == 18 and sign == '-' and num2 == 3:
-    print("18-3 = 15")
-if num1 == 18 and sign == '-' and num2 == 4:
-    print("18-4 = 14")
-if num1 == 18 and sign == '-' and num2 == 5:
-    print("18-5 = 13")
-if num1 == 18 and sign == '-' and num2 == 6:
-    print("18-6 = 12")
-if num1 == 18 and sign == '-' and num2 == 7:
-    print("18-7 = 11")
-if num1 == 18 and sign == '-' and num2 == 8:
-    print("18-8 = 10")
-if num1 == 18 and sign == '-' and num2 == 9:
-    print("18-9 = 9")
-if num1 == 18 and sign == '-' and num2 == 10:
-    print("18-10 = 8")
-if num1 == 18 and sign == '-' and num2 == 11:
-    print("18-11 = 7")
-if num1 == 18 and sign == '-' and num2 == 12:
-    print("18-12 = 6")
-if num1 == 18 and sign == '-' and num2 == 13:
-    print("18-13 = 5")
-if num1 == 18 and sign == '-' and num2 == 14:
-    print("18-14 = 4")
-if num1 == 18 and sign == '-' and num2 == 15:
-    print("18-15 = 3")
-if num1 == 18 and sign == '-' and num2 == 16:
-    print("18-16 = 2")
-if num1 == 18 and sign == '-' and num2 == 17:
-    print("18-17 = 1")
-if num1 == 18 and sign == '-' and num2 == 18:
-    print("18-18 = 0")
-if num1 == 18 and sign == '-' and num2 == 19:
-    print("18-19 = -1")
-if num1 == 18 and sign == '-' and num2 == 20:
-    print("18-20 = -2")
-if num1 == 18 and sign == '-' and num2 == 21:
-    print("18-21 = -3")
-if num1 == 18 and sign == '-' and num2 == 22:
-    print("18-22 = -4")
-if num1 == 18 and sign == '-' and num2 == 23:
-    print("18-23 = -5")
-if num1 == 18 and sign == '-' and num2 == 24:
-    print("18-24 = -6")
-if num1 == 18 and sign == '-' and num2 == 25:
-    print("18-25 = -7")
-if num1 == 18 and sign == '-' and num2 == 26:
-    print("18-26 = -8")
-if num1 == 18 and sign == '-' and num2 == 27:
-    print("18-27 = -9")
-if num1 == 18 and sign == '-' and num2 == 28:
-    print("18-28 = -10")
-if num1 == 18 and sign == '-' and num2 == 29:
-    print("18-29 = -11")
-if num1 == 18 and sign == '-' and num2 == 30:
-    print("18-30 = -12")
-if num1 == 18 and sign == '-' and num2 == 31:
-    print("18-31 = -13")
-if num1 == 18 and sign == '-' and num2 == 32:
-    print("18-32 = -14")
-if num1 == 18 and sign == '-' and num2 == 33:
-    print("18-33 = -15")
-if num1 == 18 and sign == '-' and num2 == 34:
-    print("18-34 = -16")
-if num1 == 18 and sign == '-' and num2 == 35:
-    print("18-35 = -17")
-if num1 == 18 and sign == '-' and num2 == 36:
-    print("18-36 = -18")
-if num1 == 18 and sign == '-' and num2 == 37:
-    print("18-37 = -19")
-if num1 == 18 and sign == '-' and num2 == 38:
-    print("18-38 = -20")
-if num1 == 18 and sign == '-' and num2 == 39:
-    print("18-39 = -21")
-if num1 == 18 and sign == '-' and num2 == 40:
-    print("18-40 = -22")
-if num1 == 18 and sign == '-' and num2 == 41:
-    print("18-41 = -23")
-if num1 == 18 and sign == '-' and num2 == 42:
-    print("18-42 = -24")
-if num1 == 18 and sign == '-' and num2 == 43:
-    print("18-43 = -25")
-if num1 == 18 and sign == '-' and num2 == 44:
-    print("18-44 = -26")
-if num1 == 18 and sign == '-' and num2 == 45:
-    print("18-45 = -27")
-if num1 == 18 and sign == '-' and num2 == 46:
-    print("18-46 = -28")
-if num1 == 18 and sign == '-' and num2 == 47:
-    print("18-47 = -29")
-if num1 == 18 and sign == '-' and num2 == 48:
-    print("18-48 = -30")
-if num1 == 18 and sign == '-' and num2 == 49:
-    print("18-49 = -31")
-if num1 == 18 and sign == '-' and num2 == 50:
-    print("18-50 = -32")
-if num1 == 19 and sign == '-' and num2 == 0:
-    print("19-0 = 19")
-if num1 == 19 and sign == '-' and num2 == 1:
-    print("19-1 = 18")
-if num1 == 19 and sign == '-' and num2 == 2:
-    print("19-2 = 17")
-if num1 == 19 and sign == '-' and num2 == 3:
-    print("19-3 = 16")
-if num1 == 19 and sign == '-' and num2 == 4:
-    print("19-4 = 15")
-if num1 == 19 and sign == '-' and num2 == 5:
-    print("19-5 = 14")
-if num1 == 19 and sign == '-' and num2 == 6:
-    print("19-6 = 13")
-if num1 == 19 and sign == '-' and num2 == 7:
-    print("19-7 = 12")
-if num1 == 19 and sign == '-' and num2 == 8:
-    print("19-8 = 11")
-if num1 == 19 and sign == '-' and num2 == 9:
-    print("19-9 = 10")
-if num1 == 19 and sign == '-' and num2 == 10:
-    print("19-10 = 9")
-if num1 == 19 and sign == '-' and num2 == 11:
-    print("19-11 = 8")
-if num1 == 19 and sign == '-' and num2 == 12:
-    print("19-12 = 7")
-if num1 == 19 and sign == '-' and num2 == 13:
-    print("19-13 = 6")
-if num1 == 19 and sign == '-' and num2 == 14:
-    print("19-14 = 5")
-if num1 == 19 and sign == '-' and num2 == 15:
-    print("19-15 = 4")
-if num1 == 19 and sign == '-' and num2 == 16:
-    print("19-16 = 3")
-if num1 == 19 and sign == '-' and num2 == 17:
-    print("19-17 = 2")
-if num1 == 19 and sign == '-' and num2 == 18:
-    print("19-18 = 1")
-if num1 == 19 and sign == '-' and num2 == 19:
-    print("19-19 = 0")
-if num1 == 19 and sign == '-' and num2 == 20:
-    print("19-20 = -1")
-if num1 == 19 and sign == '-' and num2 == 21:
-    print("19-21 = -2")
-if num1 == 19 and sign == '-' and num2 == 22:
-    print("19-22 = -3")
-if num1 == 19 and sign == '-' and num2 == 23:
-    print("19-23 = -4")
-if num1 == 19 and sign == '-' and num2 == 24:
-    print("19-24 = -5")
-if num1 == 19 and sign == '-' and num2 == 25:
-    print("19-25 = -6")
-if num1 == 19 and sign == '-' and num2 == 26:
-    print("19-26 = -7")
-if num1 == 19 and sign == '-' and num2 == 27:
-    print("19-27 = -8")
-if num1 == 19 and sign == '-' and num2 == 28:
-    print("19-28 = -9")
-if num1 == 19 and sign == '-' and num2 == 29:
-    print("19-29 = -10")
-if num1 == 19 and sign == '-' and num2 == 30:
-    print("19-30 = -11")
-if num1 == 19 and sign == '-' and num2 == 31:
-    print("19-31 = -12")
-if num1 == 19 and sign == '-' and num2 == 32:
-    print("19-32 = -13")
-if num1 == 19 and sign == '-' and num2 == 33:
-    print("19-33 = -14")
-if num1 == 19 and sign == '-' and num2 == 34:
-    print("19-34 = -15")
-if num1 == 19 and sign == '-' and num2 == 35:
-    print("19-35 = -16")
-if num1 == 19 and sign == '-' and num2 == 36:
-    print("19-36 = -17")
-if num1 == 19 and sign == '-' and num2 == 37:
-    print("19-37 = -18")
-if num1 == 19 and sign == '-' and num2 == 38:
-    print("19-38 = -19")
-if num1 == 19 and sign == '-' and num2 == 39:
-    print("19-39 = -20")
-if num1 == 19 and sign == '-' and num2 == 40:
-    print("19-40 = -21")
-if num1 == 19 and sign == '-' and num2 == 41:
-    print("19-41 = -22")
-if num1 == 19 and sign == '-' and num2 == 42:
-    print("19-42 = -23")
-if num1 == 19 and sign == '-' and num2 == 43:
-    print("19-43 = -24")
-if num1 == 19 and sign == '-' and num2 == 44:
-    print("19-44 = -25")
-if num1 == 19 and sign == '-' and num2 == 45:
-    print("19-45 = -26")
-if num1 == 19 and sign == '-' and num2 == 46:
-    print("19-46 = -27")
-if num1 == 19 and sign == '-' and num2 == 47:
-    print("19-47 = -28")
-if num1 == 19 and sign == '-' and num2 == 48:
-    print("19-48 = -29")
-if num1 == 19 and sign == '-' and num2 == 49:
-    print("19-49 = -30")
-if num1 == 19 and sign == '-' and num2 == 50:
-    print("19-50 = -31")
-if num1 == 20 and sign == '-' and num2 == 0:
-    print("20-0 = 20")
-if num1 == 20 and sign == '-' and num2 == 1:
-    print("20-1 = 19")
-if num1 == 20 and sign == '-' and num2 == 2:
-    print("20-2 = 18")
-if num1 == 20 and sign == '-' and num2 == 3:
-    print("20-3 = 17")
-if num1 == 20 and sign == '-' and num2 == 4:
-    print("20-4 = 16")
-if num1 == 20 and sign == '-' and num2 == 5:
-    print("20-5 = 15")
-if num1 == 20 and sign == '-' and num2 == 6:
-    print("20-6 = 14")
-if num1 == 20 and sign == '-' and num2 == 7:
-    print("20-7 = 13")
-if num1 == 20 and sign == '-' and num2 == 8:
-    print("20-8 = 12")
-if num1 == 20 and sign == '-' and num2 == 9:
-    print("20-9 = 11")
-if num1 == 20 and sign == '-' and num2 == 10:
-    print("20-10 = 10")
-if num1 == 20 and sign == '-' and num2 == 11:
-    print("20-11 = 9")
-if num1 == 20 and sign == '-' and num2 == 12:
-    print("20-12 = 8")
-if num1 == 20 and sign == '-' and num2 == 13:
-    print("20-13 = 7")
-if num1 == 20 and sign == '-' and num2 == 14:
-    print("20-14 = 6")
-if num1 == 20 and sign == '-' and num2 == 15:
-    print("20-15 = 5")
-if num1 == 20 and sign == '-' and num2 == 16:
-    print("20-16 = 4")
-if num1 == 20 and sign == '-' and num2 == 17:
-    print("20-17 = 3")
-if num1 == 20 and sign == '-' and num2 == 18:
-    print("20-18 = 2")
-if num1 == 20 and sign == '-' and num2 == 19:
-    print("20-19 = 1")
-if num1 == 20 and sign == '-' and num2 == 20:
-    print("20-20 = 0")
-if num1 == 20 and sign == '-' and num2 == 21:
-    print("20-21 = -1")
-if num1 == 20 and sign == '-' and num2 == 22:
-    print("20-22 = -2")
-if num1 == 20 and sign == '-' and num2 == 23:
-    print("20-23 = -3")
-if num1 == 20 and sign == '-' and num2 == 24:
-    print("20-24 = -4")
-if num1 == 20 and sign == '-' and num2 == 25:
-    print("20-25 = -5")
-if num1 == 20 and sign == '-' and num2 == 26:
-    print("20-26 = -6")
-if num1 == 20 and sign == '-' and num2 == 27:
-    print("20-27 = -7")
-if num1 == 20 and sign == '-' and num2 == 28:
-    print("20-28 = -8")
-if num1 == 20 and sign == '-' and num2 == 29:
-    print("20-29 = -9")
-if num1 == 20 and sign == '-' and num2 == 30:
-    print("20-30 = -10")
-if num1 == 20 and sign == '-' and num2 == 31:
-    print("20-31 = -11")
-if num1 == 20 and sign == '-' and num2 == 32:
-    print("20-32 = -12")
-if num1 == 20 and sign == '-' and num2 == 33:
-    print("20-33 = -13")
-if num1 == 20 and sign == '-' and num2 == 34:
-    print("20-34 = -14")
-if num1 == 20 and sign == '-' and num2 == 35:
-    print("20-35 = -15")
-if num1 == 20 and sign == '-' and num2 == 36:
-    print("20-36 = -16")
-if num1 == 20 and sign == '-' and num2 == 37:
-    print("20-37 = -17")
-if num1 == 20 and sign == '-' and num2 == 38:
-    print("20-38 = -18")
-if num1 == 20 and sign == '-' and num2 == 39:
-    print("20-39 = -19")
-if num1 == 20 and sign == '-' and num2 == 40:
-    print("20-40 = -20")
-if num1 == 20 and sign == '-' and num2 == 41:
-    print("20-41 = -21")
-if num1 == 20 and sign == '-' and num2 == 42:
-    print("20-42 = -22")
-if num1 == 20 and sign == '-' and num2 == 43:
-    print("20-43 = -23")
-if num1 == 20 and sign == '-' and num2 == 44:
-    print("20-44 = -24")
-if num1 == 20 and sign == '-' and num2 == 45:
-    print("20-45 = -25")
-if num1 == 20 and sign == '-' and num2 == 46:
-    print("20-46 = -26")
-if num1 == 20 and sign == '-' and num2 == 47:
-    print("20-47 = -27")
-if num1 == 20 and sign == '-' and num2 == 48:
-    print("20-48 = -28")
-if num1 == 20 and sign == '-' and num2 == 49:
-    print("20-49 = -29")
-if num1 == 20 and sign == '-' and num2 == 50:
-    print("20-50 = -30")
-if num1 == 21 and sign == '-' and num2 == 0:
-    print("21-0 = 21")
-if num1 == 21 and sign == '-' and num2 == 1:
-    print("21-1 = 20")
-if num1 == 21 and sign == '-' and num2 == 2:
-    print("21-2 = 19")
-if num1 == 21 and sign == '-' and num2 == 3:
-    print("21-3 = 18")
-if num1 == 21 and sign == '-' and num2 == 4:
-    print("21-4 = 17")
-if num1 == 21 and sign == '-' and num2 == 5:
-    print("21-5 = 16")
-if num1 == 21 and sign == '-' and num2 == 6:
-    print("21-6 = 15")
-if num1 == 21 and sign == '-' and num2 == 7:
-    print("21-7 = 14")
-if num1 == 21 and sign == '-' and num2 == 8:
-    print("21-8 = 13")
-if num1 == 21 and sign == '-' and num2 == 9:
-    print("21-9 = 12")
-if num1 == 21 and sign == '-' and num2 == 10:
-    print("21-10 = 11")
-if num1 == 21 and sign == '-' and num2 == 11:
-    print("21-11 = 10")
-if num1 == 21 and sign == '-' and num2 == 12:
-    print("21-12 = 9")
-if num1 == 21 and sign == '-' and num2 == 13:
-    print("21-13 = 8")
-if num1 == 21 and sign == '-' and num2 == 14:
-    print("21-14 = 7")
-if num1 == 21 and sign == '-' and num2 == 15:
-    print("21-15 = 6")
-if num1 == 21 and sign == '-' and num2 == 16:
-    print("21-16 = 5")
-if num1 == 21 and sign == '-' and num2 == 17:
-    print("21-17 = 4")
-if num1 == 21 and sign == '-' and num2 == 18:
-    print("21-18 = 3")
-if num1 == 21 and sign == '-' and num2 == 19:
-    print("21-19 = 2")
-if num1 == 21 and sign == '-' and num2 == 20:
-    print("21-20 = 1")
-if num1 == 21 and sign == '-' and num2 == 21:
-    print("21-21 = 0")
-if num1 == 21 and sign == '-' and num2 == 22:
-    print("21-22 = -1")
-if num1 == 21 and sign == '-' and num2 == 23:
-    print("21-23 = -2")
-if num1 == 21 and sign == '-' and num2 == 24:
-    print("21-24 = -3")
-if num1 == 21 and sign == '-' and num2 == 25:
-    print("21-25 = -4")
-if num1 == 21 and sign == '-' and num2 == 26:
-    print("21-26 = -5")
-if num1 == 21 and sign == '-' and num2 == 27:
-    print("21-27 = -6")
-if num1 == 21 and sign == '-' and num2 == 28:
-    print("21-28 = -7")
-if num1 == 21 and sign == '-' and num2 == 29:
-    print("21-29 = -8")
-if num1 == 21 and sign == '-' and num2 == 30:
-    print("21-30 = -9")
-if num1 == 21 and sign == '-' and num2 == 31:
-    print("21-31 = -10")
-if num1 == 21 and sign == '-' and num2 == 32:
-    print("21-32 = -11")
-if num1 == 21 and sign == '-' and num2 == 33:
-    print("21-33 = -12")
-if num1 == 21 and sign == '-' and num2 == 34:
-    print("21-34 = -13")
-if num1 == 21 and sign == '-' and num2 == 35:
-    print("21-35 = -14")
-if num1 == 21 and sign == '-' and num2 == 36:
-    print("21-36 = -15")
-if num1 == 21 and sign == '-' and num2 == 37:
-    print("21-37 = -16")
-if num1 == 21 and sign == '-' and num2 == 38:
-    print("21-38 = -17")
-if num1 == 21 and sign == '-' and num2 == 39:
-    print("21-39 = -18")
-if num1 == 21 and sign == '-' and num2 == 40:
-    print("21-40 = -19")
-if num1 == 21 and sign == '-' and num2 == 41:
-    print("21-41 = -20")
-if num1 == 21 and sign == '-' and num2 == 42:
-    print("21-42 = -21")
-if num1 == 21 and sign == '-' and num2 == 43:
-    print("21-43 = -22")
-if num1 == 21 and sign == '-' and num2 == 44:
-    print("21-44 = -23")
-if num1 == 21 and sign == '-' and num2 == 45:
-    print("21-45 = -24")
-if num1 == 21 and sign == '-' and num2 == 46:
-    print("21-46 = -25")
-if num1 == 21 and sign == '-' and num2 == 47:
-    print("21-47 = -26")
-if num1 == 21 and sign == '-' and num2 == 48:
-    print("21-48 = -27")
-if num1 == 21 and sign == '-' and num2 == 49:
-    print("21-49 = -28")
-if num1 == 21 and sign == '-' and num2 == 50:
-    print("21-50 = -29")
-if num1 == 22 and sign == '-' and num2 == 0:
-    print("22-0 = 22")
-if num1 == 22 and sign == '-' and num2 == 1:
-    print("22-1 = 21")
-if num1 == 22 and sign == '-' and num2 == 2:
-    print("22-2 = 20")
-if num1 == 22 and sign == '-' and num2 == 3:
-    print("22-3 = 19")
-if num1 == 22 and sign == '-' and num2 == 4:
-    print("22-4 = 18")
-if num1 == 22 and sign == '-' and num2 == 5:
-    print("22-5 = 17")
-if num1 == 22 and sign == '-' and num2 == 6:
-    print("22-6 = 16")
-if num1 == 22 and sign == '-' and num2 == 7:
-    print("22-7 = 15")
-if num1 == 22 and sign == '-' and num2 == 8:
-    print("22-8 = 14")
-if num1 == 22 and sign == '-' and num2 == 9:
-    print("22-9 = 13")
-if num1 == 22 and sign == '-' and num2 == 10:
-    print("22-10 = 12")
-if num1 == 22 and sign == '-' and num2 == 11:
-    print("22-11 = 11")
-if num1 == 22 and sign == '-' and num2 == 12:
-    print("22-12 = 10")
-if num1 == 22 and sign == '-' and num2 == 13:
-    print("22-13 = 9")
-if num1 == 22 and sign == '-' and num2 == 14:
-    print("22-14 = 8")
-if num1 == 22 and sign == '-' and num2 == 15:
-    print("22-15 = 7")
-if num1 == 22 and sign == '-' and num2 == 16:
-    print("22-16 = 6")
-if num1 == 22 and sign == '-' and num2 == 17:
-    print("22-17 = 5")
-if num1 == 22 and sign == '-' and num2 == 18:
-    print("22-18 = 4")
-if num1 == 22 and sign == '-' and num2 == 19:
-    print("22-19 = 3")
-if num1 == 22 and sign == '-' and num2 == 20:
-    print("22-20 = 2")
-if num1 == 22 and sign == '-' and num2 == 21:
-    print("22-21 = 1")
-if num1 == 22 and sign == '-' and num2 == 22:
-    print("22-22 = 0")
-if num1 == 22 and sign == '-' and num2 == 23:
-    print("22-23 = -1")
-if num1 == 22 and sign == '-' and num2 == 24:
-    print("22-24 = -2")
-if num1 == 22 and sign == '-' and num2 == 25:
-    print("22-25 = -3")
-if num1 == 22 and sign == '-' and num2 == 26:
-    print("22-26 = -4")
-if num1 == 22 and sign == '-' and num2 == 27:
-    print("22-27 = -5")
-if num1 == 22 and sign == '-' and num2 == 28:
-    print("22-28 = -6")
-if num1 == 22 and sign == '-' and num2 == 29:
-    print("22-29 = -7")
-if num1 == 22 and sign == '-' and num2 == 30:
-    print("22-30 = -8")
-if num1 == 22 and sign == '-' and num2 == 31:
-    print("22-31 = -9")
-if num1 == 22 and sign == '-' and num2 == 32:
-    print("22-32 = -10")
-if num1 == 22 and sign == '-' and num2 == 33:
-    print("22-33 = -11")
-if num1 == 22 and sign == '-' and num2 == 34:
-    print("22-34 = -12")
-if num1 == 22 and sign == '-' and num2 == 35:
-    print("22-35 = -13")
-if num1 == 22 and sign == '-' and num2 == 36:
-    print("22-36 = -14")
-if num1 == 22 and sign == '-' and num2 == 37:
-    print("22-37 = -15")
-if num1 == 22 and sign == '-' and num2 == 38:
-    print("22-38 = -16")
-if num1 == 22 and sign == '-' and num2 == 39:
-    print("22-39 = -17")
-if num1 == 22 and sign == '-' and num2 == 40:
-    print("22-40 = -18")
-if num1 == 22 and sign == '-' and num2 == 41:
-    print("22-41 = -19")
-if num1 == 22 and sign == '-' and num2 == 42:
-    print("22-42 = -20")
-if num1 == 22 and sign == '-' and num2 == 43:
-    print("22-43 = -21")
-if num1 == 22 and sign == '-' and num2 == 44:
-    print("22-44 = -22")
-if num1 == 22 and sign == '-' and num2 == 45:
-    print("22-45 = -23")
-if num1 == 22 and sign == '-' and num2 == 46:
-    print("22-46 = -24")
-if num1 == 22 and sign == '-' and num2 == 47:
-    print("22-47 = -25")
-if num1 == 22 and sign == '-' and num2 == 48:
-    print("22-48 = -26")
-if num1 == 22 and sign == '-' and num2 == 49:
-    print("22-49 = -27")
-if num1 == 22 and sign == '-' and num2 == 50:
-    print("22-50 = -28")
-if num1 == 23 and sign == '-' and num2 == 0:
-    print("23-0 = 23")
-if num1 == 23 and sign == '-' and num2 == 1:
-    print("23-1 = 22")
-if num1 == 23 and sign == '-' and num2 == 2:
-    print("23-2 = 21")
-if num1 == 23 and sign == '-' and num2 == 3:
-    print("23-3 = 20")
-if num1 == 23 and sign == '-' and num2 == 4:
-    print("23-4 = 19")
-if num1 == 23 and sign == '-' and num2 == 5:
-    print("23-5 = 18")
-if num1 == 23 and sign == '-' and num2 == 6:
-    print("23-6 = 17")
-if num1 == 23 and sign == '-' and num2 == 7:
-    print("23-7 = 16")
-if num1 == 23 and sign == '-' and num2 == 8:
-    print("23-8 = 15")
-if num1 == 23 and sign == '-' and num2 == 9:
-    print("23-9 = 14")
-if num1 == 23 and sign == '-' and num2 == 10:
-    print("23-10 = 13")
-if num1 == 23 and sign == '-' and num2 == 11:
-    print("23-11 = 12")
-if num1 == 23 and sign == '-' and num2 == 12:
-    print("23-12 = 11")
-if num1 == 23 and sign == '-' and num2 == 13:
-    print("23-13 = 10")
-if num1 == 23 and sign == '-' and num2 == 14:
-    print("23-14 = 9")
-if num1 == 23 and sign == '-' and num2 == 15:
-    print("23-15 = 8")
-if num1 == 23 and sign == '-' and num2 == 16:
-    print("23-16 = 7")
-if num1 == 23 and sign == '-' and num2 == 17:
-    print("23-17 = 6")
-if num1 == 23 and sign == '-' and num2 == 18:
-    print("23-18 = 5")
-if num1 == 23 and sign == '-' and num2 == 19:
-    print("23-19 = 4")
-if num1 == 23 and sign == '-' and num2 == 20:
-    print("23-20 = 3")
-if num1 == 23 and sign == '-' and num2 == 21:
-    print("23-21 = 2")
-if num1 == 23 and sign == '-' and num2 == 22:
-    print("23-22 = 1")
-if num1 == 23 and sign == '-' and num2 == 23:
-    print("23-23 = 0")
-if num1 == 23 and sign == '-' and num2 == 24:
-    print("23-24 = -1")
-if num1 == 23 and sign == '-' and num2 == 25:
-    print("23-25 = -2")
-if num1 == 23 and sign == '-' and num2 == 26:
-    print("23-26 = -3")
-if num1 == 23 and sign == '-' and num2 == 27:
-    print("23-27 = -4")
-if num1 == 23 and sign == '-' and num2 == 28:
-    print("23-28 = -5")
-if num1 == 23 and sign == '-' and num2 == 29:
-    print("23-29 = -6")
-if num1 == 23 and sign == '-' and num2 == 30:
-    print("23-30 = -7")
-if num1 == 23 and sign == '-' and num2 == 31:
-    print("23-31 = -8")
-if num1 == 23 and sign == '-' and num2 == 32:
-    print("23-32 = -9")
-if num1 == 23 and sign == '-' and num2 == 33:
-    print("23-33 = -10")
-if num1 == 23 and sign == '-' and num2 == 34:
-    print("23-34 = -11")
-if num1 == 23 and sign == '-' and num2 == 35:
-    print("23-35 = -12")
-if num1 == 23 and sign == '-' and num2 == 36:
-    print("23-36 = -13")
-if num1 == 23 and sign == '-' and num2 == 37:
-    print("23-37 = -14")
-if num1 == 23 and sign == '-' and num2 == 38:
-    print("23-38 = -15")
-if num1 == 23 and sign == '-' and num2 == 39:
-    print("23-39 = -16")
-if num1 == 23 and sign == '-' and num2 == 40:
-    print("23-40 = -17")
-if num1 == 23 and sign == '-' and num2 == 41:
-    print("23-41 = -18")
-if num1 == 23 and sign == '-' and num2 == 42:
-    print("23-42 = -19")
-if num1 == 23 and sign == '-' and num2 == 43:
-    print("23-43 = -20")
-if num1 == 23 and sign == '-' and num2 == 44:
-    print("23-44 = -21")
-if num1 == 23 and sign == '-' and num2 == 45:
-    print("23-45 = -22")
-if num1 == 23 and sign == '-' and num2 == 46:
-    print("23-46 = -23")
-if num1 == 23 and sign == '-' and num2 == 47:
-    print("23-47 = -24")
-if num1 == 23 and sign == '-' and num2 == 48:
-    print("23-48 = -25")
-if num1 == 23 and sign == '-' and num2 == 49:
-    print("23-49 = -26")
-if num1 == 23 and sign == '-' and num2 == 50:
-    print("23-50 = -27")
-if num1 == 24 and sign == '-' and num2 == 0:
-    print("24-0 = 24")
-if num1 == 24 and sign == '-' and num2 == 1:
-    print("24-1 = 23")
-if num1 == 24 and sign == '-' and num2 == 2:
-    print("24-2 = 22")
-if num1 == 24 and sign == '-' and num2 == 3:
-    print("24-3 = 21")
-if num1 == 24 and sign == '-' and num2 == 4:
-    print("24-4 = 20")
-if num1 == 24 and sign == '-' and num2 == 5:
-    print("24-5 = 19")
-if num1 == 24 and sign == '-' and num2 == 6:
-    print("24-6 = 18")
-if num1 == 24 and sign == '-' and num2 == 7:
-    print("24-7 = 17")
-if num1 == 24 and sign == '-' and num2 == 8:
-    print("24-8 = 16")
-if num1 == 24 and sign == '-' and num2 == 9:
-    print("24-9 = 15")
-if num1 == 24 and sign == '-' and num2 == 10:
-    print("24-10 = 14")
-if num1 == 24 and sign == '-' and num2 == 11:
-    print("24-11 = 13")
-if num1 == 24 and sign == '-' and num2 == 12:
-    print("24-12 = 12")
-if num1 == 24 and sign == '-' and num2 == 13:
-    print("24-13 = 11")
-if num1 == 24 and sign == '-' and num2 == 14:
-    print("24-14 = 10")
-if num1 == 24 and sign == '-' and num2 == 15:
-    print("24-15 = 9")
-if num1 == 24 and sign == '-' and num2 == 16:
-    print("24-16 = 8")
-if num1 == 24 and sign == '-' and num2 == 17:
-    print("24-17 = 7")
-if num1 == 24 and sign == '-' and num2 == 18:
-    print("24-18 = 6")
-if num1 == 24 and sign == '-' and num2 == 19:
-    print("24-19 = 5")
-if num1 == 24 and sign == '-' and num2 == 20:
-    print("24-20 = 4")
-if num1 == 24 and sign == '-' and num2 == 21:
-    print("24-21 = 3")
-if num1 == 24 and sign == '-' and num2 == 22:
-    print("24-22 = 2")
-if num1 == 24 and sign == '-' and num2 == 23:
-    print("24-23 = 1")
-if num1 == 24 and sign == '-' and num2 == 24:
-    print("24-24 = 0")
-if num1 == 24 and sign == '-' and num2 == 25:
-    print("24-25 = -1")
-if num1 == 24 and sign == '-' and num2 == 26:
-    print("24-26 = -2")
-if num1 == 24 and sign == '-' and num2 == 27:
-    print("24-27 = -3")
-if num1 == 24 and sign == '-' and num2 == 28:
-    print("24-28 = -4")
-if num1 == 24 and sign == '-' and num2 == 29:
-    print("24-29 = -5")
-if num1 == 24 and sign == '-' and num2 == 30:
-    print("24-30 = -6")
-if num1 == 24 and sign == '-' and num2 == 31:
-    print("24-31 = -7")
-if num1 == 24 and sign == '-' and num2 == 32:
-    print("24-32 = -8")
-if num1 == 24 and sign == '-' and num2 == 33:
-    print("24-33 = -9")
-if num1 == 24 and sign == '-' and num2 == 34:
-    print("24-34 = -10")
-if num1 == 24 and sign == '-' and num2 == 35:
-    print("24-35 = -11")
-if num1 == 24 and sign == '-' and num2 == 36:
-    print("24-36 = -12")
-if num1 == 24 and sign == '-' and num2 == 37:
-    print("24-37 = -13")
-if num1 == 24 and sign == '-' and num2 == 38:
-    print("24-38 = -14")
-if num1 == 24 and sign == '-' and num2 == 39:
-    print("24-39 = -15")
-if num1 == 24 and sign == '-' and num2 == 40:
-    print("24-40 = -16")
-if num1 == 24 and sign == '-' and num2 == 41:
-    print("24-41 = -17")
-if num1 == 24 and sign == '-' and num2 == 42:
-    print("24-42 = -18")
-if num1 == 24 and sign == '-' and num2 == 43:
-    print("24-43 = -19")
-if num1 == 24 and sign == '-' and num2 == 44:
-    print("24-44 = -20")
-if num1 == 24 and sign == '-' and num2 == 45:
-    print("24-45 = -21")
-if num1 == 24 and sign == '-' and num2 == 46:
-    print("24-46 = -22")
-if num1 == 24 and sign == '-' and num2 == 47:
-    print("24-47 = -23")
-if num1 == 24 and sign == '-' and num2 == 48:
-    print("24-48 = -24")
-if num1 == 24 and sign == '-' and num2 == 49:
-    print("24-49 = -25")
-if num1 == 24 and sign == '-' and num2 == 50:
-    print("24-50 = -26")
-if num1 == 25 and sign == '-' and num2 == 0:
-    print("25-0 = 25")
-if num1 == 25 and sign == '-' and num2 == 1:
-    print("25-1 = 24")
-if num1 == 25 and sign == '-' and num2 == 2:
-    print("25-2 = 23")
-if num1 == 25 and sign == '-' and num2 == 3:
-    print("25-3 = 22")
-if num1 == 25 and sign == '-' and num2 == 4:
-    print("25-4 = 21")
-if num1 == 25 and sign == '-' and num2 == 5:
-    print("25-5 = 20")
-if num1 == 25 and sign == '-' and num2 == 6:
-    print("25-6 = 19")
-if num1 == 25 and sign == '-' and num2 == 7:
-    print("25-7 = 18")
-if num1 == 25 and sign == '-' and num2 == 8:
-    print("25-8 = 17")
-if num1 == 25 and sign == '-' and num2 == 9:
-    print("25-9 = 16")
-if num1 == 25 and sign == '-' and num2 == 10:
-    print("25-10 = 15")
-if num1 == 25 and sign == '-' and num2 == 11:
-    print("25-11 = 14")
-if num1 == 25 and sign == '-' and num2 == 12:
-    print("25-12 = 13")
-if num1 == 25 and sign == '-' and num2 == 13:
-    print("25-13 = 12")
-if num1 == 25 and sign == '-' and num2 == 14:
-    print("25-14 = 11")
-if num1 == 25 and sign == '-' and num2 == 15:
-    print("25-15 = 10")
-if num1 == 25 and sign == '-' and num2 == 16:
-    print("25-16 = 9")
-if num1 == 25 and sign == '-' and num2 == 17:
-    print("25-17 = 8")
-if num1 == 25 and sign == '-' and num2 == 18:
-    print("25-18 = 7")
-if num1 == 25 and sign == '-' and num2 == 19:
-    print("25-19 = 6")
-if num1 == 25 and sign == '-' and num2 == 20:
-    print("25-20 = 5")
-if num1 == 25 and sign == '-' and num2 == 21:
-    print("25-21 = 4")
-if num1 == 25 and sign == '-' and num2 == 22:
-    print("25-22 = 3")
-if num1 == 25 and sign == '-' and num2 == 23:
-    print("25-23 = 2")
-if num1 == 25 and sign == '-' and num2 == 24:
-    print("25-24 = 1")
-if num1 == 25 and sign == '-' and num2 == 25:
-    print("25-25 = 0")
-if num1 == 25 and sign == '-' and num2 == 26:
-    print("25-26 = -1")
-if num1 == 25 and sign == '-' and num2 == 27:
-    print("25-27 = -2")
-if num1 == 25 and sign == '-' and num2 == 28:
-    print("25-28 = -3")
-if num1 == 25 and sign == '-' and num2 == 29:
-    print("25-29 = -4")
-if num1 == 25 and sign == '-' and num2 == 30:
-    print("25-30 = -5")
-if num1 == 25 and sign == '-' and num2 == 31:
-    print("25-31 = -6")
-if num1 == 25 and sign == '-' and num2 == 32:
-    print("25-32 = -7")
-if num1 == 25 and sign == '-' and num2 == 33:
-    print("25-33 = -8")
-if num1 == 25 and sign == '-' and num2 == 34:
-    print("25-34 = -9")
-if num1 == 25 and sign == '-' and num2 == 35:
-    print("25-35 = -10")
-if num1 == 25 and sign == '-' and num2 == 36:
-    print("25-36 = -11")
-if num1 == 25 and sign == '-' and num2 == 37:
-    print("25-37 = -12")
-if num1 == 25 and sign == '-' and num2 == 38:
-    print("25-38 = -13")
-if num1 == 25 and sign == '-' and num2 == 39:
-    print("25-39 = -14")
-if num1 == 25 and sign == '-' and num2 == 40:
-    print("25-40 = -15")
-if num1 == 25 and sign == '-' and num2 == 41:
-    print("25-41 = -16")
-if num1 == 25 and sign == '-' and num2 == 42:
-    print("25-42 = -17")
-if num1 == 25 and sign == '-' and num2 == 43:
-    print("25-43 = -18")
-if num1 == 25 and sign == '-' and num2 == 44:
-    print("25-44 = -19")
-if num1 == 25 and sign == '-' and num2 == 45:
-    print("25-45 = -20")
-if num1 == 25 and sign == '-' and num2 == 46:
-    print("25-46 = -21")
-if num1 == 25 and sign == '-' and num2 == 47:
-    print("25-47 = -22")
-if num1 == 25 and sign == '-' and num2 == 48:
-    print("25-48 = -23")
-if num1 == 25 and sign == '-' and num2 == 49:
-    print("25-49 = -24")
-if num1 == 25 and sign == '-' and num2 == 50:
-    print("25-50 = -25")
-if num1 == 26 and sign == '-' and num2 == 0:
-    print("26-0 = 26")
-if num1 == 26 and sign == '-' and num2 == 1:
-    print("26-1 = 25")
-if num1 == 26 and sign == '-' and num2 == 2:
-    print("26-2 = 24")
-if num1 == 26 and sign == '-' and num2 == 3:
-    print("26-3 = 23")
-if num1 == 26 and sign == '-' and num2 == 4:
-    print("26-4 = 22")
-if num1 == 26 and sign == '-' and num2 == 5:
-    print("26-5 = 21")
-if num1 == 26 and sign == '-' and num2 == 6:
-    print("26-6 = 20")
-if num1 == 26 and sign == '-' and num2 == 7:
-    print("26-7 = 19")
-if num1 == 26 and sign == '-' and num2 == 8:
-    print("26-8 = 18")
-if num1 == 26 and sign == '-' and num2 == 9:
-    print("26-9 = 17")
-if num1 == 26 and sign == '-' and num2 == 10:
-    print("26-10 = 16")
-if num1 == 26 and sign == '-' and num2 == 11:
-    print("26-11 = 15")
-if num1 == 26 and sign == '-' and num2 == 12:
-    print("26-12 = 14")
-if num1 == 26 and sign == '-' and num2 == 13:
-    print("26-13 = 13")
-if num1 == 26 and sign == '-' and num2 == 14:
-    print("26-14 = 12")
-if num1 == 26 and sign == '-' and num2 == 15:
-    print("26-15 = 11")
-if num1 == 26 and sign == '-' and num2 == 16:
-    print("26-16 = 10")
-if num1 == 26 and sign == '-' and num2 == 17:
-    print("26-17 = 9")
-if num1 == 26 and sign == '-' and num2 == 18:
-    print("26-18 = 8")
-if num1 == 26 and sign == '-' and num2 == 19:
-    print("26-19 = 7")
-if num1 == 26 and sign == '-' and num2 == 20:
-    print("26-20 = 6")
-if num1 == 26 and sign == '-' and num2 == 21:
-    print("26-21 = 5")
-if num1 == 26 and sign == '-' and num2 == 22:
-    print("26-22 = 4")
-if num1 == 26 and sign == '-' and num2 == 23:
-    print("26-23 = 3")
-if num1 == 26 and sign == '-' and num2 == 24:
-    print("26-24 = 2")
-if num1 == 26 and sign == '-' and num2 == 25:
-    print("26-25 = 1")
-if num1 == 26 and sign == '-' and num2 == 26:
-    print("26-26 = 0")
-if num1 == 26 and sign == '-' and num2 == 27:
-    print("26-27 = -1")
-if num1 == 26 and sign == '-' and num2 == 28:
-    print("26-28 = -2")
-if num1 == 26 and sign == '-' and num2 == 29:
-    print("26-29 = -3")
-if num1 == 26 and sign == '-' and num2 == 30:
-    print("26-30 = -4")
-if num1 == 26 and sign == '-' and num2 == 31:
-    print("26-31 = -5")
-if num1 == 26 and sign == '-' and num2 == 32:
-    print("26-32 = -6")
-if num1 == 26 and sign == '-' and num2 == 33:
-    print("26-33 = -7")
-if num1 == 26 and sign == '-' and num2 == 34:
-    print("26-34 = -8")
-if num1 == 26 and sign == '-' and num2 == 35:
-    print("26-35 = -9")
-if num1 == 26 and sign == '-' and num2 == 36:
-    print("26-36 = -10")
-if num1 == 26 and sign == '-' and num2 == 37:
-    print("26-37 = -11")
-if num1 == 26 and sign == '-' and num2 == 38:
-    print("26-38 = -12")
-if num1 == 26 and sign == '-' and num2 == 39:
-    print("26-39 = -13")
-if num1 == 26 and sign == '-' and num2 == 40:
-    print("26-40 = -14")
-if num1 == 26 and sign == '-' and num2 == 41:
-    print("26-41 = -15")
-if num1 == 26 and sign == '-' and num2 == 42:
-    print("26-42 = -16")
-if num1 == 26 and sign == '-' and num2 == 43:
-    print("26-43 = -17")
-if num1 == 26 and sign == '-' and num2 == 44:
-    print("26-44 = -18")
-if num1 == 26 and sign == '-' and num2 == 45:
-    print("26-45 = -19")
-if num1 == 26 and sign == '-' and num2 == 46:
-    print("26-46 = -20")
-if num1 == 26 and sign == '-' and num2 == 47:
-    print("26-47 = -21")
-if num1 == 26 and sign == '-' and num2 == 48:
-    print("26-48 = -22")
-if num1 == 26 and sign == '-' and num2 == 49:
-    print("26-49 = -23")
-if num1 == 26 and sign == '-' and num2 == 50:
-    print("26-50 = -24")
-if num1 == 27 and sign == '-' and num2 == 0:
-    print("27-0 = 27")
-if num1 == 27 and sign == '-' and num2 == 1:
-    print("27-1 = 26")
-if num1 == 27 and sign == '-' and num2 == 2:
-    print("27-2 = 25")
-if num1 == 27 and sign == '-' and num2 == 3:
-    print("27-3 = 24")
-if num1 == 27 and sign == '-' and num2 == 4:
-    print("27-4 = 23")
-if num1 == 27 and sign == '-' and num2 == 5:
-    print("27-5 = 22")
-if num1 == 27 and sign == '-' and num2 == 6:
-    print("27-6 = 21")
-if num1 == 27 and sign == '-' and num2 == 7:
-    print("27-7 = 20")
-if num1 == 27 and sign == '-' and num2 == 8:
-    print("27-8 = 19")
-if num1 == 27 and sign == '-' and num2 == 9:
-    print("27-9 = 18")
-if num1 == 27 and sign == '-' and num2 == 10:
-    print("27-10 = 17")
-if num1 == 27 and sign == '-' and num2 == 11:
-    print("27-11 = 16")
-if num1 == 27 and sign == '-' and num2 == 12:
-    print("27-12 = 15")
-if num1 == 27 and sign == '-' and num2 == 13:
-    print("27-13 = 14")
-if num1 == 27 and sign == '-' and num2 == 14:
-    print("27-14 = 13")
-if num1 == 27 and sign == '-' and num2 == 15:
-    print("27-15 = 12")
-if num1 == 27 and sign == '-' and num2 == 16:
-    print("27-16 = 11")
-if num1 == 27 and sign == '-' and num2 == 17:
-    print("27-17 = 10")
-if num1 == 27 and sign == '-' and num2 == 18:
-    print("27-18 = 9")
-if num1 == 27 and sign == '-' and num2 == 19:
-    print("27-19 = 8")
-if num1 == 27 and sign == '-' and num2 == 20:
-    print("27-20 = 7")
-if num1 == 27 and sign == '-' and num2 == 21:
-    print("27-21 = 6")
-if num1 == 27 and sign == '-' and num2 == 22:
-    print("27-22 = 5")
-if num1 == 27 and sign == '-' and num2 == 23:
-    print("27-23 = 4")
-if num1 == 27 and sign == '-' and num2 == 24:
-    print("27-24 = 3")
-if num1 == 27 and sign == '-' and num2 == 25:
-    print("27-25 = 2")
-if num1 == 27 and sign == '-' and num2 == 26:
-    print("27-26 = 1")
-if num1 == 27 and sign == '-' and num2 == 27:
-    print("27-27 = 0")
-if num1 == 27 and sign == '-' and num2 == 28:
-    print("27-28 = -1")
-if num1 == 27 and sign == '-' and num2 == 29:
-    print("27-29 = -2")
-if num1 == 27 and sign == '-' and num2 == 30:
-    print("27-30 = -3")
-if num1 == 27 and sign == '-' and num2 == 31:
-    print("27-31 = -4")
-if num1 == 27 and sign == '-' and num2 == 32:
-    print("27-32 = -5")
-if num1 == 27 and sign == '-' and num2 == 33:
-    print("27-33 = -6")
-if num1 == 27 and sign == '-' and num2 == 34:
-    print("27-34 = -7")
-if num1 == 27 and sign == '-' and num2 == 35:
-    print("27-35 = -8")
-if num1 == 27 and sign == '-' and num2 == 36:
-    print("27-36 = -9")
-if num1 == 27 and sign == '-' and num2 == 37:
-    print("27-37 = -10")
-if num1 == 27 and sign == '-' and num2 == 38:
-    print("27-38 = -11")
-if num1 == 27 and sign == '-' and num2 == 39:
-    print("27-39 = -12")
-if num1 == 27 and sign == '-' and num2 == 40:
-    print("27-40 = -13")
-if num1 == 27 and sign == '-' and num2 == 41:
-    print("27-41 = -14")
-if num1 == 27 and sign == '-' and num2 == 42:
-    print("27-42 = -15")
-if num1 == 27 and sign == '-' and num2 == 43:
-    print("27-43 = -16")
-if num1 == 27 and sign == '-' and num2 == 44:
-    print("27-44 = -17")
-if num1 == 27 and sign == '-' and num2 == 45:
-    print("27-45 = -18")
-if num1 == 27 and sign == '-' and num2 == 46:
-    print("27-46 = -19")
-if num1 == 27 and sign == '-' and num2 == 47:
-    print("27-47 = -20")
-if num1 == 27 and sign == '-' and num2 == 48:
-    print("27-48 = -21")
-if num1 == 27 and sign == '-' and num2 == 49:
-    print("27-49 = -22")
-if num1 == 27 and sign == '-' and num2 == 50:
-    print("27-50 = -23")
-if num1 == 28 and sign == '-' and num2 == 0:
-    print("28-0 = 28")
-if num1 == 28 and sign == '-' and num2 == 1:
-    print("28-1 = 27")
-if num1 == 28 and sign == '-' and num2 == 2:
-    print("28-2 = 26")
-if num1 == 28 and sign == '-' and num2 == 3:
-    print("28-3 = 25")
-if num1 == 28 and sign == '-' and num2 == 4:
-    print("28-4 = 24")
-if num1 == 28 and sign == '-' and num2 == 5:
-    print("28-5 = 23")
-if num1 == 28 and sign == '-' and num2 == 6:
-    print("28-6 = 22")
-if num1 == 28 and sign == '-' and num2 == 7:
-    print("28-7 = 21")
-if num1 == 28 and sign == '-' and num2 == 8:
-    print("28-8 = 20")
-if num1 == 28 and sign == '-' and num2 == 9:
-    print("28-9 = 19")
-if num1 == 28 and sign == '-' and num2 == 10:
-    print("28-10 = 18")
-if num1 == 28 and sign == '-' and num2 == 11:
-    print("28-11 = 17")
-if num1 == 28 and sign == '-' and num2 == 12:
-    print("28-12 = 16")
-if num1 == 28 and sign == '-' and num2 == 13:
-    print("28-13 = 15")
-if num1 == 28 and sign == '-' and num2 == 14:
-    print("28-14 = 14")
-if num1 == 28 and sign == '-' and num2 == 15:
-    print("28-15 = 13")
-if num1 == 28 and sign == '-' and num2 == 16:
-    print("28-16 = 12")
-if num1 == 28 and sign == '-' and num2 == 17:
-    print("28-17 = 11")
-if num1 == 28 and sign == '-' and num2 == 18:
-    print("28-18 = 10")
-if num1 == 28 and sign == '-' and num2 == 19:
-    print("28-19 = 9")
-if num1 == 28 and sign == '-' and num2 == 20:
-    print("28-20 = 8")
-if num1 == 28 and sign == '-' and num2 == 21:
-    print("28-21 = 7")
-if num1 == 28 and sign == '-' and num2 == 22:
-    print("28-22 = 6")
-if num1 == 28 and sign == '-' and num2 == 23:
-    print("28-23 = 5")
-if num1 == 28 and sign == '-' and num2 == 24:
-    print("28-24 = 4")
-if num1 == 28 and sign == '-' and num2 == 25:
-    print("28-25 = 3")
-if num1 == 28 and sign == '-' and num2 == 26:
-    print("28-26 = 2")
-if num1 == 28 and sign == '-' and num2 == 27:
-    print("28-27 = 1")
-if num1 == 28 and sign == '-' and num2 == 28:
-    print("28-28 = 0")
-if num1 == 28 and sign == '-' and num2 == 29:
-    print("28-29 = -1")
-if num1 == 28 and sign == '-' and num2 == 30:
-    print("28-30 = -2")
-if num1 == 28 and sign == '-' and num2 == 31:
-    print("28-31 = -3")
-if num1 == 28 and sign == '-' and num2 == 32:
-    print("28-32 = -4")
-if num1 == 28 and sign == '-' and num2 == 33:
-    print("28-33 = -5")
-if num1 == 28 and sign == '-' and num2 == 34:
-    print("28-34 = -6")
-if num1 == 28 and sign == '-' and num2 == 35:
-    print("28-35 = -7")
-if num1 == 28 and sign == '-' and num2 == 36:
-    print("28-36 = -8")
-if num1 == 28 and sign == '-' and num2 == 37:
-    print("28-37 = -9")
-if num1 == 28 and sign == '-' and num2 == 38:
-    print("28-38 = -10")
-if num1 == 28 and sign == '-' and num2 == 39:
-    print("28-39 = -11")
-if num1 == 28 and sign == '-' and num2 == 40:
-    print("28-40 = -12")
-if num1 == 28 and sign == '-' and num2 == 41:
-    print("28-41 = -13")
-if num1 == 28 and sign == '-' and num2 == 42:
-    print("28-42 = -14")
-if num1 == 28 and sign == '-' and num2 == 43:
-    print("28-43 = -15")
-if num1 == 28 and sign == '-' and num2 == 44:
-    print("28-44 = -16")
-if num1 == 28 and sign == '-' and num2 == 45:
-    print("28-45 = -17")
-if num1 == 28 and sign == '-' and num2 == 46:
-    print("28-46 = -18")
-if num1 == 28 and sign == '-' and num2 == 47:
-    print("28-47 = -19")
-if num1 == 28 and sign == '-' and num2 == 48:
-    print("28-48 = -20")
-if num1 == 28 and sign == '-' and num2 == 49:
-    print("28-49 = -21")
-if num1 == 28 and sign == '-' and num2 == 50:
-    print("28-50 = -22")
-if num1 == 29 and sign == '-' and num2 == 0:
-    print("29-0 = 29")
-if num1 == 29 and sign == '-' and num2 == 1:
-    print("29-1 = 28")
-if num1 == 29 and sign == '-' and num2 == 2:
-    print("29-2 = 27")
-if num1 == 29 and sign == '-' and num2 == 3:
-    print("29-3 = 26")
-if num1 == 29 and sign == '-' and num2 == 4:
-    print("29-4 = 25")
-if num1 == 29 and sign == '-' and num2 == 5:
-    print("29-5 = 24")
-if num1 == 29 and sign == '-' and num2 == 6:
-    print("29-6 = 23")
-if num1 == 29 and sign == '-' and num2 == 7:
-    print("29-7 = 22")
-if num1 == 29 and sign == '-' and num2 == 8:
-    print("29-8 = 21")
-if num1 == 29 and sign == '-' and num2 == 9:
-    print("29-9 = 20")
-if num1 == 29 and sign == '-' and num2 == 10:
-    print("29-10 = 19")
-if num1 == 29 and sign == '-' and num2 == 11:
-    print("29-11 = 18")
-if num1 == 29 and sign == '-' and num2 == 12:
-    print("29-12 = 17")
-if num1 == 29 and sign == '-' and num2 == 13:
-    print("29-13 = 16")
-if num1 == 29 and sign == '-' and num2 == 14:
-    print("29-14 = 15")
-if num1 == 29 and sign == '-' and num2 == 15:
-    print("29-15 = 14")
-if num1 == 29 and sign == '-' and num2 == 16:
-    print("29-16 = 13")
-if num1 == 29 and sign == '-' and num2 == 17:
-    print("29-17 = 12")
-if num1 == 29 and sign == '-' and num2 == 18:
-    print("29-18 = 11")
-if num1 == 29 and sign == '-' and num2 == 19:
-    print("29-19 = 10")
-if num1 == 29 and sign == '-' and num2 == 20:
-    print("29-20 = 9")
-if num1 == 29 and sign == '-' and num2 == 21:
-    print("29-21 = 8")
-if num1 == 29 and sign == '-' and num2 == 22:
-    print("29-22 = 7")
-if num1 == 29 and sign == '-' and num2 == 23:
-    print("29-23 = 6")
-if num1 == 29 and sign == '-' and num2 == 24:
-    print("29-24 = 5")
-if num1 == 29 and sign == '-' and num2 == 25:
-    print("29-25 = 4")
-if num1 == 29 and sign == '-' and num2 == 26:
-    print("29-26 = 3")
-if num1 == 29 and sign == '-' and num2 == 27:
-    print("29-27 = 2")
-if num1 == 29 and sign == '-' and num2 == 28:
-    print("29-28 = 1")
-if num1 == 29 and sign == '-' and num2 == 29:
-    print("29-29 = 0")
-if num1 == 29 and sign == '-' and num2 == 30:
-    print("29-30 = -1")
-if num1 == 29 and sign == '-' and num2 == 31:
-    print("29-31 = -2")
-if num1 == 29 and sign == '-' and num2 == 32:
-    print("29-32 = -3")
-if num1 == 29 and sign == '-' and num2 == 33:
-    print("29-33 = -4")
-if num1 == 29 and sign == '-' and num2 == 34:
-    print("29-34 = -5")
-if num1 == 29 and sign == '-' and num2 == 35:
-    print("29-35 = -6")
-if num1 == 29 and sign == '-' and num2 == 36:
-    print("29-36 = -7")
-if num1 == 29 and sign == '-' and num2 == 37:
-    print("29-37 = -8")
-if num1 == 29 and sign == '-' and num2 == 38:
-    print("29-38 = -9")
-if num1 == 29 and sign == '-' and num2 == 39:
-    print("29-39 = -10")
-if num1 == 29 and sign == '-' and num2 == 40:
-    print("29-40 = -11")
-if num1 == 29 and sign == '-' and num2 == 41:
-    print("29-41 = -12")
-if num1 == 29 and sign == '-' and num2 == 42:
-    print("29-42 = -13")
-if num1 == 29 and sign == '-' and num2 == 43:
-    print("29-43 = -14")
-if num1 == 29 and sign == '-' and num2 == 44:
-    print("29-44 = -15")
-if num1 == 29 and sign == '-' and num2 == 45:
-    print("29-45 = -16")
-if num1 == 29 and sign == '-' and num2 == 46:
-    print("29-46 = -17")
-if num1 == 29 and sign == '-' and num2 == 47:
-    print("29-47 = -18")
-if num1 == 29 and sign == '-' and num2 == 48:
-    print("29-48 = -19")
-if num1 == 29 and sign == '-' and num2 == 49:
-    print("29-49 = -20")
-if num1 == 29 and sign == '-' and num2 == 50:
-    print("29-50 = -21")
-if num1 == 30 and sign == '-' and num2 == 0:
-    print("30-0 = 30")
-if num1 == 30 and sign == '-' and num2 == 1:
-    print("30-1 = 29")
-if num1 == 30 and sign == '-' and num2 == 2:
-    print("30-2 = 28")
-if num1 == 30 and sign == '-' and num2 == 3:
-    print("30-3 = 27")
-if num1 == 30 and sign == '-' and num2 == 4:
-    print("30-4 = 26")
-if num1 == 30 and sign == '-' and num2 == 5:
-    print("30-5 = 25")
-if num1 == 30 and sign == '-' and num2 == 6:
-    print("30-6 = 24")
-if num1 == 30 and sign == '-' and num2 == 7:
-    print("30-7 = 23")
-if num1 == 30 and sign == '-' and num2 == 8:
-    print("30-8 = 22")
-if num1 == 30 and sign == '-' and num2 == 9:
-    print("30-9 = 21")
-if num1 == 30 and sign == '-' and num2 == 10:
-    print("30-10 = 20")
-if num1 == 30 and sign == '-' and num2 == 11:
-    print("30-11 = 19")
-if num1 == 30 and sign == '-' and num2 == 12:
-    print("30-12 = 18")
-if num1 == 30 and sign == '-' and num2 == 13:
-    print("30-13 = 17")
-if num1 == 30 and sign == '-' and num2 == 14:
-    print("30-14 = 16")
-if num1 == 30 and sign == '-' and num2 == 15:
-    print("30-15 = 15")
-if num1 == 30 and sign == '-' and num2 == 16:
-    print("30-16 = 14")
-if num1 == 30 and sign == '-' and num2 == 17:
-    print("30-17 = 13")
-if num1 == 30 and sign == '-' and num2 == 18:
-    print("30-18 = 12")
-if num1 == 30 and sign == '-' and num2 == 19:
-    print("30-19 = 11")
-if num1 == 30 and sign == '-' and num2 == 20:
-    print("30-20 = 10")
-if num1 == 30 and sign == '-' and num2 == 21:
-    print("30-21 = 9")
-if num1 == 30 and sign == '-' and num2 == 22:
-    print("30-22 = 8")
-if num1 == 30 and sign == '-' and num2 == 23:
-    print("30-23 = 7")
-if num1 == 30 and sign == '-' and num2 == 24:
-    print("30-24 = 6")
-if num1 == 30 and sign == '-' and num2 == 25:
-    print("30-25 = 5")
-if num1 == 30 and sign == '-' and num2 == 26:
-    print("30-26 = 4")
-if num1 == 30 and sign == '-' and num2 == 27:
-    print("30-27 = 3")
-if num1 == 30 and sign == '-' and num2 == 28:
-    print("30-28 = 2")
-if num1 == 30 and sign == '-' and num2 == 29:
-    print("30-29 = 1")
-if num1 == 30 and sign == '-' and num2 == 30:
-    print("30-30 = 0")
-if num1 == 30 and sign == '-' and num2 == 31:
-    print("30-31 = -1")
-if num1 == 30 and sign == '-' and num2 == 32:
-    print("30-32 = -2")
-if num1 == 30 and sign == '-' and num2 == 33:
-    print("30-33 = -3")
-if num1 == 30 and sign == '-' and num2 == 34:
-    print("30-34 = -4")
-if num1 == 30 and sign == '-' and num2 == 35:
-    print("30-35 = -5")
-if num1 == 30 and sign == '-' and num2 == 36:
-    print("30-36 = -6")
-if num1 == 30 and sign == '-' and num2 == 37:
-    print("30-37 = -7")
-if num1 == 30 and sign == '-' and num2 == 38:
-    print("30-38 = -8")
-if num1 == 30 and sign == '-' and num2 == 39:
-    print("30-39 = -9")
-if num1 == 30 and sign == '-' and num2 == 40:
-    print("30-40 = -10")
-if num1 == 30 and sign == '-' and num2 == 41:
-    print("30-41 = -11")
-if num1 == 30 and sign == '-' and num2 == 42:
-    print("30-42 = -12")
-if num1 == 30 and sign == '-' and num2 == 43:
-    print("30-43 = -13")
-if num1 == 30 and sign == '-' and num2 == 44:
-    print("30-44 = -14")
-if num1 == 30 and sign == '-' and num2 == 45:
-    print("30-45 = -15")
-if num1 == 30 and sign == '-' and num2 == 46:
-    print("30-46 = -16")
-if num1 == 30 and sign == '-' and num2 == 47:
-    print("30-47 = -17")
-if num1 == 30 and sign == '-' and num2 == 48:
-    print("30-48 = -18")
-if num1 == 30 and sign == '-' and num2 == 49:
-    print("30-49 = -19")
-if num1 == 30 and sign == '-' and num2 == 50:
-    print("30-50 = -20")
-if num1 == 31 and sign == '-' and num2 == 0:
-    print("31-0 = 31")
-if num1 == 31 and sign == '-' and num2 == 1:
-    print("31-1 = 30")
-if num1 == 31 and sign == '-' and num2 == 2:
-    print("31-2 = 29")
-if num1 == 31 and sign == '-' and num2 == 3:
-    print("31-3 = 28")
-if num1 == 31 and sign == '-' and num2 == 4:
-    print("31-4 = 27")
-if num1 == 31 and sign == '-' and num2 == 5:
-    print("31-5 = 26")
-if num1 == 31 and sign == '-' and num2 == 6:
-    print("31-6 = 25")
-if num1 == 31 and sign == '-' and num2 == 7:
-    print("31-7 = 24")
-if num1 == 31 and sign == '-' and num2 == 8:
-    print("31-8 = 23")
-if num1 == 31 and sign == '-' and num2 == 9:
-    print("31-9 = 22")
-if num1 == 31 and sign == '-' and num2 == 10:
-    print("31-10 = 21")
-if num1 == 31 and sign == '-' and num2 == 11:
-    print("31-11 = 20")
-if num1 == 31 and sign == '-' and num2 == 12:
-    print("31-12 = 19")
-if num1 == 31 and sign == '-' and num2 == 13:
-    print("31-13 = 18")
-if num1 == 31 and sign == '-' and num2 == 14:
-    print("31-14 = 17")
-if num1 == 31 and sign == '-' and num2 == 15:
-    print("31-15 = 16")
-if num1 == 31 and sign == '-' and num2 == 16:
-    print("31-16 = 15")
-if num1 == 31 and sign == '-' and num2 == 17:
-    print("31-17 = 14")
-if num1 == 31 and sign == '-' and num2 == 18:
-    print("31-18 = 13")
-if num1 == 31 and sign == '-' and num2 == 19:
-    print("31-19 = 12")
-if num1 == 31 and sign == '-' and num2 == 20:
-    print("31-20 = 11")
-if num1 == 31 and sign == '-' and num2 == 21:
-    print("31-21 = 10")
-if num1 == 31 and sign == '-' and num2 == 22:
-    print("31-22 = 9")
-if num1 == 31 and sign == '-' and num2 == 23:
-    print("31-23 = 8")
-if num1 == 31 and sign == '-' and num2 == 24:
-    print("31-24 = 7")
-if num1 == 31 and sign == '-' and num2 == 25:
-    print("31-25 = 6")
-if num1 == 31 and sign == '-' and num2 == 26:
-    print("31-26 = 5")
-if num1 == 31 and sign == '-' and num2 == 27:
-    print("31-27 = 4")
-if num1 == 31 and sign == '-' and num2 == 28:
-    print("31-28 = 3")
-if num1 == 31 and sign == '-' and num2 == 29:
-    print("31-29 = 2")
-if num1 == 31 and sign == '-' and num2 == 30:
-    print("31-30 = 1")
-if num1 == 31 and sign == '-' and num2 == 31:
-    print("31-31 = 0")
-if num1 == 31 and sign == '-' and num2 == 32:
-    print("31-32 = -1")
-if num1 == 31 and sign == '-' and num2 == 33:
-    print("31-33 = -2")
-if num1 == 31 and sign == '-' and num2 == 34:
-    print("31-34 = -3")
-if num1 == 31 and sign == '-' and num2 == 35:
-    print("31-35 = -4")
-if num1 == 31 and sign == '-' and num2 == 36:
-    print("31-36 = -5")
-if num1 == 31 and sign == '-' and num2 == 37:
-    print("31-37 = -6")
-if num1 == 31 and sign == '-' and num2 == 38:
-    print("31-38 = -7")
-if num1 == 31 and sign == '-' and num2 == 39:
-    print("31-39 = -8")
-if num1 == 31 and sign == '-' and num2 == 40:
-    print("31-40 = -9")
-if num1 == 31 and sign == '-' and num2 == 41:
-    print("31-41 = -10")
-if num1 == 31 and sign == '-' and num2 == 42:
-    print("31-42 = -11")
-if num1 == 31 and sign == '-' and num2 == 43:
-    print("31-43 = -12")
-if num1 == 31 and sign == '-' and num2 == 44:
-    print("31-44 = -13")
-if num1 == 31 and sign == '-' and num2 == 45:
-    print("31-45 = -14")
-if num1 == 31 and sign == '-' and num2 == 46:
-    print("31-46 = -15")
-if num1 == 31 and sign == '-' and num2 == 47:
-    print("31-47 = -16")
-if num1 == 31 and sign == '-' and num2 == 48:
-    print("31-48 = -17")
-if num1 == 31 and sign == '-' and num2 == 49:
-    print("31-49 = -18")
-if num1 == 31 and sign == '-' and num2 == 50:
-    print("31-50 = -19")
-if num1 == 32 and sign == '-' and num2 == 0:
-    print("32-0 = 32")
-if num1 == 32 and sign == '-' and num2 == 1:
-    print("32-1 = 31")
-if num1 == 32 and sign == '-' and num2 == 2:
-    print("32-2 = 30")
-if num1 == 32 and sign == '-' and num2 == 3:
-    print("32-3 = 29")
-if num1 == 32 and sign == '-' and num2 == 4:
-    print("32-4 = 28")
-if num1 == 32 and sign == '-' and num2 == 5:
-    print("32-5 = 27")
-if num1 == 32 and sign == '-' and num2 == 6:
-    print("32-6 = 26")
-if num1 == 32 and sign == '-' and num2 == 7:
-    print("32-7 = 25")
-if num1 == 32 and sign == '-' and num2 == 8:
-    print("32-8 = 24")
-if num1 == 32 and sign == '-' and num2 == 9:
-    print("32-9 = 23")
-if num1 == 32 and sign == '-' and num2 == 10:
-    print("32-10 = 22")
-if num1 == 32 and sign == '-' and num2 == 11:
-    print("32-11 = 21")
-if num1 == 32 and sign == '-' and num2 == 12:
-    print("32-12 = 20")
-if num1 == 32 and sign == '-' and num2 == 13:
-    print("32-13 = 19")
-if num1 == 32 and sign == '-' and num2 == 14:
-    print("32-14 = 18")
-if num1 == 32 and sign == '-' and num2 == 15:
-    print("32-15 = 17")
-if num1 == 32 and sign == '-' and num2 == 16:
-    print("32-16 = 16")
-if num1 == 32 and sign == '-' and num2 == 17:
-    print("32-17 = 15")
-if num1 == 32 and sign == '-' and num2 == 18:
-    print("32-18 = 14")
-if num1 == 32 and sign == '-' and num2 == 19:
-    print("32-19 = 13")
-if num1 == 32 and sign == '-' and num2 == 20:
-    print("32-20 = 12")
-if num1 == 32 and sign == '-' and num2 == 21:
-    print("32-21 = 11")
-if num1 == 32 and sign == '-' and num2 == 22:
-    print("32-22 = 10")
-if num1 == 32 and sign == '-' and num2 == 23:
-    print("32-23 = 9")
-if num1 == 32 and sign == '-' and num2 == 24:
-    print("32-24 = 8")
-if num1 == 32 and sign == '-' and num2 == 25:
-    print("32-25 = 7")
-if num1 == 32 and sign == '-' and num2 == 26:
-    print("32-26 = 6")
-if num1 == 32 and sign == '-' and num2 == 27:
-    print("32-27 = 5")
-if num1 == 32 and sign == '-' and num2 == 28:
-    print("32-28 = 4")
-if num1 == 32 and sign == '-' and num2 == 29:
-    print("32-29 = 3")
-if num1 == 32 and sign == '-' and num2 == 30:
-    print("32-30 = 2")
-if num1 == 32 and sign == '-' and num2 == 31:
-    print("32-31 = 1")
-if num1 == 32 and sign == '-' and num2 == 32:
-    print("32-32 = 0")
-if num1 == 32 and sign == '-' and num2 == 33:
-    print("32-33 = -1")
-if num1 == 32 and sign == '-' and num2 == 34:
-    print("32-34 = -2")
-if num1 == 32 and sign == '-' and num2 == 35:
-    print("32-35 = -3")
-if num1 == 32 and sign == '-' and num2 == 36:
-    print("32-36 = -4")
-if num1 == 32 and sign == '-' and num2 == 37:
-    print("32-37 = -5")
-if num1 == 32 and sign == '-' and num2 == 38:
-    print("32-38 = -6")
-if num1 == 32 and sign == '-' and num2 == 39:
-    print("32-39 = -7")
-if num1 == 32 and sign == '-' and num2 == 40:
-    print("32-40 = -8")
-if num1 == 32 and sign == '-' and num2 == 41:
-    print("32-41 = -9")
-if num1 == 32 and sign == '-' and num2 == 42:
-    print("32-42 = -10")
-if num1 == 32 and sign == '-' and num2 == 43:
-    print("32-43 = -11")
-if num1 == 32 and sign == '-' and num2 == 44:
-    print("32-44 = -12")
-if num1 == 32 and sign == '-' and num2 == 45:
-    print("32-45 = -13")
-if num1 == 32 and sign == '-' and num2 == 46:
-    print("32-46 = -14")
-if num1 == 32 and sign == '-' and num2 == 47:
-    print("32-47 = -15")
-if num1 == 32 and sign == '-' and num2 == 48:
-    print("32-48 = -16")
-if num1 == 32 and sign == '-' and num2 == 49:
-    print("32-49 = -17")
-if num1 == 32 and sign == '-' and num2 == 50:
-    print("32-50 = -18")
-if num1 == 33 and sign == '-' and num2 == 0:
-    print("33-0 = 33")
-if num1 == 33 and sign == '-' and num2 == 1:
-    print("33-1 = 32")
-if num1 == 33 and sign == '-' and num2 == 2:
-    print("33-2 = 31")
-if num1 == 33 and sign == '-' and num2 == 3:
-    print("33-3 = 30")
-if num1 == 33 and sign == '-' and num2 == 4:
-    print("33-4 = 29")
-if num1 == 33 and sign == '-' and num2 == 5:
-    print("33-5 = 28")
-if num1 == 33 and sign == '-' and num2 == 6:
-    print("33-6 = 27")
-if num1 == 33 and sign == '-' and num2 == 7:
-    print("33-7 = 26")
-if num1 == 33 and sign == '-' and num2 == 8:
-    print("33-8 = 25")
-if num1 == 33 and sign == '-' and num2 == 9:
-    print("33-9 = 24")
-if num1 == 33 and sign == '-' and num2 == 10:
-    print("33-10 = 23")
-if num1 == 33 and sign == '-' and num2 == 11:
-    print("33-11 = 22")
-if num1 == 33 and sign == '-' and num2 == 12:
-    print("33-12 = 21")
-if num1 == 33 and sign == '-' and num2 == 13:
-    print("33-13 = 20")
-if num1 == 33 and sign == '-' and num2 == 14:
-    print("33-14 = 19")
-if num1 == 33 and sign == '-' and num2 == 15:
-    print("33-15 = 18")
-if num1 == 33 and sign == '-' and num2 == 16:
-    print("33-16 = 17")
-if num1 == 33 and sign == '-' and num2 == 17:
-    print("33-17 = 16")
-if num1 == 33 and sign == '-' and num2 == 18:
-    print("33-18 = 15")
-if num1 == 33 and sign == '-' and num2 == 19:
-    print("33-19 = 14")
-if num1 == 33 and sign == '-' and num2 == 20:
-    print("33-20 = 13")
-if num1 == 33 and sign == '-' and num2 == 21:
-    print("33-21 = 12")
-if num1 == 33 and sign == '-' and num2 == 22:
-    print("33-22 = 11")
-if num1 == 33 and sign == '-' and num2 == 23:
-    print("33-23 = 10")
-if num1 == 33 and sign == '-' and num2 == 24:
-    print("33-24 = 9")
-if num1 == 33 and sign == '-' and num2 == 25:
-    print("33-25 = 8")
-if num1 == 33 and sign == '-' and num2 == 26:
-    print("33-26 = 7")
-if num1 == 33 and sign == '-' and num2 == 27:
-    print("33-27 = 6")
-if num1 == 33 and sign == '-' and num2 == 28:
-    print("33-28 = 5")
-if num1 == 33 and sign == '-' and num2 == 29:
-    print("33-29 = 4")
-if num1 == 33 and sign == '-' and num2 == 30:
-    print("33-30 = 3")
-if num1 == 33 and sign == '-' and num2 == 31:
-    print("33-31 = 2")
-if num1 == 33 and sign == '-' and num2 == 32:
-    print("33-32 = 1")
-if num1 == 33 and sign == '-' and num2 == 33:
-    print("33-33 = 0")
-if num1 == 33 and sign == '-' and num2 == 34:
-    print("33-34 = -1")
-if num1 == 33 and sign == '-' and num2 == 35:
-    print("33-35 = -2")
-if num1 == 33 and sign == '-' and num2 == 36:
-    print("33-36 = -3")
-if num1 == 33 and sign == '-' and num2 == 37:
-    print("33-37 = -4")
-if num1 == 33 and sign == '-' and num2 == 38:
-    print("33-38 = -5")
-if num1 == 33 and sign == '-' and num2 == 39:
-    print("33-39 = -6")
-if num1 == 33 and sign == '-' and num2 == 40:
-    print("33-40 = -7")
-if num1 == 33 and sign == '-' and num2 == 41:
-    print("33-41 = -8")
-if num1 == 33 and sign == '-' and num2 == 42:
-    print("33-42 = -9")
-if num1 == 33 and sign == '-' and num2 == 43:
-    print("33-43 = -10")
-if num1 == 33 and sign == '-' and num2 == 44:
-    print("33-44 = -11")
-if num1 == 33 and sign == '-' and num2 == 45:
-    print("33-45 = -12")
-if num1 == 33 and sign == '-' and num2 == 46:
-    print("33-46 = -13")
-if num1 == 33 and sign == '-' and num2 == 47:
-    print("33-47 = -14")
-if num1 == 33 and sign == '-' and num2 == 48:
-    print("33-48 = -15")
-if num1 == 33 and sign == '-' and num2 == 49:
-    print("33-49 = -16")
-if num1 == 33 and sign == '-' and num2 == 50:
-    print("33-50 = -17")
-if num1 == 34 and sign == '-' and num2 == 0:
-    print("34-0 = 34")
-if num1 == 34 and sign == '-' and num2 == 1:
-    print("34-1 = 33")
-if num1 == 34 and sign == '-' and num2 == 2:
-    print("34-2 = 32")
-if num1 == 34 and sign == '-' and num2 == 3:
-    print("34-3 = 31")
-if num1 == 34 and sign == '-' and num2 == 4:
-    print("34-4 = 30")
-if num1 == 34 and sign == '-' and num2 == 5:
-    print("34-5 = 29")
-if num1 == 34 and sign == '-' and num2 == 6:
-    print("34-6 = 28")
-if num1 == 34 and sign == '-' and num2 == 7:
-    print("34-7 = 27")
-if num1 == 34 and sign == '-' and num2 == 8:
-    print("34-8 = 26")
-if num1 == 34 and sign == '-' and num2 == 9:
-    print("34-9 = 25")
-if num1 == 34 and sign == '-' and num2 == 10:
-    print("34-10 = 24")
-if num1 == 34 and sign == '-' and num2 == 11:
-    print("34-11 = 23")
-if num1 == 34 and sign == '-' and num2 == 12:
-    print("34-12 = 22")
-if num1 == 34 and sign == '-' and num2 == 13:
-    print("34-13 = 21")
-if num1 == 34 and sign == '-' and num2 == 14:
-    print("34-14 = 20")
-if num1 == 34 and sign == '-' and num2 == 15:
-    print("34-15 = 19")
-if num1 == 34 and sign == '-' and num2 == 16:
-    print("34-16 = 18")
-if num1 == 34 and sign == '-' and num2 == 17:
-    print("34-17 = 17")
-if num1 == 34 and sign == '-' and num2 == 18:
-    print("34-18 = 16")
-if num1 == 34 and sign == '-' and num2 == 19:
-    print("34-19 = 15")
-if num1 == 34 and sign == '-' and num2 == 20:
-    print("34-20 = 14")
-if num1 == 34 and sign == '-' and num2 == 21:
-    print("34-21 = 13")
-if num1 == 34 and sign == '-' and num2 == 22:
-    print("34-22 = 12")
-if num1 == 34 and sign == '-' and num2 == 23:
-    print("34-23 = 11")
-if num1 == 34 and sign == '-' and num2 == 24:
-    print("34-24 = 10")
-if num1 == 34 and sign == '-' and num2 == 25:
-    print("34-25 = 9")
-if num1 == 34 and sign == '-' and num2 == 26:
-    print("34-26 = 8")
-if num1 == 34 and sign == '-' and num2 == 27:
-    print("34-27 = 7")
-if num1 == 34 and sign == '-' and num2 == 28:
-    print("34-28 = 6")
-if num1 == 34 and sign == '-' and num2 == 29:
-    print("34-29 = 5")
-if num1 == 34 and sign == '-' and num2 == 30:
-    print("34-30 = 4")
-if num1 == 34 and sign == '-' and num2 == 31:
-    print("34-31 = 3")
-if num1 == 34 and sign == '-' and num2 == 32:
-    print("34-32 = 2")
-if num1 == 34 and sign == '-' and num2 == 33:
-    print("34-33 = 1")
-if num1 == 34 and sign == '-' and num2 == 34:
-    print("34-34 = 0")
-if num1 == 34 and sign == '-' and num2 == 35:
-    print("34-35 = -1")
-if num1 == 34 and sign == '-' and num2 == 36:
-    print("34-36 = -2")
-if num1 == 34 and sign == '-' and num2 == 37:
-    print("34-37 = -3")
-if num1 == 34 and sign == '-' and num2 == 38:
-    print("34-38 = -4")
-if num1 == 34 and sign == '-' and num2 == 39:
-    print("34-39 = -5")
-if num1 == 34 and sign == '-' and num2 == 40:
-    print("34-40 = -6")
-if num1 == 34 and sign == '-' and num2 == 41:
-    print("34-41 = -7")
-if num1 == 34 and sign == '-' and num2 == 42:
-    print("34-42 = -8")
-if num1 == 34 and sign == '-' and num2 == 43:
-    print("34-43 = -9")
-if num1 == 34 and sign == '-' and num2 == 44:
-    print("34-44 = -10")
-if num1 == 34 and sign == '-' and num2 == 45:
-    print("34-45 = -11")
-if num1 == 34 and sign == '-' and num2 == 46:
-    print("34-46 = -12")
-if num1 == 34 and sign == '-' and num2 == 47:
-    print("34-47 = -13")
-if num1 == 34 and sign == '-' and num2 == 48:
-    print("34-48 = -14")
-if num1 == 34 and sign == '-' and num2 == 49:
-    print("34-49 = -15")
-if num1 == 34 and sign == '-' and num2 == 50:
-    print("34-50 = -16")
-if num1 == 35 and sign == '-' and num2 == 0:
-    print("35-0 = 35")
-if num1 == 35 and sign == '-' and num2 == 1:
-    print("35-1 = 34")
-if num1 == 35 and sign == '-' and num2 == 2:
-    print("35-2 = 33")
-if num1 == 35 and sign == '-' and num2 == 3:
-    print("35-3 = 32")
-if num1 == 35 and sign == '-' and num2 == 4:
-    print("35-4 = 31")
-if num1 == 35 and sign == '-' and num2 == 5:
-    print("35-5 = 30")
-if num1 == 35 and sign == '-' and num2 == 6:
-    print("35-6 = 29")
-if num1 == 35 and sign == '-' and num2 == 7:
-    print("35-7 = 28")
-if num1 == 35 and sign == '-' and num2 == 8:
-    print("35-8 = 27")
-if num1 == 35 and sign == '-' and num2 == 9:
-    print("35-9 = 26")
-if num1 == 35 and sign == '-' and num2 == 10:
-    print("35-10 = 25")
-if num1 == 35 and sign == '-' and num2 == 11:
-    print("35-11 = 24")
-if num1 == 35 and sign == '-' and num2 == 12:
-    print("35-12 = 23")
-if num1 == 35 and sign == '-' and num2 == 13:
-    print("35-13 = 22")
-if num1 == 35 and sign == '-' and num2 == 14:
-    print("35-14 = 21")
-if num1 == 35 and sign == '-' and num2 == 15:
-    print("35-15 = 20")
-if num1 == 35 and sign == '-' and num2 == 16:
-    print("35-16 = 19")
-if num1 == 35 and sign == '-' and num2 == 17:
-    print("35-17 = 18")
-if num1 == 35 and sign == '-' and num2 == 18:
-    print("35-18 = 17")
-if num1 == 35 and sign == '-' and num2 == 19:
-    print("35-19 = 16")
-if num1 == 35 and sign == '-' and num2 == 20:
-    print("35-20 = 15")
-if num1 == 35 and sign == '-' and num2 == 21:
-    print("35-21 = 14")
-if num1 == 35 and sign == '-' and num2 == 22:
-    print("35-22 = 13")
-if num1 == 35 and sign == '-' and num2 == 23:
-    print("35-23 = 12")
-if num1 == 35 and sign == '-' and num2 == 24:
-    print("35-24 = 11")
-if num1 == 35 and sign == '-' and num2 == 25:
-    print("35-25 = 10")
-if num1 == 35 and sign == '-' and num2 == 26:
-    print("35-26 = 9")
-if num1 == 35 and sign == '-' and num2 == 27:
-    print("35-27 = 8")
-if num1 == 35 and sign == '-' and num2 == 28:
-    print("35-28 = 7")
-if num1 == 35 and sign == '-' and num2 == 29:
-    print("35-29 = 6")
-if num1 == 35 and sign == '-' and num2 == 30:
-    print("35-30 = 5")
-if num1 == 35 and sign == '-' and num2 == 31:
-    print("35-31 = 4")
-if num1 == 35 and sign == '-' and num2 == 32:
-    print("35-32 = 3")
-if num1 == 35 and sign == '-' and num2 == 33:
-    print("35-33 = 2")
-if num1 == 35 and sign == '-' and num2 == 34:
-    print("35-34 = 1")
-if num1 == 35 and sign == '-' and num2 == 35:
-    print("35-35 = 0")
-if num1 == 35 and sign == '-' and num2 == 36:
-    print("35-36 = -1")
-if num1 == 35 and sign == '-' and num2 == 37:
-    print("35-37 = -2")
-if num1 == 35 and sign == '-' and num2 == 38:
-    print("35-38 = -3")
-if num1 == 35 and sign == '-' and num2 == 39:
-    print("35-39 = -4")
-if num1 == 35 and sign == '-' and num2 == 40:
-    print("35-40 = -5")
-if num1 == 35 and sign == '-' and num2 == 41:
-    print("35-41 = -6")
-if num1 == 35 and sign == '-' and num2 == 42:
-    print("35-42 = -7")
-if num1 == 35 and sign == '-' and num2 == 43:
-    print("35-43 = -8")
-if num1 == 35 and sign == '-' and num2 == 44:
-    print("35-44 = -9")
-if num1 == 35 and sign == '-' and num2 == 45:
-    print("35-45 = -10")
-if num1 == 35 and sign == '-' and num2 == 46:
-    print("35-46 = -11")
-if num1 == 35 and sign == '-' and num2 == 47:
-    print("35-47 = -12")
-if num1 == 35 and sign == '-' and num2 == 48:
-    print("35-48 = -13")
-if num1 == 35 and sign == '-' and num2 == 49:
-    print("35-49 = -14")
-if num1 == 35 and sign == '-' and num2 == 50:
-    print("35-50 = -15")
-if num1 == 36 and sign == '-' and num2 == 0:
-    print("36-0 = 36")
-if num1 == 36 and sign == '-' and num2 == 1:
-    print("36-1 = 35")
-if num1 == 36 and sign == '-' and num2 == 2:
-    print("36-2 = 34")
-if num1 == 36 and sign == '-' and num2 == 3:
-    print("36-3 = 33")
-if num1 == 36 and sign == '-' and num2 == 4:
-    print("36-4 = 32")
-if num1 == 36 and sign == '-' and num2 == 5:
-    print("36-5 = 31")
-if num1 == 36 and sign == '-' and num2 == 6:
-    print("36-6 = 30")
-if num1 == 36 and sign == '-' and num2 == 7:
-    print("36-7 = 29")
-if num1 == 36 and sign == '-' and num2 == 8:
-    print("36-8 = 28")
-if num1 == 36 and sign == '-' and num2 == 9:
-    print("36-9 = 27")
-if num1 == 36 and sign == '-' and num2 == 10:
-    print("36-10 = 26")
-if num1 == 36 and sign == '-' and num2 == 11:
-    print("36-11 = 25")
-if num1 == 36 and sign == '-' and num2 == 12:
-    print("36-12 = 24")
-if num1 == 36 and sign == '-' and num2 == 13:
-    print("36-13 = 23")
-if num1 == 36 and sign == '-' and num2 == 14:
-    print("36-14 = 22")
-if num1 == 36 and sign == '-' and num2 == 15:
-    print("36-15 = 21")
-if num1 == 36 and sign == '-' and num2 == 16:
-    print("36-16 = 20")
-if num1 == 36 and sign == '-' and num2 == 17:
-    print("36-17 = 19")
-if num1 == 36 and sign == '-' and num2 == 18:
-    print("36-18 = 18")
-if num1 == 36 and sign == '-' and num2 == 19:
-    print("36-19 = 17")
-if num1 == 36 and sign == '-' and num2 == 20:
-    print("36-20 = 16")
-if num1 == 36 and sign == '-' and num2 == 21:
-    print("36-21 = 15")
-if num1 == 36 and sign == '-' and num2 == 22:
-    print("36-22 = 14")
-if num1 == 36 and sign == '-' and num2 == 23:
-    print("36-23 = 13")
-if num1 == 36 and sign == '-' and num2 == 24:
-    print("36-24 = 12")
-if num1 == 36 and sign == '-' and num2 == 25:
-    print("36-25 = 11")
-if num1 == 36 and sign == '-' and num2 == 26:
-    print("36-26 = 10")
-if num1 == 36 and sign == '-' and num2 == 27:
-    print("36-27 = 9")
-if num1 == 36 and sign == '-' and num2 == 28:
-    print("36-28 = 8")
-if num1 == 36 and sign == '-' and num2 == 29:
-    print("36-29 = 7")
-if num1 == 36 and sign == '-' and num2 == 30:
-    print("36-30 = 6")
-if num1 == 36 and sign == '-' and num2 == 31:
-    print("36-31 = 5")
-if num1 == 36 and sign == '-' and num2 == 32:
-    print("36-32 = 4")
-if num1 == 36 and sign == '-' and num2 == 33:
-    print("36-33 = 3")
-if num1 == 36 and sign == '-' and num2 == 34:
-    print("36-34 = 2")
-if num1 == 36 and sign == '-' and num2 == 35:
-    print("36-35 = 1")
-if num1 == 36 and sign == '-' and num2 == 36:
-    print("36-36 = 0")
-if num1 == 36 and sign == '-' and num2 == 37:
-    print("36-37 = -1")
-if num1 == 36 and sign == '-' and num2 == 38:
-    print("36-38 = -2")
-if num1 == 36 and sign == '-' and num2 == 39:
-    print("36-39 = -3")
-if num1 == 36 and sign == '-' and num2 == 40:
-    print("36-40 = -4")
-if num1 == 36 and sign == '-' and num2 == 41:
-    print("36-41 = -5")
-if num1 == 36 and sign == '-' and num2 == 42:
-    print("36-42 = -6")
-if num1 == 36 and sign == '-' and num2 == 43:
-    print("36-43 = -7")
-if num1 == 36 and sign == '-' and num2 == 44:
-    print("36-44 = -8")
-if num1 == 36 and sign == '-' and num2 == 45:
-    print("36-45 = -9")
-if num1 == 36 and sign == '-' and num2 == 46:
-    print("36-46 = -10")
-if num1 == 36 and sign == '-' and num2 == 47:
-    print("36-47 = -11")
-if num1 == 36 and sign == '-' and num2 == 48:
-    print("36-48 = -12")
-if num1 == 36 and sign == '-' and num2 == 49:
-    print("36-49 = -13")
-if num1 == 36 and sign == '-' and num2 == 50:
-    print("36-50 = -14")
-if num1 == 37 and sign == '-' and num2 == 0:
-    print("37-0 = 37")
-if num1 == 37 and sign == '-' and num2 == 1:
-    print("37-1 = 36")
-if num1 == 37 and sign == '-' and num2 == 2:
-    print("37-2 = 35")
-if num1 == 37 and sign == '-' and num2 == 3:
-    print("37-3 = 34")
-if num1 == 37 and sign == '-' and num2 == 4:
-    print("37-4 = 33")
-if num1 == 37 and sign == '-' and num2 == 5:
-    print("37-5 = 32")
-if num1 == 37 and sign == '-' and num2 == 6:
-    print("37-6 = 31")
-if num1 == 37 and sign == '-' and num2 == 7:
-    print("37-7 = 30")
-if num1 == 37 and sign == '-' and num2 == 8:
-    print("37-8 = 29")
-if num1 == 37 and sign == '-' and num2 == 9:
-    print("37-9 = 28")
-if num1 == 37 and sign == '-' and num2 == 10:
-    print("37-10 = 27")
-if num1 == 37 and sign == '-' and num2 == 11:
-    print("37-11 = 26")
-if num1 == 37 and sign == '-' and num2 == 12:
-    print("37-12 = 25")
-if num1 == 37 and sign == '-' and num2 == 13:
-    print("37-13 = 24")
-if num1 == 37 and sign == '-' and num2 == 14:
-    print("37-14 = 23")
-if num1 == 37 and sign == '-' and num2 == 15:
-    print("37-15 = 22")
-if num1 == 37 and sign == '-' and num2 == 16:
-    print("37-16 = 21")
-if num1 == 37 and sign == '-' and num2 == 17:
-    print("37-17 = 20")
-if num1 == 37 and sign == '-' and num2 == 18:
-    print("37-18 = 19")
-if num1 == 37 and sign == '-' and num2 == 19:
-    print("37-19 = 18")
-if num1 == 37 and sign == '-' and num2 == 20:
-    print("37-20 = 17")
-if num1 == 37 and sign == '-' and num2 == 21:
-    print("37-21 = 16")
-if num1 == 37 and sign == '-' and num2 == 22:
-    print("37-22 = 15")
-if num1 == 37 and sign == '-' and num2 == 23:
-    print("37-23 = 14")
-if num1 == 37 and sign == '-' and num2 == 24:
-    print("37-24 = 13")
-if num1 == 37 and sign == '-' and num2 == 25:
-    print("37-25 = 12")
-if num1 == 37 and sign == '-' and num2 == 26:
-    print("37-26 = 11")
-if num1 == 37 and sign == '-' and num2 == 27:
-    print("37-27 = 10")
-if num1 == 37 and sign == '-' and num2 == 28:
-    print("37-28 = 9")
-if num1 == 37 and sign == '-' and num2 == 29:
-    print("37-29 = 8")
-if num1 == 37 and sign == '-' and num2 == 30:
-    print("37-30 = 7")
-if num1 == 37 and sign == '-' and num2 == 31:
-    print("37-31 = 6")
-if num1 == 37 and sign == '-' and num2 == 32:
-    print("37-32 = 5")
-if num1 == 37 and sign == '-' and num2 == 33:
-    print("37-33 = 4")
-if num1 == 37 and sign == '-' and num2 == 34:
-    print("37-34 = 3")
-if num1 == 37 and sign == '-' and num2 == 35:
-    print("37-35 = 2")
-if num1 == 37 and sign == '-' and num2 == 36:
-    print("37-36 = 1")
-if num1 == 37 and sign == '-' and num2 == 37:
-    print("37-37 = 0")
-if num1 == 37 and sign == '-' and num2 == 38:
-    print("37-38 = -1")
-if num1 == 37 and sign == '-' and num2 == 39:
-    print("37-39 = -2")
-if num1 == 37 and sign == '-' and num2 == 40:
-    print("37-40 = -3")
-if num1 == 37 and sign == '-' and num2 == 41:
-    print("37-41 = -4")
-if num1 == 37 and sign == '-' and num2 == 42:
-    print("37-42 = -5")
-if num1 == 37 and sign == '-' and num2 == 43:
-    print("37-43 = -6")
-if num1 == 37 and sign == '-' and num2 == 44:
-    print("37-44 = -7")
-if num1 == 37 and sign == '-' and num2 == 45:
-    print("37-45 = -8")
-if num1 == 37 and sign == '-' and num2 == 46:
-    print("37-46 = -9")
-if num1 == 37 and sign == '-' and num2 == 47:
-    print("37-47 = -10")
-if num1 == 37 and sign == '-' and num2 == 48:
-    print("37-48 = -11")
-if num1 == 37 and sign == '-' and num2 == 49:
-    print("37-49 = -12")
-if num1 == 37 and sign == '-' and num2 == 50:
-    print("37-50 = -13")
-if num1 == 38 and sign == '-' and num2 == 0:
-    print("38-0 = 38")
-if num1 == 38 and sign == '-' and num2 == 1:
-    print("38-1 = 37")
-if num1 == 38 and sign == '-' and num2 == 2:
-    print("38-2 = 36")
-if num1 == 38 and sign == '-' and num2 == 3:
-    print("38-3 = 35")
-if num1 == 38 and sign == '-' and num2 == 4:
-    print("38-4 = 34")
-if num1 == 38 and sign == '-' and num2 == 5:
-    print("38-5 = 33")
-if num1 == 38 and sign == '-' and num2 == 6:
-    print("38-6 = 32")
-if num1 == 38 and sign == '-' and num2 == 7:
-    print("38-7 = 31")
-if num1 == 38 and sign == '-' and num2 == 8:
-    print("38-8 = 30")
-if num1 == 38 and sign == '-' and num2 == 9:
-    print("38-9 = 29")
-if num1 == 38 and sign == '-' and num2 == 10:
-    print("38-10 = 28")
-if num1 == 38 and sign == '-' and num2 == 11:
-    print("38-11 = 27")
-if num1 == 38 and sign == '-' and num2 == 12:
-    print("38-12 = 26")
-if num1 == 38 and sign == '-' and num2 == 13:
-    print("38-13 = 25")
-if num1 == 38 and sign == '-' and num2 == 14:
-    print("38-14 = 24")
-if num1 == 38 and sign == '-' and num2 == 15:
-    print("38-15 = 23")
-if num1 == 38 and sign == '-' and num2 == 16:
-    print("38-16 = 22")
-if num1 == 38 and sign == '-' and num2 == 17:
-    print("38-17 = 21")
-if num1 == 38 and sign == '-' and num2 == 18:
-    print("38-18 = 20")
-if num1 == 38 and sign == '-' and num2 == 19:
-    print("38-19 = 19")
-if num1 == 38 and sign == '-' and num2 == 20:
-    print("38-20 = 18")
-if num1 == 38 and sign == '-' and num2 == 21:
-    print("38-21 = 17")
-if num1 == 38 and sign == '-' and num2 == 22:
-    print("38-22 = 16")
-if num1 == 38 and sign == '-' and num2 == 23:
-    print("38-23 = 15")
-if num1 == 38 and sign == '-' and num2 == 24:
-    print("38-24 = 14")
-if num1 == 38 and sign == '-' and num2 == 25:
-    print("38-25 = 13")
-if num1 == 38 and sign == '-' and num2 == 26:
-    print("38-26 = 12")
-if num1 == 38 and sign == '-' and num2 == 27:
-    print("38-27 = 11")
-if num1 == 38 and sign == '-' and num2 == 28:
-    print("38-28 = 10")
-if num1 == 38 and sign == '-' and num2 == 29:
-    print("38-29 = 9")
-if num1 == 38 and sign == '-' and num2 == 30:
-    print("38-30 = 8")
-if num1 == 38 and sign == '-' and num2 == 31:
-    print("38-31 = 7")
-if num1 == 38 and sign == '-' and num2 == 32:
-    print("38-32 = 6")
-if num1 == 38 and sign == '-' and num2 == 33:
-    print("38-33 = 5")
-if num1 == 38 and sign == '-' and num2 == 34:
-    print("38-34 = 4")
-if num1 == 38 and sign == '-' and num2 == 35:
-    print("38-35 = 3")
-if num1 == 38 and sign == '-' and num2 == 36:
-    print("38-36 = 2")
-if num1 == 38 and sign == '-' and num2 == 37:
-    print("38-37 = 1")
-if num1 == 38 and sign == '-' and num2 == 38:
-    print("38-38 = 0")
-if num1 == 38 and sign == '-' and num2 == 39:
-    print("38-39 = -1")
-if num1 == 38 and sign == '-' and num2 == 40:
-    print("38-40 = -2")
-if num1 == 38 and sign == '-' and num2 == 41:
-    print("38-41 = -3")
-if num1 == 38 and sign == '-' and num2 == 42:
-    print("38-42 = -4")
-if num1 == 38 and sign == '-' and num2 == 43:
-    print("38-43 = -5")
-if num1 == 38 and sign == '-' and num2 == 44:
-    print("38-44 = -6")
-if num1 == 38 and sign == '-' and num2 == 45:
-    print("38-45 = -7")
-if num1 == 38 and sign == '-' and num2 == 46:
-    print("38-46 = -8")
-if num1 == 38 and sign == '-' and num2 == 47:
-    print("38-47 = -9")
-if num1 == 38 and sign == '-' and num2 == 48:
-    print("38-48 = -10")
-if num1 == 38 and sign == '-' and num2 == 49:
-    print("38-49 = -11")
-if num1 == 38 and sign == '-' and num2 == 50:
-    print("38-50 = -12")
-if num1 == 39 and sign == '-' and num2 == 0:
-    print("39-0 = 39")
-if num1 == 39 and sign == '-' and num2 == 1:
-    print("39-1 = 38")
-if num1 == 39 and sign == '-' and num2 == 2:
-    print("39-2 = 37")
-if num1 == 39 and sign == '-' and num2 == 3:
-    print("39-3 = 36")
-if num1 == 39 and sign == '-' and num2 == 4:
-    print("39-4 = 35")
-if num1 == 39 and sign == '-' and num2 == 5:
-    print("39-5 = 34")
-if num1 == 39 and sign == '-' and num2 == 6:
-    print("39-6 = 33")
-if num1 == 39 and sign == '-' and num2 == 7:
-    print("39-7 = 32")
-if num1 == 39 and sign == '-' and num2 == 8:
-    print("39-8 = 31")
-if num1 == 39 and sign == '-' and num2 == 9:
-    print("39-9 = 30")
-if num1 == 39 and sign == '-' and num2 == 10:
-    print("39-10 = 29")
-if num1 == 39 and sign == '-' and num2 == 11:
-    print("39-11 = 28")
-if num1 == 39 and sign == '-' and num2 == 12:
-    print("39-12 = 27")
-if num1 == 39 and sign == '-' and num2 == 13:
-    print("39-13 = 26")
-if num1 == 39 and sign == '-' and num2 == 14:
-    print("39-14 = 25")
-if num1 == 39 and sign == '-' and num2 == 15:
-    print("39-15 = 24")
-if num1 == 39 and sign == '-' and num2 == 16:
-    print("39-16 = 23")
-if num1 == 39 and sign == '-' and num2 == 17:
-    print("39-17 = 22")
-if num1 == 39 and sign == '-' and num2 == 18:
-    print("39-18 = 21")
-if num1 == 39 and sign == '-' and num2 == 19:
-    print("39-19 = 20")
-if num1 == 39 and sign == '-' and num2 == 20:
-    print("39-20 = 19")
-if num1 == 39 and sign == '-' and num2 == 21:
-    print("39-21 = 18")
-if num1 == 39 and sign == '-' and num2 == 22:
-    print("39-22 = 17")
-if num1 == 39 and sign == '-' and num2 == 23:
-    print("39-23 = 16")
-if num1 == 39 and sign == '-' and num2 == 24:
-    print("39-24 = 15")
-if num1 == 39 and sign == '-' and num2 == 25:
-    print("39-25 = 14")
-if num1 == 39 and sign == '-' and num2 == 26:
-    print("39-26 = 13")
-if num1 == 39 and sign == '-' and num2 == 27:
-    print("39-27 = 12")
-if num1 == 39 and sign == '-' and num2 == 28:
-    print("39-28 = 11")
-if num1 == 39 and sign == '-' and num2 == 29:
-    print("39-29 = 10")
-if num1 == 39 and sign == '-' and num2 == 30:
-    print("39-30 = 9")
-if num1 == 39 and sign == '-' and num2 == 31:
-    print("39-31 = 8")
-if num1 == 39 and sign == '-' and num2 == 32:
-    print("39-32 = 7")
-if num1 == 39 and sign == '-' and num2 == 33:
-    print("39-33 = 6")
-if num1 == 39 and sign == '-' and num2 == 34:
-    print("39-34 = 5")
-if num1 == 39 and sign == '-' and num2 == 35:
-    print("39-35 = 4")
-if num1 == 39 and sign == '-' and num2 == 36:
-    print("39-36 = 3")
-if num1 == 39 and sign == '-' and num2 == 37:
-    print("39-37 = 2")
-if num1 == 39 and sign == '-' and num2 == 38:
-    print("39-38 = 1")
-if num1 == 39 and sign == '-' and num2 == 39:
-    print("39-39 = 0")
-if num1 == 39 and sign == '-' and num2 == 40:
-    print("39-40 = -1")
-if num1 == 39 and sign == '-' and num2 == 41:
-    print("39-41 = -2")
-if num1 == 39 and sign == '-' and num2 == 42:
-    print("39-42 = -3")
-if num1 == 39 and sign == '-' and num2 == 43:
-    print("39-43 = -4")
-if num1 == 39 and sign == '-' and num2 == 44:
-    print("39-44 = -5")
-if num1 == 39 and sign == '-' and num2 == 45:
-    print("39-45 = -6")
-if num1 == 39 and sign == '-' and num2 == 46:
-    print("39-46 = -7")
-if num1 == 39 and sign == '-' and num2 == 47:
-    print("39-47 = -8")
-if num1 == 39 and sign == '-' and num2 == 48:
-    print("39-48 = -9")
-if num1 == 39 and sign == '-' and num2 == 49:
-    print("39-49 = -10")
-if num1 == 39 and sign == '-' and num2 == 50:
-    print("39-50 = -11")
-if num1 == 40 and sign == '-' and num2 == 0:
-    print("40-0 = 40")
-if num1 == 40 and sign == '-' and num2 == 1:
-    print("40-1 = 39")
-if num1 == 40 and sign == '-' and num2 == 2:
-    print("40-2 = 38")
-if num1 == 40 and sign == '-' and num2 == 3:
-    print("40-3 = 37")
-if num1 == 40 and sign == '-' and num2 == 4:
-    print("40-4 = 36")
-if num1 == 40 and sign == '-' and num2 == 5:
-    print("40-5 = 35")
-if num1 == 40 and sign == '-' and num2 == 6:
-    print("40-6 = 34")
-if num1 == 40 and sign == '-' and num2 == 7:
-    print("40-7 = 33")
-if num1 == 40 and sign == '-' and num2 == 8:
-    print("40-8 = 32")
-if num1 == 40 and sign == '-' and num2 == 9:
-    print("40-9 = 31")
-if num1 == 40 and sign == '-' and num2 == 10:
-    print("40-10 = 30")
-if num1 == 40 and sign == '-' and num2 == 11:
-    print("40-11 = 29")
-if num1 == 40 and sign == '-' and num2 == 12:
-    print("40-12 = 28")
-if num1 == 40 and sign == '-' and num2 == 13:
-    print("40-13 = 27")
-if num1 == 40 and sign == '-' and num2 == 14:
-    print("40-14 = 26")
-if num1 == 40 and sign == '-' and num2 == 15:
-    print("40-15 = 25")
-if num1 == 40 and sign == '-' and num2 == 16:
-    print("40-16 = 24")
-if num1 == 40 and sign == '-' and num2 == 17:
-    print("40-17 = 23")
-if num1 == 40 and sign == '-' and num2 == 18:
-    print("40-18 = 22")
-if num1 == 40 and sign == '-' and num2 == 19:
-    print("40-19 = 21")
-if num1 == 40 and sign == '-' and num2 == 20:
-    print("40-20 = 20")
-if num1 == 40 and sign == '-' and num2 == 21:
-    print("40-21 = 19")
-if num1 == 40 and sign == '-' and num2 == 22:
-    print("40-22 = 18")
-if num1 == 40 and sign == '-' and num2 == 23:
-    print("40-23 = 17")
-if num1 == 40 and sign == '-' and num2 == 24:
-    print("40-24 = 16")
-if num1 == 40 and sign == '-' and num2 == 25:
-    print("40-25 = 15")
-if num1 == 40 and sign == '-' and num2 == 26:
-    print("40-26 = 14")
-if num1 == 40 and sign == '-' and num2 == 27:
-    print("40-27 = 13")
-if num1 == 40 and sign == '-' and num2 == 28:
-    print("40-28 = 12")
-if num1 == 40 and sign == '-' and num2 == 29:
-    print("40-29 = 11")
-if num1 == 40 and sign == '-' and num2 == 30:
-    print("40-30 = 10")
-if num1 == 40 and sign == '-' and num2 == 31:
-    print("40-31 = 9")
-if num1 == 40 and sign == '-' and num2 == 32:
-    print("40-32 = 8")
-if num1 == 40 and sign == '-' and num2 == 33:
-    print("40-33 = 7")
-if num1 == 40 and sign == '-' and num2 == 34:
-    print("40-34 = 6")
-if num1 == 40 and sign == '-' and num2 == 35:
-    print("40-35 = 5")
-if num1 == 40 and sign == '-' and num2 == 36:
-    print("40-36 = 4")
-if num1 == 40 and sign == '-' and num2 == 37:
-    print("40-37 = 3")
-if num1 == 40 and sign == '-' and num2 == 38:
-    print("40-38 = 2")
-if num1 == 40 and sign == '-' and num2 == 39:
-    print("40-39 = 1")
-if num1 == 40 and sign == '-' and num2 == 40:
-    print("40-40 = 0")
-if num1 == 40 and sign == '-' and num2 == 41:
-    print("40-41 = -1")
-if num1 == 40 and sign == '-' and num2 == 42:
-    print("40-42 = -2")
-if num1 == 40 and sign == '-' and num2 == 43:
-    print("40-43 = -3")
-if num1 == 40 and sign == '-' and num2 == 44:
-    print("40-44 = -4")
-if num1 == 40 and sign == '-' and num2 == 45:
-    print("40-45 = -5")
-if num1 == 40 and sign == '-' and num2 == 46:
-    print("40-46 = -6")
-if num1 == 40 and sign == '-' and num2 == 47:
-    print("40-47 = -7")
-if num1 == 40 and sign == '-' and num2 == 48:
-    print("40-48 = -8")
-if num1 == 40 and sign == '-' and num2 == 49:
-    print("40-49 = -9")
-if num1 == 40 and sign == '-' and num2 == 50:
-    print("40-50 = -10")
-if num1 == 41 and sign == '-' and num2 == 0:
-    print("41-0 = 41")
-if num1 == 41 and sign == '-' and num2 == 1:
-    print("41-1 = 40")
-if num1 == 41 and sign == '-' and num2 == 2:
-    print("41-2 = 39")
-if num1 == 41 and sign == '-' and num2 == 3:
-    print("41-3 = 38")
-if num1 == 41 and sign == '-' and num2 == 4:
-    print("41-4 = 37")
-if num1 == 41 and sign == '-' and num2 == 5:
-    print("41-5 = 36")
-if num1 == 41 and sign == '-' and num2 == 6:
-    print("41-6 = 35")
-if num1 == 41 and sign == '-' and num2 == 7:
-    print("41-7 = 34")
-if num1 == 41 and sign == '-' and num2 == 8:
-    print("41-8 = 33")
-if num1 == 41 and sign == '-' and num2 == 9:
-    print("41-9 = 32")
-if num1 == 41 and sign == '-' and num2 == 10:
-    print("41-10 = 31")
-if num1 == 41 and sign == '-' and num2 == 11:
-    print("41-11 = 30")
-if num1 == 41 and sign == '-' and num2 == 12:
-    print("41-12 = 29")
-if num1 == 41 and sign == '-' and num2 == 13:
-    print("41-13 = 28")
-if num1 == 41 and sign == '-' and num2 == 14:
-    print("41-14 = 27")
-if num1 == 41 and sign == '-' and num2 == 15:
-    print("41-15 = 26")
-if num1 == 41 and sign == '-' and num2 == 16:
-    print("41-16 = 25")
-if num1 == 41 and sign == '-' and num2 == 17:
-    print("41-17 = 24")
-if num1 == 41 and sign == '-' and num2 == 18:
-    print("41-18 = 23")
-if num1 == 41 and sign == '-' and num2 == 19:
-    print("41-19 = 22")
-if num1 == 41 and sign == '-' and num2 == 20:
-    print("41-20 = 21")
-if num1 == 41 and sign == '-' and num2 == 21:
-    print("41-21 = 20")
-if num1 == 41 and sign == '-' and num2 == 22:
-    print("41-22 = 19")
-if num1 == 41 and sign == '-' and num2 == 23:
-    print("41-23 = 18")
-if num1 == 41 and sign == '-' and num2 == 24:
-    print("41-24 = 17")
-if num1 == 41 and sign == '-' and num2 == 25:
-    print("41-25 = 16")
-if num1 == 41 and sign == '-' and num2 == 26:
-    print("41-26 = 15")
-if num1 == 41 and sign == '-' and num2 == 27:
-    print("41-27 = 14")
-if num1 == 41 and sign == '-' and num2 == 28:
-    print("41-28 = 13")
-if num1 == 41 and sign == '-' and num2 == 29:
-    print("41-29 = 12")
-if num1 == 41 and sign == '-' and num2 == 30:
-    print("41-30 = 11")
-if num1 == 41 and sign == '-' and num2 == 31:
-    print("41-31 = 10")
-if num1 == 41 and sign == '-' and num2 == 32:
-    print("41-32 = 9")
-if num1 == 41 and sign == '-' and num2 == 33:
-    print("41-33 = 8")
-if num1 == 41 and sign == '-' and num2 == 34:
-    print("41-34 = 7")
-if num1 == 41 and sign == '-' and num2 == 35:
-    print("41-35 = 6")
-if num1 == 41 and sign == '-' and num2 == 36:
-    print("41-36 = 5")
-if num1 == 41 and sign == '-' and num2 == 37:
-    print("41-37 = 4")
-if num1 == 41 and sign == '-' and num2 == 38:
-    print("41-38 = 3")
-if num1 == 41 and sign == '-' and num2 == 39:
-    print("41-39 = 2")
-if num1 == 41 and sign == '-' and num2 == 40:
-    print("41-40 = 1")
-if num1 == 41 and sign == '-' and num2 == 41:
-    print("41-41 = 0")
-if num1 == 41 and sign == '-' and num2 == 42:
-    print("41-42 = -1")
-if num1 == 41 and sign == '-' and num2 == 43:
-    print("41-43 = -2")
-if num1 == 41 and sign == '-' and num2 == 44:
-    print("41-44 = -3")
-if num1 == 41 and sign == '-' and num2 == 45:
-    print("41-45 = -4")
-if num1 == 41 and sign == '-' and num2 == 46:
-    print("41-46 = -5")
-if num1 == 41 and sign == '-' and num2 == 47:
-    print("41-47 = -6")
-if num1 == 41 and sign == '-' and num2 == 48:
-    print("41-48 = -7")
-if num1 == 41 and sign == '-' and num2 == 49:
-    print("41-49 = -8")
-if num1 == 41 and sign == '-' and num2 == 50:
-    print("41-50 = -9")
-if num1 == 42 and sign == '-' and num2 == 0:
-    print("42-0 = 42")
-if num1 == 42 and sign == '-' and num2 == 1:
-    print("42-1 = 41")
-if num1 == 42 and sign == '-' and num2 == 2:
-    print("42-2 = 40")
-if num1 == 42 and sign == '-' and num2 == 3:
-    print("42-3 = 39")
-if num1 == 42 and sign == '-' and num2 == 4:
-    print("42-4 = 38")
-if num1 == 42 and sign == '-' and num2 == 5:
-    print("42-5 = 37")
-if num1 == 42 and sign == '-' and num2 == 6:
-    print("42-6 = 36")
-if num1 == 42 and sign == '-' and num2 == 7:
-    print("42-7 = 35")
-if num1 == 42 and sign == '-' and num2 == 8:
-    print("42-8 = 34")
-if num1 == 42 and sign == '-' and num2 == 9:
-    print("42-9 = 33")
-if num1 == 42 and sign == '-' and num2 == 10:
-    print("42-10 = 32")
-if num1 == 42 and sign == '-' and num2 == 11:
-    print("42-11 = 31")
-if num1 == 42 and sign == '-' and num2 == 12:
-    print("42-12 = 30")
-if num1 == 42 and sign == '-' and num2 == 13:
-    print("42-13 = 29")
-if num1 == 42 and sign == '-' and num2 == 14:
-    print("42-14 = 28")
-if num1 == 42 and sign == '-' and num2 == 15:
-    print("42-15 = 27")
-if num1 == 42 and sign == '-' and num2 == 16:
-    print("42-16 = 26")
-if num1 == 42 and sign == '-' and num2 == 17:
-    print("42-17 = 25")
-if num1 == 42 and sign == '-' and num2 == 18:
-    print("42-18 = 24")
-if num1 == 42 and sign == '-' and num2 == 19:
-    print("42-19 = 23")
-if num1 == 42 and sign == '-' and num2 == 20:
-    print("42-20 = 22")
-if num1 == 42 and sign == '-' and num2 == 21:
-    print("42-21 = 21")
-if num1 == 42 and sign == '-' and num2 == 22:
-    print("42-22 = 20")
-if num1 == 42 and sign == '-' and num2 == 23:
-    print("42-23 = 19")
-if num1 == 42 and sign == '-' and num2 == 24:
-    print("42-24 = 18")
-if num1 == 42 and sign == '-' and num2 == 25:
-    print("42-25 = 17")
-if num1 == 42 and sign == '-' and num2 == 26:
-    print("42-26 = 16")
-if num1 == 42 and sign == '-' and num2 == 27:
-    print("42-27 = 15")
-if num1 == 42 and sign == '-' and num2 == 28:
-    print("42-28 = 14")
-if num1 == 42 and sign == '-' and num2 == 29:
-    print("42-29 = 13")
-if num1 == 42 and sign == '-' and num2 == 30:
-    print("42-30 = 12")
-if num1 == 42 and sign == '-' and num2 == 31:
-    print("42-31 = 11")
-if num1 == 42 and sign == '-' and num2 == 32:
-    print("42-32 = 10")
-if num1 == 42 and sign == '-' and num2 == 33:
-    print("42-33 = 9")
-if num1 == 42 and sign == '-' and num2 == 34:
-    print("42-34 = 8")
-if num1 == 42 and sign == '-' and num2 == 35:
-    print("42-35 = 7")
-if num1 == 42 and sign == '-' and num2 == 36:
-    print("42-36 = 6")
-if num1 == 42 and sign == '-' and num2 == 37:
-    print("42-37 = 5")
-if num1 == 42 and sign == '-' and num2 == 38:
-    print("42-38 = 4")
-if num1 == 42 and sign == '-' and num2 == 39:
-    print("42-39 = 3")
-if num1 == 42 and sign == '-' and num2 == 40:
-    print("42-40 = 2")
-if num1 == 42 and sign == '-' and num2 == 41:
-    print("42-41 = 1")
-if num1 == 42 and sign == '-' and num2 == 42:
-    print("42-42 = 0")
-if num1 == 42 and sign == '-' and num2 == 43:
-    print("42-43 = -1")
-if num1 == 42 and sign == '-' and num2 == 44:
-    print("42-44 = -2")
-if num1 == 42 and sign == '-' and num2 == 45:
-    print("42-45 = -3")
-if num1 == 42 and sign == '-' and num2 == 46:
-    print("42-46 = -4")
-if num1 == 42 and sign == '-' and num2 == 47:
-    print("42-47 = -5")
-if num1 == 42 and sign == '-' and num2 == 48:
-    print("42-48 = -6")
-if num1 == 42 and sign == '-' and num2 == 49:
-    print("42-49 = -7")
-if num1 == 42 and sign == '-' and num2 == 50:
-    print("42-50 = -8")
-if num1 == 43 and sign == '-' and num2 == 0:
-    print("43-0 = 43")
-if num1 == 43 and sign == '-' and num2 == 1:
-    print("43-1 = 42")
-if num1 == 43 and sign == '-' and num2 == 2:
-    print("43-2 = 41")
-if num1 == 43 and sign == '-' and num2 == 3:
-    print("43-3 = 40")
-if num1 == 43 and sign == '-' and num2 == 4:
-    print("43-4 = 39")
-if num1 == 43 and sign == '-' and num2 == 5:
-    print("43-5 = 38")
-if num1 == 43 and sign == '-' and num2 == 6:
-    print("43-6 = 37")
-if num1 == 43 and sign == '-' and num2 == 7:
-    print("43-7 = 36")
-if num1 == 43 and sign == '-' and num2 == 8:
-    print("43-8 = 35")
-if num1 == 43 and sign == '-' and num2 == 9:
-    print("43-9 = 34")
-if num1 == 43 and sign == '-' and num2 == 10:
-    print("43-10 = 33")
-if num1 == 43 and sign == '-' and num2 == 11:
-    print("43-11 = 32")
-if num1 == 43 and sign == '-' and num2 == 12:
-    print("43-12 = 31")
-if num1 == 43 and sign == '-' and num2 == 13:
-    print("43-13 = 30")
-if num1 == 43 and sign == '-' and num2 == 14:
-    print("43-14 = 29")
-if num1 == 43 and sign == '-' and num2 == 15:
-    print("43-15 = 28")
-if num1 == 43 and sign == '-' and num2 == 16:
-    print("43-16 = 27")
-if num1 == 43 and sign == '-' and num2 == 17:
-    print("43-17 = 26")
-if num1 == 43 and sign == '-' and num2 == 18:
-    print("43-18 = 25")
-if num1 == 43 and sign == '-' and num2 == 19:
-    print("43-19 = 24")
-if num1 == 43 and sign == '-' and num2 == 20:
-    print("43-20 = 23")
-if num1 == 43 and sign == '-' and num2 == 21:
-    print("43-21 = 22")
-if num1 == 43 and sign == '-' and num2 == 22:
-    print("43-22 = 21")
-if num1 == 43 and sign == '-' and num2 == 23:
-    print("43-23 = 20")
-if num1 == 43 and sign == '-' and num2 == 24:
-    print("43-24 = 19")
-if num1 == 43 and sign == '-' and num2 == 25:
-    print("43-25 = 18")
-if num1 == 43 and sign == '-' and num2 == 26:
-    print("43-26 = 17")
-if num1 == 43 and sign == '-' and num2 == 27:
-    print("43-27 = 16")
-if num1 == 43 and sign == '-' and num2 == 28:
-    print("43-28 = 15")
-if num1 == 43 and sign == '-' and num2 == 29:
-    print("43-29 = 14")
-if num1 == 43 and sign == '-' and num2 == 30:
-    print("43-30 = 13")
-if num1 == 43 and sign == '-' and num2 == 31:
-    print("43-31 = 12")
-if num1 == 43 and sign == '-' and num2 == 32:
-    print("43-32 = 11")
-if num1 == 43 and sign == '-' and num2 == 33:
-    print("43-33 = 10")
-if num1 == 43 and sign == '-' and num2 == 34:
-    print("43-34 = 9")
-if num1 == 43 and sign == '-' and num2 == 35:
-    print("43-35 = 8")
-if num1 == 43 and sign == '-' and num2 == 36:
-    print("43-36 = 7")
-if num1 == 43 and sign == '-' and num2 == 37:
-    print("43-37 = 6")
-if num1 == 43 and sign == '-' and num2 == 38:
-    print("43-38 = 5")
-if num1 == 43 and sign == '-' and num2 == 39:
-    print("43-39 = 4")
-if num1 == 43 and sign == '-' and num2 == 40:
-    print("43-40 = 3")
-if num1 == 43 and sign == '-' and num2 == 41:
-    print("43-41 = 2")
-if num1 == 43 and sign == '-' and num2 == 42:
-    print("43-42 = 1")
-if num1 == 43 and sign == '-' and num2 == 43:
-    print("43-43 = 0")
-if num1 == 43 and sign == '-' and num2 == 44:
-    print("43-44 = -1")
-if num1 == 43 and sign == '-' and num2 == 45:
-    print("43-45 = -2")
-if num1 == 43 and sign == '-' and num2 == 46:
-    print("43-46 = -3")
-if num1 == 43 and sign == '-' and num2 == 47:
-    print("43-47 = -4")
-if num1 == 43 and sign == '-' and num2 == 48:
-    print("43-48 = -5")
-if num1 == 43 and sign == '-' and num2 == 49:
-    print("43-49 = -6")
-if num1 == 43 and sign == '-' and num2 == 50:
-    print("43-50 = -7")
-if num1 == 44 and sign == '-' and num2 == 0:
-    print("44-0 = 44")
-if num1 == 44 and sign == '-' and num2 == 1:
-    print("44-1 = 43")
-if num1 == 44 and sign == '-' and num2 == 2:
-    print("44-2 = 42")
-if num1 == 44 and sign == '-' and num2 == 3:
-    print("44-3 = 41")
-if num1 == 44 and sign == '-' and num2 == 4:
-    print("44-4 = 40")
-if num1 == 44 and sign == '-' and num2 == 5:
-    print("44-5 = 39")
-if num1 == 44 and sign == '-' and num2 == 6:
-    print("44-6 = 38")
-if num1 == 44 and sign == '-' and num2 == 7:
-    print("44-7 = 37")
-if num1 == 44 and sign == '-' and num2 == 8:
-    print("44-8 = 36")
-if num1 == 44 and sign == '-' and num2 == 9:
-    print("44-9 = 35")
-if num1 == 44 and sign == '-' and num2 == 10:
-    print("44-10 = 34")
-if num1 == 44 and sign == '-' and num2 == 11:
-    print("44-11 = 33")
-if num1 == 44 and sign == '-' and num2 == 12:
-    print("44-12 = 32")
-if num1 == 44 and sign == '-' and num2 == 13:
-    print("44-13 = 31")
-if num1 == 44 and sign == '-' and num2 == 14:
-    print("44-14 = 30")
-if num1 == 44 and sign == '-' and num2 == 15:
-    print("44-15 = 29")
-if num1 == 44 and sign == '-' and num2 == 16:
-    print("44-16 = 28")
-if num1 == 44 and sign == '-' and num2 == 17:
-    print("44-17 = 27")
-if num1 == 44 and sign == '-' and num2 == 18:
-    print("44-18 = 26")
-if num1 == 44 and sign == '-' and num2 == 19:
-    print("44-19 = 25")
-if num1 == 44 and sign == '-' and num2 == 20:
-    print("44-20 = 24")
-if num1 == 44 and sign == '-' and num2 == 21:
-    print("44-21 = 23")
-if num1 == 44 and sign == '-' and num2 == 22:
-    print("44-22 = 22")
-if num1 == 44 and sign == '-' and num2 == 23:
-    print("44-23 = 21")
-if num1 == 44 and sign == '-' and num2 == 24:
-    print("44-24 = 20")
-if num1 == 44 and sign == '-' and num2 == 25:
-    print("44-25 = 19")
-if num1 == 44 and sign == '-' and num2 == 26:
-    print("44-26 = 18")
-if num1 == 44 and sign == '-' and num2 == 27:
-    print("44-27 = 17")
-if num1 == 44 and sign == '-' and num2 == 28:
-    print("44-28 = 16")
-if num1 == 44 and sign == '-' and num2 == 29:
-    print("44-29 = 15")
-if num1 == 44 and sign == '-' and num2 == 30:
-    print("44-30 = 14")
-if num1 == 44 and sign == '-' and num2 == 31:
-    print("44-31 = 13")
-if num1 == 44 and sign == '-' and num2 == 32:
-    print("44-32 = 12")
-if num1 == 44 and sign == '-' and num2 == 33:
-    print("44-33 = 11")
-if num1 == 44 and sign == '-' and num2 == 34:
-    print("44-34 = 10")
-if num1 == 44 and sign == '-' and num2 == 35:
-    print("44-35 = 9")
-if num1 == 44 and sign == '-' and num2 == 36:
-    print("44-36 = 8")
-if num1 == 44 and sign == '-' and num2 == 37:
-    print("44-37 = 7")
-if num1 == 44 and sign == '-' and num2 == 38:
-    print("44-38 = 6")
-if num1 == 44 and sign == '-' and num2 == 39:
-    print("44-39 = 5")
-if num1 == 44 and sign == '-' and num2 == 40:
-    print("44-40 = 4")
-if num1 == 44 and sign == '-' and num2 == 41:
-    print("44-41 = 3")
-if num1 == 44 and sign == '-' and num2 == 42:
-    print("44-42 = 2")
-if num1 == 44 and sign == '-' and num2 == 43:
-    print("44-43 = 1")
-if num1 == 44 and sign == '-' and num2 == 44:
-    print("44-44 = 0")
-if num1 == 44 and sign == '-' and num2 == 45:
-    print("44-45 = -1")
-if num1 == 44 and sign == '-' and num2 == 46:
-    print("44-46 = -2")
-if num1 == 44 and sign == '-' and num2 == 47:
-    print("44-47 = -3")
-if num1 == 44 and sign == '-' and num2 == 48:
-    print("44-48 = -4")
-if num1 == 44 and sign == '-' and num2 == 49:
-    print("44-49 = -5")
-if num1 == 44 and sign == '-' and num2 == 50:
-    print("44-50 = -6")
-if num1 == 45 and sign == '-' and num2 == 0:
-    print("45-0 = 45")
-if num1 == 45 and sign == '-' and num2 == 1:
-    print("45-1 = 44")
-if num1 == 45 and sign == '-' and num2 == 2:
-    print("45-2 = 43")
-if num1 == 45 and sign == '-' and num2 == 3:
-    print("45-3 = 42")
-if num1 == 45 and sign == '-' and num2 == 4:
-    print("45-4 = 41")
-if num1 == 45 and sign == '-' and num2 == 5:
-    print("45-5 = 40")
-if num1 == 45 and sign == '-' and num2 == 6:
-    print("45-6 = 39")
-if num1 == 45 and sign == '-' and num2 == 7:
-    print("45-7 = 38")
-if num1 == 45 and sign == '-' and num2 == 8:
-    print("45-8 = 37")
-if num1 == 45 and sign == '-' and num2 == 9:
-    print("45-9 = 36")
-if num1 == 45 and sign == '-' and num2 == 10:
-    print("45-10 = 35")
-if num1 == 45 and sign == '-' and num2 == 11:
-    print("45-11 = 34")
-if num1 == 45 and sign == '-' and num2 == 12:
-    print("45-12 = 33")
-if num1 == 45 and sign == '-' and num2 == 13:
-    print("45-13 = 32")
-if num1 == 45 and sign == '-' and num2 == 14:
-    print("45-14 = 31")
-if num1 == 45 and sign == '-' and num2 == 15:
-    print("45-15 = 30")
-if num1 == 45 and sign == '-' and num2 == 16:
-    print("45-16 = 29")
-if num1 == 45 and sign == '-' and num2 == 17:
-    print("45-17 = 28")
-if num1 == 45 and sign == '-' and num2 == 18:
-    print("45-18 = 27")
-if num1 == 45 and sign == '-' and num2 == 19:
-    print("45-19 = 26")
-if num1 == 45 and sign == '-' and num2 == 20:
-    print("45-20 = 25")
-if num1 == 45 and sign == '-' and num2 == 21:
-    print("45-21 = 24")
-if num1 == 45 and sign == '-' and num2 == 22:
-    print("45-22 = 23")
-if num1 == 45 and sign == '-' and num2 == 23:
-    print("45-23 = 22")
-if num1 == 45 and sign == '-' and num2 == 24:
-    print("45-24 = 21")
-if num1 == 45 and sign == '-' and num2 == 25:
-    print("45-25 = 20")
-if num1 == 45 and sign == '-' and num2 == 26:
-    print("45-26 = 19")
-if num1 == 45 and sign == '-' and num2 == 27:
-    print("45-27 = 18")
-if num1 == 45 and sign == '-' and num2 == 28:
-    print("45-28 = 17")
-if num1 == 45 and sign == '-' and num2 == 29:
-    print("45-29 = 16")
-if num1 == 45 and sign == '-' and num2 == 30:
-    print("45-30 = 15")
-if num1 == 45 and sign == '-' and num2 == 31:
-    print("45-31 = 14")
-if num1 == 45 and sign == '-' and num2 == 32:
-    print("45-32 = 13")
-if num1 == 45 and sign == '-' and num2 == 33:
-    print("45-33 = 12")
-if num1 == 45 and sign == '-' and num2 == 34:
-    print("45-34 = 11")
-if num1 == 45 and sign == '-' and num2 == 35:
-    print("45-35 = 10")
-if num1 == 45 and sign == '-' and num2 == 36:
-    print("45-36 = 9")
-if num1 == 45 and sign == '-' and num2 == 37:
-    print("45-37 = 8")
-if num1 == 45 and sign == '-' and num2 == 38:
-    print("45-38 = 7")
-if num1 == 45 and sign == '-' and num2 == 39:
-    print("45-39 = 6")
-if num1 == 45 and sign == '-' and num2 == 40:
-    print("45-40 = 5")
-if num1 == 45 and sign == '-' and num2 == 41:
-    print("45-41 = 4")
-if num1 == 45 and sign == '-' and num2 == 42:
-    print("45-42 = 3")
-if num1 == 45 and sign == '-' and num2 == 43:
-    print("45-43 = 2")
-if num1 == 45 and sign == '-' and num2 == 44:
-    print("45-44 = 1")
-if num1 == 45 and sign == '-' and num2 == 45:
-    print("45-45 = 0")
-if num1 == 45 and sign == '-' and num2 == 46:
-    print("45-46 = -1")
-if num1 == 45 and sign == '-' and num2 == 47:
-    print("45-47 = -2")
-if num1 == 45 and sign == '-' and num2 == 48:
-    print("45-48 = -3")
-if num1 == 45 and sign == '-' and num2 == 49:
-    print("45-49 = -4")
-if num1 == 45 and sign == '-' and num2 == 50:
-    print("45-50 = -5")
-if num1 == 46 and sign == '-' and num2 == 0:
-    print("46-0 = 46")
-if num1 == 46 and sign == '-' and num2 == 1:
-    print("46-1 = 45")
-if num1 == 46 and sign == '-' and num2 == 2:
-    print("46-2 = 44")
-if num1 == 46 and sign == '-' and num2 == 3:
-    print("46-3 = 43")
-if num1 == 46 and sign == '-' and num2 == 4:
-    print("46-4 = 42")
-if num1 == 46 and sign == '-' and num2 == 5:
-    print("46-5 = 41")
-if num1 == 46 and sign == '-' and num2 == 6:
-    print("46-6 = 40")
-if num1 == 46 and sign == '-' and num2 == 7:
-    print("46-7 = 39")
-if num1 == 46 and sign == '-' and num2 == 8:
-    print("46-8 = 38")
-if num1 == 46 and sign == '-' and num2 == 9:
-    print("46-9 = 37")
-if num1 == 46 and sign == '-' and num2 == 10:
-    print("46-10 = 36")
-if num1 == 46 and sign == '-' and num2 == 11:
-    print("46-11 = 35")
-if num1 == 46 and sign == '-' and num2 == 12:
-    print("46-12 = 34")
-if num1 == 46 and sign == '-' and num2 == 13:
-    print("46-13 = 33")
-if num1 == 46 and sign == '-' and num2 == 14:
-    print("46-14 = 32")
-if num1 == 46 and sign == '-' and num2 == 15:
-    print("46-15 = 31")
-if num1 == 46 and sign == '-' and num2 == 16:
-    print("46-16 = 30")
-if num1 == 46 and sign == '-' and num2 == 17:
-    print("46-17 = 29")
-if num1 == 46 and sign == '-' and num2 == 18:
-    print("46-18 = 28")
-if num1 == 46 and sign == '-' and num2 == 19:
-    print("46-19 = 27")
-if num1 == 46 and sign == '-' and num2 == 20:
-    print("46-20 = 26")
-if num1 == 46 and sign == '-' and num2 == 21:
-    print("46-21 = 25")
-if num1 == 46 and sign == '-' and num2 == 22:
-    print("46-22 = 24")
-if num1 == 46 and sign == '-' and num2 == 23:
-    print("46-23 = 23")
-if num1 == 46 and sign == '-' and num2 == 24:
-    print("46-24 = 22")
-if num1 == 46 and sign == '-' and num2 == 25:
-    print("46-25 = 21")
-if num1 == 46 and sign == '-' and num2 == 26:
-    print("46-26 = 20")
-if num1 == 46 and sign == '-' and num2 == 27:
-    print("46-27 = 19")
-if num1 == 46 and sign == '-' and num2 == 28:
-    print("46-28 = 18")
-if num1 == 46 and sign == '-' and num2 == 29:
-    print("46-29 = 17")
-if num1 == 46 and sign == '-' and num2 == 30:
-    print("46-30 = 16")
-if num1 == 46 and sign == '-' and num2 == 31:
-    print("46-31 = 15")
-if num1 == 46 and sign == '-' and num2 == 32:
-    print("46-32 = 14")
-if num1 == 46 and sign == '-' and num2 == 33:
-    print("46-33 = 13")
-if num1 == 46 and sign == '-' and num2 == 34:
-    print("46-34 = 12")
-if num1 == 46 and sign == '-' and num2 == 35:
-    print("46-35 = 11")
-if num1 == 46 and sign == '-' and num2 == 36:
-    print("46-36 = 10")
-if num1 == 46 and sign == '-' and num2 == 37:
-    print("46-37 = 9")
-if num1 == 46 and sign == '-' and num2 == 38:
-    print("46-38 = 8")
-if num1 == 46 and sign == '-' and num2 == 39:
-    print("46-39 = 7")
-if num1 == 46 and sign == '-' and num2 == 40:
-    print("46-40 = 6")
-if num1 == 46 and sign == '-' and num2 == 41:
-    print("46-41 = 5")
-if num1 == 46 and sign == '-' and num2 == 42:
-    print("46-42 = 4")
-if num1 == 46 and sign == '-' and num2 == 43:
-    print("46-43 = 3")
-if num1 == 46 and sign == '-' and num2 == 44:
-    print("46-44 = 2")
-if num1 == 46 and sign == '-' and num2 == 45:
-    print("46-45 = 1")
-if num1 == 46 and sign == '-' and num2 == 46:
-    print("46-46 = 0")
-if num1 == 46 and sign == '-' and num2 == 47:
-    print("46-47 = -1")
-if num1 == 46 and sign == '-' and num2 == 48:
-    print("46-48 = -2")
-if num1 == 46 and sign == '-' and num2 == 49:
-    print("46-49 = -3")
-if num1 == 46 and sign == '-' and num2 == 50:
-    print("46-50 = -4")
-if num1 == 47 and sign == '-' and num2 == 0:
-    print("47-0 = 47")
-if num1 == 47 and sign == '-' and num2 == 1:
-    print("47-1 = 46")
-if num1 == 47 and sign == '-' and num2 == 2:
-    print("47-2 = 45")
-if num1 == 47 and sign == '-' and num2 == 3:
-    print("47-3 = 44")
-if num1 == 47 and sign == '-' and num2 == 4:
-    print("47-4 = 43")
-if num1 == 47 and sign == '-' and num2 == 5:
-    print("47-5 = 42")
-if num1 == 47 and sign == '-' and num2 == 6:
-    print("47-6 = 41")
-if num1 == 47 and sign == '-' and num2 == 7:
-    print("47-7 = 40")
-if num1 == 47 and sign == '-' and num2 == 8:
-    print("47-8 = 39")
-if num1 == 47 and sign == '-' and num2 == 9:
-    print("47-9 = 38")
-if num1 == 47 and sign == '-' and num2 == 10:
-    print("47-10 = 37")
-if num1 == 47 and sign == '-' and num2 == 11:
-    print("47-11 = 36")
-if num1 == 47 and sign == '-' and num2 == 12:
-    print("47-12 = 35")
-if num1 == 47 and sign == '-' and num2 == 13:
-    print("47-13 = 34")
-if num1 == 47 and sign == '-' and num2 == 14:
-    print("47-14 = 33")
-if num1 == 47 and sign == '-' and num2 == 15:
-    print("47-15 = 32")
-if num1 == 47 and sign == '-' and num2 == 16:
-    print("47-16 = 31")
-if num1 == 47 and sign == '-' and num2 == 17:
-    print("47-17 = 30")
-if num1 == 47 and sign == '-' and num2 == 18:
-    print("47-18 = 29")
-if num1 == 47 and sign == '-' and num2 == 19:
-    print("47-19 = 28")
-if num1 == 47 and sign == '-' and num2 == 20:
-    print("47-20 = 27")
-if num1 == 47 and sign == '-' and num2 == 21:
-    print("47-21 = 26")
-if num1 == 47 and sign == '-' and num2 == 22:
-    print("47-22 = 25")
-if num1 == 47 and sign == '-' and num2 == 23:
-    print("47-23 = 24")
-if num1 == 47 and sign == '-' and num2 == 24:
-    print("47-24 = 23")
-if num1 == 47 and sign == '-' and num2 == 25:
-    print("47-25 = 22")
-if num1 == 47 and sign == '-' and num2 == 26:
-    print("47-26 = 21")
-if num1 == 47 and sign == '-' and num2 == 27:
-    print("47-27 = 20")
-if num1 == 47 and sign == '-' and num2 == 28:
-    print("47-28 = 19")
-if num1 == 47 and sign == '-' and num2 == 29:
-    print("47-29 = 18")
-if num1 == 47 and sign == '-' and num2 == 30:
-    print("47-30 = 17")
-if num1 == 47 and sign == '-' and num2 == 31:
-    print("47-31 = 16")
-if num1 == 47 and sign == '-' and num2 == 32:
-    print("47-32 = 15")
-if num1 == 47 and sign == '-' and num2 == 33:
-    print("47-33 = 14")
-if num1 == 47 and sign == '-' and num2 == 34:
-    print("47-34 = 13")
-if num1 == 47 and sign == '-' and num2 == 35:
-    print("47-35 = 12")
-if num1 == 47 and sign == '-' and num2 == 36:
-    print("47-36 = 11")
-if num1 == 47 and sign == '-' and num2 == 37:
-    print("47-37 = 10")
-if num1 == 47 and sign == '-' and num2 == 38:
-    print("47-38 = 9")
-if num1 == 47 and sign == '-' and num2 == 39:
-    print("47-39 = 8")
-if num1 == 47 and sign == '-' and num2 == 40:
-    print("47-40 = 7")
-if num1 == 47 and sign == '-' and num2 == 41:
-    print("47-41 = 6")
-if num1 == 47 and sign == '-' and num2 == 42:
-    print("47-42 = 5")
-if num1 == 47 and sign == '-' and num2 == 43:
-    print("47-43 = 4")
-if num1 == 47 and sign == '-' and num2 == 44:
-    print("47-44 = 3")
-if num1 == 47 and sign == '-' and num2 == 45:
-    print("47-45 = 2")
-if num1 == 47 and sign == '-' and num2 == 46:
-    print("47-46 = 1")
-if num1 == 47 and sign == '-' and num2 == 47:
-    print("47-47 = 0")
-if num1 == 47 and sign == '-' and num2 == 48:
-    print("47-48 = -1")
-if num1 == 47 and sign == '-' and num2 == 49:
-    print("47-49 = -2")
-if num1 == 47 and sign == '-' and num2 == 50:
-    print("47-50 = -3")
-if num1 == 48 and sign == '-' and num2 == 0:
-    print("48-0 = 48")
-if num1 == 48 and sign == '-' and num2 == 1:
-    print("48-1 = 47")
-if num1 == 48 and sign == '-' and num2 == 2:
-    print("48-2 = 46")
-if num1 == 48 and sign == '-' and num2 == 3:
-    print("48-3 = 45")
-if num1 == 48 and sign == '-' and num2 == 4:
-    print("48-4 = 44")
-if num1 == 48 and sign == '-' and num2 == 5:
-    print("48-5 = 43")
-if num1 == 48 and sign == '-' and num2 == 6:
-    print("48-6 = 42")
-if num1 == 48 and sign == '-' and num2 == 7:
-    print("48-7 = 41")
-if num1 == 48 and sign == '-' and num2 == 8:
-    print("48-8 = 40")
-if num1 == 48 and sign == '-' and num2 == 9:
-    print("48-9 = 39")
-if num1 == 48 and sign == '-' and num2 == 10:
-    print("48-10 = 38")
-if num1 == 48 and sign == '-' and num2 == 11:
-    print("48-11 = 37")
-if num1 == 48 and sign == '-' and num2 == 12:
-    print("48-12 = 36")
-if num1 == 48 and sign == '-' and num2 == 13:
-    print("48-13 = 35")
-if num1 == 48 and sign == '-' and num2 == 14:
-    print("48-14 = 34")
-if num1 == 48 and sign == '-' and num2 == 15:
-    print("48-15 = 33")
-if num1 == 48 and sign == '-' and num2 == 16:
-    print("48-16 = 32")
-if num1 == 48 and sign == '-' and num2 == 17:
-    print("48-17 = 31")
-if num1 == 48 and sign == '-' and num2 == 18:
-    print("48-18 = 30")
-if num1 == 48 and sign == '-' and num2 == 19:
-    print("48-19 = 29")
-if num1 == 48 and sign == '-' and num2 == 20:
-    print("48-20 = 28")
-if num1 == 48 and sign == '-' and num2 == 21:
-    print("48-21 = 27")
-if num1 == 48 and sign == '-' and num2 == 22:
-    print("48-22 = 26")
-if num1 == 48 and sign == '-' and num2 == 23:
-    print("48-23 = 25")
-if num1 == 48 and sign == '-' and num2 == 24:
-    print("48-24 = 24")
-if num1 == 48 and sign == '-' and num2 == 25:
-    print("48-25 = 23")
-if num1 == 48 and sign == '-' and num2 == 26:
-    print("48-26 = 22")
-if num1 == 48 and sign == '-' and num2 == 27:
-    print("48-27 = 21")
-if num1 == 48 and sign == '-' and num2 == 28:
-    print("48-28 = 20")
-if num1 == 48 and sign == '-' and num2 == 29:
-    print("48-29 = 19")
-if num1 == 48 and sign == '-' and num2 == 30:
-    print("48-30 = 18")
-if num1 == 48 and sign == '-' and num2 == 31:
-    print("48-31 = 17")
-if num1 == 48 and sign == '-' and num2 == 32:
-    print("48-32 = 16")
-if num1 == 48 and sign == '-' and num2 == 33:
-    print("48-33 = 15")
-if num1 == 48 and sign == '-' and num2 == 34:
-    print("48-34 = 14")
-if num1 == 48 and sign == '-' and num2 == 35:
-    print("48-35 = 13")
-if num1 == 48 and sign == '-' and num2 == 36:
-    print("48-36 = 12")
-if num1 == 48 and sign == '-' and num2 == 37:
-    print("48-37 = 11")
-if num1 == 48 and sign == '-' and num2 == 38:
-    print("48-38 = 10")
-if num1 == 48 and sign == '-' and num2 == 39:
-    print("48-39 = 9")
-if num1 == 48 and sign == '-' and num2 == 40:
-    print("48-40 = 8")
-if num1 == 48 and sign == '-' and num2 == 41:
-    print("48-41 = 7")
-if num1 == 48 and sign == '-' and num2 == 42:
-    print("48-42 = 6")
-if num1 == 48 and sign == '-' and num2 == 43:
-    print("48-43 = 5")
-if num1 == 48 and sign == '-' and num2 == 44:
-    print("48-44 = 4")
-if num1 == 48 and sign == '-' and num2 == 45:
-    print("48-45 = 3")
-if num1 == 48 and sign == '-' and num2 == 46:
-    print("48-46 = 2")
-if num1 == 48 and sign == '-' and num2 == 47:
-    print("48-47 = 1")
-if num1 == 48 and sign == '-' and num2 == 48:
-    print("48-48 = 0")
-if num1 == 48 and sign == '-' and num2 == 49:
-    print("48-49 = -1")
-if num1 == 48 and sign == '-' and num2 == 50:
-    print("48-50 = -2")
-if num1 == 49 and sign == '-' and num2 == 0:
-    print("49-0 = 49")
-if num1 == 49 and sign == '-' and num2 == 1:
-    print("49-1 = 48")
-if num1 == 49 and sign == '-' and num2 == 2:
-    print("49-2 = 47")
-if num1 == 49 and sign == '-' and num2 == 3:
-    print("49-3 = 46")
-if num1 == 49 and sign == '-' and num2 == 4:
-    print("49-4 = 45")
-if num1 == 49 and sign == '-' and num2 == 5:
-    print("49-5 = 44")
-if num1 == 49 and sign == '-' and num2 == 6:
-    print("49-6 = 43")
-if num1 == 49 and sign == '-' and num2 == 7:
-    print("49-7 = 42")
-if num1 == 49 and sign == '-' and num2 == 8:
-    print("49-8 = 41")
-if num1 == 49 and sign == '-' and num2 == 9:
-    print("49-9 = 40")
-if num1 == 49 and sign == '-' and num2 == 10:
-    print("49-10 = 39")
-if num1 == 49 and sign == '-' and num2 == 11:
-    print("49-11 = 38")
-if num1 == 49 and sign == '-' and num2 == 12:
-    print("49-12 = 37")
-if num1 == 49 and sign == '-' and num2 == 13:
-    print("49-13 = 36")
-if num1 == 49 and sign == '-' and num2 == 14:
-    print("49-14 = 35")
-if num1 == 49 and sign == '-' and num2 == 15:
-    print("49-15 = 34")
-if num1 == 49 and sign == '-' and num2 == 16:
-    print("49-16 = 33")
-if num1 == 49 and sign == '-' and num2 == 17:
-    print("49-17 = 32")
-if num1 == 49 and sign == '-' and num2 == 18:
-    print("49-18 = 31")
-if num1 == 49 and sign == '-' and num2 == 19:
-    print("49-19 = 30")
-if num1 == 49 and sign == '-' and num2 == 20:
-    print("49-20 = 29")
-if num1 == 49 and sign == '-' and num2 == 21:
-    print("49-21 = 28")
-if num1 == 49 and sign == '-' and num2 == 22:
-    print("49-22 = 27")
-if num1 == 49 and sign == '-' and num2 == 23:
-    print("49-23 = 26")
-if num1 == 49 and sign == '-' and num2 == 24:
-    print("49-24 = 25")
-if num1 == 49 and sign == '-' and num2 == 25:
-    print("49-25 = 24")
-if num1 == 49 and sign == '-' and num2 == 26:
-    print("49-26 = 23")
-if num1 == 49 and sign == '-' and num2 == 27:
-    print("49-27 = 22")
-if num1 == 49 and sign == '-' and num2 == 28:
-    print("49-28 = 21")
-if num1 == 49 and sign == '-' and num2 == 29:
-    print("49-29 = 20")
-if num1 == 49 and sign == '-' and num2 == 30:
-    print("49-30 = 19")
-if num1 == 49 and sign == '-' and num2 == 31:
-    print("49-31 = 18")
-if num1 == 49 and sign == '-' and num2 == 32:
-    print("49-32 = 17")
-if num1 == 49 and sign == '-' and num2 == 33:
-    print("49-33 = 16")
-if num1 == 49 and sign == '-' and num2 == 34:
-    print("49-34 = 15")
-if num1 == 49 and sign == '-' and num2 == 35:
-    print("49-35 = 14")
-if num1 == 49 and sign == '-' and num2 == 36:
-    print("49-36 = 13")
-if num1 == 49 and sign == '-' and num2 == 37:
-    print("49-37 = 12")
-if num1 == 49 and sign == '-' and num2 == 38:
-    print("49-38 = 11")
-if num1 == 49 and sign == '-' and num2 == 39:
-    print("49-39 = 10")
-if num1 == 49 and sign == '-' and num2 == 40:
-    print("49-40 = 9")
-if num1 == 49 and sign == '-' and num2 == 41:
-    print("49-41 = 8")
-if num1 == 49 and sign == '-' and num2 == 42:
-    print("49-42 = 7")
-if num1 == 49 and sign == '-' and num2 == 43:
-    print("49-43 = 6")
-if num1 == 49 and sign == '-' and num2 == 44:
-    print("49-44 = 5")
-if num1 == 49 and sign == '-' and num2 == 45:
-    print("49-45 = 4")
-if num1 == 49 and sign == '-' and num2 == 46:
-    print("49-46 = 3")
-if num1 == 49 and sign == '-' and num2 == 47:
-    print("49-47 = 2")
-if num1 == 49 and sign == '-' and num2 == 48:
-    print("49-48 = 1")
-if num1 == 49 and sign == '-' and num2 == 49:
-    print("49-49 = 0")
-if num1 == 49 and sign == '-' and num2 == 50:
-    print("49-50 = -1")
-if num1 == 50 and sign == '-' and num2 == 0:
-    print("50-0 = 50")
-if num1 == 50 and sign == '-' and num2 == 1:
-    print("50-1 = 49")
-if num1 == 50 and sign == '-' and num2 == 2:
-    print("50-2 = 48")
-if num1 == 50 and sign == '-' and num2 == 3:
-    print("50-3 = 47")
-if num1 == 50 and sign == '-' and num2 == 4:
-    print("50-4 = 46")
-if num1 == 50 and sign == '-' and num2 == 5:
-    print("50-5 = 45")
-if num1 == 50 and sign == '-' and num2 == 6:
-    print("50-6 = 44")
-if num1 == 50 and sign == '-' and num2 == 7:
-    print("50-7 = 43")
-if num1 == 50 and sign == '-' and num2 == 8:
-    print("50-8 = 42")
-if num1 == 50 and sign == '-' and num2 == 9:
-    print("50-9 = 41")
-if num1 == 50 and sign == '-' and num2 == 10:
-    print("50-10 = 40")
-if num1 == 50 and sign == '-' and num2 == 11:
-    print("50-11 = 39")
-if num1 == 50 and sign == '-' and num2 == 12:
-    print("50-12 = 38")
-if num1 == 50 and sign == '-' and num2 == 13:
-    print("50-13 = 37")
-if num1 == 50 and sign == '-' and num2 == 14:
-    print("50-14 = 36")
-if num1 == 50 and sign == '-' and num2 == 15:
-    print("50-15 = 35")
-if num1 == 50 and sign == '-' and num2 == 16:
-    print("50-16 = 34")
-if num1 == 50 and sign == '-' and num2 == 17:
-    print("50-17 = 33")
-if num1 == 50 and sign == '-' and num2 == 18:
-    print("50-18 = 32")
-if num1 == 50 and sign == '-' and num2 == 19:
-    print("50-19 = 31")
-if num1 == 50 and sign == '-' and num2 == 20:
-    print("50-20 = 30")
-if num1 == 50 and sign == '-' and num2 == 21:
-    print("50-21 = 29")
-if num1 == 50 and sign == '-' and num2 == 22:
-    print("50-22 = 28")
-if num1 == 50 and sign == '-' and num2 == 23:
-    print("50-23 = 27")
-if num1 == 50 and sign == '-' and num2 == 24:
-    print("50-24 = 26")
-if num1 == 50 and sign == '-' and num2 == 25:
-    print("50-25 = 25")
-if num1 == 50 and sign == '-' and num2 == 26:
-    print("50-26 = 24")
-if num1 == 50 and sign == '-' and num2 == 27:
-    print("50-27 = 23")
-if num1 == 50 and sign == '-' and num2 == 28:
-    print("50-28 = 22")
-if num1 == 50 and sign == '-' and num2 == 29:
-    print("50-29 = 21")
-if num1 == 50 and sign == '-' and num2 == 30:
-    print("50-30 = 20")
-if num1 == 50 and sign == '-' and num2 == 31:
-    print("50-31 = 19")
-if num1 == 50 and sign == '-' and num2 == 32:
-    print("50-32 = 18")
-if num1 == 50 and sign == '-' and num2 == 33:
-    print("50-33 = 17")
-if num1 == 50 and sign == '-' and num2 == 34:
-    print("50-34 = 16")
-if num1 == 50 and sign == '-' and num2 == 35:
-    print("50-35 = 15")
-if num1 == 50 and sign == '-' and num2 == 36:
-    print("50-36 = 14")
-if num1 == 50 and sign == '-' and num2 == 37:
-    print("50-37 = 13")
-if num1 == 50 and sign == '-' and num2 == 38:
-    print("50-38 = 12")
-if num1 == 50 and sign == '-' and num2 == 39:
-    print("50-39 = 11")
-if num1 == 50 and sign == '-' and num2 == 40:
-    print("50-40 = 10")
-if num1 == 50 and sign == '-' and num2 == 41:
-    print("50-41 = 9")
-if num1 == 50 and sign == '-' and num2 == 42:
-    print("50-42 = 8")
-if num1 == 50 and sign == '-' and num2 == 43:
-    print("50-43 = 7")
-if num1 == 50 and sign == '-' and num2 == 44:
-    print("50-44 = 6")
-if num1 == 50 and sign == '-' and num2 == 45:
-    print("50-45 = 5")
-if num1 == 50 and sign == '-' and num2 == 46:
-    print("50-46 = 4")
-if num1 == 50 and sign == '-' and num2 == 47:
-    print("50-47 = 3")
-if num1 == 50 and sign == '-' and num2 == 48:
-    print("50-48 = 2")
-if num1 == 50 and sign == '-' and num2 == 49:
-    print("50-49 = 1")
-if num1 == 50 and sign == '-' and num2 == 50:
-    print("50-50 = 0")
-if num1 == 0 and sign == '/' and num2 == 0:
-    print("0/0 = Undefined")
-if num1 == 0 and sign == '/' and num2 == 1:
-    print("0/1 = 0")
-if num1 == 0 and sign == '/' and num2 == 2:
-    print("0/2 = 0")
-if num1 == 0 and sign == '/' and num2 == 3:
-    print("0/3 = 0")
-if num1 == 0 and sign == '/' and num2 == 4:
-    print("0/4 = 0")
-if num1 == 0 and sign == '/' and num2 == 5:
-    print("0/5 = 0")
-if num1 == 0 and sign == '/' and num2 == 6:
-    print("0/6 = 0")
-if num1 == 0 and sign == '/' and num2 == 7:
-    print("0/7 = 0")
-if num1 == 0 and sign == '/' and num2 == 8:
-    print("0/8 = 0")
-if num1 == 0 and sign == '/' and num2 == 9:
-    print("0/9 = 0")
-if num1 == 0 and sign == '/' and num2 == 10:
-    print("0/10 = 0")
-if num1 == 0 and sign == '/' and num2 == 11:
-    print("0/11 = 0")
-if num1 == 0 and sign == '/' and num2 == 12:
-    print("0/12 = 0")
-if num1 == 0 and sign == '/' and num2 == 13:
-    print("0/13 = 0")
-if num1 == 0 and sign == '/' and num2 == 14:
-    print("0/14 = 0")
-if num1 == 0 and sign == '/' and num2 == 15:
-    print("0/15 = 0")
-if num1 == 0 and sign == '/' and num2 == 16:
-    print("0/16 = 0")
-if num1 == 0 and sign == '/' and num2 == 17:
-    print("0/17 = 0")
-if num1 == 0 and sign == '/' and num2 == 18:
-    print("0/18 = 0")
-if num1 == 0 and sign == '/' and num2 == 19:
-    print("0/19 = 0")
-if num1 == 0 and sign == '/' and num2 == 20:
-    print("0/20 = 0")
-if num1 == 0 and sign == '/' and num2 == 21:
-    print("0/21 = 0")
-if num1 == 0 and sign == '/' and num2 == 22:
-    print("0/22 = 0")
-if num1 == 0 and sign == '/' and num2 == 23:
-    print("0/23 = 0")
-if num1 == 0 and sign == '/' and num2 == 24:
-    print("0/24 = 0")
-if num1 == 0 and sign == '/' and num2 == 25:
-    print("0/25 = 0")
-if num1 == 0 and sign == '/' and num2 == 26:
-    print("0/26 = 0")
-if num1 == 0 and sign == '/' and num2 == 27:
-    print("0/27 = 0")
-if num1 == 0 and sign == '/' and num2 == 28:
-    print("0/28 = 0")
-if num1 == 0 and sign == '/' and num2 == 29:
-    print("0/29 = 0")
-if num1 == 0 and sign == '/' and num2 == 30:
-    print("0/30 = 0")
-if num1 == 0 and sign == '/' and num2 == 31:
-    print("0/31 = 0")
-if num1 == 0 and sign == '/' and num2 == 32:
-    print("0/32 = 0")
-if num1 == 0 and sign == '/' and num2 == 33:
-    print("0/33 = 0")
-if num1 == 0 and sign == '/' and num2 == 34:
-    print("0/34 = 0")
-if num1 == 0 and sign == '/' and num2 == 35:
-    print("0/35 = 0")
-if num1 == 0 and sign == '/' and num2 == 36:
-    print("0/36 = 0")
-if num1 == 0 and sign == '/' and num2 == 37:
-    print("0/37 = 0")
-if num1 == 0 and sign == '/' and num2 == 38:
-    print("0/38 = 0")
-if num1 == 0 and sign == '/' and num2 == 39:
-    print("0/39 = 0")
-if num1 == 0 and sign == '/' and num2 == 40:
-    print("0/40 = 0")
-if num1 == 0 and sign == '/' and num2 == 41:
-    print("0/41 = 0")
-if num1 == 0 and sign == '/' and num2 == 42:
-    print("0/42 = 0")
-if num1 == 0 and sign == '/' and num2 == 43:
-    print("0/43 = 0")
-if num1 == 0 and sign == '/' and num2 == 44:
-    print("0/44 = 0")
-if num1 == 0 and sign == '/' and num2 == 45:
-    print("0/45 = 0")
-if num1 == 0 and sign == '/' and num2 == 46:
-    print("0/46 = 0")
-if num1 == 0 and sign == '/' and num2 == 47:
-    print("0/47 = 0")
-if num1 == 0 and sign == '/' and num2 == 48:
-    print("0/48 = 0")
-if num1 == 0 and sign == '/' and num2 == 49:
-    print("0/49 = 0")
-if num1 == 0 and sign == '/' and num2 == 50:
-    print("0/50 = 0")
-if num1 == 1 and sign == '/' and num2 == 0:
-    print("1/0 = Inf")
-if num1 == 1 and sign == '/' and num2 == 1:
-    print("1/1 = 1")
-if num1 == 1 and sign == '/' and num2 == 2:
-    print("1/2 = 0.5")
-if num1 == 1 and sign == '/' and num2 == 3:
-    print("1/3 = 0.3333333333333333333333333333")
-if num1 == 1 and sign == '/' and num2 == 4:
-    print("1/4 = 0.25")
-if num1 == 1 and sign == '/' and num2 == 5:
-    print("1/5 = 0.2")
-if num1 == 1 and sign == '/' and num2 == 6:
-    print("1/6 = 0.1666666666666666666666666667")
-if num1 == 1 and sign == '/' and num2 == 7:
-    print("1/7 = 0.1428571428571428571428571429")
-if num1 == 1 and sign == '/' and num2 == 8:
-    print("1/8 = 0.125")
-if num1 == 1 and sign == '/' and num2 == 9:
-    print("1/9 = 0.1111111111111111111111111111")
-if num1 == 1 and sign == '/' and num2 == 10:
-    print("1/10 = 0.1")
-if num1 == 1 and sign == '/' and num2 == 11:
-    print("1/11 = 0.09090909090909090909090909091")
-if num1 == 1 and sign == '/' and num2 == 12:
-    print("1/12 = 0.08333333333333333333333333333")
-if num1 == 1 and sign == '/' and num2 == 13:
-    print("1/13 = 0.07692307692307692307692307692")
-if num1 == 1 and sign == '/' and num2 == 14:
-    print("1/14 = 0.07142857142857142857142857143")
-if num1 == 1 and sign == '/' and num2 == 15:
-    print("1/15 = 0.06666666666666666666666666667")
-if num1 == 1 and sign == '/' and num2 == 16:
-    print("1/16 = 0.0625")
-if num1 == 1 and sign == '/' and num2 == 17:
-    print("1/17 = 0.05882352941176470588235294118")
-if num1 == 1 and sign == '/' and num2 == 18:
-    print("1/18 = 0.05555555555555555555555555556")
-if num1 == 1 and sign == '/' and num2 == 19:
-    print("1/19 = 0.05263157894736842105263157895")
-if num1 == 1 and sign == '/' and num2 == 20:
-    print("1/20 = 0.05")
-if num1 == 1 and sign == '/' and num2 == 21:
-    print("1/21 = 0.04761904761904761904761904762")
-if num1 == 1 and sign == '/' and num2 == 22:
-    print("1/22 = 0.04545454545454545454545454545")
-if num1 == 1 and sign == '/' and num2 == 23:
-    print("1/23 = 0.04347826086956521739130434783")
-if num1 == 1 and sign == '/' and num2 == 24:
-    print("1/24 = 0.04166666666666666666666666667")
-if num1 == 1 and sign == '/' and num2 == 25:
-    print("1/25 = 0.04")
-if num1 == 1 and sign == '/' and num2 == 26:
-    print("1/26 = 0.03846153846153846153846153846")
-if num1 == 1 and sign == '/' and num2 == 27:
-    print("1/27 = 0.03703703703703703703703703704")
-if num1 == 1 and sign == '/' and num2 == 28:
-    print("1/28 = 0.03571428571428571428571428571")
-if num1 == 1 and sign == '/' and num2 == 29:
-    print("1/29 = 0.03448275862068965517241379310")
-if num1 == 1 and sign == '/' and num2 == 30:
-    print("1/30 = 0.03333333333333333333333333333")
-if num1 == 1 and sign == '/' and num2 == 31:
-    print("1/31 = 0.03225806451612903225806451613")
-if num1 == 1 and sign == '/' and num2 == 32:
-    print("1/32 = 0.03125")
-if num1 == 1 and sign == '/' and num2 == 33:
-    print("1/33 = 0.03030303030303030303030303030")
-if num1 == 1 and sign == '/' and num2 == 34:
-    print("1/34 = 0.02941176470588235294117647059")
-if num1 == 1 and sign == '/' and num2 == 35:
-    print("1/35 = 0.02857142857142857142857142857")
-if num1 == 1 and sign == '/' and num2 == 36:
-    print("1/36 = 0.02777777777777777777777777778")
-if num1 == 1 and sign == '/' and num2 == 37:
-    print("1/37 = 0.02702702702702702702702702703")
-if num1 == 1 and sign == '/' and num2 == 38:
-    print("1/38 = 0.02631578947368421052631578947")
-if num1 == 1 and sign == '/' and num2 == 39:
-    print("1/39 = 0.02564102564102564102564102564")
-if num1 == 1 and sign == '/' and num2 == 40:
-    print("1/40 = 0.025")
-if num1 == 1 and sign == '/' and num2 == 41:
-    print("1/41 = 0.02439024390243902439024390244")
-if num1 == 1 and sign == '/' and num2 == 42:
-    print("1/42 = 0.02380952380952380952380952381")
-if num1 == 1 and sign == '/' and num2 == 43:
-    print("1/43 = 0.02325581395348837209302325581")
-if num1 == 1 and sign == '/' and num2 == 44:
-    print("1/44 = 0.02272727272727272727272727273")
-if num1 == 1 and sign == '/' and num2 == 45:
-    print("1/45 = 0.02222222222222222222222222222")
-if num1 == 1 and sign == '/' and num2 == 46:
-    print("1/46 = 0.02173913043478260869565217391")
-if num1 == 1 and sign == '/' and num2 == 47:
-    print("1/47 = 0.02127659574468085106382978723")
-if num1 == 1 and sign == '/' and num2 == 48:
-    print("1/48 = 0.02083333333333333333333333333")
-if num1 == 1 and sign == '/' and num2 == 49:
-    print("1/49 = 0.02040816326530612244897959184")
-if num1 == 1 and sign == '/' and num2 == 50:
-    print("1/50 = 0.02")
-if num1 == 2 and sign == '/' and num2 == 0:
-    print("2/0 = Inf")
-if num1 == 2 and sign == '/' and num2 == 1:
-    print("2/1 = 2")
-if num1 == 2 and sign == '/' and num2 == 2:
-    print("2/2 = 1")
-if num1 == 2 and sign == '/' and num2 == 3:
-    print("2/3 = 0.6666666666666666666666666667")
-if num1 == 2 and sign == '/' and num2 == 4:
-    print("2/4 = 0.5")
-if num1 == 2 and sign == '/' and num2 == 5:
-    print("2/5 = 0.4")
-if num1 == 2 and sign == '/' and num2 == 6:
-    print("2/6 = 0.3333333333333333333333333333")
-if num1 == 2 and sign == '/' and num2 == 7:
-    print("2/7 = 0.2857142857142857142857142857")
-if num1 == 2 and sign == '/' and num2 == 8:
-    print("2/8 = 0.25")
-if num1 == 2 and sign == '/' and num2 == 9:
-    print("2/9 = 0.2222222222222222222222222222")
-if num1 == 2 and sign == '/' and num2 == 10:
-    print("2/10 = 0.2")
-if num1 == 2 and sign == '/' and num2 == 11:
-    print("2/11 = 0.1818181818181818181818181818")
-if num1 == 2 and sign == '/' and num2 == 12:
-    print("2/12 = 0.1666666666666666666666666667")
-if num1 == 2 and sign == '/' and num2 == 13:
-    print("2/13 = 0.1538461538461538461538461538")
-if num1 == 2 and sign == '/' and num2 == 14:
-    print("2/14 = 0.1428571428571428571428571429")
-if num1 == 2 and sign == '/' and num2 == 15:
-    print("2/15 = 0.1333333333333333333333333333")
-if num1 == 2 and sign == '/' and num2 == 16:
-    print("2/16 = 0.125")
-if num1 == 2 and sign == '/' and num2 == 17:
-    print("2/17 = 0.1176470588235294117647058824")
-if num1 == 2 and sign == '/' and num2 == 18:
-    print("2/18 = 0.1111111111111111111111111111")
-if num1 == 2 and sign == '/' and num2 == 19:
-    print("2/19 = 0.1052631578947368421052631579")
-if num1 == 2 and sign == '/' and num2 == 20:
-    print("2/20 = 0.1")
-if num1 == 2 and sign == '/' and num2 == 21:
-    print("2/21 = 0.09523809523809523809523809524")
-if num1 == 2 and sign == '/' and num2 == 22:
-    print("2/22 = 0.09090909090909090909090909091")
-if num1 == 2 and sign == '/' and num2 == 23:
-    print("2/23 = 0.08695652173913043478260869565")
-if num1 == 2 and sign == '/' and num2 == 24:
-    print("2/24 = 0.08333333333333333333333333333")
-if num1 == 2 and sign == '/' and num2 == 25:
-    print("2/25 = 0.08")
-if num1 == 2 and sign == '/' and num2 == 26:
-    print("2/26 = 0.07692307692307692307692307692")
-if num1 == 2 and sign == '/' and num2 == 27:
-    print("2/27 = 0.07407407407407407407407407407")
-if num1 == 2 and sign == '/' and num2 == 28:
-    print("2/28 = 0.07142857142857142857142857143")
-if num1 == 2 and sign == '/' and num2 == 29:
-    print("2/29 = 0.06896551724137931034482758621")
-if num1 == 2 and sign == '/' and num2 == 30:
-    print("2/30 = 0.06666666666666666666666666667")
-if num1 == 2 and sign == '/' and num2 == 31:
-    print("2/31 = 0.06451612903225806451612903226")
-if num1 == 2 and sign == '/' and num2 == 32:
-    print("2/32 = 0.0625")
-if num1 == 2 and sign == '/' and num2 == 33:
-    print("2/33 = 0.06060606060606060606060606061")
-if num1 == 2 and sign == '/' and num2 == 34:
-    print("2/34 = 0.05882352941176470588235294118")
-if num1 == 2 and sign == '/' and num2 == 35:
-    print("2/35 = 0.05714285714285714285714285714")
-if num1 == 2 and sign == '/' and num2 == 36:
-    print("2/36 = 0.05555555555555555555555555556")
-if num1 == 2 and sign == '/' and num2 == 37:
-    print("2/37 = 0.05405405405405405405405405405")
-if num1 == 2 and sign == '/' and num2 == 38:
-    print("2/38 = 0.05263157894736842105263157895")
-if num1 == 2 and sign == '/' and num2 == 39:
-    print("2/39 = 0.05128205128205128205128205128")
-if num1 == 2 and sign == '/' and num2 == 40:
-    print("2/40 = 0.05")
-if num1 == 2 and sign == '/' and num2 == 41:
-    print("2/41 = 0.04878048780487804878048780488")
-if num1 == 2 and sign == '/' and num2 == 42:
-    print("2/42 = 0.04761904761904761904761904762")
-if num1 == 2 and sign == '/' and num2 == 43:
-    print("2/43 = 0.04651162790697674418604651163")
-if num1 == 2 and sign == '/' and num2 == 44:
-    print("2/44 = 0.04545454545454545454545454545")
-if num1 == 2 and sign == '/' and num2 == 45:
-    print("2/45 = 0.04444444444444444444444444444")
-if num1 == 2 and sign == '/' and num2 == 46:
-    print("2/46 = 0.04347826086956521739130434783")
-if num1 == 2 and sign == '/' and num2 == 47:
-    print("2/47 = 0.04255319148936170212765957447")
-if num1 == 2 and sign == '/' and num2 == 48:
-    print("2/48 = 0.04166666666666666666666666667")
-if num1 == 2 and sign == '/' and num2 == 49:
-    print("2/49 = 0.04081632653061224489795918367")
-if num1 == 2 and sign == '/' and num2 == 50:
-    print("2/50 = 0.04")
-if num1 == 3 and sign == '/' and num2 == 0:
-    print("3/0 = Inf")
-if num1 == 3 and sign == '/' and num2 == 1:
-    print("3/1 = 3")
-if num1 == 3 and sign == '/' and num2 == 2:
-    print("3/2 = 1.5")
-if num1 == 3 and sign == '/' and num2 == 3:
-    print("3/3 = 1")
-if num1 == 3 and sign == '/' and num2 == 4:
-    print("3/4 = 0.75")
-if num1 == 3 and sign == '/' and num2 == 5:
-    print("3/5 = 0.6")
-if num1 == 3 and sign == '/' and num2 == 6:
-    print("3/6 = 0.5")
-if num1 == 3 and sign == '/' and num2 == 7:
-    print("3/7 = 0.4285714285714285714285714286")
-if num1 == 3 and sign == '/' and num2 == 8:
-    print("3/8 = 0.375")
-if num1 == 3 and sign == '/' and num2 == 9:
-    print("3/9 = 0.3333333333333333333333333333")
-if num1 == 3 and sign == '/' and num2 == 10:
-    print("3/10 = 0.3")
-if num1 == 3 and sign == '/' and num2 == 11:
-    print("3/11 = 0.2727272727272727272727272727")
-if num1 == 3 and sign == '/' and num2 == 12:
-    print("3/12 = 0.25")
-if num1 == 3 and sign == '/' and num2 == 13:
-    print("3/13 = 0.2307692307692307692307692308")
-if num1 == 3 and sign == '/' and num2 == 14:
-    print("3/14 = 0.2142857142857142857142857143")
-if num1 == 3 and sign == '/' and num2 == 15:
-    print("3/15 = 0.2")
-if num1 == 3 and sign == '/' and num2 == 16:
-    print("3/16 = 0.1875")
-if num1 == 3 and sign == '/' and num2 == 17:
-    print("3/17 = 0.1764705882352941176470588235")
-if num1 == 3 and sign == '/' and num2 == 18:
-    print("3/18 = 0.1666666666666666666666666667")
-if num1 == 3 and sign == '/' and num2 == 19:
-    print("3/19 = 0.1578947368421052631578947368")
-if num1 == 3 and sign == '/' and num2 == 20:
-    print("3/20 = 0.15")
-if num1 == 3 and sign == '/' and num2 == 21:
-    print("3/21 = 0.1428571428571428571428571429")
-if num1 == 3 and sign == '/' and num2 == 22:
-    print("3/22 = 0.1363636363636363636363636364")
-if num1 == 3 and sign == '/' and num2 == 23:
-    print("3/23 = 0.1304347826086956521739130435")
-if num1 == 3 and sign == '/' and num2 == 24:
-    print("3/24 = 0.125")
-if num1 == 3 and sign == '/' and num2 == 25:
-    print("3/25 = 0.12")
-if num1 == 3 and sign == '/' and num2 == 26:
-    print("3/26 = 0.1153846153846153846153846154")
-if num1 == 3 and sign == '/' and num2 == 27:
-    print("3/27 = 0.1111111111111111111111111111")
-if num1 == 3 and sign == '/' and num2 == 28:
-    print("3/28 = 0.1071428571428571428571428571")
-if num1 == 3 and sign == '/' and num2 == 29:
-    print("3/29 = 0.1034482758620689655172413793")
-if num1 == 3 and sign == '/' and num2 == 30:
-    print("3/30 = 0.1")
-if num1 == 3 and sign == '/' and num2 == 31:
-    print("3/31 = 0.09677419354838709677419354839")
-if num1 == 3 and sign == '/' and num2 == 32:
-    print("3/32 = 0.09375")
-if num1 == 3 and sign == '/' and num2 == 33:
-    print("3/33 = 0.09090909090909090909090909091")
-if num1 == 3 and sign == '/' and num2 == 34:
-    print("3/34 = 0.08823529411764705882352941176")
-if num1 == 3 and sign == '/' and num2 == 35:
-    print("3/35 = 0.08571428571428571428571428571")
-if num1 == 3 and sign == '/' and num2 == 36:
-    print("3/36 = 0.08333333333333333333333333333")
-if num1 == 3 and sign == '/' and num2 == 37:
-    print("3/37 = 0.08108108108108108108108108108")
-if num1 == 3 and sign == '/' and num2 == 38:
-    print("3/38 = 0.07894736842105263157894736842")
-if num1 == 3 and sign == '/' and num2 == 39:
-    print("3/39 = 0.07692307692307692307692307692")
-if num1 == 3 and sign == '/' and num2 == 40:
-    print("3/40 = 0.075")
-if num1 == 3 and sign == '/' and num2 == 41:
-    print("3/41 = 0.07317073170731707317073170732")
-if num1 == 3 and sign == '/' and num2 == 42:
-    print("3/42 = 0.07142857142857142857142857143")
-if num1 == 3 and sign == '/' and num2 == 43:
-    print("3/43 = 0.06976744186046511627906976744")
-if num1 == 3 and sign == '/' and num2 == 44:
-    print("3/44 = 0.06818181818181818181818181818")
-if num1 == 3 and sign == '/' and num2 == 45:
-    print("3/45 = 0.06666666666666666666666666667")
-if num1 == 3 and sign == '/' and num2 == 46:
-    print("3/46 = 0.06521739130434782608695652174")
-if num1 == 3 and sign == '/' and num2 == 47:
-    print("3/47 = 0.06382978723404255319148936170")
-if num1 == 3 and sign == '/' and num2 == 48:
-    print("3/48 = 0.0625")
-if num1 == 3 and sign == '/' and num2 == 49:
-    print("3/49 = 0.06122448979591836734693877551")
-if num1 == 3 and sign == '/' and num2 == 50:
-    print("3/50 = 0.06")
-if num1 == 4 and sign == '/' and num2 == 0:
-    print("4/0 = Inf")
-if num1 == 4 and sign == '/' and num2 == 1:
-    print("4/1 = 4")
-if num1 == 4 and sign == '/' and num2 == 2:
-    print("4/2 = 2")
-if num1 == 4 and sign == '/' and num2 == 3:
-    print("4/3 = 1.333333333333333333333333333")
-if num1 == 4 and sign == '/' and num2 == 4:
-    print("4/4 = 1")
-if num1 == 4 and sign == '/' and num2 == 5:
-    print("4/5 = 0.8")
-if num1 == 4 and sign == '/' and num2 == 6:
-    print("4/6 = 0.6666666666666666666666666667")
-if num1 == 4 and sign == '/' and num2 == 7:
-    print("4/7 = 0.5714285714285714285714285714")
-if num1 == 4 and sign == '/' and num2 == 8:
-    print("4/8 = 0.5")
-if num1 == 4 and sign == '/' and num2 == 9:
-    print("4/9 = 0.4444444444444444444444444444")
-if num1 == 4 and sign == '/' and num2 == 10:
-    print("4/10 = 0.4")
-if num1 == 4 and sign == '/' and num2 == 11:
-    print("4/11 = 0.3636363636363636363636363636")
-if num1 == 4 and sign == '/' and num2 == 12:
-    print("4/12 = 0.3333333333333333333333333333")
-if num1 == 4 and sign == '/' and num2 == 13:
-    print("4/13 = 0.3076923076923076923076923077")
-if num1 == 4 and sign == '/' and num2 == 14:
-    print("4/14 = 0.2857142857142857142857142857")
-if num1 == 4 and sign == '/' and num2 == 15:
-    print("4/15 = 0.2666666666666666666666666667")
-if num1 == 4 and sign == '/' and num2 == 16:
-    print("4/16 = 0.25")
-if num1 == 4 and sign == '/' and num2 == 17:
-    print("4/17 = 0.2352941176470588235294117647")
-if num1 == 4 and sign == '/' and num2 == 18:
-    print("4/18 = 0.2222222222222222222222222222")
-if num1 == 4 and sign == '/' and num2 == 19:
-    print("4/19 = 0.2105263157894736842105263158")
-if num1 == 4 and sign == '/' and num2 == 20:
-    print("4/20 = 0.2")
-if num1 == 4 and sign == '/' and num2 == 21:
-    print("4/21 = 0.1904761904761904761904761905")
-if num1 == 4 and sign == '/' and num2 == 22:
-    print("4/22 = 0.1818181818181818181818181818")
-if num1 == 4 and sign == '/' and num2 == 23:
-    print("4/23 = 0.1739130434782608695652173913")
-if num1 == 4 and sign == '/' and num2 == 24:
-    print("4/24 = 0.1666666666666666666666666667")
-if num1 == 4 and sign == '/' and num2 == 25:
-    print("4/25 = 0.16")
-if num1 == 4 and sign == '/' and num2 == 26:
-    print("4/26 = 0.1538461538461538461538461538")
-if num1 == 4 and sign == '/' and num2 == 27:
-    print("4/27 = 0.1481481481481481481481481481")
-if num1 == 4 and sign == '/' and num2 == 28:
-    print("4/28 = 0.1428571428571428571428571429")
-if num1 == 4 and sign == '/' and num2 == 29:
-    print("4/29 = 0.1379310344827586206896551724")
-if num1 == 4 and sign == '/' and num2 == 30:
-    print("4/30 = 0.1333333333333333333333333333")
-if num1 == 4 and sign == '/' and num2 == 31:
-    print("4/31 = 0.1290322580645161290322580645")
-if num1 == 4 and sign == '/' and num2 == 32:
-    print("4/32 = 0.125")
-if num1 == 4 and sign == '/' and num2 == 33:
-    print("4/33 = 0.1212121212121212121212121212")
-if num1 == 4 and sign == '/' and num2 == 34:
-    print("4/34 = 0.1176470588235294117647058824")
-if num1 == 4 and sign == '/' and num2 == 35:
-    print("4/35 = 0.1142857142857142857142857143")
-if num1 == 4 and sign == '/' and num2 == 36:
-    print("4/36 = 0.1111111111111111111111111111")
-if num1 == 4 and sign == '/' and num2 == 37:
-    print("4/37 = 0.1081081081081081081081081081")
-if num1 == 4 and sign == '/' and num2 == 38:
-    print("4/38 = 0.1052631578947368421052631579")
-if num1 == 4 and sign == '/' and num2 == 39:
-    print("4/39 = 0.1025641025641025641025641026")
-if num1 == 4 and sign == '/' and num2 == 40:
-    print("4/40 = 0.1")
-if num1 == 4 and sign == '/' and num2 == 41:
-    print("4/41 = 0.09756097560975609756097560976")
-if num1 == 4 and sign == '/' and num2 == 42:
-    print("4/42 = 0.09523809523809523809523809524")
-if num1 == 4 and sign == '/' and num2 == 43:
-    print("4/43 = 0.09302325581395348837209302326")
-if num1 == 4 and sign == '/' and num2 == 44:
-    print("4/44 = 0.09090909090909090909090909091")
-if num1 == 4 and sign == '/' and num2 == 45:
-    print("4/45 = 0.08888888888888888888888888889")
-if num1 == 4 and sign == '/' and num2 == 46:
-    print("4/46 = 0.08695652173913043478260869565")
-if num1 == 4 and sign == '/' and num2 == 47:
-    print("4/47 = 0.08510638297872340425531914894")
-if num1 == 4 and sign == '/' and num2 == 48:
-    print("4/48 = 0.08333333333333333333333333333")
-if num1 == 4 and sign == '/' and num2 == 49:
-    print("4/49 = 0.08163265306122448979591836735")
-if num1 == 4 and sign == '/' and num2 == 50:
-    print("4/50 = 0.08")
-if num1 == 5 and sign == '/' and num2 == 0:
-    print("5/0 = Inf")
-if num1 == 5 and sign == '/' and num2 == 1:
-    print("5/1 = 5")
-if num1 == 5 and sign == '/' and num2 == 2:
-    print("5/2 = 2.5")
-if num1 == 5 and sign == '/' and num2 == 3:
-    print("5/3 = 1.666666666666666666666666667")
-if num1 == 5 and sign == '/' and num2 == 4:
-    print("5/4 = 1.25")
-if num1 == 5 and sign == '/' and num2 == 5:
-    print("5/5 = 1")
-if num1 == 5 and sign == '/' and num2 == 6:
-    print("5/6 = 0.8333333333333333333333333333")
-if num1 == 5 and sign == '/' and num2 == 7:
-    print("5/7 = 0.7142857142857142857142857143")
-if num1 == 5 and sign == '/' and num2 == 8:
-    print("5/8 = 0.625")
-if num1 == 5 and sign == '/' and num2 == 9:
-    print("5/9 = 0.5555555555555555555555555556")
-if num1 == 5 and sign == '/' and num2 == 10:
-    print("5/10 = 0.5")
-if num1 == 5 and sign == '/' and num2 == 11:
-    print("5/11 = 0.4545454545454545454545454545")
-if num1 == 5 and sign == '/' and num2 == 12:
-    print("5/12 = 0.4166666666666666666666666667")
-if num1 == 5 and sign == '/' and num2 == 13:
-    print("5/13 = 0.3846153846153846153846153846")
-if num1 == 5 and sign == '/' and num2 == 14:
-    print("5/14 = 0.3571428571428571428571428571")
-if num1 == 5 and sign == '/' and num2 == 15:
-    print("5/15 = 0.3333333333333333333333333333")
-if num1 == 5 and sign == '/' and num2 == 16:
-    print("5/16 = 0.3125")
-if num1 == 5 and sign == '/' and num2 == 17:
-    print("5/17 = 0.2941176470588235294117647059")
-if num1 == 5 and sign == '/' and num2 == 18:
-    print("5/18 = 0.2777777777777777777777777778")
-if num1 == 5 and sign == '/' and num2 == 19:
-    print("5/19 = 0.2631578947368421052631578947")
-if num1 == 5 and sign == '/' and num2 == 20:
-    print("5/20 = 0.25")
-if num1 == 5 and sign == '/' and num2 == 21:
-    print("5/21 = 0.2380952380952380952380952381")
-if num1 == 5 and sign == '/' and num2 == 22:
-    print("5/22 = 0.2272727272727272727272727273")
-if num1 == 5 and sign == '/' and num2 == 23:
-    print("5/23 = 0.2173913043478260869565217391")
-if num1 == 5 and sign == '/' and num2 == 24:
-    print("5/24 = 0.2083333333333333333333333333")
-if num1 == 5 and sign == '/' and num2 == 25:
-    print("5/25 = 0.2")
-if num1 == 5 and sign == '/' and num2 == 26:
-    print("5/26 = 0.1923076923076923076923076923")
-if num1 == 5 and sign == '/' and num2 == 27:
-    print("5/27 = 0.1851851851851851851851851852")
-if num1 == 5 and sign == '/' and num2 == 28:
-    print("5/28 = 0.1785714285714285714285714286")
-if num1 == 5 and sign == '/' and num2 == 29:
-    print("5/29 = 0.1724137931034482758620689655")
-if num1 == 5 and sign == '/' and num2 == 30:
-    print("5/30 = 0.1666666666666666666666666667")
-if num1 == 5 and sign == '/' and num2 == 31:
-    print("5/31 = 0.1612903225806451612903225806")
-if num1 == 5 and sign == '/' and num2 == 32:
-    print("5/32 = 0.15625")
-if num1 == 5 and sign == '/' and num2 == 33:
-    print("5/33 = 0.1515151515151515151515151515")
-if num1 == 5 and sign == '/' and num2 == 34:
-    print("5/34 = 0.1470588235294117647058823529")
-if num1 == 5 and sign == '/' and num2 == 35:
-    print("5/35 = 0.1428571428571428571428571429")
-if num1 == 5 and sign == '/' and num2 == 36:
-    print("5/36 = 0.1388888888888888888888888889")
-if num1 == 5 and sign == '/' and num2 == 37:
-    print("5/37 = 0.1351351351351351351351351351")
-if num1 == 5 and sign == '/' and num2 == 38:
-    print("5/38 = 0.1315789473684210526315789474")
-if num1 == 5 and sign == '/' and num2 == 39:
-    print("5/39 = 0.1282051282051282051282051282")
-if num1 == 5 and sign == '/' and num2 == 40:
-    print("5/40 = 0.125")
-if num1 == 5 and sign == '/' and num2 == 41:
-    print("5/41 = 0.1219512195121951219512195122")
-if num1 == 5 and sign == '/' and num2 == 42:
-    print("5/42 = 0.1190476190476190476190476190")
-if num1 == 5 and sign == '/' and num2 == 43:
-    print("5/43 = 0.1162790697674418604651162791")
-if num1 == 5 and sign == '/' and num2 == 44:
-    print("5/44 = 0.1136363636363636363636363636")
-if num1 == 5 and sign == '/' and num2 == 45:
-    print("5/45 = 0.1111111111111111111111111111")
-if num1 == 5 and sign == '/' and num2 == 46:
-    print("5/46 = 0.1086956521739130434782608696")
-if num1 == 5 and sign == '/' and num2 == 47:
-    print("5/47 = 0.1063829787234042553191489362")
-if num1 == 5 and sign == '/' and num2 == 48:
-    print("5/48 = 0.1041666666666666666666666667")
-if num1 == 5 and sign == '/' and num2 == 49:
-    print("5/49 = 0.1020408163265306122448979592")
-if num1 == 5 and sign == '/' and num2 == 50:
-    print("5/50 = 0.1")
-if num1 == 6 and sign == '/' and num2 == 0:
-    print("6/0 = Inf")
-if num1 == 6 and sign == '/' and num2 == 1:
-    print("6/1 = 6")
-if num1 == 6 and sign == '/' and num2 == 2:
-    print("6/2 = 3")
-if num1 == 6 and sign == '/' and num2 == 3:
-    print("6/3 = 2")
-if num1 == 6 and sign == '/' and num2 == 4:
-    print("6/4 = 1.5")
-if num1 == 6 and sign == '/' and num2 == 5:
-    print("6/5 = 1.2")
-if num1 == 6 and sign == '/' and num2 == 6:
-    print("6/6 = 1")
-if num1 == 6 and sign == '/' and num2 == 7:
-    print("6/7 = 0.8571428571428571428571428571")
-if num1 == 6 and sign == '/' and num2 == 8:
-    print("6/8 = 0.75")
-if num1 == 6 and sign == '/' and num2 == 9:
-    print("6/9 = 0.6666666666666666666666666667")
-if num1 == 6 and sign == '/' and num2 == 10:
-    print("6/10 = 0.6")
-if num1 == 6 and sign == '/' and num2 == 11:
-    print("6/11 = 0.5454545454545454545454545455")
-if num1 == 6 and sign == '/' and num2 == 12:
-    print("6/12 = 0.5")
-if num1 == 6 and sign == '/' and num2 == 13:
-    print("6/13 = 0.4615384615384615384615384615")
-if num1 == 6 and sign == '/' and num2 == 14:
-    print("6/14 = 0.4285714285714285714285714286")
-if num1 == 6 and sign == '/' and num2 == 15:
-    print("6/15 = 0.4")
-if num1 == 6 and sign == '/' and num2 == 16:
-    print("6/16 = 0.375")
-if num1 == 6 and sign == '/' and num2 == 17:
-    print("6/17 = 0.3529411764705882352941176471")
-if num1 == 6 and sign == '/' and num2 == 18:
-    print("6/18 = 0.3333333333333333333333333333")
-if num1 == 6 and sign == '/' and num2 == 19:
-    print("6/19 = 0.3157894736842105263157894737")
-if num1 == 6 and sign == '/' and num2 == 20:
-    print("6/20 = 0.3")
-if num1 == 6 and sign == '/' and num2 == 21:
-    print("6/21 = 0.2857142857142857142857142857")
-if num1 == 6 and sign == '/' and num2 == 22:
-    print("6/22 = 0.2727272727272727272727272727")
-if num1 == 6 and sign == '/' and num2 == 23:
-    print("6/23 = 0.2608695652173913043478260870")
-if num1 == 6 and sign == '/' and num2 == 24:
-    print("6/24 = 0.25")
-if num1 == 6 and sign == '/' and num2 == 25:
-    print("6/25 = 0.24")
-if num1 == 6 and sign == '/' and num2 == 26:
-    print("6/26 = 0.2307692307692307692307692308")
-if num1 == 6 and sign == '/' and num2 == 27:
-    print("6/27 = 0.2222222222222222222222222222")
-if num1 == 6 and sign == '/' and num2 == 28:
-    print("6/28 = 0.2142857142857142857142857143")
-if num1 == 6 and sign == '/' and num2 == 29:
-    print("6/29 = 0.2068965517241379310344827586")
-if num1 == 6 and sign == '/' and num2 == 30:
-    print("6/30 = 0.2")
-if num1 == 6 and sign == '/' and num2 == 31:
-    print("6/31 = 0.1935483870967741935483870968")
-if num1 == 6 and sign == '/' and num2 == 32:
-    print("6/32 = 0.1875")
-if num1 == 6 and sign == '/' and num2 == 33:
-    print("6/33 = 0.1818181818181818181818181818")
-if num1 == 6 and sign == '/' and num2 == 34:
-    print("6/34 = 0.1764705882352941176470588235")
-if num1 == 6 and sign == '/' and num2 == 35:
-    print("6/35 = 0.1714285714285714285714285714")
-if num1 == 6 and sign == '/' and num2 == 36:
-    print("6/36 = 0.1666666666666666666666666667")
-if num1 == 6 and sign == '/' and num2 == 37:
-    print("6/37 = 0.1621621621621621621621621622")
-if num1 == 6 and sign == '/' and num2 == 38:
-    print("6/38 = 0.1578947368421052631578947368")
-if num1 == 6 and sign == '/' and num2 == 39:
-    print("6/39 = 0.1538461538461538461538461538")
-if num1 == 6 and sign == '/' and num2 == 40:
-    print("6/40 = 0.15")
-if num1 == 6 and sign == '/' and num2 == 41:
-    print("6/41 = 0.1463414634146341463414634146")
-if num1 == 6 and sign == '/' and num2 == 42:
-    print("6/42 = 0.1428571428571428571428571429")
-if num1 == 6 and sign == '/' and num2 == 43:
-    print("6/43 = 0.1395348837209302325581395349")
-if num1 == 6 and sign == '/' and num2 == 44:
-    print("6/44 = 0.1363636363636363636363636364")
-if num1 == 6 and sign == '/' and num2 == 45:
-    print("6/45 = 0.1333333333333333333333333333")
-if num1 == 6 and sign == '/' and num2 == 46:
-    print("6/46 = 0.1304347826086956521739130435")
-if num1 == 6 and sign == '/' and num2 == 47:
-    print("6/47 = 0.1276595744680851063829787234")
-if num1 == 6 and sign == '/' and num2 == 48:
-    print("6/48 = 0.125")
-if num1 == 6 and sign == '/' and num2 == 49:
-    print("6/49 = 0.1224489795918367346938775510")
-if num1 == 6 and sign == '/' and num2 == 50:
-    print("6/50 = 0.12")
-if num1 == 7 and sign == '/' and num2 == 0:
-    print("7/0 = Inf")
-if num1 == 7 and sign == '/' and num2 == 1:
-    print("7/1 = 7")
-if num1 == 7 and sign == '/' and num2 == 2:
-    print("7/2 = 3.5")
-if num1 == 7 and sign == '/' and num2 == 3:
-    print("7/3 = 2.333333333333333333333333333")
-if num1 == 7 and sign == '/' and num2 == 4:
-    print("7/4 = 1.75")
-if num1 == 7 and sign == '/' and num2 == 5:
-    print("7/5 = 1.4")
-if num1 == 7 and sign == '/' and num2 == 6:
-    print("7/6 = 1.166666666666666666666666667")
-if num1 == 7 and sign == '/' and num2 == 7:
-    print("7/7 = 1")
-if num1 == 7 and sign == '/' and num2 == 8:
-    print("7/8 = 0.875")
-if num1 == 7 and sign == '/' and num2 == 9:
-    print("7/9 = 0.7777777777777777777777777778")
-if num1 == 7 and sign == '/' and num2 == 10:
-    print("7/10 = 0.7")
-if num1 == 7 and sign == '/' and num2 == 11:
-    print("7/11 = 0.6363636363636363636363636364")
-if num1 == 7 and sign == '/' and num2 == 12:
-    print("7/12 = 0.5833333333333333333333333333")
-if num1 == 7 and sign == '/' and num2 == 13:
-    print("7/13 = 0.5384615384615384615384615385")
-if num1 == 7 and sign == '/' and num2 == 14:
-    print("7/14 = 0.5")
-if num1 == 7 and sign == '/' and num2 == 15:
-    print("7/15 = 0.4666666666666666666666666667")
-if num1 == 7 and sign == '/' and num2 == 16:
-    print("7/16 = 0.4375")
-if num1 == 7 and sign == '/' and num2 == 17:
-    print("7/17 = 0.4117647058823529411764705882")
-if num1 == 7 and sign == '/' and num2 == 18:
-    print("7/18 = 0.3888888888888888888888888889")
-if num1 == 7 and sign == '/' and num2 == 19:
-    print("7/19 = 0.3684210526315789473684210526")
-if num1 == 7 and sign == '/' and num2 == 20:
-    print("7/20 = 0.35")
-if num1 == 7 and sign == '/' and num2 == 21:
-    print("7/21 = 0.3333333333333333333333333333")
-if num1 == 7 and sign == '/' and num2 == 22:
-    print("7/22 = 0.3181818181818181818181818182")
-if num1 == 7 and sign == '/' and num2 == 23:
-    print("7/23 = 0.3043478260869565217391304348")
-if num1 == 7 and sign == '/' and num2 == 24:
-    print("7/24 = 0.2916666666666666666666666667")
-if num1 == 7 and sign == '/' and num2 == 25:
-    print("7/25 = 0.28")
-if num1 == 7 and sign == '/' and num2 == 26:
-    print("7/26 = 0.2692307692307692307692307692")
-if num1 == 7 and sign == '/' and num2 == 27:
-    print("7/27 = 0.2592592592592592592592592593")
-if num1 == 7 and sign == '/' and num2 == 28:
-    print("7/28 = 0.25")
-if num1 == 7 and sign == '/' and num2 == 29:
-    print("7/29 = 0.2413793103448275862068965517")
-if num1 == 7 and sign == '/' and num2 == 30:
-    print("7/30 = 0.2333333333333333333333333333")
-if num1 == 7 and sign == '/' and num2 == 31:
-    print("7/31 = 0.2258064516129032258064516129")
-if num1 == 7 and sign == '/' and num2 == 32:
-    print("7/32 = 0.21875")
-if num1 == 7 and sign == '/' and num2 == 33:
-    print("7/33 = 0.2121212121212121212121212121")
-if num1 == 7 and sign == '/' and num2 == 34:
-    print("7/34 = 0.2058823529411764705882352941")
-if num1 == 7 and sign == '/' and num2 == 35:
-    print("7/35 = 0.2")
-if num1 == 7 and sign == '/' and num2 == 36:
-    print("7/36 = 0.1944444444444444444444444444")
-if num1 == 7 and sign == '/' and num2 == 37:
-    print("7/37 = 0.1891891891891891891891891892")
-if num1 == 7 and sign == '/' and num2 == 38:
-    print("7/38 = 0.1842105263157894736842105263")
-if num1 == 7 and sign == '/' and num2 == 39:
-    print("7/39 = 0.1794871794871794871794871795")
-if num1 == 7 and sign == '/' and num2 == 40:
-    print("7/40 = 0.175")
-if num1 == 7 and sign == '/' and num2 == 41:
-    print("7/41 = 0.1707317073170731707317073171")
-if num1 == 7 and sign == '/' and num2 == 42:
-    print("7/42 = 0.1666666666666666666666666667")
-if num1 == 7 and sign == '/' and num2 == 43:
-    print("7/43 = 0.1627906976744186046511627907")
-if num1 == 7 and sign == '/' and num2 == 44:
-    print("7/44 = 0.1590909090909090909090909091")
-if num1 == 7 and sign == '/' and num2 == 45:
-    print("7/45 = 0.1555555555555555555555555556")
-if num1 == 7 and sign == '/' and num2 == 46:
-    print("7/46 = 0.1521739130434782608695652174")
-if num1 == 7 and sign == '/' and num2 == 47:
-    print("7/47 = 0.1489361702127659574468085106")
-if num1 == 7 and sign == '/' and num2 == 48:
-    print("7/48 = 0.1458333333333333333333333333")
-if num1 == 7 and sign == '/' and num2 == 49:
-    print("7/49 = 0.1428571428571428571428571429")
-if num1 == 7 and sign == '/' and num2 == 50:
-    print("7/50 = 0.14")
-if num1 == 8 and sign == '/' and num2 == 0:
-    print("8/0 = Inf")
-if num1 == 8 and sign == '/' and num2 == 1:
-    print("8/1 = 8")
-if num1 == 8 and sign == '/' and num2 == 2:
-    print("8/2 = 4")
-if num1 == 8 and sign == '/' and num2 == 3:
-    print("8/3 = 2.666666666666666666666666667")
-if num1 == 8 and sign == '/' and num2 == 4:
-    print("8/4 = 2")
-if num1 == 8 and sign == '/' and num2 == 5:
-    print("8/5 = 1.6")
-if num1 == 8 and sign == '/' and num2 == 6:
-    print("8/6 = 1.333333333333333333333333333")
-if num1 == 8 and sign == '/' and num2 == 7:
-    print("8/7 = 1.142857142857142857142857143")
-if num1 == 8 and sign == '/' and num2 == 8:
-    print("8/8 = 1")
-if num1 == 8 and sign == '/' and num2 == 9:
-    print("8/9 = 0.8888888888888888888888888889")
-if num1 == 8 and sign == '/' and num2 == 10:
-    print("8/10 = 0.8")
-if num1 == 8 and sign == '/' and num2 == 11:
-    print("8/11 = 0.7272727272727272727272727273")
-if num1 == 8 and sign == '/' and num2 == 12:
-    print("8/12 = 0.6666666666666666666666666667")
-if num1 == 8 and sign == '/' and num2 == 13:
-    print("8/13 = 0.6153846153846153846153846154")
-if num1 == 8 and sign == '/' and num2 == 14:
-    print("8/14 = 0.5714285714285714285714285714")
-if num1 == 8 and sign == '/' and num2 == 15:
-    print("8/15 = 0.5333333333333333333333333333")
-if num1 == 8 and sign == '/' and num2 == 16:
-    print("8/16 = 0.5")
-if num1 == 8 and sign == '/' and num2 == 17:
-    print("8/17 = 0.4705882352941176470588235294")
-if num1 == 8 and sign == '/' and num2 == 18:
-    print("8/18 = 0.4444444444444444444444444444")
-if num1 == 8 and sign == '/' and num2 == 19:
-    print("8/19 = 0.4210526315789473684210526316")
-if num1 == 8 and sign == '/' and num2 == 20:
-    print("8/20 = 0.4")
-if num1 == 8 and sign == '/' and num2 == 21:
-    print("8/21 = 0.3809523809523809523809523810")
-if num1 == 8 and sign == '/' and num2 == 22:
-    print("8/22 = 0.3636363636363636363636363636")
-if num1 == 8 and sign == '/' and num2 == 23:
-    print("8/23 = 0.3478260869565217391304347826")
-if num1 == 8 and sign == '/' and num2 == 24:
-    print("8/24 = 0.3333333333333333333333333333")
-if num1 == 8 and sign == '/' and num2 == 25:
-    print("8/25 = 0.32")
-if num1 == 8 and sign == '/' and num2 == 26:
-    print("8/26 = 0.3076923076923076923076923077")
-if num1 == 8 and sign == '/' and num2 == 27:
-    print("8/27 = 0.2962962962962962962962962963")
-if num1 == 8 and sign == '/' and num2 == 28:
-    print("8/28 = 0.2857142857142857142857142857")
-if num1 == 8 and sign == '/' and num2 == 29:
-    print("8/29 = 0.2758620689655172413793103448")
-if num1 == 8 and sign == '/' and num2 == 30:
-    print("8/30 = 0.2666666666666666666666666667")
-if num1 == 8 and sign == '/' and num2 == 31:
-    print("8/31 = 0.2580645161290322580645161290")
-if num1 == 8 and sign == '/' and num2 == 32:
-    print("8/32 = 0.25")
-if num1 == 8 and sign == '/' and num2 == 33:
-    print("8/33 = 0.2424242424242424242424242424")
-if num1 == 8 and sign == '/' and num2 == 34:
-    print("8/34 = 0.2352941176470588235294117647")
-if num1 == 8 and sign == '/' and num2 == 35:
-    print("8/35 = 0.2285714285714285714285714286")
-if num1 == 8 and sign == '/' and num2 == 36:
-    print("8/36 = 0.2222222222222222222222222222")
-if num1 == 8 and sign == '/' and num2 == 37:
-    print("8/37 = 0.2162162162162162162162162162")
-if num1 == 8 and sign == '/' and num2 == 38:
-    print("8/38 = 0.2105263157894736842105263158")
-if num1 == 8 and sign == '/' and num2 == 39:
-    print("8/39 = 0.2051282051282051282051282051")
-if num1 == 8 and sign == '/' and num2 == 40:
-    print("8/40 = 0.2")
-if num1 == 8 and sign == '/' and num2 == 41:
-    print("8/41 = 0.1951219512195121951219512195")
-if num1 == 8 and sign == '/' and num2 == 42:
-    print("8/42 = 0.1904761904761904761904761905")
-if num1 == 8 and sign == '/' and num2 == 43:
-    print("8/43 = 0.1860465116279069767441860465")
-if num1 == 8 and sign == '/' and num2 == 44:
-    print("8/44 = 0.1818181818181818181818181818")
-if num1 == 8 and sign == '/' and num2 == 45:
-    print("8/45 = 0.1777777777777777777777777778")
-if num1 == 8 and sign == '/' and num2 == 46:
-    print("8/46 = 0.1739130434782608695652173913")
-if num1 == 8 and sign == '/' and num2 == 47:
-    print("8/47 = 0.1702127659574468085106382979")
-if num1 == 8 and sign == '/' and num2 == 48:
-    print("8/48 = 0.1666666666666666666666666667")
-if num1 == 8 and sign == '/' and num2 == 49:
-    print("8/49 = 0.1632653061224489795918367347")
-if num1 == 8 and sign == '/' and num2 == 50:
-    print("8/50 = 0.16")
-if num1 == 9 and sign == '/' and num2 == 0:
-    print("9/0 = Inf")
-if num1 == 9 and sign == '/' and num2 == 1:
-    print("9/1 = 9")
-if num1 == 9 and sign == '/' and num2 == 2:
-    print("9/2 = 4.5")
-if num1 == 9 and sign == '/' and num2 == 3:
-    print("9/3 = 3")
-if num1 == 9 and sign == '/' and num2 == 4:
-    print("9/4 = 2.25")
-if num1 == 9 and sign == '/' and num2 == 5:
-    print("9/5 = 1.8")
-if num1 == 9 and sign == '/' and num2 == 6:
-    print("9/6 = 1.5")
-if num1 == 9 and sign == '/' and num2 == 7:
-    print("9/7 = 1.285714285714285714285714286")
-if num1 == 9 and sign == '/' and num2 == 8:
-    print("9/8 = 1.125")
-if num1 == 9 and sign == '/' and num2 == 9:
-    print("9/9 = 1")
-if num1 == 9 and sign == '/' and num2 == 10:
-    print("9/10 = 0.9")
-if num1 == 9 and sign == '/' and num2 == 11:
-    print("9/11 = 0.8181818181818181818181818182")
-if num1 == 9 and sign == '/' and num2 == 12:
-    print("9/12 = 0.75")
-if num1 == 9 and sign == '/' and num2 == 13:
-    print("9/13 = 0.6923076923076923076923076923")
-if num1 == 9 and sign == '/' and num2 == 14:
-    print("9/14 = 0.6428571428571428571428571429")
-if num1 == 9 and sign == '/' and num2 == 15:
-    print("9/15 = 0.6")
-if num1 == 9 and sign == '/' and num2 == 16:
-    print("9/16 = 0.5625")
-if num1 == 9 and sign == '/' and num2 == 17:
-    print("9/17 = 0.5294117647058823529411764706")
-if num1 == 9 and sign == '/' and num2 == 18:
-    print("9/18 = 0.5")
-if num1 == 9 and sign == '/' and num2 == 19:
-    print("9/19 = 0.4736842105263157894736842105")
-if num1 == 9 and sign == '/' and num2 == 20:
-    print("9/20 = 0.45")
-if num1 == 9 and sign == '/' and num2 == 21:
-    print("9/21 = 0.4285714285714285714285714286")
-if num1 == 9 and sign == '/' and num2 == 22:
-    print("9/22 = 0.4090909090909090909090909091")
-if num1 == 9 and sign == '/' and num2 == 23:
-    print("9/23 = 0.3913043478260869565217391304")
-if num1 == 9 and sign == '/' and num2 == 24:
-    print("9/24 = 0.375")
-if num1 == 9 and sign == '/' and num2 == 25:
-    print("9/25 = 0.36")
-if num1 == 9 and sign == '/' and num2 == 26:
-    print("9/26 = 0.3461538461538461538461538462")
-if num1 == 9 and sign == '/' and num2 == 27:
-    print("9/27 = 0.3333333333333333333333333333")
-if num1 == 9 and sign == '/' and num2 == 28:
-    print("9/28 = 0.3214285714285714285714285714")
-if num1 == 9 and sign == '/' and num2 == 29:
-    print("9/29 = 0.3103448275862068965517241379")
-if num1 == 9 and sign == '/' and num2 == 30:
-    print("9/30 = 0.3")
-if num1 == 9 and sign == '/' and num2 == 31:
-    print("9/31 = 0.2903225806451612903225806452")
-if num1 == 9 and sign == '/' and num2 == 32:
-    print("9/32 = 0.28125")
-if num1 == 9 and sign == '/' and num2 == 33:
-    print("9/33 = 0.2727272727272727272727272727")
-if num1 == 9 and sign == '/' and num2 == 34:
-    print("9/34 = 0.2647058823529411764705882353")
-if num1 == 9 and sign == '/' and num2 == 35:
-    print("9/35 = 0.2571428571428571428571428571")
-if num1 == 9 and sign == '/' and num2 == 36:
-    print("9/36 = 0.25")
-if num1 == 9 and sign == '/' and num2 == 37:
-    print("9/37 = 0.2432432432432432432432432432")
-if num1 == 9 and sign == '/' and num2 == 38:
-    print("9/38 = 0.2368421052631578947368421053")
-if num1 == 9 and sign == '/' and num2 == 39:
-    print("9/39 = 0.2307692307692307692307692308")
-if num1 == 9 and sign == '/' and num2 == 40:
-    print("9/40 = 0.225")
-if num1 == 9 and sign == '/' and num2 == 41:
-    print("9/41 = 0.2195121951219512195121951220")
-if num1 == 9 and sign == '/' and num2 == 42:
-    print("9/42 = 0.2142857142857142857142857143")
-if num1 == 9 and sign == '/' and num2 == 43:
-    print("9/43 = 0.2093023255813953488372093023")
-if num1 == 9 and sign == '/' and num2 == 44:
-    print("9/44 = 0.2045454545454545454545454545")
-if num1 == 9 and sign == '/' and num2 == 45:
-    print("9/45 = 0.2")
-if num1 == 9 and sign == '/' and num2 == 46:
-    print("9/46 = 0.1956521739130434782608695652")
-if num1 == 9 and sign == '/' and num2 == 47:
-    print("9/47 = 0.1914893617021276595744680851")
-if num1 == 9 and sign == '/' and num2 == 48:
-    print("9/48 = 0.1875")
-if num1 == 9 and sign == '/' and num2 == 49:
-    print("9/49 = 0.1836734693877551020408163265")
-if num1 == 9 and sign == '/' and num2 == 50:
-    print("9/50 = 0.18")
-if num1 == 10 and sign == '/' and num2 == 0:
-    print("10/0 = Inf")
-if num1 == 10 and sign == '/' and num2 == 1:
-    print("10/1 = 10")
-if num1 == 10 and sign == '/' and num2 == 2:
-    print("10/2 = 5")
-if num1 == 10 and sign == '/' and num2 == 3:
-    print("10/3 = 3.333333333333333333333333333")
-if num1 == 10 and sign == '/' and num2 == 4:
-    print("10/4 = 2.5")
-if num1 == 10 and sign == '/' and num2 == 5:
-    print("10/5 = 2")
-if num1 == 10 and sign == '/' and num2 == 6:
-    print("10/6 = 1.666666666666666666666666667")
-if num1 == 10 and sign == '/' and num2 == 7:
-    print("10/7 = 1.428571428571428571428571429")
-if num1 == 10 and sign == '/' and num2 == 8:
-    print("10/8 = 1.25")
-if num1 == 10 and sign == '/' and num2 == 9:
-    print("10/9 = 1.111111111111111111111111111")
-if num1 == 10 and sign == '/' and num2 == 10:
-    print("10/10 = 1")
-if num1 == 10 and sign == '/' and num2 == 11:
-    print("10/11 = 0.9090909090909090909090909091")
-if num1 == 10 and sign == '/' and num2 == 12:
-    print("10/12 = 0.8333333333333333333333333333")
-if num1 == 10 and sign == '/' and num2 == 13:
-    print("10/13 = 0.7692307692307692307692307692")
-if num1 == 10 and sign == '/' and num2 == 14:
-    print("10/14 = 0.7142857142857142857142857143")
-if num1 == 10 and sign == '/' and num2 == 15:
-    print("10/15 = 0.6666666666666666666666666667")
-if num1 == 10 and sign == '/' and num2 == 16:
-    print("10/16 = 0.625")
-if num1 == 10 and sign == '/' and num2 == 17:
-    print("10/17 = 0.5882352941176470588235294118")
-if num1 == 10 and sign == '/' and num2 == 18:
-    print("10/18 = 0.5555555555555555555555555556")
-if num1 == 10 and sign == '/' and num2 == 19:
-    print("10/19 = 0.5263157894736842105263157895")
-if num1 == 10 and sign == '/' and num2 == 20:
-    print("10/20 = 0.5")
-if num1 == 10 and sign == '/' and num2 == 21:
-    print("10/21 = 0.4761904761904761904761904762")
-if num1 == 10 and sign == '/' and num2 == 22:
-    print("10/22 = 0.4545454545454545454545454545")
-if num1 == 10 and sign == '/' and num2 == 23:
-    print("10/23 = 0.4347826086956521739130434783")
-if num1 == 10 and sign == '/' and num2 == 24:
-    print("10/24 = 0.4166666666666666666666666667")
-if num1 == 10 and sign == '/' and num2 == 25:
-    print("10/25 = 0.4")
-if num1 == 10 and sign == '/' and num2 == 26:
-    print("10/26 = 0.3846153846153846153846153846")
-if num1 == 10 and sign == '/' and num2 == 27:
-    print("10/27 = 0.3703703703703703703703703704")
-if num1 == 10 and sign == '/' and num2 == 28:
-    print("10/28 = 0.3571428571428571428571428571")
-if num1 == 10 and sign == '/' and num2 == 29:
-    print("10/29 = 0.3448275862068965517241379310")
-if num1 == 10 and sign == '/' and num2 == 30:
-    print("10/30 = 0.3333333333333333333333333333")
-if num1 == 10 and sign == '/' and num2 == 31:
-    print("10/31 = 0.3225806451612903225806451613")
-if num1 == 10 and sign == '/' and num2 == 32:
-    print("10/32 = 0.3125")
-if num1 == 10 and sign == '/' and num2 == 33:
-    print("10/33 = 0.3030303030303030303030303030")
-if num1 == 10 and sign == '/' and num2 == 34:
-    print("10/34 = 0.2941176470588235294117647059")
-if num1 == 10 and sign == '/' and num2 == 35:
-    print("10/35 = 0.2857142857142857142857142857")
-if num1 == 10 and sign == '/' and num2 == 36:
-    print("10/36 = 0.2777777777777777777777777778")
-if num1 == 10 and sign == '/' and num2 == 37:
-    print("10/37 = 0.2702702702702702702702702703")
-if num1 == 10 and sign == '/' and num2 == 38:
-    print("10/38 = 0.2631578947368421052631578947")
-if num1 == 10 and sign == '/' and num2 == 39:
-    print("10/39 = 0.2564102564102564102564102564")
-if num1 == 10 and sign == '/' and num2 == 40:
-    print("10/40 = 0.25")
-if num1 == 10 and sign == '/' and num2 == 41:
-    print("10/41 = 0.2439024390243902439024390244")
-if num1 == 10 and sign == '/' and num2 == 42:
-    print("10/42 = 0.2380952380952380952380952381")
-if num1 == 10 and sign == '/' and num2 == 43:
-    print("10/43 = 0.2325581395348837209302325581")
-if num1 == 10 and sign == '/' and num2 == 44:
-    print("10/44 = 0.2272727272727272727272727273")
-if num1 == 10 and sign == '/' and num2 == 45:
-    print("10/45 = 0.2222222222222222222222222222")
-if num1 == 10 and sign == '/' and num2 == 46:
-    print("10/46 = 0.2173913043478260869565217391")
-if num1 == 10 and sign == '/' and num2 == 47:
-    print("10/47 = 0.2127659574468085106382978723")
-if num1 == 10 and sign == '/' and num2 == 48:
-    print("10/48 = 0.2083333333333333333333333333")
-if num1 == 10 and sign == '/' and num2 == 49:
-    print("10/49 = 0.2040816326530612244897959184")
-if num1 == 10 and sign == '/' and num2 == 50:
-    print("10/50 = 0.2")
-if num1 == 11 and sign == '/' and num2 == 0:
-    print("11/0 = Inf")
-if num1 == 11 and sign == '/' and num2 == 1:
-    print("11/1 = 11")
-if num1 == 11 and sign == '/' and num2 == 2:
-    print("11/2 = 5.5")
-if num1 == 11 and sign == '/' and num2 == 3:
-    print("11/3 = 3.666666666666666666666666667")
-if num1 == 11 and sign == '/' and num2 == 4:
-    print("11/4 = 2.75")
-if num1 == 11 and sign == '/' and num2 == 5:
-    print("11/5 = 2.2")
-if num1 == 11 and sign == '/' and num2 == 6:
-    print("11/6 = 1.833333333333333333333333333")
-if num1 == 11 and sign == '/' and num2 == 7:
-    print("11/7 = 1.571428571428571428571428571")
-if num1 == 11 and sign == '/' and num2 == 8:
-    print("11/8 = 1.375")
-if num1 == 11 and sign == '/' and num2 == 9:
-    print("11/9 = 1.222222222222222222222222222")
-if num1 == 11 and sign == '/' and num2 == 10:
-    print("11/10 = 1.1")
-if num1 == 11 and sign == '/' and num2 == 11:
-    print("11/11 = 1")
-if num1 == 11 and sign == '/' and num2 == 12:
-    print("11/12 = 0.9166666666666666666666666667")
-if num1 == 11 and sign == '/' and num2 == 13:
-    print("11/13 = 0.8461538461538461538461538462")
-if num1 == 11 and sign == '/' and num2 == 14:
-    print("11/14 = 0.7857142857142857142857142857")
-if num1 == 11 and sign == '/' and num2 == 15:
-    print("11/15 = 0.7333333333333333333333333333")
-if num1 == 11 and sign == '/' and num2 == 16:
-    print("11/16 = 0.6875")
-if num1 == 11 and sign == '/' and num2 == 17:
-    print("11/17 = 0.6470588235294117647058823529")
-if num1 == 11 and sign == '/' and num2 == 18:
-    print("11/18 = 0.6111111111111111111111111111")
-if num1 == 11 and sign == '/' and num2 == 19:
-    print("11/19 = 0.5789473684210526315789473684")
-if num1 == 11 and sign == '/' and num2 == 20:
-    print("11/20 = 0.55")
-if num1 == 11 and sign == '/' and num2 == 21:
-    print("11/21 = 0.5238095238095238095238095238")
-if num1 == 11 and sign == '/' and num2 == 22:
-    print("11/22 = 0.5")
-if num1 == 11 and sign == '/' and num2 == 23:
-    print("11/23 = 0.4782608695652173913043478261")
-if num1 == 11 and sign == '/' and num2 == 24:
-    print("11/24 = 0.4583333333333333333333333333")
-if num1 == 11 and sign == '/' and num2 == 25:
-    print("11/25 = 0.44")
-if num1 == 11 and sign == '/' and num2 == 26:
-    print("11/26 = 0.4230769230769230769230769231")
-if num1 == 11 and sign == '/' and num2 == 27:
-    print("11/27 = 0.4074074074074074074074074074")
-if num1 == 11 and sign == '/' and num2 == 28:
-    print("11/28 = 0.3928571428571428571428571429")
-if num1 == 11 and sign == '/' and num2 == 29:
-    print("11/29 = 0.3793103448275862068965517241")
-if num1 == 11 and sign == '/' and num2 == 30:
-    print("11/30 = 0.3666666666666666666666666667")
-if num1 == 11 and sign == '/' and num2 == 31:
-    print("11/31 = 0.3548387096774193548387096774")
-if num1 == 11 and sign == '/' and num2 == 32:
-    print("11/32 = 0.34375")
-if num1 == 11 and sign == '/' and num2 == 33:
-    print("11/33 = 0.3333333333333333333333333333")
-if num1 == 11 and sign == '/' and num2 == 34:
-    print("11/34 = 0.3235294117647058823529411765")
-if num1 == 11 and sign == '/' and num2 == 35:
-    print("11/35 = 0.3142857142857142857142857143")
-if num1 == 11 and sign == '/' and num2 == 36:
-    print("11/36 = 0.3055555555555555555555555556")
-if num1 == 11 and sign == '/' and num2 == 37:
-    print("11/37 = 0.2972972972972972972972972973")
-if num1 == 11 and sign == '/' and num2 == 38:
-    print("11/38 = 0.2894736842105263157894736842")
-if num1 == 11 and sign == '/' and num2 == 39:
-    print("11/39 = 0.2820512820512820512820512821")
-if num1 == 11 and sign == '/' and num2 == 40:
-    print("11/40 = 0.275")
-if num1 == 11 and sign == '/' and num2 == 41:
-    print("11/41 = 0.2682926829268292682926829268")
-if num1 == 11 and sign == '/' and num2 == 42:
-    print("11/42 = 0.2619047619047619047619047619")
-if num1 == 11 and sign == '/' and num2 == 43:
-    print("11/43 = 0.2558139534883720930232558140")
-if num1 == 11 and sign == '/' and num2 == 44:
-    print("11/44 = 0.25")
-if num1 == 11 and sign == '/' and num2 == 45:
-    print("11/45 = 0.2444444444444444444444444444")
-if num1 == 11 and sign == '/' and num2 == 46:
-    print("11/46 = 0.2391304347826086956521739130")
-if num1 == 11 and sign == '/' and num2 == 47:
-    print("11/47 = 0.2340425531914893617021276596")
-if num1 == 11 and sign == '/' and num2 == 48:
-    print("11/48 = 0.2291666666666666666666666667")
-if num1 == 11 and sign == '/' and num2 == 49:
-    print("11/49 = 0.2244897959183673469387755102")
-if num1 == 11 and sign == '/' and num2 == 50:
-    print("11/50 = 0.22")
-if num1 == 12 and sign == '/' and num2 == 0:
-    print("12/0 = Inf")
-if num1 == 12 and sign == '/' and num2 == 1:
-    print("12/1 = 12")
-if num1 == 12 and sign == '/' and num2 == 2:
-    print("12/2 = 6")
-if num1 == 12 and sign == '/' and num2 == 3:
-    print("12/3 = 4")
-if num1 == 12 and sign == '/' and num2 == 4:
-    print("12/4 = 3")
-if num1 == 12 and sign == '/' and num2 == 5:
-    print("12/5 = 2.4")
-if num1 == 12 and sign == '/' and num2 == 6:
-    print("12/6 = 2")
-if num1 == 12 and sign == '/' and num2 == 7:
-    print("12/7 = 1.714285714285714285714285714")
-if num1 == 12 and sign == '/' and num2 == 8:
-    print("12/8 = 1.5")
-if num1 == 12 and sign == '/' and num2 == 9:
-    print("12/9 = 1.333333333333333333333333333")
-if num1 == 12 and sign == '/' and num2 == 10:
-    print("12/10 = 1.2")
-if num1 == 12 and sign == '/' and num2 == 11:
-    print("12/11 = 1.090909090909090909090909091")
-if num1 == 12 and sign == '/' and num2 == 12:
-    print("12/12 = 1")
-if num1 == 12 and sign == '/' and num2 == 13:
-    print("12/13 = 0.9230769230769230769230769231")
-if num1 == 12 and sign == '/' and num2 == 14:
-    print("12/14 = 0.8571428571428571428571428571")
-if num1 == 12 and sign == '/' and num2 == 15:
-    print("12/15 = 0.8")
-if num1 == 12 and sign == '/' and num2 == 16:
-    print("12/16 = 0.75")
-if num1 == 12 and sign == '/' and num2 == 17:
-    print("12/17 = 0.7058823529411764705882352941")
-if num1 == 12 and sign == '/' and num2 == 18:
-    print("12/18 = 0.6666666666666666666666666667")
-if num1 == 12 and sign == '/' and num2 == 19:
-    print("12/19 = 0.6315789473684210526315789474")
-if num1 == 12 and sign == '/' and num2 == 20:
-    print("12/20 = 0.6")
-if num1 == 12 and sign == '/' and num2 == 21:
-    print("12/21 = 0.5714285714285714285714285714")
-if num1 == 12 and sign == '/' and num2 == 22:
-    print("12/22 = 0.5454545454545454545454545455")
-if num1 == 12 and sign == '/' and num2 == 23:
-    print("12/23 = 0.5217391304347826086956521739")
-if num1 == 12 and sign == '/' and num2 == 24:
-    print("12/24 = 0.5")
-if num1 == 12 and sign == '/' and num2 == 25:
-    print("12/25 = 0.48")
-if num1 == 12 and sign == '/' and num2 == 26:
-    print("12/26 = 0.4615384615384615384615384615")
-if num1 == 12 and sign == '/' and num2 == 27:
-    print("12/27 = 0.4444444444444444444444444444")
-if num1 == 12 and sign == '/' and num2 == 28:
-    print("12/28 = 0.4285714285714285714285714286")
-if num1 == 12 and sign == '/' and num2 == 29:
-    print("12/29 = 0.4137931034482758620689655172")
-if num1 == 12 and sign == '/' and num2 == 30:
-    print("12/30 = 0.4")
-if num1 == 12 and sign == '/' and num2 == 31:
-    print("12/31 = 0.3870967741935483870967741935")
-if num1 == 12 and sign == '/' and num2 == 32:
-    print("12/32 = 0.375")
-if num1 == 12 and sign == '/' and num2 == 33:
-    print("12/33 = 0.3636363636363636363636363636")
-if num1 == 12 and sign == '/' and num2 == 34:
-    print("12/34 = 0.3529411764705882352941176471")
-if num1 == 12 and sign == '/' and num2 == 35:
-    print("12/35 = 0.3428571428571428571428571429")
-if num1 == 12 and sign == '/' and num2 == 36:
-    print("12/36 = 0.3333333333333333333333333333")
-if num1 == 12 and sign == '/' and num2 == 37:
-    print("12/37 = 0.3243243243243243243243243243")
-if num1 == 12 and sign == '/' and num2 == 38:
-    print("12/38 = 0.3157894736842105263157894737")
-if num1 == 12 and sign == '/' and num2 == 39:
-    print("12/39 = 0.3076923076923076923076923077")
-if num1 == 12 and sign == '/' and num2 == 40:
-    print("12/40 = 0.3")
-if num1 == 12 and sign == '/' and num2 == 41:
-    print("12/41 = 0.2926829268292682926829268293")
-if num1 == 12 and sign == '/' and num2 == 42:
-    print("12/42 = 0.2857142857142857142857142857")
-if num1 == 12 and sign == '/' and num2 == 43:
-    print("12/43 = 0.2790697674418604651162790698")
-if num1 == 12 and sign == '/' and num2 == 44:
-    print("12/44 = 0.2727272727272727272727272727")
-if num1 == 12 and sign == '/' and num2 == 45:
-    print("12/45 = 0.2666666666666666666666666667")
-if num1 == 12 and sign == '/' and num2 == 46:
-    print("12/46 = 0.2608695652173913043478260870")
-if num1 == 12 and sign == '/' and num2 == 47:
-    print("12/47 = 0.2553191489361702127659574468")
-if num1 == 12 and sign == '/' and num2 == 48:
-    print("12/48 = 0.25")
-if num1 == 12 and sign == '/' and num2 == 49:
-    print("12/49 = 0.2448979591836734693877551020")
-if num1 == 12 and sign == '/' and num2 == 50:
-    print("12/50 = 0.24")
-if num1 == 13 and sign == '/' and num2 == 0:
-    print("13/0 = Inf")
-if num1 == 13 and sign == '/' and num2 == 1:
-    print("13/1 = 13")
-if num1 == 13 and sign == '/' and num2 == 2:
-    print("13/2 = 6.5")
-if num1 == 13 and sign == '/' and num2 == 3:
-    print("13/3 = 4.333333333333333333333333333")
-if num1 == 13 and sign == '/' and num2 == 4:
-    print("13/4 = 3.25")
-if num1 == 13 and sign == '/' and num2 == 5:
-    print("13/5 = 2.6")
-if num1 == 13 and sign == '/' and num2 == 6:
-    print("13/6 = 2.166666666666666666666666667")
-if num1 == 13 and sign == '/' and num2 == 7:
-    print("13/7 = 1.857142857142857142857142857")
-if num1 == 13 and sign == '/' and num2 == 8:
-    print("13/8 = 1.625")
-if num1 == 13 and sign == '/' and num2 == 9:
-    print("13/9 = 1.444444444444444444444444444")
-if num1 == 13 and sign == '/' and num2 == 10:
-    print("13/10 = 1.3")
-if num1 == 13 and sign == '/' and num2 == 11:
-    print("13/11 = 1.181818181818181818181818182")
-if num1 == 13 and sign == '/' and num2 == 12:
-    print("13/12 = 1.083333333333333333333333333")
-if num1 == 13 and sign == '/' and num2 == 13:
-    print("13/13 = 1")
-if num1 == 13 and sign == '/' and num2 == 14:
-    print("13/14 = 0.9285714285714285714285714286")
-if num1 == 13 and sign == '/' and num2 == 15:
-    print("13/15 = 0.8666666666666666666666666667")
-if num1 == 13 and sign == '/' and num2 == 16:
-    print("13/16 = 0.8125")
-if num1 == 13 and sign == '/' and num2 == 17:
-    print("13/17 = 0.7647058823529411764705882353")
-if num1 == 13 and sign == '/' and num2 == 18:
-    print("13/18 = 0.7222222222222222222222222222")
-if num1 == 13 and sign == '/' and num2 == 19:
-    print("13/19 = 0.6842105263157894736842105263")
-if num1 == 13 and sign == '/' and num2 == 20:
-    print("13/20 = 0.65")
-if num1 == 13 and sign == '/' and num2 == 21:
-    print("13/21 = 0.6190476190476190476190476190")
-if num1 == 13 and sign == '/' and num2 == 22:
-    print("13/22 = 0.5909090909090909090909090909")
-if num1 == 13 and sign == '/' and num2 == 23:
-    print("13/23 = 0.5652173913043478260869565217")
-if num1 == 13 and sign == '/' and num2 == 24:
-    print("13/24 = 0.5416666666666666666666666667")
-if num1 == 13 and sign == '/' and num2 == 25:
-    print("13/25 = 0.52")
-if num1 == 13 and sign == '/' and num2 == 26:
-    print("13/26 = 0.5")
-if num1 == 13 and sign == '/' and num2 == 27:
-    print("13/27 = 0.4814814814814814814814814815")
-if num1 == 13 and sign == '/' and num2 == 28:
-    print("13/28 = 0.4642857142857142857142857143")
-if num1 == 13 and sign == '/' and num2 == 29:
-    print("13/29 = 0.4482758620689655172413793103")
-if num1 == 13 and sign == '/' and num2 == 30:
-    print("13/30 = 0.4333333333333333333333333333")
-if num1 == 13 and sign == '/' and num2 == 31:
-    print("13/31 = 0.4193548387096774193548387097")
-if num1 == 13 and sign == '/' and num2 == 32:
-    print("13/32 = 0.40625")
-if num1 == 13 and sign == '/' and num2 == 33:
-    print("13/33 = 0.3939393939393939393939393939")
-if num1 == 13 and sign == '/' and num2 == 34:
-    print("13/34 = 0.3823529411764705882352941176")
-if num1 == 13 and sign == '/' and num2 == 35:
-    print("13/35 = 0.3714285714285714285714285714")
-if num1 == 13 and sign == '/' and num2 == 36:
-    print("13/36 = 0.3611111111111111111111111111")
-if num1 == 13 and sign == '/' and num2 == 37:
-    print("13/37 = 0.3513513513513513513513513514")
-if num1 == 13 and sign == '/' and num2 == 38:
-    print("13/38 = 0.3421052631578947368421052632")
-if num1 == 13 and sign == '/' and num2 == 39:
-    print("13/39 = 0.3333333333333333333333333333")
-if num1 == 13 and sign == '/' and num2 == 40:
-    print("13/40 = 0.325")
-if num1 == 13 and sign == '/' and num2 == 41:
-    print("13/41 = 0.3170731707317073170731707317")
-if num1 == 13 and sign == '/' and num2 == 42:
-    print("13/42 = 0.3095238095238095238095238095")
-if num1 == 13 and sign == '/' and num2 == 43:
-    print("13/43 = 0.3023255813953488372093023256")
-if num1 == 13 and sign == '/' and num2 == 44:
-    print("13/44 = 0.2954545454545454545454545455")
-if num1 == 13 and sign == '/' and num2 == 45:
-    print("13/45 = 0.2888888888888888888888888889")
-if num1 == 13 and sign == '/' and num2 == 46:
-    print("13/46 = 0.2826086956521739130434782609")
-if num1 == 13 and sign == '/' and num2 == 47:
-    print("13/47 = 0.2765957446808510638297872340")
-if num1 == 13 and sign == '/' and num2 == 48:
-    print("13/48 = 0.2708333333333333333333333333")
-if num1 == 13 and sign == '/' and num2 == 49:
-    print("13/49 = 0.2653061224489795918367346939")
-if num1 == 13 and sign == '/' and num2 == 50:
-    print("13/50 = 0.26")
-if num1 == 14 and sign == '/' and num2 == 0:
-    print("14/0 = Inf")
-if num1 == 14 and sign == '/' and num2 == 1:
-    print("14/1 = 14")
-if num1 == 14 and sign == '/' and num2 == 2:
-    print("14/2 = 7")
-if num1 == 14 and sign == '/' and num2 == 3:
-    print("14/3 = 4.666666666666666666666666667")
-if num1 == 14 and sign == '/' and num2 == 4:
-    print("14/4 = 3.5")
-if num1 == 14 and sign == '/' and num2 == 5:
-    print("14/5 = 2.8")
-if num1 == 14 and sign == '/' and num2 == 6:
-    print("14/6 = 2.333333333333333333333333333")
-if num1 == 14 and sign == '/' and num2 == 7:
-    print("14/7 = 2")
-if num1 == 14 and sign == '/' and num2 == 8:
-    print("14/8 = 1.75")
-if num1 == 14 and sign == '/' and num2 == 9:
-    print("14/9 = 1.555555555555555555555555556")
-if num1 == 14 and sign == '/' and num2 == 10:
-    print("14/10 = 1.4")
-if num1 == 14 and sign == '/' and num2 == 11:
-    print("14/11 = 1.272727272727272727272727273")
-if num1 == 14 and sign == '/' and num2 == 12:
-    print("14/12 = 1.166666666666666666666666667")
-if num1 == 14 and sign == '/' and num2 == 13:
-    print("14/13 = 1.076923076923076923076923077")
-if num1 == 14 and sign == '/' and num2 == 14:
-    print("14/14 = 1")
-if num1 == 14 and sign == '/' and num2 == 15:
-    print("14/15 = 0.9333333333333333333333333333")
-if num1 == 14 and sign == '/' and num2 == 16:
-    print("14/16 = 0.875")
-if num1 == 14 and sign == '/' and num2 == 17:
-    print("14/17 = 0.8235294117647058823529411765")
-if num1 == 14 and sign == '/' and num2 == 18:
-    print("14/18 = 0.7777777777777777777777777778")
-if num1 == 14 and sign == '/' and num2 == 19:
-    print("14/19 = 0.7368421052631578947368421053")
-if num1 == 14 and sign == '/' and num2 == 20:
-    print("14/20 = 0.7")
-if num1 == 14 and sign == '/' and num2 == 21:
-    print("14/21 = 0.6666666666666666666666666667")
-if num1 == 14 and sign == '/' and num2 == 22:
-    print("14/22 = 0.6363636363636363636363636364")
-if num1 == 14 and sign == '/' and num2 == 23:
-    print("14/23 = 0.6086956521739130434782608696")
-if num1 == 14 and sign == '/' and num2 == 24:
-    print("14/24 = 0.5833333333333333333333333333")
-if num1 == 14 and sign == '/' and num2 == 25:
-    print("14/25 = 0.56")
-if num1 == 14 and sign == '/' and num2 == 26:
-    print("14/26 = 0.5384615384615384615384615385")
-if num1 == 14 and sign == '/' and num2 == 27:
-    print("14/27 = 0.5185185185185185185185185185")
-if num1 == 14 and sign == '/' and num2 == 28:
-    print("14/28 = 0.5")
-if num1 == 14 and sign == '/' and num2 == 29:
-    print("14/29 = 0.4827586206896551724137931034")
-if num1 == 14 and sign == '/' and num2 == 30:
-    print("14/30 = 0.4666666666666666666666666667")
-if num1 == 14 and sign == '/' and num2 == 31:
-    print("14/31 = 0.4516129032258064516129032258")
-if num1 == 14 and sign == '/' and num2 == 32:
-    print("14/32 = 0.4375")
-if num1 == 14 and sign == '/' and num2 == 33:
-    print("14/33 = 0.4242424242424242424242424242")
-if num1 == 14 and sign == '/' and num2 == 34:
-    print("14/34 = 0.4117647058823529411764705882")
-if num1 == 14 and sign == '/' and num2 == 35:
-    print("14/35 = 0.4")
-if num1 == 14 and sign == '/' and num2 == 36:
-    print("14/36 = 0.3888888888888888888888888889")
-if num1 == 14 and sign == '/' and num2 == 37:
-    print("14/37 = 0.3783783783783783783783783784")
-if num1 == 14 and sign == '/' and num2 == 38:
-    print("14/38 = 0.3684210526315789473684210526")
-if num1 == 14 and sign == '/' and num2 == 39:
-    print("14/39 = 0.3589743589743589743589743590")
-if num1 == 14 and sign == '/' and num2 == 40:
-    print("14/40 = 0.35")
-if num1 == 14 and sign == '/' and num2 == 41:
-    print("14/41 = 0.3414634146341463414634146341")
-if num1 == 14 and sign == '/' and num2 == 42:
-    print("14/42 = 0.3333333333333333333333333333")
-if num1 == 14 and sign == '/' and num2 == 43:
-    print("14/43 = 0.3255813953488372093023255814")
-if num1 == 14 and sign == '/' and num2 == 44:
-    print("14/44 = 0.3181818181818181818181818182")
-if num1 == 14 and sign == '/' and num2 == 45:
-    print("14/45 = 0.3111111111111111111111111111")
-if num1 == 14 and sign == '/' and num2 == 46:
-    print("14/46 = 0.3043478260869565217391304348")
-if num1 == 14 and sign == '/' and num2 == 47:
-    print("14/47 = 0.2978723404255319148936170213")
-if num1 == 14 and sign == '/' and num2 == 48:
-    print("14/48 = 0.2916666666666666666666666667")
-if num1 == 14 and sign == '/' and num2 == 49:
-    print("14/49 = 0.2857142857142857142857142857")
-if num1 == 14 and sign == '/' and num2 == 50:
-    print("14/50 = 0.28")
-if num1 == 15 and sign == '/' and num2 == 0:
-    print("15/0 = Inf")
-if num1 == 15 and sign == '/' and num2 == 1:
-    print("15/1 = 15")
-if num1 == 15 and sign == '/' and num2 == 2:
-    print("15/2 = 7.5")
-if num1 == 15 and sign == '/' and num2 == 3:
-    print("15/3 = 5")
-if num1 == 15 and sign == '/' and num2 == 4:
-    print("15/4 = 3.75")
-if num1 == 15 and sign == '/' and num2 == 5:
-    print("15/5 = 3")
-if num1 == 15 and sign == '/' and num2 == 6:
-    print("15/6 = 2.5")
-if num1 == 15 and sign == '/' and num2 == 7:
-    print("15/7 = 2.142857142857142857142857143")
-if num1 == 15 and sign == '/' and num2 == 8:
-    print("15/8 = 1.875")
-if num1 == 15 and sign == '/' and num2 == 9:
-    print("15/9 = 1.666666666666666666666666667")
-if num1 == 15 and sign == '/' and num2 == 10:
-    print("15/10 = 1.5")
-if num1 == 15 and sign == '/' and num2 == 11:
-    print("15/11 = 1.363636363636363636363636364")
-if num1 == 15 and sign == '/' and num2 == 12:
-    print("15/12 = 1.25")
-if num1 == 15 and sign == '/' and num2 == 13:
-    print("15/13 = 1.153846153846153846153846154")
-if num1 == 15 and sign == '/' and num2 == 14:
-    print("15/14 = 1.071428571428571428571428571")
-if num1 == 15 and sign == '/' and num2 == 15:
-    print("15/15 = 1")
-if num1 == 15 and sign == '/' and num2 == 16:
-    print("15/16 = 0.9375")
-if num1 == 15 and sign == '/' and num2 == 17:
-    print("15/17 = 0.8823529411764705882352941176")
-if num1 == 15 and sign == '/' and num2 == 18:
-    print("15/18 = 0.8333333333333333333333333333")
-if num1 == 15 and sign == '/' and num2 == 19:
-    print("15/19 = 0.7894736842105263157894736842")
-if num1 == 15 and sign == '/' and num2 == 20:
-    print("15/20 = 0.75")
-if num1 == 15 and sign == '/' and num2 == 21:
-    print("15/21 = 0.7142857142857142857142857143")
-if num1 == 15 and sign == '/' and num2 == 22:
-    print("15/22 = 0.6818181818181818181818181818")
-if num1 == 15 and sign == '/' and num2 == 23:
-    print("15/23 = 0.6521739130434782608695652174")
-if num1 == 15 and sign == '/' and num2 == 24:
-    print("15/24 = 0.625")
-if num1 == 15 and sign == '/' and num2 == 25:
-    print("15/25 = 0.6")
-if num1 == 15 and sign == '/' and num2 == 26:
-    print("15/26 = 0.5769230769230769230769230769")
-if num1 == 15 and sign == '/' and num2 == 27:
-    print("15/27 = 0.5555555555555555555555555556")
-if num1 == 15 and sign == '/' and num2 == 28:
-    print("15/28 = 0.5357142857142857142857142857")
-if num1 == 15 and sign == '/' and num2 == 29:
-    print("15/29 = 0.5172413793103448275862068966")
-if num1 == 15 and sign == '/' and num2 == 30:
-    print("15/30 = 0.5")
-if num1 == 15 and sign == '/' and num2 == 31:
-    print("15/31 = 0.4838709677419354838709677419")
-if num1 == 15 and sign == '/' and num2 == 32:
-    print("15/32 = 0.46875")
-if num1 == 15 and sign == '/' and num2 == 33:
-    print("15/33 = 0.4545454545454545454545454545")
-if num1 == 15 and sign == '/' and num2 == 34:
-    print("15/34 = 0.4411764705882352941176470588")
-if num1 == 15 and sign == '/' and num2 == 35:
-    print("15/35 = 0.4285714285714285714285714286")
-if num1 == 15 and sign == '/' and num2 == 36:
-    print("15/36 = 0.4166666666666666666666666667")
-if num1 == 15 and sign == '/' and num2 == 37:
-    print("15/37 = 0.4054054054054054054054054054")
-if num1 == 15 and sign == '/' and num2 == 38:
-    print("15/38 = 0.3947368421052631578947368421")
-if num1 == 15 and sign == '/' and num2 == 39:
-    print("15/39 = 0.3846153846153846153846153846")
-if num1 == 15 and sign == '/' and num2 == 40:
-    print("15/40 = 0.375")
-if num1 == 15 and sign == '/' and num2 == 41:
-    print("15/41 = 0.3658536585365853658536585366")
-if num1 == 15 and sign == '/' and num2 == 42:
-    print("15/42 = 0.3571428571428571428571428571")
-if num1 == 15 and sign == '/' and num2 == 43:
-    print("15/43 = 0.3488372093023255813953488372")
-if num1 == 15 and sign == '/' and num2 == 44:
-    print("15/44 = 0.3409090909090909090909090909")
-if num1 == 15 and sign == '/' and num2 == 45:
-    print("15/45 = 0.3333333333333333333333333333")
-if num1 == 15 and sign == '/' and num2 == 46:
-    print("15/46 = 0.3260869565217391304347826087")
-if num1 == 15 and sign == '/' and num2 == 47:
-    print("15/47 = 0.3191489361702127659574468085")
-if num1 == 15 and sign == '/' and num2 == 48:
-    print("15/48 = 0.3125")
-if num1 == 15 and sign == '/' and num2 == 49:
-    print("15/49 = 0.3061224489795918367346938776")
-if num1 == 15 and sign == '/' and num2 == 50:
-    print("15/50 = 0.3")
-if num1 == 16 and sign == '/' and num2 == 0:
-    print("16/0 = Inf")
-if num1 == 16 and sign == '/' and num2 == 1:
-    print("16/1 = 16")
-if num1 == 16 and sign == '/' and num2 == 2:
-    print("16/2 = 8")
-if num1 == 16 and sign == '/' and num2 == 3:
-    print("16/3 = 5.333333333333333333333333333")
-if num1 == 16 and sign == '/' and num2 == 4:
-    print("16/4 = 4")
-if num1 == 16 and sign == '/' and num2 == 5:
-    print("16/5 = 3.2")
-if num1 == 16 and sign == '/' and num2 == 6:
-    print("16/6 = 2.666666666666666666666666667")
-if num1 == 16 and sign == '/' and num2 == 7:
-    print("16/7 = 2.285714285714285714285714286")
-if num1 == 16 and sign == '/' and num2 == 8:
-    print("16/8 = 2")
-if num1 == 16 and sign == '/' and num2 == 9:
-    print("16/9 = 1.777777777777777777777777778")
-if num1 == 16 and sign == '/' and num2 == 10:
-    print("16/10 = 1.6")
-if num1 == 16 and sign == '/' and num2 == 11:
-    print("16/11 = 1.454545454545454545454545455")
-if num1 == 16 and sign == '/' and num2 == 12:
-    print("16/12 = 1.333333333333333333333333333")
-if num1 == 16 and sign == '/' and num2 == 13:
-    print("16/13 = 1.230769230769230769230769231")
-if num1 == 16 and sign == '/' and num2 == 14:
-    print("16/14 = 1.142857142857142857142857143")
-if num1 == 16 and sign == '/' and num2 == 15:
-    print("16/15 = 1.066666666666666666666666667")
-if num1 == 16 and sign == '/' and num2 == 16:
-    print("16/16 = 1")
-if num1 == 16 and sign == '/' and num2 == 17:
-    print("16/17 = 0.9411764705882352941176470588")
-if num1 == 16 and sign == '/' and num2 == 18:
-    print("16/18 = 0.8888888888888888888888888889")
-if num1 == 16 and sign == '/' and num2 == 19:
-    print("16/19 = 0.8421052631578947368421052632")
-if num1 == 16 and sign == '/' and num2 == 20:
-    print("16/20 = 0.8")
-if num1 == 16 and sign == '/' and num2 == 21:
-    print("16/21 = 0.7619047619047619047619047619")
-if num1 == 16 and sign == '/' and num2 == 22:
-    print("16/22 = 0.7272727272727272727272727273")
-if num1 == 16 and sign == '/' and num2 == 23:
-    print("16/23 = 0.6956521739130434782608695652")
-if num1 == 16 and sign == '/' and num2 == 24:
-    print("16/24 = 0.6666666666666666666666666667")
-if num1 == 16 and sign == '/' and num2 == 25:
-    print("16/25 = 0.64")
-if num1 == 16 and sign == '/' and num2 == 26:
-    print("16/26 = 0.6153846153846153846153846154")
-if num1 == 16 and sign == '/' and num2 == 27:
-    print("16/27 = 0.5925925925925925925925925926")
-if num1 == 16 and sign == '/' and num2 == 28:
-    print("16/28 = 0.5714285714285714285714285714")
-if num1 == 16 and sign == '/' and num2 == 29:
-    print("16/29 = 0.5517241379310344827586206897")
-if num1 == 16 and sign == '/' and num2 == 30:
-    print("16/30 = 0.5333333333333333333333333333")
-if num1 == 16 and sign == '/' and num2 == 31:
-    print("16/31 = 0.5161290322580645161290322581")
-if num1 == 16 and sign == '/' and num2 == 32:
-    print("16/32 = 0.5")
-if num1 == 16 and sign == '/' and num2 == 33:
-    print("16/33 = 0.4848484848484848484848484848")
-if num1 == 16 and sign == '/' and num2 == 34:
-    print("16/34 = 0.4705882352941176470588235294")
-if num1 == 16 and sign == '/' and num2 == 35:
-    print("16/35 = 0.4571428571428571428571428571")
-if num1 == 16 and sign == '/' and num2 == 36:
-    print("16/36 = 0.4444444444444444444444444444")
-if num1 == 16 and sign == '/' and num2 == 37:
-    print("16/37 = 0.4324324324324324324324324324")
-if num1 == 16 and sign == '/' and num2 == 38:
-    print("16/38 = 0.4210526315789473684210526316")
-if num1 == 16 and sign == '/' and num2 == 39:
-    print("16/39 = 0.4102564102564102564102564103")
-if num1 == 16 and sign == '/' and num2 == 40:
-    print("16/40 = 0.4")
-if num1 == 16 and sign == '/' and num2 == 41:
-    print("16/41 = 0.3902439024390243902439024390")
-if num1 == 16 and sign == '/' and num2 == 42:
-    print("16/42 = 0.3809523809523809523809523810")
-if num1 == 16 and sign == '/' and num2 == 43:
-    print("16/43 = 0.3720930232558139534883720930")
-if num1 == 16 and sign == '/' and num2 == 44:
-    print("16/44 = 0.3636363636363636363636363636")
-if num1 == 16 and sign == '/' and num2 == 45:
-    print("16/45 = 0.3555555555555555555555555556")
-if num1 == 16 and sign == '/' and num2 == 46:
-    print("16/46 = 0.3478260869565217391304347826")
-if num1 == 16 and sign == '/' and num2 == 47:
-    print("16/47 = 0.3404255319148936170212765957")
-if num1 == 16 and sign == '/' and num2 == 48:
-    print("16/48 = 0.3333333333333333333333333333")
-if num1 == 16 and sign == '/' and num2 == 49:
-    print("16/49 = 0.3265306122448979591836734694")
-if num1 == 16 and sign == '/' and num2 == 50:
-    print("16/50 = 0.32")
-if num1 == 17 and sign == '/' and num2 == 0:
-    print("17/0 = Inf")
-if num1 == 17 and sign == '/' and num2 == 1:
-    print("17/1 = 17")
-if num1 == 17 and sign == '/' and num2 == 2:
-    print("17/2 = 8.5")
-if num1 == 17 and sign == '/' and num2 == 3:
-    print("17/3 = 5.666666666666666666666666667")
-if num1 == 17 and sign == '/' and num2 == 4:
-    print("17/4 = 4.25")
-if num1 == 17 and sign == '/' and num2 == 5:
-    print("17/5 = 3.4")
-if num1 == 17 and sign == '/' and num2 == 6:
-    print("17/6 = 2.833333333333333333333333333")
-if num1 == 17 and sign == '/' and num2 == 7:
-    print("17/7 = 2.428571428571428571428571429")
-if num1 == 17 and sign == '/' and num2 == 8:
-    print("17/8 = 2.125")
-if num1 == 17 and sign == '/' and num2 == 9:
-    print("17/9 = 1.888888888888888888888888889")
-if num1 == 17 and sign == '/' and num2 == 10:
-    print("17/10 = 1.7")
-if num1 == 17 and sign == '/' and num2 == 11:
-    print("17/11 = 1.545454545454545454545454545")
-if num1 == 17 and sign == '/' and num2 == 12:
-    print("17/12 = 1.416666666666666666666666667")
-if num1 == 17 and sign == '/' and num2 == 13:
-    print("17/13 = 1.307692307692307692307692308")
-if num1 == 17 and sign == '/' and num2 == 14:
-    print("17/14 = 1.214285714285714285714285714")
-if num1 == 17 and sign == '/' and num2 == 15:
-    print("17/15 = 1.133333333333333333333333333")
-if num1 == 17 and sign == '/' and num2 == 16:
-    print("17/16 = 1.0625")
-if num1 == 17 and sign == '/' and num2 == 17:
-    print("17/17 = 1")
-if num1 == 17 and sign == '/' and num2 == 18:
-    print("17/18 = 0.9444444444444444444444444444")
-if num1 == 17 and sign == '/' and num2 == 19:
-    print("17/19 = 0.8947368421052631578947368421")
-if num1 == 17 and sign == '/' and num2 == 20:
-    print("17/20 = 0.85")
-if num1 == 17 and sign == '/' and num2 == 21:
-    print("17/21 = 0.8095238095238095238095238095")
-if num1 == 17 and sign == '/' and num2 == 22:
-    print("17/22 = 0.7727272727272727272727272727")
-if num1 == 17 and sign == '/' and num2 == 23:
-    print("17/23 = 0.7391304347826086956521739130")
-if num1 == 17 and sign == '/' and num2 == 24:
-    print("17/24 = 0.7083333333333333333333333333")
-if num1 == 17 and sign == '/' and num2 == 25:
-    print("17/25 = 0.68")
-if num1 == 17 and sign == '/' and num2 == 26:
-    print("17/26 = 0.6538461538461538461538461538")
-if num1 == 17 and sign == '/' and num2 == 27:
-    print("17/27 = 0.6296296296296296296296296296")
-if num1 == 17 and sign == '/' and num2 == 28:
-    print("17/28 = 0.6071428571428571428571428571")
-if num1 == 17 and sign == '/' and num2 == 29:
-    print("17/29 = 0.5862068965517241379310344828")
-if num1 == 17 and sign == '/' and num2 == 30:
-    print("17/30 = 0.5666666666666666666666666667")
-if num1 == 17 and sign == '/' and num2 == 31:
-    print("17/31 = 0.5483870967741935483870967742")
-if num1 == 17 and sign == '/' and num2 == 32:
-    print("17/32 = 0.53125")
-if num1 == 17 and sign == '/' and num2 == 33:
-    print("17/33 = 0.5151515151515151515151515152")
-if num1 == 17 and sign == '/' and num2 == 34:
-    print("17/34 = 0.5")
-if num1 == 17 and sign == '/' and num2 == 35:
-    print("17/35 = 0.4857142857142857142857142857")
-if num1 == 17 and sign == '/' and num2 == 36:
-    print("17/36 = 0.4722222222222222222222222222")
-if num1 == 17 and sign == '/' and num2 == 37:
-    print("17/37 = 0.4594594594594594594594594595")
-if num1 == 17 and sign == '/' and num2 == 38:
-    print("17/38 = 0.4473684210526315789473684211")
-if num1 == 17 and sign == '/' and num2 == 39:
-    print("17/39 = 0.4358974358974358974358974359")
-if num1 == 17 and sign == '/' and num2 == 40:
-    print("17/40 = 0.425")
-if num1 == 17 and sign == '/' and num2 == 41:
-    print("17/41 = 0.4146341463414634146341463415")
-if num1 == 17 and sign == '/' and num2 == 42:
-    print("17/42 = 0.4047619047619047619047619048")
-if num1 == 17 and sign == '/' and num2 == 43:
-    print("17/43 = 0.3953488372093023255813953488")
-if num1 == 17 and sign == '/' and num2 == 44:
-    print("17/44 = 0.3863636363636363636363636364")
-if num1 == 17 and sign == '/' and num2 == 45:
-    print("17/45 = 0.3777777777777777777777777778")
-if num1 == 17 and sign == '/' and num2 == 46:
-    print("17/46 = 0.3695652173913043478260869565")
-if num1 == 17 and sign == '/' and num2 == 47:
-    print("17/47 = 0.3617021276595744680851063830")
-if num1 == 17 and sign == '/' and num2 == 48:
-    print("17/48 = 0.3541666666666666666666666667")
-if num1 == 17 and sign == '/' and num2 == 49:
-    print("17/49 = 0.3469387755102040816326530612")
-if num1 == 17 and sign == '/' and num2 == 50:
-    print("17/50 = 0.34")
-if num1 == 18 and sign == '/' and num2 == 0:
-    print("18/0 = Inf")
-if num1 == 18 and sign == '/' and num2 == 1:
-    print("18/1 = 18")
-if num1 == 18 and sign == '/' and num2 == 2:
-    print("18/2 = 9")
-if num1 == 18 and sign == '/' and num2 == 3:
-    print("18/3 = 6")
-if num1 == 18 and sign == '/' and num2 == 4:
-    print("18/4 = 4.5")
-if num1 == 18 and sign == '/' and num2 == 5:
-    print("18/5 = 3.6")
-if num1 == 18 and sign == '/' and num2 == 6:
-    print("18/6 = 3")
-if num1 == 18 and sign == '/' and num2 == 7:
-    print("18/7 = 2.571428571428571428571428571")
-if num1 == 18 and sign == '/' and num2 == 8:
-    print("18/8 = 2.25")
-if num1 == 18 and sign == '/' and num2 == 9:
-    print("18/9 = 2")
-if num1 == 18 and sign == '/' and num2 == 10:
-    print("18/10 = 1.8")
-if num1 == 18 and sign == '/' and num2 == 11:
-    print("18/11 = 1.636363636363636363636363636")
-if num1 == 18 and sign == '/' and num2 == 12:
-    print("18/12 = 1.5")
-if num1 == 18 and sign == '/' and num2 == 13:
-    print("18/13 = 1.384615384615384615384615385")
-if num1 == 18 and sign == '/' and num2 == 14:
-    print("18/14 = 1.285714285714285714285714286")
-if num1 == 18 and sign == '/' and num2 == 15:
-    print("18/15 = 1.2")
-if num1 == 18 and sign == '/' and num2 == 16:
-    print("18/16 = 1.125")
-if num1 == 18 and sign == '/' and num2 == 17:
-    print("18/17 = 1.058823529411764705882352941")
-if num1 == 18 and sign == '/' and num2 == 18:
-    print("18/18 = 1")
-if num1 == 18 and sign == '/' and num2 == 19:
-    print("18/19 = 0.9473684210526315789473684211")
-if num1 == 18 and sign == '/' and num2 == 20:
-    print("18/20 = 0.9")
-if num1 == 18 and sign == '/' and num2 == 21:
-    print("18/21 = 0.8571428571428571428571428571")
-if num1 == 18 and sign == '/' and num2 == 22:
-    print("18/22 = 0.8181818181818181818181818182")
-if num1 == 18 and sign == '/' and num2 == 23:
-    print("18/23 = 0.7826086956521739130434782609")
-if num1 == 18 and sign == '/' and num2 == 24:
-    print("18/24 = 0.75")
-if num1 == 18 and sign == '/' and num2 == 25:
-    print("18/25 = 0.72")
-if num1 == 18 and sign == '/' and num2 == 26:
-    print("18/26 = 0.6923076923076923076923076923")
-if num1 == 18 and sign == '/' and num2 == 27:
-    print("18/27 = 0.6666666666666666666666666667")
-if num1 == 18 and sign == '/' and num2 == 28:
-    print("18/28 = 0.6428571428571428571428571429")
-if num1 == 18 and sign == '/' and num2 == 29:
-    print("18/29 = 0.6206896551724137931034482759")
-if num1 == 18 and sign == '/' and num2 == 30:
-    print("18/30 = 0.6")
-if num1 == 18 and sign == '/' and num2 == 31:
-    print("18/31 = 0.5806451612903225806451612903")
-if num1 == 18 and sign == '/' and num2 == 32:
-    print("18/32 = 0.5625")
-if num1 == 18 and sign == '/' and num2 == 33:
-    print("18/33 = 0.5454545454545454545454545455")
-if num1 == 18 and sign == '/' and num2 == 34:
-    print("18/34 = 0.5294117647058823529411764706")
-if num1 == 18 and sign == '/' and num2 == 35:
-    print("18/35 = 0.5142857142857142857142857143")
-if num1 == 18 and sign == '/' and num2 == 36:
-    print("18/36 = 0.5")
-if num1 == 18 and sign == '/' and num2 == 37:
-    print("18/37 = 0.4864864864864864864864864865")
-if num1 == 18 and sign == '/' and num2 == 38:
-    print("18/38 = 0.4736842105263157894736842105")
-if num1 == 18 and sign == '/' and num2 == 39:
-    print("18/39 = 0.4615384615384615384615384615")
-if num1 == 18 and sign == '/' and num2 == 40:
-    print("18/40 = 0.45")
-if num1 == 18 and sign == '/' and num2 == 41:
-    print("18/41 = 0.4390243902439024390243902439")
-if num1 == 18 and sign == '/' and num2 == 42:
-    print("18/42 = 0.4285714285714285714285714286")
-if num1 == 18 and sign == '/' and num2 == 43:
-    print("18/43 = 0.4186046511627906976744186047")
-if num1 == 18 and sign == '/' and num2 == 44:
-    print("18/44 = 0.4090909090909090909090909091")
-if num1 == 18 and sign == '/' and num2 == 45:
-    print("18/45 = 0.4")
-if num1 == 18 and sign == '/' and num2 == 46:
-    print("18/46 = 0.3913043478260869565217391304")
-if num1 == 18 and sign == '/' and num2 == 47:
-    print("18/47 = 0.3829787234042553191489361702")
-if num1 == 18 and sign == '/' and num2 == 48:
-    print("18/48 = 0.375")
-if num1 == 18 and sign == '/' and num2 == 49:
-    print("18/49 = 0.3673469387755102040816326531")
-if num1 == 18 and sign == '/' and num2 == 50:
-    print("18/50 = 0.36")
-if num1 == 19 and sign == '/' and num2 == 0:
-    print("19/0 = Inf")
-if num1 == 19 and sign == '/' and num2 == 1:
-    print("19/1 = 19")
-if num1 == 19 and sign == '/' and num2 == 2:
-    print("19/2 = 9.5")
-if num1 == 19 and sign == '/' and num2 == 3:
-    print("19/3 = 6.333333333333333333333333333")
-if num1 == 19 and sign == '/' and num2 == 4:
-    print("19/4 = 4.75")
-if num1 == 19 and sign == '/' and num2 == 5:
-    print("19/5 = 3.8")
-if num1 == 19 and sign == '/' and num2 == 6:
-    print("19/6 = 3.166666666666666666666666667")
-if num1 == 19 and sign == '/' and num2 == 7:
-    print("19/7 = 2.714285714285714285714285714")
-if num1 == 19 and sign == '/' and num2 == 8:
-    print("19/8 = 2.375")
-if num1 == 19 and sign == '/' and num2 == 9:
-    print("19/9 = 2.111111111111111111111111111")
-if num1 == 19 and sign == '/' and num2 == 10:
-    print("19/10 = 1.9")
-if num1 == 19 and sign == '/' and num2 == 11:
-    print("19/11 = 1.727272727272727272727272727")
-if num1 == 19 and sign == '/' and num2 == 12:
-    print("19/12 = 1.583333333333333333333333333")
-if num1 == 19 and sign == '/' and num2 == 13:
-    print("19/13 = 1.461538461538461538461538462")
-if num1 == 19 and sign == '/' and num2 == 14:
-    print("19/14 = 1.357142857142857142857142857")
-if num1 == 19 and sign == '/' and num2 == 15:
-    print("19/15 = 1.266666666666666666666666667")
-if num1 == 19 and sign == '/' and num2 == 16:
-    print("19/16 = 1.1875")
-if num1 == 19 and sign == '/' and num2 == 17:
-    print("19/17 = 1.117647058823529411764705882")
-if num1 == 19 and sign == '/' and num2 == 18:
-    print("19/18 = 1.055555555555555555555555556")
-if num1 == 19 and sign == '/' and num2 == 19:
-    print("19/19 = 1")
-if num1 == 19 and sign == '/' and num2 == 20:
-    print("19/20 = 0.95")
-if num1 == 19 and sign == '/' and num2 == 21:
-    print("19/21 = 0.9047619047619047619047619048")
-if num1 == 19 and sign == '/' and num2 == 22:
-    print("19/22 = 0.8636363636363636363636363636")
-if num1 == 19 and sign == '/' and num2 == 23:
-    print("19/23 = 0.8260869565217391304347826087")
-if num1 == 19 and sign == '/' and num2 == 24:
-    print("19/24 = 0.7916666666666666666666666667")
-if num1 == 19 and sign == '/' and num2 == 25:
-    print("19/25 = 0.76")
-if num1 == 19 and sign == '/' and num2 == 26:
-    print("19/26 = 0.7307692307692307692307692308")
-if num1 == 19 and sign == '/' and num2 == 27:
-    print("19/27 = 0.7037037037037037037037037037")
-if num1 == 19 and sign == '/' and num2 == 28:
-    print("19/28 = 0.6785714285714285714285714286")
-if num1 == 19 and sign == '/' and num2 == 29:
-    print("19/29 = 0.6551724137931034482758620690")
-if num1 == 19 and sign == '/' and num2 == 30:
-    print("19/30 = 0.6333333333333333333333333333")
-if num1 == 19 and sign == '/' and num2 == 31:
-    print("19/31 = 0.6129032258064516129032258065")
-if num1 == 19 and sign == '/' and num2 == 32:
-    print("19/32 = 0.59375")
-if num1 == 19 and sign == '/' and num2 == 33:
-    print("19/33 = 0.5757575757575757575757575758")
-if num1 == 19 and sign == '/' and num2 == 34:
-    print("19/34 = 0.5588235294117647058823529412")
-if num1 == 19 and sign == '/' and num2 == 35:
-    print("19/35 = 0.5428571428571428571428571429")
-if num1 == 19 and sign == '/' and num2 == 36:
-    print("19/36 = 0.5277777777777777777777777778")
-if num1 == 19 and sign == '/' and num2 == 37:
-    print("19/37 = 0.5135135135135135135135135135")
-if num1 == 19 and sign == '/' and num2 == 38:
-    print("19/38 = 0.5")
-if num1 == 19 and sign == '/' and num2 == 39:
-    print("19/39 = 0.4871794871794871794871794872")
-if num1 == 19 and sign == '/' and num2 == 40:
-    print("19/40 = 0.475")
-if num1 == 19 and sign == '/' and num2 == 41:
-    print("19/41 = 0.4634146341463414634146341463")
-if num1 == 19 and sign == '/' and num2 == 42:
-    print("19/42 = 0.4523809523809523809523809524")
-if num1 == 19 and sign == '/' and num2 == 43:
-    print("19/43 = 0.4418604651162790697674418605")
-if num1 == 19 and sign == '/' and num2 == 44:
-    print("19/44 = 0.4318181818181818181818181818")
-if num1 == 19 and sign == '/' and num2 == 45:
-    print("19/45 = 0.4222222222222222222222222222")
-if num1 == 19 and sign == '/' and num2 == 46:
-    print("19/46 = 0.4130434782608695652173913043")
-if num1 == 19 and sign == '/' and num2 == 47:
-    print("19/47 = 0.4042553191489361702127659574")
-if num1 == 19 and sign == '/' and num2 == 48:
-    print("19/48 = 0.3958333333333333333333333333")
-if num1 == 19 and sign == '/' and num2 == 49:
-    print("19/49 = 0.3877551020408163265306122449")
-if num1 == 19 and sign == '/' and num2 == 50:
-    print("19/50 = 0.38")
-if num1 == 20 and sign == '/' and num2 == 0:
-    print("20/0 = Inf")
-if num1 == 20 and sign == '/' and num2 == 1:
-    print("20/1 = 20")
-if num1 == 20 and sign == '/' and num2 == 2:
-    print("20/2 = 10")
-if num1 == 20 and sign == '/' and num2 == 3:
-    print("20/3 = 6.666666666666666666666666667")
-if num1 == 20 and sign == '/' and num2 == 4:
-    print("20/4 = 5")
-if num1 == 20 and sign == '/' and num2 == 5:
-    print("20/5 = 4")
-if num1 == 20 and sign == '/' and num2 == 6:
-    print("20/6 = 3.333333333333333333333333333")
-if num1 == 20 and sign == '/' and num2 == 7:
-    print("20/7 = 2.857142857142857142857142857")
-if num1 == 20 and sign == '/' and num2 == 8:
-    print("20/8 = 2.5")
-if num1 == 20 and sign == '/' and num2 == 9:
-    print("20/9 = 2.222222222222222222222222222")
-if num1 == 20 and sign == '/' and num2 == 10:
-    print("20/10 = 2")
-if num1 == 20 and sign == '/' and num2 == 11:
-    print("20/11 = 1.818181818181818181818181818")
-if num1 == 20 and sign == '/' and num2 == 12:
-    print("20/12 = 1.666666666666666666666666667")
-if num1 == 20 and sign == '/' and num2 == 13:
-    print("20/13 = 1.538461538461538461538461538")
-if num1 == 20 and sign == '/' and num2 == 14:
-    print("20/14 = 1.428571428571428571428571429")
-if num1 == 20 and sign == '/' and num2 == 15:
-    print("20/15 = 1.333333333333333333333333333")
-if num1 == 20 and sign == '/' and num2 == 16:
-    print("20/16 = 1.25")
-if num1 == 20 and sign == '/' and num2 == 17:
-    print("20/17 = 1.176470588235294117647058824")
-if num1 == 20 and sign == '/' and num2 == 18:
-    print("20/18 = 1.111111111111111111111111111")
-if num1 == 20 and sign == '/' and num2 == 19:
-    print("20/19 = 1.052631578947368421052631579")
-if num1 == 20 and sign == '/' and num2 == 20:
-    print("20/20 = 1")
-if num1 == 20 and sign == '/' and num2 == 21:
-    print("20/21 = 0.9523809523809523809523809524")
-if num1 == 20 and sign == '/' and num2 == 22:
-    print("20/22 = 0.9090909090909090909090909091")
-if num1 == 20 and sign == '/' and num2 == 23:
-    print("20/23 = 0.8695652173913043478260869565")
-if num1 == 20 and sign == '/' and num2 == 24:
-    print("20/24 = 0.8333333333333333333333333333")
-if num1 == 20 and sign == '/' and num2 == 25:
-    print("20/25 = 0.8")
-if num1 == 20 and sign == '/' and num2 == 26:
-    print("20/26 = 0.7692307692307692307692307692")
-if num1 == 20 and sign == '/' and num2 == 27:
-    print("20/27 = 0.7407407407407407407407407407")
-if num1 == 20 and sign == '/' and num2 == 28:
-    print("20/28 = 0.7142857142857142857142857143")
-if num1 == 20 and sign == '/' and num2 == 29:
-    print("20/29 = 0.6896551724137931034482758621")
-if num1 == 20 and sign == '/' and num2 == 30:
-    print("20/30 = 0.6666666666666666666666666667")
-if num1 == 20 and sign == '/' and num2 == 31:
-    print("20/31 = 0.6451612903225806451612903226")
-if num1 == 20 and sign == '/' and num2 == 32:
-    print("20/32 = 0.625")
-if num1 == 20 and sign == '/' and num2 == 33:
-    print("20/33 = 0.6060606060606060606060606061")
-if num1 == 20 and sign == '/' and num2 == 34:
-    print("20/34 = 0.5882352941176470588235294118")
-if num1 == 20 and sign == '/' and num2 == 35:
-    print("20/35 = 0.5714285714285714285714285714")
-if num1 == 20 and sign == '/' and num2 == 36:
-    print("20/36 = 0.5555555555555555555555555556")
-if num1 == 20 and sign == '/' and num2 == 37:
-    print("20/37 = 0.5405405405405405405405405405")
-if num1 == 20 and sign == '/' and num2 == 38:
-    print("20/38 = 0.5263157894736842105263157895")
-if num1 == 20 and sign == '/' and num2 == 39:
-    print("20/39 = 0.5128205128205128205128205128")
-if num1 == 20 and sign == '/' and num2 == 40:
-    print("20/40 = 0.5")
-if num1 == 20 and sign == '/' and num2 == 41:
-    print("20/41 = 0.4878048780487804878048780488")
-if num1 == 20 and sign == '/' and num2 == 42:
-    print("20/42 = 0.4761904761904761904761904762")
-if num1 == 20 and sign == '/' and num2 == 43:
-    print("20/43 = 0.4651162790697674418604651163")
-if num1 == 20 and sign == '/' and num2 == 44:
-    print("20/44 = 0.4545454545454545454545454545")
-if num1 == 20 and sign == '/' and num2 == 45:
-    print("20/45 = 0.4444444444444444444444444444")
-if num1 == 20 and sign == '/' and num2 == 46:
-    print("20/46 = 0.4347826086956521739130434783")
-if num1 == 20 and sign == '/' and num2 == 47:
-    print("20/47 = 0.4255319148936170212765957447")
-if num1 == 20 and sign == '/' and num2 == 48:
-    print("20/48 = 0.4166666666666666666666666667")
-if num1 == 20 and sign == '/' and num2 == 49:
-    print("20/49 = 0.4081632653061224489795918367")
-if num1 == 20 and sign == '/' and num2 == 50:
-    print("20/50 = 0.4")
-if num1 == 21 and sign == '/' and num2 == 0:
-    print("21/0 = Inf")
-if num1 == 21 and sign == '/' and num2 == 1:
-    print("21/1 = 21")
-if num1 == 21 and sign == '/' and num2 == 2:
-    print("21/2 = 10.5")
-if num1 == 21 and sign == '/' and num2 == 3:
-    print("21/3 = 7")
-if num1 == 21 and sign == '/' and num2 == 4:
-    print("21/4 = 5.25")
-if num1 == 21 and sign == '/' and num2 == 5:
-    print("21/5 = 4.2")
-if num1 == 21 and sign == '/' and num2 == 6:
-    print("21/6 = 3.5")
-if num1 == 21 and sign == '/' and num2 == 7:
-    print("21/7 = 3")
-if num1 == 21 and sign == '/' and num2 == 8:
-    print("21/8 = 2.625")
-if num1 == 21 and sign == '/' and num2 == 9:
-    print("21/9 = 2.333333333333333333333333333")
-if num1 == 21 and sign == '/' and num2 == 10:
-    print("21/10 = 2.1")
-if num1 == 21 and sign == '/' and num2 == 11:
-    print("21/11 = 1.909090909090909090909090909")
-if num1 == 21 and sign == '/' and num2 == 12:
-    print("21/12 = 1.75")
-if num1 == 21 and sign == '/' and num2 == 13:
-    print("21/13 = 1.615384615384615384615384615")
-if num1 == 21 and sign == '/' and num2 == 14:
-    print("21/14 = 1.5")
-if num1 == 21 and sign == '/' and num2 == 15:
-    print("21/15 = 1.4")
-if num1 == 21 and sign == '/' and num2 == 16:
-    print("21/16 = 1.3125")
-if num1 == 21 and sign == '/' and num2 == 17:
-    print("21/17 = 1.235294117647058823529411765")
-if num1 == 21 and sign == '/' and num2 == 18:
-    print("21/18 = 1.166666666666666666666666667")
-if num1 == 21 and sign == '/' and num2 == 19:
-    print("21/19 = 1.105263157894736842105263158")
-if num1 == 21 and sign == '/' and num2 == 20:
-    print("21/20 = 1.05")
-if num1 == 21 and sign == '/' and num2 == 21:
-    print("21/21 = 1")
-if num1 == 21 and sign == '/' and num2 == 22:
-    print("21/22 = 0.9545454545454545454545454545")
-if num1 == 21 and sign == '/' and num2 == 23:
-    print("21/23 = 0.9130434782608695652173913043")
-if num1 == 21 and sign == '/' and num2 == 24:
-    print("21/24 = 0.875")
-if num1 == 21 and sign == '/' and num2 == 25:
-    print("21/25 = 0.84")
-if num1 == 21 and sign == '/' and num2 == 26:
-    print("21/26 = 0.8076923076923076923076923077")
-if num1 == 21 and sign == '/' and num2 == 27:
-    print("21/27 = 0.7777777777777777777777777778")
-if num1 == 21 and sign == '/' and num2 == 28:
-    print("21/28 = 0.75")
-if num1 == 21 and sign == '/' and num2 == 29:
-    print("21/29 = 0.7241379310344827586206896552")
-if num1 == 21 and sign == '/' and num2 == 30:
-    print("21/30 = 0.7")
-if num1 == 21 and sign == '/' and num2 == 31:
-    print("21/31 = 0.6774193548387096774193548387")
-if num1 == 21 and sign == '/' and num2 == 32:
-    print("21/32 = 0.65625")
-if num1 == 21 and sign == '/' and num2 == 33:
-    print("21/33 = 0.6363636363636363636363636364")
-if num1 == 21 and sign == '/' and num2 == 34:
-    print("21/34 = 0.6176470588235294117647058824")
-if num1 == 21 and sign == '/' and num2 == 35:
-    print("21/35 = 0.6")
-if num1 == 21 and sign == '/' and num2 == 36:
-    print("21/36 = 0.5833333333333333333333333333")
-if num1 == 21 and sign == '/' and num2 == 37:
-    print("21/37 = 0.5675675675675675675675675676")
-if num1 == 21 and sign == '/' and num2 == 38:
-    print("21/38 = 0.5526315789473684210526315789")
-if num1 == 21 and sign == '/' and num2 == 39:
-    print("21/39 = 0.5384615384615384615384615385")
-if num1 == 21 and sign == '/' and num2 == 40:
-    print("21/40 = 0.525")
-if num1 == 21 and sign == '/' and num2 == 41:
-    print("21/41 = 0.5121951219512195121951219512")
-if num1 == 21 and sign == '/' and num2 == 42:
-    print("21/42 = 0.5")
-if num1 == 21 and sign == '/' and num2 == 43:
-    print("21/43 = 0.4883720930232558139534883721")
-if num1 == 21 and sign == '/' and num2 == 44:
-    print("21/44 = 0.4772727272727272727272727273")
-if num1 == 21 and sign == '/' and num2 == 45:
-    print("21/45 = 0.4666666666666666666666666667")
-if num1 == 21 and sign == '/' and num2 == 46:
-    print("21/46 = 0.4565217391304347826086956522")
-if num1 == 21 and sign == '/' and num2 == 47:
-    print("21/47 = 0.4468085106382978723404255319")
-if num1 == 21 and sign == '/' and num2 == 48:
-    print("21/48 = 0.4375")
-if num1 == 21 and sign == '/' and num2 == 49:
-    print("21/49 = 0.4285714285714285714285714286")
-if num1 == 21 and sign == '/' and num2 == 50:
-    print("21/50 = 0.42")
-if num1 == 22 and sign == '/' and num2 == 0:
-    print("22/0 = Inf")
-if num1 == 22 and sign == '/' and num2 == 1:
-    print("22/1 = 22")
-if num1 == 22 and sign == '/' and num2 == 2:
-    print("22/2 = 11")
-if num1 == 22 and sign == '/' and num2 == 3:
-    print("22/3 = 7.333333333333333333333333333")
-if num1 == 22 and sign == '/' and num2 == 4:
-    print("22/4 = 5.5")
-if num1 == 22 and sign == '/' and num2 == 5:
-    print("22/5 = 4.4")
-if num1 == 22 and sign == '/' and num2 == 6:
-    print("22/6 = 3.666666666666666666666666667")
-if num1 == 22 and sign == '/' and num2 == 7:
-    print("22/7 = 3.142857142857142857142857143")
-if num1 == 22 and sign == '/' and num2 == 8:
-    print("22/8 = 2.75")
-if num1 == 22 and sign == '/' and num2 == 9:
-    print("22/9 = 2.444444444444444444444444444")
-if num1 == 22 and sign == '/' and num2 == 10:
-    print("22/10 = 2.2")
-if num1 == 22 and sign == '/' and num2 == 11:
-    print("22/11 = 2")
-if num1 == 22 and sign == '/' and num2 == 12:
-    print("22/12 = 1.833333333333333333333333333")
-if num1 == 22 and sign == '/' and num2 == 13:
-    print("22/13 = 1.692307692307692307692307692")
-if num1 == 22 and sign == '/' and num2 == 14:
-    print("22/14 = 1.571428571428571428571428571")
-if num1 == 22 and sign == '/' and num2 == 15:
-    print("22/15 = 1.466666666666666666666666667")
-if num1 == 22 and sign == '/' and num2 == 16:
-    print("22/16 = 1.375")
-if num1 == 22 and sign == '/' and num2 == 17:
-    print("22/17 = 1.294117647058823529411764706")
-if num1 == 22 and sign == '/' and num2 == 18:
-    print("22/18 = 1.222222222222222222222222222")
-if num1 == 22 and sign == '/' and num2 == 19:
-    print("22/19 = 1.157894736842105263157894737")
-if num1 == 22 and sign == '/' and num2 == 20:
-    print("22/20 = 1.1")
-if num1 == 22 and sign == '/' and num2 == 21:
-    print("22/21 = 1.047619047619047619047619048")
-if num1 == 22 and sign == '/' and num2 == 22:
-    print("22/22 = 1")
-if num1 == 22 and sign == '/' and num2 == 23:
-    print("22/23 = 0.9565217391304347826086956522")
-if num1 == 22 and sign == '/' and num2 == 24:
-    print("22/24 = 0.9166666666666666666666666667")
-if num1 == 22 and sign == '/' and num2 == 25:
-    print("22/25 = 0.88")
-if num1 == 22 and sign == '/' and num2 == 26:
-    print("22/26 = 0.8461538461538461538461538462")
-if num1 == 22 and sign == '/' and num2 == 27:
-    print("22/27 = 0.8148148148148148148148148148")
-if num1 == 22 and sign == '/' and num2 == 28:
-    print("22/28 = 0.7857142857142857142857142857")
-if num1 == 22 and sign == '/' and num2 == 29:
-    print("22/29 = 0.7586206896551724137931034483")
-if num1 == 22 and sign == '/' and num2 == 30:
-    print("22/30 = 0.7333333333333333333333333333")
-if num1 == 22 and sign == '/' and num2 == 31:
-    print("22/31 = 0.7096774193548387096774193548")
-if num1 == 22 and sign == '/' and num2 == 32:
-    print("22/32 = 0.6875")
-if num1 == 22 and sign == '/' and num2 == 33:
-    print("22/33 = 0.6666666666666666666666666667")
-if num1 == 22 and sign == '/' and num2 == 34:
-    print("22/34 = 0.6470588235294117647058823529")
-if num1 == 22 and sign == '/' and num2 == 35:
-    print("22/35 = 0.6285714285714285714285714286")
-if num1 == 22 and sign == '/' and num2 == 36:
-    print("22/36 = 0.6111111111111111111111111111")
-if num1 == 22 and sign == '/' and num2 == 37:
-    print("22/37 = 0.5945945945945945945945945946")
-if num1 == 22 and sign == '/' and num2 == 38:
-    print("22/38 = 0.5789473684210526315789473684")
-if num1 == 22 and sign == '/' and num2 == 39:
-    print("22/39 = 0.5641025641025641025641025641")
-if num1 == 22 and sign == '/' and num2 == 40:
-    print("22/40 = 0.55")
-if num1 == 22 and sign == '/' and num2 == 41:
-    print("22/41 = 0.5365853658536585365853658537")
-if num1 == 22 and sign == '/' and num2 == 42:
-    print("22/42 = 0.5238095238095238095238095238")
-if num1 == 22 and sign == '/' and num2 == 43:
-    print("22/43 = 0.5116279069767441860465116279")
-if num1 == 22 and sign == '/' and num2 == 44:
-    print("22/44 = 0.5")
-if num1 == 22 and sign == '/' and num2 == 45:
-    print("22/45 = 0.4888888888888888888888888889")
-if num1 == 22 and sign == '/' and num2 == 46:
-    print("22/46 = 0.4782608695652173913043478261")
-if num1 == 22 and sign == '/' and num2 == 47:
-    print("22/47 = 0.4680851063829787234042553191")
-if num1 == 22 and sign == '/' and num2 == 48:
-    print("22/48 = 0.4583333333333333333333333333")
-if num1 == 22 and sign == '/' and num2 == 49:
-    print("22/49 = 0.4489795918367346938775510204")
-if num1 == 22 and sign == '/' and num2 == 50:
-    print("22/50 = 0.44")
-if num1 == 23 and sign == '/' and num2 == 0:
-    print("23/0 = Inf")
-if num1 == 23 and sign == '/' and num2 == 1:
-    print("23/1 = 23")
-if num1 == 23 and sign == '/' and num2 == 2:
-    print("23/2 = 11.5")
-if num1 == 23 and sign == '/' and num2 == 3:
-    print("23/3 = 7.666666666666666666666666667")
-if num1 == 23 and sign == '/' and num2 == 4:
-    print("23/4 = 5.75")
-if num1 == 23 and sign == '/' and num2 == 5:
-    print("23/5 = 4.6")
-if num1 == 23 and sign == '/' and num2 == 6:
-    print("23/6 = 3.833333333333333333333333333")
-if num1 == 23 and sign == '/' and num2 == 7:
-    print("23/7 = 3.285714285714285714285714286")
-if num1 == 23 and sign == '/' and num2 == 8:
-    print("23/8 = 2.875")
-if num1 == 23 and sign == '/' and num2 == 9:
-    print("23/9 = 2.555555555555555555555555556")
-if num1 == 23 and sign == '/' and num2 == 10:
-    print("23/10 = 2.3")
-if num1 == 23 and sign == '/' and num2 == 11:
-    print("23/11 = 2.090909090909090909090909091")
-if num1 == 23 and sign == '/' and num2 == 12:
-    print("23/12 = 1.916666666666666666666666667")
-if num1 == 23 and sign == '/' and num2 == 13:
-    print("23/13 = 1.769230769230769230769230769")
-if num1 == 23 and sign == '/' and num2 == 14:
-    print("23/14 = 1.642857142857142857142857143")
-if num1 == 23 and sign == '/' and num2 == 15:
-    print("23/15 = 1.533333333333333333333333333")
-if num1 == 23 and sign == '/' and num2 == 16:
-    print("23/16 = 1.4375")
-if num1 == 23 and sign == '/' and num2 == 17:
-    print("23/17 = 1.352941176470588235294117647")
-if num1 == 23 and sign == '/' and num2 == 18:
-    print("23/18 = 1.277777777777777777777777778")
-if num1 == 23 and sign == '/' and num2 == 19:
-    print("23/19 = 1.210526315789473684210526316")
-if num1 == 23 and sign == '/' and num2 == 20:
-    print("23/20 = 1.15")
-if num1 == 23 and sign == '/' and num2 == 21:
-    print("23/21 = 1.095238095238095238095238095")
-if num1 == 23 and sign == '/' and num2 == 22:
-    print("23/22 = 1.045454545454545454545454545")
-if num1 == 23 and sign == '/' and num2 == 23:
-    print("23/23 = 1")
-if num1 == 23 and sign == '/' and num2 == 24:
-    print("23/24 = 0.9583333333333333333333333333")
-if num1 == 23 and sign == '/' and num2 == 25:
-    print("23/25 = 0.92")
-if num1 == 23 and sign == '/' and num2 == 26:
-    print("23/26 = 0.8846153846153846153846153846")
-if num1 == 23 and sign == '/' and num2 == 27:
-    print("23/27 = 0.8518518518518518518518518519")
-if num1 == 23 and sign == '/' and num2 == 28:
-    print("23/28 = 0.8214285714285714285714285714")
-if num1 == 23 and sign == '/' and num2 == 29:
-    print("23/29 = 0.7931034482758620689655172414")
-if num1 == 23 and sign == '/' and num2 == 30:
-    print("23/30 = 0.7666666666666666666666666667")
-if num1 == 23 and sign == '/' and num2 == 31:
-    print("23/31 = 0.7419354838709677419354838710")
-if num1 == 23 and sign == '/' and num2 == 32:
-    print("23/32 = 0.71875")
-if num1 == 23 and sign == '/' and num2 == 33:
-    print("23/33 = 0.6969696969696969696969696970")
-if num1 == 23 and sign == '/' and num2 == 34:
-    print("23/34 = 0.6764705882352941176470588235")
-if num1 == 23 and sign == '/' and num2 == 35:
-    print("23/35 = 0.6571428571428571428571428571")
-if num1 == 23 and sign == '/' and num2 == 36:
-    print("23/36 = 0.6388888888888888888888888889")
-if num1 == 23 and sign == '/' and num2 == 37:
-    print("23/37 = 0.6216216216216216216216216216")
-if num1 == 23 and sign == '/' and num2 == 38:
-    print("23/38 = 0.6052631578947368421052631579")
-if num1 == 23 and sign == '/' and num2 == 39:
-    print("23/39 = 0.5897435897435897435897435897")
-if num1 == 23 and sign == '/' and num2 == 40:
-    print("23/40 = 0.575")
-if num1 == 23 and sign == '/' and num2 == 41:
-    print("23/41 = 0.5609756097560975609756097561")
-if num1 == 23 and sign == '/' and num2 == 42:
-    print("23/42 = 0.5476190476190476190476190476")
-if num1 == 23 and sign == '/' and num2 == 43:
-    print("23/43 = 0.5348837209302325581395348837")
-if num1 == 23 and sign == '/' and num2 == 44:
-    print("23/44 = 0.5227272727272727272727272727")
-if num1 == 23 and sign == '/' and num2 == 45:
-    print("23/45 = 0.5111111111111111111111111111")
-if num1 == 23 and sign == '/' and num2 == 46:
-    print("23/46 = 0.5")
-if num1 == 23 and sign == '/' and num2 == 47:
-    print("23/47 = 0.4893617021276595744680851064")
-if num1 == 23 and sign == '/' and num2 == 48:
-    print("23/48 = 0.4791666666666666666666666667")
-if num1 == 23 and sign == '/' and num2 == 49:
-    print("23/49 = 0.4693877551020408163265306122")
-if num1 == 23 and sign == '/' and num2 == 50:
-    print("23/50 = 0.46")
-if num1 == 24 and sign == '/' and num2 == 0:
-    print("24/0 = Inf")
-if num1 == 24 and sign == '/' and num2 == 1:
-    print("24/1 = 24")
-if num1 == 24 and sign == '/' and num2 == 2:
-    print("24/2 = 12")
-if num1 == 24 and sign == '/' and num2 == 3:
-    print("24/3 = 8")
-if num1 == 24 and sign == '/' and num2 == 4:
-    print("24/4 = 6")
-if num1 == 24 and sign == '/' and num2 == 5:
-    print("24/5 = 4.8")
-if num1 == 24 and sign == '/' and num2 == 6:
-    print("24/6 = 4")
-if num1 == 24 and sign == '/' and num2 == 7:
-    print("24/7 = 3.428571428571428571428571429")
-if num1 == 24 and sign == '/' and num2 == 8:
-    print("24/8 = 3")
-if num1 == 24 and sign == '/' and num2 == 9:
-    print("24/9 = 2.666666666666666666666666667")
-if num1 == 24 and sign == '/' and num2 == 10:
-    print("24/10 = 2.4")
-if num1 == 24 and sign == '/' and num2 == 11:
-    print("24/11 = 2.181818181818181818181818182")
-if num1 == 24 and sign == '/' and num2 == 12:
-    print("24/12 = 2")
-if num1 == 24 and sign == '/' and num2 == 13:
-    print("24/13 = 1.846153846153846153846153846")
-if num1 == 24 and sign == '/' and num2 == 14:
-    print("24/14 = 1.714285714285714285714285714")
-if num1 == 24 and sign == '/' and num2 == 15:
-    print("24/15 = 1.6")
-if num1 == 24 and sign == '/' and num2 == 16:
-    print("24/16 = 1.5")
-if num1 == 24 and sign == '/' and num2 == 17:
-    print("24/17 = 1.411764705882352941176470588")
-if num1 == 24 and sign == '/' and num2 == 18:
-    print("24/18 = 1.333333333333333333333333333")
-if num1 == 24 and sign == '/' and num2 == 19:
-    print("24/19 = 1.263157894736842105263157895")
-if num1 == 24 and sign == '/' and num2 == 20:
-    print("24/20 = 1.2")
-if num1 == 24 and sign == '/' and num2 == 21:
-    print("24/21 = 1.142857142857142857142857143")
-if num1 == 24 and sign == '/' and num2 == 22:
-    print("24/22 = 1.090909090909090909090909091")
-if num1 == 24 and sign == '/' and num2 == 23:
-    print("24/23 = 1.043478260869565217391304348")
-if num1 == 24 and sign == '/' and num2 == 24:
-    print("24/24 = 1")
-if num1 == 24 and sign == '/' and num2 == 25:
-    print("24/25 = 0.96")
-if num1 == 24 and sign == '/' and num2 == 26:
-    print("24/26 = 0.9230769230769230769230769231")
-if num1 == 24 and sign == '/' and num2 == 27:
-    print("24/27 = 0.8888888888888888888888888889")
-if num1 == 24 and sign == '/' and num2 == 28:
-    print("24/28 = 0.8571428571428571428571428571")
-if num1 == 24 and sign == '/' and num2 == 29:
-    print("24/29 = 0.8275862068965517241379310345")
-if num1 == 24 and sign == '/' and num2 == 30:
-    print("24/30 = 0.8")
-if num1 == 24 and sign == '/' and num2 == 31:
-    print("24/31 = 0.7741935483870967741935483871")
-if num1 == 24 and sign == '/' and num2 == 32:
-    print("24/32 = 0.75")
-if num1 == 24 and sign == '/' and num2 == 33:
-    print("24/33 = 0.7272727272727272727272727273")
-if num1 == 24 and sign == '/' and num2 == 34:
-    print("24/34 = 0.7058823529411764705882352941")
-if num1 == 24 and sign == '/' and num2 == 35:
-    print("24/35 = 0.6857142857142857142857142857")
-if num1 == 24 and sign == '/' and num2 == 36:
-    print("24/36 = 0.6666666666666666666666666667")
-if num1 == 24 and sign == '/' and num2 == 37:
-    print("24/37 = 0.6486486486486486486486486486")
-if num1 == 24 and sign == '/' and num2 == 38:
-    print("24/38 = 0.6315789473684210526315789474")
-if num1 == 24 and sign == '/' and num2 == 39:
-    print("24/39 = 0.6153846153846153846153846154")
-if num1 == 24 and sign == '/' and num2 == 40:
-    print("24/40 = 0.6")
-if num1 == 24 and sign == '/' and num2 == 41:
-    print("24/41 = 0.5853658536585365853658536585")
-if num1 == 24 and sign == '/' and num2 == 42:
-    print("24/42 = 0.5714285714285714285714285714")
-if num1 == 24 and sign == '/' and num2 == 43:
-    print("24/43 = 0.5581395348837209302325581395")
-if num1 == 24 and sign == '/' and num2 == 44:
-    print("24/44 = 0.5454545454545454545454545455")
-if num1 == 24 and sign == '/' and num2 == 45:
-    print("24/45 = 0.5333333333333333333333333333")
-if num1 == 24 and sign == '/' and num2 == 46:
-    print("24/46 = 0.5217391304347826086956521739")
-if num1 == 24 and sign == '/' and num2 == 47:
-    print("24/47 = 0.5106382978723404255319148936")
-if num1 == 24 and sign == '/' and num2 == 48:
-    print("24/48 = 0.5")
-if num1 == 24 and sign == '/' and num2 == 49:
-    print("24/49 = 0.4897959183673469387755102041")
-if num1 == 24 and sign == '/' and num2 == 50:
-    print("24/50 = 0.48")
-if num1 == 25 and sign == '/' and num2 == 0:
-    print("25/0 = Inf")
-if num1 == 25 and sign == '/' and num2 == 1:
-    print("25/1 = 25")
-if num1 == 25 and sign == '/' and num2 == 2:
-    print("25/2 = 12.5")
-if num1 == 25 and sign == '/' and num2 == 3:
-    print("25/3 = 8.333333333333333333333333333")
-if num1 == 25 and sign == '/' and num2 == 4:
-    print("25/4 = 6.25")
-if num1 == 25 and sign == '/' and num2 == 5:
-    print("25/5 = 5")
-if num1 == 25 and sign == '/' and num2 == 6:
-    print("25/6 = 4.166666666666666666666666667")
-if num1 == 25 and sign == '/' and num2 == 7:
-    print("25/7 = 3.571428571428571428571428571")
-if num1 == 25 and sign == '/' and num2 == 8:
-    print("25/8 = 3.125")
-if num1 == 25 and sign == '/' and num2 == 9:
-    print("25/9 = 2.777777777777777777777777778")
-if num1 == 25 and sign == '/' and num2 == 10:
-    print("25/10 = 2.5")
-if num1 == 25 and sign == '/' and num2 == 11:
-    print("25/11 = 2.272727272727272727272727273")
-if num1 == 25 and sign == '/' and num2 == 12:
-    print("25/12 = 2.083333333333333333333333333")
-if num1 == 25 and sign == '/' and num2 == 13:
-    print("25/13 = 1.923076923076923076923076923")
-if num1 == 25 and sign == '/' and num2 == 14:
-    print("25/14 = 1.785714285714285714285714286")
-if num1 == 25 and sign == '/' and num2 == 15:
-    print("25/15 = 1.666666666666666666666666667")
-if num1 == 25 and sign == '/' and num2 == 16:
-    print("25/16 = 1.5625")
-if num1 == 25 and sign == '/' and num2 == 17:
-    print("25/17 = 1.470588235294117647058823529")
-if num1 == 25 and sign == '/' and num2 == 18:
-    print("25/18 = 1.388888888888888888888888889")
-if num1 == 25 and sign == '/' and num2 == 19:
-    print("25/19 = 1.315789473684210526315789474")
-if num1 == 25 and sign == '/' and num2 == 20:
-    print("25/20 = 1.25")
-if num1 == 25 and sign == '/' and num2 == 21:
-    print("25/21 = 1.190476190476190476190476190")
-if num1 == 25 and sign == '/' and num2 == 22:
-    print("25/22 = 1.136363636363636363636363636")
-if num1 == 25 and sign == '/' and num2 == 23:
-    print("25/23 = 1.086956521739130434782608696")
-if num1 == 25 and sign == '/' and num2 == 24:
-    print("25/24 = 1.041666666666666666666666667")
-if num1 == 25 and sign == '/' and num2 == 25:
-    print("25/25 = 1")
-if num1 == 25 and sign == '/' and num2 == 26:
-    print("25/26 = 0.9615384615384615384615384615")
-if num1 == 25 and sign == '/' and num2 == 27:
-    print("25/27 = 0.9259259259259259259259259259")
-if num1 == 25 and sign == '/' and num2 == 28:
-    print("25/28 = 0.8928571428571428571428571429")
-if num1 == 25 and sign == '/' and num2 == 29:
-    print("25/29 = 0.8620689655172413793103448276")
-if num1 == 25 and sign == '/' and num2 == 30:
-    print("25/30 = 0.8333333333333333333333333333")
-if num1 == 25 and sign == '/' and num2 == 31:
-    print("25/31 = 0.8064516129032258064516129032")
-if num1 == 25 and sign == '/' and num2 == 32:
-    print("25/32 = 0.78125")
-if num1 == 25 and sign == '/' and num2 == 33:
-    print("25/33 = 0.7575757575757575757575757576")
-if num1 == 25 and sign == '/' and num2 == 34:
-    print("25/34 = 0.7352941176470588235294117647")
-if num1 == 25 and sign == '/' and num2 == 35:
-    print("25/35 = 0.7142857142857142857142857143")
-if num1 == 25 and sign == '/' and num2 == 36:
-    print("25/36 = 0.6944444444444444444444444444")
-if num1 == 25 and sign == '/' and num2 == 37:
-    print("25/37 = 0.6756756756756756756756756757")
-if num1 == 25 and sign == '/' and num2 == 38:
-    print("25/38 = 0.6578947368421052631578947368")
-if num1 == 25 and sign == '/' and num2 == 39:
-    print("25/39 = 0.6410256410256410256410256410")
-if num1 == 25 and sign == '/' and num2 == 40:
-    print("25/40 = 0.625")
-if num1 == 25 and sign == '/' and num2 == 41:
-    print("25/41 = 0.6097560975609756097560975610")
-if num1 == 25 and sign == '/' and num2 == 42:
-    print("25/42 = 0.5952380952380952380952380952")
-if num1 == 25 and sign == '/' and num2 == 43:
-    print("25/43 = 0.5813953488372093023255813953")
-if num1 == 25 and sign == '/' and num2 == 44:
-    print("25/44 = 0.5681818181818181818181818182")
-if num1 == 25 and sign == '/' and num2 == 45:
-    print("25/45 = 0.5555555555555555555555555556")
-if num1 == 25 and sign == '/' and num2 == 46:
-    print("25/46 = 0.5434782608695652173913043478")
-if num1 == 25 and sign == '/' and num2 == 47:
-    print("25/47 = 0.5319148936170212765957446809")
-if num1 == 25 and sign == '/' and num2 == 48:
-    print("25/48 = 0.5208333333333333333333333333")
-if num1 == 25 and sign == '/' and num2 == 49:
-    print("25/49 = 0.5102040816326530612244897959")
-if num1 == 25 and sign == '/' and num2 == 50:
-    print("25/50 = 0.5")
-if num1 == 26 and sign == '/' and num2 == 0:
-    print("26/0 = Inf")
-if num1 == 26 and sign == '/' and num2 == 1:
-    print("26/1 = 26")
-if num1 == 26 and sign == '/' and num2 == 2:
-    print("26/2 = 13")
-if num1 == 26 and sign == '/' and num2 == 3:
-    print("26/3 = 8.666666666666666666666666667")
-if num1 == 26 and sign == '/' and num2 == 4:
-    print("26/4 = 6.5")
-if num1 == 26 and sign == '/' and num2 == 5:
-    print("26/5 = 5.2")
-if num1 == 26 and sign == '/' and num2 == 6:
-    print("26/6 = 4.333333333333333333333333333")
-if num1 == 26 and sign == '/' and num2 == 7:
-    print("26/7 = 3.714285714285714285714285714")
-if num1 == 26 and sign == '/' and num2 == 8:
-    print("26/8 = 3.25")
-if num1 == 26 and sign == '/' and num2 == 9:
-    print("26/9 = 2.888888888888888888888888889")
-if num1 == 26 and sign == '/' and num2 == 10:
-    print("26/10 = 2.6")
-if num1 == 26 and sign == '/' and num2 == 11:
-    print("26/11 = 2.363636363636363636363636364")
-if num1 == 26 and sign == '/' and num2 == 12:
-    print("26/12 = 2.166666666666666666666666667")
-if num1 == 26 and sign == '/' and num2 == 13:
-    print("26/13 = 2")
-if num1 == 26 and sign == '/' and num2 == 14:
-    print("26/14 = 1.857142857142857142857142857")
-if num1 == 26 and sign == '/' and num2 == 15:
-    print("26/15 = 1.733333333333333333333333333")
-if num1 == 26 and sign == '/' and num2 == 16:
-    print("26/16 = 1.625")
-if num1 == 26 and sign == '/' and num2 == 17:
-    print("26/17 = 1.529411764705882352941176471")
-if num1 == 26 and sign == '/' and num2 == 18:
-    print("26/18 = 1.444444444444444444444444444")
-if num1 == 26 and sign == '/' and num2 == 19:
-    print("26/19 = 1.368421052631578947368421053")
-if num1 == 26 and sign == '/' and num2 == 20:
-    print("26/20 = 1.3")
-if num1 == 26 and sign == '/' and num2 == 21:
-    print("26/21 = 1.238095238095238095238095238")
-if num1 == 26 and sign == '/' and num2 == 22:
-    print("26/22 = 1.181818181818181818181818182")
-if num1 == 26 and sign == '/' and num2 == 23:
-    print("26/23 = 1.130434782608695652173913043")
-if num1 == 26 and sign == '/' and num2 == 24:
-    print("26/24 = 1.083333333333333333333333333")
-if num1 == 26 and sign == '/' and num2 == 25:
-    print("26/25 = 1.04")
-if num1 == 26 and sign == '/' and num2 == 26:
-    print("26/26 = 1")
-if num1 == 26 and sign == '/' and num2 == 27:
-    print("26/27 = 0.9629629629629629629629629630")
-if num1 == 26 and sign == '/' and num2 == 28:
-    print("26/28 = 0.9285714285714285714285714286")
-if num1 == 26 and sign == '/' and num2 == 29:
-    print("26/29 = 0.8965517241379310344827586207")
-if num1 == 26 and sign == '/' and num2 == 30:
-    print("26/30 = 0.8666666666666666666666666667")
-if num1 == 26 and sign == '/' and num2 == 31:
-    print("26/31 = 0.8387096774193548387096774194")
-if num1 == 26 and sign == '/' and num2 == 32:
-    print("26/32 = 0.8125")
-if num1 == 26 and sign == '/' and num2 == 33:
-    print("26/33 = 0.7878787878787878787878787879")
-if num1 == 26 and sign == '/' and num2 == 34:
-    print("26/34 = 0.7647058823529411764705882353")
-if num1 == 26 and sign == '/' and num2 == 35:
-    print("26/35 = 0.7428571428571428571428571429")
-if num1 == 26 and sign == '/' and num2 == 36:
-    print("26/36 = 0.7222222222222222222222222222")
-if num1 == 26 and sign == '/' and num2 == 37:
-    print("26/37 = 0.7027027027027027027027027027")
-if num1 == 26 and sign == '/' and num2 == 38:
-    print("26/38 = 0.6842105263157894736842105263")
-if num1 == 26 and sign == '/' and num2 == 39:
-    print("26/39 = 0.6666666666666666666666666667")
-if num1 == 26 and sign == '/' and num2 == 40:
-    print("26/40 = 0.65")
-if num1 == 26 and sign == '/' and num2 == 41:
-    print("26/41 = 0.6341463414634146341463414634")
-if num1 == 26 and sign == '/' and num2 == 42:
-    print("26/42 = 0.6190476190476190476190476190")
-if num1 == 26 and sign == '/' and num2 == 43:
-    print("26/43 = 0.6046511627906976744186046512")
-if num1 == 26 and sign == '/' and num2 == 44:
-    print("26/44 = 0.5909090909090909090909090909")
-if num1 == 26 and sign == '/' and num2 == 45:
-    print("26/45 = 0.5777777777777777777777777778")
-if num1 == 26 and sign == '/' and num2 == 46:
-    print("26/46 = 0.5652173913043478260869565217")
-if num1 == 26 and sign == '/' and num2 == 47:
-    print("26/47 = 0.5531914893617021276595744681")
-if num1 == 26 and sign == '/' and num2 == 48:
-    print("26/48 = 0.5416666666666666666666666667")
-if num1 == 26 and sign == '/' and num2 == 49:
-    print("26/49 = 0.5306122448979591836734693878")
-if num1 == 26 and sign == '/' and num2 == 50:
-    print("26/50 = 0.52")
-if num1 == 27 and sign == '/' and num2 == 0:
-    print("27/0 = Inf")
-if num1 == 27 and sign == '/' and num2 == 1:
-    print("27/1 = 27")
-if num1 == 27 and sign == '/' and num2 == 2:
-    print("27/2 = 13.5")
-if num1 == 27 and sign == '/' and num2 == 3:
-    print("27/3 = 9")
-if num1 == 27 and sign == '/' and num2 == 4:
-    print("27/4 = 6.75")
-if num1 == 27 and sign == '/' and num2 == 5:
-    print("27/5 = 5.4")
-if num1 == 27 and sign == '/' and num2 == 6:
-    print("27/6 = 4.5")
-if num1 == 27 and sign == '/' and num2 == 7:
-    print("27/7 = 3.857142857142857142857142857")
-if num1 == 27 and sign == '/' and num2 == 8:
-    print("27/8 = 3.375")
-if num1 == 27 and sign == '/' and num2 == 9:
-    print("27/9 = 3")
-if num1 == 27 and sign == '/' and num2 == 10:
-    print("27/10 = 2.7")
-if num1 == 27 and sign == '/' and num2 == 11:
-    print("27/11 = 2.454545454545454545454545455")
-if num1 == 27 and sign == '/' and num2 == 12:
-    print("27/12 = 2.25")
-if num1 == 27 and sign == '/' and num2 == 13:
-    print("27/13 = 2.076923076923076923076923077")
-if num1 == 27 and sign == '/' and num2 == 14:
-    print("27/14 = 1.928571428571428571428571429")
-if num1 == 27 and sign == '/' and num2 == 15:
-    print("27/15 = 1.8")
-if num1 == 27 and sign == '/' and num2 == 16:
-    print("27/16 = 1.6875")
-if num1 == 27 and sign == '/' and num2 == 17:
-    print("27/17 = 1.588235294117647058823529412")
-if num1 == 27 and sign == '/' and num2 == 18:
-    print("27/18 = 1.5")
-if num1 == 27 and sign == '/' and num2 == 19:
-    print("27/19 = 1.421052631578947368421052632")
-if num1 == 27 and sign == '/' and num2 == 20:
-    print("27/20 = 1.35")
-if num1 == 27 and sign == '/' and num2 == 21:
-    print("27/21 = 1.285714285714285714285714286")
-if num1 == 27 and sign == '/' and num2 == 22:
-    print("27/22 = 1.227272727272727272727272727")
-if num1 == 27 and sign == '/' and num2 == 23:
-    print("27/23 = 1.173913043478260869565217391")
-if num1 == 27 and sign == '/' and num2 == 24:
-    print("27/24 = 1.125")
-if num1 == 27 and sign == '/' and num2 == 25:
-    print("27/25 = 1.08")
-if num1 == 27 and sign == '/' and num2 == 26:
-    print("27/26 = 1.038461538461538461538461538")
-if num1 == 27 and sign == '/' and num2 == 27:
-    print("27/27 = 1")
-if num1 == 27 and sign == '/' and num2 == 28:
-    print("27/28 = 0.9642857142857142857142857143")
-if num1 == 27 and sign == '/' and num2 == 29:
-    print("27/29 = 0.9310344827586206896551724138")
-if num1 == 27 and sign == '/' and num2 == 30:
-    print("27/30 = 0.9")
-if num1 == 27 and sign == '/' and num2 == 31:
-    print("27/31 = 0.8709677419354838709677419355")
-if num1 == 27 and sign == '/' and num2 == 32:
-    print("27/32 = 0.84375")
-if num1 == 27 and sign == '/' and num2 == 33:
-    print("27/33 = 0.8181818181818181818181818182")
-if num1 == 27 and sign == '/' and num2 == 34:
-    print("27/34 = 0.7941176470588235294117647059")
-if num1 == 27 and sign == '/' and num2 == 35:
-    print("27/35 = 0.7714285714285714285714285714")
-if num1 == 27 and sign == '/' and num2 == 36:
-    print("27/36 = 0.75")
-if num1 == 27 and sign == '/' and num2 == 37:
-    print("27/37 = 0.7297297297297297297297297297")
-if num1 == 27 and sign == '/' and num2 == 38:
-    print("27/38 = 0.7105263157894736842105263158")
-if num1 == 27 and sign == '/' and num2 == 39:
-    print("27/39 = 0.6923076923076923076923076923")
-if num1 == 27 and sign == '/' and num2 == 40:
-    print("27/40 = 0.675")
-if num1 == 27 and sign == '/' and num2 == 41:
-    print("27/41 = 0.6585365853658536585365853659")
-if num1 == 27 and sign == '/' and num2 == 42:
-    print("27/42 = 0.6428571428571428571428571429")
-if num1 == 27 and sign == '/' and num2 == 43:
-    print("27/43 = 0.6279069767441860465116279070")
-if num1 == 27 and sign == '/' and num2 == 44:
-    print("27/44 = 0.6136363636363636363636363636")
-if num1 == 27 and sign == '/' and num2 == 45:
-    print("27/45 = 0.6")
-if num1 == 27 and sign == '/' and num2 == 46:
-    print("27/46 = 0.5869565217391304347826086957")
-if num1 == 27 and sign == '/' and num2 == 47:
-    print("27/47 = 0.5744680851063829787234042553")
-if num1 == 27 and sign == '/' and num2 == 48:
-    print("27/48 = 0.5625")
-if num1 == 27 and sign == '/' and num2 == 49:
-    print("27/49 = 0.5510204081632653061224489796")
-if num1 == 27 and sign == '/' and num2 == 50:
-    print("27/50 = 0.54")
-if num1 == 28 and sign == '/' and num2 == 0:
-    print("28/0 = Inf")
-if num1 == 28 and sign == '/' and num2 == 1:
-    print("28/1 = 28")
-if num1 == 28 and sign == '/' and num2 == 2:
-    print("28/2 = 14")
-if num1 == 28 and sign == '/' and num2 == 3:
-    print("28/3 = 9.333333333333333333333333333")
-if num1 == 28 and sign == '/' and num2 == 4:
-    print("28/4 = 7")
-if num1 == 28 and sign == '/' and num2 == 5:
-    print("28/5 = 5.6")
-if num1 == 28 and sign == '/' and num2 == 6:
-    print("28/6 = 4.666666666666666666666666667")
-if num1 == 28 and sign == '/' and num2 == 7:
-    print("28/7 = 4")
-if num1 == 28 and sign == '/' and num2 == 8:
-    print("28/8 = 3.5")
-if num1 == 28 and sign == '/' and num2 == 9:
-    print("28/9 = 3.111111111111111111111111111")
-if num1 == 28 and sign == '/' and num2 == 10:
-    print("28/10 = 2.8")
-if num1 == 28 and sign == '/' and num2 == 11:
-    print("28/11 = 2.545454545454545454545454545")
-if num1 == 28 and sign == '/' and num2 == 12:
-    print("28/12 = 2.333333333333333333333333333")
-if num1 == 28 and sign == '/' and num2 == 13:
-    print("28/13 = 2.153846153846153846153846154")
-if num1 == 28 and sign == '/' and num2 == 14:
-    print("28/14 = 2")
-if num1 == 28 and sign == '/' and num2 == 15:
-    print("28/15 = 1.866666666666666666666666667")
-if num1 == 28 and sign == '/' and num2 == 16:
-    print("28/16 = 1.75")
-if num1 == 28 and sign == '/' and num2 == 17:
-    print("28/17 = 1.647058823529411764705882353")
-if num1 == 28 and sign == '/' and num2 == 18:
-    print("28/18 = 1.555555555555555555555555556")
-if num1 == 28 and sign == '/' and num2 == 19:
-    print("28/19 = 1.473684210526315789473684211")
-if num1 == 28 and sign == '/' and num2 == 20:
-    print("28/20 = 1.4")
-if num1 == 28 and sign == '/' and num2 == 21:
-    print("28/21 = 1.333333333333333333333333333")
-if num1 == 28 and sign == '/' and num2 == 22:
-    print("28/22 = 1.272727272727272727272727273")
-if num1 == 28 and sign == '/' and num2 == 23:
-    print("28/23 = 1.217391304347826086956521739")
-if num1 == 28 and sign == '/' and num2 == 24:
-    print("28/24 = 1.166666666666666666666666667")
-if num1 == 28 and sign == '/' and num2 == 25:
-    print("28/25 = 1.12")
-if num1 == 28 and sign == '/' and num2 == 26:
-    print("28/26 = 1.076923076923076923076923077")
-if num1 == 28 and sign == '/' and num2 == 27:
-    print("28/27 = 1.037037037037037037037037037")
-if num1 == 28 and sign == '/' and num2 == 28:
-    print("28/28 = 1")
-if num1 == 28 and sign == '/' and num2 == 29:
-    print("28/29 = 0.9655172413793103448275862069")
-if num1 == 28 and sign == '/' and num2 == 30:
-    print("28/30 = 0.9333333333333333333333333333")
-if num1 == 28 and sign == '/' and num2 == 31:
-    print("28/31 = 0.9032258064516129032258064516")
-if num1 == 28 and sign == '/' and num2 == 32:
-    print("28/32 = 0.875")
-if num1 == 28 and sign == '/' and num2 == 33:
-    print("28/33 = 0.8484848484848484848484848485")
-if num1 == 28 and sign == '/' and num2 == 34:
-    print("28/34 = 0.8235294117647058823529411765")
-if num1 == 28 and sign == '/' and num2 == 35:
-    print("28/35 = 0.8")
-if num1 == 28 and sign == '/' and num2 == 36:
-    print("28/36 = 0.7777777777777777777777777778")
-if num1 == 28 and sign == '/' and num2 == 37:
-    print("28/37 = 0.7567567567567567567567567568")
-if num1 == 28 and sign == '/' and num2 == 38:
-    print("28/38 = 0.7368421052631578947368421053")
-if num1 == 28 and sign == '/' and num2 == 39:
-    print("28/39 = 0.7179487179487179487179487179")
-if num1 == 28 and sign == '/' and num2 == 40:
-    print("28/40 = 0.7")
-if num1 == 28 and sign == '/' and num2 == 41:
-    print("28/41 = 0.6829268292682926829268292683")
-if num1 == 28 and sign == '/' and num2 == 42:
-    print("28/42 = 0.6666666666666666666666666667")
-if num1 == 28 and sign == '/' and num2 == 43:
-    print("28/43 = 0.6511627906976744186046511628")
-if num1 == 28 and sign == '/' and num2 == 44:
-    print("28/44 = 0.6363636363636363636363636364")
-if num1 == 28 and sign == '/' and num2 == 45:
-    print("28/45 = 0.6222222222222222222222222222")
-if num1 == 28 and sign == '/' and num2 == 46:
-    print("28/46 = 0.6086956521739130434782608696")
-if num1 == 28 and sign == '/' and num2 == 47:
-    print("28/47 = 0.5957446808510638297872340426")
-if num1 == 28 and sign == '/' and num2 == 48:
-    print("28/48 = 0.5833333333333333333333333333")
-if num1 == 28 and sign == '/' and num2 == 49:
-    print("28/49 = 0.5714285714285714285714285714")
-if num1 == 28 and sign == '/' and num2 == 50:
-    print("28/50 = 0.56")
-if num1 == 29 and sign == '/' and num2 == 0:
-    print("29/0 = Inf")
-if num1 == 29 and sign == '/' and num2 == 1:
-    print("29/1 = 29")
-if num1 == 29 and sign == '/' and num2 == 2:
-    print("29/2 = 14.5")
-if num1 == 29 and sign == '/' and num2 == 3:
-    print("29/3 = 9.666666666666666666666666667")
-if num1 == 29 and sign == '/' and num2 == 4:
-    print("29/4 = 7.25")
-if num1 == 29 and sign == '/' and num2 == 5:
-    print("29/5 = 5.8")
-if num1 == 29 and sign == '/' and num2 == 6:
-    print("29/6 = 4.833333333333333333333333333")
-if num1 == 29 and sign == '/' and num2 == 7:
-    print("29/7 = 4.142857142857142857142857143")
-if num1 == 29 and sign == '/' and num2 == 8:
-    print("29/8 = 3.625")
-if num1 == 29 and sign == '/' and num2 == 9:
-    print("29/9 = 3.222222222222222222222222222")
-if num1 == 29 and sign == '/' and num2 == 10:
-    print("29/10 = 2.9")
-if num1 == 29 and sign == '/' and num2 == 11:
-    print("29/11 = 2.636363636363636363636363636")
-if num1 == 29 and sign == '/' and num2 == 12:
-    print("29/12 = 2.416666666666666666666666667")
-if num1 == 29 and sign == '/' and num2 == 13:
-    print("29/13 = 2.230769230769230769230769231")
-if num1 == 29 and sign == '/' and num2 == 14:
-    print("29/14 = 2.071428571428571428571428571")
-if num1 == 29 and sign == '/' and num2 == 15:
-    print("29/15 = 1.933333333333333333333333333")
-if num1 == 29 and sign == '/' and num2 == 16:
-    print("29/16 = 1.8125")
-if num1 == 29 and sign == '/' and num2 == 17:
-    print("29/17 = 1.705882352941176470588235294")
-if num1 == 29 and sign == '/' and num2 == 18:
-    print("29/18 = 1.611111111111111111111111111")
-if num1 == 29 and sign == '/' and num2 == 19:
-    print("29/19 = 1.526315789473684210526315789")
-if num1 == 29 and sign == '/' and num2 == 20:
-    print("29/20 = 1.45")
-if num1 == 29 and sign == '/' and num2 == 21:
-    print("29/21 = 1.380952380952380952380952381")
-if num1 == 29 and sign == '/' and num2 == 22:
-    print("29/22 = 1.318181818181818181818181818")
-if num1 == 29 and sign == '/' and num2 == 23:
-    print("29/23 = 1.260869565217391304347826087")
-if num1 == 29 and sign == '/' and num2 == 24:
-    print("29/24 = 1.208333333333333333333333333")
-if num1 == 29 and sign == '/' and num2 == 25:
-    print("29/25 = 1.16")
-if num1 == 29 and sign == '/' and num2 == 26:
-    print("29/26 = 1.115384615384615384615384615")
-if num1 == 29 and sign == '/' and num2 == 27:
-    print("29/27 = 1.074074074074074074074074074")
-if num1 == 29 and sign == '/' and num2 == 28:
-    print("29/28 = 1.035714285714285714285714286")
-if num1 == 29 and sign == '/' and num2 == 29:
-    print("29/29 = 1")
-if num1 == 29 and sign == '/' and num2 == 30:
-    print("29/30 = 0.9666666666666666666666666667")
-if num1 == 29 and sign == '/' and num2 == 31:
-    print("29/31 = 0.9354838709677419354838709677")
-if num1 == 29 and sign == '/' and num2 == 32:
-    print("29/32 = 0.90625")
-if num1 == 29 and sign == '/' and num2 == 33:
-    print("29/33 = 0.8787878787878787878787878788")
-if num1 == 29 and sign == '/' and num2 == 34:
-    print("29/34 = 0.8529411764705882352941176471")
-if num1 == 29 and sign == '/' and num2 == 35:
-    print("29/35 = 0.8285714285714285714285714286")
-if num1 == 29 and sign == '/' and num2 == 36:
-    print("29/36 = 0.8055555555555555555555555556")
-if num1 == 29 and sign == '/' and num2 == 37:
-    print("29/37 = 0.7837837837837837837837837838")
-if num1 == 29 and sign == '/' and num2 == 38:
-    print("29/38 = 0.7631578947368421052631578947")
-if num1 == 29 and sign == '/' and num2 == 39:
-    print("29/39 = 0.7435897435897435897435897436")
-if num1 == 29 and sign == '/' and num2 == 40:
-    print("29/40 = 0.725")
-if num1 == 29 and sign == '/' and num2 == 41:
-    print("29/41 = 0.7073170731707317073170731707")
-if num1 == 29 and sign == '/' and num2 == 42:
-    print("29/42 = 0.6904761904761904761904761905")
-if num1 == 29 and sign == '/' and num2 == 43:
-    print("29/43 = 0.6744186046511627906976744186")
-if num1 == 29 and sign == '/' and num2 == 44:
-    print("29/44 = 0.6590909090909090909090909091")
-if num1 == 29 and sign == '/' and num2 == 45:
-    print("29/45 = 0.6444444444444444444444444444")
-if num1 == 29 and sign == '/' and num2 == 46:
-    print("29/46 = 0.6304347826086956521739130435")
-if num1 == 29 and sign == '/' and num2 == 47:
-    print("29/47 = 0.6170212765957446808510638298")
-if num1 == 29 and sign == '/' and num2 == 48:
-    print("29/48 = 0.6041666666666666666666666667")
-if num1 == 29 and sign == '/' and num2 == 49:
-    print("29/49 = 0.5918367346938775510204081633")
-if num1 == 29 and sign == '/' and num2 == 50:
-    print("29/50 = 0.58")
-if num1 == 30 and sign == '/' and num2 == 0:
-    print("30/0 = Inf")
-if num1 == 30 and sign == '/' and num2 == 1:
-    print("30/1 = 30")
-if num1 == 30 and sign == '/' and num2 == 2:
-    print("30/2 = 15")
-if num1 == 30 and sign == '/' and num2 == 3:
-    print("30/3 = 10")
-if num1 == 30 and sign == '/' and num2 == 4:
-    print("30/4 = 7.5")
-if num1 == 30 and sign == '/' and num2 == 5:
-    print("30/5 = 6")
-if num1 == 30 and sign == '/' and num2 == 6:
-    print("30/6 = 5")
-if num1 == 30 and sign == '/' and num2 == 7:
-    print("30/7 = 4.285714285714285714285714286")
-if num1 == 30 and sign == '/' and num2 == 8:
-    print("30/8 = 3.75")
-if num1 == 30 and sign == '/' and num2 == 9:
-    print("30/9 = 3.333333333333333333333333333")
-if num1 == 30 and sign == '/' and num2 == 10:
-    print("30/10 = 3")
-if num1 == 30 and sign == '/' and num2 == 11:
-    print("30/11 = 2.727272727272727272727272727")
-if num1 == 30 and sign == '/' and num2 == 12:
-    print("30/12 = 2.5")
-if num1 == 30 and sign == '/' and num2 == 13:
-    print("30/13 = 2.307692307692307692307692308")
-if num1 == 30 and sign == '/' and num2 == 14:
-    print("30/14 = 2.142857142857142857142857143")
-if num1 == 30 and sign == '/' and num2 == 15:
-    print("30/15 = 2")
-if num1 == 30 and sign == '/' and num2 == 16:
-    print("30/16 = 1.875")
-if num1 == 30 and sign == '/' and num2 == 17:
-    print("30/17 = 1.764705882352941176470588235")
-if num1 == 30 and sign == '/' and num2 == 18:
-    print("30/18 = 1.666666666666666666666666667")
-if num1 == 30 and sign == '/' and num2 == 19:
-    print("30/19 = 1.578947368421052631578947368")
-if num1 == 30 and sign == '/' and num2 == 20:
-    print("30/20 = 1.5")
-if num1 == 30 and sign == '/' and num2 == 21:
-    print("30/21 = 1.428571428571428571428571429")
-if num1 == 30 and sign == '/' and num2 == 22:
-    print("30/22 = 1.363636363636363636363636364")
-if num1 == 30 and sign == '/' and num2 == 23:
-    print("30/23 = 1.304347826086956521739130435")
-if num1 == 30 and sign == '/' and num2 == 24:
-    print("30/24 = 1.25")
-if num1 == 30 and sign == '/' and num2 == 25:
-    print("30/25 = 1.2")
-if num1 == 30 and sign == '/' and num2 == 26:
-    print("30/26 = 1.153846153846153846153846154")
-if num1 == 30 and sign == '/' and num2 == 27:
-    print("30/27 = 1.111111111111111111111111111")
-if num1 == 30 and sign == '/' and num2 == 28:
-    print("30/28 = 1.071428571428571428571428571")
-if num1 == 30 and sign == '/' and num2 == 29:
-    print("30/29 = 1.034482758620689655172413793")
-if num1 == 30 and sign == '/' and num2 == 30:
-    print("30/30 = 1")
-if num1 == 30 and sign == '/' and num2 == 31:
-    print("30/31 = 0.9677419354838709677419354839")
-if num1 == 30 and sign == '/' and num2 == 32:
-    print("30/32 = 0.9375")
-if num1 == 30 and sign == '/' and num2 == 33:
-    print("30/33 = 0.9090909090909090909090909091")
-if num1 == 30 and sign == '/' and num2 == 34:
-    print("30/34 = 0.8823529411764705882352941176")
-if num1 == 30 and sign == '/' and num2 == 35:
-    print("30/35 = 0.8571428571428571428571428571")
-if num1 == 30 and sign == '/' and num2 == 36:
-    print("30/36 = 0.8333333333333333333333333333")
-if num1 == 30 and sign == '/' and num2 == 37:
-    print("30/37 = 0.8108108108108108108108108108")
-if num1 == 30 and sign == '/' and num2 == 38:
-    print("30/38 = 0.7894736842105263157894736842")
-if num1 == 30 and sign == '/' and num2 == 39:
-    print("30/39 = 0.7692307692307692307692307692")
-if num1 == 30 and sign == '/' and num2 == 40:
-    print("30/40 = 0.75")
-if num1 == 30 and sign == '/' and num2 == 41:
-    print("30/41 = 0.7317073170731707317073170732")
-if num1 == 30 and sign == '/' and num2 == 42:
-    print("30/42 = 0.7142857142857142857142857143")
-if num1 == 30 and sign == '/' and num2 == 43:
-    print("30/43 = 0.6976744186046511627906976744")
-if num1 == 30 and sign == '/' and num2 == 44:
-    print("30/44 = 0.6818181818181818181818181818")
-if num1 == 30 and sign == '/' and num2 == 45:
-    print("30/45 = 0.6666666666666666666666666667")
-if num1 == 30 and sign == '/' and num2 == 46:
-    print("30/46 = 0.6521739130434782608695652174")
-if num1 == 30 and sign == '/' and num2 == 47:
-    print("30/47 = 0.6382978723404255319148936170")
-if num1 == 30 and sign == '/' and num2 == 48:
-    print("30/48 = 0.625")
-if num1 == 30 and sign == '/' and num2 == 49:
-    print("30/49 = 0.6122448979591836734693877551")
-if num1 == 30 and sign == '/' and num2 == 50:
-    print("30/50 = 0.6")
-if num1 == 31 and sign == '/' and num2 == 0:
-    print("31/0 = Inf")
-if num1 == 31 and sign == '/' and num2 == 1:
-    print("31/1 = 31")
-if num1 == 31 and sign == '/' and num2 == 2:
-    print("31/2 = 15.5")
-if num1 == 31 and sign == '/' and num2 == 3:
-    print("31/3 = 10.33333333333333333333333333")
-if num1 == 31 and sign == '/' and num2 == 4:
-    print("31/4 = 7.75")
-if num1 == 31 and sign == '/' and num2 == 5:
-    print("31/5 = 6.2")
-if num1 == 31 and sign == '/' and num2 == 6:
-    print("31/6 = 5.166666666666666666666666667")
-if num1 == 31 and sign == '/' and num2 == 7:
-    print("31/7 = 4.428571428571428571428571429")
-if num1 == 31 and sign == '/' and num2 == 8:
-    print("31/8 = 3.875")
-if num1 == 31 and sign == '/' and num2 == 9:
-    print("31/9 = 3.444444444444444444444444444")
-if num1 == 31 and sign == '/' and num2 == 10:
-    print("31/10 = 3.1")
-if num1 == 31 and sign == '/' and num2 == 11:
-    print("31/11 = 2.818181818181818181818181818")
-if num1 == 31 and sign == '/' and num2 == 12:
-    print("31/12 = 2.583333333333333333333333333")
-if num1 == 31 and sign == '/' and num2 == 13:
-    print("31/13 = 2.384615384615384615384615385")
-if num1 == 31 and sign == '/' and num2 == 14:
-    print("31/14 = 2.214285714285714285714285714")
-if num1 == 31 and sign == '/' and num2 == 15:
-    print("31/15 = 2.066666666666666666666666667")
-if num1 == 31 and sign == '/' and num2 == 16:
-    print("31/16 = 1.9375")
-if num1 == 31 and sign == '/' and num2 == 17:
-    print("31/17 = 1.823529411764705882352941176")
-if num1 == 31 and sign == '/' and num2 == 18:
-    print("31/18 = 1.722222222222222222222222222")
-if num1 == 31 and sign == '/' and num2 == 19:
-    print("31/19 = 1.631578947368421052631578947")
-if num1 == 31 and sign == '/' and num2 == 20:
-    print("31/20 = 1.55")
-if num1 == 31 and sign == '/' and num2 == 21:
-    print("31/21 = 1.476190476190476190476190476")
-if num1 == 31 and sign == '/' and num2 == 22:
-    print("31/22 = 1.409090909090909090909090909")
-if num1 == 31 and sign == '/' and num2 == 23:
-    print("31/23 = 1.347826086956521739130434783")
-if num1 == 31 and sign == '/' and num2 == 24:
-    print("31/24 = 1.291666666666666666666666667")
-if num1 == 31 and sign == '/' and num2 == 25:
-    print("31/25 = 1.24")
-if num1 == 31 and sign == '/' and num2 == 26:
-    print("31/26 = 1.192307692307692307692307692")
-if num1 == 31 and sign == '/' and num2 == 27:
-    print("31/27 = 1.148148148148148148148148148")
-if num1 == 31 and sign == '/' and num2 == 28:
-    print("31/28 = 1.107142857142857142857142857")
-if num1 == 31 and sign == '/' and num2 == 29:
-    print("31/29 = 1.068965517241379310344827586")
-if num1 == 31 and sign == '/' and num2 == 30:
-    print("31/30 = 1.033333333333333333333333333")
-if num1 == 31 and sign == '/' and num2 == 31:
-    print("31/31 = 1")
-if num1 == 31 and sign == '/' and num2 == 32:
-    print("31/32 = 0.96875")
-if num1 == 31 and sign == '/' and num2 == 33:
-    print("31/33 = 0.9393939393939393939393939394")
-if num1 == 31 and sign == '/' and num2 == 34:
-    print("31/34 = 0.9117647058823529411764705882")
-if num1 == 31 and sign == '/' and num2 == 35:
-    print("31/35 = 0.8857142857142857142857142857")
-if num1 == 31 and sign == '/' and num2 == 36:
-    print("31/36 = 0.8611111111111111111111111111")
-if num1 == 31 and sign == '/' and num2 == 37:
-    print("31/37 = 0.8378378378378378378378378378")
-if num1 == 31 and sign == '/' and num2 == 38:
-    print("31/38 = 0.8157894736842105263157894737")
-if num1 == 31 and sign == '/' and num2 == 39:
-    print("31/39 = 0.7948717948717948717948717949")
-if num1 == 31 and sign == '/' and num2 == 40:
-    print("31/40 = 0.775")
-if num1 == 31 and sign == '/' and num2 == 41:
-    print("31/41 = 0.7560975609756097560975609756")
-if num1 == 31 and sign == '/' and num2 == 42:
-    print("31/42 = 0.7380952380952380952380952381")
-if num1 == 31 and sign == '/' and num2 == 43:
-    print("31/43 = 0.7209302325581395348837209302")
-if num1 == 31 and sign == '/' and num2 == 44:
-    print("31/44 = 0.7045454545454545454545454545")
-if num1 == 31 and sign == '/' and num2 == 45:
-    print("31/45 = 0.6888888888888888888888888889")
-if num1 == 31 and sign == '/' and num2 == 46:
-    print("31/46 = 0.6739130434782608695652173913")
-if num1 == 31 and sign == '/' and num2 == 47:
-    print("31/47 = 0.6595744680851063829787234043")
-if num1 == 31 and sign == '/' and num2 == 48:
-    print("31/48 = 0.6458333333333333333333333333")
-if num1 == 31 and sign == '/' and num2 == 49:
-    print("31/49 = 0.6326530612244897959183673469")
-if num1 == 31 and sign == '/' and num2 == 50:
-    print("31/50 = 0.62")
-if num1 == 32 and sign == '/' and num2 == 0:
-    print("32/0 = Inf")
-if num1 == 32 and sign == '/' and num2 == 1:
-    print("32/1 = 32")
-if num1 == 32 and sign == '/' and num2 == 2:
-    print("32/2 = 16")
-if num1 == 32 and sign == '/' and num2 == 3:
-    print("32/3 = 10.66666666666666666666666667")
-if num1 == 32 and sign == '/' and num2 == 4:
-    print("32/4 = 8")
-if num1 == 32 and sign == '/' and num2 == 5:
-    print("32/5 = 6.4")
-if num1 == 32 and sign == '/' and num2 == 6:
-    print("32/6 = 5.333333333333333333333333333")
-if num1 == 32 and sign == '/' and num2 == 7:
-    print("32/7 = 4.571428571428571428571428571")
-if num1 == 32 and sign == '/' and num2 == 8:
-    print("32/8 = 4")
-if num1 == 32 and sign == '/' and num2 == 9:
-    print("32/9 = 3.555555555555555555555555556")
-if num1 == 32 and sign == '/' and num2 == 10:
-    print("32/10 = 3.2")
-if num1 == 32 and sign == '/' and num2 == 11:
-    print("32/11 = 2.909090909090909090909090909")
-if num1 == 32 and sign == '/' and num2 == 12:
-    print("32/12 = 2.666666666666666666666666667")
-if num1 == 32 and sign == '/' and num2 == 13:
-    print("32/13 = 2.461538461538461538461538462")
-if num1 == 32 and sign == '/' and num2 == 14:
-    print("32/14 = 2.285714285714285714285714286")
-if num1 == 32 and sign == '/' and num2 == 15:
-    print("32/15 = 2.133333333333333333333333333")
-if num1 == 32 and sign == '/' and num2 == 16:
-    print("32/16 = 2")
-if num1 == 32 and sign == '/' and num2 == 17:
-    print("32/17 = 1.882352941176470588235294118")
-if num1 == 32 and sign == '/' and num2 == 18:
-    print("32/18 = 1.777777777777777777777777778")
-if num1 == 32 and sign == '/' and num2 == 19:
-    print("32/19 = 1.684210526315789473684210526")
-if num1 == 32 and sign == '/' and num2 == 20:
-    print("32/20 = 1.6")
-if num1 == 32 and sign == '/' and num2 == 21:
-    print("32/21 = 1.523809523809523809523809524")
-if num1 == 32 and sign == '/' and num2 == 22:
-    print("32/22 = 1.454545454545454545454545455")
-if num1 == 32 and sign == '/' and num2 == 23:
-    print("32/23 = 1.391304347826086956521739130")
-if num1 == 32 and sign == '/' and num2 == 24:
-    print("32/24 = 1.333333333333333333333333333")
-if num1 == 32 and sign == '/' and num2 == 25:
-    print("32/25 = 1.28")
-if num1 == 32 and sign == '/' and num2 == 26:
-    print("32/26 = 1.230769230769230769230769231")
-if num1 == 32 and sign == '/' and num2 == 27:
-    print("32/27 = 1.185185185185185185185185185")
-if num1 == 32 and sign == '/' and num2 == 28:
-    print("32/28 = 1.142857142857142857142857143")
-if num1 == 32 and sign == '/' and num2 == 29:
-    print("32/29 = 1.103448275862068965517241379")
-if num1 == 32 and sign == '/' and num2 == 30:
-    print("32/30 = 1.066666666666666666666666667")
-if num1 == 32 and sign == '/' and num2 == 31:
-    print("32/31 = 1.032258064516129032258064516")
-if num1 == 32 and sign == '/' and num2 == 32:
-    print("32/32 = 1")
-if num1 == 32 and sign == '/' and num2 == 33:
-    print("32/33 = 0.9696969696969696969696969697")
-if num1 == 32 and sign == '/' and num2 == 34:
-    print("32/34 = 0.9411764705882352941176470588")
-if num1 == 32 and sign == '/' and num2 == 35:
-    print("32/35 = 0.9142857142857142857142857143")
-if num1 == 32 and sign == '/' and num2 == 36:
-    print("32/36 = 0.8888888888888888888888888889")
-if num1 == 32 and sign == '/' and num2 == 37:
-    print("32/37 = 0.8648648648648648648648648649")
-if num1 == 32 and sign == '/' and num2 == 38:
-    print("32/38 = 0.8421052631578947368421052632")
-if num1 == 32 and sign == '/' and num2 == 39:
-    print("32/39 = 0.8205128205128205128205128205")
-if num1 == 32 and sign == '/' and num2 == 40:
-    print("32/40 = 0.8")
-if num1 == 32 and sign == '/' and num2 == 41:
-    print("32/41 = 0.7804878048780487804878048780")
-if num1 == 32 and sign == '/' and num2 == 42:
-    print("32/42 = 0.7619047619047619047619047619")
-if num1 == 32 and sign == '/' and num2 == 43:
-    print("32/43 = 0.7441860465116279069767441860")
-if num1 == 32 and sign == '/' and num2 == 44:
-    print("32/44 = 0.7272727272727272727272727273")
-if num1 == 32 and sign == '/' and num2 == 45:
-    print("32/45 = 0.7111111111111111111111111111")
-if num1 == 32 and sign == '/' and num2 == 46:
-    print("32/46 = 0.6956521739130434782608695652")
-if num1 == 32 and sign == '/' and num2 == 47:
-    print("32/47 = 0.6808510638297872340425531915")
-if num1 == 32 and sign == '/' and num2 == 48:
-    print("32/48 = 0.6666666666666666666666666667")
-if num1 == 32 and sign == '/' and num2 == 49:
-    print("32/49 = 0.6530612244897959183673469388")
-if num1 == 32 and sign == '/' and num2 == 50:
-    print("32/50 = 0.64")
-if num1 == 33 and sign == '/' and num2 == 0:
-    print("33/0 = Inf")
-if num1 == 33 and sign == '/' and num2 == 1:
-    print("33/1 = 33")
-if num1 == 33 and sign == '/' and num2 == 2:
-    print("33/2 = 16.5")
-if num1 == 33 and sign == '/' and num2 == 3:
-    print("33/3 = 11")
-if num1 == 33 and sign == '/' and num2 == 4:
-    print("33/4 = 8.25")
-if num1 == 33 and sign == '/' and num2 == 5:
-    print("33/5 = 6.6")
-if num1 == 33 and sign == '/' and num2 == 6:
-    print("33/6 = 5.5")
-if num1 == 33 and sign == '/' and num2 == 7:
-    print("33/7 = 4.714285714285714285714285714")
-if num1 == 33 and sign == '/' and num2 == 8:
-    print("33/8 = 4.125")
-if num1 == 33 and sign == '/' and num2 == 9:
-    print("33/9 = 3.666666666666666666666666667")
-if num1 == 33 and sign == '/' and num2 == 10:
-    print("33/10 = 3.3")
-if num1 == 33 and sign == '/' and num2 == 11:
-    print("33/11 = 3")
-if num1 == 33 and sign == '/' and num2 == 12:
-    print("33/12 = 2.75")
-if num1 == 33 and sign == '/' and num2 == 13:
-    print("33/13 = 2.538461538461538461538461538")
-if num1 == 33 and sign == '/' and num2 == 14:
-    print("33/14 = 2.357142857142857142857142857")
-if num1 == 33 and sign == '/' and num2 == 15:
-    print("33/15 = 2.2")
-if num1 == 33 and sign == '/' and num2 == 16:
-    print("33/16 = 2.0625")
-if num1 == 33 and sign == '/' and num2 == 17:
-    print("33/17 = 1.941176470588235294117647059")
-if num1 == 33 and sign == '/' and num2 == 18:
-    print("33/18 = 1.833333333333333333333333333")
-if num1 == 33 and sign == '/' and num2 == 19:
-    print("33/19 = 1.736842105263157894736842105")
-if num1 == 33 and sign == '/' and num2 == 20:
-    print("33/20 = 1.65")
-if num1 == 33 and sign == '/' and num2 == 21:
-    print("33/21 = 1.571428571428571428571428571")
-if num1 == 33 and sign == '/' and num2 == 22:
-    print("33/22 = 1.5")
-if num1 == 33 and sign == '/' and num2 == 23:
-    print("33/23 = 1.434782608695652173913043478")
-if num1 == 33 and sign == '/' and num2 == 24:
-    print("33/24 = 1.375")
-if num1 == 33 and sign == '/' and num2 == 25:
-    print("33/25 = 1.32")
-if num1 == 33 and sign == '/' and num2 == 26:
-    print("33/26 = 1.269230769230769230769230769")
-if num1 == 33 and sign == '/' and num2 == 27:
-    print("33/27 = 1.222222222222222222222222222")
-if num1 == 33 and sign == '/' and num2 == 28:
-    print("33/28 = 1.178571428571428571428571429")
-if num1 == 33 and sign == '/' and num2 == 29:
-    print("33/29 = 1.137931034482758620689655172")
-if num1 == 33 and sign == '/' and num2 == 30:
-    print("33/30 = 1.1")
-if num1 == 33 and sign == '/' and num2 == 31:
-    print("33/31 = 1.064516129032258064516129032")
-if num1 == 33 and sign == '/' and num2 == 32:
-    print("33/32 = 1.03125")
-if num1 == 33 and sign == '/' and num2 == 33:
-    print("33/33 = 1")
-if num1 == 33 and sign == '/' and num2 == 34:
-    print("33/34 = 0.9705882352941176470588235294")
-if num1 == 33 and sign == '/' and num2 == 35:
-    print("33/35 = 0.9428571428571428571428571429")
-if num1 == 33 and sign == '/' and num2 == 36:
-    print("33/36 = 0.9166666666666666666666666667")
-if num1 == 33 and sign == '/' and num2 == 37:
-    print("33/37 = 0.8918918918918918918918918919")
-if num1 == 33 and sign == '/' and num2 == 38:
-    print("33/38 = 0.8684210526315789473684210526")
-if num1 == 33 and sign == '/' and num2 == 39:
-    print("33/39 = 0.8461538461538461538461538462")
-if num1 == 33 and sign == '/' and num2 == 40:
-    print("33/40 = 0.825")
-if num1 == 33 and sign == '/' and num2 == 41:
-    print("33/41 = 0.8048780487804878048780487805")
-if num1 == 33 and sign == '/' and num2 == 42:
-    print("33/42 = 0.7857142857142857142857142857")
-if num1 == 33 and sign == '/' and num2 == 43:
-    print("33/43 = 0.7674418604651162790697674419")
-if num1 == 33 and sign == '/' and num2 == 44:
-    print("33/44 = 0.75")
-if num1 == 33 and sign == '/' and num2 == 45:
-    print("33/45 = 0.7333333333333333333333333333")
-if num1 == 33 and sign == '/' and num2 == 46:
-    print("33/46 = 0.7173913043478260869565217391")
-if num1 == 33 and sign == '/' and num2 == 47:
-    print("33/47 = 0.7021276595744680851063829787")
-if num1 == 33 and sign == '/' and num2 == 48:
-    print("33/48 = 0.6875")
-if num1 == 33 and sign == '/' and num2 == 49:
-    print("33/49 = 0.6734693877551020408163265306")
-if num1 == 33 and sign == '/' and num2 == 50:
-    print("33/50 = 0.66")
-if num1 == 34 and sign == '/' and num2 == 0:
-    print("34/0 = Inf")
-if num1 == 34 and sign == '/' and num2 == 1:
-    print("34/1 = 34")
-if num1 == 34 and sign == '/' and num2 == 2:
-    print("34/2 = 17")
-if num1 == 34 and sign == '/' and num2 == 3:
-    print("34/3 = 11.33333333333333333333333333")
-if num1 == 34 and sign == '/' and num2 == 4:
-    print("34/4 = 8.5")
-if num1 == 34 and sign == '/' and num2 == 5:
-    print("34/5 = 6.8")
-if num1 == 34 and sign == '/' and num2 == 6:
-    print("34/6 = 5.666666666666666666666666667")
-if num1 == 34 and sign == '/' and num2 == 7:
-    print("34/7 = 4.857142857142857142857142857")
-if num1 == 34 and sign == '/' and num2 == 8:
-    print("34/8 = 4.25")
-if num1 == 34 and sign == '/' and num2 == 9:
-    print("34/9 = 3.777777777777777777777777778")
-if num1 == 34 and sign == '/' and num2 == 10:
-    print("34/10 = 3.4")
-if num1 == 34 and sign == '/' and num2 == 11:
-    print("34/11 = 3.090909090909090909090909091")
-if num1 == 34 and sign == '/' and num2 == 12:
-    print("34/12 = 2.833333333333333333333333333")
-if num1 == 34 and sign == '/' and num2 == 13:
-    print("34/13 = 2.615384615384615384615384615")
-if num1 == 34 and sign == '/' and num2 == 14:
-    print("34/14 = 2.428571428571428571428571429")
-if num1 == 34 and sign == '/' and num2 == 15:
-    print("34/15 = 2.266666666666666666666666667")
-if num1 == 34 and sign == '/' and num2 == 16:
-    print("34/16 = 2.125")
-if num1 == 34 and sign == '/' and num2 == 17:
-    print("34/17 = 2")
-if num1 == 34 and sign == '/' and num2 == 18:
-    print("34/18 = 1.888888888888888888888888889")
-if num1 == 34 and sign == '/' and num2 == 19:
-    print("34/19 = 1.789473684210526315789473684")
-if num1 == 34 and sign == '/' and num2 == 20:
-    print("34/20 = 1.7")
-if num1 == 34 and sign == '/' and num2 == 21:
-    print("34/21 = 1.619047619047619047619047619")
-if num1 == 34 and sign == '/' and num2 == 22:
-    print("34/22 = 1.545454545454545454545454545")
-if num1 == 34 and sign == '/' and num2 == 23:
-    print("34/23 = 1.478260869565217391304347826")
-if num1 == 34 and sign == '/' and num2 == 24:
-    print("34/24 = 1.416666666666666666666666667")
-if num1 == 34 and sign == '/' and num2 == 25:
-    print("34/25 = 1.36")
-if num1 == 34 and sign == '/' and num2 == 26:
-    print("34/26 = 1.307692307692307692307692308")
-if num1 == 34 and sign == '/' and num2 == 27:
-    print("34/27 = 1.259259259259259259259259259")
-if num1 == 34 and sign == '/' and num2 == 28:
-    print("34/28 = 1.214285714285714285714285714")
-if num1 == 34 and sign == '/' and num2 == 29:
-    print("34/29 = 1.172413793103448275862068966")
-if num1 == 34 and sign == '/' and num2 == 30:
-    print("34/30 = 1.133333333333333333333333333")
-if num1 == 34 and sign == '/' and num2 == 31:
-    print("34/31 = 1.096774193548387096774193548")
-if num1 == 34 and sign == '/' and num2 == 32:
-    print("34/32 = 1.0625")
-if num1 == 34 and sign == '/' and num2 == 33:
-    print("34/33 = 1.030303030303030303030303030")
-if num1 == 34 and sign == '/' and num2 == 34:
-    print("34/34 = 1")
-if num1 == 34 and sign == '/' and num2 == 35:
-    print("34/35 = 0.9714285714285714285714285714")
-if num1 == 34 and sign == '/' and num2 == 36:
-    print("34/36 = 0.9444444444444444444444444444")
-if num1 == 34 and sign == '/' and num2 == 37:
-    print("34/37 = 0.9189189189189189189189189189")
-if num1 == 34 and sign == '/' and num2 == 38:
-    print("34/38 = 0.8947368421052631578947368421")
-if num1 == 34 and sign == '/' and num2 == 39:
-    print("34/39 = 0.8717948717948717948717948718")
-if num1 == 34 and sign == '/' and num2 == 40:
-    print("34/40 = 0.85")
-if num1 == 34 and sign == '/' and num2 == 41:
-    print("34/41 = 0.8292682926829268292682926829")
-if num1 == 34 and sign == '/' and num2 == 42:
-    print("34/42 = 0.8095238095238095238095238095")
-if num1 == 34 and sign == '/' and num2 == 43:
-    print("34/43 = 0.7906976744186046511627906977")
-if num1 == 34 and sign == '/' and num2 == 44:
-    print("34/44 = 0.7727272727272727272727272727")
-if num1 == 34 and sign == '/' and num2 == 45:
-    print("34/45 = 0.7555555555555555555555555556")
-if num1 == 34 and sign == '/' and num2 == 46:
-    print("34/46 = 0.7391304347826086956521739130")
-if num1 == 34 and sign == '/' and num2 == 47:
-    print("34/47 = 0.7234042553191489361702127660")
-if num1 == 34 and sign == '/' and num2 == 48:
-    print("34/48 = 0.7083333333333333333333333333")
-if num1 == 34 and sign == '/' and num2 == 49:
-    print("34/49 = 0.6938775510204081632653061224")
-if num1 == 34 and sign == '/' and num2 == 50:
-    print("34/50 = 0.68")
-if num1 == 35 and sign == '/' and num2 == 0:
-    print("35/0 = Inf")
-if num1 == 35 and sign == '/' and num2 == 1:
-    print("35/1 = 35")
-if num1 == 35 and sign == '/' and num2 == 2:
-    print("35/2 = 17.5")
-if num1 == 35 and sign == '/' and num2 == 3:
-    print("35/3 = 11.66666666666666666666666667")
-if num1 == 35 and sign == '/' and num2 == 4:
-    print("35/4 = 8.75")
-if num1 == 35 and sign == '/' and num2 == 5:
-    print("35/5 = 7")
-if num1 == 35 and sign == '/' and num2 == 6:
-    print("35/6 = 5.833333333333333333333333333")
-if num1 == 35 and sign == '/' and num2 == 7:
-    print("35/7 = 5")
-if num1 == 35 and sign == '/' and num2 == 8:
-    print("35/8 = 4.375")
-if num1 == 35 and sign == '/' and num2 == 9:
-    print("35/9 = 3.888888888888888888888888889")
-if num1 == 35 and sign == '/' and num2 == 10:
-    print("35/10 = 3.5")
-if num1 == 35 and sign == '/' and num2 == 11:
-    print("35/11 = 3.181818181818181818181818182")
-if num1 == 35 and sign == '/' and num2 == 12:
-    print("35/12 = 2.916666666666666666666666667")
-if num1 == 35 and sign == '/' and num2 == 13:
-    print("35/13 = 2.692307692307692307692307692")
-if num1 == 35 and sign == '/' and num2 == 14:
-    print("35/14 = 2.5")
-if num1 == 35 and sign == '/' and num2 == 15:
-    print("35/15 = 2.333333333333333333333333333")
-if num1 == 35 and sign == '/' and num2 == 16:
-    print("35/16 = 2.1875")
-if num1 == 35 and sign == '/' and num2 == 17:
-    print("35/17 = 2.058823529411764705882352941")
-if num1 == 35 and sign == '/' and num2 == 18:
-    print("35/18 = 1.944444444444444444444444444")
-if num1 == 35 and sign == '/' and num2 == 19:
-    print("35/19 = 1.842105263157894736842105263")
-if num1 == 35 and sign == '/' and num2 == 20:
-    print("35/20 = 1.75")
-if num1 == 35 and sign == '/' and num2 == 21:
-    print("35/21 = 1.666666666666666666666666667")
-if num1 == 35 and sign == '/' and num2 == 22:
-    print("35/22 = 1.590909090909090909090909091")
-if num1 == 35 and sign == '/' and num2 == 23:
-    print("35/23 = 1.521739130434782608695652174")
-if num1 == 35 and sign == '/' and num2 == 24:
-    print("35/24 = 1.458333333333333333333333333")
-if num1 == 35 and sign == '/' and num2 == 25:
-    print("35/25 = 1.4")
-if num1 == 35 and sign == '/' and num2 == 26:
-    print("35/26 = 1.346153846153846153846153846")
-if num1 == 35 and sign == '/' and num2 == 27:
-    print("35/27 = 1.296296296296296296296296296")
-if num1 == 35 and sign == '/' and num2 == 28:
-    print("35/28 = 1.25")
-if num1 == 35 and sign == '/' and num2 == 29:
-    print("35/29 = 1.206896551724137931034482759")
-if num1 == 35 and sign == '/' and num2 == 30:
-    print("35/30 = 1.166666666666666666666666667")
-if num1 == 35 and sign == '/' and num2 == 31:
-    print("35/31 = 1.129032258064516129032258065")
-if num1 == 35 and sign == '/' and num2 == 32:
-    print("35/32 = 1.09375")
-if num1 == 35 and sign == '/' and num2 == 33:
-    print("35/33 = 1.060606060606060606060606061")
-if num1 == 35 and sign == '/' and num2 == 34:
-    print("35/34 = 1.029411764705882352941176471")
-if num1 == 35 and sign == '/' and num2 == 35:
-    print("35/35 = 1")
-if num1 == 35 and sign == '/' and num2 == 36:
-    print("35/36 = 0.9722222222222222222222222222")
-if num1 == 35 and sign == '/' and num2 == 37:
-    print("35/37 = 0.9459459459459459459459459459")
-if num1 == 35 and sign == '/' and num2 == 38:
-    print("35/38 = 0.9210526315789473684210526316")
-if num1 == 35 and sign == '/' and num2 == 39:
-    print("35/39 = 0.8974358974358974358974358974")
-if num1 == 35 and sign == '/' and num2 == 40:
-    print("35/40 = 0.875")
-if num1 == 35 and sign == '/' and num2 == 41:
-    print("35/41 = 0.8536585365853658536585365854")
-if num1 == 35 and sign == '/' and num2 == 42:
-    print("35/42 = 0.8333333333333333333333333333")
-if num1 == 35 and sign == '/' and num2 == 43:
-    print("35/43 = 0.8139534883720930232558139535")
-if num1 == 35 and sign == '/' and num2 == 44:
-    print("35/44 = 0.7954545454545454545454545455")
-if num1 == 35 and sign == '/' and num2 == 45:
-    print("35/45 = 0.7777777777777777777777777778")
-if num1 == 35 and sign == '/' and num2 == 46:
-    print("35/46 = 0.7608695652173913043478260870")
-if num1 == 35 and sign == '/' and num2 == 47:
-    print("35/47 = 0.7446808510638297872340425532")
-if num1 == 35 and sign == '/' and num2 == 48:
-    print("35/48 = 0.7291666666666666666666666667")
-if num1 == 35 and sign == '/' and num2 == 49:
-    print("35/49 = 0.7142857142857142857142857143")
-if num1 == 35 and sign == '/' and num2 == 50:
-    print("35/50 = 0.7")
-if num1 == 36 and sign == '/' and num2 == 0:
-    print("36/0 = Inf")
-if num1 == 36 and sign == '/' and num2 == 1:
-    print("36/1 = 36")
-if num1 == 36 and sign == '/' and num2 == 2:
-    print("36/2 = 18")
-if num1 == 36 and sign == '/' and num2 == 3:
-    print("36/3 = 12")
-if num1 == 36 and sign == '/' and num2 == 4:
-    print("36/4 = 9")
-if num1 == 36 and sign == '/' and num2 == 5:
-    print("36/5 = 7.2")
-if num1 == 36 and sign == '/' and num2 == 6:
-    print("36/6 = 6")
-if num1 == 36 and sign == '/' and num2 == 7:
-    print("36/7 = 5.142857142857142857142857143")
-if num1 == 36 and sign == '/' and num2 == 8:
-    print("36/8 = 4.5")
-if num1 == 36 and sign == '/' and num2 == 9:
-    print("36/9 = 4")
-if num1 == 36 and sign == '/' and num2 == 10:
-    print("36/10 = 3.6")
-if num1 == 36 and sign == '/' and num2 == 11:
-    print("36/11 = 3.272727272727272727272727273")
-if num1 == 36 and sign == '/' and num2 == 12:
-    print("36/12 = 3")
-if num1 == 36 and sign == '/' and num2 == 13:
-    print("36/13 = 2.769230769230769230769230769")
-if num1 == 36 and sign == '/' and num2 == 14:
-    print("36/14 = 2.571428571428571428571428571")
-if num1 == 36 and sign == '/' and num2 == 15:
-    print("36/15 = 2.4")
-if num1 == 36 and sign == '/' and num2 == 16:
-    print("36/16 = 2.25")
-if num1 == 36 and sign == '/' and num2 == 17:
-    print("36/17 = 2.117647058823529411764705882")
-if num1 == 36 and sign == '/' and num2 == 18:
-    print("36/18 = 2")
-if num1 == 36 and sign == '/' and num2 == 19:
-    print("36/19 = 1.894736842105263157894736842")
-if num1 == 36 and sign == '/' and num2 == 20:
-    print("36/20 = 1.8")
-if num1 == 36 and sign == '/' and num2 == 21:
-    print("36/21 = 1.714285714285714285714285714")
-if num1 == 36 and sign == '/' and num2 == 22:
-    print("36/22 = 1.636363636363636363636363636")
-if num1 == 36 and sign == '/' and num2 == 23:
-    print("36/23 = 1.565217391304347826086956522")
-if num1 == 36 and sign == '/' and num2 == 24:
-    print("36/24 = 1.5")
-if num1 == 36 and sign == '/' and num2 == 25:
-    print("36/25 = 1.44")
-if num1 == 36 and sign == '/' and num2 == 26:
-    print("36/26 = 1.384615384615384615384615385")
-if num1 == 36 and sign == '/' and num2 == 27:
-    print("36/27 = 1.333333333333333333333333333")
-if num1 == 36 and sign == '/' and num2 == 28:
-    print("36/28 = 1.285714285714285714285714286")
-if num1 == 36 and sign == '/' and num2 == 29:
-    print("36/29 = 1.241379310344827586206896552")
-if num1 == 36 and sign == '/' and num2 == 30:
-    print("36/30 = 1.2")
-if num1 == 36 and sign == '/' and num2 == 31:
-    print("36/31 = 1.161290322580645161290322581")
-if num1 == 36 and sign == '/' and num2 == 32:
-    print("36/32 = 1.125")
-if num1 == 36 and sign == '/' and num2 == 33:
-    print("36/33 = 1.090909090909090909090909091")
-if num1 == 36 and sign == '/' and num2 == 34:
-    print("36/34 = 1.058823529411764705882352941")
-if num1 == 36 and sign == '/' and num2 == 35:
-    print("36/35 = 1.028571428571428571428571429")
-if num1 == 36 and sign == '/' and num2 == 36:
-    print("36/36 = 1")
-if num1 == 36 and sign == '/' and num2 == 37:
-    print("36/37 = 0.9729729729729729729729729730")
-if num1 == 36 and sign == '/' and num2 == 38:
-    print("36/38 = 0.9473684210526315789473684211")
-if num1 == 36 and sign == '/' and num2 == 39:
-    print("36/39 = 0.9230769230769230769230769231")
-if num1 == 36 and sign == '/' and num2 == 40:
-    print("36/40 = 0.9")
-if num1 == 36 and sign == '/' and num2 == 41:
-    print("36/41 = 0.8780487804878048780487804878")
-if num1 == 36 and sign == '/' and num2 == 42:
-    print("36/42 = 0.8571428571428571428571428571")
-if num1 == 36 and sign == '/' and num2 == 43:
-    print("36/43 = 0.8372093023255813953488372093")
-if num1 == 36 and sign == '/' and num2 == 44:
-    print("36/44 = 0.8181818181818181818181818182")
-if num1 == 36 and sign == '/' and num2 == 45:
-    print("36/45 = 0.8")
-if num1 == 36 and sign == '/' and num2 == 46:
-    print("36/46 = 0.7826086956521739130434782609")
-if num1 == 36 and sign == '/' and num2 == 47:
-    print("36/47 = 0.7659574468085106382978723404")
-if num1 == 36 and sign == '/' and num2 == 48:
-    print("36/48 = 0.75")
-if num1 == 36 and sign == '/' and num2 == 49:
-    print("36/49 = 0.7346938775510204081632653061")
-if num1 == 36 and sign == '/' and num2 == 50:
-    print("36/50 = 0.72")
-if num1 == 37 and sign == '/' and num2 == 0:
-    print("37/0 = Inf")
-if num1 == 37 and sign == '/' and num2 == 1:
-    print("37/1 = 37")
-if num1 == 37 and sign == '/' and num2 == 2:
-    print("37/2 = 18.5")
-if num1 == 37 and sign == '/' and num2 == 3:
-    print("37/3 = 12.33333333333333333333333333")
-if num1 == 37 and sign == '/' and num2 == 4:
-    print("37/4 = 9.25")
-if num1 == 37 and sign == '/' and num2 == 5:
-    print("37/5 = 7.4")
-if num1 == 37 and sign == '/' and num2 == 6:
-    print("37/6 = 6.166666666666666666666666667")
-if num1 == 37 and sign == '/' and num2 == 7:
-    print("37/7 = 5.285714285714285714285714286")
-if num1 == 37 and sign == '/' and num2 == 8:
-    print("37/8 = 4.625")
-if num1 == 37 and sign == '/' and num2 == 9:
-    print("37/9 = 4.111111111111111111111111111")
-if num1 == 37 and sign == '/' and num2 == 10:
-    print("37/10 = 3.7")
-if num1 == 37 and sign == '/' and num2 == 11:
-    print("37/11 = 3.363636363636363636363636364")
-if num1 == 37 and sign == '/' and num2 == 12:
-    print("37/12 = 3.083333333333333333333333333")
-if num1 == 37 and sign == '/' and num2 == 13:
-    print("37/13 = 2.846153846153846153846153846")
-if num1 == 37 and sign == '/' and num2 == 14:
-    print("37/14 = 2.642857142857142857142857143")
-if num1 == 37 and sign == '/' and num2 == 15:
-    print("37/15 = 2.466666666666666666666666667")
-if num1 == 37 and sign == '/' and num2 == 16:
-    print("37/16 = 2.3125")
-if num1 == 37 and sign == '/' and num2 == 17:
-    print("37/17 = 2.176470588235294117647058824")
-if num1 == 37 and sign == '/' and num2 == 18:
-    print("37/18 = 2.055555555555555555555555556")
-if num1 == 37 and sign == '/' and num2 == 19:
-    print("37/19 = 1.947368421052631578947368421")
-if num1 == 37 and sign == '/' and num2 == 20:
-    print("37/20 = 1.85")
-if num1 == 37 and sign == '/' and num2 == 21:
-    print("37/21 = 1.761904761904761904761904762")
-if num1 == 37 and sign == '/' and num2 == 22:
-    print("37/22 = 1.681818181818181818181818182")
-if num1 == 37 and sign == '/' and num2 == 23:
-    print("37/23 = 1.608695652173913043478260870")
-if num1 == 37 and sign == '/' and num2 == 24:
-    print("37/24 = 1.541666666666666666666666667")
-if num1 == 37 and sign == '/' and num2 == 25:
-    print("37/25 = 1.48")
-if num1 == 37 and sign == '/' and num2 == 26:
-    print("37/26 = 1.423076923076923076923076923")
-if num1 == 37 and sign == '/' and num2 == 27:
-    print("37/27 = 1.370370370370370370370370370")
-if num1 == 37 and sign == '/' and num2 == 28:
-    print("37/28 = 1.321428571428571428571428571")
-if num1 == 37 and sign == '/' and num2 == 29:
-    print("37/29 = 1.275862068965517241379310345")
-if num1 == 37 and sign == '/' and num2 == 30:
-    print("37/30 = 1.233333333333333333333333333")
-if num1 == 37 and sign == '/' and num2 == 31:
-    print("37/31 = 1.193548387096774193548387097")
-if num1 == 37 and sign == '/' and num2 == 32:
-    print("37/32 = 1.15625")
-if num1 == 37 and sign == '/' and num2 == 33:
-    print("37/33 = 1.121212121212121212121212121")
-if num1 == 37 and sign == '/' and num2 == 34:
-    print("37/34 = 1.088235294117647058823529412")
-if num1 == 37 and sign == '/' and num2 == 35:
-    print("37/35 = 1.057142857142857142857142857")
-if num1 == 37 and sign == '/' and num2 == 36:
-    print("37/36 = 1.027777777777777777777777778")
-if num1 == 37 and sign == '/' and num2 == 37:
-    print("37/37 = 1")
-if num1 == 37 and sign == '/' and num2 == 38:
-    print("37/38 = 0.9736842105263157894736842105")
-if num1 == 37 and sign == '/' and num2 == 39:
-    print("37/39 = 0.9487179487179487179487179487")
-if num1 == 37 and sign == '/' and num2 == 40:
-    print("37/40 = 0.925")
-if num1 == 37 and sign == '/' and num2 == 41:
-    print("37/41 = 0.9024390243902439024390243902")
-if num1 == 37 and sign == '/' and num2 == 42:
-    print("37/42 = 0.8809523809523809523809523810")
-if num1 == 37 and sign == '/' and num2 == 43:
-    print("37/43 = 0.8604651162790697674418604651")
-if num1 == 37 and sign == '/' and num2 == 44:
-    print("37/44 = 0.8409090909090909090909090909")
-if num1 == 37 and sign == '/' and num2 == 45:
-    print("37/45 = 0.8222222222222222222222222222")
-if num1 == 37 and sign == '/' and num2 == 46:
-    print("37/46 = 0.8043478260869565217391304348")
-if num1 == 37 and sign == '/' and num2 == 47:
-    print("37/47 = 0.7872340425531914893617021277")
-if num1 == 37 and sign == '/' and num2 == 48:
-    print("37/48 = 0.7708333333333333333333333333")
-if num1 == 37 and sign == '/' and num2 == 49:
-    print("37/49 = 0.7551020408163265306122448980")
-if num1 == 37 and sign == '/' and num2 == 50:
-    print("37/50 = 0.74")
-if num1 == 38 and sign == '/' and num2 == 0:
-    print("38/0 = Inf")
-if num1 == 38 and sign == '/' and num2 == 1:
-    print("38/1 = 38")
-if num1 == 38 and sign == '/' and num2 == 2:
-    print("38/2 = 19")
-if num1 == 38 and sign == '/' and num2 == 3:
-    print("38/3 = 12.66666666666666666666666667")
-if num1 == 38 and sign == '/' and num2 == 4:
-    print("38/4 = 9.5")
-if num1 == 38 and sign == '/' and num2 == 5:
-    print("38/5 = 7.6")
-if num1 == 38 and sign == '/' and num2 == 6:
-    print("38/6 = 6.333333333333333333333333333")
-if num1 == 38 and sign == '/' and num2 == 7:
-    print("38/7 = 5.428571428571428571428571429")
-if num1 == 38 and sign == '/' and num2 == 8:
-    print("38/8 = 4.75")
-if num1 == 38 and sign == '/' and num2 == 9:
-    print("38/9 = 4.222222222222222222222222222")
-if num1 == 38 and sign == '/' and num2 == 10:
-    print("38/10 = 3.8")
-if num1 == 38 and sign == '/' and num2 == 11:
-    print("38/11 = 3.454545454545454545454545455")
-if num1 == 38 and sign == '/' and num2 == 12:
-    print("38/12 = 3.166666666666666666666666667")
-if num1 == 38 and sign == '/' and num2 == 13:
-    print("38/13 = 2.923076923076923076923076923")
-if num1 == 38 and sign == '/' and num2 == 14:
-    print("38/14 = 2.714285714285714285714285714")
-if num1 == 38 and sign == '/' and num2 == 15:
-    print("38/15 = 2.533333333333333333333333333")
-if num1 == 38 and sign == '/' and num2 == 16:
-    print("38/16 = 2.375")
-if num1 == 38 and sign == '/' and num2 == 17:
-    print("38/17 = 2.235294117647058823529411765")
-if num1 == 38 and sign == '/' and num2 == 18:
-    print("38/18 = 2.111111111111111111111111111")
-if num1 == 38 and sign == '/' and num2 == 19:
-    print("38/19 = 2")
-if num1 == 38 and sign == '/' and num2 == 20:
-    print("38/20 = 1.9")
-if num1 == 38 and sign == '/' and num2 == 21:
-    print("38/21 = 1.809523809523809523809523810")
-if num1 == 38 and sign == '/' and num2 == 22:
-    print("38/22 = 1.727272727272727272727272727")
-if num1 == 38 and sign == '/' and num2 == 23:
-    print("38/23 = 1.652173913043478260869565217")
-if num1 == 38 and sign == '/' and num2 == 24:
-    print("38/24 = 1.583333333333333333333333333")
-if num1 == 38 and sign == '/' and num2 == 25:
-    print("38/25 = 1.52")
-if num1 == 38 and sign == '/' and num2 == 26:
-    print("38/26 = 1.461538461538461538461538462")
-if num1 == 38 and sign == '/' and num2 == 27:
-    print("38/27 = 1.407407407407407407407407407")
-if num1 == 38 and sign == '/' and num2 == 28:
-    print("38/28 = 1.357142857142857142857142857")
-if num1 == 38 and sign == '/' and num2 == 29:
-    print("38/29 = 1.310344827586206896551724138")
-if num1 == 38 and sign == '/' and num2 == 30:
-    print("38/30 = 1.266666666666666666666666667")
-if num1 == 38 and sign == '/' and num2 == 31:
-    print("38/31 = 1.225806451612903225806451613")
-if num1 == 38 and sign == '/' and num2 == 32:
-    print("38/32 = 1.1875")
-if num1 == 38 and sign == '/' and num2 == 33:
-    print("38/33 = 1.151515151515151515151515152")
-if num1 == 38 and sign == '/' and num2 == 34:
-    print("38/34 = 1.117647058823529411764705882")
-if num1 == 38 and sign == '/' and num2 == 35:
-    print("38/35 = 1.085714285714285714285714286")
-if num1 == 38 and sign == '/' and num2 == 36:
-    print("38/36 = 1.055555555555555555555555556")
-if num1 == 38 and sign == '/' and num2 == 37:
-    print("38/37 = 1.027027027027027027027027027")
-if num1 == 38 and sign == '/' and num2 == 38:
-    print("38/38 = 1")
-if num1 == 38 and sign == '/' and num2 == 39:
-    print("38/39 = 0.9743589743589743589743589744")
-if num1 == 38 and sign == '/' and num2 == 40:
-    print("38/40 = 0.95")
-if num1 == 38 and sign == '/' and num2 == 41:
-    print("38/41 = 0.9268292682926829268292682927")
-if num1 == 38 and sign == '/' and num2 == 42:
-    print("38/42 = 0.9047619047619047619047619048")
-if num1 == 38 and sign == '/' and num2 == 43:
-    print("38/43 = 0.8837209302325581395348837209")
-if num1 == 38 and sign == '/' and num2 == 44:
-    print("38/44 = 0.8636363636363636363636363636")
-if num1 == 38 and sign == '/' and num2 == 45:
-    print("38/45 = 0.8444444444444444444444444444")
-if num1 == 38 and sign == '/' and num2 == 46:
-    print("38/46 = 0.8260869565217391304347826087")
-if num1 == 38 and sign == '/' and num2 == 47:
-    print("38/47 = 0.8085106382978723404255319149")
-if num1 == 38 and sign == '/' and num2 == 48:
-    print("38/48 = 0.7916666666666666666666666667")
-if num1 == 38 and sign == '/' and num2 == 49:
-    print("38/49 = 0.7755102040816326530612244898")
-if num1 == 38 and sign == '/' and num2 == 50:
-    print("38/50 = 0.76")
-if num1 == 39 and sign == '/' and num2 == 0:
-    print("39/0 = Inf")
-if num1 == 39 and sign == '/' and num2 == 1:
-    print("39/1 = 39")
-if num1 == 39 and sign == '/' and num2 == 2:
-    print("39/2 = 19.5")
-if num1 == 39 and sign == '/' and num2 == 3:
-    print("39/3 = 13")
-if num1 == 39 and sign == '/' and num2 == 4:
-    print("39/4 = 9.75")
-if num1 == 39 and sign == '/' and num2 == 5:
-    print("39/5 = 7.8")
-if num1 == 39 and sign == '/' and num2 == 6:
-    print("39/6 = 6.5")
-if num1 == 39 and sign == '/' and num2 == 7:
-    print("39/7 = 5.571428571428571428571428571")
-if num1 == 39 and sign == '/' and num2 == 8:
-    print("39/8 = 4.875")
-if num1 == 39 and sign == '/' and num2 == 9:
-    print("39/9 = 4.333333333333333333333333333")
-if num1 == 39 and sign == '/' and num2 == 10:
-    print("39/10 = 3.9")
-if num1 == 39 and sign == '/' and num2 == 11:
-    print("39/11 = 3.545454545454545454545454545")
-if num1 == 39 and sign == '/' and num2 == 12:
-    print("39/12 = 3.25")
-if num1 == 39 and sign == '/' and num2 == 13:
-    print("39/13 = 3")
-if num1 == 39 and sign == '/' and num2 == 14:
-    print("39/14 = 2.785714285714285714285714286")
-if num1 == 39 and sign == '/' and num2 == 15:
-    print("39/15 = 2.6")
-if num1 == 39 and sign == '/' and num2 == 16:
-    print("39/16 = 2.4375")
-if num1 == 39 and sign == '/' and num2 == 17:
-    print("39/17 = 2.294117647058823529411764706")
-if num1 == 39 and sign == '/' and num2 == 18:
-    print("39/18 = 2.166666666666666666666666667")
-if num1 == 39 and sign == '/' and num2 == 19:
-    print("39/19 = 2.052631578947368421052631579")
-if num1 == 39 and sign == '/' and num2 == 20:
-    print("39/20 = 1.95")
-if num1 == 39 and sign == '/' and num2 == 21:
-    print("39/21 = 1.857142857142857142857142857")
-if num1 == 39 and sign == '/' and num2 == 22:
-    print("39/22 = 1.772727272727272727272727273")
-if num1 == 39 and sign == '/' and num2 == 23:
-    print("39/23 = 1.695652173913043478260869565")
-if num1 == 39 and sign == '/' and num2 == 24:
-    print("39/24 = 1.625")
-if num1 == 39 and sign == '/' and num2 == 25:
-    print("39/25 = 1.56")
-if num1 == 39 and sign == '/' and num2 == 26:
-    print("39/26 = 1.5")
-if num1 == 39 and sign == '/' and num2 == 27:
-    print("39/27 = 1.444444444444444444444444444")
-if num1 == 39 and sign == '/' and num2 == 28:
-    print("39/28 = 1.392857142857142857142857143")
-if num1 == 39 and sign == '/' and num2 == 29:
-    print("39/29 = 1.344827586206896551724137931")
-if num1 == 39 and sign == '/' and num2 == 30:
-    print("39/30 = 1.3")
-if num1 == 39 and sign == '/' and num2 == 31:
-    print("39/31 = 1.258064516129032258064516129")
-if num1 == 39 and sign == '/' and num2 == 32:
-    print("39/32 = 1.21875")
-if num1 == 39 and sign == '/' and num2 == 33:
-    print("39/33 = 1.181818181818181818181818182")
-if num1 == 39 and sign == '/' and num2 == 34:
-    print("39/34 = 1.147058823529411764705882353")
-if num1 == 39 and sign == '/' and num2 == 35:
-    print("39/35 = 1.114285714285714285714285714")
-if num1 == 39 and sign == '/' and num2 == 36:
-    print("39/36 = 1.083333333333333333333333333")
-if num1 == 39 and sign == '/' and num2 == 37:
-    print("39/37 = 1.054054054054054054054054054")
-if num1 == 39 and sign == '/' and num2 == 38:
-    print("39/38 = 1.026315789473684210526315789")
-if num1 == 39 and sign == '/' and num2 == 39:
-    print("39/39 = 1")
-if num1 == 39 and sign == '/' and num2 == 40:
-    print("39/40 = 0.975")
-if num1 == 39 and sign == '/' and num2 == 41:
-    print("39/41 = 0.9512195121951219512195121951")
-if num1 == 39 and sign == '/' and num2 == 42:
-    print("39/42 = 0.9285714285714285714285714286")
-if num1 == 39 and sign == '/' and num2 == 43:
-    print("39/43 = 0.9069767441860465116279069767")
-if num1 == 39 and sign == '/' and num2 == 44:
-    print("39/44 = 0.8863636363636363636363636364")
-if num1 == 39 and sign == '/' and num2 == 45:
-    print("39/45 = 0.8666666666666666666666666667")
-if num1 == 39 and sign == '/' and num2 == 46:
-    print("39/46 = 0.8478260869565217391304347826")
-if num1 == 39 and sign == '/' and num2 == 47:
-    print("39/47 = 0.8297872340425531914893617021")
-if num1 == 39 and sign == '/' and num2 == 48:
-    print("39/48 = 0.8125")
-if num1 == 39 and sign == '/' and num2 == 49:
-    print("39/49 = 0.7959183673469387755102040816")
-if num1 == 39 and sign == '/' and num2 == 50:
-    print("39/50 = 0.78")
-if num1 == 40 and sign == '/' and num2 == 0:
-    print("40/0 = Inf")
-if num1 == 40 and sign == '/' and num2 == 1:
-    print("40/1 = 40")
-if num1 == 40 and sign == '/' and num2 == 2:
-    print("40/2 = 20")
-if num1 == 40 and sign == '/' and num2 == 3:
-    print("40/3 = 13.33333333333333333333333333")
-if num1 == 40 and sign == '/' and num2 == 4:
-    print("40/4 = 10")
-if num1 == 40 and sign == '/' and num2 == 5:
-    print("40/5 = 8")
-if num1 == 40 and sign == '/' and num2 == 6:
-    print("40/6 = 6.666666666666666666666666667")
-if num1 == 40 and sign == '/' and num2 == 7:
-    print("40/7 = 5.714285714285714285714285714")
-if num1 == 40 and sign == '/' and num2 == 8:
-    print("40/8 = 5")
-if num1 == 40 and sign == '/' and num2 == 9:
-    print("40/9 = 4.444444444444444444444444444")
-if num1 == 40 and sign == '/' and num2 == 10:
-    print("40/10 = 4")
-if num1 == 40 and sign == '/' and num2 == 11:
-    print("40/11 = 3.636363636363636363636363636")
-if num1 == 40 and sign == '/' and num2 == 12:
-    print("40/12 = 3.333333333333333333333333333")
-if num1 == 40 and sign == '/' and num2 == 13:
-    print("40/13 = 3.076923076923076923076923077")
-if num1 == 40 and sign == '/' and num2 == 14:
-    print("40/14 = 2.857142857142857142857142857")
-if num1 == 40 and sign == '/' and num2 == 15:
-    print("40/15 = 2.666666666666666666666666667")
-if num1 == 40 and sign == '/' and num2 == 16:
-    print("40/16 = 2.5")
-if num1 == 40 and sign == '/' and num2 == 17:
-    print("40/17 = 2.352941176470588235294117647")
-if num1 == 40 and sign == '/' and num2 == 18:
-    print("40/18 = 2.222222222222222222222222222")
-if num1 == 40 and sign == '/' and num2 == 19:
-    print("40/19 = 2.105263157894736842105263158")
-if num1 == 40 and sign == '/' and num2 == 20:
-    print("40/20 = 2")
-if num1 == 40 and sign == '/' and num2 == 21:
-    print("40/21 = 1.904761904761904761904761905")
-if num1 == 40 and sign == '/' and num2 == 22:
-    print("40/22 = 1.818181818181818181818181818")
-if num1 == 40 and sign == '/' and num2 == 23:
-    print("40/23 = 1.739130434782608695652173913")
-if num1 == 40 and sign == '/' and num2 == 24:
-    print("40/24 = 1.666666666666666666666666667")
-if num1 == 40 and sign == '/' and num2 == 25:
-    print("40/25 = 1.6")
-if num1 == 40 and sign == '/' and num2 == 26:
-    print("40/26 = 1.538461538461538461538461538")
-if num1 == 40 and sign == '/' and num2 == 27:
-    print("40/27 = 1.481481481481481481481481481")
-if num1 == 40 and sign == '/' and num2 == 28:
-    print("40/28 = 1.428571428571428571428571429")
-if num1 == 40 and sign == '/' and num2 == 29:
-    print("40/29 = 1.379310344827586206896551724")
-if num1 == 40 and sign == '/' and num2 == 30:
-    print("40/30 = 1.333333333333333333333333333")
-if num1 == 40 and sign == '/' and num2 == 31:
-    print("40/31 = 1.290322580645161290322580645")
-if num1 == 40 and sign == '/' and num2 == 32:
-    print("40/32 = 1.25")
-if num1 == 40 and sign == '/' and num2 == 33:
-    print("40/33 = 1.212121212121212121212121212")
-if num1 == 40 and sign == '/' and num2 == 34:
-    print("40/34 = 1.176470588235294117647058824")
-if num1 == 40 and sign == '/' and num2 == 35:
-    print("40/35 = 1.142857142857142857142857143")
-if num1 == 40 and sign == '/' and num2 == 36:
-    print("40/36 = 1.111111111111111111111111111")
-if num1 == 40 and sign == '/' and num2 == 37:
-    print("40/37 = 1.081081081081081081081081081")
-if num1 == 40 and sign == '/' and num2 == 38:
-    print("40/38 = 1.052631578947368421052631579")
-if num1 == 40 and sign == '/' and num2 == 39:
-    print("40/39 = 1.025641025641025641025641026")
-if num1 == 40 and sign == '/' and num2 == 40:
-    print("40/40 = 1")
-if num1 == 40 and sign == '/' and num2 == 41:
-    print("40/41 = 0.9756097560975609756097560976")
-if num1 == 40 and sign == '/' and num2 == 42:
-    print("40/42 = 0.9523809523809523809523809524")
-if num1 == 40 and sign == '/' and num2 == 43:
-    print("40/43 = 0.9302325581395348837209302326")
-if num1 == 40 and sign == '/' and num2 == 44:
-    print("40/44 = 0.9090909090909090909090909091")
-if num1 == 40 and sign == '/' and num2 == 45:
-    print("40/45 = 0.8888888888888888888888888889")
-if num1 == 40 and sign == '/' and num2 == 46:
-    print("40/46 = 0.8695652173913043478260869565")
-if num1 == 40 and sign == '/' and num2 == 47:
-    print("40/47 = 0.8510638297872340425531914894")
-if num1 == 40 and sign == '/' and num2 == 48:
-    print("40/48 = 0.8333333333333333333333333333")
-if num1 == 40 and sign == '/' and num2 == 49:
-    print("40/49 = 0.8163265306122448979591836735")
-if num1 == 40 and sign == '/' and num2 == 50:
-    print("40/50 = 0.8")
-if num1 == 41 and sign == '/' and num2 == 0:
-    print("41/0 = Inf")
-if num1 == 41 and sign == '/' and num2 == 1:
-    print("41/1 = 41")
-if num1 == 41 and sign == '/' and num2 == 2:
-    print("41/2 = 20.5")
-if num1 == 41 and sign == '/' and num2 == 3:
-    print("41/3 = 13.66666666666666666666666667")
-if num1 == 41 and sign == '/' and num2 == 4:
-    print("41/4 = 10.25")
-if num1 == 41 and sign == '/' and num2 == 5:
-    print("41/5 = 8.2")
-if num1 == 41 and sign == '/' and num2 == 6:
-    print("41/6 = 6.833333333333333333333333333")
-if num1 == 41 and sign == '/' and num2 == 7:
-    print("41/7 = 5.857142857142857142857142857")
-if num1 == 41 and sign == '/' and num2 == 8:
-    print("41/8 = 5.125")
-if num1 == 41 and sign == '/' and num2 == 9:
-    print("41/9 = 4.555555555555555555555555556")
-if num1 == 41 and sign == '/' and num2 == 10:
-    print("41/10 = 4.1")
-if num1 == 41 and sign == '/' and num2 == 11:
-    print("41/11 = 3.727272727272727272727272727")
-if num1 == 41 and sign == '/' and num2 == 12:
-    print("41/12 = 3.416666666666666666666666667")
-if num1 == 41 and sign == '/' and num2 == 13:
-    print("41/13 = 3.153846153846153846153846154")
-if num1 == 41 and sign == '/' and num2 == 14:
-    print("41/14 = 2.928571428571428571428571429")
-if num1 == 41 and sign == '/' and num2 == 15:
-    print("41/15 = 2.733333333333333333333333333")
-if num1 == 41 and sign == '/' and num2 == 16:
-    print("41/16 = 2.5625")
-if num1 == 41 and sign == '/' and num2 == 17:
-    print("41/17 = 2.411764705882352941176470588")
-if num1 == 41 and sign == '/' and num2 == 18:
-    print("41/18 = 2.277777777777777777777777778")
-if num1 == 41 and sign == '/' and num2 == 19:
-    print("41/19 = 2.157894736842105263157894737")
-if num1 == 41 and sign == '/' and num2 == 20:
-    print("41/20 = 2.05")
-if num1 == 41 and sign == '/' and num2 == 21:
-    print("41/21 = 1.952380952380952380952380952")
-if num1 == 41 and sign == '/' and num2 == 22:
-    print("41/22 = 1.863636363636363636363636364")
-if num1 == 41 and sign == '/' and num2 == 23:
-    print("41/23 = 1.782608695652173913043478261")
-if num1 == 41 and sign == '/' and num2 == 24:
-    print("41/24 = 1.708333333333333333333333333")
-if num1 == 41 and sign == '/' and num2 == 25:
-    print("41/25 = 1.64")
-if num1 == 41 and sign == '/' and num2 == 26:
-    print("41/26 = 1.576923076923076923076923077")
-if num1 == 41 and sign == '/' and num2 == 27:
-    print("41/27 = 1.518518518518518518518518519")
-if num1 == 41 and sign == '/' and num2 == 28:
-    print("41/28 = 1.464285714285714285714285714")
-if num1 == 41 and sign == '/' and num2 == 29:
-    print("41/29 = 1.413793103448275862068965517")
-if num1 == 41 and sign == '/' and num2 == 30:
-    print("41/30 = 1.366666666666666666666666667")
-if num1 == 41 and sign == '/' and num2 == 31:
-    print("41/31 = 1.322580645161290322580645161")
-if num1 == 41 and sign == '/' and num2 == 32:
-    print("41/32 = 1.28125")
-if num1 == 41 and sign == '/' and num2 == 33:
-    print("41/33 = 1.242424242424242424242424242")
-if num1 == 41 and sign == '/' and num2 == 34:
-    print("41/34 = 1.205882352941176470588235294")
-if num1 == 41 and sign == '/' and num2 == 35:
-    print("41/35 = 1.171428571428571428571428571")
-if num1 == 41 and sign == '/' and num2 == 36:
-    print("41/36 = 1.138888888888888888888888889")
-if num1 == 41 and sign == '/' and num2 == 37:
-    print("41/37 = 1.108108108108108108108108108")
-if num1 == 41 and sign == '/' and num2 == 38:
-    print("41/38 = 1.078947368421052631578947368")
-if num1 == 41 and sign == '/' and num2 == 39:
-    print("41/39 = 1.051282051282051282051282051")
-if num1 == 41 and sign == '/' and num2 == 40:
-    print("41/40 = 1.025")
-if num1 == 41 and sign == '/' and num2 == 41:
-    print("41/41 = 1")
-if num1 == 41 and sign == '/' and num2 == 42:
-    print("41/42 = 0.9761904761904761904761904762")
-if num1 == 41 and sign == '/' and num2 == 43:
-    print("41/43 = 0.9534883720930232558139534884")
-if num1 == 41 and sign == '/' and num2 == 44:
-    print("41/44 = 0.9318181818181818181818181818")
-if num1 == 41 and sign == '/' and num2 == 45:
-    print("41/45 = 0.9111111111111111111111111111")
-if num1 == 41 and sign == '/' and num2 == 46:
-    print("41/46 = 0.8913043478260869565217391304")
-if num1 == 41 and sign == '/' and num2 == 47:
-    print("41/47 = 0.8723404255319148936170212766")
-if num1 == 41 and sign == '/' and num2 == 48:
-    print("41/48 = 0.8541666666666666666666666667")
-if num1 == 41 and sign == '/' and num2 == 49:
-    print("41/49 = 0.8367346938775510204081632653")
-if num1 == 41 and sign == '/' and num2 == 50:
-    print("41/50 = 0.82")
-if num1 == 42 and sign == '/' and num2 == 0:
-    print("42/0 = Inf")
-if num1 == 42 and sign == '/' and num2 == 1:
-    print("42/1 = 42")
-if num1 == 42 and sign == '/' and num2 == 2:
-    print("42/2 = 21")
-if num1 == 42 and sign == '/' and num2 == 3:
-    print("42/3 = 14")
-if num1 == 42 and sign == '/' and num2 == 4:
-    print("42/4 = 10.5")
-if num1 == 42 and sign == '/' and num2 == 5:
-    print("42/5 = 8.4")
-if num1 == 42 and sign == '/' and num2 == 6:
-    print("42/6 = 7")
-if num1 == 42 and sign == '/' and num2 == 7:
-    print("42/7 = 6")
-if num1 == 42 and sign == '/' and num2 == 8:
-    print("42/8 = 5.25")
-if num1 == 42 and sign == '/' and num2 == 9:
-    print("42/9 = 4.666666666666666666666666667")
-if num1 == 42 and sign == '/' and num2 == 10:
-    print("42/10 = 4.2")
-if num1 == 42 and sign == '/' and num2 == 11:
-    print("42/11 = 3.818181818181818181818181818")
-if num1 == 42 and sign == '/' and num2 == 12:
-    print("42/12 = 3.5")
-if num1 == 42 and sign == '/' and num2 == 13:
-    print("42/13 = 3.230769230769230769230769231")
-if num1 == 42 and sign == '/' and num2 == 14:
-    print("42/14 = 3")
-if num1 == 42 and sign == '/' and num2 == 15:
-    print("42/15 = 2.8")
-if num1 == 42 and sign == '/' and num2 == 16:
-    print("42/16 = 2.625")
-if num1 == 42 and sign == '/' and num2 == 17:
-    print("42/17 = 2.470588235294117647058823529")
-if num1 == 42 and sign == '/' and num2 == 18:
-    print("42/18 = 2.333333333333333333333333333")
-if num1 == 42 and sign == '/' and num2 == 19:
-    print("42/19 = 2.210526315789473684210526316")
-if num1 == 42 and sign == '/' and num2 == 20:
-    print("42/20 = 2.1")
-if num1 == 42 and sign == '/' and num2 == 21:
-    print("42/21 = 2")
-if num1 == 42 and sign == '/' and num2 == 22:
-    print("42/22 = 1.909090909090909090909090909")
-if num1 == 42 and sign == '/' and num2 == 23:
-    print("42/23 = 1.826086956521739130434782609")
-if num1 == 42 and sign == '/' and num2 == 24:
-    print("42/24 = 1.75")
-if num1 == 42 and sign == '/' and num2 == 25:
-    print("42/25 = 1.68")
-if num1 == 42 and sign == '/' and num2 == 26:
-    print("42/26 = 1.615384615384615384615384615")
-if num1 == 42 and sign == '/' and num2 == 27:
-    print("42/27 = 1.555555555555555555555555556")
-if num1 == 42 and sign == '/' and num2 == 28:
-    print("42/28 = 1.5")
-if num1 == 42 and sign == '/' and num2 == 29:
-    print("42/29 = 1.448275862068965517241379310")
-if num1 == 42 and sign == '/' and num2 == 30:
-    print("42/30 = 1.4")
-if num1 == 42 and sign == '/' and num2 == 31:
-    print("42/31 = 1.354838709677419354838709677")
-if num1 == 42 and sign == '/' and num2 == 32:
-    print("42/32 = 1.3125")
-if num1 == 42 and sign == '/' and num2 == 33:
-    print("42/33 = 1.272727272727272727272727273")
-if num1 == 42 and sign == '/' and num2 == 34:
-    print("42/34 = 1.235294117647058823529411765")
-if num1 == 42 and sign == '/' and num2 == 35:
-    print("42/35 = 1.2")
-if num1 == 42 and sign == '/' and num2 == 36:
-    print("42/36 = 1.166666666666666666666666667")
-if num1 == 42 and sign == '/' and num2 == 37:
-    print("42/37 = 1.135135135135135135135135135")
-if num1 == 42 and sign == '/' and num2 == 38:
-    print("42/38 = 1.105263157894736842105263158")
-if num1 == 42 and sign == '/' and num2 == 39:
-    print("42/39 = 1.076923076923076923076923077")
-if num1 == 42 and sign == '/' and num2 == 40:
-    print("42/40 = 1.05")
-if num1 == 42 and sign == '/' and num2 == 41:
-    print("42/41 = 1.024390243902439024390243902")
-if num1 == 42 and sign == '/' and num2 == 42:
-    print("42/42 = 1")
-if num1 == 42 and sign == '/' and num2 == 43:
-    print("42/43 = 0.9767441860465116279069767442")
-if num1 == 42 and sign == '/' and num2 == 44:
-    print("42/44 = 0.9545454545454545454545454545")
-if num1 == 42 and sign == '/' and num2 == 45:
-    print("42/45 = 0.9333333333333333333333333333")
-if num1 == 42 and sign == '/' and num2 == 46:
-    print("42/46 = 0.9130434782608695652173913043")
-if num1 == 42 and sign == '/' and num2 == 47:
-    print("42/47 = 0.8936170212765957446808510638")
-if num1 == 42 and sign == '/' and num2 == 48:
-    print("42/48 = 0.875")
-if num1 == 42 and sign == '/' and num2 == 49:
-    print("42/49 = 0.8571428571428571428571428571")
-if num1 == 42 and sign == '/' and num2 == 50:
-    print("42/50 = 0.84")
-if num1 == 43 and sign == '/' and num2 == 0:
-    print("43/0 = Inf")
-if num1 == 43 and sign == '/' and num2 == 1:
-    print("43/1 = 43")
-if num1 == 43 and sign == '/' and num2 == 2:
-    print("43/2 = 21.5")
-if num1 == 43 and sign == '/' and num2 == 3:
-    print("43/3 = 14.33333333333333333333333333")
-if num1 == 43 and sign == '/' and num2 == 4:
-    print("43/4 = 10.75")
-if num1 == 43 and sign == '/' and num2 == 5:
-    print("43/5 = 8.6")
-if num1 == 43 and sign == '/' and num2 == 6:
-    print("43/6 = 7.166666666666666666666666667")
-if num1 == 43 and sign == '/' and num2 == 7:
-    print("43/7 = 6.142857142857142857142857143")
-if num1 == 43 and sign == '/' and num2 == 8:
-    print("43/8 = 5.375")
-if num1 == 43 and sign == '/' and num2 == 9:
-    print("43/9 = 4.777777777777777777777777778")
-if num1 == 43 and sign == '/' and num2 == 10:
-    print("43/10 = 4.3")
-if num1 == 43 and sign == '/' and num2 == 11:
-    print("43/11 = 3.909090909090909090909090909")
-if num1 == 43 and sign == '/' and num2 == 12:
-    print("43/12 = 3.583333333333333333333333333")
-if num1 == 43 and sign == '/' and num2 == 13:
-    print("43/13 = 3.307692307692307692307692308")
-if num1 == 43 and sign == '/' and num2 == 14:
-    print("43/14 = 3.071428571428571428571428571")
-if num1 == 43 and sign == '/' and num2 == 15:
-    print("43/15 = 2.866666666666666666666666667")
-if num1 == 43 and sign == '/' and num2 == 16:
-    print("43/16 = 2.6875")
-if num1 == 43 and sign == '/' and num2 == 17:
-    print("43/17 = 2.529411764705882352941176471")
-if num1 == 43 and sign == '/' and num2 == 18:
-    print("43/18 = 2.388888888888888888888888889")
-if num1 == 43 and sign == '/' and num2 == 19:
-    print("43/19 = 2.263157894736842105263157895")
-if num1 == 43 and sign == '/' and num2 == 20:
-    print("43/20 = 2.15")
-if num1 == 43 and sign == '/' and num2 == 21:
-    print("43/21 = 2.047619047619047619047619048")
-if num1 == 43 and sign == '/' and num2 == 22:
-    print("43/22 = 1.954545454545454545454545455")
-if num1 == 43 and sign == '/' and num2 == 23:
-    print("43/23 = 1.869565217391304347826086957")
-if num1 == 43 and sign == '/' and num2 == 24:
-    print("43/24 = 1.791666666666666666666666667")
-if num1 == 43 and sign == '/' and num2 == 25:
-    print("43/25 = 1.72")
-if num1 == 43 and sign == '/' and num2 == 26:
-    print("43/26 = 1.653846153846153846153846154")
-if num1 == 43 and sign == '/' and num2 == 27:
-    print("43/27 = 1.592592592592592592592592593")
-if num1 == 43 and sign == '/' and num2 == 28:
-    print("43/28 = 1.535714285714285714285714286")
-if num1 == 43 and sign == '/' and num2 == 29:
-    print("43/29 = 1.482758620689655172413793103")
-if num1 == 43 and sign == '/' and num2 == 30:
-    print("43/30 = 1.433333333333333333333333333")
-if num1 == 43 and sign == '/' and num2 == 31:
-    print("43/31 = 1.387096774193548387096774194")
-if num1 == 43 and sign == '/' and num2 == 32:
-    print("43/32 = 1.34375")
-if num1 == 43 and sign == '/' and num2 == 33:
-    print("43/33 = 1.303030303030303030303030303")
-if num1 == 43 and sign == '/' and num2 == 34:
-    print("43/34 = 1.264705882352941176470588235")
-if num1 == 43 and sign == '/' and num2 == 35:
-    print("43/35 = 1.228571428571428571428571429")
-if num1 == 43 and sign == '/' and num2 == 36:
-    print("43/36 = 1.194444444444444444444444444")
-if num1 == 43 and sign == '/' and num2 == 37:
-    print("43/37 = 1.162162162162162162162162162")
-if num1 == 43 and sign == '/' and num2 == 38:
-    print("43/38 = 1.131578947368421052631578947")
-if num1 == 43 and sign == '/' and num2 == 39:
-    print("43/39 = 1.102564102564102564102564103")
-if num1 == 43 and sign == '/' and num2 == 40:
-    print("43/40 = 1.075")
-if num1 == 43 and sign == '/' and num2 == 41:
-    print("43/41 = 1.048780487804878048780487805")
-if num1 == 43 and sign == '/' and num2 == 42:
-    print("43/42 = 1.023809523809523809523809524")
-if num1 == 43 and sign == '/' and num2 == 43:
-    print("43/43 = 1")
-if num1 == 43 and sign == '/' and num2 == 44:
-    print("43/44 = 0.9772727272727272727272727273")
-if num1 == 43 and sign == '/' and num2 == 45:
-    print("43/45 = 0.9555555555555555555555555556")
-if num1 == 43 and sign == '/' and num2 == 46:
-    print("43/46 = 0.9347826086956521739130434783")
-if num1 == 43 and sign == '/' and num2 == 47:
-    print("43/47 = 0.9148936170212765957446808511")
-if num1 == 43 and sign == '/' and num2 == 48:
-    print("43/48 = 0.8958333333333333333333333333")
-if num1 == 43 and sign == '/' and num2 == 49:
-    print("43/49 = 0.8775510204081632653061224490")
-if num1 == 43 and sign == '/' and num2 == 50:
-    print("43/50 = 0.86")
-if num1 == 44 and sign == '/' and num2 == 0:
-    print("44/0 = Inf")
-if num1 == 44 and sign == '/' and num2 == 1:
-    print("44/1 = 44")
-if num1 == 44 and sign == '/' and num2 == 2:
-    print("44/2 = 22")
-if num1 == 44 and sign == '/' and num2 == 3:
-    print("44/3 = 14.66666666666666666666666667")
-if num1 == 44 and sign == '/' and num2 == 4:
-    print("44/4 = 11")
-if num1 == 44 and sign == '/' and num2 == 5:
-    print("44/5 = 8.8")
-if num1 == 44 and sign == '/' and num2 == 6:
-    print("44/6 = 7.333333333333333333333333333")
-if num1 == 44 and sign == '/' and num2 == 7:
-    print("44/7 = 6.285714285714285714285714286")
-if num1 == 44 and sign == '/' and num2 == 8:
-    print("44/8 = 5.5")
-if num1 == 44 and sign == '/' and num2 == 9:
-    print("44/9 = 4.888888888888888888888888889")
-if num1 == 44 and sign == '/' and num2 == 10:
-    print("44/10 = 4.4")
-if num1 == 44 and sign == '/' and num2 == 11:
-    print("44/11 = 4")
-if num1 == 44 and sign == '/' and num2 == 12:
-    print("44/12 = 3.666666666666666666666666667")
-if num1 == 44 and sign == '/' and num2 == 13:
-    print("44/13 = 3.384615384615384615384615385")
-if num1 == 44 and sign == '/' and num2 == 14:
-    print("44/14 = 3.142857142857142857142857143")
-if num1 == 44 and sign == '/' and num2 == 15:
-    print("44/15 = 2.933333333333333333333333333")
-if num1 == 44 and sign == '/' and num2 == 16:
-    print("44/16 = 2.75")
-if num1 == 44 and sign == '/' and num2 == 17:
-    print("44/17 = 2.588235294117647058823529412")
-if num1 == 44 and sign == '/' and num2 == 18:
-    print("44/18 = 2.444444444444444444444444444")
-if num1 == 44 and sign == '/' and num2 == 19:
-    print("44/19 = 2.315789473684210526315789474")
-if num1 == 44 and sign == '/' and num2 == 20:
-    print("44/20 = 2.2")
-if num1 == 44 and sign == '/' and num2 == 21:
-    print("44/21 = 2.095238095238095238095238095")
-if num1 == 44 and sign == '/' and num2 == 22:
-    print("44/22 = 2")
-if num1 == 44 and sign == '/' and num2 == 23:
-    print("44/23 = 1.913043478260869565217391304")
-if num1 == 44 and sign == '/' and num2 == 24:
-    print("44/24 = 1.833333333333333333333333333")
-if num1 == 44 and sign == '/' and num2 == 25:
-    print("44/25 = 1.76")
-if num1 == 44 and sign == '/' and num2 == 26:
-    print("44/26 = 1.692307692307692307692307692")
-if num1 == 44 and sign == '/' and num2 == 27:
-    print("44/27 = 1.629629629629629629629629630")
-if num1 == 44 and sign == '/' and num2 == 28:
-    print("44/28 = 1.571428571428571428571428571")
-if num1 == 44 and sign == '/' and num2 == 29:
-    print("44/29 = 1.517241379310344827586206897")
-if num1 == 44 and sign == '/' and num2 == 30:
-    print("44/30 = 1.466666666666666666666666667")
-if num1 == 44 and sign == '/' and num2 == 31:
-    print("44/31 = 1.419354838709677419354838710")
-if num1 == 44 and sign == '/' and num2 == 32:
-    print("44/32 = 1.375")
-if num1 == 44 and sign == '/' and num2 == 33:
-    print("44/33 = 1.333333333333333333333333333")
-if num1 == 44 and sign == '/' and num2 == 34:
-    print("44/34 = 1.294117647058823529411764706")
-if num1 == 44 and sign == '/' and num2 == 35:
-    print("44/35 = 1.257142857142857142857142857")
-if num1 == 44 and sign == '/' and num2 == 36:
-    print("44/36 = 1.222222222222222222222222222")
-if num1 == 44 and sign == '/' and num2 == 37:
-    print("44/37 = 1.189189189189189189189189189")
-if num1 == 44 and sign == '/' and num2 == 38:
-    print("44/38 = 1.157894736842105263157894737")
-if num1 == 44 and sign == '/' and num2 == 39:
-    print("44/39 = 1.128205128205128205128205128")
-if num1 == 44 and sign == '/' and num2 == 40:
-    print("44/40 = 1.1")
-if num1 == 44 and sign == '/' and num2 == 41:
-    print("44/41 = 1.073170731707317073170731707")
-if num1 == 44 and sign == '/' and num2 == 42:
-    print("44/42 = 1.047619047619047619047619048")
-if num1 == 44 and sign == '/' and num2 == 43:
-    print("44/43 = 1.023255813953488372093023256")
-if num1 == 44 and sign == '/' and num2 == 44:
-    print("44/44 = 1")
-if num1 == 44 and sign == '/' and num2 == 45:
-    print("44/45 = 0.9777777777777777777777777778")
-if num1 == 44 and sign == '/' and num2 == 46:
-    print("44/46 = 0.9565217391304347826086956522")
-if num1 == 44 and sign == '/' and num2 == 47:
-    print("44/47 = 0.9361702127659574468085106383")
-if num1 == 44 and sign == '/' and num2 == 48:
-    print("44/48 = 0.9166666666666666666666666667")
-if num1 == 44 and sign == '/' and num2 == 49:
-    print("44/49 = 0.8979591836734693877551020408")
-if num1 == 44 and sign == '/' and num2 == 50:
-    print("44/50 = 0.88")
-if num1 == 45 and sign == '/' and num2 == 0:
-    print("45/0 = Inf")
-if num1 == 45 and sign == '/' and num2 == 1:
-    print("45/1 = 45")
-if num1 == 45 and sign == '/' and num2 == 2:
-    print("45/2 = 22.5")
-if num1 == 45 and sign == '/' and num2 == 3:
-    print("45/3 = 15")
-if num1 == 45 and sign == '/' and num2 == 4:
-    print("45/4 = 11.25")
-if num1 == 45 and sign == '/' and num2 == 5:
-    print("45/5 = 9")
-if num1 == 45 and sign == '/' and num2 == 6:
-    print("45/6 = 7.5")
-if num1 == 45 and sign == '/' and num2 == 7:
-    print("45/7 = 6.428571428571428571428571429")
-if num1 == 45 and sign == '/' and num2 == 8:
-    print("45/8 = 5.625")
-if num1 == 45 and sign == '/' and num2 == 9:
-    print("45/9 = 5")
-if num1 == 45 and sign == '/' and num2 == 10:
-    print("45/10 = 4.5")
-if num1 == 45 and sign == '/' and num2 == 11:
-    print("45/11 = 4.090909090909090909090909091")
-if num1 == 45 and sign == '/' and num2 == 12:
-    print("45/12 = 3.75")
-if num1 == 45 and sign == '/' and num2 == 13:
-    print("45/13 = 3.461538461538461538461538462")
-if num1 == 45 and sign == '/' and num2 == 14:
-    print("45/14 = 3.214285714285714285714285714")
-if num1 == 45 and sign == '/' and num2 == 15:
-    print("45/15 = 3")
-if num1 == 45 and sign == '/' and num2 == 16:
-    print("45/16 = 2.8125")
-if num1 == 45 and sign == '/' and num2 == 17:
-    print("45/17 = 2.647058823529411764705882353")
-if num1 == 45 and sign == '/' and num2 == 18:
-    print("45/18 = 2.5")
-if num1 == 45 and sign == '/' and num2 == 19:
-    print("45/19 = 2.368421052631578947368421053")
-if num1 == 45 and sign == '/' and num2 == 20:
-    print("45/20 = 2.25")
-if num1 == 45 and sign == '/' and num2 == 21:
-    print("45/21 = 2.142857142857142857142857143")
-if num1 == 45 and sign == '/' and num2 == 22:
-    print("45/22 = 2.045454545454545454545454545")
-if num1 == 45 and sign == '/' and num2 == 23:
-    print("45/23 = 1.956521739130434782608695652")
-if num1 == 45 and sign == '/' and num2 == 24:
-    print("45/24 = 1.875")
-if num1 == 45 and sign == '/' and num2 == 25:
-    print("45/25 = 1.8")
-if num1 == 45 and sign == '/' and num2 == 26:
-    print("45/26 = 1.730769230769230769230769231")
-if num1 == 45 and sign == '/' and num2 == 27:
-    print("45/27 = 1.666666666666666666666666667")
-if num1 == 45 and sign == '/' and num2 == 28:
-    print("45/28 = 1.607142857142857142857142857")
-if num1 == 45 and sign == '/' and num2 == 29:
-    print("45/29 = 1.551724137931034482758620690")
-if num1 == 45 and sign == '/' and num2 == 30:
-    print("45/30 = 1.5")
-if num1 == 45 and sign == '/' and num2 == 31:
-    print("45/31 = 1.451612903225806451612903226")
-if num1 == 45 and sign == '/' and num2 == 32:
-    print("45/32 = 1.40625")
-if num1 == 45 and sign == '/' and num2 == 33:
-    print("45/33 = 1.363636363636363636363636364")
-if num1 == 45 and sign == '/' and num2 == 34:
-    print("45/34 = 1.323529411764705882352941176")
-if num1 == 45 and sign == '/' and num2 == 35:
-    print("45/35 = 1.285714285714285714285714286")
-if num1 == 45 and sign == '/' and num2 == 36:
-    print("45/36 = 1.25")
-if num1 == 45 and sign == '/' and num2 == 37:
-    print("45/37 = 1.216216216216216216216216216")
-if num1 == 45 and sign == '/' and num2 == 38:
-    print("45/38 = 1.184210526315789473684210526")
-if num1 == 45 and sign == '/' and num2 == 39:
-    print("45/39 = 1.153846153846153846153846154")
-if num1 == 45 and sign == '/' and num2 == 40:
-    print("45/40 = 1.125")
-if num1 == 45 and sign == '/' and num2 == 41:
-    print("45/41 = 1.097560975609756097560975610")
-if num1 == 45 and sign == '/' and num2 == 42:
-    print("45/42 = 1.071428571428571428571428571")
-if num1 == 45 and sign == '/' and num2 == 43:
-    print("45/43 = 1.046511627906976744186046512")
-if num1 == 45 and sign == '/' and num2 == 44:
-    print("45/44 = 1.022727272727272727272727273")
-if num1 == 45 and sign == '/' and num2 == 45:
-    print("45/45 = 1")
-if num1 == 45 and sign == '/' and num2 == 46:
-    print("45/46 = 0.9782608695652173913043478261")
-if num1 == 45 and sign == '/' and num2 == 47:
-    print("45/47 = 0.9574468085106382978723404255")
-if num1 == 45 and sign == '/' and num2 == 48:
-    print("45/48 = 0.9375")
-if num1 == 45 and sign == '/' and num2 == 49:
-    print("45/49 = 0.9183673469387755102040816327")
-if num1 == 45 and sign == '/' and num2 == 50:
-    print("45/50 = 0.9")
-if num1 == 46 and sign == '/' and num2 == 0:
-    print("46/0 = Inf")
-if num1 == 46 and sign == '/' and num2 == 1:
-    print("46/1 = 46")
-if num1 == 46 and sign == '/' and num2 == 2:
-    print("46/2 = 23")
-if num1 == 46 and sign == '/' and num2 == 3:
-    print("46/3 = 15.33333333333333333333333333")
-if num1 == 46 and sign == '/' and num2 == 4:
-    print("46/4 = 11.5")
-if num1 == 46 and sign == '/' and num2 == 5:
-    print("46/5 = 9.2")
-if num1 == 46 and sign == '/' and num2 == 6:
-    print("46/6 = 7.666666666666666666666666667")
-if num1 == 46 and sign == '/' and num2 == 7:
-    print("46/7 = 6.571428571428571428571428571")
-if num1 == 46 and sign == '/' and num2 == 8:
-    print("46/8 = 5.75")
-if num1 == 46 and sign == '/' and num2 == 9:
-    print("46/9 = 5.111111111111111111111111111")
-if num1 == 46 and sign == '/' and num2 == 10:
-    print("46/10 = 4.6")
-if num1 == 46 and sign == '/' and num2 == 11:
-    print("46/11 = 4.181818181818181818181818182")
-if num1 == 46 and sign == '/' and num2 == 12:
-    print("46/12 = 3.833333333333333333333333333")
-if num1 == 46 and sign == '/' and num2 == 13:
-    print("46/13 = 3.538461538461538461538461538")
-if num1 == 46 and sign == '/' and num2 == 14:
-    print("46/14 = 3.285714285714285714285714286")
-if num1 == 46 and sign == '/' and num2 == 15:
-    print("46/15 = 3.066666666666666666666666667")
-if num1 == 46 and sign == '/' and num2 == 16:
-    print("46/16 = 2.875")
-if num1 == 46 and sign == '/' and num2 == 17:
-    print("46/17 = 2.705882352941176470588235294")
-if num1 == 46 and sign == '/' and num2 == 18:
-    print("46/18 = 2.555555555555555555555555556")
-if num1 == 46 and sign == '/' and num2 == 19:
-    print("46/19 = 2.421052631578947368421052632")
-if num1 == 46 and sign == '/' and num2 == 20:
-    print("46/20 = 2.3")
-if num1 == 46 and sign == '/' and num2 == 21:
-    print("46/21 = 2.190476190476190476190476190")
-if num1 == 46 and sign == '/' and num2 == 22:
-    print("46/22 = 2.090909090909090909090909091")
-if num1 == 46 and sign == '/' and num2 == 23:
-    print("46/23 = 2")
-if num1 == 46 and sign == '/' and num2 == 24:
-    print("46/24 = 1.916666666666666666666666667")
-if num1 == 46 and sign == '/' and num2 == 25:
-    print("46/25 = 1.84")
-if num1 == 46 and sign == '/' and num2 == 26:
-    print("46/26 = 1.769230769230769230769230769")
-if num1 == 46 and sign == '/' and num2 == 27:
-    print("46/27 = 1.703703703703703703703703704")
-if num1 == 46 and sign == '/' and num2 == 28:
-    print("46/28 = 1.642857142857142857142857143")
-if num1 == 46 and sign == '/' and num2 == 29:
-    print("46/29 = 1.586206896551724137931034483")
-if num1 == 46 and sign == '/' and num2 == 30:
-    print("46/30 = 1.533333333333333333333333333")
-if num1 == 46 and sign == '/' and num2 == 31:
-    print("46/31 = 1.483870967741935483870967742")
-if num1 == 46 and sign == '/' and num2 == 32:
-    print("46/32 = 1.4375")
-if num1 == 46 and sign == '/' and num2 == 33:
-    print("46/33 = 1.393939393939393939393939394")
-if num1 == 46 and sign == '/' and num2 == 34:
-    print("46/34 = 1.352941176470588235294117647")
-if num1 == 46 and sign == '/' and num2 == 35:
-    print("46/35 = 1.314285714285714285714285714")
-if num1 == 46 and sign == '/' and num2 == 36:
-    print("46/36 = 1.277777777777777777777777778")
-if num1 == 46 and sign == '/' and num2 == 37:
-    print("46/37 = 1.243243243243243243243243243")
-if num1 == 46 and sign == '/' and num2 == 38:
-    print("46/38 = 1.210526315789473684210526316")
-if num1 == 46 and sign == '/' and num2 == 39:
-    print("46/39 = 1.179487179487179487179487179")
-if num1 == 46 and sign == '/' and num2 == 40:
-    print("46/40 = 1.15")
-if num1 == 46 and sign == '/' and num2 == 41:
-    print("46/41 = 1.121951219512195121951219512")
-if num1 == 46 and sign == '/' and num2 == 42:
-    print("46/42 = 1.095238095238095238095238095")
-if num1 == 46 and sign == '/' and num2 == 43:
-    print("46/43 = 1.069767441860465116279069767")
-if num1 == 46 and sign == '/' and num2 == 44:
-    print("46/44 = 1.045454545454545454545454545")
-if num1 == 46 and sign == '/' and num2 == 45:
-    print("46/45 = 1.022222222222222222222222222")
-if num1 == 46 and sign == '/' and num2 == 46:
-    print("46/46 = 1")
-if num1 == 46 and sign == '/' and num2 == 47:
-    print("46/47 = 0.9787234042553191489361702128")
-if num1 == 46 and sign == '/' and num2 == 48:
-    print("46/48 = 0.9583333333333333333333333333")
-if num1 == 46 and sign == '/' and num2 == 49:
-    print("46/49 = 0.9387755102040816326530612245")
-if num1 == 46 and sign == '/' and num2 == 50:
-    print("46/50 = 0.92")
-if num1 == 47 and sign == '/' and num2 == 0:
-    print("47/0 = Inf")
-if num1 == 47 and sign == '/' and num2 == 1:
-    print("47/1 = 47")
-if num1 == 47 and sign == '/' and num2 == 2:
-    print("47/2 = 23.5")
-if num1 == 47 and sign == '/' and num2 == 3:
-    print("47/3 = 15.66666666666666666666666667")
-if num1 == 47 and sign == '/' and num2 == 4:
-    print("47/4 = 11.75")
-if num1 == 47 and sign == '/' and num2 == 5:
-    print("47/5 = 9.4")
-if num1 == 47 and sign == '/' and num2 == 6:
-    print("47/6 = 7.833333333333333333333333333")
-if num1 == 47 and sign == '/' and num2 == 7:
-    print("47/7 = 6.714285714285714285714285714")
-if num1 == 47 and sign == '/' and num2 == 8:
-    print("47/8 = 5.875")
-if num1 == 47 and sign == '/' and num2 == 9:
-    print("47/9 = 5.222222222222222222222222222")
-if num1 == 47 and sign == '/' and num2 == 10:
-    print("47/10 = 4.7")
-if num1 == 47 and sign == '/' and num2 == 11:
-    print("47/11 = 4.272727272727272727272727273")
-if num1 == 47 and sign == '/' and num2 == 12:
-    print("47/12 = 3.916666666666666666666666667")
-if num1 == 47 and sign == '/' and num2 == 13:
-    print("47/13 = 3.615384615384615384615384615")
-if num1 == 47 and sign == '/' and num2 == 14:
-    print("47/14 = 3.357142857142857142857142857")
-if num1 == 47 and sign == '/' and num2 == 15:
-    print("47/15 = 3.133333333333333333333333333")
-if num1 == 47 and sign == '/' and num2 == 16:
-    print("47/16 = 2.9375")
-if num1 == 47 and sign == '/' and num2 == 17:
-    print("47/17 = 2.764705882352941176470588235")
-if num1 == 47 and sign == '/' and num2 == 18:
-    print("47/18 = 2.611111111111111111111111111")
-if num1 == 47 and sign == '/' and num2 == 19:
-    print("47/19 = 2.473684210526315789473684211")
-if num1 == 47 and sign == '/' and num2 == 20:
-    print("47/20 = 2.35")
-if num1 == 47 and sign == '/' and num2 == 21:
-    print("47/21 = 2.238095238095238095238095238")
-if num1 == 47 and sign == '/' and num2 == 22:
-    print("47/22 = 2.136363636363636363636363636")
-if num1 == 47 and sign == '/' and num2 == 23:
-    print("47/23 = 2.043478260869565217391304348")
-if num1 == 47 and sign == '/' and num2 == 24:
-    print("47/24 = 1.958333333333333333333333333")
-if num1 == 47 and sign == '/' and num2 == 25:
-    print("47/25 = 1.88")
-if num1 == 47 and sign == '/' and num2 == 26:
-    print("47/26 = 1.807692307692307692307692308")
-if num1 == 47 and sign == '/' and num2 == 27:
-    print("47/27 = 1.740740740740740740740740741")
-if num1 == 47 and sign == '/' and num2 == 28:
-    print("47/28 = 1.678571428571428571428571429")
-if num1 == 47 and sign == '/' and num2 == 29:
-    print("47/29 = 1.620689655172413793103448276")
-if num1 == 47 and sign == '/' and num2 == 30:
-    print("47/30 = 1.566666666666666666666666667")
-if num1 == 47 and sign == '/' and num2 == 31:
-    print("47/31 = 1.516129032258064516129032258")
-if num1 == 47 and sign == '/' and num2 == 32:
-    print("47/32 = 1.46875")
-if num1 == 47 and sign == '/' and num2 == 33:
-    print("47/33 = 1.424242424242424242424242424")
-if num1 == 47 and sign == '/' and num2 == 34:
-    print("47/34 = 1.382352941176470588235294118")
-if num1 == 47 and sign == '/' and num2 == 35:
-    print("47/35 = 1.342857142857142857142857143")
-if num1 == 47 and sign == '/' and num2 == 36:
-    print("47/36 = 1.305555555555555555555555556")
-if num1 == 47 and sign == '/' and num2 == 37:
-    print("47/37 = 1.270270270270270270270270270")
-if num1 == 47 and sign == '/' and num2 == 38:
-    print("47/38 = 1.236842105263157894736842105")
-if num1 == 47 and sign == '/' and num2 == 39:
-    print("47/39 = 1.205128205128205128205128205")
-if num1 == 47 and sign == '/' and num2 == 40:
-    print("47/40 = 1.175")
-if num1 == 47 and sign == '/' and num2 == 41:
-    print("47/41 = 1.146341463414634146341463415")
-if num1 == 47 and sign == '/' and num2 == 42:
-    print("47/42 = 1.119047619047619047619047619")
-if num1 == 47 and sign == '/' and num2 == 43:
-    print("47/43 = 1.093023255813953488372093023")
-if num1 == 47 and sign == '/' and num2 == 44:
-    print("47/44 = 1.068181818181818181818181818")
-if num1 == 47 and sign == '/' and num2 == 45:
-    print("47/45 = 1.044444444444444444444444444")
-if num1 == 47 and sign == '/' and num2 == 46:
-    print("47/46 = 1.021739130434782608695652174")
-if num1 == 47 and sign == '/' and num2 == 47:
-    print("47/47 = 1")
-if num1 == 47 and sign == '/' and num2 == 48:
-    print("47/48 = 0.9791666666666666666666666667")
-if num1 == 47 and sign == '/' and num2 == 49:
-    print("47/49 = 0.9591836734693877551020408163")
-if num1 == 47 and sign == '/' and num2 == 50:
-    print("47/50 = 0.94")
-if num1 == 48 and sign == '/' and num2 == 0:
-    print("48/0 = Inf")
-if num1 == 48 and sign == '/' and num2 == 1:
-    print("48/1 = 48")
-if num1 == 48 and sign == '/' and num2 == 2:
-    print("48/2 = 24")
-if num1 == 48 and sign == '/' and num2 == 3:
-    print("48/3 = 16")
-if num1 == 48 and sign == '/' and num2 == 4:
-    print("48/4 = 12")
-if num1 == 48 and sign == '/' and num2 == 5:
-    print("48/5 = 9.6")
-if num1 == 48 and sign == '/' and num2 == 6:
-    print("48/6 = 8")
-if num1 == 48 and sign == '/' and num2 == 7:
-    print("48/7 = 6.857142857142857142857142857")
-if num1 == 48 and sign == '/' and num2 == 8:
-    print("48/8 = 6")
-if num1 == 48 and sign == '/' and num2 == 9:
-    print("48/9 = 5.333333333333333333333333333")
-if num1 == 48 and sign == '/' and num2 == 10:
-    print("48/10 = 4.8")
-if num1 == 48 and sign == '/' and num2 == 11:
-    print("48/11 = 4.363636363636363636363636364")
-if num1 == 48 and sign == '/' and num2 == 12:
-    print("48/12 = 4")
-if num1 == 48 and sign == '/' and num2 == 13:
-    print("48/13 = 3.692307692307692307692307692")
-if num1 == 48 and sign == '/' and num2 == 14:
-    print("48/14 = 3.428571428571428571428571429")
-if num1 == 48 and sign == '/' and num2 == 15:
-    print("48/15 = 3.2")
-if num1 == 48 and sign == '/' and num2 == 16:
-    print("48/16 = 3")
-if num1 == 48 and sign == '/' and num2 == 17:
-    print("48/17 = 2.823529411764705882352941176")
-if num1 == 48 and sign == '/' and num2 == 18:
-    print("48/18 = 2.666666666666666666666666667")
-if num1 == 48 and sign == '/' and num2 == 19:
-    print("48/19 = 2.526315789473684210526315789")
-if num1 == 48 and sign == '/' and num2 == 20:
-    print("48/20 = 2.4")
-if num1 == 48 and sign == '/' and num2 == 21:
-    print("48/21 = 2.285714285714285714285714286")
-if num1 == 48 and sign == '/' and num2 == 22:
-    print("48/22 = 2.181818181818181818181818182")
-if num1 == 48 and sign == '/' and num2 == 23:
-    print("48/23 = 2.086956521739130434782608696")
-if num1 == 48 and sign == '/' and num2 == 24:
-    print("48/24 = 2")
-if num1 == 48 and sign == '/' and num2 == 25:
-    print("48/25 = 1.92")
-if num1 == 48 and sign == '/' and num2 == 26:
-    print("48/26 = 1.846153846153846153846153846")
-if num1 == 48 and sign == '/' and num2 == 27:
-    print("48/27 = 1.777777777777777777777777778")
-if num1 == 48 and sign == '/' and num2 == 28:
-    print("48/28 = 1.714285714285714285714285714")
-if num1 == 48 and sign == '/' and num2 == 29:
-    print("48/29 = 1.655172413793103448275862069")
-if num1 == 48 and sign == '/' and num2 == 30:
-    print("48/30 = 1.6")
-if num1 == 48 and sign == '/' and num2 == 31:
-    print("48/31 = 1.548387096774193548387096774")
-if num1 == 48 and sign == '/' and num2 == 32:
-    print("48/32 = 1.5")
-if num1 == 48 and sign == '/' and num2 == 33:
-    print("48/33 = 1.454545454545454545454545455")
-if num1 == 48 and sign == '/' and num2 == 34:
-    print("48/34 = 1.411764705882352941176470588")
-if num1 == 48 and sign == '/' and num2 == 35:
-    print("48/35 = 1.371428571428571428571428571")
-if num1 == 48 and sign == '/' and num2 == 36:
-    print("48/36 = 1.333333333333333333333333333")
-if num1 == 48 and sign == '/' and num2 == 37:
-    print("48/37 = 1.297297297297297297297297297")
-if num1 == 48 and sign == '/' and num2 == 38:
-    print("48/38 = 1.263157894736842105263157895")
-if num1 == 48 and sign == '/' and num2 == 39:
-    print("48/39 = 1.230769230769230769230769231")
-if num1 == 48 and sign == '/' and num2 == 40:
-    print("48/40 = 1.2")
-if num1 == 48 and sign == '/' and num2 == 41:
-    print("48/41 = 1.170731707317073170731707317")
-if num1 == 48 and sign == '/' and num2 == 42:
-    print("48/42 = 1.142857142857142857142857143")
-if num1 == 48 and sign == '/' and num2 == 43:
-    print("48/43 = 1.116279069767441860465116279")
-if num1 == 48 and sign == '/' and num2 == 44:
-    print("48/44 = 1.090909090909090909090909091")
-if num1 == 48 and sign == '/' and num2 == 45:
-    print("48/45 = 1.066666666666666666666666667")
-if num1 == 48 and sign == '/' and num2 == 46:
-    print("48/46 = 1.043478260869565217391304348")
-if num1 == 48 and sign == '/' and num2 == 47:
-    print("48/47 = 1.021276595744680851063829787")
-if num1 == 48 and sign == '/' and num2 == 48:
-    print("48/48 = 1")
-if num1 == 48 and sign == '/' and num2 == 49:
-    print("48/49 = 0.9795918367346938775510204082")
-if num1 == 48 and sign == '/' and num2 == 50:
-    print("48/50 = 0.96")
-if num1 == 49 and sign == '/' and num2 == 0:
-    print("49/0 = Inf")
-if num1 == 49 and sign == '/' and num2 == 1:
-    print("49/1 = 49")
-if num1 == 49 and sign == '/' and num2 == 2:
-    print("49/2 = 24.5")
-if num1 == 49 and sign == '/' and num2 == 3:
-    print("49/3 = 16.33333333333333333333333333")
-if num1 == 49 and sign == '/' and num2 == 4:
-    print("49/4 = 12.25")
-if num1 == 49 and sign == '/' and num2 == 5:
-    print("49/5 = 9.8")
-if num1 == 49 and sign == '/' and num2 == 6:
-    print("49/6 = 8.166666666666666666666666667")
-if num1 == 49 and sign == '/' and num2 == 7:
-    print("49/7 = 7")
-if num1 == 49 and sign == '/' and num2 == 8:
-    print("49/8 = 6.125")
-if num1 == 49 and sign == '/' and num2 == 9:
-    print("49/9 = 5.444444444444444444444444444")
-if num1 == 49 and sign == '/' and num2 == 10:
-    print("49/10 = 4.9")
-if num1 == 49 and sign == '/' and num2 == 11:
-    print("49/11 = 4.454545454545454545454545455")
-if num1 == 49 and sign == '/' and num2 == 12:
-    print("49/12 = 4.083333333333333333333333333")
-if num1 == 49 and sign == '/' and num2 == 13:
-    print("49/13 = 3.769230769230769230769230769")
-if num1 == 49 and sign == '/' and num2 == 14:
-    print("49/14 = 3.5")
-if num1 == 49 and sign == '/' and num2 == 15:
-    print("49/15 = 3.266666666666666666666666667")
-if num1 == 49 and sign == '/' and num2 == 16:
-    print("49/16 = 3.0625")
-if num1 == 49 and sign == '/' and num2 == 17:
-    print("49/17 = 2.882352941176470588235294118")
-if num1 == 49 and sign == '/' and num2 == 18:
-    print("49/18 = 2.722222222222222222222222222")
-if num1 == 49 and sign == '/' and num2 == 19:
-    print("49/19 = 2.578947368421052631578947368")
-if num1 == 49 and sign == '/' and num2 == 20:
-    print("49/20 = 2.45")
-if num1 == 49 and sign == '/' and num2 == 21:
-    print("49/21 = 2.333333333333333333333333333")
-if num1 == 49 and sign == '/' and num2 == 22:
-    print("49/22 = 2.227272727272727272727272727")
-if num1 == 49 and sign == '/' and num2 == 23:
-    print("49/23 = 2.130434782608695652173913043")
-if num1 == 49 and sign == '/' and num2 == 24:
-    print("49/24 = 2.041666666666666666666666667")
-if num1 == 49 and sign == '/' and num2 == 25:
-    print("49/25 = 1.96")
-if num1 == 49 and sign == '/' and num2 == 26:
-    print("49/26 = 1.884615384615384615384615385")
-if num1 == 49 and sign == '/' and num2 == 27:
-    print("49/27 = 1.814814814814814814814814815")
-if num1 == 49 and sign == '/' and num2 == 28:
-    print("49/28 = 1.75")
-if num1 == 49 and sign == '/' and num2 == 29:
-    print("49/29 = 1.689655172413793103448275862")
-if num1 == 49 and sign == '/' and num2 == 30:
-    print("49/30 = 1.633333333333333333333333333")
-if num1 == 49 and sign == '/' and num2 == 31:
-    print("49/31 = 1.580645161290322580645161290")
-if num1 == 49 and sign == '/' and num2 == 32:
-    print("49/32 = 1.53125")
-if num1 == 49 and sign == '/' and num2 == 33:
-    print("49/33 = 1.484848484848484848484848485")
-if num1 == 49 and sign == '/' and num2 == 34:
-    print("49/34 = 1.441176470588235294117647059")
-if num1 == 49 and sign == '/' and num2 == 35:
-    print("49/35 = 1.4")
-if num1 == 49 and sign == '/' and num2 == 36:
-    print("49/36 = 1.361111111111111111111111111")
-if num1 == 49 and sign == '/' and num2 == 37:
-    print("49/37 = 1.324324324324324324324324324")
-if num1 == 49 and sign == '/' and num2 == 38:
-    print("49/38 = 1.289473684210526315789473684")
-if num1 == 49 and sign == '/' and num2 == 39:
-    print("49/39 = 1.256410256410256410256410256")
-if num1 == 49 and sign == '/' and num2 == 40:
-    print("49/40 = 1.225")
-if num1 == 49 and sign == '/' and num2 == 41:
-    print("49/41 = 1.195121951219512195121951220")
-if num1 == 49 and sign == '/' and num2 == 42:
-    print("49/42 = 1.166666666666666666666666667")
-if num1 == 49 and sign == '/' and num2 == 43:
-    print("49/43 = 1.139534883720930232558139535")
-if num1 == 49 and sign == '/' and num2 == 44:
-    print("49/44 = 1.113636363636363636363636364")
-if num1 == 49 and sign == '/' and num2 == 45:
-    print("49/45 = 1.088888888888888888888888889")
-if num1 == 49 and sign == '/' and num2 == 46:
-    print("49/46 = 1.065217391304347826086956522")
-if num1 == 49 and sign == '/' and num2 == 47:
-    print("49/47 = 1.042553191489361702127659574")
-if num1 == 49 and sign == '/' and num2 == 48:
-    print("49/48 = 1.020833333333333333333333333")
-if num1 == 49 and sign == '/' and num2 == 49:
-    print("49/49 = 1")
-if num1 == 49 and sign == '/' and num2 == 50:
-    print("49/50 = 0.98")
-if num1 == 50 and sign == '/' and num2 == 0:
-    print("50/0 = Inf")
-if num1 == 50 and sign == '/' and num2 == 1:
-    print("50/1 = 50")
-if num1 == 50 and sign == '/' and num2 == 2:
-    print("50/2 = 25")
-if num1 == 50 and sign == '/' and num2 == 3:
-    print("50/3 = 16.66666666666666666666666667")
-if num1 == 50 and sign == '/' and num2 == 4:
-    print("50/4 = 12.5")
-if num1 == 50 and sign == '/' and num2 == 5:
-    print("50/5 = 10")
-if num1 == 50 and sign == '/' and num2 == 6:
-    print("50/6 = 8.333333333333333333333333333")
-if num1 == 50 and sign == '/' and num2 == 7:
-    print("50/7 = 7.142857142857142857142857143")
-if num1 == 50 and sign == '/' and num2 == 8:
-    print("50/8 = 6.25")
-if num1 == 50 and sign == '/' and num2 == 9:
-    print("50/9 = 5.555555555555555555555555556")
-if num1 == 50 and sign == '/' and num2 == 10:
-    print("50/10 = 5")
-if num1 == 50 and sign == '/' and num2 == 11:
-    print("50/11 = 4.545454545454545454545454545")
-if num1 == 50 and sign == '/' and num2 == 12:
-    print("50/12 = 4.166666666666666666666666667")
-if num1 == 50 and sign == '/' and num2 == 13:
-    print("50/13 = 3.846153846153846153846153846")
-if num1 == 50 and sign == '/' and num2 == 14:
-    print("50/14 = 3.571428571428571428571428571")
-if num1 == 50 and sign == '/' and num2 == 15:
-    print("50/15 = 3.333333333333333333333333333")
-if num1 == 50 and sign == '/' and num2 == 16:
-    print("50/16 = 3.125")
-if num1 == 50 and sign == '/' and num2 == 17:
-    print("50/17 = 2.941176470588235294117647059")
-if num1 == 50 and sign == '/' and num2 == 18:
-    print("50/18 = 2.777777777777777777777777778")
-if num1 == 50 and sign == '/' and num2 == 19:
-    print("50/19 = 2.631578947368421052631578947")
-if num1 == 50 and sign == '/' and num2 == 20:
-    print("50/20 = 2.5")
-if num1 == 50 and sign == '/' and num2 == 21:
-    print("50/21 = 2.380952380952380952380952381")
-if num1 == 50 and sign == '/' and num2 == 22:
-    print("50/22 = 2.272727272727272727272727273")
-if num1 == 50 and sign == '/' and num2 == 23:
-    print("50/23 = 2.173913043478260869565217391")
-if num1 == 50 and sign == '/' and num2 == 24:
-    print("50/24 = 2.083333333333333333333333333")
-if num1 == 50 and sign == '/' and num2 == 25:
-    print("50/25 = 2")
-if num1 == 50 and sign == '/' and num2 == 26:
-    print("50/26 = 1.923076923076923076923076923")
-if num1 == 50 and sign == '/' and num2 == 27:
-    print("50/27 = 1.851851851851851851851851852")
-if num1 == 50 and sign == '/' and num2 == 28:
-    print("50/28 = 1.785714285714285714285714286")
-if num1 == 50 and sign == '/' and num2 == 29:
-    print("50/29 = 1.724137931034482758620689655")
-if num1 == 50 and sign == '/' and num2 == 30:
-    print("50/30 = 1.666666666666666666666666667")
-if num1 == 50 and sign == '/' and num2 == 31:
-    print("50/31 = 1.612903225806451612903225806")
-if num1 == 50 and sign == '/' and num2 == 32:
-    print("50/32 = 1.5625")
-if num1 == 50 and sign == '/' and num2 == 33:
-    print("50/33 = 1.515151515151515151515151515")
-if num1 == 50 and sign == '/' and num2 == 34:
-    print("50/34 = 1.470588235294117647058823529")
-if num1 == 50 and sign == '/' and num2 == 35:
-    print("50/35 = 1.428571428571428571428571429")
-if num1 == 50 and sign == '/' and num2 == 36:
-    print("50/36 = 1.388888888888888888888888889")
-if num1 == 50 and sign == '/' and num2 == 37:
-    print("50/37 = 1.351351351351351351351351351")
-if num1 == 50 and sign == '/' and num2 == 38:
-    print("50/38 = 1.315789473684210526315789474")
-if num1 == 50 and sign == '/' and num2 == 39:
-    print("50/39 = 1.282051282051282051282051282")
-if num1 == 50 and sign == '/' and num2 == 40:
-    print("50/40 = 1.25")
-if num1 == 50 and sign == '/' and num2 == 41:
-    print("50/41 = 1.219512195121951219512195122")
-if num1 == 50 and sign == '/' and num2 == 42:
-    print("50/42 = 1.190476190476190476190476190")
-if num1 == 50 and sign == '/' and num2 == 43:
-    print("50/43 = 1.162790697674418604651162791")
-if num1 == 50 and sign == '/' and num2 == 44:
-    print("50/44 = 1.136363636363636363636363636")
-if num1 == 50 and sign == '/' and num2 == 45:
-    print("50/45 = 1.111111111111111111111111111")
-if num1 == 50 and sign == '/' and num2 == 46:
-    print("50/46 = 1.086956521739130434782608696")
-if num1 == 50 and sign == '/' and num2 == 47:
-    print("50/47 = 1.063829787234042553191489362")
-if num1 == 50 and sign == '/' and num2 == 48:
-    print("50/48 = 1.041666666666666666666666667")
-if num1 == 50 and sign == '/' and num2 == 49:
-    print("50/49 = 1.020408163265306122448979592")
-if num1 == 50 and sign == '/' and num2 == 50:
-    print("50/50 = 1")
-if num1 == 0 and sign == '*' and num2 == 0:
-    print("0*0 = 0")
-if num1 == 0 and sign == '*' and num2 == 1:
-    print("0*1 = 0")
-if num1 == 0 and sign == '*' and num2 == 2:
-    print("0*2 = 0")
-if num1 == 0 and sign == '*' and num2 == 3:
-    print("0*3 = 0")
-if num1 == 0 and sign == '*' and num2 == 4:
-    print("0*4 = 0")
-if num1 == 0 and sign == '*' and num2 == 5:
-    print("0*5 = 0")
-if num1 == 0 and sign == '*' and num2 == 6:
-    print("0*6 = 0")
-if num1 == 0 and sign == '*' and num2 == 7:
-    print("0*7 = 0")
-if num1 == 0 and sign == '*' and num2 == 8:
-    print("0*8 = 0")
-if num1 == 0 and sign == '*' and num2 == 9:
-    print("0*9 = 0")
-if num1 == 0 and sign == '*' and num2 == 10:
-    print("0*10 = 0")
-if num1 == 0 and sign == '*' and num2 == 11:
-    print("0*11 = 0")
-if num1 == 0 and sign == '*' and num2 == 12:
-    print("0*12 = 0")
-if num1 == 0 and sign == '*' and num2 == 13:
-    print("0*13 = 0")
-if num1 == 0 and sign == '*' and num2 == 14:
-    print("0*14 = 0")
-if num1 == 0 and sign == '*' and num2 == 15:
-    print("0*15 = 0")
-if num1 == 0 and sign == '*' and num2 == 16:
-    print("0*16 = 0")
-if num1 == 0 and sign == '*' and num2 == 17:
-    print("0*17 = 0")
-if num1 == 0 and sign == '*' and num2 == 18:
-    print("0*18 = 0")
-if num1 == 0 and sign == '*' and num2 == 19:
-    print("0*19 = 0")
-if num1 == 0 and sign == '*' and num2 == 20:
-    print("0*20 = 0")
-if num1 == 0 and sign == '*' and num2 == 21:
-    print("0*21 = 0")
-if num1 == 0 and sign == '*' and num2 == 22:
-    print("0*22 = 0")
-if num1 == 0 and sign == '*' and num2 == 23:
-    print("0*23 = 0")
-if num1 == 0 and sign == '*' and num2 == 24:
-    print("0*24 = 0")
-if num1 == 0 and sign == '*' and num2 == 25:
-    print("0*25 = 0")
-if num1 == 0 and sign == '*' and num2 == 26:
-    print("0*26 = 0")
-if num1 == 0 and sign == '*' and num2 == 27:
-    print("0*27 = 0")
-if num1 == 0 and sign == '*' and num2 == 28:
-    print("0*28 = 0")
-if num1 == 0 and sign == '*' and num2 == 29:
-    print("0*29 = 0")
-if num1 == 0 and sign == '*' and num2 == 30:
-    print("0*30 = 0")
-if num1 == 0 and sign == '*' and num2 == 31:
-    print("0*31 = 0")
-if num1 == 0 and sign == '*' and num2 == 32:
-    print("0*32 = 0")
-if num1 == 0 and sign == '*' and num2 == 33:
-    print("0*33 = 0")
-if num1 == 0 and sign == '*' and num2 == 34:
-    print("0*34 = 0")
-if num1 == 0 and sign == '*' and num2 == 35:
-    print("0*35 = 0")
-if num1 == 0 and sign == '*' and num2 == 36:
-    print("0*36 = 0")
-if num1 == 0 and sign == '*' and num2 == 37:
-    print("0*37 = 0")
-if num1 == 0 and sign == '*' and num2 == 38:
-    print("0*38 = 0")
-if num1 == 0 and sign == '*' and num2 == 39:
-    print("0*39 = 0")
-if num1 == 0 and sign == '*' and num2 == 40:
-    print("0*40 = 0")
-if num1 == 0 and sign == '*' and num2 == 41:
-    print("0*41 = 0")
-if num1 == 0 and sign == '*' and num2 == 42:
-    print("0*42 = 0")
-if num1 == 0 and sign == '*' and num2 == 43:
-    print("0*43 = 0")
-if num1 == 0 and sign == '*' and num2 == 44:
-    print("0*44 = 0")
-if num1 == 0 and sign == '*' and num2 == 45:
-    print("0*45 = 0")
-if num1 == 0 and sign == '*' and num2 == 46:
-    print("0*46 = 0")
-if num1 == 0 and sign == '*' and num2 == 47:
-    print("0*47 = 0")
-if num1 == 0 and sign == '*' and num2 == 48:
-    print("0*48 = 0")
-if num1 == 0 and sign == '*' and num2 == 49:
-    print("0*49 = 0")
-if num1 == 0 and sign == '*' and num2 == 50:
-    print("0*50 = 0")
-if num1 == 1 and sign == '*' and num2 == 0:
-    print("1*0 = 0")
-if num1 == 1 and sign == '*' and num2 == 1:
-    print("1*1 = 1")
-if num1 == 1 and sign == '*' and num2 == 2:
-    print("1*2 = 2")
-if num1 == 1 and sign == '*' and num2 == 3:
-    print("1*3 = 3")
-if num1 == 1 and sign == '*' and num2 == 4:
-    print("1*4 = 4")
-if num1 == 1 and sign == '*' and num2 == 5:
-    print("1*5 = 5")
-if num1 == 1 and sign == '*' and num2 == 6:
-    print("1*6 = 6")
-if num1 == 1 and sign == '*' and num2 == 7:
-    print("1*7 = 7")
-if num1 == 1 and sign == '*' and num2 == 8:
-    print("1*8 = 8")
-if num1 == 1 and sign == '*' and num2 == 9:
-    print("1*9 = 9")
-if num1 == 1 and sign == '*' and num2 == 10:
-    print("1*10 = 10")
-if num1 == 1 and sign == '*' and num2 == 11:
-    print("1*11 = 11")
-if num1 == 1 and sign == '*' and num2 == 12:
-    print("1*12 = 12")
-if num1 == 1 and sign == '*' and num2 == 13:
-    print("1*13 = 13")
-if num1 == 1 and sign == '*' and num2 == 14:
-    print("1*14 = 14")
-if num1 == 1 and sign == '*' and num2 == 15:
-    print("1*15 = 15")
-if num1 == 1 and sign == '*' and num2 == 16:
-    print("1*16 = 16")
-if num1 == 1 and sign == '*' and num2 == 17:
-    print("1*17 = 17")
-if num1 == 1 and sign == '*' and num2 == 18:
-    print("1*18 = 18")
-if num1 == 1 and sign == '*' and num2 == 19:
-    print("1*19 = 19")
-if num1 == 1 and sign == '*' and num2 == 20:
-    print("1*20 = 20")
-if num1 == 1 and sign == '*' and num2 == 21:
-    print("1*21 = 21")
-if num1 == 1 and sign == '*' and num2 == 22:
-    print("1*22 = 22")
-if num1 == 1 and sign == '*' and num2 == 23:
-    print("1*23 = 23")
-if num1 == 1 and sign == '*' and num2 == 24:
-    print("1*24 = 24")
-if num1 == 1 and sign == '*' and num2 == 25:
-    print("1*25 = 25")
-if num1 == 1 and sign == '*' and num2 == 26:
-    print("1*26 = 26")
-if num1 == 1 and sign == '*' and num2 == 27:
-    print("1*27 = 27")
-if num1 == 1 and sign == '*' and num2 == 28:
-    print("1*28 = 28")
-if num1 == 1 and sign == '*' and num2 == 29:
-    print("1*29 = 29")
-if num1 == 1 and sign == '*' and num2 == 30:
-    print("1*30 = 30")
-if num1 == 1 and sign == '*' and num2 == 31:
-    print("1*31 = 31")
-if num1 == 1 and sign == '*' and num2 == 32:
-    print("1*32 = 32")
-if num1 == 1 and sign == '*' and num2 == 33:
-    print("1*33 = 33")
-if num1 == 1 and sign == '*' and num2 == 34:
-    print("1*34 = 34")
-if num1 == 1 and sign == '*' and num2 == 35:
-    print("1*35 = 35")
-if num1 == 1 and sign == '*' and num2 == 36:
-    print("1*36 = 36")
-if num1 == 1 and sign == '*' and num2 == 37:
-    print("1*37 = 37")
-if num1 == 1 and sign == '*' and num2 == 38:
-    print("1*38 = 38")
-if num1 == 1 and sign == '*' and num2 == 39:
-    print("1*39 = 39")
-if num1 == 1 and sign == '*' and num2 == 40:
-    print("1*40 = 40")
-if num1 == 1 and sign == '*' and num2 == 41:
-    print("1*41 = 41")
-if num1 == 1 and sign == '*' and num2 == 42:
-    print("1*42 = 42")
-if num1 == 1 and sign == '*' and num2 == 43:
-    print("1*43 = 43")
-if num1 == 1 and sign == '*' and num2 == 44:
-    print("1*44 = 44")
-if num1 == 1 and sign == '*' and num2 == 45:
-    print("1*45 = 45")
-if num1 == 1 and sign == '*' and num2 == 46:
-    print("1*46 = 46")
-if num1 == 1 and sign == '*' and num2 == 47:
-    print("1*47 = 47")
-if num1 == 1 and sign == '*' and num2 == 48:
-    print("1*48 = 48")
-if num1 == 1 and sign == '*' and num2 == 49:
-    print("1*49 = 49")
-if num1 == 1 and sign == '*' and num2 == 50:
-    print("1*50 = 50")
-if num1 == 2 and sign == '*' and num2 == 0:
-    print("2*0 = 0")
-if num1 == 2 and sign == '*' and num2 == 1:
-    print("2*1 = 2")
-if num1 == 2 and sign == '*' and num2 == 2:
-    print("2*2 = 4")
-if num1 == 2 and sign == '*' and num2 == 3:
-    print("2*3 = 6")
-if num1 == 2 and sign == '*' and num2 == 4:
-    print("2*4 = 8")
-if num1 == 2 and sign == '*' and num2 == 5:
-    print("2*5 = 10")
-if num1 == 2 and sign == '*' and num2 == 6:
-    print("2*6 = 12")
-if num1 == 2 and sign == '*' and num2 == 7:
-    print("2*7 = 14")
-if num1 == 2 and sign == '*' and num2 == 8:
-    print("2*8 = 16")
-if num1 == 2 and sign == '*' and num2 == 9:
-    print("2*9 = 18")
-if num1 == 2 and sign == '*' and num2 == 10:
-    print("2*10 = 20")
-if num1 == 2 and sign == '*' and num2 == 11:
-    print("2*11 = 22")
-if num1 == 2 and sign == '*' and num2 == 12:
-    print("2*12 = 24")
-if num1 == 2 and sign == '*' and num2 == 13:
-    print("2*13 = 26")
-if num1 == 2 and sign == '*' and num2 == 14:
-    print("2*14 = 28")
-if num1 == 2 and sign == '*' and num2 == 15:
-    print("2*15 = 30")
-if num1 == 2 and sign == '*' and num2 == 16:
-    print("2*16 = 32")
-if num1 == 2 and sign == '*' and num2 == 17:
-    print("2*17 = 34")
-if num1 == 2 and sign == '*' and num2 == 18:
-    print("2*18 = 36")
-if num1 == 2 and sign == '*' and num2 == 19:
-    print("2*19 = 38")
-if num1 == 2 and sign == '*' and num2 == 20:
-    print("2*20 = 40")
-if num1 == 2 and sign == '*' and num2 == 21:
-    print("2*21 = 42")
-if num1 == 2 and sign == '*' and num2 == 22:
-    print("2*22 = 44")
-if num1 == 2 and sign == '*' and num2 == 23:
-    print("2*23 = 46")
-if num1 == 2 and sign == '*' and num2 == 24:
-    print("2*24 = 48")
-if num1 == 2 and sign == '*' and num2 == 25:
-    print("2*25 = 50")
-if num1 == 2 and sign == '*' and num2 == 26:
-    print("2*26 = 52")
-if num1 == 2 and sign == '*' and num2 == 27:
-    print("2*27 = 54")
-if num1 == 2 and sign == '*' and num2 == 28:
-    print("2*28 = 56")
-if num1 == 2 and sign == '*' and num2 == 29:
-    print("2*29 = 58")
-if num1 == 2 and sign == '*' and num2 == 30:
-    print("2*30 = 60")
-if num1 == 2 and sign == '*' and num2 == 31:
-    print("2*31 = 62")
-if num1 == 2 and sign == '*' and num2 == 32:
-    print("2*32 = 64")
-if num1 == 2 and sign == '*' and num2 == 33:
-    print("2*33 = 66")
-if num1 == 2 and sign == '*' and num2 == 34:
-    print("2*34 = 68")
-if num1 == 2 and sign == '*' and num2 == 35:
-    print("2*35 = 70")
-if num1 == 2 and sign == '*' and num2 == 36:
-    print("2*36 = 72")
-if num1 == 2 and sign == '*' and num2 == 37:
-    print("2*37 = 74")
-if num1 == 2 and sign == '*' and num2 == 38:
-    print("2*38 = 76")
-if num1 == 2 and sign == '*' and num2 == 39:
-    print("2*39 = 78")
-if num1 == 2 and sign == '*' and num2 == 40:
-    print("2*40 = 80")
-if num1 == 2 and sign == '*' and num2 == 41:
-    print("2*41 = 82")
-if num1 == 2 and sign == '*' and num2 == 42:
-    print("2*42 = 84")
-if num1 == 2 and sign == '*' and num2 == 43:
-    print("2*43 = 86")
-if num1 == 2 and sign == '*' and num2 == 44:
-    print("2*44 = 88")
-if num1 == 2 and sign == '*' and num2 == 45:
-    print("2*45 = 90")
-if num1 == 2 and sign == '*' and num2 == 46:
-    print("2*46 = 92")
-if num1 == 2 and sign == '*' and num2 == 47:
-    print("2*47 = 94")
-if num1 == 2 and sign == '*' and num2 == 48:
-    print("2*48 = 96")
-if num1 == 2 and sign == '*' and num2 == 49:
-    print("2*49 = 98")
-if num1 == 2 and sign == '*' and num2 == 50:
-    print("2*50 = 100")
-if num1 == 3 and sign == '*' and num2 == 0:
-    print("3*0 = 0")
-if num1 == 3 and sign == '*' and num2 == 1:
-    print("3*1 = 3")
-if num1 == 3 and sign == '*' and num2 == 2:
-    print("3*2 = 6")
-if num1 == 3 and sign == '*' and num2 == 3:
-    print("3*3 = 9")
-if num1 == 3 and sign == '*' and num2 == 4:
-    print("3*4 = 12")
-if num1 == 3 and sign == '*' and num2 == 5:
-    print("3*5 = 15")
-if num1 == 3 and sign == '*' and num2 == 6:
-    print("3*6 = 18")
-if num1 == 3 and sign == '*' and num2 == 7:
-    print("3*7 = 21")
-if num1 == 3 and sign == '*' and num2 == 8:
-    print("3*8 = 24")
-if num1 == 3 and sign == '*' and num2 == 9:
-    print("3*9 = 27")
-if num1 == 3 and sign == '*' and num2 == 10:
-    print("3*10 = 30")
-if num1 == 3 and sign == '*' and num2 == 11:
-    print("3*11 = 33")
-if num1 == 3 and sign == '*' and num2 == 12:
-    print("3*12 = 36")
-if num1 == 3 and sign == '*' and num2 == 13:
-    print("3*13 = 39")
-if num1 == 3 and sign == '*' and num2 == 14:
-    print("3*14 = 42")
-if num1 == 3 and sign == '*' and num2 == 15:
-    print("3*15 = 45")
-if num1 == 3 and sign == '*' and num2 == 16:
-    print("3*16 = 48")
-if num1 == 3 and sign == '*' and num2 == 17:
-    print("3*17 = 51")
-if num1 == 3 and sign == '*' and num2 == 18:
-    print("3*18 = 54")
-if num1 == 3 and sign == '*' and num2 == 19:
-    print("3*19 = 57")
-if num1 == 3 and sign == '*' and num2 == 20:
-    print("3*20 = 60")
-if num1 == 3 and sign == '*' and num2 == 21:
-    print("3*21 = 63")
-if num1 == 3 and sign == '*' and num2 == 22:
-    print("3*22 = 66")
-if num1 == 3 and sign == '*' and num2 == 23:
-    print("3*23 = 69")
-if num1 == 3 and sign == '*' and num2 == 24:
-    print("3*24 = 72")
-if num1 == 3 and sign == '*' and num2 == 25:
-    print("3*25 = 75")
-if num1 == 3 and sign == '*' and num2 == 26:
-    print("3*26 = 78")
-if num1 == 3 and sign == '*' and num2 == 27:
-    print("3*27 = 81")
-if num1 == 3 and sign == '*' and num2 == 28:
-    print("3*28 = 84")
-if num1 == 3 and sign == '*' and num2 == 29:
-    print("3*29 = 87")
-if num1 == 3 and sign == '*' and num2 == 30:
-    print("3*30 = 90")
-if num1 == 3 and sign == '*' and num2 == 31:
-    print("3*31 = 93")
-if num1 == 3 and sign == '*' and num2 == 32:
-    print("3*32 = 96")
-if num1 == 3 and sign == '*' and num2 == 33:
-    print("3*33 = 99")
-if num1 == 3 and sign == '*' and num2 == 34:
-    print("3*34 = 102")
-if num1 == 3 and sign == '*' and num2 == 35:
-    print("3*35 = 105")
-if num1 == 3 and sign == '*' and num2 == 36:
-    print("3*36 = 108")
-if num1 == 3 and sign == '*' and num2 == 37:
-    print("3*37 = 111")
-if num1 == 3 and sign == '*' and num2 == 38:
-    print("3*38 = 114")
-if num1 == 3 and sign == '*' and num2 == 39:
-    print("3*39 = 117")
-if num1 == 3 and sign == '*' and num2 == 40:
-    print("3*40 = 120")
-if num1 == 3 and sign == '*' and num2 == 41:
-    print("3*41 = 123")
-if num1 == 3 and sign == '*' and num2 == 42:
-    print("3*42 = 126")
-if num1 == 3 and sign == '*' and num2 == 43:
-    print("3*43 = 129")
-if num1 == 3 and sign == '*' and num2 == 44:
-    print("3*44 = 132")
-if num1 == 3 and sign == '*' and num2 == 45:
-    print("3*45 = 135")
-if num1 == 3 and sign == '*' and num2 == 46:
-    print("3*46 = 138")
-if num1 == 3 and sign == '*' and num2 == 47:
-    print("3*47 = 141")
-if num1 == 3 and sign == '*' and num2 == 48:
-    print("3*48 = 144")
-if num1 == 3 and sign == '*' and num2 == 49:
-    print("3*49 = 147")
-if num1 == 3 and sign == '*' and num2 == 50:
-    print("3*50 = 150")
-if num1 == 4 and sign == '*' and num2 == 0:
-    print("4*0 = 0")
-if num1 == 4 and sign == '*' and num2 == 1:
-    print("4*1 = 4")
-if num1 == 4 and sign == '*' and num2 == 2:
-    print("4*2 = 8")
-if num1 == 4 and sign == '*' and num2 == 3:
-    print("4*3 = 12")
-if num1 == 4 and sign == '*' and num2 == 4:
-    print("4*4 = 16")
-if num1 == 4 and sign == '*' and num2 == 5:
-    print("4*5 = 20")
-if num1 == 4 and sign == '*' and num2 == 6:
-    print("4*6 = 24")
-if num1 == 4 and sign == '*' and num2 == 7:
-    print("4*7 = 28")
-if num1 == 4 and sign == '*' and num2 == 8:
-    print("4*8 = 32")
-if num1 == 4 and sign == '*' and num2 == 9:
-    print("4*9 = 36")
-if num1 == 4 and sign == '*' and num2 == 10:
-    print("4*10 = 40")
-if num1 == 4 and sign == '*' and num2 == 11:
-    print("4*11 = 44")
-if num1 == 4 and sign == '*' and num2 == 12:
-    print("4*12 = 48")
-if num1 == 4 and sign == '*' and num2 == 13:
-    print("4*13 = 52")
-if num1 == 4 and sign == '*' and num2 == 14:
-    print("4*14 = 56")
-if num1 == 4 and sign == '*' and num2 == 15:
-    print("4*15 = 60")
-if num1 == 4 and sign == '*' and num2 == 16:
-    print("4*16 = 64")
-if num1 == 4 and sign == '*' and num2 == 17:
-    print("4*17 = 68")
-if num1 == 4 and sign == '*' and num2 == 18:
-    print("4*18 = 72")
-if num1 == 4 and sign == '*' and num2 == 19:
-    print("4*19 = 76")
-if num1 == 4 and sign == '*' and num2 == 20:
-    print("4*20 = 80")
-if num1 == 4 and sign == '*' and num2 == 21:
-    print("4*21 = 84")
-if num1 == 4 and sign == '*' and num2 == 22:
-    print("4*22 = 88")
-if num1 == 4 and sign == '*' and num2 == 23:
-    print("4*23 = 92")
-if num1 == 4 and sign == '*' and num2 == 24:
-    print("4*24 = 96")
-if num1 == 4 and sign == '*' and num2 == 25:
-    print("4*25 = 100")
-if num1 == 4 and sign == '*' and num2 == 26:
-    print("4*26 = 104")
-if num1 == 4 and sign == '*' and num2 == 27:
-    print("4*27 = 108")
-if num1 == 4 and sign == '*' and num2 == 28:
-    print("4*28 = 112")
-if num1 == 4 and sign == '*' and num2 == 29:
-    print("4*29 = 116")
-if num1 == 4 and sign == '*' and num2 == 30:
-    print("4*30 = 120")
-if num1 == 4 and sign == '*' and num2 == 31:
-    print("4*31 = 124")
-if num1 == 4 and sign == '*' and num2 == 32:
-    print("4*32 = 128")
-if num1 == 4 and sign == '*' and num2 == 33:
-    print("4*33 = 132")
-if num1 == 4 and sign == '*' and num2 == 34:
-    print("4*34 = 136")
-if num1 == 4 and sign == '*' and num2 == 35:
-    print("4*35 = 140")
-if num1 == 4 and sign == '*' and num2 == 36:
-    print("4*36 = 144")
-if num1 == 4 and sign == '*' and num2 == 37:
-    print("4*37 = 148")
-if num1 == 4 and sign == '*' and num2 == 38:
-    print("4*38 = 152")
-if num1 == 4 and sign == '*' and num2 == 39:
-    print("4*39 = 156")
-if num1 == 4 and sign == '*' and num2 == 40:
-    print("4*40 = 160")
-if num1 == 4 and sign == '*' and num2 == 41:
-    print("4*41 = 164")
-if num1 == 4 and sign == '*' and num2 == 42:
-    print("4*42 = 168")
-if num1 == 4 and sign == '*' and num2 == 43:
-    print("4*43 = 172")
-if num1 == 4 and sign == '*' and num2 == 44:
-    print("4*44 = 176")
-if num1 == 4 and sign == '*' and num2 == 45:
-    print("4*45 = 180")
-if num1 == 4 and sign == '*' and num2 == 46:
-    print("4*46 = 184")
-if num1 == 4 and sign == '*' and num2 == 47:
-    print("4*47 = 188")
-if num1 == 4 and sign == '*' and num2 == 48:
-    print("4*48 = 192")
-if num1 == 4 and sign == '*' and num2 == 49:
-    print("4*49 = 196")
-if num1 == 4 and sign == '*' and num2 == 50:
-    print("4*50 = 200")
-if num1 == 5 and sign == '*' and num2 == 0:
-    print("5*0 = 0")
-if num1 == 5 and sign == '*' and num2 == 1:
-    print("5*1 = 5")
-if num1 == 5 and sign == '*' and num2 == 2:
-    print("5*2 = 10")
-if num1 == 5 and sign == '*' and num2 == 3:
-    print("5*3 = 15")
-if num1 == 5 and sign == '*' and num2 == 4:
-    print("5*4 = 20")
-if num1 == 5 and sign == '*' and num2 == 5:
-    print("5*5 = 25")
-if num1 == 5 and sign == '*' and num2 == 6:
-    print("5*6 = 30")
-if num1 == 5 and sign == '*' and num2 == 7:
-    print("5*7 = 35")
-if num1 == 5 and sign == '*' and num2 == 8:
-    print("5*8 = 40")
-if num1 == 5 and sign == '*' and num2 == 9:
-    print("5*9 = 45")
-if num1 == 5 and sign == '*' and num2 == 10:
-    print("5*10 = 50")
-if num1 == 5 and sign == '*' and num2 == 11:
-    print("5*11 = 55")
-if num1 == 5 and sign == '*' and num2 == 12:
-    print("5*12 = 60")
-if num1 == 5 and sign == '*' and num2 == 13:
-    print("5*13 = 65")
-if num1 == 5 and sign == '*' and num2 == 14:
-    print("5*14 = 70")
-if num1 == 5 and sign == '*' and num2 == 15:
-    print("5*15 = 75")
-if num1 == 5 and sign == '*' and num2 == 16:
-    print("5*16 = 80")
-if num1 == 5 and sign == '*' and num2 == 17:
-    print("5*17 = 85")
-if num1 == 5 and sign == '*' and num2 == 18:
-    print("5*18 = 90")
-if num1 == 5 and sign == '*' and num2 == 19:
-    print("5*19 = 95")
-if num1 == 5 and sign == '*' and num2 == 20:
-    print("5*20 = 100")
-if num1 == 5 and sign == '*' and num2 == 21:
-    print("5*21 = 105")
-if num1 == 5 and sign == '*' and num2 == 22:
-    print("5*22 = 110")
-if num1 == 5 and sign == '*' and num2 == 23:
-    print("5*23 = 115")
-if num1 == 5 and sign == '*' and num2 == 24:
-    print("5*24 = 120")
-if num1 == 5 and sign == '*' and num2 == 25:
-    print("5*25 = 125")
-if num1 == 5 and sign == '*' and num2 == 26:
-    print("5*26 = 130")
-if num1 == 5 and sign == '*' and num2 == 27:
-    print("5*27 = 135")
-if num1 == 5 and sign == '*' and num2 == 28:
-    print("5*28 = 140")
-if num1 == 5 and sign == '*' and num2 == 29:
-    print("5*29 = 145")
-if num1 == 5 and sign == '*' and num2 == 30:
-    print("5*30 = 150")
-if num1 == 5 and sign == '*' and num2 == 31:
-    print("5*31 = 155")
-if num1 == 5 and sign == '*' and num2 == 32:
-    print("5*32 = 160")
-if num1 == 5 and sign == '*' and num2 == 33:
-    print("5*33 = 165")
-if num1 == 5 and sign == '*' and num2 == 34:
-    print("5*34 = 170")
-if num1 == 5 and sign == '*' and num2 == 35:
-    print("5*35 = 175")
-if num1 == 5 and sign == '*' and num2 == 36:
-    print("5*36 = 180")
-if num1 == 5 and sign == '*' and num2 == 37:
-    print("5*37 = 185")
-if num1 == 5 and sign == '*' and num2 == 38:
-    print("5*38 = 190")
-if num1 == 5 and sign == '*' and num2 == 39:
-    print("5*39 = 195")
-if num1 == 5 and sign == '*' and num2 == 40:
-    print("5*40 = 200")
-if num1 == 5 and sign == '*' and num2 == 41:
-    print("5*41 = 205")
-if num1 == 5 and sign == '*' and num2 == 42:
-    print("5*42 = 210")
-if num1 == 5 and sign == '*' and num2 == 43:
-    print("5*43 = 215")
-if num1 == 5 and sign == '*' and num2 == 44:
-    print("5*44 = 220")
-if num1 == 5 and sign == '*' and num2 == 45:
-    print("5*45 = 225")
-if num1 == 5 and sign == '*' and num2 == 46:
-    print("5*46 = 230")
-if num1 == 5 and sign == '*' and num2 == 47:
-    print("5*47 = 235")
-if num1 == 5 and sign == '*' and num2 == 48:
-    print("5*48 = 240")
-if num1 == 5 and sign == '*' and num2 == 49:
-    print("5*49 = 245")
-if num1 == 5 and sign == '*' and num2 == 50:
-    print("5*50 = 250")
-if num1 == 6 and sign == '*' and num2 == 0:
-    print("6*0 = 0")
-if num1 == 6 and sign == '*' and num2 == 1:
-    print("6*1 = 6")
-if num1 == 6 and sign == '*' and num2 == 2:
-    print("6*2 = 12")
-if num1 == 6 and sign == '*' and num2 == 3:
-    print("6*3 = 18")
-if num1 == 6 and sign == '*' and num2 == 4:
-    print("6*4 = 24")
-if num1 == 6 and sign == '*' and num2 == 5:
-    print("6*5 = 30")
-if num1 == 6 and sign == '*' and num2 == 6:
-    print("6*6 = 36")
-if num1 == 6 and sign == '*' and num2 == 7:
-    print("6*7 = 42")
-if num1 == 6 and sign == '*' and num2 == 8:
-    print("6*8 = 48")
-if num1 == 6 and sign == '*' and num2 == 9:
-    print("6*9 = 54")
-if num1 == 6 and sign == '*' and num2 == 10:
-    print("6*10 = 60")
-if num1 == 6 and sign == '*' and num2 == 11:
-    print("6*11 = 66")
-if num1 == 6 and sign == '*' and num2 == 12:
-    print("6*12 = 72")
-if num1 == 6 and sign == '*' and num2 == 13:
-    print("6*13 = 78")
-if num1 == 6 and sign == '*' and num2 == 14:
-    print("6*14 = 84")
-if num1 == 6 and sign == '*' and num2 == 15:
-    print("6*15 = 90")
-if num1 == 6 and sign == '*' and num2 == 16:
-    print("6*16 = 96")
-if num1 == 6 and sign == '*' and num2 == 17:
-    print("6*17 = 102")
-if num1 == 6 and sign == '*' and num2 == 18:
-    print("6*18 = 108")
-if num1 == 6 and sign == '*' and num2 == 19:
-    print("6*19 = 114")
-if num1 == 6 and sign == '*' and num2 == 20:
-    print("6*20 = 120")
-if num1 == 6 and sign == '*' and num2 == 21:
-    print("6*21 = 126")
-if num1 == 6 and sign == '*' and num2 == 22:
-    print("6*22 = 132")
-if num1 == 6 and sign == '*' and num2 == 23:
-    print("6*23 = 138")
-if num1 == 6 and sign == '*' and num2 == 24:
-    print("6*24 = 144")
-if num1 == 6 and sign == '*' and num2 == 25:
-    print("6*25 = 150")
-if num1 == 6 and sign == '*' and num2 == 26:
-    print("6*26 = 156")
-if num1 == 6 and sign == '*' and num2 == 27:
-    print("6*27 = 162")
-if num1 == 6 and sign == '*' and num2 == 28:
-    print("6*28 = 168")
-if num1 == 6 and sign == '*' and num2 == 29:
-    print("6*29 = 174")
-if num1 == 6 and sign == '*' and num2 == 30:
-    print("6*30 = 180")
-if num1 == 6 and sign == '*' and num2 == 31:
-    print("6*31 = 186")
-if num1 == 6 and sign == '*' and num2 == 32:
-    print("6*32 = 192")
-if num1 == 6 and sign == '*' and num2 == 33:
-    print("6*33 = 198")
-if num1 == 6 and sign == '*' and num2 == 34:
-    print("6*34 = 204")
-if num1 == 6 and sign == '*' and num2 == 35:
-    print("6*35 = 210")
-if num1 == 6 and sign == '*' and num2 == 36:
-    print("6*36 = 216")
-if num1 == 6 and sign == '*' and num2 == 37:
-    print("6*37 = 222")
-if num1 == 6 and sign == '*' and num2 == 38:
-    print("6*38 = 228")
-if num1 == 6 and sign == '*' and num2 == 39:
-    print("6*39 = 234")
-if num1 == 6 and sign == '*' and num2 == 40:
-    print("6*40 = 240")
-if num1 == 6 and sign == '*' and num2 == 41:
-    print("6*41 = 246")
-if num1 == 6 and sign == '*' and num2 == 42:
-    print("6*42 = 252")
-if num1 == 6 and sign == '*' and num2 == 43:
-    print("6*43 = 258")
-if num1 == 6 and sign == '*' and num2 == 44:
-    print("6*44 = 264")
-if num1 == 6 and sign == '*' and num2 == 45:
-    print("6*45 = 270")
-if num1 == 6 and sign == '*' and num2 == 46:
-    print("6*46 = 276")
-if num1 == 6 and sign == '*' and num2 == 47:
-    print("6*47 = 282")
-if num1 == 6 and sign == '*' and num2 == 48:
-    print("6*48 = 288")
-if num1 == 6 and sign == '*' and num2 == 49:
-    print("6*49 = 294")
-if num1 == 6 and sign == '*' and num2 == 50:
-    print("6*50 = 300")
-if num1 == 7 and sign == '*' and num2 == 0:
-    print("7*0 = 0")
-if num1 == 7 and sign == '*' and num2 == 1:
-    print("7*1 = 7")
-if num1 == 7 and sign == '*' and num2 == 2:
-    print("7*2 = 14")
-if num1 == 7 and sign == '*' and num2 == 3:
-    print("7*3 = 21")
-if num1 == 7 and sign == '*' and num2 == 4:
-    print("7*4 = 28")
-if num1 == 7 and sign == '*' and num2 == 5:
-    print("7*5 = 35")
-if num1 == 7 and sign == '*' and num2 == 6:
-    print("7*6 = 42")
-if num1 == 7 and sign == '*' and num2 == 7:
-    print("7*7 = 49")
-if num1 == 7 and sign == '*' and num2 == 8:
-    print("7*8 = 56")
-if num1 == 7 and sign == '*' and num2 == 9:
-    print("7*9 = 63")
-if num1 == 7 and sign == '*' and num2 == 10:
-    print("7*10 = 70")
-if num1 == 7 and sign == '*' and num2 == 11:
-    print("7*11 = 77")
-if num1 == 7 and sign == '*' and num2 == 12:
-    print("7*12 = 84")
-if num1 == 7 and sign == '*' and num2 == 13:
-    print("7*13 = 91")
-if num1 == 7 and sign == '*' and num2 == 14:
-    print("7*14 = 98")
-if num1 == 7 and sign == '*' and num2 == 15:
-    print("7*15 = 105")
-if num1 == 7 and sign == '*' and num2 == 16:
-    print("7*16 = 112")
-if num1 == 7 and sign == '*' and num2 == 17:
-    print("7*17 = 119")
-if num1 == 7 and sign == '*' and num2 == 18:
-    print("7*18 = 126")
-if num1 == 7 and sign == '*' and num2 == 19:
-    print("7*19 = 133")
-if num1 == 7 and sign == '*' and num2 == 20:
-    print("7*20 = 140")
-if num1 == 7 and sign == '*' and num2 == 21:
-    print("7*21 = 147")
-if num1 == 7 and sign == '*' and num2 == 22:
-    print("7*22 = 154")
-if num1 == 7 and sign == '*' and num2 == 23:
-    print("7*23 = 161")
-if num1 == 7 and sign == '*' and num2 == 24:
-    print("7*24 = 168")
-if num1 == 7 and sign == '*' and num2 == 25:
-    print("7*25 = 175")
-if num1 == 7 and sign == '*' and num2 == 26:
-    print("7*26 = 182")
-if num1 == 7 and sign == '*' and num2 == 27:
-    print("7*27 = 189")
-if num1 == 7 and sign == '*' and num2 == 28:
-    print("7*28 = 196")
-if num1 == 7 and sign == '*' and num2 == 29:
-    print("7*29 = 203")
-if num1 == 7 and sign == '*' and num2 == 30:
-    print("7*30 = 210")
-if num1 == 7 and sign == '*' and num2 == 31:
-    print("7*31 = 217")
-if num1 == 7 and sign == '*' and num2 == 32:
-    print("7*32 = 224")
-if num1 == 7 and sign == '*' and num2 == 33:
-    print("7*33 = 231")
-if num1 == 7 and sign == '*' and num2 == 34:
-    print("7*34 = 238")
-if num1 == 7 and sign == '*' and num2 == 35:
-    print("7*35 = 245")
-if num1 == 7 and sign == '*' and num2 == 36:
-    print("7*36 = 252")
-if num1 == 7 and sign == '*' and num2 == 37:
-    print("7*37 = 259")
-if num1 == 7 and sign == '*' and num2 == 38:
-    print("7*38 = 266")
-if num1 == 7 and sign == '*' and num2 == 39:
-    print("7*39 = 273")
-if num1 == 7 and sign == '*' and num2 == 40:
-    print("7*40 = 280")
-if num1 == 7 and sign == '*' and num2 == 41:
-    print("7*41 = 287")
-if num1 == 7 and sign == '*' and num2 == 42:
-    print("7*42 = 294")
-if num1 == 7 and sign == '*' and num2 == 43:
-    print("7*43 = 301")
-if num1 == 7 and sign == '*' and num2 == 44:
-    print("7*44 = 308")
-if num1 == 7 and sign == '*' and num2 == 45:
-    print("7*45 = 315")
-if num1 == 7 and sign == '*' and num2 == 46:
-    print("7*46 = 322")
-if num1 == 7 and sign == '*' and num2 == 47:
-    print("7*47 = 329")
-if num1 == 7 and sign == '*' and num2 == 48:
-    print("7*48 = 336")
-if num1 == 7 and sign == '*' and num2 == 49:
-    print("7*49 = 343")
-if num1 == 7 and sign == '*' and num2 == 50:
-    print("7*50 = 350")
-if num1 == 8 and sign == '*' and num2 == 0:
-    print("8*0 = 0")
-if num1 == 8 and sign == '*' and num2 == 1:
-    print("8*1 = 8")
-if num1 == 8 and sign == '*' and num2 == 2:
-    print("8*2 = 16")
-if num1 == 8 and sign == '*' and num2 == 3:
-    print("8*3 = 24")
-if num1 == 8 and sign == '*' and num2 == 4:
-    print("8*4 = 32")
-if num1 == 8 and sign == '*' and num2 == 5:
-    print("8*5 = 40")
-if num1 == 8 and sign == '*' and num2 == 6:
-    print("8*6 = 48")
-if num1 == 8 and sign == '*' and num2 == 7:
-    print("8*7 = 56")
-if num1 == 8 and sign == '*' and num2 == 8:
-    print("8*8 = 64")
-if num1 == 8 and sign == '*' and num2 == 9:
-    print("8*9 = 72")
-if num1 == 8 and sign == '*' and num2 == 10:
-    print("8*10 = 80")
-if num1 == 8 and sign == '*' and num2 == 11:
-    print("8*11 = 88")
-if num1 == 8 and sign == '*' and num2 == 12:
-    print("8*12 = 96")
-if num1 == 8 and sign == '*' and num2 == 13:
-    print("8*13 = 104")
-if num1 == 8 and sign == '*' and num2 == 14:
-    print("8*14 = 112")
-if num1 == 8 and sign == '*' and num2 == 15:
-    print("8*15 = 120")
-if num1 == 8 and sign == '*' and num2 == 16:
-    print("8*16 = 128")
-if num1 == 8 and sign == '*' and num2 == 17:
-    print("8*17 = 136")
-if num1 == 8 and sign == '*' and num2 == 18:
-    print("8*18 = 144")
-if num1 == 8 and sign == '*' and num2 == 19:
-    print("8*19 = 152")
-if num1 == 8 and sign == '*' and num2 == 20:
-    print("8*20 = 160")
-if num1 == 8 and sign == '*' and num2 == 21:
-    print("8*21 = 168")
-if num1 == 8 and sign == '*' and num2 == 22:
-    print("8*22 = 176")
-if num1 == 8 and sign == '*' and num2 == 23:
-    print("8*23 = 184")
-if num1 == 8 and sign == '*' and num2 == 24:
-    print("8*24 = 192")
-if num1 == 8 and sign == '*' and num2 == 25:
-    print("8*25 = 200")
-if num1 == 8 and sign == '*' and num2 == 26:
-    print("8*26 = 208")
-if num1 == 8 and sign == '*' and num2 == 27:
-    print("8*27 = 216")
-if num1 == 8 and sign == '*' and num2 == 28:
-    print("8*28 = 224")
-if num1 == 8 and sign == '*' and num2 == 29:
-    print("8*29 = 232")
-if num1 == 8 and sign == '*' and num2 == 30:
-    print("8*30 = 240")
-if num1 == 8 and sign == '*' and num2 == 31:
-    print("8*31 = 248")
-if num1 == 8 and sign == '*' and num2 == 32:
-    print("8*32 = 256")
-if num1 == 8 and sign == '*' and num2 == 33:
-    print("8*33 = 264")
-if num1 == 8 and sign == '*' and num2 == 34:
-    print("8*34 = 272")
-if num1 == 8 and sign == '*' and num2 == 35:
-    print("8*35 = 280")
-if num1 == 8 and sign == '*' and num2 == 36:
-    print("8*36 = 288")
-if num1 == 8 and sign == '*' and num2 == 37:
-    print("8*37 = 296")
-if num1 == 8 and sign == '*' and num2 == 38:
-    print("8*38 = 304")
-if num1 == 8 and sign == '*' and num2 == 39:
-    print("8*39 = 312")
-if num1 == 8 and sign == '*' and num2 == 40:
-    print("8*40 = 320")
-if num1 == 8 and sign == '*' and num2 == 41:
-    print("8*41 = 328")
-if num1 == 8 and sign == '*' and num2 == 42:
-    print("8*42 = 336")
-if num1 == 8 and sign == '*' and num2 == 43:
-    print("8*43 = 344")
-if num1 == 8 and sign == '*' and num2 == 44:
-    print("8*44 = 352")
-if num1 == 8 and sign == '*' and num2 == 45:
-    print("8*45 = 360")
-if num1 == 8 and sign == '*' and num2 == 46:
-    print("8*46 = 368")
-if num1 == 8 and sign == '*' and num2 == 47:
-    print("8*47 = 376")
-if num1 == 8 and sign == '*' and num2 == 48:
-    print("8*48 = 384")
-if num1 == 8 and sign == '*' and num2 == 49:
-    print("8*49 = 392")
-if num1 == 8 and sign == '*' and num2 == 50:
-    print("8*50 = 400")
-if num1 == 9 and sign == '*' and num2 == 0:
-    print("9*0 = 0")
-if num1 == 9 and sign == '*' and num2 == 1:
-    print("9*1 = 9")
-if num1 == 9 and sign == '*' and num2 == 2:
-    print("9*2 = 18")
-if num1 == 9 and sign == '*' and num2 == 3:
-    print("9*3 = 27")
-if num1 == 9 and sign == '*' and num2 == 4:
-    print("9*4 = 36")
-if num1 == 9 and sign == '*' and num2 == 5:
-    print("9*5 = 45")
-if num1 == 9 and sign == '*' and num2 == 6:
-    print("9*6 = 54")
-if num1 == 9 and sign == '*' and num2 == 7:
-    print("9*7 = 63")
-if num1 == 9 and sign == '*' and num2 == 8:
-    print("9*8 = 72")
-if num1 == 9 and sign == '*' and num2 == 9:
-    print("9*9 = 81")
-if num1 == 9 and sign == '*' and num2 == 10:
-    print("9*10 = 90")
-if num1 == 9 and sign == '*' and num2 == 11:
-    print("9*11 = 99")
-if num1 == 9 and sign == '*' and num2 == 12:
-    print("9*12 = 108")
-if num1 == 9 and sign == '*' and num2 == 13:
-    print("9*13 = 117")
-if num1 == 9 and sign == '*' and num2 == 14:
-    print("9*14 = 126")
-if num1 == 9 and sign == '*' and num2 == 15:
-    print("9*15 = 135")
-if num1 == 9 and sign == '*' and num2 == 16:
-    print("9*16 = 144")
-if num1 == 9 and sign == '*' and num2 == 17:
-    print("9*17 = 153")
-if num1 == 9 and sign == '*' and num2 == 18:
-    print("9*18 = 162")
-if num1 == 9 and sign == '*' and num2 == 19:
-    print("9*19 = 171")
-if num1 == 9 and sign == '*' and num2 == 20:
-    print("9*20 = 180")
-if num1 == 9 and sign == '*' and num2 == 21:
-    print("9*21 = 189")
-if num1 == 9 and sign == '*' and num2 == 22:
-    print("9*22 = 198")
-if num1 == 9 and sign == '*' and num2 == 23:
-    print("9*23 = 207")
-if num1 == 9 and sign == '*' and num2 == 24:
-    print("9*24 = 216")
-if num1 == 9 and sign == '*' and num2 == 25:
-    print("9*25 = 225")
-if num1 == 9 and sign == '*' and num2 == 26:
-    print("9*26 = 234")
-if num1 == 9 and sign == '*' and num2 == 27:
-    print("9*27 = 243")
-if num1 == 9 and sign == '*' and num2 == 28:
-    print("9*28 = 252")
-if num1 == 9 and sign == '*' and num2 == 29:
-    print("9*29 = 261")
-if num1 == 9 and sign == '*' and num2 == 30:
-    print("9*30 = 270")
-if num1 == 9 and sign == '*' and num2 == 31:
-    print("9*31 = 279")
-if num1 == 9 and sign == '*' and num2 == 32:
-    print("9*32 = 288")
-if num1 == 9 and sign == '*' and num2 == 33:
-    print("9*33 = 297")
-if num1 == 9 and sign == '*' and num2 == 34:
-    print("9*34 = 306")
-if num1 == 9 and sign == '*' and num2 == 35:
-    print("9*35 = 315")
-if num1 == 9 and sign == '*' and num2 == 36:
-    print("9*36 = 324")
-if num1 == 9 and sign == '*' and num2 == 37:
-    print("9*37 = 333")
-if num1 == 9 and sign == '*' and num2 == 38:
-    print("9*38 = 342")
-if num1 == 9 and sign == '*' and num2 == 39:
-    print("9*39 = 351")
-if num1 == 9 and sign == '*' and num2 == 40:
-    print("9*40 = 360")
-if num1 == 9 and sign == '*' and num2 == 41:
-    print("9*41 = 369")
-if num1 == 9 and sign == '*' and num2 == 42:
-    print("9*42 = 378")
-if num1 == 9 and sign == '*' and num2 == 43:
-    print("9*43 = 387")
-if num1 == 9 and sign == '*' and num2 == 44:
-    print("9*44 = 396")
-if num1 == 9 and sign == '*' and num2 == 45:
-    print("9*45 = 405")
-if num1 == 9 and sign == '*' and num2 == 46:
-    print("9*46 = 414")
-if num1 == 9 and sign == '*' and num2 == 47:
-    print("9*47 = 423")
-if num1 == 9 and sign == '*' and num2 == 48:
-    print("9*48 = 432")
-if num1 == 9 and sign == '*' and num2 == 49:
-    print("9*49 = 441")
-if num1 == 9 and sign == '*' and num2 == 50:
-    print("9*50 = 450")
-if num1 == 10 and sign == '*' and num2 == 0:
-    print("10*0 = 0")
-if num1 == 10 and sign == '*' and num2 == 1:
-    print("10*1 = 10")
-if num1 == 10 and sign == '*' and num2 == 2:
-    print("10*2 = 20")
-if num1 == 10 and sign == '*' and num2 == 3:
-    print("10*3 = 30")
-if num1 == 10 and sign == '*' and num2 == 4:
-    print("10*4 = 40")
-if num1 == 10 and sign == '*' and num2 == 5:
-    print("10*5 = 50")
-if num1 == 10 and sign == '*' and num2 == 6:
-    print("10*6 = 60")
-if num1 == 10 and sign == '*' and num2 == 7:
-    print("10*7 = 70")
-if num1 == 10 and sign == '*' and num2 == 8:
-    print("10*8 = 80")
-if num1 == 10 and sign == '*' and num2 == 9:
-    print("10*9 = 90")
-if num1 == 10 and sign == '*' and num2 == 10:
-    print("10*10 = 100")
-if num1 == 10 and sign == '*' and num2 == 11:
-    print("10*11 = 110")
-if num1 == 10 and sign == '*' and num2 == 12:
-    print("10*12 = 120")
-if num1 == 10 and sign == '*' and num2 == 13:
-    print("10*13 = 130")
-if num1 == 10 and sign == '*' and num2 == 14:
-    print("10*14 = 140")
-if num1 == 10 and sign == '*' and num2 == 15:
-    print("10*15 = 150")
-if num1 == 10 and sign == '*' and num2 == 16:
-    print("10*16 = 160")
-if num1 == 10 and sign == '*' and num2 == 17:
-    print("10*17 = 170")
-if num1 == 10 and sign == '*' and num2 == 18:
-    print("10*18 = 180")
-if num1 == 10 and sign == '*' and num2 == 19:
-    print("10*19 = 190")
-if num1 == 10 and sign == '*' and num2 == 20:
-    print("10*20 = 200")
-if num1 == 10 and sign == '*' and num2 == 21:
-    print("10*21 = 210")
-if num1 == 10 and sign == '*' and num2 == 22:
-    print("10*22 = 220")
-if num1 == 10 and sign == '*' and num2 == 23:
-    print("10*23 = 230")
-if num1 == 10 and sign == '*' and num2 == 24:
-    print("10*24 = 240")
-if num1 == 10 and sign == '*' and num2 == 25:
-    print("10*25 = 250")
-if num1 == 10 and sign == '*' and num2 == 26:
-    print("10*26 = 260")
-if num1 == 10 and sign == '*' and num2 == 27:
-    print("10*27 = 270")
-if num1 == 10 and sign == '*' and num2 == 28:
-    print("10*28 = 280")
-if num1 == 10 and sign == '*' and num2 == 29:
-    print("10*29 = 290")
-if num1 == 10 and sign == '*' and num2 == 30:
-    print("10*30 = 300")
-if num1 == 10 and sign == '*' and num2 == 31:
-    print("10*31 = 310")
-if num1 == 10 and sign == '*' and num2 == 32:
-    print("10*32 = 320")
-if num1 == 10 and sign == '*' and num2 == 33:
-    print("10*33 = 330")
-if num1 == 10 and sign == '*' and num2 == 34:
-    print("10*34 = 340")
-if num1 == 10 and sign == '*' and num2 == 35:
-    print("10*35 = 350")
-if num1 == 10 and sign == '*' and num2 == 36:
-    print("10*36 = 360")
-if num1 == 10 and sign == '*' and num2 == 37:
-    print("10*37 = 370")
-if num1 == 10 and sign == '*' and num2 == 38:
-    print("10*38 = 380")
-if num1 == 10 and sign == '*' and num2 == 39:
-    print("10*39 = 390")
-if num1 == 10 and sign == '*' and num2 == 40:
-    print("10*40 = 400")
-if num1 == 10 and sign == '*' and num2 == 41:
-    print("10*41 = 410")
-if num1 == 10 and sign == '*' and num2 == 42:
-    print("10*42 = 420")
-if num1 == 10 and sign == '*' and num2 == 43:
-    print("10*43 = 430")
-if num1 == 10 and sign == '*' and num2 == 44:
-    print("10*44 = 440")
-if num1 == 10 and sign == '*' and num2 == 45:
-    print("10*45 = 450")
-if num1 == 10 and sign == '*' and num2 == 46:
-    print("10*46 = 460")
-if num1 == 10 and sign == '*' and num2 == 47:
-    print("10*47 = 470")
-if num1 == 10 and sign == '*' and num2 == 48:
-    print("10*48 = 480")
-if num1 == 10 and sign == '*' and num2 == 49:
-    print("10*49 = 490")
-if num1 == 10 and sign == '*' and num2 == 50:
-    print("10*50 = 500")
-if num1 == 11 and sign == '*' and num2 == 0:
-    print("11*0 = 0")
-if num1 == 11 and sign == '*' and num2 == 1:
-    print("11*1 = 11")
-if num1 == 11 and sign == '*' and num2 == 2:
-    print("11*2 = 22")
-if num1 == 11 and sign == '*' and num2 == 3:
-    print("11*3 = 33")
-if num1 == 11 and sign == '*' and num2 == 4:
-    print("11*4 = 44")
-if num1 == 11 and sign == '*' and num2 == 5:
-    print("11*5 = 55")
-if num1 == 11 and sign == '*' and num2 == 6:
-    print("11*6 = 66")
-if num1 == 11 and sign == '*' and num2 == 7:
-    print("11*7 = 77")
-if num1 == 11 and sign == '*' and num2 == 8:
-    print("11*8 = 88")
-if num1 == 11 and sign == '*' and num2 == 9:
-    print("11*9 = 99")
-if num1 == 11 and sign == '*' and num2 == 10:
-    print("11*10 = 110")
-if num1 == 11 and sign == '*' and num2 == 11:
-    print("11*11 = 121")
-if num1 == 11 and sign == '*' and num2 == 12:
-    print("11*12 = 132")
-if num1 == 11 and sign == '*' and num2 == 13:
-    print("11*13 = 143")
-if num1 == 11 and sign == '*' and num2 == 14:
-    print("11*14 = 154")
-if num1 == 11 and sign == '*' and num2 == 15:
-    print("11*15 = 165")
-if num1 == 11 and sign == '*' and num2 == 16:
-    print("11*16 = 176")
-if num1 == 11 and sign == '*' and num2 == 17:
-    print("11*17 = 187")
-if num1 == 11 and sign == '*' and num2 == 18:
-    print("11*18 = 198")
-if num1 == 11 and sign == '*' and num2 == 19:
-    print("11*19 = 209")
-if num1 == 11 and sign == '*' and num2 == 20:
-    print("11*20 = 220")
-if num1 == 11 and sign == '*' and num2 == 21:
-    print("11*21 = 231")
-if num1 == 11 and sign == '*' and num2 == 22:
-    print("11*22 = 242")
-if num1 == 11 and sign == '*' and num2 == 23:
-    print("11*23 = 253")
-if num1 == 11 and sign == '*' and num2 == 24:
-    print("11*24 = 264")
-if num1 == 11 and sign == '*' and num2 == 25:
-    print("11*25 = 275")
-if num1 == 11 and sign == '*' and num2 == 26:
-    print("11*26 = 286")
-if num1 == 11 and sign == '*' and num2 == 27:
-    print("11*27 = 297")
-if num1 == 11 and sign == '*' and num2 == 28:
-    print("11*28 = 308")
-if num1 == 11 and sign == '*' and num2 == 29:
-    print("11*29 = 319")
-if num1 == 11 and sign == '*' and num2 == 30:
-    print("11*30 = 330")
-if num1 == 11 and sign == '*' and num2 == 31:
-    print("11*31 = 341")
-if num1 == 11 and sign == '*' and num2 == 32:
-    print("11*32 = 352")
-if num1 == 11 and sign == '*' and num2 == 33:
-    print("11*33 = 363")
-if num1 == 11 and sign == '*' and num2 == 34:
-    print("11*34 = 374")
-if num1 == 11 and sign == '*' and num2 == 35:
-    print("11*35 = 385")
-if num1 == 11 and sign == '*' and num2 == 36:
-    print("11*36 = 396")
-if num1 == 11 and sign == '*' and num2 == 37:
-    print("11*37 = 407")
-if num1 == 11 and sign == '*' and num2 == 38:
-    print("11*38 = 418")
-if num1 == 11 and sign == '*' and num2 == 39:
-    print("11*39 = 429")
-if num1 == 11 and sign == '*' and num2 == 40:
-    print("11*40 = 440")
-if num1 == 11 and sign == '*' and num2 == 41:
-    print("11*41 = 451")
-if num1 == 11 and sign == '*' and num2 == 42:
-    print("11*42 = 462")
-if num1 == 11 and sign == '*' and num2 == 43:
-    print("11*43 = 473")
-if num1 == 11 and sign == '*' and num2 == 44:
-    print("11*44 = 484")
-if num1 == 11 and sign == '*' and num2 == 45:
-    print("11*45 = 495")
-if num1 == 11 and sign == '*' and num2 == 46:
-    print("11*46 = 506")
-if num1 == 11 and sign == '*' and num2 == 47:
-    print("11*47 = 517")
-if num1 == 11 and sign == '*' and num2 == 48:
-    print("11*48 = 528")
-if num1 == 11 and sign == '*' and num2 == 49:
-    print("11*49 = 539")
-if num1 == 11 and sign == '*' and num2 == 50:
-    print("11*50 = 550")
-if num1 == 12 and sign == '*' and num2 == 0:
-    print("12*0 = 0")
-if num1 == 12 and sign == '*' and num2 == 1:
-    print("12*1 = 12")
-if num1 == 12 and sign == '*' and num2 == 2:
-    print("12*2 = 24")
-if num1 == 12 and sign == '*' and num2 == 3:
-    print("12*3 = 36")
-if num1 == 12 and sign == '*' and num2 == 4:
-    print("12*4 = 48")
-if num1 == 12 and sign == '*' and num2 == 5:
-    print("12*5 = 60")
-if num1 == 12 and sign == '*' and num2 == 6:
-    print("12*6 = 72")
-if num1 == 12 and sign == '*' and num2 == 7:
-    print("12*7 = 84")
-if num1 == 12 and sign == '*' and num2 == 8:
-    print("12*8 = 96")
-if num1 == 12 and sign == '*' and num2 == 9:
-    print("12*9 = 108")
-if num1 == 12 and sign == '*' and num2 == 10:
-    print("12*10 = 120")
-if num1 == 12 and sign == '*' and num2 == 11:
-    print("12*11 = 132")
-if num1 == 12 and sign == '*' and num2 == 12:
-    print("12*12 = 144")
-if num1 == 12 and sign == '*' and num2 == 13:
-    print("12*13 = 156")
-if num1 == 12 and sign == '*' and num2 == 14:
-    print("12*14 = 168")
-if num1 == 12 and sign == '*' and num2 == 15:
-    print("12*15 = 180")
-if num1 == 12 and sign == '*' and num2 == 16:
-    print("12*16 = 192")
-if num1 == 12 and sign == '*' and num2 == 17:
-    print("12*17 = 204")
-if num1 == 12 and sign == '*' and num2 == 18:
-    print("12*18 = 216")
-if num1 == 12 and sign == '*' and num2 == 19:
-    print("12*19 = 228")
-if num1 == 12 and sign == '*' and num2 == 20:
-    print("12*20 = 240")
-if num1 == 12 and sign == '*' and num2 == 21:
-    print("12*21 = 252")
-if num1 == 12 and sign == '*' and num2 == 22:
-    print("12*22 = 264")
-if num1 == 12 and sign == '*' and num2 == 23:
-    print("12*23 = 276")
-if num1 == 12 and sign == '*' and num2 == 24:
-    print("12*24 = 288")
-if num1 == 12 and sign == '*' and num2 == 25:
-    print("12*25 = 300")
-if num1 == 12 and sign == '*' and num2 == 26:
-    print("12*26 = 312")
-if num1 == 12 and sign == '*' and num2 == 27:
-    print("12*27 = 324")
-if num1 == 12 and sign == '*' and num2 == 28:
-    print("12*28 = 336")
-if num1 == 12 and sign == '*' and num2 == 29:
-    print("12*29 = 348")
-if num1 == 12 and sign == '*' and num2 == 30:
-    print("12*30 = 360")
-if num1 == 12 and sign == '*' and num2 == 31:
-    print("12*31 = 372")
-if num1 == 12 and sign == '*' and num2 == 32:
-    print("12*32 = 384")
-if num1 == 12 and sign == '*' and num2 == 33:
-    print("12*33 = 396")
-if num1 == 12 and sign == '*' and num2 == 34:
-    print("12*34 = 408")
-if num1 == 12 and sign == '*' and num2 == 35:
-    print("12*35 = 420")
-if num1 == 12 and sign == '*' and num2 == 36:
-    print("12*36 = 432")
-if num1 == 12 and sign == '*' and num2 == 37:
-    print("12*37 = 444")
-if num1 == 12 and sign == '*' and num2 == 38:
-    print("12*38 = 456")
-if num1 == 12 and sign == '*' and num2 == 39:
-    print("12*39 = 468")
-if num1 == 12 and sign == '*' and num2 == 40:
-    print("12*40 = 480")
-if num1 == 12 and sign == '*' and num2 == 41:
-    print("12*41 = 492")
-if num1 == 12 and sign == '*' and num2 == 42:
-    print("12*42 = 504")
-if num1 == 12 and sign == '*' and num2 == 43:
-    print("12*43 = 516")
-if num1 == 12 and sign == '*' and num2 == 44:
-    print("12*44 = 528")
-if num1 == 12 and sign == '*' and num2 == 45:
-    print("12*45 = 540")
-if num1 == 12 and sign == '*' and num2 == 46:
-    print("12*46 = 552")
-if num1 == 12 and sign == '*' and num2 == 47:
-    print("12*47 = 564")
-if num1 == 12 and sign == '*' and num2 == 48:
-    print("12*48 = 576")
-if num1 == 12 and sign == '*' and num2 == 49:
-    print("12*49 = 588")
-if num1 == 12 and sign == '*' and num2 == 50:
-    print("12*50 = 600")
-if num1 == 13 and sign == '*' and num2 == 0:
-    print("13*0 = 0")
-if num1 == 13 and sign == '*' and num2 == 1:
-    print("13*1 = 13")
-if num1 == 13 and sign == '*' and num2 == 2:
-    print("13*2 = 26")
-if num1 == 13 and sign == '*' and num2 == 3:
-    print("13*3 = 39")
-if num1 == 13 and sign == '*' and num2 == 4:
-    print("13*4 = 52")
-if num1 == 13 and sign == '*' and num2 == 5:
-    print("13*5 = 65")
-if num1 == 13 and sign == '*' and num2 == 6:
-    print("13*6 = 78")
-if num1 == 13 and sign == '*' and num2 == 7:
-    print("13*7 = 91")
-if num1 == 13 and sign == '*' and num2 == 8:
-    print("13*8 = 104")
-if num1 == 13 and sign == '*' and num2 == 9:
-    print("13*9 = 117")
-if num1 == 13 and sign == '*' and num2 == 10:
-    print("13*10 = 130")
-if num1 == 13 and sign == '*' and num2 == 11:
-    print("13*11 = 143")
-if num1 == 13 and sign == '*' and num2 == 12:
-    print("13*12 = 156")
-if num1 == 13 and sign == '*' and num2 == 13:
-    print("13*13 = 169")
-if num1 == 13 and sign == '*' and num2 == 14:
-    print("13*14 = 182")
-if num1 == 13 and sign == '*' and num2 == 15:
-    print("13*15 = 195")
-if num1 == 13 and sign == '*' and num2 == 16:
-    print("13*16 = 208")
-if num1 == 13 and sign == '*' and num2 == 17:
-    print("13*17 = 221")
-if num1 == 13 and sign == '*' and num2 == 18:
-    print("13*18 = 234")
-if num1 == 13 and sign == '*' and num2 == 19:
-    print("13*19 = 247")
-if num1 == 13 and sign == '*' and num2 == 20:
-    print("13*20 = 260")
-if num1 == 13 and sign == '*' and num2 == 21:
-    print("13*21 = 273")
-if num1 == 13 and sign == '*' and num2 == 22:
-    print("13*22 = 286")
-if num1 == 13 and sign == '*' and num2 == 23:
-    print("13*23 = 299")
-if num1 == 13 and sign == '*' and num2 == 24:
-    print("13*24 = 312")
-if num1 == 13 and sign == '*' and num2 == 25:
-    print("13*25 = 325")
-if num1 == 13 and sign == '*' and num2 == 26:
-    print("13*26 = 338")
-if num1 == 13 and sign == '*' and num2 == 27:
-    print("13*27 = 351")
-if num1 == 13 and sign == '*' and num2 == 28:
-    print("13*28 = 364")
-if num1 == 13 and sign == '*' and num2 == 29:
-    print("13*29 = 377")
-if num1 == 13 and sign == '*' and num2 == 30:
-    print("13*30 = 390")
-if num1 == 13 and sign == '*' and num2 == 31:
-    print("13*31 = 403")
-if num1 == 13 and sign == '*' and num2 == 32:
-    print("13*32 = 416")
-if num1 == 13 and sign == '*' and num2 == 33:
-    print("13*33 = 429")
-if num1 == 13 and sign == '*' and num2 == 34:
-    print("13*34 = 442")
-if num1 == 13 and sign == '*' and num2 == 35:
-    print("13*35 = 455")
-if num1 == 13 and sign == '*' and num2 == 36:
-    print("13*36 = 468")
-if num1 == 13 and sign == '*' and num2 == 37:
-    print("13*37 = 481")
-if num1 == 13 and sign == '*' and num2 == 38:
-    print("13*38 = 494")
-if num1 == 13 and sign == '*' and num2 == 39:
-    print("13*39 = 507")
-if num1 == 13 and sign == '*' and num2 == 40:
-    print("13*40 = 520")
-if num1 == 13 and sign == '*' and num2 == 41:
-    print("13*41 = 533")
-if num1 == 13 and sign == '*' and num2 == 42:
-    print("13*42 = 546")
-if num1 == 13 and sign == '*' and num2 == 43:
-    print("13*43 = 559")
-if num1 == 13 and sign == '*' and num2 == 44:
-    print("13*44 = 572")
-if num1 == 13 and sign == '*' and num2 == 45:
-    print("13*45 = 585")
-if num1 == 13 and sign == '*' and num2 == 46:
-    print("13*46 = 598")
-if num1 == 13 and sign == '*' and num2 == 47:
-    print("13*47 = 611")
-if num1 == 13 and sign == '*' and num2 == 48:
-    print("13*48 = 624")
-if num1 == 13 and sign == '*' and num2 == 49:
-    print("13*49 = 637")
-if num1 == 13 and sign == '*' and num2 == 50:
-    print("13*50 = 650")
-if num1 == 14 and sign == '*' and num2 == 0:
-    print("14*0 = 0")
-if num1 == 14 and sign == '*' and num2 == 1:
-    print("14*1 = 14")
-if num1 == 14 and sign == '*' and num2 == 2:
-    print("14*2 = 28")
-if num1 == 14 and sign == '*' and num2 == 3:
-    print("14*3 = 42")
-if num1 == 14 and sign == '*' and num2 == 4:
-    print("14*4 = 56")
-if num1 == 14 and sign == '*' and num2 == 5:
-    print("14*5 = 70")
-if num1 == 14 and sign == '*' and num2 == 6:
-    print("14*6 = 84")
-if num1 == 14 and sign == '*' and num2 == 7:
-    print("14*7 = 98")
-if num1 == 14 and sign == '*' and num2 == 8:
-    print("14*8 = 112")
-if num1 == 14 and sign == '*' and num2 == 9:
-    print("14*9 = 126")
-if num1 == 14 and sign == '*' and num2 == 10:
-    print("14*10 = 140")
-if num1 == 14 and sign == '*' and num2 == 11:
-    print("14*11 = 154")
-if num1 == 14 and sign == '*' and num2 == 12:
-    print("14*12 = 168")
-if num1 == 14 and sign == '*' and num2 == 13:
-    print("14*13 = 182")
-if num1 == 14 and sign == '*' and num2 == 14:
-    print("14*14 = 196")
-if num1 == 14 and sign == '*' and num2 == 15:
-    print("14*15 = 210")
-if num1 == 14 and sign == '*' and num2 == 16:
-    print("14*16 = 224")
-if num1 == 14 and sign == '*' and num2 == 17:
-    print("14*17 = 238")
-if num1 == 14 and sign == '*' and num2 == 18:
-    print("14*18 = 252")
-if num1 == 14 and sign == '*' and num2 == 19:
-    print("14*19 = 266")
-if num1 == 14 and sign == '*' and num2 == 20:
-    print("14*20 = 280")
-if num1 == 14 and sign == '*' and num2 == 21:
-    print("14*21 = 294")
-if num1 == 14 and sign == '*' and num2 == 22:
-    print("14*22 = 308")
-if num1 == 14 and sign == '*' and num2 == 23:
-    print("14*23 = 322")
-if num1 == 14 and sign == '*' and num2 == 24:
-    print("14*24 = 336")
-if num1 == 14 and sign == '*' and num2 == 25:
-    print("14*25 = 350")
-if num1 == 14 and sign == '*' and num2 == 26:
-    print("14*26 = 364")
-if num1 == 14 and sign == '*' and num2 == 27:
-    print("14*27 = 378")
-if num1 == 14 and sign == '*' and num2 == 28:
-    print("14*28 = 392")
-if num1 == 14 and sign == '*' and num2 == 29:
-    print("14*29 = 406")
-if num1 == 14 and sign == '*' and num2 == 30:
-    print("14*30 = 420")
-if num1 == 14 and sign == '*' and num2 == 31:
-    print("14*31 = 434")
-if num1 == 14 and sign == '*' and num2 == 32:
-    print("14*32 = 448")
-if num1 == 14 and sign == '*' and num2 == 33:
-    print("14*33 = 462")
-if num1 == 14 and sign == '*' and num2 == 34:
-    print("14*34 = 476")
-if num1 == 14 and sign == '*' and num2 == 35:
-    print("14*35 = 490")
-if num1 == 14 and sign == '*' and num2 == 36:
-    print("14*36 = 504")
-if num1 == 14 and sign == '*' and num2 == 37:
-    print("14*37 = 518")
-if num1 == 14 and sign == '*' and num2 == 38:
-    print("14*38 = 532")
-if num1 == 14 and sign == '*' and num2 == 39:
-    print("14*39 = 546")
-if num1 == 14 and sign == '*' and num2 == 40:
-    print("14*40 = 560")
-if num1 == 14 and sign == '*' and num2 == 41:
-    print("14*41 = 574")
-if num1 == 14 and sign == '*' and num2 == 42:
-    print("14*42 = 588")
-if num1 == 14 and sign == '*' and num2 == 43:
-    print("14*43 = 602")
-if num1 == 14 and sign == '*' and num2 == 44:
-    print("14*44 = 616")
-if num1 == 14 and sign == '*' and num2 == 45:
-    print("14*45 = 630")
-if num1 == 14 and sign == '*' and num2 == 46:
-    print("14*46 = 644")
-if num1 == 14 and sign == '*' and num2 == 47:
-    print("14*47 = 658")
-if num1 == 14 and sign == '*' and num2 == 48:
-    print("14*48 = 672")
-if num1 == 14 and sign == '*' and num2 == 49:
-    print("14*49 = 686")
-if num1 == 14 and sign == '*' and num2 == 50:
-    print("14*50 = 700")
-if num1 == 15 and sign == '*' and num2 == 0:
-    print("15*0 = 0")
-if num1 == 15 and sign == '*' and num2 == 1:
-    print("15*1 = 15")
-if num1 == 15 and sign == '*' and num2 == 2:
-    print("15*2 = 30")
-if num1 == 15 and sign == '*' and num2 == 3:
-    print("15*3 = 45")
-if num1 == 15 and sign == '*' and num2 == 4:
-    print("15*4 = 60")
-if num1 == 15 and sign == '*' and num2 == 5:
-    print("15*5 = 75")
-if num1 == 15 and sign == '*' and num2 == 6:
-    print("15*6 = 90")
-if num1 == 15 and sign == '*' and num2 == 7:
-    print("15*7 = 105")
-if num1 == 15 and sign == '*' and num2 == 8:
-    print("15*8 = 120")
-if num1 == 15 and sign == '*' and num2 == 9:
-    print("15*9 = 135")
-if num1 == 15 and sign == '*' and num2 == 10:
-    print("15*10 = 150")
-if num1 == 15 and sign == '*' and num2 == 11:
-    print("15*11 = 165")
-if num1 == 15 and sign == '*' and num2 == 12:
-    print("15*12 = 180")
-if num1 == 15 and sign == '*' and num2 == 13:
-    print("15*13 = 195")
-if num1 == 15 and sign == '*' and num2 == 14:
-    print("15*14 = 210")
-if num1 == 15 and sign == '*' and num2 == 15:
-    print("15*15 = 225")
-if num1 == 15 and sign == '*' and num2 == 16:
-    print("15*16 = 240")
-if num1 == 15 and sign == '*' and num2 == 17:
-    print("15*17 = 255")
-if num1 == 15 and sign == '*' and num2 == 18:
-    print("15*18 = 270")
-if num1 == 15 and sign == '*' and num2 == 19:
-    print("15*19 = 285")
-if num1 == 15 and sign == '*' and num2 == 20:
-    print("15*20 = 300")
-if num1 == 15 and sign == '*' and num2 == 21:
-    print("15*21 = 315")
-if num1 == 15 and sign == '*' and num2 == 22:
-    print("15*22 = 330")
-if num1 == 15 and sign == '*' and num2 == 23:
-    print("15*23 = 345")
-if num1 == 15 and sign == '*' and num2 == 24:
-    print("15*24 = 360")
-if num1 == 15 and sign == '*' and num2 == 25:
-    print("15*25 = 375")
-if num1 == 15 and sign == '*' and num2 == 26:
-    print("15*26 = 390")
-if num1 == 15 and sign == '*' and num2 == 27:
-    print("15*27 = 405")
-if num1 == 15 and sign == '*' and num2 == 28:
-    print("15*28 = 420")
-if num1 == 15 and sign == '*' and num2 == 29:
-    print("15*29 = 435")
-if num1 == 15 and sign == '*' and num2 == 30:
-    print("15*30 = 450")
-if num1 == 15 and sign == '*' and num2 == 31:
-    print("15*31 = 465")
-if num1 == 15 and sign == '*' and num2 == 32:
-    print("15*32 = 480")
-if num1 == 15 and sign == '*' and num2 == 33:
-    print("15*33 = 495")
-if num1 == 15 and sign == '*' and num2 == 34:
-    print("15*34 = 510")
-if num1 == 15 and sign == '*' and num2 == 35:
-    print("15*35 = 525")
-if num1 == 15 and sign == '*' and num2 == 36:
-    print("15*36 = 540")
-if num1 == 15 and sign == '*' and num2 == 37:
-    print("15*37 = 555")
-if num1 == 15 and sign == '*' and num2 == 38:
-    print("15*38 = 570")
-if num1 == 15 and sign == '*' and num2 == 39:
-    print("15*39 = 585")
-if num1 == 15 and sign == '*' and num2 == 40:
-    print("15*40 = 600")
-if num1 == 15 and sign == '*' and num2 == 41:
-    print("15*41 = 615")
-if num1 == 15 and sign == '*' and num2 == 42:
-    print("15*42 = 630")
-if num1 == 15 and sign == '*' and num2 == 43:
-    print("15*43 = 645")
-if num1 == 15 and sign == '*' and num2 == 44:
-    print("15*44 = 660")
-if num1 == 15 and sign == '*' and num2 == 45:
-    print("15*45 = 675")
-if num1 == 15 and sign == '*' and num2 == 46:
-    print("15*46 = 690")
-if num1 == 15 and sign == '*' and num2 == 47:
-    print("15*47 = 705")
-if num1 == 15 and sign == '*' and num2 == 48:
-    print("15*48 = 720")
-if num1 == 15 and sign == '*' and num2 == 49:
-    print("15*49 = 735")
-if num1 == 15 and sign == '*' and num2 == 50:
-    print("15*50 = 750")
-if num1 == 16 and sign == '*' and num2 == 0:
-    print("16*0 = 0")
-if num1 == 16 and sign == '*' and num2 == 1:
-    print("16*1 = 16")
-if num1 == 16 and sign == '*' and num2 == 2:
-    print("16*2 = 32")
-if num1 == 16 and sign == '*' and num2 == 3:
-    print("16*3 = 48")
-if num1 == 16 and sign == '*' and num2 == 4:
-    print("16*4 = 64")
-if num1 == 16 and sign == '*' and num2 == 5:
-    print("16*5 = 80")
-if num1 == 16 and sign == '*' and num2 == 6:
-    print("16*6 = 96")
-if num1 == 16 and sign == '*' and num2 == 7:
-    print("16*7 = 112")
-if num1 == 16 and sign == '*' and num2 == 8:
-    print("16*8 = 128")
-if num1 == 16 and sign == '*' and num2 == 9:
-    print("16*9 = 144")
-if num1 == 16 and sign == '*' and num2 == 10:
-    print("16*10 = 160")
-if num1 == 16 and sign == '*' and num2 == 11:
-    print("16*11 = 176")
-if num1 == 16 and sign == '*' and num2 == 12:
-    print("16*12 = 192")
-if num1 == 16 and sign == '*' and num2 == 13:
-    print("16*13 = 208")
-if num1 == 16 and sign == '*' and num2 == 14:
-    print("16*14 = 224")
-if num1 == 16 and sign == '*' and num2 == 15:
-    print("16*15 = 240")
-if num1 == 16 and sign == '*' and num2 == 16:
-    print("16*16 = 256")
-if num1 == 16 and sign == '*' and num2 == 17:
-    print("16*17 = 272")
-if num1 == 16 and sign == '*' and num2 == 18:
-    print("16*18 = 288")
-if num1 == 16 and sign == '*' and num2 == 19:
-    print("16*19 = 304")
-if num1 == 16 and sign == '*' and num2 == 20:
-    print("16*20 = 320")
-if num1 == 16 and sign == '*' and num2 == 21:
-    print("16*21 = 336")
-if num1 == 16 and sign == '*' and num2 == 22:
-    print("16*22 = 352")
-if num1 == 16 and sign == '*' and num2 == 23:
-    print("16*23 = 368")
-if num1 == 16 and sign == '*' and num2 == 24:
-    print("16*24 = 384")
-if num1 == 16 and sign == '*' and num2 == 25:
-    print("16*25 = 400")
-if num1 == 16 and sign == '*' and num2 == 26:
-    print("16*26 = 416")
-if num1 == 16 and sign == '*' and num2 == 27:
-    print("16*27 = 432")
-if num1 == 16 and sign == '*' and num2 == 28:
-    print("16*28 = 448")
-if num1 == 16 and sign == '*' and num2 == 29:
-    print("16*29 = 464")
-if num1 == 16 and sign == '*' and num2 == 30:
-    print("16*30 = 480")
-if num1 == 16 and sign == '*' and num2 == 31:
-    print("16*31 = 496")
-if num1 == 16 and sign == '*' and num2 == 32:
-    print("16*32 = 512")
-if num1 == 16 and sign == '*' and num2 == 33:
-    print("16*33 = 528")
-if num1 == 16 and sign == '*' and num2 == 34:
-    print("16*34 = 544")
-if num1 == 16 and sign == '*' and num2 == 35:
-    print("16*35 = 560")
-if num1 == 16 and sign == '*' and num2 == 36:
-    print("16*36 = 576")
-if num1 == 16 and sign == '*' and num2 == 37:
-    print("16*37 = 592")
-if num1 == 16 and sign == '*' and num2 == 38:
-    print("16*38 = 608")
-if num1 == 16 and sign == '*' and num2 == 39:
-    print("16*39 = 624")
-if num1 == 16 and sign == '*' and num2 == 40:
-    print("16*40 = 640")
-if num1 == 16 and sign == '*' and num2 == 41:
-    print("16*41 = 656")
-if num1 == 16 and sign == '*' and num2 == 42:
-    print("16*42 = 672")
-if num1 == 16 and sign == '*' and num2 == 43:
-    print("16*43 = 688")
-if num1 == 16 and sign == '*' and num2 == 44:
-    print("16*44 = 704")
-if num1 == 16 and sign == '*' and num2 == 45:
-    print("16*45 = 720")
-if num1 == 16 and sign == '*' and num2 == 46:
-    print("16*46 = 736")
-if num1 == 16 and sign == '*' and num2 == 47:
-    print("16*47 = 752")
-if num1 == 16 and sign == '*' and num2 == 48:
-    print("16*48 = 768")
-if num1 == 16 and sign == '*' and num2 == 49:
-    print("16*49 = 784")
-if num1 == 16 and sign == '*' and num2 == 50:
-    print("16*50 = 800")
-if num1 == 17 and sign == '*' and num2 == 0:
-    print("17*0 = 0")
-if num1 == 17 and sign == '*' and num2 == 1:
-    print("17*1 = 17")
-if num1 == 17 and sign == '*' and num2 == 2:
-    print("17*2 = 34")
-if num1 == 17 and sign == '*' and num2 == 3:
-    print("17*3 = 51")
-if num1 == 17 and sign == '*' and num2 == 4:
-    print("17*4 = 68")
-if num1 == 17 and sign == '*' and num2 == 5:
-    print("17*5 = 85")
-if num1 == 17 and sign == '*' and num2 == 6:
-    print("17*6 = 102")
-if num1 == 17 and sign == '*' and num2 == 7:
-    print("17*7 = 119")
-if num1 == 17 and sign == '*' and num2 == 8:
-    print("17*8 = 136")
-if num1 == 17 and sign == '*' and num2 == 9:
-    print("17*9 = 153")
-if num1 == 17 and sign == '*' and num2 == 10:
-    print("17*10 = 170")
-if num1 == 17 and sign == '*' and num2 == 11:
-    print("17*11 = 187")
-if num1 == 17 and sign == '*' and num2 == 12:
-    print("17*12 = 204")
-if num1 == 17 and sign == '*' and num2 == 13:
-    print("17*13 = 221")
-if num1 == 17 and sign == '*' and num2 == 14:
-    print("17*14 = 238")
-if num1 == 17 and sign == '*' and num2 == 15:
-    print("17*15 = 255")
-if num1 == 17 and sign == '*' and num2 == 16:
-    print("17*16 = 272")
-if num1 == 17 and sign == '*' and num2 == 17:
-    print("17*17 = 289")
-if num1 == 17 and sign == '*' and num2 == 18:
-    print("17*18 = 306")
-if num1 == 17 and sign == '*' and num2 == 19:
-    print("17*19 = 323")
-if num1 == 17 and sign == '*' and num2 == 20:
-    print("17*20 = 340")
-if num1 == 17 and sign == '*' and num2 == 21:
-    print("17*21 = 357")
-if num1 == 17 and sign == '*' and num2 == 22:
-    print("17*22 = 374")
-if num1 == 17 and sign == '*' and num2 == 23:
-    print("17*23 = 391")
-if num1 == 17 and sign == '*' and num2 == 24:
-    print("17*24 = 408")
-if num1 == 17 and sign == '*' and num2 == 25:
-    print("17*25 = 425")
-if num1 == 17 and sign == '*' and num2 == 26:
-    print("17*26 = 442")
-if num1 == 17 and sign == '*' and num2 == 27:
-    print("17*27 = 459")
-if num1 == 17 and sign == '*' and num2 == 28:
-    print("17*28 = 476")
-if num1 == 17 and sign == '*' and num2 == 29:
-    print("17*29 = 493")
-if num1 == 17 and sign == '*' and num2 == 30:
-    print("17*30 = 510")
-if num1 == 17 and sign == '*' and num2 == 31:
-    print("17*31 = 527")
-if num1 == 17 and sign == '*' and num2 == 32:
-    print("17*32 = 544")
-if num1 == 17 and sign == '*' and num2 == 33:
-    print("17*33 = 561")
-if num1 == 17 and sign == '*' and num2 == 34:
-    print("17*34 = 578")
-if num1 == 17 and sign == '*' and num2 == 35:
-    print("17*35 = 595")
-if num1 == 17 and sign == '*' and num2 == 36:
-    print("17*36 = 612")
-if num1 == 17 and sign == '*' and num2 == 37:
-    print("17*37 = 629")
-if num1 == 17 and sign == '*' and num2 == 38:
-    print("17*38 = 646")
-if num1 == 17 and sign == '*' and num2 == 39:
-    print("17*39 = 663")
-if num1 == 17 and sign == '*' and num2 == 40:
-    print("17*40 = 680")
-if num1 == 17 and sign == '*' and num2 == 41:
-    print("17*41 = 697")
-if num1 == 17 and sign == '*' and num2 == 42:
-    print("17*42 = 714")
-if num1 == 17 and sign == '*' and num2 == 43:
-    print("17*43 = 731")
-if num1 == 17 and sign == '*' and num2 == 44:
-    print("17*44 = 748")
-if num1 == 17 and sign == '*' and num2 == 45:
-    print("17*45 = 765")
-if num1 == 17 and sign == '*' and num2 == 46:
-    print("17*46 = 782")
-if num1 == 17 and sign == '*' and num2 == 47:
-    print("17*47 = 799")
-if num1 == 17 and sign == '*' and num2 == 48:
-    print("17*48 = 816")
-if num1 == 17 and sign == '*' and num2 == 49:
-    print("17*49 = 833")
-if num1 == 17 and sign == '*' and num2 == 50:
-    print("17*50 = 850")
-if num1 == 18 and sign == '*' and num2 == 0:
-    print("18*0 = 0")
-if num1 == 18 and sign == '*' and num2 == 1:
-    print("18*1 = 18")
-if num1 == 18 and sign == '*' and num2 == 2:
-    print("18*2 = 36")
-if num1 == 18 and sign == '*' and num2 == 3:
-    print("18*3 = 54")
-if num1 == 18 and sign == '*' and num2 == 4:
-    print("18*4 = 72")
-if num1 == 18 and sign == '*' and num2 == 5:
-    print("18*5 = 90")
-if num1 == 18 and sign == '*' and num2 == 6:
-    print("18*6 = 108")
-if num1 == 18 and sign == '*' and num2 == 7:
-    print("18*7 = 126")
-if num1 == 18 and sign == '*' and num2 == 8:
-    print("18*8 = 144")
-if num1 == 18 and sign == '*' and num2 == 9:
-    print("18*9 = 162")
-if num1 == 18 and sign == '*' and num2 == 10:
-    print("18*10 = 180")
-if num1 == 18 and sign == '*' and num2 == 11:
-    print("18*11 = 198")
-if num1 == 18 and sign == '*' and num2 == 12:
-    print("18*12 = 216")
-if num1 == 18 and sign == '*' and num2 == 13:
-    print("18*13 = 234")
-if num1 == 18 and sign == '*' and num2 == 14:
-    print("18*14 = 252")
-if num1 == 18 and sign == '*' and num2 == 15:
-    print("18*15 = 270")
-if num1 == 18 and sign == '*' and num2 == 16:
-    print("18*16 = 288")
-if num1 == 18 and sign == '*' and num2 == 17:
-    print("18*17 = 306")
-if num1 == 18 and sign == '*' and num2 == 18:
-    print("18*18 = 324")
-if num1 == 18 and sign == '*' and num2 == 19:
-    print("18*19 = 342")
-if num1 == 18 and sign == '*' and num2 == 20:
-    print("18*20 = 360")
-if num1 == 18 and sign == '*' and num2 == 21:
-    print("18*21 = 378")
-if num1 == 18 and sign == '*' and num2 == 22:
-    print("18*22 = 396")
-if num1 == 18 and sign == '*' and num2 == 23:
-    print("18*23 = 414")
-if num1 == 18 and sign == '*' and num2 == 24:
-    print("18*24 = 432")
-if num1 == 18 and sign == '*' and num2 == 25:
-    print("18*25 = 450")
-if num1 == 18 and sign == '*' and num2 == 26:
-    print("18*26 = 468")
-if num1 == 18 and sign == '*' and num2 == 27:
-    print("18*27 = 486")
-if num1 == 18 and sign == '*' and num2 == 28:
-    print("18*28 = 504")
-if num1 == 18 and sign == '*' and num2 == 29:
-    print("18*29 = 522")
-if num1 == 18 and sign == '*' and num2 == 30:
-    print("18*30 = 540")
-if num1 == 18 and sign == '*' and num2 == 31:
-    print("18*31 = 558")
-if num1 == 18 and sign == '*' and num2 == 32:
-    print("18*32 = 576")
-if num1 == 18 and sign == '*' and num2 == 33:
-    print("18*33 = 594")
-if num1 == 18 and sign == '*' and num2 == 34:
-    print("18*34 = 612")
-if num1 == 18 and sign == '*' and num2 == 35:
-    print("18*35 = 630")
-if num1 == 18 and sign == '*' and num2 == 36:
-    print("18*36 = 648")
-if num1 == 18 and sign == '*' and num2 == 37:
-    print("18*37 = 666")
-if num1 == 18 and sign == '*' and num2 == 38:
-    print("18*38 = 684")
-if num1 == 18 and sign == '*' and num2 == 39:
-    print("18*39 = 702")
-if num1 == 18 and sign == '*' and num2 == 40:
-    print("18*40 = 720")
-if num1 == 18 and sign == '*' and num2 == 41:
-    print("18*41 = 738")
-if num1 == 18 and sign == '*' and num2 == 42:
-    print("18*42 = 756")
-if num1 == 18 and sign == '*' and num2 == 43:
-    print("18*43 = 774")
-if num1 == 18 and sign == '*' and num2 == 44:
-    print("18*44 = 792")
-if num1 == 18 and sign == '*' and num2 == 45:
-    print("18*45 = 810")
-if num1 == 18 and sign == '*' and num2 == 46:
-    print("18*46 = 828")
-if num1 == 18 and sign == '*' and num2 == 47:
-    print("18*47 = 846")
-if num1 == 18 and sign == '*' and num2 == 48:
-    print("18*48 = 864")
-if num1 == 18 and sign == '*' and num2 == 49:
-    print("18*49 = 882")
-if num1 == 18 and sign == '*' and num2 == 50:
-    print("18*50 = 900")
-if num1 == 19 and sign == '*' and num2 == 0:
-    print("19*0 = 0")
-if num1 == 19 and sign == '*' and num2 == 1:
-    print("19*1 = 19")
-if num1 == 19 and sign == '*' and num2 == 2:
-    print("19*2 = 38")
-if num1 == 19 and sign == '*' and num2 == 3:
-    print("19*3 = 57")
-if num1 == 19 and sign == '*' and num2 == 4:
-    print("19*4 = 76")
-if num1 == 19 and sign == '*' and num2 == 5:
-    print("19*5 = 95")
-if num1 == 19 and sign == '*' and num2 == 6:
-    print("19*6 = 114")
-if num1 == 19 and sign == '*' and num2 == 7:
-    print("19*7 = 133")
-if num1 == 19 and sign == '*' and num2 == 8:
-    print("19*8 = 152")
-if num1 == 19 and sign == '*' and num2 == 9:
-    print("19*9 = 171")
-if num1 == 19 and sign == '*' and num2 == 10:
-    print("19*10 = 190")
-if num1 == 19 and sign == '*' and num2 == 11:
-    print("19*11 = 209")
-if num1 == 19 and sign == '*' and num2 == 12:
-    print("19*12 = 228")
-if num1 == 19 and sign == '*' and num2 == 13:
-    print("19*13 = 247")
-if num1 == 19 and sign == '*' and num2 == 14:
-    print("19*14 = 266")
-if num1 == 19 and sign == '*' and num2 == 15:
-    print("19*15 = 285")
-if num1 == 19 and sign == '*' and num2 == 16:
-    print("19*16 = 304")
-if num1 == 19 and sign == '*' and num2 == 17:
-    print("19*17 = 323")
-if num1 == 19 and sign == '*' and num2 == 18:
-    print("19*18 = 342")
-if num1 == 19 and sign == '*' and num2 == 19:
-    print("19*19 = 361")
-if num1 == 19 and sign == '*' and num2 == 20:
-    print("19*20 = 380")
-if num1 == 19 and sign == '*' and num2 == 21:
-    print("19*21 = 399")
-if num1 == 19 and sign == '*' and num2 == 22:
-    print("19*22 = 418")
-if num1 == 19 and sign == '*' and num2 == 23:
-    print("19*23 = 437")
-if num1 == 19 and sign == '*' and num2 == 24:
-    print("19*24 = 456")
-if num1 == 19 and sign == '*' and num2 == 25:
-    print("19*25 = 475")
-if num1 == 19 and sign == '*' and num2 == 26:
-    print("19*26 = 494")
-if num1 == 19 and sign == '*' and num2 == 27:
-    print("19*27 = 513")
-if num1 == 19 and sign == '*' and num2 == 28:
-    print("19*28 = 532")
-if num1 == 19 and sign == '*' and num2 == 29:
-    print("19*29 = 551")
-if num1 == 19 and sign == '*' and num2 == 30:
-    print("19*30 = 570")
-if num1 == 19 and sign == '*' and num2 == 31:
-    print("19*31 = 589")
-if num1 == 19 and sign == '*' and num2 == 32:
-    print("19*32 = 608")
-if num1 == 19 and sign == '*' and num2 == 33:
-    print("19*33 = 627")
-if num1 == 19 and sign == '*' and num2 == 34:
-    print("19*34 = 646")
-if num1 == 19 and sign == '*' and num2 == 35:
-    print("19*35 = 665")
-if num1 == 19 and sign == '*' and num2 == 36:
-    print("19*36 = 684")
-if num1 == 19 and sign == '*' and num2 == 37:
-    print("19*37 = 703")
-if num1 == 19 and sign == '*' and num2 == 38:
-    print("19*38 = 722")
-if num1 == 19 and sign == '*' and num2 == 39:
-    print("19*39 = 741")
-if num1 == 19 and sign == '*' and num2 == 40:
-    print("19*40 = 760")
-if num1 == 19 and sign == '*' and num2 == 41:
-    print("19*41 = 779")
-if num1 == 19 and sign == '*' and num2 == 42:
-    print("19*42 = 798")
-if num1 == 19 and sign == '*' and num2 == 43:
-    print("19*43 = 817")
-if num1 == 19 and sign == '*' and num2 == 44:
-    print("19*44 = 836")
-if num1 == 19 and sign == '*' and num2 == 45:
-    print("19*45 = 855")
-if num1 == 19 and sign == '*' and num2 == 46:
-    print("19*46 = 874")
-if num1 == 19 and sign == '*' and num2 == 47:
-    print("19*47 = 893")
-if num1 == 19 and sign == '*' and num2 == 48:
-    print("19*48 = 912")
-if num1 == 19 and sign == '*' and num2 == 49:
-    print("19*49 = 931")
-if num1 == 19 and sign == '*' and num2 == 50:
-    print("19*50 = 950")
-if num1 == 20 and sign == '*' and num2 == 0:
-    print("20*0 = 0")
-if num1 == 20 and sign == '*' and num2 == 1:
-    print("20*1 = 20")
-if num1 == 20 and sign == '*' and num2 == 2:
-    print("20*2 = 40")
-if num1 == 20 and sign == '*' and num2 == 3:
-    print("20*3 = 60")
-if num1 == 20 and sign == '*' and num2 == 4:
-    print("20*4 = 80")
-if num1 == 20 and sign == '*' and num2 == 5:
-    print("20*5 = 100")
-if num1 == 20 and sign == '*' and num2 == 6:
-    print("20*6 = 120")
-if num1 == 20 and sign == '*' and num2 == 7:
-    print("20*7 = 140")
-if num1 == 20 and sign == '*' and num2 == 8:
-    print("20*8 = 160")
-if num1 == 20 and sign == '*' and num2 == 9:
-    print("20*9 = 180")
-if num1 == 20 and sign == '*' and num2 == 10:
-    print("20*10 = 200")
-if num1 == 20 and sign == '*' and num2 == 11:
-    print("20*11 = 220")
-if num1 == 20 and sign == '*' and num2 == 12:
-    print("20*12 = 240")
-if num1 == 20 and sign == '*' and num2 == 13:
-    print("20*13 = 260")
-if num1 == 20 and sign == '*' and num2 == 14:
-    print("20*14 = 280")
-if num1 == 20 and sign == '*' and num2 == 15:
-    print("20*15 = 300")
-if num1 == 20 and sign == '*' and num2 == 16:
-    print("20*16 = 320")
-if num1 == 20 and sign == '*' and num2 == 17:
-    print("20*17 = 340")
-if num1 == 20 and sign == '*' and num2 == 18:
-    print("20*18 = 360")
-if num1 == 20 and sign == '*' and num2 == 19:
-    print("20*19 = 380")
-if num1 == 20 and sign == '*' and num2 == 20:
-    print("20*20 = 400")
-if num1 == 20 and sign == '*' and num2 == 21:
-    print("20*21 = 420")
-if num1 == 20 and sign == '*' and num2 == 22:
-    print("20*22 = 440")
-if num1 == 20 and sign == '*' and num2 == 23:
-    print("20*23 = 460")
-if num1 == 20 and sign == '*' and num2 == 24:
-    print("20*24 = 480")
-if num1 == 20 and sign == '*' and num2 == 25:
-    print("20*25 = 500")
-if num1 == 20 and sign == '*' and num2 == 26:
-    print("20*26 = 520")
-if num1 == 20 and sign == '*' and num2 == 27:
-    print("20*27 = 540")
-if num1 == 20 and sign == '*' and num2 == 28:
-    print("20*28 = 560")
-if num1 == 20 and sign == '*' and num2 == 29:
-    print("20*29 = 580")
-if num1 == 20 and sign == '*' and num2 == 30:
-    print("20*30 = 600")
-if num1 == 20 and sign == '*' and num2 == 31:
-    print("20*31 = 620")
-if num1 == 20 and sign == '*' and num2 == 32:
-    print("20*32 = 640")
-if num1 == 20 and sign == '*' and num2 == 33:
-    print("20*33 = 660")
-if num1 == 20 and sign == '*' and num2 == 34:
-    print("20*34 = 680")
-if num1 == 20 and sign == '*' and num2 == 35:
-    print("20*35 = 700")
-if num1 == 20 and sign == '*' and num2 == 36:
-    print("20*36 = 720")
-if num1 == 20 and sign == '*' and num2 == 37:
-    print("20*37 = 740")
-if num1 == 20 and sign == '*' and num2 == 38:
-    print("20*38 = 760")
-if num1 == 20 and sign == '*' and num2 == 39:
-    print("20*39 = 780")
-if num1 == 20 and sign == '*' and num2 == 40:
-    print("20*40 = 800")
-if num1 == 20 and sign == '*' and num2 == 41:
-    print("20*41 = 820")
-if num1 == 20 and sign == '*' and num2 == 42:
-    print("20*42 = 840")
-if num1 == 20 and sign == '*' and num2 == 43:
-    print("20*43 = 860")
-if num1 == 20 and sign == '*' and num2 == 44:
-    print("20*44 = 880")
-if num1 == 20 and sign == '*' and num2 == 45:
-    print("20*45 = 900")
-if num1 == 20 and sign == '*' and num2 == 46:
-    print("20*46 = 920")
-if num1 == 20 and sign == '*' and num2 == 47:
-    print("20*47 = 940")
-if num1 == 20 and sign == '*' and num2 == 48:
-    print("20*48 = 960")
-if num1 == 20 and sign == '*' and num2 == 49:
-    print("20*49 = 980")
-if num1 == 20 and sign == '*' and num2 == 50:
-    print("20*50 = 1000")
-if num1 == 21 and sign == '*' and num2 == 0:
-    print("21*0 = 0")
-if num1 == 21 and sign == '*' and num2 == 1:
-    print("21*1 = 21")
-if num1 == 21 and sign == '*' and num2 == 2:
-    print("21*2 = 42")
-if num1 == 21 and sign == '*' and num2 == 3:
-    print("21*3 = 63")
-if num1 == 21 and sign == '*' and num2 == 4:
-    print("21*4 = 84")
-if num1 == 21 and sign == '*' and num2 == 5:
-    print("21*5 = 105")
-if num1 == 21 and sign == '*' and num2 == 6:
-    print("21*6 = 126")
-if num1 == 21 and sign == '*' and num2 == 7:
-    print("21*7 = 147")
-if num1 == 21 and sign == '*' and num2 == 8:
-    print("21*8 = 168")
-if num1 == 21 and sign == '*' and num2 == 9:
-    print("21*9 = 189")
-if num1 == 21 and sign == '*' and num2 == 10:
-    print("21*10 = 210")
-if num1 == 21 and sign == '*' and num2 == 11:
-    print("21*11 = 231")
-if num1 == 21 and sign == '*' and num2 == 12:
-    print("21*12 = 252")
-if num1 == 21 and sign == '*' and num2 == 13:
-    print("21*13 = 273")
-if num1 == 21 and sign == '*' and num2 == 14:
-    print("21*14 = 294")
-if num1 == 21 and sign == '*' and num2 == 15:
-    print("21*15 = 315")
-if num1 == 21 and sign == '*' and num2 == 16:
-    print("21*16 = 336")
-if num1 == 21 and sign == '*' and num2 == 17:
-    print("21*17 = 357")
-if num1 == 21 and sign == '*' and num2 == 18:
-    print("21*18 = 378")
-if num1 == 21 and sign == '*' and num2 == 19:
-    print("21*19 = 399")
-if num1 == 21 and sign == '*' and num2 == 20:
-    print("21*20 = 420")
-if num1 == 21 and sign == '*' and num2 == 21:
-    print("21*21 = 441")
-if num1 == 21 and sign == '*' and num2 == 22:
-    print("21*22 = 462")
-if num1 == 21 and sign == '*' and num2 == 23:
-    print("21*23 = 483")
-if num1 == 21 and sign == '*' and num2 == 24:
-    print("21*24 = 504")
-if num1 == 21 and sign == '*' and num2 == 25:
-    print("21*25 = 525")
-if num1 == 21 and sign == '*' and num2 == 26:
-    print("21*26 = 546")
-if num1 == 21 and sign == '*' and num2 == 27:
-    print("21*27 = 567")
-if num1 == 21 and sign == '*' and num2 == 28:
-    print("21*28 = 588")
-if num1 == 21 and sign == '*' and num2 == 29:
-    print("21*29 = 609")
-if num1 == 21 and sign == '*' and num2 == 30:
-    print("21*30 = 630")
-if num1 == 21 and sign == '*' and num2 == 31:
-    print("21*31 = 651")
-if num1 == 21 and sign == '*' and num2 == 32:
-    print("21*32 = 672")
-if num1 == 21 and sign == '*' and num2 == 33:
-    print("21*33 = 693")
-if num1 == 21 and sign == '*' and num2 == 34:
-    print("21*34 = 714")
-if num1 == 21 and sign == '*' and num2 == 35:
-    print("21*35 = 735")
-if num1 == 21 and sign == '*' and num2 == 36:
-    print("21*36 = 756")
-if num1 == 21 and sign == '*' and num2 == 37:
-    print("21*37 = 777")
-if num1 == 21 and sign == '*' and num2 == 38:
-    print("21*38 = 798")
-if num1 == 21 and sign == '*' and num2 == 39:
-    print("21*39 = 819")
-if num1 == 21 and sign == '*' and num2 == 40:
-    print("21*40 = 840")
-if num1 == 21 and sign == '*' and num2 == 41:
-    print("21*41 = 861")
-if num1 == 21 and sign == '*' and num2 == 42:
-    print("21*42 = 882")
-if num1 == 21 and sign == '*' and num2 == 43:
-    print("21*43 = 903")
-if num1 == 21 and sign == '*' and num2 == 44:
-    print("21*44 = 924")
-if num1 == 21 and sign == '*' and num2 == 45:
-    print("21*45 = 945")
-if num1 == 21 and sign == '*' and num2 == 46:
-    print("21*46 = 966")
-if num1 == 21 and sign == '*' and num2 == 47:
-    print("21*47 = 987")
-if num1 == 21 and sign == '*' and num2 == 48:
-    print("21*48 = 1008")
-if num1 == 21 and sign == '*' and num2 == 49:
-    print("21*49 = 1029")
-if num1 == 21 and sign == '*' and num2 == 50:
-    print("21*50 = 1050")
-if num1 == 22 and sign == '*' and num2 == 0:
-    print("22*0 = 0")
-if num1 == 22 and sign == '*' and num2 == 1:
-    print("22*1 = 22")
-if num1 == 22 and sign == '*' and num2 == 2:
-    print("22*2 = 44")
-if num1 == 22 and sign == '*' and num2 == 3:
-    print("22*3 = 66")
-if num1 == 22 and sign == '*' and num2 == 4:
-    print("22*4 = 88")
-if num1 == 22 and sign == '*' and num2 == 5:
-    print("22*5 = 110")
-if num1 == 22 and sign == '*' and num2 == 6:
-    print("22*6 = 132")
-if num1 == 22 and sign == '*' and num2 == 7:
-    print("22*7 = 154")
-if num1 == 22 and sign == '*' and num2 == 8:
-    print("22*8 = 176")
-if num1 == 22 and sign == '*' and num2 == 9:
-    print("22*9 = 198")
-if num1 == 22 and sign == '*' and num2 == 10:
-    print("22*10 = 220")
-if num1 == 22 and sign == '*' and num2 == 11:
-    print("22*11 = 242")
-if num1 == 22 and sign == '*' and num2 == 12:
-    print("22*12 = 264")
-if num1 == 22 and sign == '*' and num2 == 13:
-    print("22*13 = 286")
-if num1 == 22 and sign == '*' and num2 == 14:
-    print("22*14 = 308")
-if num1 == 22 and sign == '*' and num2 == 15:
-    print("22*15 = 330")
-if num1 == 22 and sign == '*' and num2 == 16:
-    print("22*16 = 352")
-if num1 == 22 and sign == '*' and num2 == 17:
-    print("22*17 = 374")
-if num1 == 22 and sign == '*' and num2 == 18:
-    print("22*18 = 396")
-if num1 == 22 and sign == '*' and num2 == 19:
-    print("22*19 = 418")
-if num1 == 22 and sign == '*' and num2 == 20:
-    print("22*20 = 440")
-if num1 == 22 and sign == '*' and num2 == 21:
-    print("22*21 = 462")
-if num1 == 22 and sign == '*' and num2 == 22:
-    print("22*22 = 484")
-if num1 == 22 and sign == '*' and num2 == 23:
-    print("22*23 = 506")
-if num1 == 22 and sign == '*' and num2 == 24:
-    print("22*24 = 528")
-if num1 == 22 and sign == '*' and num2 == 25:
-    print("22*25 = 550")
-if num1 == 22 and sign == '*' and num2 == 26:
-    print("22*26 = 572")
-if num1 == 22 and sign == '*' and num2 == 27:
-    print("22*27 = 594")
-if num1 == 22 and sign == '*' and num2 == 28:
-    print("22*28 = 616")
-if num1 == 22 and sign == '*' and num2 == 29:
-    print("22*29 = 638")
-if num1 == 22 and sign == '*' and num2 == 30:
-    print("22*30 = 660")
-if num1 == 22 and sign == '*' and num2 == 31:
-    print("22*31 = 682")
-if num1 == 22 and sign == '*' and num2 == 32:
-    print("22*32 = 704")
-if num1 == 22 and sign == '*' and num2 == 33:
-    print("22*33 = 726")
-if num1 == 22 and sign == '*' and num2 == 34:
-    print("22*34 = 748")
-if num1 == 22 and sign == '*' and num2 == 35:
-    print("22*35 = 770")
-if num1 == 22 and sign == '*' and num2 == 36:
-    print("22*36 = 792")
-if num1 == 22 and sign == '*' and num2 == 37:
-    print("22*37 = 814")
-if num1 == 22 and sign == '*' and num2 == 38:
-    print("22*38 = 836")
-if num1 == 22 and sign == '*' and num2 == 39:
-    print("22*39 = 858")
-if num1 == 22 and sign == '*' and num2 == 40:
-    print("22*40 = 880")
-if num1 == 22 and sign == '*' and num2 == 41:
-    print("22*41 = 902")
-if num1 == 22 and sign == '*' and num2 == 42:
-    print("22*42 = 924")
-if num1 == 22 and sign == '*' and num2 == 43:
-    print("22*43 = 946")
-if num1 == 22 and sign == '*' and num2 == 44:
-    print("22*44 = 968")
-if num1 == 22 and sign == '*' and num2 == 45:
-    print("22*45 = 990")
-if num1 == 22 and sign == '*' and num2 == 46:
-    print("22*46 = 1012")
-if num1 == 22 and sign == '*' and num2 == 47:
-    print("22*47 = 1034")
-if num1 == 22 and sign == '*' and num2 == 48:
-    print("22*48 = 1056")
-if num1 == 22 and sign == '*' and num2 == 49:
-    print("22*49 = 1078")
-if num1 == 22 and sign == '*' and num2 == 50:
-    print("22*50 = 1100")
-if num1 == 23 and sign == '*' and num2 == 0:
-    print("23*0 = 0")
-if num1 == 23 and sign == '*' and num2 == 1:
-    print("23*1 = 23")
-if num1 == 23 and sign == '*' and num2 == 2:
-    print("23*2 = 46")
-if num1 == 23 and sign == '*' and num2 == 3:
-    print("23*3 = 69")
-if num1 == 23 and sign == '*' and num2 == 4:
-    print("23*4 = 92")
-if num1 == 23 and sign == '*' and num2 == 5:
-    print("23*5 = 115")
-if num1 == 23 and sign == '*' and num2 == 6:
-    print("23*6 = 138")
-if num1 == 23 and sign == '*' and num2 == 7:
-    print("23*7 = 161")
-if num1 == 23 and sign == '*' and num2 == 8:
-    print("23*8 = 184")
-if num1 == 23 and sign == '*' and num2 == 9:
-    print("23*9 = 207")
-if num1 == 23 and sign == '*' and num2 == 10:
-    print("23*10 = 230")
-if num1 == 23 and sign == '*' and num2 == 11:
-    print("23*11 = 253")
-if num1 == 23 and sign == '*' and num2 == 12:
-    print("23*12 = 276")
-if num1 == 23 and sign == '*' and num2 == 13:
-    print("23*13 = 299")
-if num1 == 23 and sign == '*' and num2 == 14:
-    print("23*14 = 322")
-if num1 == 23 and sign == '*' and num2 == 15:
-    print("23*15 = 345")
-if num1 == 23 and sign == '*' and num2 == 16:
-    print("23*16 = 368")
-if num1 == 23 and sign == '*' and num2 == 17:
-    print("23*17 = 391")
-if num1 == 23 and sign == '*' and num2 == 18:
-    print("23*18 = 414")
-if num1 == 23 and sign == '*' and num2 == 19:
-    print("23*19 = 437")
-if num1 == 23 and sign == '*' and num2 == 20:
-    print("23*20 = 460")
-if num1 == 23 and sign == '*' and num2 == 21:
-    print("23*21 = 483")
-if num1 == 23 and sign == '*' and num2 == 22:
-    print("23*22 = 506")
-if num1 == 23 and sign == '*' and num2 == 23:
-    print("23*23 = 529")
-if num1 == 23 and sign == '*' and num2 == 24:
-    print("23*24 = 552")
-if num1 == 23 and sign == '*' and num2 == 25:
-    print("23*25 = 575")
-if num1 == 23 and sign == '*' and num2 == 26:
-    print("23*26 = 598")
-if num1 == 23 and sign == '*' and num2 == 27:
-    print("23*27 = 621")
-if num1 == 23 and sign == '*' and num2 == 28:
-    print("23*28 = 644")
-if num1 == 23 and sign == '*' and num2 == 29:
-    print("23*29 = 667")
-if num1 == 23 and sign == '*' and num2 == 30:
-    print("23*30 = 690")
-if num1 == 23 and sign == '*' and num2 == 31:
-    print("23*31 = 713")
-if num1 == 23 and sign == '*' and num2 == 32:
-    print("23*32 = 736")
-if num1 == 23 and sign == '*' and num2 == 33:
-    print("23*33 = 759")
-if num1 == 23 and sign == '*' and num2 == 34:
-    print("23*34 = 782")
-if num1 == 23 and sign == '*' and num2 == 35:
-    print("23*35 = 805")
-if num1 == 23 and sign == '*' and num2 == 36:
-    print("23*36 = 828")
-if num1 == 23 and sign == '*' and num2 == 37:
-    print("23*37 = 851")
-if num1 == 23 and sign == '*' and num2 == 38:
-    print("23*38 = 874")
-if num1 == 23 and sign == '*' and num2 == 39:
-    print("23*39 = 897")
-if num1 == 23 and sign == '*' and num2 == 40:
-    print("23*40 = 920")
-if num1 == 23 and sign == '*' and num2 == 41:
-    print("23*41 = 943")
-if num1 == 23 and sign == '*' and num2 == 42:
-    print("23*42 = 966")
-if num1 == 23 and sign == '*' and num2 == 43:
-    print("23*43 = 989")
-if num1 == 23 and sign == '*' and num2 == 44:
-    print("23*44 = 1012")
-if num1 == 23 and sign == '*' and num2 == 45:
-    print("23*45 = 1035")
-if num1 == 23 and sign == '*' and num2 == 46:
-    print("23*46 = 1058")
-if num1 == 23 and sign == '*' and num2 == 47:
-    print("23*47 = 1081")
-if num1 == 23 and sign == '*' and num2 == 48:
-    print("23*48 = 1104")
-if num1 == 23 and sign == '*' and num2 == 49:
-    print("23*49 = 1127")
-if num1 == 23 and sign == '*' and num2 == 50:
-    print("23*50 = 1150")
-if num1 == 24 and sign == '*' and num2 == 0:
-    print("24*0 = 0")
-if num1 == 24 and sign == '*' and num2 == 1:
-    print("24*1 = 24")
-if num1 == 24 and sign == '*' and num2 == 2:
-    print("24*2 = 48")
-if num1 == 24 and sign == '*' and num2 == 3:
-    print("24*3 = 72")
-if num1 == 24 and sign == '*' and num2 == 4:
-    print("24*4 = 96")
-if num1 == 24 and sign == '*' and num2 == 5:
-    print("24*5 = 120")
-if num1 == 24 and sign == '*' and num2 == 6:
-    print("24*6 = 144")
-if num1 == 24 and sign == '*' and num2 == 7:
-    print("24*7 = 168")
-if num1 == 24 and sign == '*' and num2 == 8:
-    print("24*8 = 192")
-if num1 == 24 and sign == '*' and num2 == 9:
-    print("24*9 = 216")
-if num1 == 24 and sign == '*' and num2 == 10:
-    print("24*10 = 240")
-if num1 == 24 and sign == '*' and num2 == 11:
-    print("24*11 = 264")
-if num1 == 24 and sign == '*' and num2 == 12:
-    print("24*12 = 288")
-if num1 == 24 and sign == '*' and num2 == 13:
-    print("24*13 = 312")
-if num1 == 24 and sign == '*' and num2 == 14:
-    print("24*14 = 336")
-if num1 == 24 and sign == '*' and num2 == 15:
-    print("24*15 = 360")
-if num1 == 24 and sign == '*' and num2 == 16:
-    print("24*16 = 384")
-if num1 == 24 and sign == '*' and num2 == 17:
-    print("24*17 = 408")
-if num1 == 24 and sign == '*' and num2 == 18:
-    print("24*18 = 432")
-if num1 == 24 and sign == '*' and num2 == 19:
-    print("24*19 = 456")
-if num1 == 24 and sign == '*' and num2 == 20:
-    print("24*20 = 480")
-if num1 == 24 and sign == '*' and num2 == 21:
-    print("24*21 = 504")
-if num1 == 24 and sign == '*' and num2 == 22:
-    print("24*22 = 528")
-if num1 == 24 and sign == '*' and num2 == 23:
-    print("24*23 = 552")
-if num1 == 24 and sign == '*' and num2 == 24:
-    print("24*24 = 576")
-if num1 == 24 and sign == '*' and num2 == 25:
-    print("24*25 = 600")
-if num1 == 24 and sign == '*' and num2 == 26:
-    print("24*26 = 624")
-if num1 == 24 and sign == '*' and num2 == 27:
-    print("24*27 = 648")
-if num1 == 24 and sign == '*' and num2 == 28:
-    print("24*28 = 672")
-if num1 == 24 and sign == '*' and num2 == 29:
-    print("24*29 = 696")
-if num1 == 24 and sign == '*' and num2 == 30:
-    print("24*30 = 720")
-if num1 == 24 and sign == '*' and num2 == 31:
-    print("24*31 = 744")
-if num1 == 24 and sign == '*' and num2 == 32:
-    print("24*32 = 768")
-if num1 == 24 and sign == '*' and num2 == 33:
-    print("24*33 = 792")
-if num1 == 24 and sign == '*' and num2 == 34:
-    print("24*34 = 816")
-if num1 == 24 and sign == '*' and num2 == 35:
-    print("24*35 = 840")
-if num1 == 24 and sign == '*' and num2 == 36:
-    print("24*36 = 864")
-if num1 == 24 and sign == '*' and num2 == 37:
-    print("24*37 = 888")
-if num1 == 24 and sign == '*' and num2 == 38:
-    print("24*38 = 912")
-if num1 == 24 and sign == '*' and num2 == 39:
-    print("24*39 = 936")
-if num1 == 24 and sign == '*' and num2 == 40:
-    print("24*40 = 960")
-if num1 == 24 and sign == '*' and num2 == 41:
-    print("24*41 = 984")
-if num1 == 24 and sign == '*' and num2 == 42:
-    print("24*42 = 1008")
-if num1 == 24 and sign == '*' and num2 == 43:
-    print("24*43 = 1032")
-if num1 == 24 and sign == '*' and num2 == 44:
-    print("24*44 = 1056")
-if num1 == 24 and sign == '*' and num2 == 45:
-    print("24*45 = 1080")
-if num1 == 24 and sign == '*' and num2 == 46:
-    print("24*46 = 1104")
-if num1 == 24 and sign == '*' and num2 == 47:
-    print("24*47 = 1128")
-if num1 == 24 and sign == '*' and num2 == 48:
-    print("24*48 = 1152")
-if num1 == 24 and sign == '*' and num2 == 49:
-    print("24*49 = 1176")
-if num1 == 24 and sign == '*' and num2 == 50:
-    print("24*50 = 1200")
-if num1 == 25 and sign == '*' and num2 == 0:
-    print("25*0 = 0")
-if num1 == 25 and sign == '*' and num2 == 1:
-    print("25*1 = 25")
-if num1 == 25 and sign == '*' and num2 == 2:
-    print("25*2 = 50")
-if num1 == 25 and sign == '*' and num2 == 3:
-    print("25*3 = 75")
-if num1 == 25 and sign == '*' and num2 == 4:
-    print("25*4 = 100")
-if num1 == 25 and sign == '*' and num2 == 5:
-    print("25*5 = 125")
-if num1 == 25 and sign == '*' and num2 == 6:
-    print("25*6 = 150")
-if num1 == 25 and sign == '*' and num2 == 7:
-    print("25*7 = 175")
-if num1 == 25 and sign == '*' and num2 == 8:
-    print("25*8 = 200")
-if num1 == 25 and sign == '*' and num2 == 9:
-    print("25*9 = 225")
-if num1 == 25 and sign == '*' and num2 == 10:
-    print("25*10 = 250")
-if num1 == 25 and sign == '*' and num2 == 11:
-    print("25*11 = 275")
-if num1 == 25 and sign == '*' and num2 == 12:
-    print("25*12 = 300")
-if num1 == 25 and sign == '*' and num2 == 13:
-    print("25*13 = 325")
-if num1 == 25 and sign == '*' and num2 == 14:
-    print("25*14 = 350")
-if num1 == 25 and sign == '*' and num2 == 15:
-    print("25*15 = 375")
-if num1 == 25 and sign == '*' and num2 == 16:
-    print("25*16 = 400")
-if num1 == 25 and sign == '*' and num2 == 17:
-    print("25*17 = 425")
-if num1 == 25 and sign == '*' and num2 == 18:
-    print("25*18 = 450")
-if num1 == 25 and sign == '*' and num2 == 19:
-    print("25*19 = 475")
-if num1 == 25 and sign == '*' and num2 == 20:
-    print("25*20 = 500")
-if num1 == 25 and sign == '*' and num2 == 21:
-    print("25*21 = 525")
-if num1 == 25 and sign == '*' and num2 == 22:
-    print("25*22 = 550")
-if num1 == 25 and sign == '*' and num2 == 23:
-    print("25*23 = 575")
-if num1 == 25 and sign == '*' and num2 == 24:
-    print("25*24 = 600")
-if num1 == 25 and sign == '*' and num2 == 25:
-    print("25*25 = 625")
-if num1 == 25 and sign == '*' and num2 == 26:
-    print("25*26 = 650")
-if num1 == 25 and sign == '*' and num2 == 27:
-    print("25*27 = 675")
-if num1 == 25 and sign == '*' and num2 == 28:
-    print("25*28 = 700")
-if num1 == 25 and sign == '*' and num2 == 29:
-    print("25*29 = 725")
-if num1 == 25 and sign == '*' and num2 == 30:
-    print("25*30 = 750")
-if num1 == 25 and sign == '*' and num2 == 31:
-    print("25*31 = 775")
-if num1 == 25 and sign == '*' and num2 == 32:
-    print("25*32 = 800")
-if num1 == 25 and sign == '*' and num2 == 33:
-    print("25*33 = 825")
-if num1 == 25 and sign == '*' and num2 == 34:
-    print("25*34 = 850")
-if num1 == 25 and sign == '*' and num2 == 35:
-    print("25*35 = 875")
-if num1 == 25 and sign == '*' and num2 == 36:
-    print("25*36 = 900")
-if num1 == 25 and sign == '*' and num2 == 37:
-    print("25*37 = 925")
-if num1 == 25 and sign == '*' and num2 == 38:
-    print("25*38 = 950")
-if num1 == 25 and sign == '*' and num2 == 39:
-    print("25*39 = 975")
-if num1 == 25 and sign == '*' and num2 == 40:
-    print("25*40 = 1000")
-if num1 == 25 and sign == '*' and num2 == 41:
-    print("25*41 = 1025")
-if num1 == 25 and sign == '*' and num2 == 42:
-    print("25*42 = 1050")
-if num1 == 25 and sign == '*' and num2 == 43:
-    print("25*43 = 1075")
-if num1 == 25 and sign == '*' and num2 == 44:
-    print("25*44 = 1100")
-if num1 == 25 and sign == '*' and num2 == 45:
-    print("25*45 = 1125")
-if num1 == 25 and sign == '*' and num2 == 46:
-    print("25*46 = 1150")
-if num1 == 25 and sign == '*' and num2 == 47:
-    print("25*47 = 1175")
-if num1 == 25 and sign == '*' and num2 == 48:
-    print("25*48 = 1200")
-if num1 == 25 and sign == '*' and num2 == 49:
-    print("25*49 = 1225")
-if num1 == 25 and sign == '*' and num2 == 50:
-    print("25*50 = 1250")
-if num1 == 26 and sign == '*' and num2 == 0:
-    print("26*0 = 0")
-if num1 == 26 and sign == '*' and num2 == 1:
-    print("26*1 = 26")
-if num1 == 26 and sign == '*' and num2 == 2:
-    print("26*2 = 52")
-if num1 == 26 and sign == '*' and num2 == 3:
-    print("26*3 = 78")
-if num1 == 26 and sign == '*' and num2 == 4:
-    print("26*4 = 104")
-if num1 == 26 and sign == '*' and num2 == 5:
-    print("26*5 = 130")
-if num1 == 26 and sign == '*' and num2 == 6:
-    print("26*6 = 156")
-if num1 == 26 and sign == '*' and num2 == 7:
-    print("26*7 = 182")
-if num1 == 26 and sign == '*' and num2 == 8:
-    print("26*8 = 208")
-if num1 == 26 and sign == '*' and num2 == 9:
-    print("26*9 = 234")
-if num1 == 26 and sign == '*' and num2 == 10:
-    print("26*10 = 260")
-if num1 == 26 and sign == '*' and num2 == 11:
-    print("26*11 = 286")
-if num1 == 26 and sign == '*' and num2 == 12:
-    print("26*12 = 312")
-if num1 == 26 and sign == '*' and num2 == 13:
-    print("26*13 = 338")
-if num1 == 26 and sign == '*' and num2 == 14:
-    print("26*14 = 364")
-if num1 == 26 and sign == '*' and num2 == 15:
-    print("26*15 = 390")
-if num1 == 26 and sign == '*' and num2 == 16:
-    print("26*16 = 416")
-if num1 == 26 and sign == '*' and num2 == 17:
-    print("26*17 = 442")
-if num1 == 26 and sign == '*' and num2 == 18:
-    print("26*18 = 468")
-if num1 == 26 and sign == '*' and num2 == 19:
-    print("26*19 = 494")
-if num1 == 26 and sign == '*' and num2 == 20:
-    print("26*20 = 520")
-if num1 == 26 and sign == '*' and num2 == 21:
-    print("26*21 = 546")
-if num1 == 26 and sign == '*' and num2 == 22:
-    print("26*22 = 572")
-if num1 == 26 and sign == '*' and num2 == 23:
-    print("26*23 = 598")
-if num1 == 26 and sign == '*' and num2 == 24:
-    print("26*24 = 624")
-if num1 == 26 and sign == '*' and num2 == 25:
-    print("26*25 = 650")
-if num1 == 26 and sign == '*' and num2 == 26:
-    print("26*26 = 676")
-if num1 == 26 and sign == '*' and num2 == 27:
-    print("26*27 = 702")
-if num1 == 26 and sign == '*' and num2 == 28:
-    print("26*28 = 728")
-if num1 == 26 and sign == '*' and num2 == 29:
-    print("26*29 = 754")
-if num1 == 26 and sign == '*' and num2 == 30:
-    print("26*30 = 780")
-if num1 == 26 and sign == '*' and num2 == 31:
-    print("26*31 = 806")
-if num1 == 26 and sign == '*' and num2 == 32:
-    print("26*32 = 832")
-if num1 == 26 and sign == '*' and num2 == 33:
-    print("26*33 = 858")
-if num1 == 26 and sign == '*' and num2 == 34:
-    print("26*34 = 884")
-if num1 == 26 and sign == '*' and num2 == 35:
-    print("26*35 = 910")
-if num1 == 26 and sign == '*' and num2 == 36:
-    print("26*36 = 936")
-if num1 == 26 and sign == '*' and num2 == 37:
-    print("26*37 = 962")
-if num1 == 26 and sign == '*' and num2 == 38:
-    print("26*38 = 988")
-if num1 == 26 and sign == '*' and num2 == 39:
-    print("26*39 = 1014")
-if num1 == 26 and sign == '*' and num2 == 40:
-    print("26*40 = 1040")
-if num1 == 26 and sign == '*' and num2 == 41:
-    print("26*41 = 1066")
-if num1 == 26 and sign == '*' and num2 == 42:
-    print("26*42 = 1092")
-if num1 == 26 and sign == '*' and num2 == 43:
-    print("26*43 = 1118")
-if num1 == 26 and sign == '*' and num2 == 44:
-    print("26*44 = 1144")
-if num1 == 26 and sign == '*' and num2 == 45:
-    print("26*45 = 1170")
-if num1 == 26 and sign == '*' and num2 == 46:
-    print("26*46 = 1196")
-if num1 == 26 and sign == '*' and num2 == 47:
-    print("26*47 = 1222")
-if num1 == 26 and sign == '*' and num2 == 48:
-    print("26*48 = 1248")
-if num1 == 26 and sign == '*' and num2 == 49:
-    print("26*49 = 1274")
-if num1 == 26 and sign == '*' and num2 == 50:
-    print("26*50 = 1300")
-if num1 == 27 and sign == '*' and num2 == 0:
-    print("27*0 = 0")
-if num1 == 27 and sign == '*' and num2 == 1:
-    print("27*1 = 27")
-if num1 == 27 and sign == '*' and num2 == 2:
-    print("27*2 = 54")
-if num1 == 27 and sign == '*' and num2 == 3:
-    print("27*3 = 81")
-if num1 == 27 and sign == '*' and num2 == 4:
-    print("27*4 = 108")
-if num1 == 27 and sign == '*' and num2 == 5:
-    print("27*5 = 135")
-if num1 == 27 and sign == '*' and num2 == 6:
-    print("27*6 = 162")
-if num1 == 27 and sign == '*' and num2 == 7:
-    print("27*7 = 189")
-if num1 == 27 and sign == '*' and num2 == 8:
-    print("27*8 = 216")
-if num1 == 27 and sign == '*' and num2 == 9:
-    print("27*9 = 243")
-if num1 == 27 and sign == '*' and num2 == 10:
-    print("27*10 = 270")
-if num1 == 27 and sign == '*' and num2 == 11:
-    print("27*11 = 297")
-if num1 == 27 and sign == '*' and num2 == 12:
-    print("27*12 = 324")
-if num1 == 27 and sign == '*' and num2 == 13:
-    print("27*13 = 351")
-if num1 == 27 and sign == '*' and num2 == 14:
-    print("27*14 = 378")
-if num1 == 27 and sign == '*' and num2 == 15:
-    print("27*15 = 405")
-if num1 == 27 and sign == '*' and num2 == 16:
-    print("27*16 = 432")
-if num1 == 27 and sign == '*' and num2 == 17:
-    print("27*17 = 459")
-if num1 == 27 and sign == '*' and num2 == 18:
-    print("27*18 = 486")
-if num1 == 27 and sign == '*' and num2 == 19:
-    print("27*19 = 513")
-if num1 == 27 and sign == '*' and num2 == 20:
-    print("27*20 = 540")
-if num1 == 27 and sign == '*' and num2 == 21:
-    print("27*21 = 567")
-if num1 == 27 and sign == '*' and num2 == 22:
-    print("27*22 = 594")
-if num1 == 27 and sign == '*' and num2 == 23:
-    print("27*23 = 621")
-if num1 == 27 and sign == '*' and num2 == 24:
-    print("27*24 = 648")
-if num1 == 27 and sign == '*' and num2 == 25:
-    print("27*25 = 675")
-if num1 == 27 and sign == '*' and num2 == 26:
-    print("27*26 = 702")
-if num1 == 27 and sign == '*' and num2 == 27:
-    print("27*27 = 729")
-if num1 == 27 and sign == '*' and num2 == 28:
-    print("27*28 = 756")
-if num1 == 27 and sign == '*' and num2 == 29:
-    print("27*29 = 783")
-if num1 == 27 and sign == '*' and num2 == 30:
-    print("27*30 = 810")
-if num1 == 27 and sign == '*' and num2 == 31:
-    print("27*31 = 837")
-if num1 == 27 and sign == '*' and num2 == 32:
-    print("27*32 = 864")
-if num1 == 27 and sign == '*' and num2 == 33:
-    print("27*33 = 891")
-if num1 == 27 and sign == '*' and num2 == 34:
-    print("27*34 = 918")
-if num1 == 27 and sign == '*' and num2 == 35:
-    print("27*35 = 945")
-if num1 == 27 and sign == '*' and num2 == 36:
-    print("27*36 = 972")
-if num1 == 27 and sign == '*' and num2 == 37:
-    print("27*37 = 999")
-if num1 == 27 and sign == '*' and num2 == 38:
-    print("27*38 = 1026")
-if num1 == 27 and sign == '*' and num2 == 39:
-    print("27*39 = 1053")
-if num1 == 27 and sign == '*' and num2 == 40:
-    print("27*40 = 1080")
-if num1 == 27 and sign == '*' and num2 == 41:
-    print("27*41 = 1107")
-if num1 == 27 and sign == '*' and num2 == 42:
-    print("27*42 = 1134")
-if num1 == 27 and sign == '*' and num2 == 43:
-    print("27*43 = 1161")
-if num1 == 27 and sign == '*' and num2 == 44:
-    print("27*44 = 1188")
-if num1 == 27 and sign == '*' and num2 == 45:
-    print("27*45 = 1215")
-if num1 == 27 and sign == '*' and num2 == 46:
-    print("27*46 = 1242")
-if num1 == 27 and sign == '*' and num2 == 47:
-    print("27*47 = 1269")
-if num1 == 27 and sign == '*' and num2 == 48:
-    print("27*48 = 1296")
-if num1 == 27 and sign == '*' and num2 == 49:
-    print("27*49 = 1323")
-if num1 == 27 and sign == '*' and num2 == 50:
-    print("27*50 = 1350")
-if num1 == 28 and sign == '*' and num2 == 0:
-    print("28*0 = 0")
-if num1 == 28 and sign == '*' and num2 == 1:
-    print("28*1 = 28")
-if num1 == 28 and sign == '*' and num2 == 2:
-    print("28*2 = 56")
-if num1 == 28 and sign == '*' and num2 == 3:
-    print("28*3 = 84")
-if num1 == 28 and sign == '*' and num2 == 4:
-    print("28*4 = 112")
-if num1 == 28 and sign == '*' and num2 == 5:
-    print("28*5 = 140")
-if num1 == 28 and sign == '*' and num2 == 6:
-    print("28*6 = 168")
-if num1 == 28 and sign == '*' and num2 == 7:
-    print("28*7 = 196")
-if num1 == 28 and sign == '*' and num2 == 8:
-    print("28*8 = 224")
-if num1 == 28 and sign == '*' and num2 == 9:
-    print("28*9 = 252")
-if num1 == 28 and sign == '*' and num2 == 10:
-    print("28*10 = 280")
-if num1 == 28 and sign == '*' and num2 == 11:
-    print("28*11 = 308")
-if num1 == 28 and sign == '*' and num2 == 12:
-    print("28*12 = 336")
-if num1 == 28 and sign == '*' and num2 == 13:
-    print("28*13 = 364")
-if num1 == 28 and sign == '*' and num2 == 14:
-    print("28*14 = 392")
-if num1 == 28 and sign == '*' and num2 == 15:
-    print("28*15 = 420")
-if num1 == 28 and sign == '*' and num2 == 16:
-    print("28*16 = 448")
-if num1 == 28 and sign == '*' and num2 == 17:
-    print("28*17 = 476")
-if num1 == 28 and sign == '*' and num2 == 18:
-    print("28*18 = 504")
-if num1 == 28 and sign == '*' and num2 == 19:
-    print("28*19 = 532")
-if num1 == 28 and sign == '*' and num2 == 20:
-    print("28*20 = 560")
-if num1 == 28 and sign == '*' and num2 == 21:
-    print("28*21 = 588")
-if num1 == 28 and sign == '*' and num2 == 22:
-    print("28*22 = 616")
-if num1 == 28 and sign == '*' and num2 == 23:
-    print("28*23 = 644")
-if num1 == 28 and sign == '*' and num2 == 24:
-    print("28*24 = 672")
-if num1 == 28 and sign == '*' and num2 == 25:
-    print("28*25 = 700")
-if num1 == 28 and sign == '*' and num2 == 26:
-    print("28*26 = 728")
-if num1 == 28 and sign == '*' and num2 == 27:
-    print("28*27 = 756")
-if num1 == 28 and sign == '*' and num2 == 28:
-    print("28*28 = 784")
-if num1 == 28 and sign == '*' and num2 == 29:
-    print("28*29 = 812")
-if num1 == 28 and sign == '*' and num2 == 30:
-    print("28*30 = 840")
-if num1 == 28 and sign == '*' and num2 == 31:
-    print("28*31 = 868")
-if num1 == 28 and sign == '*' and num2 == 32:
-    print("28*32 = 896")
-if num1 == 28 and sign == '*' and num2 == 33:
-    print("28*33 = 924")
-if num1 == 28 and sign == '*' and num2 == 34:
-    print("28*34 = 952")
-if num1 == 28 and sign == '*' and num2 == 35:
-    print("28*35 = 980")
-if num1 == 28 and sign == '*' and num2 == 36:
-    print("28*36 = 1008")
-if num1 == 28 and sign == '*' and num2 == 37:
-    print("28*37 = 1036")
-if num1 == 28 and sign == '*' and num2 == 38:
-    print("28*38 = 1064")
-if num1 == 28 and sign == '*' and num2 == 39:
-    print("28*39 = 1092")
-if num1 == 28 and sign == '*' and num2 == 40:
-    print("28*40 = 1120")
-if num1 == 28 and sign == '*' and num2 == 41:
-    print("28*41 = 1148")
-if num1 == 28 and sign == '*' and num2 == 42:
-    print("28*42 = 1176")
-if num1 == 28 and sign == '*' and num2 == 43:
-    print("28*43 = 1204")
-if num1 == 28 and sign == '*' and num2 == 44:
-    print("28*44 = 1232")
-if num1 == 28 and sign == '*' and num2 == 45:
-    print("28*45 = 1260")
-if num1 == 28 and sign == '*' and num2 == 46:
-    print("28*46 = 1288")
-if num1 == 28 and sign == '*' and num2 == 47:
-    print("28*47 = 1316")
-if num1 == 28 and sign == '*' and num2 == 48:
-    print("28*48 = 1344")
-if num1 == 28 and sign == '*' and num2 == 49:
-    print("28*49 = 1372")
-if num1 == 28 and sign == '*' and num2 == 50:
-    print("28*50 = 1400")
-if num1 == 29 and sign == '*' and num2 == 0:
-    print("29*0 = 0")
-if num1 == 29 and sign == '*' and num2 == 1:
-    print("29*1 = 29")
-if num1 == 29 and sign == '*' and num2 == 2:
-    print("29*2 = 58")
-if num1 == 29 and sign == '*' and num2 == 3:
-    print("29*3 = 87")
-if num1 == 29 and sign == '*' and num2 == 4:
-    print("29*4 = 116")
-if num1 == 29 and sign == '*' and num2 == 5:
-    print("29*5 = 145")
-if num1 == 29 and sign == '*' and num2 == 6:
-    print("29*6 = 174")
-if num1 == 29 and sign == '*' and num2 == 7:
-    print("29*7 = 203")
-if num1 == 29 and sign == '*' and num2 == 8:
-    print("29*8 = 232")
-if num1 == 29 and sign == '*' and num2 == 9:
-    print("29*9 = 261")
-if num1 == 29 and sign == '*' and num2 == 10:
-    print("29*10 = 290")
-if num1 == 29 and sign == '*' and num2 == 11:
-    print("29*11 = 319")
-if num1 == 29 and sign == '*' and num2 == 12:
-    print("29*12 = 348")
-if num1 == 29 and sign == '*' and num2 == 13:
-    print("29*13 = 377")
-if num1 == 29 and sign == '*' and num2 == 14:
-    print("29*14 = 406")
-if num1 == 29 and sign == '*' and num2 == 15:
-    print("29*15 = 435")
-if num1 == 29 and sign == '*' and num2 == 16:
-    print("29*16 = 464")
-if num1 == 29 and sign == '*' and num2 == 17:
-    print("29*17 = 493")
-if num1 == 29 and sign == '*' and num2 == 18:
-    print("29*18 = 522")
-if num1 == 29 and sign == '*' and num2 == 19:
-    print("29*19 = 551")
-if num1 == 29 and sign == '*' and num2 == 20:
-    print("29*20 = 580")
-if num1 == 29 and sign == '*' and num2 == 21:
-    print("29*21 = 609")
-if num1 == 29 and sign == '*' and num2 == 22:
-    print("29*22 = 638")
-if num1 == 29 and sign == '*' and num2 == 23:
-    print("29*23 = 667")
-if num1 == 29 and sign == '*' and num2 == 24:
-    print("29*24 = 696")
-if num1 == 29 and sign == '*' and num2 == 25:
-    print("29*25 = 725")
-if num1 == 29 and sign == '*' and num2 == 26:
-    print("29*26 = 754")
-if num1 == 29 and sign == '*' and num2 == 27:
-    print("29*27 = 783")
-if num1 == 29 and sign == '*' and num2 == 28:
-    print("29*28 = 812")
-if num1 == 29 and sign == '*' and num2 == 29:
-    print("29*29 = 841")
-if num1 == 29 and sign == '*' and num2 == 30:
-    print("29*30 = 870")
-if num1 == 29 and sign == '*' and num2 == 31:
-    print("29*31 = 899")
-if num1 == 29 and sign == '*' and num2 == 32:
-    print("29*32 = 928")
-if num1 == 29 and sign == '*' and num2 == 33:
-    print("29*33 = 957")
-if num1 == 29 and sign == '*' and num2 == 34:
-    print("29*34 = 986")
-if num1 == 29 and sign == '*' and num2 == 35:
-    print("29*35 = 1015")
-if num1 == 29 and sign == '*' and num2 == 36:
-    print("29*36 = 1044")
-if num1 == 29 and sign == '*' and num2 == 37:
-    print("29*37 = 1073")
-if num1 == 29 and sign == '*' and num2 == 38:
-    print("29*38 = 1102")
-if num1 == 29 and sign == '*' and num2 == 39:
-    print("29*39 = 1131")
-if num1 == 29 and sign == '*' and num2 == 40:
-    print("29*40 = 1160")
-if num1 == 29 and sign == '*' and num2 == 41:
-    print("29*41 = 1189")
-if num1 == 29 and sign == '*' and num2 == 42:
-    print("29*42 = 1218")
-if num1 == 29 and sign == '*' and num2 == 43:
-    print("29*43 = 1247")
-if num1 == 29 and sign == '*' and num2 == 44:
-    print("29*44 = 1276")
-if num1 == 29 and sign == '*' and num2 == 45:
-    print("29*45 = 1305")
-if num1 == 29 and sign == '*' and num2 == 46:
-    print("29*46 = 1334")
-if num1 == 29 and sign == '*' and num2 == 47:
-    print("29*47 = 1363")
-if num1 == 29 and sign == '*' and num2 == 48:
-    print("29*48 = 1392")
-if num1 == 29 and sign == '*' and num2 == 49:
-    print("29*49 = 1421")
-if num1 == 29 and sign == '*' and num2 == 50:
-    print("29*50 = 1450")
-if num1 == 30 and sign == '*' and num2 == 0:
-    print("30*0 = 0")
-if num1 == 30 and sign == '*' and num2 == 1:
-    print("30*1 = 30")
-if num1 == 30 and sign == '*' and num2 == 2:
-    print("30*2 = 60")
-if num1 == 30 and sign == '*' and num2 == 3:
-    print("30*3 = 90")
-if num1 == 30 and sign == '*' and num2 == 4:
-    print("30*4 = 120")
-if num1 == 30 and sign == '*' and num2 == 5:
-    print("30*5 = 150")
-if num1 == 30 and sign == '*' and num2 == 6:
-    print("30*6 = 180")
-if num1 == 30 and sign == '*' and num2 == 7:
-    print("30*7 = 210")
-if num1 == 30 and sign == '*' and num2 == 8:
-    print("30*8 = 240")
-if num1 == 30 and sign == '*' and num2 == 9:
-    print("30*9 = 270")
-if num1 == 30 and sign == '*' and num2 == 10:
-    print("30*10 = 300")
-if num1 == 30 and sign == '*' and num2 == 11:
-    print("30*11 = 330")
-if num1 == 30 and sign == '*' and num2 == 12:
-    print("30*12 = 360")
-if num1 == 30 and sign == '*' and num2 == 13:
-    print("30*13 = 390")
-if num1 == 30 and sign == '*' and num2 == 14:
-    print("30*14 = 420")
-if num1 == 30 and sign == '*' and num2 == 15:
-    print("30*15 = 450")
-if num1 == 30 and sign == '*' and num2 == 16:
-    print("30*16 = 480")
-if num1 == 30 and sign == '*' and num2 == 17:
-    print("30*17 = 510")
-if num1 == 30 and sign == '*' and num2 == 18:
-    print("30*18 = 540")
-if num1 == 30 and sign == '*' and num2 == 19:
-    print("30*19 = 570")
-if num1 == 30 and sign == '*' and num2 == 20:
-    print("30*20 = 600")
-if num1 == 30 and sign == '*' and num2 == 21:
-    print("30*21 = 630")
-if num1 == 30 and sign == '*' and num2 == 22:
-    print("30*22 = 660")
-if num1 == 30 and sign == '*' and num2 == 23:
-    print("30*23 = 690")
-if num1 == 30 and sign == '*' and num2 == 24:
-    print("30*24 = 720")
-if num1 == 30 and sign == '*' and num2 == 25:
-    print("30*25 = 750")
-if num1 == 30 and sign == '*' and num2 == 26:
-    print("30*26 = 780")
-if num1 == 30 and sign == '*' and num2 == 27:
-    print("30*27 = 810")
-if num1 == 30 and sign == '*' and num2 == 28:
-    print("30*28 = 840")
-if num1 == 30 and sign == '*' and num2 == 29:
-    print("30*29 = 870")
-if num1 == 30 and sign == '*' and num2 == 30:
-    print("30*30 = 900")
-if num1 == 30 and sign == '*' and num2 == 31:
-    print("30*31 = 930")
-if num1 == 30 and sign == '*' and num2 == 32:
-    print("30*32 = 960")
-if num1 == 30 and sign == '*' and num2 == 33:
-    print("30*33 = 990")
-if num1 == 30 and sign == '*' and num2 == 34:
-    print("30*34 = 1020")
-if num1 == 30 and sign == '*' and num2 == 35:
-    print("30*35 = 1050")
-if num1 == 30 and sign == '*' and num2 == 36:
-    print("30*36 = 1080")
-if num1 == 30 and sign == '*' and num2 == 37:
-    print("30*37 = 1110")
-if num1 == 30 and sign == '*' and num2 == 38:
-    print("30*38 = 1140")
-if num1 == 30 and sign == '*' and num2 == 39:
-    print("30*39 = 1170")
-if num1 == 30 and sign == '*' and num2 == 40:
-    print("30*40 = 1200")
-if num1 == 30 and sign == '*' and num2 == 41:
-    print("30*41 = 1230")
-if num1 == 30 and sign == '*' and num2 == 42:
-    print("30*42 = 1260")
-if num1 == 30 and sign == '*' and num2 == 43:
-    print("30*43 = 1290")
-if num1 == 30 and sign == '*' and num2 == 44:
-    print("30*44 = 1320")
-if num1 == 30 and sign == '*' and num2 == 45:
-    print("30*45 = 1350")
-if num1 == 30 and sign == '*' and num2 == 46:
-    print("30*46 = 1380")
-if num1 == 30 and sign == '*' and num2 == 47:
-    print("30*47 = 1410")
-if num1 == 30 and sign == '*' and num2 == 48:
-    print("30*48 = 1440")
-if num1 == 30 and sign == '*' and num2 == 49:
-    print("30*49 = 1470")
-if num1 == 30 and sign == '*' and num2 == 50:
-    print("30*50 = 1500")
-if num1 == 31 and sign == '*' and num2 == 0:
-    print("31*0 = 0")
-if num1 == 31 and sign == '*' and num2 == 1:
-    print("31*1 = 31")
-if num1 == 31 and sign == '*' and num2 == 2:
-    print("31*2 = 62")
-if num1 == 31 and sign == '*' and num2 == 3:
-    print("31*3 = 93")
-if num1 == 31 and sign == '*' and num2 == 4:
-    print("31*4 = 124")
-if num1 == 31 and sign == '*' and num2 == 5:
-    print("31*5 = 155")
-if num1 == 31 and sign == '*' and num2 == 6:
-    print("31*6 = 186")
-if num1 == 31 and sign == '*' and num2 == 7:
-    print("31*7 = 217")
-if num1 == 31 and sign == '*' and num2 == 8:
-    print("31*8 = 248")
-if num1 == 31 and sign == '*' and num2 == 9:
-    print("31*9 = 279")
-if num1 == 31 and sign == '*' and num2 == 10:
-    print("31*10 = 310")
-if num1 == 31 and sign == '*' and num2 == 11:
-    print("31*11 = 341")
-if num1 == 31 and sign == '*' and num2 == 12:
-    print("31*12 = 372")
-if num1 == 31 and sign == '*' and num2 == 13:
-    print("31*13 = 403")
-if num1 == 31 and sign == '*' and num2 == 14:
-    print("31*14 = 434")
-if num1 == 31 and sign == '*' and num2 == 15:
-    print("31*15 = 465")
-if num1 == 31 and sign == '*' and num2 == 16:
-    print("31*16 = 496")
-if num1 == 31 and sign == '*' and num2 == 17:
-    print("31*17 = 527")
-if num1 == 31 and sign == '*' and num2 == 18:
-    print("31*18 = 558")
-if num1 == 31 and sign == '*' and num2 == 19:
-    print("31*19 = 589")
-if num1 == 31 and sign == '*' and num2 == 20:
-    print("31*20 = 620")
-if num1 == 31 and sign == '*' and num2 == 21:
-    print("31*21 = 651")
-if num1 == 31 and sign == '*' and num2 == 22:
-    print("31*22 = 682")
-if num1 == 31 and sign == '*' and num2 == 23:
-    print("31*23 = 713")
-if num1 == 31 and sign == '*' and num2 == 24:
-    print("31*24 = 744")
-if num1 == 31 and sign == '*' and num2 == 25:
-    print("31*25 = 775")
-if num1 == 31 and sign == '*' and num2 == 26:
-    print("31*26 = 806")
-if num1 == 31 and sign == '*' and num2 == 27:
-    print("31*27 = 837")
-if num1 == 31 and sign == '*' and num2 == 28:
-    print("31*28 = 868")
-if num1 == 31 and sign == '*' and num2 == 29:
-    print("31*29 = 899")
-if num1 == 31 and sign == '*' and num2 == 30:
-    print("31*30 = 930")
-if num1 == 31 and sign == '*' and num2 == 31:
-    print("31*31 = 961")
-if num1 == 31 and sign == '*' and num2 == 32:
-    print("31*32 = 992")
-if num1 == 31 and sign == '*' and num2 == 33:
-    print("31*33 = 1023")
-if num1 == 31 and sign == '*' and num2 == 34:
-    print("31*34 = 1054")
-if num1 == 31 and sign == '*' and num2 == 35:
-    print("31*35 = 1085")
-if num1 == 31 and sign == '*' and num2 == 36:
-    print("31*36 = 1116")
-if num1 == 31 and sign == '*' and num2 == 37:
-    print("31*37 = 1147")
-if num1 == 31 and sign == '*' and num2 == 38:
-    print("31*38 = 1178")
-if num1 == 31 and sign == '*' and num2 == 39:
-    print("31*39 = 1209")
-if num1 == 31 and sign == '*' and num2 == 40:
-    print("31*40 = 1240")
-if num1 == 31 and sign == '*' and num2 == 41:
-    print("31*41 = 1271")
-if num1 == 31 and sign == '*' and num2 == 42:
-    print("31*42 = 1302")
-if num1 == 31 and sign == '*' and num2 == 43:
-    print("31*43 = 1333")
-if num1 == 31 and sign == '*' and num2 == 44:
-    print("31*44 = 1364")
-if num1 == 31 and sign == '*' and num2 == 45:
-    print("31*45 = 1395")
-if num1 == 31 and sign == '*' and num2 == 46:
-    print("31*46 = 1426")
-if num1 == 31 and sign == '*' and num2 == 47:
-    print("31*47 = 1457")
-if num1 == 31 and sign == '*' and num2 == 48:
-    print("31*48 = 1488")
-if num1 == 31 and sign == '*' and num2 == 49:
-    print("31*49 = 1519")
-if num1 == 31 and sign == '*' and num2 == 50:
-    print("31*50 = 1550")
-if num1 == 32 and sign == '*' and num2 == 0:
-    print("32*0 = 0")
-if num1 == 32 and sign == '*' and num2 == 1:
-    print("32*1 = 32")
-if num1 == 32 and sign == '*' and num2 == 2:
-    print("32*2 = 64")
-if num1 == 32 and sign == '*' and num2 == 3:
-    print("32*3 = 96")
-if num1 == 32 and sign == '*' and num2 == 4:
-    print("32*4 = 128")
-if num1 == 32 and sign == '*' and num2 == 5:
-    print("32*5 = 160")
-if num1 == 32 and sign == '*' and num2 == 6:
-    print("32*6 = 192")
-if num1 == 32 and sign == '*' and num2 == 7:
-    print("32*7 = 224")
-if num1 == 32 and sign == '*' and num2 == 8:
-    print("32*8 = 256")
-if num1 == 32 and sign == '*' and num2 == 9:
-    print("32*9 = 288")
-if num1 == 32 and sign == '*' and num2 == 10:
-    print("32*10 = 320")
-if num1 == 32 and sign == '*' and num2 == 11:
-    print("32*11 = 352")
-if num1 == 32 and sign == '*' and num2 == 12:
-    print("32*12 = 384")
-if num1 == 32 and sign == '*' and num2 == 13:
-    print("32*13 = 416")
-if num1 == 32 and sign == '*' and num2 == 14:
-    print("32*14 = 448")
-if num1 == 32 and sign == '*' and num2 == 15:
-    print("32*15 = 480")
-if num1 == 32 and sign == '*' and num2 == 16:
-    print("32*16 = 512")
-if num1 == 32 and sign == '*' and num2 == 17:
-    print("32*17 = 544")
-if num1 == 32 and sign == '*' and num2 == 18:
-    print("32*18 = 576")
-if num1 == 32 and sign == '*' and num2 == 19:
-    print("32*19 = 608")
-if num1 == 32 and sign == '*' and num2 == 20:
-    print("32*20 = 640")
-if num1 == 32 and sign == '*' and num2 == 21:
-    print("32*21 = 672")
-if num1 == 32 and sign == '*' and num2 == 22:
-    print("32*22 = 704")
-if num1 == 32 and sign == '*' and num2 == 23:
-    print("32*23 = 736")
-if num1 == 32 and sign == '*' and num2 == 24:
-    print("32*24 = 768")
-if num1 == 32 and sign == '*' and num2 == 25:
-    print("32*25 = 800")
-if num1 == 32 and sign == '*' and num2 == 26:
-    print("32*26 = 832")
-if num1 == 32 and sign == '*' and num2 == 27:
-    print("32*27 = 864")
-if num1 == 32 and sign == '*' and num2 == 28:
-    print("32*28 = 896")
-if num1 == 32 and sign == '*' and num2 == 29:
-    print("32*29 = 928")
-if num1 == 32 and sign == '*' and num2 == 30:
-    print("32*30 = 960")
-if num1 == 32 and sign == '*' and num2 == 31:
-    print("32*31 = 992")
-if num1 == 32 and sign == '*' and num2 == 32:
-    print("32*32 = 1024")
-if num1 == 32 and sign == '*' and num2 == 33:
-    print("32*33 = 1056")
-if num1 == 32 and sign == '*' and num2 == 34:
-    print("32*34 = 1088")
-if num1 == 32 and sign == '*' and num2 == 35:
-    print("32*35 = 1120")
-if num1 == 32 and sign == '*' and num2 == 36:
-    print("32*36 = 1152")
-if num1 == 32 and sign == '*' and num2 == 37:
-    print("32*37 = 1184")
-if num1 == 32 and sign == '*' and num2 == 38:
-    print("32*38 = 1216")
-if num1 == 32 and sign == '*' and num2 == 39:
-    print("32*39 = 1248")
-if num1 == 32 and sign == '*' and num2 == 40:
-    print("32*40 = 1280")
-if num1 == 32 and sign == '*' and num2 == 41:
-    print("32*41 = 1312")
-if num1 == 32 and sign == '*' and num2 == 42:
-    print("32*42 = 1344")
-if num1 == 32 and sign == '*' and num2 == 43:
-    print("32*43 = 1376")
-if num1 == 32 and sign == '*' and num2 == 44:
-    print("32*44 = 1408")
-if num1 == 32 and sign == '*' and num2 == 45:
-    print("32*45 = 1440")
-if num1 == 32 and sign == '*' and num2 == 46:
-    print("32*46 = 1472")
-if num1 == 32 and sign == '*' and num2 == 47:
-    print("32*47 = 1504")
-if num1 == 32 and sign == '*' and num2 == 48:
-    print("32*48 = 1536")
-if num1 == 32 and sign == '*' and num2 == 49:
-    print("32*49 = 1568")
-if num1 == 32 and sign == '*' and num2 == 50:
-    print("32*50 = 1600")
-if num1 == 33 and sign == '*' and num2 == 0:
-    print("33*0 = 0")
-if num1 == 33 and sign == '*' and num2 == 1:
-    print("33*1 = 33")
-if num1 == 33 and sign == '*' and num2 == 2:
-    print("33*2 = 66")
-if num1 == 33 and sign == '*' and num2 == 3:
-    print("33*3 = 99")
-if num1 == 33 and sign == '*' and num2 == 4:
-    print("33*4 = 132")
-if num1 == 33 and sign == '*' and num2 == 5:
-    print("33*5 = 165")
-if num1 == 33 and sign == '*' and num2 == 6:
-    print("33*6 = 198")
-if num1 == 33 and sign == '*' and num2 == 7:
-    print("33*7 = 231")
-if num1 == 33 and sign == '*' and num2 == 8:
-    print("33*8 = 264")
-if num1 == 33 and sign == '*' and num2 == 9:
-    print("33*9 = 297")
-if num1 == 33 and sign == '*' and num2 == 10:
-    print("33*10 = 330")
-if num1 == 33 and sign == '*' and num2 == 11:
-    print("33*11 = 363")
-if num1 == 33 and sign == '*' and num2 == 12:
-    print("33*12 = 396")
-if num1 == 33 and sign == '*' and num2 == 13:
-    print("33*13 = 429")
-if num1 == 33 and sign == '*' and num2 == 14:
-    print("33*14 = 462")
-if num1 == 33 and sign == '*' and num2 == 15:
-    print("33*15 = 495")
-if num1 == 33 and sign == '*' and num2 == 16:
-    print("33*16 = 528")
-if num1 == 33 and sign == '*' and num2 == 17:
-    print("33*17 = 561")
-if num1 == 33 and sign == '*' and num2 == 18:
-    print("33*18 = 594")
-if num1 == 33 and sign == '*' and num2 == 19:
-    print("33*19 = 627")
-if num1 == 33 and sign == '*' and num2 == 20:
-    print("33*20 = 660")
-if num1 == 33 and sign == '*' and num2 == 21:
-    print("33*21 = 693")
-if num1 == 33 and sign == '*' and num2 == 22:
-    print("33*22 = 726")
-if num1 == 33 and sign == '*' and num2 == 23:
-    print("33*23 = 759")
-if num1 == 33 and sign == '*' and num2 == 24:
-    print("33*24 = 792")
-if num1 == 33 and sign == '*' and num2 == 25:
-    print("33*25 = 825")
-if num1 == 33 and sign == '*' and num2 == 26:
-    print("33*26 = 858")
-if num1 == 33 and sign == '*' and num2 == 27:
-    print("33*27 = 891")
-if num1 == 33 and sign == '*' and num2 == 28:
-    print("33*28 = 924")
-if num1 == 33 and sign == '*' and num2 == 29:
-    print("33*29 = 957")
-if num1 == 33 and sign == '*' and num2 == 30:
-    print("33*30 = 990")
-if num1 == 33 and sign == '*' and num2 == 31:
-    print("33*31 = 1023")
-if num1 == 33 and sign == '*' and num2 == 32:
-    print("33*32 = 1056")
-if num1 == 33 and sign == '*' and num2 == 33:
-    print("33*33 = 1089")
-if num1 == 33 and sign == '*' and num2 == 34:
-    print("33*34 = 1122")
-if num1 == 33 and sign == '*' and num2 == 35:
-    print("33*35 = 1155")
-if num1 == 33 and sign == '*' and num2 == 36:
-    print("33*36 = 1188")
-if num1 == 33 and sign == '*' and num2 == 37:
-    print("33*37 = 1221")
-if num1 == 33 and sign == '*' and num2 == 38:
-    print("33*38 = 1254")
-if num1 == 33 and sign == '*' and num2 == 39:
-    print("33*39 = 1287")
-if num1 == 33 and sign == '*' and num2 == 40:
-    print("33*40 = 1320")
-if num1 == 33 and sign == '*' and num2 == 41:
-    print("33*41 = 1353")
-if num1 == 33 and sign == '*' and num2 == 42:
-    print("33*42 = 1386")
-if num1 == 33 and sign == '*' and num2 == 43:
-    print("33*43 = 1419")
-if num1 == 33 and sign == '*' and num2 == 44:
-    print("33*44 = 1452")
-if num1 == 33 and sign == '*' and num2 == 45:
-    print("33*45 = 1485")
-if num1 == 33 and sign == '*' and num2 == 46:
-    print("33*46 = 1518")
-if num1 == 33 and sign == '*' and num2 == 47:
-    print("33*47 = 1551")
-if num1 == 33 and sign == '*' and num2 == 48:
-    print("33*48 = 1584")
-if num1 == 33 and sign == '*' and num2 == 49:
-    print("33*49 = 1617")
-if num1 == 33 and sign == '*' and num2 == 50:
-    print("33*50 = 1650")
-if num1 == 34 and sign == '*' and num2 == 0:
-    print("34*0 = 0")
-if num1 == 34 and sign == '*' and num2 == 1:
-    print("34*1 = 34")
-if num1 == 34 and sign == '*' and num2 == 2:
-    print("34*2 = 68")
-if num1 == 34 and sign == '*' and num2 == 3:
-    print("34*3 = 102")
-if num1 == 34 and sign == '*' and num2 == 4:
-    print("34*4 = 136")
-if num1 == 34 and sign == '*' and num2 == 5:
-    print("34*5 = 170")
-if num1 == 34 and sign == '*' and num2 == 6:
-    print("34*6 = 204")
-if num1 == 34 and sign == '*' and num2 == 7:
-    print("34*7 = 238")
-if num1 == 34 and sign == '*' and num2 == 8:
-    print("34*8 = 272")
-if num1 == 34 and sign == '*' and num2 == 9:
-    print("34*9 = 306")
-if num1 == 34 and sign == '*' and num2 == 10:
-    print("34*10 = 340")
-if num1 == 34 and sign == '*' and num2 == 11:
-    print("34*11 = 374")
-if num1 == 34 and sign == '*' and num2 == 12:
-    print("34*12 = 408")
-if num1 == 34 and sign == '*' and num2 == 13:
-    print("34*13 = 442")
-if num1 == 34 and sign == '*' and num2 == 14:
-    print("34*14 = 476")
-if num1 == 34 and sign == '*' and num2 == 15:
-    print("34*15 = 510")
-if num1 == 34 and sign == '*' and num2 == 16:
-    print("34*16 = 544")
-if num1 == 34 and sign == '*' and num2 == 17:
-    print("34*17 = 578")
-if num1 == 34 and sign == '*' and num2 == 18:
-    print("34*18 = 612")
-if num1 == 34 and sign == '*' and num2 == 19:
-    print("34*19 = 646")
-if num1 == 34 and sign == '*' and num2 == 20:
-    print("34*20 = 680")
-if num1 == 34 and sign == '*' and num2 == 21:
-    print("34*21 = 714")
-if num1 == 34 and sign == '*' and num2 == 22:
-    print("34*22 = 748")
-if num1 == 34 and sign == '*' and num2 == 23:
-    print("34*23 = 782")
-if num1 == 34 and sign == '*' and num2 == 24:
-    print("34*24 = 816")
-if num1 == 34 and sign == '*' and num2 == 25:
-    print("34*25 = 850")
-if num1 == 34 and sign == '*' and num2 == 26:
-    print("34*26 = 884")
-if num1 == 34 and sign == '*' and num2 == 27:
-    print("34*27 = 918")
-if num1 == 34 and sign == '*' and num2 == 28:
-    print("34*28 = 952")
-if num1 == 34 and sign == '*' and num2 == 29:
-    print("34*29 = 986")
-if num1 == 34 and sign == '*' and num2 == 30:
-    print("34*30 = 1020")
-if num1 == 34 and sign == '*' and num2 == 31:
-    print("34*31 = 1054")
-if num1 == 34 and sign == '*' and num2 == 32:
-    print("34*32 = 1088")
-if num1 == 34 and sign == '*' and num2 == 33:
-    print("34*33 = 1122")
-if num1 == 34 and sign == '*' and num2 == 34:
-    print("34*34 = 1156")
-if num1 == 34 and sign == '*' and num2 == 35:
-    print("34*35 = 1190")
-if num1 == 34 and sign == '*' and num2 == 36:
-    print("34*36 = 1224")
-if num1 == 34 and sign == '*' and num2 == 37:
-    print("34*37 = 1258")
-if num1 == 34 and sign == '*' and num2 == 38:
-    print("34*38 = 1292")
-if num1 == 34 and sign == '*' and num2 == 39:
-    print("34*39 = 1326")
-if num1 == 34 and sign == '*' and num2 == 40:
-    print("34*40 = 1360")
-if num1 == 34 and sign == '*' and num2 == 41:
-    print("34*41 = 1394")
-if num1 == 34 and sign == '*' and num2 == 42:
-    print("34*42 = 1428")
-if num1 == 34 and sign == '*' and num2 == 43:
-    print("34*43 = 1462")
-if num1 == 34 and sign == '*' and num2 == 44:
-    print("34*44 = 1496")
-if num1 == 34 and sign == '*' and num2 == 45:
-    print("34*45 = 1530")
-if num1 == 34 and sign == '*' and num2 == 46:
-    print("34*46 = 1564")
-if num1 == 34 and sign == '*' and num2 == 47:
-    print("34*47 = 1598")
-if num1 == 34 and sign == '*' and num2 == 48:
-    print("34*48 = 1632")
-if num1 == 34 and sign == '*' and num2 == 49:
-    print("34*49 = 1666")
-if num1 == 34 and sign == '*' and num2 == 50:
-    print("34*50 = 1700")
-if num1 == 35 and sign == '*' and num2 == 0:
-    print("35*0 = 0")
-if num1 == 35 and sign == '*' and num2 == 1:
-    print("35*1 = 35")
-if num1 == 35 and sign == '*' and num2 == 2:
-    print("35*2 = 70")
-if num1 == 35 and sign == '*' and num2 == 3:
-    print("35*3 = 105")
-if num1 == 35 and sign == '*' and num2 == 4:
-    print("35*4 = 140")
-if num1 == 35 and sign == '*' and num2 == 5:
-    print("35*5 = 175")
-if num1 == 35 and sign == '*' and num2 == 6:
-    print("35*6 = 210")
-if num1 == 35 and sign == '*' and num2 == 7:
-    print("35*7 = 245")
-if num1 == 35 and sign == '*' and num2 == 8:
-    print("35*8 = 280")
-if num1 == 35 and sign == '*' and num2 == 9:
-    print("35*9 = 315")
-if num1 == 35 and sign == '*' and num2 == 10:
-    print("35*10 = 350")
-if num1 == 35 and sign == '*' and num2 == 11:
-    print("35*11 = 385")
-if num1 == 35 and sign == '*' and num2 == 12:
-    print("35*12 = 420")
-if num1 == 35 and sign == '*' and num2 == 13:
-    print("35*13 = 455")
-if num1 == 35 and sign == '*' and num2 == 14:
-    print("35*14 = 490")
-if num1 == 35 and sign == '*' and num2 == 15:
-    print("35*15 = 525")
-if num1 == 35 and sign == '*' and num2 == 16:
-    print("35*16 = 560")
-if num1 == 35 and sign == '*' and num2 == 17:
-    print("35*17 = 595")
-if num1 == 35 and sign == '*' and num2 == 18:
-    print("35*18 = 630")
-if num1 == 35 and sign == '*' and num2 == 19:
-    print("35*19 = 665")
-if num1 == 35 and sign == '*' and num2 == 20:
-    print("35*20 = 700")
-if num1 == 35 and sign == '*' and num2 == 21:
-    print("35*21 = 735")
-if num1 == 35 and sign == '*' and num2 == 22:
-    print("35*22 = 770")
-if num1 == 35 and sign == '*' and num2 == 23:
-    print("35*23 = 805")
-if num1 == 35 and sign == '*' and num2 == 24:
-    print("35*24 = 840")
-if num1 == 35 and sign == '*' and num2 == 25:
-    print("35*25 = 875")
-if num1 == 35 and sign == '*' and num2 == 26:
-    print("35*26 = 910")
-if num1 == 35 and sign == '*' and num2 == 27:
-    print("35*27 = 945")
-if num1 == 35 and sign == '*' and num2 == 28:
-    print("35*28 = 980")
-if num1 == 35 and sign == '*' and num2 == 29:
-    print("35*29 = 1015")
-if num1 == 35 and sign == '*' and num2 == 30:
-    print("35*30 = 1050")
-if num1 == 35 and sign == '*' and num2 == 31:
-    print("35*31 = 1085")
-if num1 == 35 and sign == '*' and num2 == 32:
-    print("35*32 = 1120")
-if num1 == 35 and sign == '*' and num2 == 33:
-    print("35*33 = 1155")
-if num1 == 35 and sign == '*' and num2 == 34:
-    print("35*34 = 1190")
-if num1 == 35 and sign == '*' and num2 == 35:
-    print("35*35 = 1225")
-if num1 == 35 and sign == '*' and num2 == 36:
-    print("35*36 = 1260")
-if num1 == 35 and sign == '*' and num2 == 37:
-    print("35*37 = 1295")
-if num1 == 35 and sign == '*' and num2 == 38:
-    print("35*38 = 1330")
-if num1 == 35 and sign == '*' and num2 == 39:
-    print("35*39 = 1365")
-if num1 == 35 and sign == '*' and num2 == 40:
-    print("35*40 = 1400")
-if num1 == 35 and sign == '*' and num2 == 41:
-    print("35*41 = 1435")
-if num1 == 35 and sign == '*' and num2 == 42:
-    print("35*42 = 1470")
-if num1 == 35 and sign == '*' and num2 == 43:
-    print("35*43 = 1505")
-if num1 == 35 and sign == '*' and num2 == 44:
-    print("35*44 = 1540")
-if num1 == 35 and sign == '*' and num2 == 45:
-    print("35*45 = 1575")
-if num1 == 35 and sign == '*' and num2 == 46:
-    print("35*46 = 1610")
-if num1 == 35 and sign == '*' and num2 == 47:
-    print("35*47 = 1645")
-if num1 == 35 and sign == '*' and num2 == 48:
-    print("35*48 = 1680")
-if num1 == 35 and sign == '*' and num2 == 49:
-    print("35*49 = 1715")
-if num1 == 35 and sign == '*' and num2 == 50:
-    print("35*50 = 1750")
-if num1 == 36 and sign == '*' and num2 == 0:
-    print("36*0 = 0")
-if num1 == 36 and sign == '*' and num2 == 1:
-    print("36*1 = 36")
-if num1 == 36 and sign == '*' and num2 == 2:
-    print("36*2 = 72")
-if num1 == 36 and sign == '*' and num2 == 3:
-    print("36*3 = 108")
-if num1 == 36 and sign == '*' and num2 == 4:
-    print("36*4 = 144")
-if num1 == 36 and sign == '*' and num2 == 5:
-    print("36*5 = 180")
-if num1 == 36 and sign == '*' and num2 == 6:
-    print("36*6 = 216")
-if num1 == 36 and sign == '*' and num2 == 7:
-    print("36*7 = 252")
-if num1 == 36 and sign == '*' and num2 == 8:
-    print("36*8 = 288")
-if num1 == 36 and sign == '*' and num2 == 9:
-    print("36*9 = 324")
-if num1 == 36 and sign == '*' and num2 == 10:
-    print("36*10 = 360")
-if num1 == 36 and sign == '*' and num2 == 11:
-    print("36*11 = 396")
-if num1 == 36 and sign == '*' and num2 == 12:
-    print("36*12 = 432")
-if num1 == 36 and sign == '*' and num2 == 13:
-    print("36*13 = 468")
-if num1 == 36 and sign == '*' and num2 == 14:
-    print("36*14 = 504")
-if num1 == 36 and sign == '*' and num2 == 15:
-    print("36*15 = 540")
-if num1 == 36 and sign == '*' and num2 == 16:
-    print("36*16 = 576")
-if num1 == 36 and sign == '*' and num2 == 17:
-    print("36*17 = 612")
-if num1 == 36 and sign == '*' and num2 == 18:
-    print("36*18 = 648")
-if num1 == 36 and sign == '*' and num2 == 19:
-    print("36*19 = 684")
-if num1 == 36 and sign == '*' and num2 == 20:
-    print("36*20 = 720")
-if num1 == 36 and sign == '*' and num2 == 21:
-    print("36*21 = 756")
-if num1 == 36 and sign == '*' and num2 == 22:
-    print("36*22 = 792")
-if num1 == 36 and sign == '*' and num2 == 23:
-    print("36*23 = 828")
-if num1 == 36 and sign == '*' and num2 == 24:
-    print("36*24 = 864")
-if num1 == 36 and sign == '*' and num2 == 25:
-    print("36*25 = 900")
-if num1 == 36 and sign == '*' and num2 == 26:
-    print("36*26 = 936")
-if num1 == 36 and sign == '*' and num2 == 27:
-    print("36*27 = 972")
-if num1 == 36 and sign == '*' and num2 == 28:
-    print("36*28 = 1008")
-if num1 == 36 and sign == '*' and num2 == 29:
-    print("36*29 = 1044")
-if num1 == 36 and sign == '*' and num2 == 30:
-    print("36*30 = 1080")
-if num1 == 36 and sign == '*' and num2 == 31:
-    print("36*31 = 1116")
-if num1 == 36 and sign == '*' and num2 == 32:
-    print("36*32 = 1152")
-if num1 == 36 and sign == '*' and num2 == 33:
-    print("36*33 = 1188")
-if num1 == 36 and sign == '*' and num2 == 34:
-    print("36*34 = 1224")
-if num1 == 36 and sign == '*' and num2 == 35:
-    print("36*35 = 1260")
-if num1 == 36 and sign == '*' and num2 == 36:
-    print("36*36 = 1296")
-if num1 == 36 and sign == '*' and num2 == 37:
-    print("36*37 = 1332")
-if num1 == 36 and sign == '*' and num2 == 38:
-    print("36*38 = 1368")
-if num1 == 36 and sign == '*' and num2 == 39:
-    print("36*39 = 1404")
-if num1 == 36 and sign == '*' and num2 == 40:
-    print("36*40 = 1440")
-if num1 == 36 and sign == '*' and num2 == 41:
-    print("36*41 = 1476")
-if num1 == 36 and sign == '*' and num2 == 42:
-    print("36*42 = 1512")
-if num1 == 36 and sign == '*' and num2 == 43:
-    print("36*43 = 1548")
-if num1 == 36 and sign == '*' and num2 == 44:
-    print("36*44 = 1584")
-if num1 == 36 and sign == '*' and num2 == 45:
-    print("36*45 = 1620")
-if num1 == 36 and sign == '*' and num2 == 46:
-    print("36*46 = 1656")
-if num1 == 36 and sign == '*' and num2 == 47:
-    print("36*47 = 1692")
-if num1 == 36 and sign == '*' and num2 == 48:
-    print("36*48 = 1728")
-if num1 == 36 and sign == '*' and num2 == 49:
-    print("36*49 = 1764")
-if num1 == 36 and sign == '*' and num2 == 50:
-    print("36*50 = 1800")
-if num1 == 37 and sign == '*' and num2 == 0:
-    print("37*0 = 0")
-if num1 == 37 and sign == '*' and num2 == 1:
-    print("37*1 = 37")
-if num1 == 37 and sign == '*' and num2 == 2:
-    print("37*2 = 74")
-if num1 == 37 and sign == '*' and num2 == 3:
-    print("37*3 = 111")
-if num1 == 37 and sign == '*' and num2 == 4:
-    print("37*4 = 148")
-if num1 == 37 and sign == '*' and num2 == 5:
-    print("37*5 = 185")
-if num1 == 37 and sign == '*' and num2 == 6:
-    print("37*6 = 222")
-if num1 == 37 and sign == '*' and num2 == 7:
-    print("37*7 = 259")
-if num1 == 37 and sign == '*' and num2 == 8:
-    print("37*8 = 296")
-if num1 == 37 and sign == '*' and num2 == 9:
-    print("37*9 = 333")
-if num1 == 37 and sign == '*' and num2 == 10:
-    print("37*10 = 370")
-if num1 == 37 and sign == '*' and num2 == 11:
-    print("37*11 = 407")
-if num1 == 37 and sign == '*' and num2 == 12:
-    print("37*12 = 444")
-if num1 == 37 and sign == '*' and num2 == 13:
-    print("37*13 = 481")
-if num1 == 37 and sign == '*' and num2 == 14:
-    print("37*14 = 518")
-if num1 == 37 and sign == '*' and num2 == 15:
-    print("37*15 = 555")
-if num1 == 37 and sign == '*' and num2 == 16:
-    print("37*16 = 592")
-if num1 == 37 and sign == '*' and num2 == 17:
-    print("37*17 = 629")
-if num1 == 37 and sign == '*' and num2 == 18:
-    print("37*18 = 666")
-if num1 == 37 and sign == '*' and num2 == 19:
-    print("37*19 = 703")
-if num1 == 37 and sign == '*' and num2 == 20:
-    print("37*20 = 740")
-if num1 == 37 and sign == '*' and num2 == 21:
-    print("37*21 = 777")
-if num1 == 37 and sign == '*' and num2 == 22:
-    print("37*22 = 814")
-if num1 == 37 and sign == '*' and num2 == 23:
-    print("37*23 = 851")
-if num1 == 37 and sign == '*' and num2 == 24:
-    print("37*24 = 888")
-if num1 == 37 and sign == '*' and num2 == 25:
-    print("37*25 = 925")
-if num1 == 37 and sign == '*' and num2 == 26:
-    print("37*26 = 962")
-if num1 == 37 and sign == '*' and num2 == 27:
-    print("37*27 = 999")
-if num1 == 37 and sign == '*' and num2 == 28:
-    print("37*28 = 1036")
-if num1 == 37 and sign == '*' and num2 == 29:
-    print("37*29 = 1073")
-if num1 == 37 and sign == '*' and num2 == 30:
-    print("37*30 = 1110")
-if num1 == 37 and sign == '*' and num2 == 31:
-    print("37*31 = 1147")
-if num1 == 37 and sign == '*' and num2 == 32:
-    print("37*32 = 1184")
-if num1 == 37 and sign == '*' and num2 == 33:
-    print("37*33 = 1221")
-if num1 == 37 and sign == '*' and num2 == 34:
-    print("37*34 = 1258")
-if num1 == 37 and sign == '*' and num2 == 35:
-    print("37*35 = 1295")
-if num1 == 37 and sign == '*' and num2 == 36:
-    print("37*36 = 1332")
-if num1 == 37 and sign == '*' and num2 == 37:
-    print("37*37 = 1369")
-if num1 == 37 and sign == '*' and num2 == 38:
-    print("37*38 = 1406")
-if num1 == 37 and sign == '*' and num2 == 39:
-    print("37*39 = 1443")
-if num1 == 37 and sign == '*' and num2 == 40:
-    print("37*40 = 1480")
-if num1 == 37 and sign == '*' and num2 == 41:
-    print("37*41 = 1517")
-if num1 == 37 and sign == '*' and num2 == 42:
-    print("37*42 = 1554")
-if num1 == 37 and sign == '*' and num2 == 43:
-    print("37*43 = 1591")
-if num1 == 37 and sign == '*' and num2 == 44:
-    print("37*44 = 1628")
-if num1 == 37 and sign == '*' and num2 == 45:
-    print("37*45 = 1665")
-if num1 == 37 and sign == '*' and num2 == 46:
-    print("37*46 = 1702")
-if num1 == 37 and sign == '*' and num2 == 47:
-    print("37*47 = 1739")
-if num1 == 37 and sign == '*' and num2 == 48:
-    print("37*48 = 1776")
-if num1 == 37 and sign == '*' and num2 == 49:
-    print("37*49 = 1813")
-if num1 == 37 and sign == '*' and num2 == 50:
-    print("37*50 = 1850")
-if num1 == 38 and sign == '*' and num2 == 0:
-    print("38*0 = 0")
-if num1 == 38 and sign == '*' and num2 == 1:
-    print("38*1 = 38")
-if num1 == 38 and sign == '*' and num2 == 2:
-    print("38*2 = 76")
-if num1 == 38 and sign == '*' and num2 == 3:
-    print("38*3 = 114")
-if num1 == 38 and sign == '*' and num2 == 4:
-    print("38*4 = 152")
-if num1 == 38 and sign == '*' and num2 == 5:
-    print("38*5 = 190")
-if num1 == 38 and sign == '*' and num2 == 6:
-    print("38*6 = 228")
-if num1 == 38 and sign == '*' and num2 == 7:
-    print("38*7 = 266")
-if num1 == 38 and sign == '*' and num2 == 8:
-    print("38*8 = 304")
-if num1 == 38 and sign == '*' and num2 == 9:
-    print("38*9 = 342")
-if num1 == 38 and sign == '*' and num2 == 10:
-    print("38*10 = 380")
-if num1 == 38 and sign == '*' and num2 == 11:
-    print("38*11 = 418")
-if num1 == 38 and sign == '*' and num2 == 12:
-    print("38*12 = 456")
-if num1 == 38 and sign == '*' and num2 == 13:
-    print("38*13 = 494")
-if num1 == 38 and sign == '*' and num2 == 14:
-    print("38*14 = 532")
-if num1 == 38 and sign == '*' and num2 == 15:
-    print("38*15 = 570")
-if num1 == 38 and sign == '*' and num2 == 16:
-    print("38*16 = 608")
-if num1 == 38 and sign == '*' and num2 == 17:
-    print("38*17 = 646")
-if num1 == 38 and sign == '*' and num2 == 18:
-    print("38*18 = 684")
-if num1 == 38 and sign == '*' and num2 == 19:
-    print("38*19 = 722")
-if num1 == 38 and sign == '*' and num2 == 20:
-    print("38*20 = 760")
-if num1 == 38 and sign == '*' and num2 == 21:
-    print("38*21 = 798")
-if num1 == 38 and sign == '*' and num2 == 22:
-    print("38*22 = 836")
-if num1 == 38 and sign == '*' and num2 == 23:
-    print("38*23 = 874")
-if num1 == 38 and sign == '*' and num2 == 24:
-    print("38*24 = 912")
-if num1 == 38 and sign == '*' and num2 == 25:
-    print("38*25 = 950")
-if num1 == 38 and sign == '*' and num2 == 26:
-    print("38*26 = 988")
-if num1 == 38 and sign == '*' and num2 == 27:
-    print("38*27 = 1026")
-if num1 == 38 and sign == '*' and num2 == 28:
-    print("38*28 = 1064")
-if num1 == 38 and sign == '*' and num2 == 29:
-    print("38*29 = 1102")
-if num1 == 38 and sign == '*' and num2 == 30:
-    print("38*30 = 1140")
-if num1 == 38 and sign == '*' and num2 == 31:
-    print("38*31 = 1178")
-if num1 == 38 and sign == '*' and num2 == 32:
-    print("38*32 = 1216")
-if num1 == 38 and sign == '*' and num2 == 33:
-    print("38*33 = 1254")
-if num1 == 38 and sign == '*' and num2 == 34:
-    print("38*34 = 1292")
-if num1 == 38 and sign == '*' and num2 == 35:
-    print("38*35 = 1330")
-if num1 == 38 and sign == '*' and num2 == 36:
-    print("38*36 = 1368")
-if num1 == 38 and sign == '*' and num2 == 37:
-    print("38*37 = 1406")
-if num1 == 38 and sign == '*' and num2 == 38:
-    print("38*38 = 1444")
-if num1 == 38 and sign == '*' and num2 == 39:
-    print("38*39 = 1482")
-if num1 == 38 and sign == '*' and num2 == 40:
-    print("38*40 = 1520")
-if num1 == 38 and sign == '*' and num2 == 41:
-    print("38*41 = 1558")
-if num1 == 38 and sign == '*' and num2 == 42:
-    print("38*42 = 1596")
-if num1 == 38 and sign == '*' and num2 == 43:
-    print("38*43 = 1634")
-if num1 == 38 and sign == '*' and num2 == 44:
-    print("38*44 = 1672")
-if num1 == 38 and sign == '*' and num2 == 45:
-    print("38*45 = 1710")
-if num1 == 38 and sign == '*' and num2 == 46:
-    print("38*46 = 1748")
-if num1 == 38 and sign == '*' and num2 == 47:
-    print("38*47 = 1786")
-if num1 == 38 and sign == '*' and num2 == 48:
-    print("38*48 = 1824")
-if num1 == 38 and sign == '*' and num2 == 49:
-    print("38*49 = 1862")
-if num1 == 38 and sign == '*' and num2 == 50:
-    print("38*50 = 1900")
-if num1 == 39 and sign == '*' and num2 == 0:
-    print("39*0 = 0")
-if num1 == 39 and sign == '*' and num2 == 1:
-    print("39*1 = 39")
-if num1 == 39 and sign == '*' and num2 == 2:
-    print("39*2 = 78")
-if num1 == 39 and sign == '*' and num2 == 3:
-    print("39*3 = 117")
-if num1 == 39 and sign == '*' and num2 == 4:
-    print("39*4 = 156")
-if num1 == 39 and sign == '*' and num2 == 5:
-    print("39*5 = 195")
-if num1 == 39 and sign == '*' and num2 == 6:
-    print("39*6 = 234")
-if num1 == 39 and sign == '*' and num2 == 7:
-    print("39*7 = 273")
-if num1 == 39 and sign == '*' and num2 == 8:
-    print("39*8 = 312")
-if num1 == 39 and sign == '*' and num2 == 9:
-    print("39*9 = 351")
-if num1 == 39 and sign == '*' and num2 == 10:
-    print("39*10 = 390")
-if num1 == 39 and sign == '*' and num2 == 11:
-    print("39*11 = 429")
-if num1 == 39 and sign == '*' and num2 == 12:
-    print("39*12 = 468")
-if num1 == 39 and sign == '*' and num2 == 13:
-    print("39*13 = 507")
-if num1 == 39 and sign == '*' and num2 == 14:
-    print("39*14 = 546")
-if num1 == 39 and sign == '*' and num2 == 15:
-    print("39*15 = 585")
-if num1 == 39 and sign == '*' and num2 == 16:
-    print("39*16 = 624")
-if num1 == 39 and sign == '*' and num2 == 17:
-    print("39*17 = 663")
-if num1 == 39 and sign == '*' and num2 == 18:
-    print("39*18 = 702")
-if num1 == 39 and sign == '*' and num2 == 19:
-    print("39*19 = 741")
-if num1 == 39 and sign == '*' and num2 == 20:
-    print("39*20 = 780")
-if num1 == 39 and sign == '*' and num2 == 21:
-    print("39*21 = 819")
-if num1 == 39 and sign == '*' and num2 == 22:
-    print("39*22 = 858")
-if num1 == 39 and sign == '*' and num2 == 23:
-    print("39*23 = 897")
-if num1 == 39 and sign == '*' and num2 == 24:
-    print("39*24 = 936")
-if num1 == 39 and sign == '*' and num2 == 25:
-    print("39*25 = 975")
-if num1 == 39 and sign == '*' and num2 == 26:
-    print("39*26 = 1014")
-if num1 == 39 and sign == '*' and num2 == 27:
-    print("39*27 = 1053")
-if num1 == 39 and sign == '*' and num2 == 28:
-    print("39*28 = 1092")
-if num1 == 39 and sign == '*' and num2 == 29:
-    print("39*29 = 1131")
-if num1 == 39 and sign == '*' and num2 == 30:
-    print("39*30 = 1170")
-if num1 == 39 and sign == '*' and num2 == 31:
-    print("39*31 = 1209")
-if num1 == 39 and sign == '*' and num2 == 32:
-    print("39*32 = 1248")
-if num1 == 39 and sign == '*' and num2 == 33:
-    print("39*33 = 1287")
-if num1 == 39 and sign == '*' and num2 == 34:
-    print("39*34 = 1326")
-if num1 == 39 and sign == '*' and num2 == 35:
-    print("39*35 = 1365")
-if num1 == 39 and sign == '*' and num2 == 36:
-    print("39*36 = 1404")
-if num1 == 39 and sign == '*' and num2 == 37:
-    print("39*37 = 1443")
-if num1 == 39 and sign == '*' and num2 == 38:
-    print("39*38 = 1482")
-if num1 == 39 and sign == '*' and num2 == 39:
-    print("39*39 = 1521")
-if num1 == 39 and sign == '*' and num2 == 40:
-    print("39*40 = 1560")
-if num1 == 39 and sign == '*' and num2 == 41:
-    print("39*41 = 1599")
-if num1 == 39 and sign == '*' and num2 == 42:
-    print("39*42 = 1638")
-if num1 == 39 and sign == '*' and num2 == 43:
-    print("39*43 = 1677")
-if num1 == 39 and sign == '*' and num2 == 44:
-    print("39*44 = 1716")
-if num1 == 39 and sign == '*' and num2 == 45:
-    print("39*45 = 1755")
-if num1 == 39 and sign == '*' and num2 == 46:
-    print("39*46 = 1794")
-if num1 == 39 and sign == '*' and num2 == 47:
-    print("39*47 = 1833")
-if num1 == 39 and sign == '*' and num2 == 48:
-    print("39*48 = 1872")
-if num1 == 39 and sign == '*' and num2 == 49:
-    print("39*49 = 1911")
-if num1 == 39 and sign == '*' and num2 == 50:
-    print("39*50 = 1950")
-if num1 == 40 and sign == '*' and num2 == 0:
-    print("40*0 = 0")
-if num1 == 40 and sign == '*' and num2 == 1:
-    print("40*1 = 40")
-if num1 == 40 and sign == '*' and num2 == 2:
-    print("40*2 = 80")
-if num1 == 40 and sign == '*' and num2 == 3:
-    print("40*3 = 120")
-if num1 == 40 and sign == '*' and num2 == 4:
-    print("40*4 = 160")
-if num1 == 40 and sign == '*' and num2 == 5:
-    print("40*5 = 200")
-if num1 == 40 and sign == '*' and num2 == 6:
-    print("40*6 = 240")
-if num1 == 40 and sign == '*' and num2 == 7:
-    print("40*7 = 280")
-if num1 == 40 and sign == '*' and num2 == 8:
-    print("40*8 = 320")
-if num1 == 40 and sign == '*' and num2 == 9:
-    print("40*9 = 360")
-if num1 == 40 and sign == '*' and num2 == 10:
-    print("40*10 = 400")
-if num1 == 40 and sign == '*' and num2 == 11:
-    print("40*11 = 440")
-if num1 == 40 and sign == '*' and num2 == 12:
-    print("40*12 = 480")
-if num1 == 40 and sign == '*' and num2 == 13:
-    print("40*13 = 520")
-if num1 == 40 and sign == '*' and num2 == 14:
-    print("40*14 = 560")
-if num1 == 40 and sign == '*' and num2 == 15:
-    print("40*15 = 600")
-if num1 == 40 and sign == '*' and num2 == 16:
-    print("40*16 = 640")
-if num1 == 40 and sign == '*' and num2 == 17:
-    print("40*17 = 680")
-if num1 == 40 and sign == '*' and num2 == 18:
-    print("40*18 = 720")
-if num1 == 40 and sign == '*' and num2 == 19:
-    print("40*19 = 760")
-if num1 == 40 and sign == '*' and num2 == 20:
-    print("40*20 = 800")
-if num1 == 40 and sign == '*' and num2 == 21:
-    print("40*21 = 840")
-if num1 == 40 and sign == '*' and num2 == 22:
-    print("40*22 = 880")
-if num1 == 40 and sign == '*' and num2 == 23:
-    print("40*23 = 920")
-if num1 == 40 and sign == '*' and num2 == 24:
-    print("40*24 = 960")
-if num1 == 40 and sign == '*' and num2 == 25:
-    print("40*25 = 1000")
-if num1 == 40 and sign == '*' and num2 == 26:
-    print("40*26 = 1040")
-if num1 == 40 and sign == '*' and num2 == 27:
-    print("40*27 = 1080")
-if num1 == 40 and sign == '*' and num2 == 28:
-    print("40*28 = 1120")
-if num1 == 40 and sign == '*' and num2 == 29:
-    print("40*29 = 1160")
-if num1 == 40 and sign == '*' and num2 == 30:
-    print("40*30 = 1200")
-if num1 == 40 and sign == '*' and num2 == 31:
-    print("40*31 = 1240")
-if num1 == 40 and sign == '*' and num2 == 32:
-    print("40*32 = 1280")
-if num1 == 40 and sign == '*' and num2 == 33:
-    print("40*33 = 1320")
-if num1 == 40 and sign == '*' and num2 == 34:
-    print("40*34 = 1360")
-if num1 == 40 and sign == '*' and num2 == 35:
-    print("40*35 = 1400")
-if num1 == 40 and sign == '*' and num2 == 36:
-    print("40*36 = 1440")
-if num1 == 40 and sign == '*' and num2 == 37:
-    print("40*37 = 1480")
-if num1 == 40 and sign == '*' and num2 == 38:
-    print("40*38 = 1520")
-if num1 == 40 and sign == '*' and num2 == 39:
-    print("40*39 = 1560")
-if num1 == 40 and sign == '*' and num2 == 40:
-    print("40*40 = 1600")
-if num1 == 40 and sign == '*' and num2 == 41:
-    print("40*41 = 1640")
-if num1 == 40 and sign == '*' and num2 == 42:
-    print("40*42 = 1680")
-if num1 == 40 and sign == '*' and num2 == 43:
-    print("40*43 = 1720")
-if num1 == 40 and sign == '*' and num2 == 44:
-    print("40*44 = 1760")
-if num1 == 40 and sign == '*' and num2 == 45:
-    print("40*45 = 1800")
-if num1 == 40 and sign == '*' and num2 == 46:
-    print("40*46 = 1840")
-if num1 == 40 and sign == '*' and num2 == 47:
-    print("40*47 = 1880")
-if num1 == 40 and sign == '*' and num2 == 48:
-    print("40*48 = 1920")
-if num1 == 40 and sign == '*' and num2 == 49:
-    print("40*49 = 1960")
-if num1 == 40 and sign == '*' and num2 == 50:
-    print("40*50 = 2000")
-if num1 == 41 and sign == '*' and num2 == 0:
-    print("41*0 = 0")
-if num1 == 41 and sign == '*' and num2 == 1:
-    print("41*1 = 41")
-if num1 == 41 and sign == '*' and num2 == 2:
-    print("41*2 = 82")
-if num1 == 41 and sign == '*' and num2 == 3:
-    print("41*3 = 123")
-if num1 == 41 and sign == '*' and num2 == 4:
-    print("41*4 = 164")
-if num1 == 41 and sign == '*' and num2 == 5:
-    print("41*5 = 205")
-if num1 == 41 and sign == '*' and num2 == 6:
-    print("41*6 = 246")
-if num1 == 41 and sign == '*' and num2 == 7:
-    print("41*7 = 287")
-if num1 == 41 and sign == '*' and num2 == 8:
-    print("41*8 = 328")
-if num1 == 41 and sign == '*' and num2 == 9:
-    print("41*9 = 369")
-if num1 == 41 and sign == '*' and num2 == 10:
-    print("41*10 = 410")
-if num1 == 41 and sign == '*' and num2 == 11:
-    print("41*11 = 451")
-if num1 == 41 and sign == '*' and num2 == 12:
-    print("41*12 = 492")
-if num1 == 41 and sign == '*' and num2 == 13:
-    print("41*13 = 533")
-if num1 == 41 and sign == '*' and num2 == 14:
-    print("41*14 = 574")
-if num1 == 41 and sign == '*' and num2 == 15:
-    print("41*15 = 615")
-if num1 == 41 and sign == '*' and num2 == 16:
-    print("41*16 = 656")
-if num1 == 41 and sign == '*' and num2 == 17:
-    print("41*17 = 697")
-if num1 == 41 and sign == '*' and num2 == 18:
-    print("41*18 = 738")
-if num1 == 41 and sign == '*' and num2 == 19:
-    print("41*19 = 779")
-if num1 == 41 and sign == '*' and num2 == 20:
-    print("41*20 = 820")
-if num1 == 41 and sign == '*' and num2 == 21:
-    print("41*21 = 861")
-if num1 == 41 and sign == '*' and num2 == 22:
-    print("41*22 = 902")
-if num1 == 41 and sign == '*' and num2 == 23:
-    print("41*23 = 943")
-if num1 == 41 and sign == '*' and num2 == 24:
-    print("41*24 = 984")
-if num1 == 41 and sign == '*' and num2 == 25:
-    print("41*25 = 1025")
-if num1 == 41 and sign == '*' and num2 == 26:
-    print("41*26 = 1066")
-if num1 == 41 and sign == '*' and num2 == 27:
-    print("41*27 = 1107")
-if num1 == 41 and sign == '*' and num2 == 28:
-    print("41*28 = 1148")
-if num1 == 41 and sign == '*' and num2 == 29:
-    print("41*29 = 1189")
-if num1 == 41 and sign == '*' and num2 == 30:
-    print("41*30 = 1230")
-if num1 == 41 and sign == '*' and num2 == 31:
-    print("41*31 = 1271")
-if num1 == 41 and sign == '*' and num2 == 32:
-    print("41*32 = 1312")
-if num1 == 41 and sign == '*' and num2 == 33:
-    print("41*33 = 1353")
-if num1 == 41 and sign == '*' and num2 == 34:
-    print("41*34 = 1394")
-if num1 == 41 and sign == '*' and num2 == 35:
-    print("41*35 = 1435")
-if num1 == 41 and sign == '*' and num2 == 36:
-    print("41*36 = 1476")
-if num1 == 41 and sign == '*' and num2 == 37:
-    print("41*37 = 1517")
-if num1 == 41 and sign == '*' and num2 == 38:
-    print("41*38 = 1558")
-if num1 == 41 and sign == '*' and num2 == 39:
-    print("41*39 = 1599")
-if num1 == 41 and sign == '*' and num2 == 40:
-    print("41*40 = 1640")
-if num1 == 41 and sign == '*' and num2 == 41:
-    print("41*41 = 1681")
-if num1 == 41 and sign == '*' and num2 == 42:
-    print("41*42 = 1722")
-if num1 == 41 and sign == '*' and num2 == 43:
-    print("41*43 = 1763")
-if num1 == 41 and sign == '*' and num2 == 44:
-    print("41*44 = 1804")
-if num1 == 41 and sign == '*' and num2 == 45:
-    print("41*45 = 1845")
-if num1 == 41 and sign == '*' and num2 == 46:
-    print("41*46 = 1886")
-if num1 == 41 and sign == '*' and num2 == 47:
-    print("41*47 = 1927")
-if num1 == 41 and sign == '*' and num2 == 48:
-    print("41*48 = 1968")
-if num1 == 41 and sign == '*' and num2 == 49:
-    print("41*49 = 2009")
-if num1 == 41 and sign == '*' and num2 == 50:
-    print("41*50 = 2050")
-if num1 == 42 and sign == '*' and num2 == 0:
-    print("42*0 = 0")
-if num1 == 42 and sign == '*' and num2 == 1:
-    print("42*1 = 42")
-if num1 == 42 and sign == '*' and num2 == 2:
-    print("42*2 = 84")
-if num1 == 42 and sign == '*' and num2 == 3:
-    print("42*3 = 126")
-if num1 == 42 and sign == '*' and num2 == 4:
-    print("42*4 = 168")
-if num1 == 42 and sign == '*' and num2 == 5:
-    print("42*5 = 210")
-if num1 == 42 and sign == '*' and num2 == 6:
-    print("42*6 = 252")
-if num1 == 42 and sign == '*' and num2 == 7:
-    print("42*7 = 294")
-if num1 == 42 and sign == '*' and num2 == 8:
-    print("42*8 = 336")
-if num1 == 42 and sign == '*' and num2 == 9:
-    print("42*9 = 378")
-if num1 == 42 and sign == '*' and num2 == 10:
-    print("42*10 = 420")
-if num1 == 42 and sign == '*' and num2 == 11:
-    print("42*11 = 462")
-if num1 == 42 and sign == '*' and num2 == 12:
-    print("42*12 = 504")
-if num1 == 42 and sign == '*' and num2 == 13:
-    print("42*13 = 546")
-if num1 == 42 and sign == '*' and num2 == 14:
-    print("42*14 = 588")
-if num1 == 42 and sign == '*' and num2 == 15:
-    print("42*15 = 630")
-if num1 == 42 and sign == '*' and num2 == 16:
-    print("42*16 = 672")
-if num1 == 42 and sign == '*' and num2 == 17:
-    print("42*17 = 714")
-if num1 == 42 and sign == '*' and num2 == 18:
-    print("42*18 = 756")
-if num1 == 42 and sign == '*' and num2 == 19:
-    print("42*19 = 798")
-if num1 == 42 and sign == '*' and num2 == 20:
-    print("42*20 = 840")
-if num1 == 42 and sign == '*' and num2 == 21:
-    print("42*21 = 882")
-if num1 == 42 and sign == '*' and num2 == 22:
-    print("42*22 = 924")
-if num1 == 42 and sign == '*' and num2 == 23:
-    print("42*23 = 966")
-if num1 == 42 and sign == '*' and num2 == 24:
-    print("42*24 = 1008")
-if num1 == 42 and sign == '*' and num2 == 25:
-    print("42*25 = 1050")
-if num1 == 42 and sign == '*' and num2 == 26:
-    print("42*26 = 1092")
-if num1 == 42 and sign == '*' and num2 == 27:
-    print("42*27 = 1134")
-if num1 == 42 and sign == '*' and num2 == 28:
-    print("42*28 = 1176")
-if num1 == 42 and sign == '*' and num2 == 29:
-    print("42*29 = 1218")
-if num1 == 42 and sign == '*' and num2 == 30:
-    print("42*30 = 1260")
-if num1 == 42 and sign == '*' and num2 == 31:
-    print("42*31 = 1302")
-if num1 == 42 and sign == '*' and num2 == 32:
-    print("42*32 = 1344")
-if num1 == 42 and sign == '*' and num2 == 33:
-    print("42*33 = 1386")
-if num1 == 42 and sign == '*' and num2 == 34:
-    print("42*34 = 1428")
-if num1 == 42 and sign == '*' and num2 == 35:
-    print("42*35 = 1470")
-if num1 == 42 and sign == '*' and num2 == 36:
-    print("42*36 = 1512")
-if num1 == 42 and sign == '*' and num2 == 37:
-    print("42*37 = 1554")
-if num1 == 42 and sign == '*' and num2 == 38:
-    print("42*38 = 1596")
-if num1 == 42 and sign == '*' and num2 == 39:
-    print("42*39 = 1638")
-if num1 == 42 and sign == '*' and num2 == 40:
-    print("42*40 = 1680")
-if num1 == 42 and sign == '*' and num2 == 41:
-    print("42*41 = 1722")
-if num1 == 42 and sign == '*' and num2 == 42:
-    print("42*42 = 1764")
-if num1 == 42 and sign == '*' and num2 == 43:
-    print("42*43 = 1806")
-if num1 == 42 and sign == '*' and num2 == 44:
-    print("42*44 = 1848")
-if num1 == 42 and sign == '*' and num2 == 45:
-    print("42*45 = 1890")
-if num1 == 42 and sign == '*' and num2 == 46:
-    print("42*46 = 1932")
-if num1 == 42 and sign == '*' and num2 == 47:
-    print("42*47 = 1974")
-if num1 == 42 and sign == '*' and num2 == 48:
-    print("42*48 = 2016")
-if num1 == 42 and sign == '*' and num2 == 49:
-    print("42*49 = 2058")
-if num1 == 42 and sign == '*' and num2 == 50:
-    print("42*50 = 2100")
-if num1 == 43 and sign == '*' and num2 == 0:
-    print("43*0 = 0")
-if num1 == 43 and sign == '*' and num2 == 1:
-    print("43*1 = 43")
-if num1 == 43 and sign == '*' and num2 == 2:
-    print("43*2 = 86")
-if num1 == 43 and sign == '*' and num2 == 3:
-    print("43*3 = 129")
-if num1 == 43 and sign == '*' and num2 == 4:
-    print("43*4 = 172")
-if num1 == 43 and sign == '*' and num2 == 5:
-    print("43*5 = 215")
-if num1 == 43 and sign == '*' and num2 == 6:
-    print("43*6 = 258")
-if num1 == 43 and sign == '*' and num2 == 7:
-    print("43*7 = 301")
-if num1 == 43 and sign == '*' and num2 == 8:
-    print("43*8 = 344")
-if num1 == 43 and sign == '*' and num2 == 9:
-    print("43*9 = 387")
-if num1 == 43 and sign == '*' and num2 == 10:
-    print("43*10 = 430")
-if num1 == 43 and sign == '*' and num2 == 11:
-    print("43*11 = 473")
-if num1 == 43 and sign == '*' and num2 == 12:
-    print("43*12 = 516")
-if num1 == 43 and sign == '*' and num2 == 13:
-    print("43*13 = 559")
-if num1 == 43 and sign == '*' and num2 == 14:
-    print("43*14 = 602")
-if num1 == 43 and sign == '*' and num2 == 15:
-    print("43*15 = 645")
-if num1 == 43 and sign == '*' and num2 == 16:
-    print("43*16 = 688")
-if num1 == 43 and sign == '*' and num2 == 17:
-    print("43*17 = 731")
-if num1 == 43 and sign == '*' and num2 == 18:
-    print("43*18 = 774")
-if num1 == 43 and sign == '*' and num2 == 19:
-    print("43*19 = 817")
-if num1 == 43 and sign == '*' and num2 == 20:
-    print("43*20 = 860")
-if num1 == 43 and sign == '*' and num2 == 21:
-    print("43*21 = 903")
-if num1 == 43 and sign == '*' and num2 == 22:
-    print("43*22 = 946")
-if num1 == 43 and sign == '*' and num2 == 23:
-    print("43*23 = 989")
-if num1 == 43 and sign == '*' and num2 == 24:
-    print("43*24 = 1032")
-if num1 == 43 and sign == '*' and num2 == 25:
-    print("43*25 = 1075")
-if num1 == 43 and sign == '*' and num2 == 26:
-    print("43*26 = 1118")
-if num1 == 43 and sign == '*' and num2 == 27:
-    print("43*27 = 1161")
-if num1 == 43 and sign == '*' and num2 == 28:
-    print("43*28 = 1204")
-if num1 == 43 and sign == '*' and num2 == 29:
-    print("43*29 = 1247")
-if num1 == 43 and sign == '*' and num2 == 30:
-    print("43*30 = 1290")
-if num1 == 43 and sign == '*' and num2 == 31:
-    print("43*31 = 1333")
-if num1 == 43 and sign == '*' and num2 == 32:
-    print("43*32 = 1376")
-if num1 == 43 and sign == '*' and num2 == 33:
-    print("43*33 = 1419")
-if num1 == 43 and sign == '*' and num2 == 34:
-    print("43*34 = 1462")
-if num1 == 43 and sign == '*' and num2 == 35:
-    print("43*35 = 1505")
-if num1 == 43 and sign == '*' and num2 == 36:
-    print("43*36 = 1548")
-if num1 == 43 and sign == '*' and num2 == 37:
-    print("43*37 = 1591")
-if num1 == 43 and sign == '*' and num2 == 38:
-    print("43*38 = 1634")
-if num1 == 43 and sign == '*' and num2 == 39:
-    print("43*39 = 1677")
-if num1 == 43 and sign == '*' and num2 == 40:
-    print("43*40 = 1720")
-if num1 == 43 and sign == '*' and num2 == 41:
-    print("43*41 = 1763")
-if num1 == 43 and sign == '*' and num2 == 42:
-    print("43*42 = 1806")
-if num1 == 43 and sign == '*' and num2 == 43:
-    print("43*43 = 1849")
-if num1 == 43 and sign == '*' and num2 == 44:
-    print("43*44 = 1892")
-if num1 == 43 and sign == '*' and num2 == 45:
-    print("43*45 = 1935")
-if num1 == 43 and sign == '*' and num2 == 46:
-    print("43*46 = 1978")
-if num1 == 43 and sign == '*' and num2 == 47:
-    print("43*47 = 2021")
-if num1 == 43 and sign == '*' and num2 == 48:
-    print("43*48 = 2064")
-if num1 == 43 and sign == '*' and num2 == 49:
-    print("43*49 = 2107")
-if num1 == 43 and sign == '*' and num2 == 50:
-    print("43*50 = 2150")
-if num1 == 44 and sign == '*' and num2 == 0:
-    print("44*0 = 0")
-if num1 == 44 and sign == '*' and num2 == 1:
-    print("44*1 = 44")
-if num1 == 44 and sign == '*' and num2 == 2:
-    print("44*2 = 88")
-if num1 == 44 and sign == '*' and num2 == 3:
-    print("44*3 = 132")
-if num1 == 44 and sign == '*' and num2 == 4:
-    print("44*4 = 176")
-if num1 == 44 and sign == '*' and num2 == 5:
-    print("44*5 = 220")
-if num1 == 44 and sign == '*' and num2 == 6:
-    print("44*6 = 264")
-if num1 == 44 and sign == '*' and num2 == 7:
-    print("44*7 = 308")
-if num1 == 44 and sign == '*' and num2 == 8:
-    print("44*8 = 352")
-if num1 == 44 and sign == '*' and num2 == 9:
-    print("44*9 = 396")
-if num1 == 44 and sign == '*' and num2 == 10:
-    print("44*10 = 440")
-if num1 == 44 and sign == '*' and num2 == 11:
-    print("44*11 = 484")
-if num1 == 44 and sign == '*' and num2 == 12:
-    print("44*12 = 528")
-if num1 == 44 and sign == '*' and num2 == 13:
-    print("44*13 = 572")
-if num1 == 44 and sign == '*' and num2 == 14:
-    print("44*14 = 616")
-if num1 == 44 and sign == '*' and num2 == 15:
-    print("44*15 = 660")
-if num1 == 44 and sign == '*' and num2 == 16:
-    print("44*16 = 704")
-if num1 == 44 and sign == '*' and num2 == 17:
-    print("44*17 = 748")
-if num1 == 44 and sign == '*' and num2 == 18:
-    print("44*18 = 792")
-if num1 == 44 and sign == '*' and num2 == 19:
-    print("44*19 = 836")
-if num1 == 44 and sign == '*' and num2 == 20:
-    print("44*20 = 880")
-if num1 == 44 and sign == '*' and num2 == 21:
-    print("44*21 = 924")
-if num1 == 44 and sign == '*' and num2 == 22:
-    print("44*22 = 968")
-if num1 == 44 and sign == '*' and num2 == 23:
-    print("44*23 = 1012")
-if num1 == 44 and sign == '*' and num2 == 24:
-    print("44*24 = 1056")
-if num1 == 44 and sign == '*' and num2 == 25:
-    print("44*25 = 1100")
-if num1 == 44 and sign == '*' and num2 == 26:
-    print("44*26 = 1144")
-if num1 == 44 and sign == '*' and num2 == 27:
-    print("44*27 = 1188")
-if num1 == 44 and sign == '*' and num2 == 28:
-    print("44*28 = 1232")
-if num1 == 44 and sign == '*' and num2 == 29:
-    print("44*29 = 1276")
-if num1 == 44 and sign == '*' and num2 == 30:
-    print("44*30 = 1320")
-if num1 == 44 and sign == '*' and num2 == 31:
-    print("44*31 = 1364")
-if num1 == 44 and sign == '*' and num2 == 32:
-    print("44*32 = 1408")
-if num1 == 44 and sign == '*' and num2 == 33:
-    print("44*33 = 1452")
-if num1 == 44 and sign == '*' and num2 == 34:
-    print("44*34 = 1496")
-if num1 == 44 and sign == '*' and num2 == 35:
-    print("44*35 = 1540")
-if num1 == 44 and sign == '*' and num2 == 36:
-    print("44*36 = 1584")
-if num1 == 44 and sign == '*' and num2 == 37:
-    print("44*37 = 1628")
-if num1 == 44 and sign == '*' and num2 == 38:
-    print("44*38 = 1672")
-if num1 == 44 and sign == '*' and num2 == 39:
-    print("44*39 = 1716")
-if num1 == 44 and sign == '*' and num2 == 40:
-    print("44*40 = 1760")
-if num1 == 44 and sign == '*' and num2 == 41:
-    print("44*41 = 1804")
-if num1 == 44 and sign == '*' and num2 == 42:
-    print("44*42 = 1848")
-if num1 == 44 and sign == '*' and num2 == 43:
-    print("44*43 = 1892")
-if num1 == 44 and sign == '*' and num2 == 44:
-    print("44*44 = 1936")
-if num1 == 44 and sign == '*' and num2 == 45:
-    print("44*45 = 1980")
-if num1 == 44 and sign == '*' and num2 == 46:
-    print("44*46 = 2024")
-if num1 == 44 and sign == '*' and num2 == 47:
-    print("44*47 = 2068")
-if num1 == 44 and sign == '*' and num2 == 48:
-    print("44*48 = 2112")
-if num1 == 44 and sign == '*' and num2 == 49:
-    print("44*49 = 2156")
-if num1 == 44 and sign == '*' and num2 == 50:
-    print("44*50 = 2200")
-if num1 == 45 and sign == '*' and num2 == 0:
-    print("45*0 = 0")
-if num1 == 45 and sign == '*' and num2 == 1:
-    print("45*1 = 45")
-if num1 == 45 and sign == '*' and num2 == 2:
-    print("45*2 = 90")
-if num1 == 45 and sign == '*' and num2 == 3:
-    print("45*3 = 135")
-if num1 == 45 and sign == '*' and num2 == 4:
-    print("45*4 = 180")
-if num1 == 45 and sign == '*' and num2 == 5:
-    print("45*5 = 225")
-if num1 == 45 and sign == '*' and num2 == 6:
-    print("45*6 = 270")
-if num1 == 45 and sign == '*' and num2 == 7:
-    print("45*7 = 315")
-if num1 == 45 and sign == '*' and num2 == 8:
-    print("45*8 = 360")
-if num1 == 45 and sign == '*' and num2 == 9:
-    print("45*9 = 405")
-if num1 == 45 and sign == '*' and num2 == 10:
-    print("45*10 = 450")
-if num1 == 45 and sign == '*' and num2 == 11:
-    print("45*11 = 495")
-if num1 == 45 and sign == '*' and num2 == 12:
-    print("45*12 = 540")
-if num1 == 45 and sign == '*' and num2 == 13:
-    print("45*13 = 585")
-if num1 == 45 and sign == '*' and num2 == 14:
-    print("45*14 = 630")
-if num1 == 45 and sign == '*' and num2 == 15:
-    print("45*15 = 675")
-if num1 == 45 and sign == '*' and num2 == 16:
-    print("45*16 = 720")
-if num1 == 45 and sign == '*' and num2 == 17:
-    print("45*17 = 765")
-if num1 == 45 and sign == '*' and num2 == 18:
-    print("45*18 = 810")
-if num1 == 45 and sign == '*' and num2 == 19:
-    print("45*19 = 855")
-if num1 == 45 and sign == '*' and num2 == 20:
-    print("45*20 = 900")
-if num1 == 45 and sign == '*' and num2 == 21:
-    print("45*21 = 945")
-if num1 == 45 and sign == '*' and num2 == 22:
-    print("45*22 = 990")
-if num1 == 45 and sign == '*' and num2 == 23:
-    print("45*23 = 1035")
-if num1 == 45 and sign == '*' and num2 == 24:
-    print("45*24 = 1080")
-if num1 == 45 and sign == '*' and num2 == 25:
-    print("45*25 = 1125")
-if num1 == 45 and sign == '*' and num2 == 26:
-    print("45*26 = 1170")
-if num1 == 45 and sign == '*' and num2 == 27:
-    print("45*27 = 1215")
-if num1 == 45 and sign == '*' and num2 == 28:
-    print("45*28 = 1260")
-if num1 == 45 and sign == '*' and num2 == 29:
-    print("45*29 = 1305")
-if num1 == 45 and sign == '*' and num2 == 30:
-    print("45*30 = 1350")
-if num1 == 45 and sign == '*' and num2 == 31:
-    print("45*31 = 1395")
-if num1 == 45 and sign == '*' and num2 == 32:
-    print("45*32 = 1440")
-if num1 == 45 and sign == '*' and num2 == 33:
-    print("45*33 = 1485")
-if num1 == 45 and sign == '*' and num2 == 34:
-    print("45*34 = 1530")
-if num1 == 45 and sign == '*' and num2 == 35:
-    print("45*35 = 1575")
-if num1 == 45 and sign == '*' and num2 == 36:
-    print("45*36 = 1620")
-if num1 == 45 and sign == '*' and num2 == 37:
-    print("45*37 = 1665")
-if num1 == 45 and sign == '*' and num2 == 38:
-    print("45*38 = 1710")
-if num1 == 45 and sign == '*' and num2 == 39:
-    print("45*39 = 1755")
-if num1 == 45 and sign == '*' and num2 == 40:
-    print("45*40 = 1800")
-if num1 == 45 and sign == '*' and num2 == 41:
-    print("45*41 = 1845")
-if num1 == 45 and sign == '*' and num2 == 42:
-    print("45*42 = 1890")
-if num1 == 45 and sign == '*' and num2 == 43:
-    print("45*43 = 1935")
-if num1 == 45 and sign == '*' and num2 == 44:
-    print("45*44 = 1980")
-if num1 == 45 and sign == '*' and num2 == 45:
-    print("45*45 = 2025")
-if num1 == 45 and sign == '*' and num2 == 46:
-    print("45*46 = 2070")
-if num1 == 45 and sign == '*' and num2 == 47:
-    print("45*47 = 2115")
-if num1 == 45 and sign == '*' and num2 == 48:
-    print("45*48 = 2160")
-if num1 == 45 and sign == '*' and num2 == 49:
-    print("45*49 = 2205")
-if num1 == 45 and sign == '*' and num2 == 50:
-    print("45*50 = 2250")
-if num1 == 46 and sign == '*' and num2 == 0:
-    print("46*0 = 0")
-if num1 == 46 and sign == '*' and num2 == 1:
-    print("46*1 = 46")
-if num1 == 46 and sign == '*' and num2 == 2:
-    print("46*2 = 92")
-if num1 == 46 and sign == '*' and num2 == 3:
-    print("46*3 = 138")
-if num1 == 46 and sign == '*' and num2 == 4:
-    print("46*4 = 184")
-if num1 == 46 and sign == '*' and num2 == 5:
-    print("46*5 = 230")
-if num1 == 46 and sign == '*' and num2 == 6:
-    print("46*6 = 276")
-if num1 == 46 and sign == '*' and num2 == 7:
-    print("46*7 = 322")
-if num1 == 46 and sign == '*' and num2 == 8:
-    print("46*8 = 368")
-if num1 == 46 and sign == '*' and num2 == 9:
-    print("46*9 = 414")
-if num1 == 46 and sign == '*' and num2 == 10:
-    print("46*10 = 460")
-if num1 == 46 and sign == '*' and num2 == 11:
-    print("46*11 = 506")
-if num1 == 46 and sign == '*' and num2 == 12:
-    print("46*12 = 552")
-if num1 == 46 and sign == '*' and num2 == 13:
-    print("46*13 = 598")
-if num1 == 46 and sign == '*' and num2 == 14:
-    print("46*14 = 644")
-if num1 == 46 and sign == '*' and num2 == 15:
-    print("46*15 = 690")
-if num1 == 46 and sign == '*' and num2 == 16:
-    print("46*16 = 736")
-if num1 == 46 and sign == '*' and num2 == 17:
-    print("46*17 = 782")
-if num1 == 46 and sign == '*' and num2 == 18:
-    print("46*18 = 828")
-if num1 == 46 and sign == '*' and num2 == 19:
-    print("46*19 = 874")
-if num1 == 46 and sign == '*' and num2 == 20:
-    print("46*20 = 920")
-if num1 == 46 and sign == '*' and num2 == 21:
-    print("46*21 = 966")
-if num1 == 46 and sign == '*' and num2 == 22:
-    print("46*22 = 1012")
-if num1 == 46 and sign == '*' and num2 == 23:
-    print("46*23 = 1058")
-if num1 == 46 and sign == '*' and num2 == 24:
-    print("46*24 = 1104")
-if num1 == 46 and sign == '*' and num2 == 25:
-    print("46*25 = 1150")
-if num1 == 46 and sign == '*' and num2 == 26:
-    print("46*26 = 1196")
-if num1 == 46 and sign == '*' and num2 == 27:
-    print("46*27 = 1242")
-if num1 == 46 and sign == '*' and num2 == 28:
-    print("46*28 = 1288")
-if num1 == 46 and sign == '*' and num2 == 29:
-    print("46*29 = 1334")
-if num1 == 46 and sign == '*' and num2 == 30:
-    print("46*30 = 1380")
-if num1 == 46 and sign == '*' and num2 == 31:
-    print("46*31 = 1426")
-if num1 == 46 and sign == '*' and num2 == 32:
-    print("46*32 = 1472")
-if num1 == 46 and sign == '*' and num2 == 33:
-    print("46*33 = 1518")
-if num1 == 46 and sign == '*' and num2 == 34:
-    print("46*34 = 1564")
-if num1 == 46 and sign == '*' and num2 == 35:
-    print("46*35 = 1610")
-if num1 == 46 and sign == '*' and num2 == 36:
-    print("46*36 = 1656")
-if num1 == 46 and sign == '*' and num2 == 37:
-    print("46*37 = 1702")
-if num1 == 46 and sign == '*' and num2 == 38:
-    print("46*38 = 1748")
-if num1 == 46 and sign == '*' and num2 == 39:
-    print("46*39 = 1794")
-if num1 == 46 and sign == '*' and num2 == 40:
-    print("46*40 = 1840")
-if num1 == 46 and sign == '*' and num2 == 41:
-    print("46*41 = 1886")
-if num1 == 46 and sign == '*' and num2 == 42:
-    print("46*42 = 1932")
-if num1 == 46 and sign == '*' and num2 == 43:
-    print("46*43 = 1978")
-if num1 == 46 and sign == '*' and num2 == 44:
-    print("46*44 = 2024")
-if num1 == 46 and sign == '*' and num2 == 45:
-    print("46*45 = 2070")
-if num1 == 46 and sign == '*' and num2 == 46:
-    print("46*46 = 2116")
-if num1 == 46 and sign == '*' and num2 == 47:
-    print("46*47 = 2162")
-if num1 == 46 and sign == '*' and num2 == 48:
-    print("46*48 = 2208")
-if num1 == 46 and sign == '*' and num2 == 49:
-    print("46*49 = 2254")
-if num1 == 46 and sign == '*' and num2 == 50:
-    print("46*50 = 2300")
-if num1 == 47 and sign == '*' and num2 == 0:
-    print("47*0 = 0")
-if num1 == 47 and sign == '*' and num2 == 1:
-    print("47*1 = 47")
-if num1 == 47 and sign == '*' and num2 == 2:
-    print("47*2 = 94")
-if num1 == 47 and sign == '*' and num2 == 3:
-    print("47*3 = 141")
-if num1 == 47 and sign == '*' and num2 == 4:
-    print("47*4 = 188")
-if num1 == 47 and sign == '*' and num2 == 5:
-    print("47*5 = 235")
-if num1 == 47 and sign == '*' and num2 == 6:
-    print("47*6 = 282")
-if num1 == 47 and sign == '*' and num2 == 7:
-    print("47*7 = 329")
-if num1 == 47 and sign == '*' and num2 == 8:
-    print("47*8 = 376")
-if num1 == 47 and sign == '*' and num2 == 9:
-    print("47*9 = 423")
-if num1 == 47 and sign == '*' and num2 == 10:
-    print("47*10 = 470")
-if num1 == 47 and sign == '*' and num2 == 11:
-    print("47*11 = 517")
-if num1 == 47 and sign == '*' and num2 == 12:
-    print("47*12 = 564")
-if num1 == 47 and sign == '*' and num2 == 13:
-    print("47*13 = 611")
-if num1 == 47 and sign == '*' and num2 == 14:
-    print("47*14 = 658")
-if num1 == 47 and sign == '*' and num2 == 15:
-    print("47*15 = 705")
-if num1 == 47 and sign == '*' and num2 == 16:
-    print("47*16 = 752")
-if num1 == 47 and sign == '*' and num2 == 17:
-    print("47*17 = 799")
-if num1 == 47 and sign == '*' and num2 == 18:
-    print("47*18 = 846")
-if num1 == 47 and sign == '*' and num2 == 19:
-    print("47*19 = 893")
-if num1 == 47 and sign == '*' and num2 == 20:
-    print("47*20 = 940")
-if num1 == 47 and sign == '*' and num2 == 21:
-    print("47*21 = 987")
-if num1 == 47 and sign == '*' and num2 == 22:
-    print("47*22 = 1034")
-if num1 == 47 and sign == '*' and num2 == 23:
-    print("47*23 = 1081")
-if num1 == 47 and sign == '*' and num2 == 24:
-    print("47*24 = 1128")
-if num1 == 47 and sign == '*' and num2 == 25:
-    print("47*25 = 1175")
-if num1 == 47 and sign == '*' and num2 == 26:
-    print("47*26 = 1222")
-if num1 == 47 and sign == '*' and num2 == 27:
-    print("47*27 = 1269")
-if num1 == 47 and sign == '*' and num2 == 28:
-    print("47*28 = 1316")
-if num1 == 47 and sign == '*' and num2 == 29:
-    print("47*29 = 1363")
-if num1 == 47 and sign == '*' and num2 == 30:
-    print("47*30 = 1410")
-if num1 == 47 and sign == '*' and num2 == 31:
-    print("47*31 = 1457")
-if num1 == 47 and sign == '*' and num2 == 32:
-    print("47*32 = 1504")
-if num1 == 47 and sign == '*' and num2 == 33:
-    print("47*33 = 1551")
-if num1 == 47 and sign == '*' and num2 == 34:
-    print("47*34 = 1598")
-if num1 == 47 and sign == '*' and num2 == 35:
-    print("47*35 = 1645")
-if num1 == 47 and sign == '*' and num2 == 36:
-    print("47*36 = 1692")
-if num1 == 47 and sign == '*' and num2 == 37:
-    print("47*37 = 1739")
-if num1 == 47 and sign == '*' and num2 == 38:
-    print("47*38 = 1786")
-if num1 == 47 and sign == '*' and num2 == 39:
-    print("47*39 = 1833")
-if num1 == 47 and sign == '*' and num2 == 40:
-    print("47*40 = 1880")
-if num1 == 47 and sign == '*' and num2 == 41:
-    print("47*41 = 1927")
-if num1 == 47 and sign == '*' and num2 == 42:
-    print("47*42 = 1974")
-if num1 == 47 and sign == '*' and num2 == 43:
-    print("47*43 = 2021")
-if num1 == 47 and sign == '*' and num2 == 44:
-    print("47*44 = 2068")
-if num1 == 47 and sign == '*' and num2 == 45:
-    print("47*45 = 2115")
-if num1 == 47 and sign == '*' and num2 == 46:
-    print("47*46 = 2162")
-if num1 == 47 and sign == '*' and num2 == 47:
-    print("47*47 = 2209")
-if num1 == 47 and sign == '*' and num2 == 48:
-    print("47*48 = 2256")
-if num1 == 47 and sign == '*' and num2 == 49:
-    print("47*49 = 2303")
-if num1 == 47 and sign == '*' and num2 == 50:
-    print("47*50 = 2350")
-if num1 == 48 and sign == '*' and num2 == 0:
-    print("48*0 = 0")
-if num1 == 48 and sign == '*' and num2 == 1:
-    print("48*1 = 48")
-if num1 == 48 and sign == '*' and num2 == 2:
-    print("48*2 = 96")
-if num1 == 48 and sign == '*' and num2 == 3:
-    print("48*3 = 144")
-if num1 == 48 and sign == '*' and num2 == 4:
-    print("48*4 = 192")
-if num1 == 48 and sign == '*' and num2 == 5:
-    print("48*5 = 240")
-if num1 == 48 and sign == '*' and num2 == 6:
-    print("48*6 = 288")
-if num1 == 48 and sign == '*' and num2 == 7:
-    print("48*7 = 336")
-if num1 == 48 and sign == '*' and num2 == 8:
-    print("48*8 = 384")
-if num1 == 48 and sign == '*' and num2 == 9:
-    print("48*9 = 432")
-if num1 == 48 and sign == '*' and num2 == 10:
-    print("48*10 = 480")
-if num1 == 48 and sign == '*' and num2 == 11:
-    print("48*11 = 528")
-if num1 == 48 and sign == '*' and num2 == 12:
-    print("48*12 = 576")
-if num1 == 48 and sign == '*' and num2 == 13:
-    print("48*13 = 624")
-if num1 == 48 and sign == '*' and num2 == 14:
-    print("48*14 = 672")
-if num1 == 48 and sign == '*' and num2 == 15:
-    print("48*15 = 720")
-if num1 == 48 and sign == '*' and num2 == 16:
-    print("48*16 = 768")
-if num1 == 48 and sign == '*' and num2 == 17:
-    print("48*17 = 816")
-if num1 == 48 and sign == '*' and num2 == 18:
-    print("48*18 = 864")
-if num1 == 48 and sign == '*' and num2 == 19:
-    print("48*19 = 912")
-if num1 == 48 and sign == '*' and num2 == 20:
-    print("48*20 = 960")
-if num1 == 48 and sign == '*' and num2 == 21:
-    print("48*21 = 1008")
-if num1 == 48 and sign == '*' and num2 == 22:
-    print("48*22 = 1056")
-if num1 == 48 and sign == '*' and num2 == 23:
-    print("48*23 = 1104")
-if num1 == 48 and sign == '*' and num2 == 24:
-    print("48*24 = 1152")
-if num1 == 48 and sign == '*' and num2 == 25:
-    print("48*25 = 1200")
-if num1 == 48 and sign == '*' and num2 == 26:
-    print("48*26 = 1248")
-if num1 == 48 and sign == '*' and num2 == 27:
-    print("48*27 = 1296")
-if num1 == 48 and sign == '*' and num2 == 28:
-    print("48*28 = 1344")
-if num1 == 48 and sign == '*' and num2 == 29:
-    print("48*29 = 1392")
-if num1 == 48 and sign == '*' and num2 == 30:
-    print("48*30 = 1440")
-if num1 == 48 and sign == '*' and num2 == 31:
-    print("48*31 = 1488")
-if num1 == 48 and sign == '*' and num2 == 32:
-    print("48*32 = 1536")
-if num1 == 48 and sign == '*' and num2 == 33:
-    print("48*33 = 1584")
-if num1 == 48 and sign == '*' and num2 == 34:
-    print("48*34 = 1632")
-if num1 == 48 and sign == '*' and num2 == 35:
-    print("48*35 = 1680")
-if num1 == 48 and sign == '*' and num2 == 36:
-    print("48*36 = 1728")
-if num1 == 48 and sign == '*' and num2 == 37:
-    print("48*37 = 1776")
-if num1 == 48 and sign == '*' and num2 == 38:
-    print("48*38 = 1824")
-if num1 == 48 and sign == '*' and num2 == 39:
-    print("48*39 = 1872")
-if num1 == 48 and sign == '*' and num2 == 40:
-    print("48*40 = 1920")
-if num1 == 48 and sign == '*' and num2 == 41:
-    print("48*41 = 1968")
-if num1 == 48 and sign == '*' and num2 == 42:
-    print("48*42 = 2016")
-if num1 == 48 and sign == '*' and num2 == 43:
-    print("48*43 = 2064")
-if num1 == 48 and sign == '*' and num2 == 44:
-    print("48*44 = 2112")
-if num1 == 48 and sign == '*' and num2 == 45:
-    print("48*45 = 2160")
-if num1 == 48 and sign == '*' and num2 == 46:
-    print("48*46 = 2208")
-if num1 == 48 and sign == '*' and num2 == 47:
-    print("48*47 = 2256")
-if num1 == 48 and sign == '*' and num2 == 48:
-    print("48*48 = 2304")
-if num1 == 48 and sign == '*' and num2 == 49:
-    print("48*49 = 2352")
-if num1 == 48 and sign == '*' and num2 == 50:
-    print("48*50 = 2400")
-if num1 == 49 and sign == '*' and num2 == 0:
-    print("49*0 = 0")
-if num1 == 49 and sign == '*' and num2 == 1:
-    print("49*1 = 49")
-if num1 == 49 and sign == '*' and num2 == 2:
-    print("49*2 = 98")
-if num1 == 49 and sign == '*' and num2 == 3:
-    print("49*3 = 147")
-if num1 == 49 and sign == '*' and num2 == 4:
-    print("49*4 = 196")
-if num1 == 49 and sign == '*' and num2 == 5:
-    print("49*5 = 245")
-if num1 == 49 and sign == '*' and num2 == 6:
-    print("49*6 = 294")
-if num1 == 49 and sign == '*' and num2 == 7:
-    print("49*7 = 343")
-if num1 == 49 and sign == '*' and num2 == 8:
-    print("49*8 = 392")
-if num1 == 49 and sign == '*' and num2 == 9:
-    print("49*9 = 441")
-if num1 == 49 and sign == '*' and num2 == 10:
-    print("49*10 = 490")
-if num1 == 49 and sign == '*' and num2 == 11:
-    print("49*11 = 539")
-if num1 == 49 and sign == '*' and num2 == 12:
-    print("49*12 = 588")
-if num1 == 49 and sign == '*' and num2 == 13:
-    print("49*13 = 637")
-if num1 == 49 and sign == '*' and num2 == 14:
-    print("49*14 = 686")
-if num1 == 49 and sign == '*' and num2 == 15:
-    print("49*15 = 735")
-if num1 == 49 and sign == '*' and num2 == 16:
-    print("49*16 = 784")
-if num1 == 49 and sign == '*' and num2 == 17:
-    print("49*17 = 833")
-if num1 == 49 and sign == '*' and num2 == 18:
-    print("49*18 = 882")
-if num1 == 49 and sign == '*' and num2 == 19:
-    print("49*19 = 931")
-if num1 == 49 and sign == '*' and num2 == 20:
-    print("49*20 = 980")
-if num1 == 49 and sign == '*' and num2 == 21:
-    print("49*21 = 1029")
-if num1 == 49 and sign == '*' and num2 == 22:
-    print("49*22 = 1078")
-if num1 == 49 and sign == '*' and num2 == 23:
-    print("49*23 = 1127")
-if num1 == 49 and sign == '*' and num2 == 24:
-    print("49*24 = 1176")
-if num1 == 49 and sign == '*' and num2 == 25:
-    print("49*25 = 1225")
-if num1 == 49 and sign == '*' and num2 == 26:
-    print("49*26 = 1274")
-if num1 == 49 and sign == '*' and num2 == 27:
-    print("49*27 = 1323")
-if num1 == 49 and sign == '*' and num2 == 28:
-    print("49*28 = 1372")
-if num1 == 49 and sign == '*' and num2 == 29:
-    print("49*29 = 1421")
-if num1 == 49 and sign == '*' and num2 == 30:
-    print("49*30 = 1470")
-if num1 == 49 and sign == '*' and num2 == 31:
-    print("49*31 = 1519")
-if num1 == 49 and sign == '*' and num2 == 32:
-    print("49*32 = 1568")
-if num1 == 49 and sign == '*' and num2 == 33:
-    print("49*33 = 1617")
-if num1 == 49 and sign == '*' and num2 == 34:
-    print("49*34 = 1666")
-if num1 == 49 and sign == '*' and num2 == 35:
-    print("49*35 = 1715")
-if num1 == 49 and sign == '*' and num2 == 36:
-    print("49*36 = 1764")
-if num1 == 49 and sign == '*' and num2 == 37:
-    print("49*37 = 1813")
-if num1 == 49 and sign == '*' and num2 == 38:
-    print("49*38 = 1862")
-if num1 == 49 and sign == '*' and num2 == 39:
-    print("49*39 = 1911")
-if num1 == 49 and sign == '*' and num2 == 40:
-    print("49*40 = 1960")
-if num1 == 49 and sign == '*' and num2 == 41:
-    print("49*41 = 2009")
-if num1 == 49 and sign == '*' and num2 == 42:
-    print("49*42 = 2058")
-if num1 == 49 and sign == '*' and num2 == 43:
-    print("49*43 = 2107")
-if num1 == 49 and sign == '*' and num2 == 44:
-    print("49*44 = 2156")
-if num1 == 49 and sign == '*' and num2 == 45:
-    print("49*45 = 2205")
-if num1 == 49 and sign == '*' and num2 == 46:
-    print("49*46 = 2254")
-if num1 == 49 and sign == '*' and num2 == 47:
-    print("49*47 = 2303")
-if num1 == 49 and sign == '*' and num2 == 48:
-    print("49*48 = 2352")
-if num1 == 49 and sign == '*' and num2 == 49:
-    print("49*49 = 2401")
-if num1 == 49 and sign == '*' and num2 == 50:
-    print("49*50 = 2450")
-if num1 == 50 and sign == '*' and num2 == 0:
-    print("50*0 = 0")
-if num1 == 50 and sign == '*' and num2 == 1:
-    print("50*1 = 50")
-if num1 == 50 and sign == '*' and num2 == 2:
-    print("50*2 = 100")
-if num1 == 50 and sign == '*' and num2 == 3:
-    print("50*3 = 150")
-if num1 == 50 and sign == '*' and num2 == 4:
-    print("50*4 = 200")
-if num1 == 50 and sign == '*' and num2 == 5:
-    print("50*5 = 250")
-if num1 == 50 and sign == '*' and num2 == 6:
-    print("50*6 = 300")
-if num1 == 50 and sign == '*' and num2 == 7:
-    print("50*7 = 350")
-if num1 == 50 and sign == '*' and num2 == 8:
-    print("50*8 = 400")
-if num1 == 50 and sign == '*' and num2 == 9:
-    print("50*9 = 450")
-if num1 == 50 and sign == '*' and num2 == 10:
-    print("50*10 = 500")
-if num1 == 50 and sign == '*' and num2 == 11:
-    print("50*11 = 550")
-if num1 == 50 and sign == '*' and num2 == 12:
-    print("50*12 = 600")
-if num1 == 50 and sign == '*' and num2 == 13:
-    print("50*13 = 650")
-if num1 == 50 and sign == '*' and num2 == 14:
-    print("50*14 = 700")
-if num1 == 50 and sign == '*' and num2 == 15:
-    print("50*15 = 750")
-if num1 == 50 and sign == '*' and num2 == 16:
-    print("50*16 = 800")
-if num1 == 50 and sign == '*' and num2 == 17:
-    print("50*17 = 850")
-if num1 == 50 and sign == '*' and num2 == 18:
-    print("50*18 = 900")
-if num1 == 50 and sign == '*' and num2 == 19:
-    print("50*19 = 950")
-if num1 == 50 and sign == '*' and num2 == 20:
-    print("50*20 = 1000")
-if num1 == 50 and sign == '*' and num2 == 21:
-    print("50*21 = 1050")
-if num1 == 50 and sign == '*' and num2 == 22:
-    print("50*22 = 1100")
-if num1 == 50 and sign == '*' and num2 == 23:
-    print("50*23 = 1150")
-if num1 == 50 and sign == '*' and num2 == 24:
-    print("50*24 = 1200")
-if num1 == 50 and sign == '*' and num2 == 25:
-    print("50*25 = 1250")
-if num1 == 50 and sign == '*' and num2 == 26:
-    print("50*26 = 1300")
-if num1 == 50 and sign == '*' and num2 == 27:
-    print("50*27 = 1350")
-if num1 == 50 and sign == '*' and num2 == 28:
-    print("50*28 = 1400")
-if num1 == 50 and sign == '*' and num2 == 29:
-    print("50*29 = 1450")
-if num1 == 50 and sign == '*' and num2 == 30:
-    print("50*30 = 1500")
-if num1 == 50 and sign == '*' and num2 == 31:
-    print("50*31 = 1550")
-if num1 == 50 and sign == '*' and num2 == 32:
-    print("50*32 = 1600")
-if num1 == 50 and sign == '*' and num2 == 33:
-    print("50*33 = 1650")
-if num1 == 50 and sign == '*' and num2 == 34:
-    print("50*34 = 1700")
-if num1 == 50 and sign == '*' and num2 == 35:
-    print("50*35 = 1750")
-if num1 == 50 and sign == '*' and num2 == 36:
-    print("50*36 = 1800")
-if num1 == 50 and sign == '*' and num2 == 37:
-    print("50*37 = 1850")
-if num1 == 50 and sign == '*' and num2 == 38:
-    print("50*38 = 1900")
-if num1 == 50 and sign == '*' and num2 == 39:
-    print("50*39 = 1950")
-if num1 == 50 and sign == '*' and num2 == 40:
-    print("50*40 = 2000")
-if num1 == 50 and sign == '*' and num2 == 41:
-    print("50*41 = 2050")
-if num1 == 50 and sign == '*' and num2 == 42:
-    print("50*42 = 2100")
-if num1 == 50 and sign == '*' and num2 == 43:
-    print("50*43 = 2150")
-if num1 == 50 and sign == '*' and num2 == 44:
-    print("50*44 = 2200")
-if num1 == 50 and sign == '*' and num2 == 45:
-    print("50*45 = 2250")
-if num1 == 50 and sign == '*' and num2 == 46:
-    print("50*46 = 2300")
-if num1 == 50 and sign == '*' and num2 == 47:
-    print("50*47 = 2350")
-if num1 == 50 and sign == '*' and num2 == 48:
-    print("50*48 = 2400")
-if num1 == 50 and sign == '*' and num2 == 49:
-    print("50*49 = 2450")
-if num1 == 50 and sign == '*' and num2 == 50:
-    print("50*50 = 2500")
-
+cal_dict = {
+	"0+0": "0",
+	"0+1": "1",
+	"0+2": "2",
+	"0+3": "3",
+	"0+4": "4",
+	"0+5": "5",
+	"0+6": "6",
+	"0+7": "7",
+	"0+8": "8",
+	"0+9": "9",
+	"0+10": "10",
+	"0+11": "11",
+	"0+12": "12",
+	"0+13": "13",
+	"0+14": "14",
+	"0+15": "15",
+	"0+16": "16",
+	"0+17": "17",
+	"0+18": "18",
+	"0+19": "19",
+	"0+20": "20",
+	"0+21": "21",
+	"0+22": "22",
+	"0+23": "23",
+	"0+24": "24",
+	"0+25": "25",
+	"0+26": "26",
+	"0+27": "27",
+	"0+28": "28",
+	"0+29": "29",
+	"0+30": "30",
+	"0+31": "31",
+	"0+32": "32",
+	"0+33": "33",
+	"0+34": "34",
+	"0+35": "35",
+	"0+36": "36",
+	"0+37": "37",
+	"0+38": "38",
+	"0+39": "39",
+	"0+40": "40",
+	"0+41": "41",
+	"0+42": "42",
+	"0+43": "43",
+	"0+44": "44",
+	"0+45": "45",
+	"0+46": "46",
+	"0+47": "47",
+	"0+48": "48",
+	"0+49": "49",
+	"1+0": "1",
+	"1+1": "2",
+	"1+2": "3",
+	"1+3": "4",
+	"1+4": "5",
+	"1+5": "6",
+	"1+6": "7",
+	"1+7": "8",
+	"1+8": "9",
+	"1+9": "10",
+	"1+10": "11",
+	"1+11": "12",
+	"1+12": "13",
+	"1+13": "14",
+	"1+14": "15",
+	"1+15": "16",
+	"1+16": "17",
+	"1+17": "18",
+	"1+18": "19",
+	"1+19": "20",
+	"1+20": "21",
+	"1+21": "22",
+	"1+22": "23",
+	"1+23": "24",
+	"1+24": "25",
+	"1+25": "26",
+	"1+26": "27",
+	"1+27": "28",
+	"1+28": "29",
+	"1+29": "30",
+	"1+30": "31",
+	"1+31": "32",
+	"1+32": "33",
+	"1+33": "34",
+	"1+34": "35",
+	"1+35": "36",
+	"1+36": "37",
+	"1+37": "38",
+	"1+38": "39",
+	"1+39": "40",
+	"1+40": "41",
+	"1+41": "42",
+	"1+42": "43",
+	"1+43": "44",
+	"1+44": "45",
+	"1+45": "46",
+	"1+46": "47",
+	"1+47": "48",
+	"1+48": "49",
+	"1+49": "50",
+	"2+0": "2",
+	"2+1": "3",
+	"2+2": "4",
+	"2+3": "5",
+	"2+4": "6",
+	"2+5": "7",
+	"2+6": "8",
+	"2+7": "9",
+	"2+8": "10",
+	"2+9": "11",
+	"2+10": "12",
+	"2+11": "13",
+	"2+12": "14",
+	"2+13": "15",
+	"2+14": "16",
+	"2+15": "17",
+	"2+16": "18",
+	"2+17": "19",
+	"2+18": "20",
+	"2+19": "21",
+	"2+20": "22",
+	"2+21": "23",
+	"2+22": "24",
+	"2+23": "25",
+	"2+24": "26",
+	"2+25": "27",
+	"2+26": "28",
+	"2+27": "29",
+	"2+28": "30",
+	"2+29": "31",
+	"2+30": "32",
+	"2+31": "33",
+	"2+32": "34",
+	"2+33": "35",
+	"2+34": "36",
+	"2+35": "37",
+	"2+36": "38",
+	"2+37": "39",
+	"2+38": "40",
+	"2+39": "41",
+	"2+40": "42",
+	"2+41": "43",
+	"2+42": "44",
+	"2+43": "45",
+	"2+44": "46",
+	"2+45": "47",
+	"2+46": "48",
+	"2+47": "49",
+	"2+48": "50",
+	"2+49": "51",
+	"3+0": "3",
+	"3+1": "4",
+	"3+2": "5",
+	"3+3": "6",
+	"3+4": "7",
+	"3+5": "8",
+	"3+6": "9",
+	"3+7": "10",
+	"3+8": "11",
+	"3+9": "12",
+	"3+10": "13",
+	"3+11": "14",
+	"3+12": "15",
+	"3+13": "16",
+	"3+14": "17",
+	"3+15": "18",
+	"3+16": "19",
+	"3+17": "20",
+	"3+18": "21",
+	"3+19": "22",
+	"3+20": "23",
+	"3+21": "24",
+	"3+22": "25",
+	"3+23": "26",
+	"3+24": "27",
+	"3+25": "28",
+	"3+26": "29",
+	"3+27": "30",
+	"3+28": "31",
+	"3+29": "32",
+	"3+30": "33",
+	"3+31": "34",
+	"3+32": "35",
+	"3+33": "36",
+	"3+34": "37",
+	"3+35": "38",
+	"3+36": "39",
+	"3+37": "40",
+	"3+38": "41",
+	"3+39": "42",
+	"3+40": "43",
+	"3+41": "44",
+	"3+42": "45",
+	"3+43": "46",
+	"3+44": "47",
+	"3+45": "48",
+	"3+46": "49",
+	"3+47": "50",
+	"3+48": "51",
+	"3+49": "52",
+	"4+0": "4",
+	"4+1": "5",
+	"4+2": "6",
+	"4+3": "7",
+	"4+4": "8",
+	"4+5": "9",
+	"4+6": "10",
+	"4+7": "11",
+	"4+8": "12",
+	"4+9": "13",
+	"4+10": "14",
+	"4+11": "15",
+	"4+12": "16",
+	"4+13": "17",
+	"4+14": "18",
+	"4+15": "19",
+	"4+16": "20",
+	"4+17": "21",
+	"4+18": "22",
+	"4+19": "23",
+	"4+20": "24",
+	"4+21": "25",
+	"4+22": "26",
+	"4+23": "27",
+	"4+24": "28",
+	"4+25": "29",
+	"4+26": "30",
+	"4+27": "31",
+	"4+28": "32",
+	"4+29": "33",
+	"4+30": "34",
+	"4+31": "35",
+	"4+32": "36",
+	"4+33": "37",
+	"4+34": "38",
+	"4+35": "39",
+	"4+36": "40",
+	"4+37": "41",
+	"4+38": "42",
+	"4+39": "43",
+	"4+40": "44",
+	"4+41": "45",
+	"4+42": "46",
+	"4+43": "47",
+	"4+44": "48",
+	"4+45": "49",
+	"4+46": "50",
+	"4+47": "51",
+	"4+48": "52",
+	"4+49": "53",
+	"5+0": "5",
+	"5+1": "6",
+	"5+2": "7",
+	"5+3": "8",
+	"5+4": "9",
+	"5+5": "10",
+	"5+6": "11",
+	"5+7": "12",
+	"5+8": "13",
+	"5+9": "14",
+	"5+10": "15",
+	"5+11": "16",
+	"5+12": "17",
+	"5+13": "18",
+	"5+14": "19",
+	"5+15": "20",
+	"5+16": "21",
+	"5+17": "22",
+	"5+18": "23",
+	"5+19": "24",
+	"5+20": "25",
+	"5+21": "26",
+	"5+22": "27",
+	"5+23": "28",
+	"5+24": "29",
+	"5+25": "30",
+	"5+26": "31",
+	"5+27": "32",
+	"5+28": "33",
+	"5+29": "34",
+	"5+30": "35",
+	"5+31": "36",
+	"5+32": "37",
+	"5+33": "38",
+	"5+34": "39",
+	"5+35": "40",
+	"5+36": "41",
+	"5+37": "42",
+	"5+38": "43",
+	"5+39": "44",
+	"5+40": "45",
+	"5+41": "46",
+	"5+42": "47",
+	"5+43": "48",
+	"5+44": "49",
+	"5+45": "50",
+	"5+46": "51",
+	"5+47": "52",
+	"5+48": "53",
+	"5+49": "54",
+	"6+0": "6",
+	"6+1": "7",
+	"6+2": "8",
+	"6+3": "9",
+	"6+4": "10",
+	"6+5": "11",
+	"6+6": "12",
+	"6+7": "13",
+	"6+8": "14",
+	"6+9": "15",
+	"6+10": "16",
+	"6+11": "17",
+	"6+12": "18",
+	"6+13": "19",
+	"6+14": "20",
+	"6+15": "21",
+	"6+16": "22",
+	"6+17": "23",
+	"6+18": "24",
+	"6+19": "25",
+	"6+20": "26",
+	"6+21": "27",
+	"6+22": "28",
+	"6+23": "29",
+	"6+24": "30",
+	"6+25": "31",
+	"6+26": "32",
+	"6+27": "33",
+	"6+28": "34",
+	"6+29": "35",
+	"6+30": "36",
+	"6+31": "37",
+	"6+32": "38",
+	"6+33": "39",
+	"6+34": "40",
+	"6+35": "41",
+	"6+36": "42",
+	"6+37": "43",
+	"6+38": "44",
+	"6+39": "45",
+	"6+40": "46",
+	"6+41": "47",
+	"6+42": "48",
+	"6+43": "49",
+	"6+44": "50",
+	"6+45": "51",
+	"6+46": "52",
+	"6+47": "53",
+	"6+48": "54",
+	"6+49": "55",
+	"7+0": "7",
+	"7+1": "8",
+	"7+2": "9",
+	"7+3": "10",
+	"7+4": "11",
+	"7+5": "12",
+	"7+6": "13",
+	"7+7": "14",
+	"7+8": "15",
+	"7+9": "16",
+	"7+10": "17",
+	"7+11": "18",
+	"7+12": "19",
+	"7+13": "20",
+	"7+14": "21",
+	"7+15": "22",
+	"7+16": "23",
+	"7+17": "24",
+	"7+18": "25",
+	"7+19": "26",
+	"7+20": "27",
+	"7+21": "28",
+	"7+22": "29",
+	"7+23": "30",
+	"7+24": "31",
+	"7+25": "32",
+	"7+26": "33",
+	"7+27": "34",
+	"7+28": "35",
+	"7+29": "36",
+	"7+30": "37",
+	"7+31": "38",
+	"7+32": "39",
+	"7+33": "40",
+	"7+34": "41",
+	"7+35": "42",
+	"7+36": "43",
+	"7+37": "44",
+	"7+38": "45",
+	"7+39": "46",
+	"7+40": "47",
+	"7+41": "48",
+	"7+42": "49",
+	"7+43": "50",
+	"7+44": "51",
+	"7+45": "52",
+	"7+46": "53",
+	"7+47": "54",
+	"7+48": "55",
+	"7+49": "56",
+	"8+0": "8",
+	"8+1": "9",
+	"8+2": "10",
+	"8+3": "11",
+	"8+4": "12",
+	"8+5": "13",
+	"8+6": "14",
+	"8+7": "15",
+	"8+8": "16",
+	"8+9": "17",
+	"8+10": "18",
+	"8+11": "19",
+	"8+12": "20",
+	"8+13": "21",
+	"8+14": "22",
+	"8+15": "23",
+	"8+16": "24",
+	"8+17": "25",
+	"8+18": "26",
+	"8+19": "27",
+	"8+20": "28",
+	"8+21": "29",
+	"8+22": "30",
+	"8+23": "31",
+	"8+24": "32",
+	"8+25": "33",
+	"8+26": "34",
+	"8+27": "35",
+	"8+28": "36",
+	"8+29": "37",
+	"8+30": "38",
+	"8+31": "39",
+	"8+32": "40",
+	"8+33": "41",
+	"8+34": "42",
+	"8+35": "43",
+	"8+36": "44",
+	"8+37": "45",
+	"8+38": "46",
+	"8+39": "47",
+	"8+40": "48",
+	"8+41": "49",
+	"8+42": "50",
+	"8+43": "51",
+	"8+44": "52",
+	"8+45": "53",
+	"8+46": "54",
+	"8+47": "55",
+	"8+48": "56",
+	"8+49": "57",
+	"9+0": "9",
+	"9+1": "10",
+	"9+2": "11",
+	"9+3": "12",
+	"9+4": "13",
+	"9+5": "14",
+	"9+6": "15",
+	"9+7": "16",
+	"9+8": "17",
+	"9+9": "18",
+	"9+10": "19",
+	"9+11": "20",
+	"9+12": "21",
+	"9+13": "22",
+	"9+14": "23",
+	"9+15": "24",
+	"9+16": "25",
+	"9+17": "26",
+	"9+18": "27",
+	"9+19": "28",
+	"9+20": "29",
+	"9+21": "30",
+	"9+22": "31",
+	"9+23": "32",
+	"9+24": "33",
+	"9+25": "34",
+	"9+26": "35",
+	"9+27": "36",
+	"9+28": "37",
+	"9+29": "38",
+	"9+30": "39",
+	"9+31": "40",
+	"9+32": "41",
+	"9+33": "42",
+	"9+34": "43",
+	"9+35": "44",
+	"9+36": "45",
+	"9+37": "46",
+	"9+38": "47",
+	"9+39": "48",
+	"9+40": "49",
+	"9+41": "50",
+	"9+42": "51",
+	"9+43": "52",
+	"9+44": "53",
+	"9+45": "54",
+	"9+46": "55",
+	"9+47": "56",
+	"9+48": "57",
+	"9+49": "58",
+	"10+0": "10",
+	"10+1": "11",
+	"10+2": "12",
+	"10+3": "13",
+	"10+4": "14",
+	"10+5": "15",
+	"10+6": "16",
+	"10+7": "17",
+	"10+8": "18",
+	"10+9": "19",
+	"10+10": "20",
+	"10+11": "21",
+	"10+12": "22",
+	"10+13": "23",
+	"10+14": "24",
+	"10+15": "25",
+	"10+16": "26",
+	"10+17": "27",
+	"10+18": "28",
+	"10+19": "29",
+	"10+20": "30",
+	"10+21": "31",
+	"10+22": "32",
+	"10+23": "33",
+	"10+24": "34",
+	"10+25": "35",
+	"10+26": "36",
+	"10+27": "37",
+	"10+28": "38",
+	"10+29": "39",
+	"10+30": "40",
+	"10+31": "41",
+	"10+32": "42",
+	"10+33": "43",
+	"10+34": "44",
+	"10+35": "45",
+	"10+36": "46",
+	"10+37": "47",
+	"10+38": "48",
+	"10+39": "49",
+	"10+40": "50",
+	"10+41": "51",
+	"10+42": "52",
+	"10+43": "53",
+	"10+44": "54",
+	"10+45": "55",
+	"10+46": "56",
+	"10+47": "57",
+	"10+48": "58",
+	"10+49": "59",
+	"11+0": "11",
+	"11+1": "12",
+	"11+2": "13",
+	"11+3": "14",
+	"11+4": "15",
+	"11+5": "16",
+	"11+6": "17",
+	"11+7": "18",
+	"11+8": "19",
+	"11+9": "20",
+	"11+10": "21",
+	"11+11": "22",
+	"11+12": "23",
+	"11+13": "24",
+	"11+14": "25",
+	"11+15": "26",
+	"11+16": "27",
+	"11+17": "28",
+	"11+18": "29",
+	"11+19": "30",
+	"11+20": "31",
+	"11+21": "32",
+	"11+22": "33",
+	"11+23": "34",
+	"11+24": "35",
+	"11+25": "36",
+	"11+26": "37",
+	"11+27": "38",
+	"11+28": "39",
+	"11+29": "40",
+	"11+30": "41",
+	"11+31": "42",
+	"11+32": "43",
+	"11+33": "44",
+	"11+34": "45",
+	"11+35": "46",
+	"11+36": "47",
+	"11+37": "48",
+	"11+38": "49",
+	"11+39": "50",
+	"11+40": "51",
+	"11+41": "52",
+	"11+42": "53",
+	"11+43": "54",
+	"11+44": "55",
+	"11+45": "56",
+	"11+46": "57",
+	"11+47": "58",
+	"11+48": "59",
+	"11+49": "60",
+	"12+0": "12",
+	"12+1": "13",
+	"12+2": "14",
+	"12+3": "15",
+	"12+4": "16",
+	"12+5": "17",
+	"12+6": "18",
+	"12+7": "19",
+	"12+8": "20",
+	"12+9": "21",
+	"12+10": "22",
+	"12+11": "23",
+	"12+12": "24",
+	"12+13": "25",
+	"12+14": "26",
+	"12+15": "27",
+	"12+16": "28",
+	"12+17": "29",
+	"12+18": "30",
+	"12+19": "31",
+	"12+20": "32",
+	"12+21": "33",
+	"12+22": "34",
+	"12+23": "35",
+	"12+24": "36",
+	"12+25": "37",
+	"12+26": "38",
+	"12+27": "39",
+	"12+28": "40",
+	"12+29": "41",
+	"12+30": "42",
+	"12+31": "43",
+	"12+32": "44",
+	"12+33": "45",
+	"12+34": "46",
+	"12+35": "47",
+	"12+36": "48",
+	"12+37": "49",
+	"12+38": "50",
+	"12+39": "51",
+	"12+40": "52",
+	"12+41": "53",
+	"12+42": "54",
+	"12+43": "55",
+	"12+44": "56",
+	"12+45": "57",
+	"12+46": "58",
+	"12+47": "59",
+	"12+48": "60",
+	"12+49": "61",
+	"13+0": "13",
+	"13+1": "14",
+	"13+2": "15",
+	"13+3": "16",
+	"13+4": "17",
+	"13+5": "18",
+	"13+6": "19",
+	"13+7": "20",
+	"13+8": "21",
+	"13+9": "22",
+	"13+10": "23",
+	"13+11": "24",
+	"13+12": "25",
+	"13+13": "26",
+	"13+14": "27",
+	"13+15": "28",
+	"13+16": "29",
+	"13+17": "30",
+	"13+18": "31",
+	"13+19": "32",
+	"13+20": "33",
+	"13+21": "34",
+	"13+22": "35",
+	"13+23": "36",
+	"13+24": "37",
+	"13+25": "38",
+	"13+26": "39",
+	"13+27": "40",
+	"13+28": "41",
+	"13+29": "42",
+	"13+30": "43",
+	"13+31": "44",
+	"13+32": "45",
+	"13+33": "46",
+	"13+34": "47",
+	"13+35": "48",
+	"13+36": "49",
+	"13+37": "50",
+	"13+38": "51",
+	"13+39": "52",
+	"13+40": "53",
+	"13+41": "54",
+	"13+42": "55",
+	"13+43": "56",
+	"13+44": "57",
+	"13+45": "58",
+	"13+46": "59",
+	"13+47": "60",
+	"13+48": "61",
+	"13+49": "62",
+	"14+0": "14",
+	"14+1": "15",
+	"14+2": "16",
+	"14+3": "17",
+	"14+4": "18",
+	"14+5": "19",
+	"14+6": "20",
+	"14+7": "21",
+	"14+8": "22",
+	"14+9": "23",
+	"14+10": "24",
+	"14+11": "25",
+	"14+12": "26",
+	"14+13": "27",
+	"14+14": "28",
+	"14+15": "29",
+	"14+16": "30",
+	"14+17": "31",
+	"14+18": "32",
+	"14+19": "33",
+	"14+20": "34",
+	"14+21": "35",
+	"14+22": "36",
+	"14+23": "37",
+	"14+24": "38",
+	"14+25": "39",
+	"14+26": "40",
+	"14+27": "41",
+	"14+28": "42",
+	"14+29": "43",
+	"14+30": "44",
+	"14+31": "45",
+	"14+32": "46",
+	"14+33": "47",
+	"14+34": "48",
+	"14+35": "49",
+	"14+36": "50",
+	"14+37": "51",
+	"14+38": "52",
+	"14+39": "53",
+	"14+40": "54",
+	"14+41": "55",
+	"14+42": "56",
+	"14+43": "57",
+	"14+44": "58",
+	"14+45": "59",
+	"14+46": "60",
+	"14+47": "61",
+	"14+48": "62",
+	"14+49": "63",
+	"15+0": "15",
+	"15+1": "16",
+	"15+2": "17",
+	"15+3": "18",
+	"15+4": "19",
+	"15+5": "20",
+	"15+6": "21",
+	"15+7": "22",
+	"15+8": "23",
+	"15+9": "24",
+	"15+10": "25",
+	"15+11": "26",
+	"15+12": "27",
+	"15+13": "28",
+	"15+14": "29",
+	"15+15": "30",
+	"15+16": "31",
+	"15+17": "32",
+	"15+18": "33",
+	"15+19": "34",
+	"15+20": "35",
+	"15+21": "36",
+	"15+22": "37",
+	"15+23": "38",
+	"15+24": "39",
+	"15+25": "40",
+	"15+26": "41",
+	"15+27": "42",
+	"15+28": "43",
+	"15+29": "44",
+	"15+30": "45",
+	"15+31": "46",
+	"15+32": "47",
+	"15+33": "48",
+	"15+34": "49",
+	"15+35": "50",
+	"15+36": "51",
+	"15+37": "52",
+	"15+38": "53",
+	"15+39": "54",
+	"15+40": "55",
+	"15+41": "56",
+	"15+42": "57",
+	"15+43": "58",
+	"15+44": "59",
+	"15+45": "60",
+	"15+46": "61",
+	"15+47": "62",
+	"15+48": "63",
+	"15+49": "64",
+	"16+0": "16",
+	"16+1": "17",
+	"16+2": "18",
+	"16+3": "19",
+	"16+4": "20",
+	"16+5": "21",
+	"16+6": "22",
+	"16+7": "23",
+	"16+8": "24",
+	"16+9": "25",
+	"16+10": "26",
+	"16+11": "27",
+	"16+12": "28",
+	"16+13": "29",
+	"16+14": "30",
+	"16+15": "31",
+	"16+16": "32",
+	"16+17": "33",
+	"16+18": "34",
+	"16+19": "35",
+	"16+20": "36",
+	"16+21": "37",
+	"16+22": "38",
+	"16+23": "39",
+	"16+24": "40",
+	"16+25": "41",
+	"16+26": "42",
+	"16+27": "43",
+	"16+28": "44",
+	"16+29": "45",
+	"16+30": "46",
+	"16+31": "47",
+	"16+32": "48",
+	"16+33": "49",
+	"16+34": "50",
+	"16+35": "51",
+	"16+36": "52",
+	"16+37": "53",
+	"16+38": "54",
+	"16+39": "55",
+	"16+40": "56",
+	"16+41": "57",
+	"16+42": "58",
+	"16+43": "59",
+	"16+44": "60",
+	"16+45": "61",
+	"16+46": "62",
+	"16+47": "63",
+	"16+48": "64",
+	"16+49": "65",
+	"17+0": "17",
+	"17+1": "18",
+	"17+2": "19",
+	"17+3": "20",
+	"17+4": "21",
+	"17+5": "22",
+	"17+6": "23",
+	"17+7": "24",
+	"17+8": "25",
+	"17+9": "26",
+	"17+10": "27",
+	"17+11": "28",
+	"17+12": "29",
+	"17+13": "30",
+	"17+14": "31",
+	"17+15": "32",
+	"17+16": "33",
+	"17+17": "34",
+	"17+18": "35",
+	"17+19": "36",
+	"17+20": "37",
+	"17+21": "38",
+	"17+22": "39",
+	"17+23": "40",
+	"17+24": "41",
+	"17+25": "42",
+	"17+26": "43",
+	"17+27": "44",
+	"17+28": "45",
+	"17+29": "46",
+	"17+30": "47",
+	"17+31": "48",
+	"17+32": "49",
+	"17+33": "50",
+	"17+34": "51",
+	"17+35": "52",
+	"17+36": "53",
+	"17+37": "54",
+	"17+38": "55",
+	"17+39": "56",
+	"17+40": "57",
+	"17+41": "58",
+	"17+42": "59",
+	"17+43": "60",
+	"17+44": "61",
+	"17+45": "62",
+	"17+46": "63",
+	"17+47": "64",
+	"17+48": "65",
+	"17+49": "66",
+	"18+0": "18",
+	"18+1": "19",
+	"18+2": "20",
+	"18+3": "21",
+	"18+4": "22",
+	"18+5": "23",
+	"18+6": "24",
+	"18+7": "25",
+	"18+8": "26",
+	"18+9": "27",
+	"18+10": "28",
+	"18+11": "29",
+	"18+12": "30",
+	"18+13": "31",
+	"18+14": "32",
+	"18+15": "33",
+	"18+16": "34",
+	"18+17": "35",
+	"18+18": "36",
+	"18+19": "37",
+	"18+20": "38",
+	"18+21": "39",
+	"18+22": "40",
+	"18+23": "41",
+	"18+24": "42",
+	"18+25": "43",
+	"18+26": "44",
+	"18+27": "45",
+	"18+28": "46",
+	"18+29": "47",
+	"18+30": "48",
+	"18+31": "49",
+	"18+32": "50",
+	"18+33": "51",
+	"18+34": "52",
+	"18+35": "53",
+	"18+36": "54",
+	"18+37": "55",
+	"18+38": "56",
+	"18+39": "57",
+	"18+40": "58",
+	"18+41": "59",
+	"18+42": "60",
+	"18+43": "61",
+	"18+44": "62",
+	"18+45": "63",
+	"18+46": "64",
+	"18+47": "65",
+	"18+48": "66",
+	"18+49": "67",
+	"19+0": "19",
+	"19+1": "20",
+	"19+2": "21",
+	"19+3": "22",
+	"19+4": "23",
+	"19+5": "24",
+	"19+6": "25",
+	"19+7": "26",
+	"19+8": "27",
+	"19+9": "28",
+	"19+10": "29",
+	"19+11": "30",
+	"19+12": "31",
+	"19+13": "32",
+	"19+14": "33",
+	"19+15": "34",
+	"19+16": "35",
+	"19+17": "36",
+	"19+18": "37",
+	"19+19": "38",
+	"19+20": "39",
+	"19+21": "40",
+	"19+22": "41",
+	"19+23": "42",
+	"19+24": "43",
+	"19+25": "44",
+	"19+26": "45",
+	"19+27": "46",
+	"19+28": "47",
+	"19+29": "48",
+	"19+30": "49",
+	"19+31": "50",
+	"19+32": "51",
+	"19+33": "52",
+	"19+34": "53",
+	"19+35": "54",
+	"19+36": "55",
+	"19+37": "56",
+	"19+38": "57",
+	"19+39": "58",
+	"19+40": "59",
+	"19+41": "60",
+	"19+42": "61",
+	"19+43": "62",
+	"19+44": "63",
+	"19+45": "64",
+	"19+46": "65",
+	"19+47": "66",
+	"19+48": "67",
+	"19+49": "68",
+	"20+0": "20",
+	"20+1": "21",
+	"20+2": "22",
+	"20+3": "23",
+	"20+4": "24",
+	"20+5": "25",
+	"20+6": "26",
+	"20+7": "27",
+	"20+8": "28",
+	"20+9": "29",
+	"20+10": "30",
+	"20+11": "31",
+	"20+12": "32",
+	"20+13": "33",
+	"20+14": "34",
+	"20+15": "35",
+	"20+16": "36",
+	"20+17": "37",
+	"20+18": "38",
+	"20+19": "39",
+	"20+20": "40",
+	"20+21": "41",
+	"20+22": "42",
+	"20+23": "43",
+	"20+24": "44",
+	"20+25": "45",
+	"20+26": "46",
+	"20+27": "47",
+	"20+28": "48",
+	"20+29": "49",
+	"20+30": "50",
+	"20+31": "51",
+	"20+32": "52",
+	"20+33": "53",
+	"20+34": "54",
+	"20+35": "55",
+	"20+36": "56",
+	"20+37": "57",
+	"20+38": "58",
+	"20+39": "59",
+	"20+40": "60",
+	"20+41": "61",
+	"20+42": "62",
+	"20+43": "63",
+	"20+44": "64",
+	"20+45": "65",
+	"20+46": "66",
+	"20+47": "67",
+	"20+48": "68",
+	"20+49": "69",
+	"21+0": "21",
+	"21+1": "22",
+	"21+2": "23",
+	"21+3": "24",
+	"21+4": "25",
+	"21+5": "26",
+	"21+6": "27",
+	"21+7": "28",
+	"21+8": "29",
+	"21+9": "30",
+	"21+10": "31",
+	"21+11": "32",
+	"21+12": "33",
+	"21+13": "34",
+	"21+14": "35",
+	"21+15": "36",
+	"21+16": "37",
+	"21+17": "38",
+	"21+18": "39",
+	"21+19": "40",
+	"21+20": "41",
+	"21+21": "42",
+	"21+22": "43",
+	"21+23": "44",
+	"21+24": "45",
+	"21+25": "46",
+	"21+26": "47",
+	"21+27": "48",
+	"21+28": "49",
+	"21+29": "50",
+	"21+30": "51",
+	"21+31": "52",
+	"21+32": "53",
+	"21+33": "54",
+	"21+34": "55",
+	"21+35": "56",
+	"21+36": "57",
+	"21+37": "58",
+	"21+38": "59",
+	"21+39": "60",
+	"21+40": "61",
+	"21+41": "62",
+	"21+42": "63",
+	"21+43": "64",
+	"21+44": "65",
+	"21+45": "66",
+	"21+46": "67",
+	"21+47": "68",
+	"21+48": "69",
+	"21+49": "70",
+	"22+0": "22",
+	"22+1": "23",
+	"22+2": "24",
+	"22+3": "25",
+	"22+4": "26",
+	"22+5": "27",
+	"22+6": "28",
+	"22+7": "29",
+	"22+8": "30",
+	"22+9": "31",
+	"22+10": "32",
+	"22+11": "33",
+	"22+12": "34",
+	"22+13": "35",
+	"22+14": "36",
+	"22+15": "37",
+	"22+16": "38",
+	"22+17": "39",
+	"22+18": "40",
+	"22+19": "41",
+	"22+20": "42",
+	"22+21": "43",
+	"22+22": "44",
+	"22+23": "45",
+	"22+24": "46",
+	"22+25": "47",
+	"22+26": "48",
+	"22+27": "49",
+	"22+28": "50",
+	"22+29": "51",
+	"22+30": "52",
+	"22+31": "53",
+	"22+32": "54",
+	"22+33": "55",
+	"22+34": "56",
+	"22+35": "57",
+	"22+36": "58",
+	"22+37": "59",
+	"22+38": "60",
+	"22+39": "61",
+	"22+40": "62",
+	"22+41": "63",
+	"22+42": "64",
+	"22+43": "65",
+	"22+44": "66",
+	"22+45": "67",
+	"22+46": "68",
+	"22+47": "69",
+	"22+48": "70",
+	"22+49": "71",
+	"23+0": "23",
+	"23+1": "24",
+	"23+2": "25",
+	"23+3": "26",
+	"23+4": "27",
+	"23+5": "28",
+	"23+6": "29",
+	"23+7": "30",
+	"23+8": "31",
+	"23+9": "32",
+	"23+10": "33",
+	"23+11": "34",
+	"23+12": "35",
+	"23+13": "36",
+	"23+14": "37",
+	"23+15": "38",
+	"23+16": "39",
+	"23+17": "40",
+	"23+18": "41",
+	"23+19": "42",
+	"23+20": "43",
+	"23+21": "44",
+	"23+22": "45",
+	"23+23": "46",
+	"23+24": "47",
+	"23+25": "48",
+	"23+26": "49",
+	"23+27": "50",
+	"23+28": "51",
+	"23+29": "52",
+	"23+30": "53",
+	"23+31": "54",
+	"23+32": "55",
+	"23+33": "56",
+	"23+34": "57",
+	"23+35": "58",
+	"23+36": "59",
+	"23+37": "60",
+	"23+38": "61",
+	"23+39": "62",
+	"23+40": "63",
+	"23+41": "64",
+	"23+42": "65",
+	"23+43": "66",
+	"23+44": "67",
+	"23+45": "68",
+	"23+46": "69",
+	"23+47": "70",
+	"23+48": "71",
+	"23+49": "72",
+	"24+0": "24",
+	"24+1": "25",
+	"24+2": "26",
+	"24+3": "27",
+	"24+4": "28",
+	"24+5": "29",
+	"24+6": "30",
+	"24+7": "31",
+	"24+8": "32",
+	"24+9": "33",
+	"24+10": "34",
+	"24+11": "35",
+	"24+12": "36",
+	"24+13": "37",
+	"24+14": "38",
+	"24+15": "39",
+	"24+16": "40",
+	"24+17": "41",
+	"24+18": "42",
+	"24+19": "43",
+	"24+20": "44",
+	"24+21": "45",
+	"24+22": "46",
+	"24+23": "47",
+	"24+24": "48",
+	"24+25": "49",
+	"24+26": "50",
+	"24+27": "51",
+	"24+28": "52",
+	"24+29": "53",
+	"24+30": "54",
+	"24+31": "55",
+	"24+32": "56",
+	"24+33": "57",
+	"24+34": "58",
+	"24+35": "59",
+	"24+36": "60",
+	"24+37": "61",
+	"24+38": "62",
+	"24+39": "63",
+	"24+40": "64",
+	"24+41": "65",
+	"24+42": "66",
+	"24+43": "67",
+	"24+44": "68",
+	"24+45": "69",
+	"24+46": "70",
+	"24+47": "71",
+	"24+48": "72",
+	"24+49": "73",
+	"25+0": "25",
+	"25+1": "26",
+	"25+2": "27",
+	"25+3": "28",
+	"25+4": "29",
+	"25+5": "30",
+	"25+6": "31",
+	"25+7": "32",
+	"25+8": "33",
+	"25+9": "34",
+	"25+10": "35",
+	"25+11": "36",
+	"25+12": "37",
+	"25+13": "38",
+	"25+14": "39",
+	"25+15": "40",
+	"25+16": "41",
+	"25+17": "42",
+	"25+18": "43",
+	"25+19": "44",
+	"25+20": "45",
+	"25+21": "46",
+	"25+22": "47",
+	"25+23": "48",
+	"25+24": "49",
+	"25+25": "50",
+	"25+26": "51",
+	"25+27": "52",
+	"25+28": "53",
+	"25+29": "54",
+	"25+30": "55",
+	"25+31": "56",
+	"25+32": "57",
+	"25+33": "58",
+	"25+34": "59",
+	"25+35": "60",
+	"25+36": "61",
+	"25+37": "62",
+	"25+38": "63",
+	"25+39": "64",
+	"25+40": "65",
+	"25+41": "66",
+	"25+42": "67",
+	"25+43": "68",
+	"25+44": "69",
+	"25+45": "70",
+	"25+46": "71",
+	"25+47": "72",
+	"25+48": "73",
+	"25+49": "74",
+	"26+0": "26",
+	"26+1": "27",
+	"26+2": "28",
+	"26+3": "29",
+	"26+4": "30",
+	"26+5": "31",
+	"26+6": "32",
+	"26+7": "33",
+	"26+8": "34",
+	"26+9": "35",
+	"26+10": "36",
+	"26+11": "37",
+	"26+12": "38",
+	"26+13": "39",
+	"26+14": "40",
+	"26+15": "41",
+	"26+16": "42",
+	"26+17": "43",
+	"26+18": "44",
+	"26+19": "45",
+	"26+20": "46",
+	"26+21": "47",
+	"26+22": "48",
+	"26+23": "49",
+	"26+24": "50",
+	"26+25": "51",
+	"26+26": "52",
+	"26+27": "53",
+	"26+28": "54",
+	"26+29": "55",
+	"26+30": "56",
+	"26+31": "57",
+	"26+32": "58",
+	"26+33": "59",
+	"26+34": "60",
+	"26+35": "61",
+	"26+36": "62",
+	"26+37": "63",
+	"26+38": "64",
+	"26+39": "65",
+	"26+40": "66",
+	"26+41": "67",
+	"26+42": "68",
+	"26+43": "69",
+	"26+44": "70",
+	"26+45": "71",
+	"26+46": "72",
+	"26+47": "73",
+	"26+48": "74",
+	"26+49": "75",
+	"27+0": "27",
+	"27+1": "28",
+	"27+2": "29",
+	"27+3": "30",
+	"27+4": "31",
+	"27+5": "32",
+	"27+6": "33",
+	"27+7": "34",
+	"27+8": "35",
+	"27+9": "36",
+	"27+10": "37",
+	"27+11": "38",
+	"27+12": "39",
+	"27+13": "40",
+	"27+14": "41",
+	"27+15": "42",
+	"27+16": "43",
+	"27+17": "44",
+	"27+18": "45",
+	"27+19": "46",
+	"27+20": "47",
+	"27+21": "48",
+	"27+22": "49",
+	"27+23": "50",
+	"27+24": "51",
+	"27+25": "52",
+	"27+26": "53",
+	"27+27": "54",
+	"27+28": "55",
+	"27+29": "56",
+	"27+30": "57",
+	"27+31": "58",
+	"27+32": "59",
+	"27+33": "60",
+	"27+34": "61",
+	"27+35": "62",
+	"27+36": "63",
+	"27+37": "64",
+	"27+38": "65",
+	"27+39": "66",
+	"27+40": "67",
+	"27+41": "68",
+	"27+42": "69",
+	"27+43": "70",
+	"27+44": "71",
+	"27+45": "72",
+	"27+46": "73",
+	"27+47": "74",
+	"27+48": "75",
+	"27+49": "76",
+	"28+0": "28",
+	"28+1": "29",
+	"28+2": "30",
+	"28+3": "31",
+	"28+4": "32",
+	"28+5": "33",
+	"28+6": "34",
+	"28+7": "35",
+	"28+8": "36",
+	"28+9": "37",
+	"28+10": "38",
+	"28+11": "39",
+	"28+12": "40",
+	"28+13": "41",
+	"28+14": "42",
+	"28+15": "43",
+	"28+16": "44",
+	"28+17": "45",
+	"28+18": "46",
+	"28+19": "47",
+	"28+20": "48",
+	"28+21": "49",
+	"28+22": "50",
+	"28+23": "51",
+	"28+24": "52",
+	"28+25": "53",
+	"28+26": "54",
+	"28+27": "55",
+	"28+28": "56",
+	"28+29": "57",
+	"28+30": "58",
+	"28+31": "59",
+	"28+32": "60",
+	"28+33": "61",
+	"28+34": "62",
+	"28+35": "63",
+	"28+36": "64",
+	"28+37": "65",
+	"28+38": "66",
+	"28+39": "67",
+	"28+40": "68",
+	"28+41": "69",
+	"28+42": "70",
+	"28+43": "71",
+	"28+44": "72",
+	"28+45": "73",
+	"28+46": "74",
+	"28+47": "75",
+	"28+48": "76",
+	"28+49": "77",
+	"29+0": "29",
+	"29+1": "30",
+	"29+2": "31",
+	"29+3": "32",
+	"29+4": "33",
+	"29+5": "34",
+	"29+6": "35",
+	"29+7": "36",
+	"29+8": "37",
+	"29+9": "38",
+	"29+10": "39",
+	"29+11": "40",
+	"29+12": "41",
+	"29+13": "42",
+	"29+14": "43",
+	"29+15": "44",
+	"29+16": "45",
+	"29+17": "46",
+	"29+18": "47",
+	"29+19": "48",
+	"29+20": "49",
+	"29+21": "50",
+	"29+22": "51",
+	"29+23": "52",
+	"29+24": "53",
+	"29+25": "54",
+	"29+26": "55",
+	"29+27": "56",
+	"29+28": "57",
+	"29+29": "58",
+	"29+30": "59",
+	"29+31": "60",
+	"29+32": "61",
+	"29+33": "62",
+	"29+34": "63",
+	"29+35": "64",
+	"29+36": "65",
+	"29+37": "66",
+	"29+38": "67",
+	"29+39": "68",
+	"29+40": "69",
+	"29+41": "70",
+	"29+42": "71",
+	"29+43": "72",
+	"29+44": "73",
+	"29+45": "74",
+	"29+46": "75",
+	"29+47": "76",
+	"29+48": "77",
+	"29+49": "78",
+	"30+0": "30",
+	"30+1": "31",
+	"30+2": "32",
+	"30+3": "33",
+	"30+4": "34",
+	"30+5": "35",
+	"30+6": "36",
+	"30+7": "37",
+	"30+8": "38",
+	"30+9": "39",
+	"30+10": "40",
+	"30+11": "41",
+	"30+12": "42",
+	"30+13": "43",
+	"30+14": "44",
+	"30+15": "45",
+	"30+16": "46",
+	"30+17": "47",
+	"30+18": "48",
+	"30+19": "49",
+	"30+20": "50",
+	"30+21": "51",
+	"30+22": "52",
+	"30+23": "53",
+	"30+24": "54",
+	"30+25": "55",
+	"30+26": "56",
+	"30+27": "57",
+	"30+28": "58",
+	"30+29": "59",
+	"30+30": "60",
+	"30+31": "61",
+	"30+32": "62",
+	"30+33": "63",
+	"30+34": "64",
+	"30+35": "65",
+	"30+36": "66",
+	"30+37": "67",
+	"30+38": "68",
+	"30+39": "69",
+	"30+40": "70",
+	"30+41": "71",
+	"30+42": "72",
+	"30+43": "73",
+	"30+44": "74",
+	"30+45": "75",
+	"30+46": "76",
+	"30+47": "77",
+	"30+48": "78",
+	"30+49": "79",
+	"31+0": "31",
+	"31+1": "32",
+	"31+2": "33",
+	"31+3": "34",
+	"31+4": "35",
+	"31+5": "36",
+	"31+6": "37",
+	"31+7": "38",
+	"31+8": "39",
+	"31+9": "40",
+	"31+10": "41",
+	"31+11": "42",
+	"31+12": "43",
+	"31+13": "44",
+	"31+14": "45",
+	"31+15": "46",
+	"31+16": "47",
+	"31+17": "48",
+	"31+18": "49",
+	"31+19": "50",
+	"31+20": "51",
+	"31+21": "52",
+	"31+22": "53",
+	"31+23": "54",
+	"31+24": "55",
+	"31+25": "56",
+	"31+26": "57",
+	"31+27": "58",
+	"31+28": "59",
+	"31+29": "60",
+	"31+30": "61",
+	"31+31": "62",
+	"31+32": "63",
+	"31+33": "64",
+	"31+34": "65",
+	"31+35": "66",
+	"31+36": "67",
+	"31+37": "68",
+	"31+38": "69",
+	"31+39": "70",
+	"31+40": "71",
+	"31+41": "72",
+	"31+42": "73",
+	"31+43": "74",
+	"31+44": "75",
+	"31+45": "76",
+	"31+46": "77",
+	"31+47": "78",
+	"31+48": "79",
+	"31+49": "80",
+	"32+0": "32",
+	"32+1": "33",
+	"32+2": "34",
+	"32+3": "35",
+	"32+4": "36",
+	"32+5": "37",
+	"32+6": "38",
+	"32+7": "39",
+	"32+8": "40",
+	"32+9": "41",
+	"32+10": "42",
+	"32+11": "43",
+	"32+12": "44",
+	"32+13": "45",
+	"32+14": "46",
+	"32+15": "47",
+	"32+16": "48",
+	"32+17": "49",
+	"32+18": "50",
+	"32+19": "51",
+	"32+20": "52",
+	"32+21": "53",
+	"32+22": "54",
+	"32+23": "55",
+	"32+24": "56",
+	"32+25": "57",
+	"32+26": "58",
+	"32+27": "59",
+	"32+28": "60",
+	"32+29": "61",
+	"32+30": "62",
+	"32+31": "63",
+	"32+32": "64",
+	"32+33": "65",
+	"32+34": "66",
+	"32+35": "67",
+	"32+36": "68",
+	"32+37": "69",
+	"32+38": "70",
+	"32+39": "71",
+	"32+40": "72",
+	"32+41": "73",
+	"32+42": "74",
+	"32+43": "75",
+	"32+44": "76",
+	"32+45": "77",
+	"32+46": "78",
+	"32+47": "79",
+	"32+48": "80",
+	"32+49": "81",
+	"33+0": "33",
+	"33+1": "34",
+	"33+2": "35",
+	"33+3": "36",
+	"33+4": "37",
+	"33+5": "38",
+	"33+6": "39",
+	"33+7": "40",
+	"33+8": "41",
+	"33+9": "42",
+	"33+10": "43",
+	"33+11": "44",
+	"33+12": "45",
+	"33+13": "46",
+	"33+14": "47",
+	"33+15": "48",
+	"33+16": "49",
+	"33+17": "50",
+	"33+18": "51",
+	"33+19": "52",
+	"33+20": "53",
+	"33+21": "54",
+	"33+22": "55",
+	"33+23": "56",
+	"33+24": "57",
+	"33+25": "58",
+	"33+26": "59",
+	"33+27": "60",
+	"33+28": "61",
+	"33+29": "62",
+	"33+30": "63",
+	"33+31": "64",
+	"33+32": "65",
+	"33+33": "66",
+	"33+34": "67",
+	"33+35": "68",
+	"33+36": "69",
+	"33+37": "70",
+	"33+38": "71",
+	"33+39": "72",
+	"33+40": "73",
+	"33+41": "74",
+	"33+42": "75",
+	"33+43": "76",
+	"33+44": "77",
+	"33+45": "78",
+	"33+46": "79",
+	"33+47": "80",
+	"33+48": "81",
+	"33+49": "82",
+	"34+0": "34",
+	"34+1": "35",
+	"34+2": "36",
+	"34+3": "37",
+	"34+4": "38",
+	"34+5": "39",
+	"34+6": "40",
+	"34+7": "41",
+	"34+8": "42",
+	"34+9": "43",
+	"34+10": "44",
+	"34+11": "45",
+	"34+12": "46",
+	"34+13": "47",
+	"34+14": "48",
+	"34+15": "49",
+	"34+16": "50",
+	"34+17": "51",
+	"34+18": "52",
+	"34+19": "53",
+	"34+20": "54",
+	"34+21": "55",
+	"34+22": "56",
+	"34+23": "57",
+	"34+24": "58",
+	"34+25": "59",
+	"34+26": "60",
+	"34+27": "61",
+	"34+28": "62",
+	"34+29": "63",
+	"34+30": "64",
+	"34+31": "65",
+	"34+32": "66",
+	"34+33": "67",
+	"34+34": "68",
+	"34+35": "69",
+	"34+36": "70",
+	"34+37": "71",
+	"34+38": "72",
+	"34+39": "73",
+	"34+40": "74",
+	"34+41": "75",
+	"34+42": "76",
+	"34+43": "77",
+	"34+44": "78",
+	"34+45": "79",
+	"34+46": "80",
+	"34+47": "81",
+	"34+48": "82",
+	"34+49": "83",
+	"35+0": "35",
+	"35+1": "36",
+	"35+2": "37",
+	"35+3": "38",
+	"35+4": "39",
+	"35+5": "40",
+	"35+6": "41",
+	"35+7": "42",
+	"35+8": "43",
+	"35+9": "44",
+	"35+10": "45",
+	"35+11": "46",
+	"35+12": "47",
+	"35+13": "48",
+	"35+14": "49",
+	"35+15": "50",
+	"35+16": "51",
+	"35+17": "52",
+	"35+18": "53",
+	"35+19": "54",
+	"35+20": "55",
+	"35+21": "56",
+	"35+22": "57",
+	"35+23": "58",
+	"35+24": "59",
+	"35+25": "60",
+	"35+26": "61",
+	"35+27": "62",
+	"35+28": "63",
+	"35+29": "64",
+	"35+30": "65",
+	"35+31": "66",
+	"35+32": "67",
+	"35+33": "68",
+	"35+34": "69",
+	"35+35": "70",
+	"35+36": "71",
+	"35+37": "72",
+	"35+38": "73",
+	"35+39": "74",
+	"35+40": "75",
+	"35+41": "76",
+	"35+42": "77",
+	"35+43": "78",
+	"35+44": "79",
+	"35+45": "80",
+	"35+46": "81",
+	"35+47": "82",
+	"35+48": "83",
+	"35+49": "84",
+	"36+0": "36",
+	"36+1": "37",
+	"36+2": "38",
+	"36+3": "39",
+	"36+4": "40",
+	"36+5": "41",
+	"36+6": "42",
+	"36+7": "43",
+	"36+8": "44",
+	"36+9": "45",
+	"36+10": "46",
+	"36+11": "47",
+	"36+12": "48",
+	"36+13": "49",
+	"36+14": "50",
+	"36+15": "51",
+	"36+16": "52",
+	"36+17": "53",
+	"36+18": "54",
+	"36+19": "55",
+	"36+20": "56",
+	"36+21": "57",
+	"36+22": "58",
+	"36+23": "59",
+	"36+24": "60",
+	"36+25": "61",
+	"36+26": "62",
+	"36+27": "63",
+	"36+28": "64",
+	"36+29": "65",
+	"36+30": "66",
+	"36+31": "67",
+	"36+32": "68",
+	"36+33": "69",
+	"36+34": "70",
+	"36+35": "71",
+	"36+36": "72",
+	"36+37": "73",
+	"36+38": "74",
+	"36+39": "75",
+	"36+40": "76",
+	"36+41": "77",
+	"36+42": "78",
+	"36+43": "79",
+	"36+44": "80",
+	"36+45": "81",
+	"36+46": "82",
+	"36+47": "83",
+	"36+48": "84",
+	"36+49": "85",
+	"37+0": "37",
+	"37+1": "38",
+	"37+2": "39",
+	"37+3": "40",
+	"37+4": "41",
+	"37+5": "42",
+	"37+6": "43",
+	"37+7": "44",
+	"37+8": "45",
+	"37+9": "46",
+	"37+10": "47",
+	"37+11": "48",
+	"37+12": "49",
+	"37+13": "50",
+	"37+14": "51",
+	"37+15": "52",
+	"37+16": "53",
+	"37+17": "54",
+	"37+18": "55",
+	"37+19": "56",
+	"37+20": "57",
+	"37+21": "58",
+	"37+22": "59",
+	"37+23": "60",
+	"37+24": "61",
+	"37+25": "62",
+	"37+26": "63",
+	"37+27": "64",
+	"37+28": "65",
+	"37+29": "66",
+	"37+30": "67",
+	"37+31": "68",
+	"37+32": "69",
+	"37+33": "70",
+	"37+34": "71",
+	"37+35": "72",
+	"37+36": "73",
+	"37+37": "74",
+	"37+38": "75",
+	"37+39": "76",
+	"37+40": "77",
+	"37+41": "78",
+	"37+42": "79",
+	"37+43": "80",
+	"37+44": "81",
+	"37+45": "82",
+	"37+46": "83",
+	"37+47": "84",
+	"37+48": "85",
+	"37+49": "86",
+	"38+0": "38",
+	"38+1": "39",
+	"38+2": "40",
+	"38+3": "41",
+	"38+4": "42",
+	"38+5": "43",
+	"38+6": "44",
+	"38+7": "45",
+	"38+8": "46",
+	"38+9": "47",
+	"38+10": "48",
+	"38+11": "49",
+	"38+12": "50",
+	"38+13": "51",
+	"38+14": "52",
+	"38+15": "53",
+	"38+16": "54",
+	"38+17": "55",
+	"38+18": "56",
+	"38+19": "57",
+	"38+20": "58",
+	"38+21": "59",
+	"38+22": "60",
+	"38+23": "61",
+	"38+24": "62",
+	"38+25": "63",
+	"38+26": "64",
+	"38+27": "65",
+	"38+28": "66",
+	"38+29": "67",
+	"38+30": "68",
+	"38+31": "69",
+	"38+32": "70",
+	"38+33": "71",
+	"38+34": "72",
+	"38+35": "73",
+	"38+36": "74",
+	"38+37": "75",
+	"38+38": "76",
+	"38+39": "77",
+	"38+40": "78",
+	"38+41": "79",
+	"38+42": "80",
+	"38+43": "81",
+	"38+44": "82",
+	"38+45": "83",
+	"38+46": "84",
+	"38+47": "85",
+	"38+48": "86",
+	"38+49": "87",
+	"39+0": "39",
+	"39+1": "40",
+	"39+2": "41",
+	"39+3": "42",
+	"39+4": "43",
+	"39+5": "44",
+	"39+6": "45",
+	"39+7": "46",
+	"39+8": "47",
+	"39+9": "48",
+	"39+10": "49",
+	"39+11": "50",
+	"39+12": "51",
+	"39+13": "52",
+	"39+14": "53",
+	"39+15": "54",
+	"39+16": "55",
+	"39+17": "56",
+	"39+18": "57",
+	"39+19": "58",
+	"39+20": "59",
+	"39+21": "60",
+	"39+22": "61",
+	"39+23": "62",
+	"39+24": "63",
+	"39+25": "64",
+	"39+26": "65",
+	"39+27": "66",
+	"39+28": "67",
+	"39+29": "68",
+	"39+30": "69",
+	"39+31": "70",
+	"39+32": "71",
+	"39+33": "72",
+	"39+34": "73",
+	"39+35": "74",
+	"39+36": "75",
+	"39+37": "76",
+	"39+38": "77",
+	"39+39": "78",
+	"39+40": "79",
+	"39+41": "80",
+	"39+42": "81",
+	"39+43": "82",
+	"39+44": "83",
+	"39+45": "84",
+	"39+46": "85",
+	"39+47": "86",
+	"39+48": "87",
+	"39+49": "88",
+	"40+0": "40",
+	"40+1": "41",
+	"40+2": "42",
+	"40+3": "43",
+	"40+4": "44",
+	"40+5": "45",
+	"40+6": "46",
+	"40+7": "47",
+	"40+8": "48",
+	"40+9": "49",
+	"40+10": "50",
+	"40+11": "51",
+	"40+12": "52",
+	"40+13": "53",
+	"40+14": "54",
+	"40+15": "55",
+	"40+16": "56",
+	"40+17": "57",
+	"40+18": "58",
+	"40+19": "59",
+	"40+20": "60",
+	"40+21": "61",
+	"40+22": "62",
+	"40+23": "63",
+	"40+24": "64",
+	"40+25": "65",
+	"40+26": "66",
+	"40+27": "67",
+	"40+28": "68",
+	"40+29": "69",
+	"40+30": "70",
+	"40+31": "71",
+	"40+32": "72",
+	"40+33": "73",
+	"40+34": "74",
+	"40+35": "75",
+	"40+36": "76",
+	"40+37": "77",
+	"40+38": "78",
+	"40+39": "79",
+	"40+40": "80",
+	"40+41": "81",
+	"40+42": "82",
+	"40+43": "83",
+	"40+44": "84",
+	"40+45": "85",
+	"40+46": "86",
+	"40+47": "87",
+	"40+48": "88",
+	"40+49": "89",
+	"41+0": "41",
+	"41+1": "42",
+	"41+2": "43",
+	"41+3": "44",
+	"41+4": "45",
+	"41+5": "46",
+	"41+6": "47",
+	"41+7": "48",
+	"41+8": "49",
+	"41+9": "50",
+	"41+10": "51",
+	"41+11": "52",
+	"41+12": "53",
+	"41+13": "54",
+	"41+14": "55",
+	"41+15": "56",
+	"41+16": "57",
+	"41+17": "58",
+	"41+18": "59",
+	"41+19": "60",
+	"41+20": "61",
+	"41+21": "62",
+	"41+22": "63",
+	"41+23": "64",
+	"41+24": "65",
+	"41+25": "66",
+	"41+26": "67",
+	"41+27": "68",
+	"41+28": "69",
+	"41+29": "70",
+	"41+30": "71",
+	"41+31": "72",
+	"41+32": "73",
+	"41+33": "74",
+	"41+34": "75",
+	"41+35": "76",
+	"41+36": "77",
+	"41+37": "78",
+	"41+38": "79",
+	"41+39": "80",
+	"41+40": "81",
+	"41+41": "82",
+	"41+42": "83",
+	"41+43": "84",
+	"41+44": "85",
+	"41+45": "86",
+	"41+46": "87",
+	"41+47": "88",
+	"41+48": "89",
+	"41+49": "90",
+	"42+0": "42",
+	"42+1": "43",
+	"42+2": "44",
+	"42+3": "45",
+	"42+4": "46",
+	"42+5": "47",
+	"42+6": "48",
+	"42+7": "49",
+	"42+8": "50",
+	"42+9": "51",
+	"42+10": "52",
+	"42+11": "53",
+	"42+12": "54",
+	"42+13": "55",
+	"42+14": "56",
+	"42+15": "57",
+	"42+16": "58",
+	"42+17": "59",
+	"42+18": "60",
+	"42+19": "61",
+	"42+20": "62",
+	"42+21": "63",
+	"42+22": "64",
+	"42+23": "65",
+	"42+24": "66",
+	"42+25": "67",
+	"42+26": "68",
+	"42+27": "69",
+	"42+28": "70",
+	"42+29": "71",
+	"42+30": "72",
+	"42+31": "73",
+	"42+32": "74",
+	"42+33": "75",
+	"42+34": "76",
+	"42+35": "77",
+	"42+36": "78",
+	"42+37": "79",
+	"42+38": "80",
+	"42+39": "81",
+	"42+40": "82",
+	"42+41": "83",
+	"42+42": "84",
+	"42+43": "85",
+	"42+44": "86",
+	"42+45": "87",
+	"42+46": "88",
+	"42+47": "89",
+	"42+48": "90",
+	"42+49": "91",
+	"43+0": "43",
+	"43+1": "44",
+	"43+2": "45",
+	"43+3": "46",
+	"43+4": "47",
+	"43+5": "48",
+	"43+6": "49",
+	"43+7": "50",
+	"43+8": "51",
+	"43+9": "52",
+	"43+10": "53",
+	"43+11": "54",
+	"43+12": "55",
+	"43+13": "56",
+	"43+14": "57",
+	"43+15": "58",
+	"43+16": "59",
+	"43+17": "60",
+	"43+18": "61",
+	"43+19": "62",
+	"43+20": "63",
+	"43+21": "64",
+	"43+22": "65",
+	"43+23": "66",
+	"43+24": "67",
+	"43+25": "68",
+	"43+26": "69",
+	"43+27": "70",
+	"43+28": "71",
+	"43+29": "72",
+	"43+30": "73",
+	"43+31": "74",
+	"43+32": "75",
+	"43+33": "76",
+	"43+34": "77",
+	"43+35": "78",
+	"43+36": "79",
+	"43+37": "80",
+	"43+38": "81",
+	"43+39": "82",
+	"43+40": "83",
+	"43+41": "84",
+	"43+42": "85",
+	"43+43": "86",
+	"43+44": "87",
+	"43+45": "88",
+	"43+46": "89",
+	"43+47": "90",
+	"43+48": "91",
+	"43+49": "92",
+	"44+0": "44",
+	"44+1": "45",
+	"44+2": "46",
+	"44+3": "47",
+	"44+4": "48",
+	"44+5": "49",
+	"44+6": "50",
+	"44+7": "51",
+	"44+8": "52",
+	"44+9": "53",
+	"44+10": "54",
+	"44+11": "55",
+	"44+12": "56",
+	"44+13": "57",
+	"44+14": "58",
+	"44+15": "59",
+	"44+16": "60",
+	"44+17": "61",
+	"44+18": "62",
+	"44+19": "63",
+	"44+20": "64",
+	"44+21": "65",
+	"44+22": "66",
+	"44+23": "67",
+	"44+24": "68",
+	"44+25": "69",
+	"44+26": "70",
+	"44+27": "71",
+	"44+28": "72",
+	"44+29": "73",
+	"44+30": "74",
+	"44+31": "75",
+	"44+32": "76",
+	"44+33": "77",
+	"44+34": "78",
+	"44+35": "79",
+	"44+36": "80",
+	"44+37": "81",
+	"44+38": "82",
+	"44+39": "83",
+	"44+40": "84",
+	"44+41": "85",
+	"44+42": "86",
+	"44+43": "87",
+	"44+44": "88",
+	"44+45": "89",
+	"44+46": "90",
+	"44+47": "91",
+	"44+48": "92",
+	"44+49": "93",
+	"45+0": "45",
+	"45+1": "46",
+	"45+2": "47",
+	"45+3": "48",
+	"45+4": "49",
+	"45+5": "50",
+	"45+6": "51",
+	"45+7": "52",
+	"45+8": "53",
+	"45+9": "54",
+	"45+10": "55",
+	"45+11": "56",
+	"45+12": "57",
+	"45+13": "58",
+	"45+14": "59",
+	"45+15": "60",
+	"45+16": "61",
+	"45+17": "62",
+	"45+18": "63",
+	"45+19": "64",
+	"45+20": "65",
+	"45+21": "66",
+	"45+22": "67",
+	"45+23": "68",
+	"45+24": "69",
+	"45+25": "70",
+	"45+26": "71",
+	"45+27": "72",
+	"45+28": "73",
+	"45+29": "74",
+	"45+30": "75",
+	"45+31": "76",
+	"45+32": "77",
+	"45+33": "78",
+	"45+34": "79",
+	"45+35": "80",
+	"45+36": "81",
+	"45+37": "82",
+	"45+38": "83",
+	"45+39": "84",
+	"45+40": "85",
+	"45+41": "86",
+	"45+42": "87",
+	"45+43": "88",
+	"45+44": "89",
+	"45+45": "90",
+	"45+46": "91",
+	"45+47": "92",
+	"45+48": "93",
+	"45+49": "94",
+	"46+0": "46",
+	"46+1": "47",
+	"46+2": "48",
+	"46+3": "49",
+	"46+4": "50",
+	"46+5": "51",
+	"46+6": "52",
+	"46+7": "53",
+	"46+8": "54",
+	"46+9": "55",
+	"46+10": "56",
+	"46+11": "57",
+	"46+12": "58",
+	"46+13": "59",
+	"46+14": "60",
+	"46+15": "61",
+	"46+16": "62",
+	"46+17": "63",
+	"46+18": "64",
+	"46+19": "65",
+	"46+20": "66",
+	"46+21": "67",
+	"46+22": "68",
+	"46+23": "69",
+	"46+24": "70",
+	"46+25": "71",
+	"46+26": "72",
+	"46+27": "73",
+	"46+28": "74",
+	"46+29": "75",
+	"46+30": "76",
+	"46+31": "77",
+	"46+32": "78",
+	"46+33": "79",
+	"46+34": "80",
+	"46+35": "81",
+	"46+36": "82",
+	"46+37": "83",
+	"46+38": "84",
+	"46+39": "85",
+	"46+40": "86",
+	"46+41": "87",
+	"46+42": "88",
+	"46+43": "89",
+	"46+44": "90",
+	"46+45": "91",
+	"46+46": "92",
+	"46+47": "93",
+	"46+48": "94",
+	"46+49": "95",
+	"47+0": "47",
+	"47+1": "48",
+	"47+2": "49",
+	"47+3": "50",
+	"47+4": "51",
+	"47+5": "52",
+	"47+6": "53",
+	"47+7": "54",
+	"47+8": "55",
+	"47+9": "56",
+	"47+10": "57",
+	"47+11": "58",
+	"47+12": "59",
+	"47+13": "60",
+	"47+14": "61",
+	"47+15": "62",
+	"47+16": "63",
+	"47+17": "64",
+	"47+18": "65",
+	"47+19": "66",
+	"47+20": "67",
+	"47+21": "68",
+	"47+22": "69",
+	"47+23": "70",
+	"47+24": "71",
+	"47+25": "72",
+	"47+26": "73",
+	"47+27": "74",
+	"47+28": "75",
+	"47+29": "76",
+	"47+30": "77",
+	"47+31": "78",
+	"47+32": "79",
+	"47+33": "80",
+	"47+34": "81",
+	"47+35": "82",
+	"47+36": "83",
+	"47+37": "84",
+	"47+38": "85",
+	"47+39": "86",
+	"47+40": "87",
+	"47+41": "88",
+	"47+42": "89",
+	"47+43": "90",
+	"47+44": "91",
+	"47+45": "92",
+	"47+46": "93",
+	"47+47": "94",
+	"47+48": "95",
+	"47+49": "96",
+	"48+0": "48",
+	"48+1": "49",
+	"48+2": "50",
+	"48+3": "51",
+	"48+4": "52",
+	"48+5": "53",
+	"48+6": "54",
+	"48+7": "55",
+	"48+8": "56",
+	"48+9": "57",
+	"48+10": "58",
+	"48+11": "59",
+	"48+12": "60",
+	"48+13": "61",
+	"48+14": "62",
+	"48+15": "63",
+	"48+16": "64",
+	"48+17": "65",
+	"48+18": "66",
+	"48+19": "67",
+	"48+20": "68",
+	"48+21": "69",
+	"48+22": "70",
+	"48+23": "71",
+	"48+24": "72",
+	"48+25": "73",
+	"48+26": "74",
+	"48+27": "75",
+	"48+28": "76",
+	"48+29": "77",
+	"48+30": "78",
+	"48+31": "79",
+	"48+32": "80",
+	"48+33": "81",
+	"48+34": "82",
+	"48+35": "83",
+	"48+36": "84",
+	"48+37": "85",
+	"48+38": "86",
+	"48+39": "87",
+	"48+40": "88",
+	"48+41": "89",
+	"48+42": "90",
+	"48+43": "91",
+	"48+44": "92",
+	"48+45": "93",
+	"48+46": "94",
+	"48+47": "95",
+	"48+48": "96",
+	"48+49": "97",
+	"49+0": "49",
+	"49+1": "50",
+	"49+2": "51",
+	"49+3": "52",
+	"49+4": "53",
+	"49+5": "54",
+	"49+6": "55",
+	"49+7": "56",
+	"49+8": "57",
+	"49+9": "58",
+	"49+10": "59",
+	"49+11": "60",
+	"49+12": "61",
+	"49+13": "62",
+	"49+14": "63",
+	"49+15": "64",
+	"49+16": "65",
+	"49+17": "66",
+	"49+18": "67",
+	"49+19": "68",
+	"49+20": "69",
+	"49+21": "70",
+	"49+22": "71",
+	"49+23": "72",
+	"49+24": "73",
+	"49+25": "74",
+	"49+26": "75",
+	"49+27": "76",
+	"49+28": "77",
+	"49+29": "78",
+	"49+30": "79",
+	"49+31": "80",
+	"49+32": "81",
+	"49+33": "82",
+	"49+34": "83",
+	"49+35": "84",
+	"49+36": "85",
+	"49+37": "86",
+	"49+38": "87",
+	"49+39": "88",
+	"49+40": "89",
+	"49+41": "90",
+	"49+42": "91",
+	"49+43": "92",
+	"49+44": "93",
+	"49+45": "94",
+	"49+46": "95",
+	"49+47": "96",
+	"49+48": "97",
+	"49+49": "98",
+	"0-0": "0",
+	"0-1": "-1",
+	"0-2": "-2",
+	"0-3": "-3",
+	"0-4": "-4",
+	"0-5": "-5",
+	"0-6": "-6",
+	"0-7": "-7",
+	"0-8": "-8",
+	"0-9": "-9",
+	"0-10": "-10",
+	"0-11": "-11",
+	"0-12": "-12",
+	"0-13": "-13",
+	"0-14": "-14",
+	"0-15": "-15",
+	"0-16": "-16",
+	"0-17": "-17",
+	"0-18": "-18",
+	"0-19": "-19",
+	"0-20": "-20",
+	"0-21": "-21",
+	"0-22": "-22",
+	"0-23": "-23",
+	"0-24": "-24",
+	"0-25": "-25",
+	"0-26": "-26",
+	"0-27": "-27",
+	"0-28": "-28",
+	"0-29": "-29",
+	"0-30": "-30",
+	"0-31": "-31",
+	"0-32": "-32",
+	"0-33": "-33",
+	"0-34": "-34",
+	"0-35": "-35",
+	"0-36": "-36",
+	"0-37": "-37",
+	"0-38": "-38",
+	"0-39": "-39",
+	"0-40": "-40",
+	"0-41": "-41",
+	"0-42": "-42",
+	"0-43": "-43",
+	"0-44": "-44",
+	"0-45": "-45",
+	"0-46": "-46",
+	"0-47": "-47",
+	"0-48": "-48",
+	"0-49": "-49",
+	"1-0": "1",
+	"1-1": "0",
+	"1-2": "-1",
+	"1-3": "-2",
+	"1-4": "-3",
+	"1-5": "-4",
+	"1-6": "-5",
+	"1-7": "-6",
+	"1-8": "-7",
+	"1-9": "-8",
+	"1-10": "-9",
+	"1-11": "-10",
+	"1-12": "-11",
+	"1-13": "-12",
+	"1-14": "-13",
+	"1-15": "-14",
+	"1-16": "-15",
+	"1-17": "-16",
+	"1-18": "-17",
+	"1-19": "-18",
+	"1-20": "-19",
+	"1-21": "-20",
+	"1-22": "-21",
+	"1-23": "-22",
+	"1-24": "-23",
+	"1-25": "-24",
+	"1-26": "-25",
+	"1-27": "-26",
+	"1-28": "-27",
+	"1-29": "-28",
+	"1-30": "-29",
+	"1-31": "-30",
+	"1-32": "-31",
+	"1-33": "-32",
+	"1-34": "-33",
+	"1-35": "-34",
+	"1-36": "-35",
+	"1-37": "-36",
+	"1-38": "-37",
+	"1-39": "-38",
+	"1-40": "-39",
+	"1-41": "-40",
+	"1-42": "-41",
+	"1-43": "-42",
+	"1-44": "-43",
+	"1-45": "-44",
+	"1-46": "-45",
+	"1-47": "-46",
+	"1-48": "-47",
+	"1-49": "-48",
+	"2-0": "2",
+	"2-1": "1",
+	"2-2": "0",
+	"2-3": "-1",
+	"2-4": "-2",
+	"2-5": "-3",
+	"2-6": "-4",
+	"2-7": "-5",
+	"2-8": "-6",
+	"2-9": "-7",
+	"2-10": "-8",
+	"2-11": "-9",
+	"2-12": "-10",
+	"2-13": "-11",
+	"2-14": "-12",
+	"2-15": "-13",
+	"2-16": "-14",
+	"2-17": "-15",
+	"2-18": "-16",
+	"2-19": "-17",
+	"2-20": "-18",
+	"2-21": "-19",
+	"2-22": "-20",
+	"2-23": "-21",
+	"2-24": "-22",
+	"2-25": "-23",
+	"2-26": "-24",
+	"2-27": "-25",
+	"2-28": "-26",
+	"2-29": "-27",
+	"2-30": "-28",
+	"2-31": "-29",
+	"2-32": "-30",
+	"2-33": "-31",
+	"2-34": "-32",
+	"2-35": "-33",
+	"2-36": "-34",
+	"2-37": "-35",
+	"2-38": "-36",
+	"2-39": "-37",
+	"2-40": "-38",
+	"2-41": "-39",
+	"2-42": "-40",
+	"2-43": "-41",
+	"2-44": "-42",
+	"2-45": "-43",
+	"2-46": "-44",
+	"2-47": "-45",
+	"2-48": "-46",
+	"2-49": "-47",
+	"3-0": "3",
+	"3-1": "2",
+	"3-2": "1",
+	"3-3": "0",
+	"3-4": "-1",
+	"3-5": "-2",
+	"3-6": "-3",
+	"3-7": "-4",
+	"3-8": "-5",
+	"3-9": "-6",
+	"3-10": "-7",
+	"3-11": "-8",
+	"3-12": "-9",
+	"3-13": "-10",
+	"3-14": "-11",
+	"3-15": "-12",
+	"3-16": "-13",
+	"3-17": "-14",
+	"3-18": "-15",
+	"3-19": "-16",
+	"3-20": "-17",
+	"3-21": "-18",
+	"3-22": "-19",
+	"3-23": "-20",
+	"3-24": "-21",
+	"3-25": "-22",
+	"3-26": "-23",
+	"3-27": "-24",
+	"3-28": "-25",
+	"3-29": "-26",
+	"3-30": "-27",
+	"3-31": "-28",
+	"3-32": "-29",
+	"3-33": "-30",
+	"3-34": "-31",
+	"3-35": "-32",
+	"3-36": "-33",
+	"3-37": "-34",
+	"3-38": "-35",
+	"3-39": "-36",
+	"3-40": "-37",
+	"3-41": "-38",
+	"3-42": "-39",
+	"3-43": "-40",
+	"3-44": "-41",
+	"3-45": "-42",
+	"3-46": "-43",
+	"3-47": "-44",
+	"3-48": "-45",
+	"3-49": "-46",
+	"4-0": "4",
+	"4-1": "3",
+	"4-2": "2",
+	"4-3": "1",
+	"4-4": "0",
+	"4-5": "-1",
+	"4-6": "-2",
+	"4-7": "-3",
+	"4-8": "-4",
+	"4-9": "-5",
+	"4-10": "-6",
+	"4-11": "-7",
+	"4-12": "-8",
+	"4-13": "-9",
+	"4-14": "-10",
+	"4-15": "-11",
+	"4-16": "-12",
+	"4-17": "-13",
+	"4-18": "-14",
+	"4-19": "-15",
+	"4-20": "-16",
+	"4-21": "-17",
+	"4-22": "-18",
+	"4-23": "-19",
+	"4-24": "-20",
+	"4-25": "-21",
+	"4-26": "-22",
+	"4-27": "-23",
+	"4-28": "-24",
+	"4-29": "-25",
+	"4-30": "-26",
+	"4-31": "-27",
+	"4-32": "-28",
+	"4-33": "-29",
+	"4-34": "-30",
+	"4-35": "-31",
+	"4-36": "-32",
+	"4-37": "-33",
+	"4-38": "-34",
+	"4-39": "-35",
+	"4-40": "-36",
+	"4-41": "-37",
+	"4-42": "-38",
+	"4-43": "-39",
+	"4-44": "-40",
+	"4-45": "-41",
+	"4-46": "-42",
+	"4-47": "-43",
+	"4-48": "-44",
+	"4-49": "-45",
+	"5-0": "5",
+	"5-1": "4",
+	"5-2": "3",
+	"5-3": "2",
+	"5-4": "1",
+	"5-5": "0",
+	"5-6": "-1",
+	"5-7": "-2",
+	"5-8": "-3",
+	"5-9": "-4",
+	"5-10": "-5",
+	"5-11": "-6",
+	"5-12": "-7",
+	"5-13": "-8",
+	"5-14": "-9",
+	"5-15": "-10",
+	"5-16": "-11",
+	"5-17": "-12",
+	"5-18": "-13",
+	"5-19": "-14",
+	"5-20": "-15",
+	"5-21": "-16",
+	"5-22": "-17",
+	"5-23": "-18",
+	"5-24": "-19",
+	"5-25": "-20",
+	"5-26": "-21",
+	"5-27": "-22",
+	"5-28": "-23",
+	"5-29": "-24",
+	"5-30": "-25",
+	"5-31": "-26",
+	"5-32": "-27",
+	"5-33": "-28",
+	"5-34": "-29",
+	"5-35": "-30",
+	"5-36": "-31",
+	"5-37": "-32",
+	"5-38": "-33",
+	"5-39": "-34",
+	"5-40": "-35",
+	"5-41": "-36",
+	"5-42": "-37",
+	"5-43": "-38",
+	"5-44": "-39",
+	"5-45": "-40",
+	"5-46": "-41",
+	"5-47": "-42",
+	"5-48": "-43",
+	"5-49": "-44",
+	"6-0": "6",
+	"6-1": "5",
+	"6-2": "4",
+	"6-3": "3",
+	"6-4": "2",
+	"6-5": "1",
+	"6-6": "0",
+	"6-7": "-1",
+	"6-8": "-2",
+	"6-9": "-3",
+	"6-10": "-4",
+	"6-11": "-5",
+	"6-12": "-6",
+	"6-13": "-7",
+	"6-14": "-8",
+	"6-15": "-9",
+	"6-16": "-10",
+	"6-17": "-11",
+	"6-18": "-12",
+	"6-19": "-13",
+	"6-20": "-14",
+	"6-21": "-15",
+	"6-22": "-16",
+	"6-23": "-17",
+	"6-24": "-18",
+	"6-25": "-19",
+	"6-26": "-20",
+	"6-27": "-21",
+	"6-28": "-22",
+	"6-29": "-23",
+	"6-30": "-24",
+	"6-31": "-25",
+	"6-32": "-26",
+	"6-33": "-27",
+	"6-34": "-28",
+	"6-35": "-29",
+	"6-36": "-30",
+	"6-37": "-31",
+	"6-38": "-32",
+	"6-39": "-33",
+	"6-40": "-34",
+	"6-41": "-35",
+	"6-42": "-36",
+	"6-43": "-37",
+	"6-44": "-38",
+	"6-45": "-39",
+	"6-46": "-40",
+	"6-47": "-41",
+	"6-48": "-42",
+	"6-49": "-43",
+	"7-0": "7",
+	"7-1": "6",
+	"7-2": "5",
+	"7-3": "4",
+	"7-4": "3",
+	"7-5": "2",
+	"7-6": "1",
+	"7-7": "0",
+	"7-8": "-1",
+	"7-9": "-2",
+	"7-10": "-3",
+	"7-11": "-4",
+	"7-12": "-5",
+	"7-13": "-6",
+	"7-14": "-7",
+	"7-15": "-8",
+	"7-16": "-9",
+	"7-17": "-10",
+	"7-18": "-11",
+	"7-19": "-12",
+	"7-20": "-13",
+	"7-21": "-14",
+	"7-22": "-15",
+	"7-23": "-16",
+	"7-24": "-17",
+	"7-25": "-18",
+	"7-26": "-19",
+	"7-27": "-20",
+	"7-28": "-21",
+	"7-29": "-22",
+	"7-30": "-23",
+	"7-31": "-24",
+	"7-32": "-25",
+	"7-33": "-26",
+	"7-34": "-27",
+	"7-35": "-28",
+	"7-36": "-29",
+	"7-37": "-30",
+	"7-38": "-31",
+	"7-39": "-32",
+	"7-40": "-33",
+	"7-41": "-34",
+	"7-42": "-35",
+	"7-43": "-36",
+	"7-44": "-37",
+	"7-45": "-38",
+	"7-46": "-39",
+	"7-47": "-40",
+	"7-48": "-41",
+	"7-49": "-42",
+	"8-0": "8",
+	"8-1": "7",
+	"8-2": "6",
+	"8-3": "5",
+	"8-4": "4",
+	"8-5": "3",
+	"8-6": "2",
+	"8-7": "1",
+	"8-8": "0",
+	"8-9": "-1",
+	"8-10": "-2",
+	"8-11": "-3",
+	"8-12": "-4",
+	"8-13": "-5",
+	"8-14": "-6",
+	"8-15": "-7",
+	"8-16": "-8",
+	"8-17": "-9",
+	"8-18": "-10",
+	"8-19": "-11",
+	"8-20": "-12",
+	"8-21": "-13",
+	"8-22": "-14",
+	"8-23": "-15",
+	"8-24": "-16",
+	"8-25": "-17",
+	"8-26": "-18",
+	"8-27": "-19",
+	"8-28": "-20",
+	"8-29": "-21",
+	"8-30": "-22",
+	"8-31": "-23",
+	"8-32": "-24",
+	"8-33": "-25",
+	"8-34": "-26",
+	"8-35": "-27",
+	"8-36": "-28",
+	"8-37": "-29",
+	"8-38": "-30",
+	"8-39": "-31",
+	"8-40": "-32",
+	"8-41": "-33",
+	"8-42": "-34",
+	"8-43": "-35",
+	"8-44": "-36",
+	"8-45": "-37",
+	"8-46": "-38",
+	"8-47": "-39",
+	"8-48": "-40",
+	"8-49": "-41",
+	"9-0": "9",
+	"9-1": "8",
+	"9-2": "7",
+	"9-3": "6",
+	"9-4": "5",
+	"9-5": "4",
+	"9-6": "3",
+	"9-7": "2",
+	"9-8": "1",
+	"9-9": "0",
+	"9-10": "-1",
+	"9-11": "-2",
+	"9-12": "-3",
+	"9-13": "-4",
+	"9-14": "-5",
+	"9-15": "-6",
+	"9-16": "-7",
+	"9-17": "-8",
+	"9-18": "-9",
+	"9-19": "-10",
+	"9-20": "-11",
+	"9-21": "-12",
+	"9-22": "-13",
+	"9-23": "-14",
+	"9-24": "-15",
+	"9-25": "-16",
+	"9-26": "-17",
+	"9-27": "-18",
+	"9-28": "-19",
+	"9-29": "-20",
+	"9-30": "-21",
+	"9-31": "-22",
+	"9-32": "-23",
+	"9-33": "-24",
+	"9-34": "-25",
+	"9-35": "-26",
+	"9-36": "-27",
+	"9-37": "-28",
+	"9-38": "-29",
+	"9-39": "-30",
+	"9-40": "-31",
+	"9-41": "-32",
+	"9-42": "-33",
+	"9-43": "-34",
+	"9-44": "-35",
+	"9-45": "-36",
+	"9-46": "-37",
+	"9-47": "-38",
+	"9-48": "-39",
+	"9-49": "-40",
+	"10-0": "10",
+	"10-1": "9",
+	"10-2": "8",
+	"10-3": "7",
+	"10-4": "6",
+	"10-5": "5",
+	"10-6": "4",
+	"10-7": "3",
+	"10-8": "2",
+	"10-9": "1",
+	"10-10": "0",
+	"10-11": "-1",
+	"10-12": "-2",
+	"10-13": "-3",
+	"10-14": "-4",
+	"10-15": "-5",
+	"10-16": "-6",
+	"10-17": "-7",
+	"10-18": "-8",
+	"10-19": "-9",
+	"10-20": "-10",
+	"10-21": "-11",
+	"10-22": "-12",
+	"10-23": "-13",
+	"10-24": "-14",
+	"10-25": "-15",
+	"10-26": "-16",
+	"10-27": "-17",
+	"10-28": "-18",
+	"10-29": "-19",
+	"10-30": "-20",
+	"10-31": "-21",
+	"10-32": "-22",
+	"10-33": "-23",
+	"10-34": "-24",
+	"10-35": "-25",
+	"10-36": "-26",
+	"10-37": "-27",
+	"10-38": "-28",
+	"10-39": "-29",
+	"10-40": "-30",
+	"10-41": "-31",
+	"10-42": "-32",
+	"10-43": "-33",
+	"10-44": "-34",
+	"10-45": "-35",
+	"10-46": "-36",
+	"10-47": "-37",
+	"10-48": "-38",
+	"10-49": "-39",
+	"11-0": "11",
+	"11-1": "10",
+	"11-2": "9",
+	"11-3": "8",
+	"11-4": "7",
+	"11-5": "6",
+	"11-6": "5",
+	"11-7": "4",
+	"11-8": "3",
+	"11-9": "2",
+	"11-10": "1",
+	"11-11": "0",
+	"11-12": "-1",
+	"11-13": "-2",
+	"11-14": "-3",
+	"11-15": "-4",
+	"11-16": "-5",
+	"11-17": "-6",
+	"11-18": "-7",
+	"11-19": "-8",
+	"11-20": "-9",
+	"11-21": "-10",
+	"11-22": "-11",
+	"11-23": "-12",
+	"11-24": "-13",
+	"11-25": "-14",
+	"11-26": "-15",
+	"11-27": "-16",
+	"11-28": "-17",
+	"11-29": "-18",
+	"11-30": "-19",
+	"11-31": "-20",
+	"11-32": "-21",
+	"11-33": "-22",
+	"11-34": "-23",
+	"11-35": "-24",
+	"11-36": "-25",
+	"11-37": "-26",
+	"11-38": "-27",
+	"11-39": "-28",
+	"11-40": "-29",
+	"11-41": "-30",
+	"11-42": "-31",
+	"11-43": "-32",
+	"11-44": "-33",
+	"11-45": "-34",
+	"11-46": "-35",
+	"11-47": "-36",
+	"11-48": "-37",
+	"11-49": "-38",
+	"12-0": "12",
+	"12-1": "11",
+	"12-2": "10",
+	"12-3": "9",
+	"12-4": "8",
+	"12-5": "7",
+	"12-6": "6",
+	"12-7": "5",
+	"12-8": "4",
+	"12-9": "3",
+	"12-10": "2",
+	"12-11": "1",
+	"12-12": "0",
+	"12-13": "-1",
+	"12-14": "-2",
+	"12-15": "-3",
+	"12-16": "-4",
+	"12-17": "-5",
+	"12-18": "-6",
+	"12-19": "-7",
+	"12-20": "-8",
+	"12-21": "-9",
+	"12-22": "-10",
+	"12-23": "-11",
+	"12-24": "-12",
+	"12-25": "-13",
+	"12-26": "-14",
+	"12-27": "-15",
+	"12-28": "-16",
+	"12-29": "-17",
+	"12-30": "-18",
+	"12-31": "-19",
+	"12-32": "-20",
+	"12-33": "-21",
+	"12-34": "-22",
+	"12-35": "-23",
+	"12-36": "-24",
+	"12-37": "-25",
+	"12-38": "-26",
+	"12-39": "-27",
+	"12-40": "-28",
+	"12-41": "-29",
+	"12-42": "-30",
+	"12-43": "-31",
+	"12-44": "-32",
+	"12-45": "-33",
+	"12-46": "-34",
+	"12-47": "-35",
+	"12-48": "-36",
+	"12-49": "-37",
+	"13-0": "13",
+	"13-1": "12",
+	"13-2": "11",
+	"13-3": "10",
+	"13-4": "9",
+	"13-5": "8",
+	"13-6": "7",
+	"13-7": "6",
+	"13-8": "5",
+	"13-9": "4",
+	"13-10": "3",
+	"13-11": "2",
+	"13-12": "1",
+	"13-13": "0",
+	"13-14": "-1",
+	"13-15": "-2",
+	"13-16": "-3",
+	"13-17": "-4",
+	"13-18": "-5",
+	"13-19": "-6",
+	"13-20": "-7",
+	"13-21": "-8",
+	"13-22": "-9",
+	"13-23": "-10",
+	"13-24": "-11",
+	"13-25": "-12",
+	"13-26": "-13",
+	"13-27": "-14",
+	"13-28": "-15",
+	"13-29": "-16",
+	"13-30": "-17",
+	"13-31": "-18",
+	"13-32": "-19",
+	"13-33": "-20",
+	"13-34": "-21",
+	"13-35": "-22",
+	"13-36": "-23",
+	"13-37": "-24",
+	"13-38": "-25",
+	"13-39": "-26",
+	"13-40": "-27",
+	"13-41": "-28",
+	"13-42": "-29",
+	"13-43": "-30",
+	"13-44": "-31",
+	"13-45": "-32",
+	"13-46": "-33",
+	"13-47": "-34",
+	"13-48": "-35",
+	"13-49": "-36",
+	"14-0": "14",
+	"14-1": "13",
+	"14-2": "12",
+	"14-3": "11",
+	"14-4": "10",
+	"14-5": "9",
+	"14-6": "8",
+	"14-7": "7",
+	"14-8": "6",
+	"14-9": "5",
+	"14-10": "4",
+	"14-11": "3",
+	"14-12": "2",
+	"14-13": "1",
+	"14-14": "0",
+	"14-15": "-1",
+	"14-16": "-2",
+	"14-17": "-3",
+	"14-18": "-4",
+	"14-19": "-5",
+	"14-20": "-6",
+	"14-21": "-7",
+	"14-22": "-8",
+	"14-23": "-9",
+	"14-24": "-10",
+	"14-25": "-11",
+	"14-26": "-12",
+	"14-27": "-13",
+	"14-28": "-14",
+	"14-29": "-15",
+	"14-30": "-16",
+	"14-31": "-17",
+	"14-32": "-18",
+	"14-33": "-19",
+	"14-34": "-20",
+	"14-35": "-21",
+	"14-36": "-22",
+	"14-37": "-23",
+	"14-38": "-24",
+	"14-39": "-25",
+	"14-40": "-26",
+	"14-41": "-27",
+	"14-42": "-28",
+	"14-43": "-29",
+	"14-44": "-30",
+	"14-45": "-31",
+	"14-46": "-32",
+	"14-47": "-33",
+	"14-48": "-34",
+	"14-49": "-35",
+	"15-0": "15",
+	"15-1": "14",
+	"15-2": "13",
+	"15-3": "12",
+	"15-4": "11",
+	"15-5": "10",
+	"15-6": "9",
+	"15-7": "8",
+	"15-8": "7",
+	"15-9": "6",
+	"15-10": "5",
+	"15-11": "4",
+	"15-12": "3",
+	"15-13": "2",
+	"15-14": "1",
+	"15-15": "0",
+	"15-16": "-1",
+	"15-17": "-2",
+	"15-18": "-3",
+	"15-19": "-4",
+	"15-20": "-5",
+	"15-21": "-6",
+	"15-22": "-7",
+	"15-23": "-8",
+	"15-24": "-9",
+	"15-25": "-10",
+	"15-26": "-11",
+	"15-27": "-12",
+	"15-28": "-13",
+	"15-29": "-14",
+	"15-30": "-15",
+	"15-31": "-16",
+	"15-32": "-17",
+	"15-33": "-18",
+	"15-34": "-19",
+	"15-35": "-20",
+	"15-36": "-21",
+	"15-37": "-22",
+	"15-38": "-23",
+	"15-39": "-24",
+	"15-40": "-25",
+	"15-41": "-26",
+	"15-42": "-27",
+	"15-43": "-28",
+	"15-44": "-29",
+	"15-45": "-30",
+	"15-46": "-31",
+	"15-47": "-32",
+	"15-48": "-33",
+	"15-49": "-34",
+	"16-0": "16",
+	"16-1": "15",
+	"16-2": "14",
+	"16-3": "13",
+	"16-4": "12",
+	"16-5": "11",
+	"16-6": "10",
+	"16-7": "9",
+	"16-8": "8",
+	"16-9": "7",
+	"16-10": "6",
+	"16-11": "5",
+	"16-12": "4",
+	"16-13": "3",
+	"16-14": "2",
+	"16-15": "1",
+	"16-16": "0",
+	"16-17": "-1",
+	"16-18": "-2",
+	"16-19": "-3",
+	"16-20": "-4",
+	"16-21": "-5",
+	"16-22": "-6",
+	"16-23": "-7",
+	"16-24": "-8",
+	"16-25": "-9",
+	"16-26": "-10",
+	"16-27": "-11",
+	"16-28": "-12",
+	"16-29": "-13",
+	"16-30": "-14",
+	"16-31": "-15",
+	"16-32": "-16",
+	"16-33": "-17",
+	"16-34": "-18",
+	"16-35": "-19",
+	"16-36": "-20",
+	"16-37": "-21",
+	"16-38": "-22",
+	"16-39": "-23",
+	"16-40": "-24",
+	"16-41": "-25",
+	"16-42": "-26",
+	"16-43": "-27",
+	"16-44": "-28",
+	"16-45": "-29",
+	"16-46": "-30",
+	"16-47": "-31",
+	"16-48": "-32",
+	"16-49": "-33",
+	"17-0": "17",
+	"17-1": "16",
+	"17-2": "15",
+	"17-3": "14",
+	"17-4": "13",
+	"17-5": "12",
+	"17-6": "11",
+	"17-7": "10",
+	"17-8": "9",
+	"17-9": "8",
+	"17-10": "7",
+	"17-11": "6",
+	"17-12": "5",
+	"17-13": "4",
+	"17-14": "3",
+	"17-15": "2",
+	"17-16": "1",
+	"17-17": "0",
+	"17-18": "-1",
+	"17-19": "-2",
+	"17-20": "-3",
+	"17-21": "-4",
+	"17-22": "-5",
+	"17-23": "-6",
+	"17-24": "-7",
+	"17-25": "-8",
+	"17-26": "-9",
+	"17-27": "-10",
+	"17-28": "-11",
+	"17-29": "-12",
+	"17-30": "-13",
+	"17-31": "-14",
+	"17-32": "-15",
+	"17-33": "-16",
+	"17-34": "-17",
+	"17-35": "-18",
+	"17-36": "-19",
+	"17-37": "-20",
+	"17-38": "-21",
+	"17-39": "-22",
+	"17-40": "-23",
+	"17-41": "-24",
+	"17-42": "-25",
+	"17-43": "-26",
+	"17-44": "-27",
+	"17-45": "-28",
+	"17-46": "-29",
+	"17-47": "-30",
+	"17-48": "-31",
+	"17-49": "-32",
+	"18-0": "18",
+	"18-1": "17",
+	"18-2": "16",
+	"18-3": "15",
+	"18-4": "14",
+	"18-5": "13",
+	"18-6": "12",
+	"18-7": "11",
+	"18-8": "10",
+	"18-9": "9",
+	"18-10": "8",
+	"18-11": "7",
+	"18-12": "6",
+	"18-13": "5",
+	"18-14": "4",
+	"18-15": "3",
+	"18-16": "2",
+	"18-17": "1",
+	"18-18": "0",
+	"18-19": "-1",
+	"18-20": "-2",
+	"18-21": "-3",
+	"18-22": "-4",
+	"18-23": "-5",
+	"18-24": "-6",
+	"18-25": "-7",
+	"18-26": "-8",
+	"18-27": "-9",
+	"18-28": "-10",
+	"18-29": "-11",
+	"18-30": "-12",
+	"18-31": "-13",
+	"18-32": "-14",
+	"18-33": "-15",
+	"18-34": "-16",
+	"18-35": "-17",
+	"18-36": "-18",
+	"18-37": "-19",
+	"18-38": "-20",
+	"18-39": "-21",
+	"18-40": "-22",
+	"18-41": "-23",
+	"18-42": "-24",
+	"18-43": "-25",
+	"18-44": "-26",
+	"18-45": "-27",
+	"18-46": "-28",
+	"18-47": "-29",
+	"18-48": "-30",
+	"18-49": "-31",
+	"19-0": "19",
+	"19-1": "18",
+	"19-2": "17",
+	"19-3": "16",
+	"19-4": "15",
+	"19-5": "14",
+	"19-6": "13",
+	"19-7": "12",
+	"19-8": "11",
+	"19-9": "10",
+	"19-10": "9",
+	"19-11": "8",
+	"19-12": "7",
+	"19-13": "6",
+	"19-14": "5",
+	"19-15": "4",
+	"19-16": "3",
+	"19-17": "2",
+	"19-18": "1",
+	"19-19": "0",
+	"19-20": "-1",
+	"19-21": "-2",
+	"19-22": "-3",
+	"19-23": "-4",
+	"19-24": "-5",
+	"19-25": "-6",
+	"19-26": "-7",
+	"19-27": "-8",
+	"19-28": "-9",
+	"19-29": "-10",
+	"19-30": "-11",
+	"19-31": "-12",
+	"19-32": "-13",
+	"19-33": "-14",
+	"19-34": "-15",
+	"19-35": "-16",
+	"19-36": "-17",
+	"19-37": "-18",
+	"19-38": "-19",
+	"19-39": "-20",
+	"19-40": "-21",
+	"19-41": "-22",
+	"19-42": "-23",
+	"19-43": "-24",
+	"19-44": "-25",
+	"19-45": "-26",
+	"19-46": "-27",
+	"19-47": "-28",
+	"19-48": "-29",
+	"19-49": "-30",
+	"20-0": "20",
+	"20-1": "19",
+	"20-2": "18",
+	"20-3": "17",
+	"20-4": "16",
+	"20-5": "15",
+	"20-6": "14",
+	"20-7": "13",
+	"20-8": "12",
+	"20-9": "11",
+	"20-10": "10",
+	"20-11": "9",
+	"20-12": "8",
+	"20-13": "7",
+	"20-14": "6",
+	"20-15": "5",
+	"20-16": "4",
+	"20-17": "3",
+	"20-18": "2",
+	"20-19": "1",
+	"20-20": "0",
+	"20-21": "-1",
+	"20-22": "-2",
+	"20-23": "-3",
+	"20-24": "-4",
+	"20-25": "-5",
+	"20-26": "-6",
+	"20-27": "-7",
+	"20-28": "-8",
+	"20-29": "-9",
+	"20-30": "-10",
+	"20-31": "-11",
+	"20-32": "-12",
+	"20-33": "-13",
+	"20-34": "-14",
+	"20-35": "-15",
+	"20-36": "-16",
+	"20-37": "-17",
+	"20-38": "-18",
+	"20-39": "-19",
+	"20-40": "-20",
+	"20-41": "-21",
+	"20-42": "-22",
+	"20-43": "-23",
+	"20-44": "-24",
+	"20-45": "-25",
+	"20-46": "-26",
+	"20-47": "-27",
+	"20-48": "-28",
+	"20-49": "-29",
+	"21-0": "21",
+	"21-1": "20",
+	"21-2": "19",
+	"21-3": "18",
+	"21-4": "17",
+	"21-5": "16",
+	"21-6": "15",
+	"21-7": "14",
+	"21-8": "13",
+	"21-9": "12",
+	"21-10": "11",
+	"21-11": "10",
+	"21-12": "9",
+	"21-13": "8",
+	"21-14": "7",
+	"21-15": "6",
+	"21-16": "5",
+	"21-17": "4",
+	"21-18": "3",
+	"21-19": "2",
+	"21-20": "1",
+	"21-21": "0",
+	"21-22": "-1",
+	"21-23": "-2",
+	"21-24": "-3",
+	"21-25": "-4",
+	"21-26": "-5",
+	"21-27": "-6",
+	"21-28": "-7",
+	"21-29": "-8",
+	"21-30": "-9",
+	"21-31": "-10",
+	"21-32": "-11",
+	"21-33": "-12",
+	"21-34": "-13",
+	"21-35": "-14",
+	"21-36": "-15",
+	"21-37": "-16",
+	"21-38": "-17",
+	"21-39": "-18",
+	"21-40": "-19",
+	"21-41": "-20",
+	"21-42": "-21",
+	"21-43": "-22",
+	"21-44": "-23",
+	"21-45": "-24",
+	"21-46": "-25",
+	"21-47": "-26",
+	"21-48": "-27",
+	"21-49": "-28",
+	"22-0": "22",
+	"22-1": "21",
+	"22-2": "20",
+	"22-3": "19",
+	"22-4": "18",
+	"22-5": "17",
+	"22-6": "16",
+	"22-7": "15",
+	"22-8": "14",
+	"22-9": "13",
+	"22-10": "12",
+	"22-11": "11",
+	"22-12": "10",
+	"22-13": "9",
+	"22-14": "8",
+	"22-15": "7",
+	"22-16": "6",
+	"22-17": "5",
+	"22-18": "4",
+	"22-19": "3",
+	"22-20": "2",
+	"22-21": "1",
+	"22-22": "0",
+	"22-23": "-1",
+	"22-24": "-2",
+	"22-25": "-3",
+	"22-26": "-4",
+	"22-27": "-5",
+	"22-28": "-6",
+	"22-29": "-7",
+	"22-30": "-8",
+	"22-31": "-9",
+	"22-32": "-10",
+	"22-33": "-11",
+	"22-34": "-12",
+	"22-35": "-13",
+	"22-36": "-14",
+	"22-37": "-15",
+	"22-38": "-16",
+	"22-39": "-17",
+	"22-40": "-18",
+	"22-41": "-19",
+	"22-42": "-20",
+	"22-43": "-21",
+	"22-44": "-22",
+	"22-45": "-23",
+	"22-46": "-24",
+	"22-47": "-25",
+	"22-48": "-26",
+	"22-49": "-27",
+	"23-0": "23",
+	"23-1": "22",
+	"23-2": "21",
+	"23-3": "20",
+	"23-4": "19",
+	"23-5": "18",
+	"23-6": "17",
+	"23-7": "16",
+	"23-8": "15",
+	"23-9": "14",
+	"23-10": "13",
+	"23-11": "12",
+	"23-12": "11",
+	"23-13": "10",
+	"23-14": "9",
+	"23-15": "8",
+	"23-16": "7",
+	"23-17": "6",
+	"23-18": "5",
+	"23-19": "4",
+	"23-20": "3",
+	"23-21": "2",
+	"23-22": "1",
+	"23-23": "0",
+	"23-24": "-1",
+	"23-25": "-2",
+	"23-26": "-3",
+	"23-27": "-4",
+	"23-28": "-5",
+	"23-29": "-6",
+	"23-30": "-7",
+	"23-31": "-8",
+	"23-32": "-9",
+	"23-33": "-10",
+	"23-34": "-11",
+	"23-35": "-12",
+	"23-36": "-13",
+	"23-37": "-14",
+	"23-38": "-15",
+	"23-39": "-16",
+	"23-40": "-17",
+	"23-41": "-18",
+	"23-42": "-19",
+	"23-43": "-20",
+	"23-44": "-21",
+	"23-45": "-22",
+	"23-46": "-23",
+	"23-47": "-24",
+	"23-48": "-25",
+	"23-49": "-26",
+	"24-0": "24",
+	"24-1": "23",
+	"24-2": "22",
+	"24-3": "21",
+	"24-4": "20",
+	"24-5": "19",
+	"24-6": "18",
+	"24-7": "17",
+	"24-8": "16",
+	"24-9": "15",
+	"24-10": "14",
+	"24-11": "13",
+	"24-12": "12",
+	"24-13": "11",
+	"24-14": "10",
+	"24-15": "9",
+	"24-16": "8",
+	"24-17": "7",
+	"24-18": "6",
+	"24-19": "5",
+	"24-20": "4",
+	"24-21": "3",
+	"24-22": "2",
+	"24-23": "1",
+	"24-24": "0",
+	"24-25": "-1",
+	"24-26": "-2",
+	"24-27": "-3",
+	"24-28": "-4",
+	"24-29": "-5",
+	"24-30": "-6",
+	"24-31": "-7",
+	"24-32": "-8",
+	"24-33": "-9",
+	"24-34": "-10",
+	"24-35": "-11",
+	"24-36": "-12",
+	"24-37": "-13",
+	"24-38": "-14",
+	"24-39": "-15",
+	"24-40": "-16",
+	"24-41": "-17",
+	"24-42": "-18",
+	"24-43": "-19",
+	"24-44": "-20",
+	"24-45": "-21",
+	"24-46": "-22",
+	"24-47": "-23",
+	"24-48": "-24",
+	"24-49": "-25",
+	"25-0": "25",
+	"25-1": "24",
+	"25-2": "23",
+	"25-3": "22",
+	"25-4": "21",
+	"25-5": "20",
+	"25-6": "19",
+	"25-7": "18",
+	"25-8": "17",
+	"25-9": "16",
+	"25-10": "15",
+	"25-11": "14",
+	"25-12": "13",
+	"25-13": "12",
+	"25-14": "11",
+	"25-15": "10",
+	"25-16": "9",
+	"25-17": "8",
+	"25-18": "7",
+	"25-19": "6",
+	"25-20": "5",
+	"25-21": "4",
+	"25-22": "3",
+	"25-23": "2",
+	"25-24": "1",
+	"25-25": "0",
+	"25-26": "-1",
+	"25-27": "-2",
+	"25-28": "-3",
+	"25-29": "-4",
+	"25-30": "-5",
+	"25-31": "-6",
+	"25-32": "-7",
+	"25-33": "-8",
+	"25-34": "-9",
+	"25-35": "-10",
+	"25-36": "-11",
+	"25-37": "-12",
+	"25-38": "-13",
+	"25-39": "-14",
+	"25-40": "-15",
+	"25-41": "-16",
+	"25-42": "-17",
+	"25-43": "-18",
+	"25-44": "-19",
+	"25-45": "-20",
+	"25-46": "-21",
+	"25-47": "-22",
+	"25-48": "-23",
+	"25-49": "-24",
+	"26-0": "26",
+	"26-1": "25",
+	"26-2": "24",
+	"26-3": "23",
+	"26-4": "22",
+	"26-5": "21",
+	"26-6": "20",
+	"26-7": "19",
+	"26-8": "18",
+	"26-9": "17",
+	"26-10": "16",
+	"26-11": "15",
+	"26-12": "14",
+	"26-13": "13",
+	"26-14": "12",
+	"26-15": "11",
+	"26-16": "10",
+	"26-17": "9",
+	"26-18": "8",
+	"26-19": "7",
+	"26-20": "6",
+	"26-21": "5",
+	"26-22": "4",
+	"26-23": "3",
+	"26-24": "2",
+	"26-25": "1",
+	"26-26": "0",
+	"26-27": "-1",
+	"26-28": "-2",
+	"26-29": "-3",
+	"26-30": "-4",
+	"26-31": "-5",
+	"26-32": "-6",
+	"26-33": "-7",
+	"26-34": "-8",
+	"26-35": "-9",
+	"26-36": "-10",
+	"26-37": "-11",
+	"26-38": "-12",
+	"26-39": "-13",
+	"26-40": "-14",
+	"26-41": "-15",
+	"26-42": "-16",
+	"26-43": "-17",
+	"26-44": "-18",
+	"26-45": "-19",
+	"26-46": "-20",
+	"26-47": "-21",
+	"26-48": "-22",
+	"26-49": "-23",
+	"27-0": "27",
+	"27-1": "26",
+	"27-2": "25",
+	"27-3": "24",
+	"27-4": "23",
+	"27-5": "22",
+	"27-6": "21",
+	"27-7": "20",
+	"27-8": "19",
+	"27-9": "18",
+	"27-10": "17",
+	"27-11": "16",
+	"27-12": "15",
+	"27-13": "14",
+	"27-14": "13",
+	"27-15": "12",
+	"27-16": "11",
+	"27-17": "10",
+	"27-18": "9",
+	"27-19": "8",
+	"27-20": "7",
+	"27-21": "6",
+	"27-22": "5",
+	"27-23": "4",
+	"27-24": "3",
+	"27-25": "2",
+	"27-26": "1",
+	"27-27": "0",
+	"27-28": "-1",
+	"27-29": "-2",
+	"27-30": "-3",
+	"27-31": "-4",
+	"27-32": "-5",
+	"27-33": "-6",
+	"27-34": "-7",
+	"27-35": "-8",
+	"27-36": "-9",
+	"27-37": "-10",
+	"27-38": "-11",
+	"27-39": "-12",
+	"27-40": "-13",
+	"27-41": "-14",
+	"27-42": "-15",
+	"27-43": "-16",
+	"27-44": "-17",
+	"27-45": "-18",
+	"27-46": "-19",
+	"27-47": "-20",
+	"27-48": "-21",
+	"27-49": "-22",
+	"28-0": "28",
+	"28-1": "27",
+	"28-2": "26",
+	"28-3": "25",
+	"28-4": "24",
+	"28-5": "23",
+	"28-6": "22",
+	"28-7": "21",
+	"28-8": "20",
+	"28-9": "19",
+	"28-10": "18",
+	"28-11": "17",
+	"28-12": "16",
+	"28-13": "15",
+	"28-14": "14",
+	"28-15": "13",
+	"28-16": "12",
+	"28-17": "11",
+	"28-18": "10",
+	"28-19": "9",
+	"28-20": "8",
+	"28-21": "7",
+	"28-22": "6",
+	"28-23": "5",
+	"28-24": "4",
+	"28-25": "3",
+	"28-26": "2",
+	"28-27": "1",
+	"28-28": "0",
+	"28-29": "-1",
+	"28-30": "-2",
+	"28-31": "-3",
+	"28-32": "-4",
+	"28-33": "-5",
+	"28-34": "-6",
+	"28-35": "-7",
+	"28-36": "-8",
+	"28-37": "-9",
+	"28-38": "-10",
+	"28-39": "-11",
+	"28-40": "-12",
+	"28-41": "-13",
+	"28-42": "-14",
+	"28-43": "-15",
+	"28-44": "-16",
+	"28-45": "-17",
+	"28-46": "-18",
+	"28-47": "-19",
+	"28-48": "-20",
+	"28-49": "-21",
+	"29-0": "29",
+	"29-1": "28",
+	"29-2": "27",
+	"29-3": "26",
+	"29-4": "25",
+	"29-5": "24",
+	"29-6": "23",
+	"29-7": "22",
+	"29-8": "21",
+	"29-9": "20",
+	"29-10": "19",
+	"29-11": "18",
+	"29-12": "17",
+	"29-13": "16",
+	"29-14": "15",
+	"29-15": "14",
+	"29-16": "13",
+	"29-17": "12",
+	"29-18": "11",
+	"29-19": "10",
+	"29-20": "9",
+	"29-21": "8",
+	"29-22": "7",
+	"29-23": "6",
+	"29-24": "5",
+	"29-25": "4",
+	"29-26": "3",
+	"29-27": "2",
+	"29-28": "1",
+	"29-29": "0",
+	"29-30": "-1",
+	"29-31": "-2",
+	"29-32": "-3",
+	"29-33": "-4",
+	"29-34": "-5",
+	"29-35": "-6",
+	"29-36": "-7",
+	"29-37": "-8",
+	"29-38": "-9",
+	"29-39": "-10",
+	"29-40": "-11",
+	"29-41": "-12",
+	"29-42": "-13",
+	"29-43": "-14",
+	"29-44": "-15",
+	"29-45": "-16",
+	"29-46": "-17",
+	"29-47": "-18",
+	"29-48": "-19",
+	"29-49": "-20",
+	"30-0": "30",
+	"30-1": "29",
+	"30-2": "28",
+	"30-3": "27",
+	"30-4": "26",
+	"30-5": "25",
+	"30-6": "24",
+	"30-7": "23",
+	"30-8": "22",
+	"30-9": "21",
+	"30-10": "20",
+	"30-11": "19",
+	"30-12": "18",
+	"30-13": "17",
+	"30-14": "16",
+	"30-15": "15",
+	"30-16": "14",
+	"30-17": "13",
+	"30-18": "12",
+	"30-19": "11",
+	"30-20": "10",
+	"30-21": "9",
+	"30-22": "8",
+	"30-23": "7",
+	"30-24": "6",
+	"30-25": "5",
+	"30-26": "4",
+	"30-27": "3",
+	"30-28": "2",
+	"30-29": "1",
+	"30-30": "0",
+	"30-31": "-1",
+	"30-32": "-2",
+	"30-33": "-3",
+	"30-34": "-4",
+	"30-35": "-5",
+	"30-36": "-6",
+	"30-37": "-7",
+	"30-38": "-8",
+	"30-39": "-9",
+	"30-40": "-10",
+	"30-41": "-11",
+	"30-42": "-12",
+	"30-43": "-13",
+	"30-44": "-14",
+	"30-45": "-15",
+	"30-46": "-16",
+	"30-47": "-17",
+	"30-48": "-18",
+	"30-49": "-19",
+	"31-0": "31",
+	"31-1": "30",
+	"31-2": "29",
+	"31-3": "28",
+	"31-4": "27",
+	"31-5": "26",
+	"31-6": "25",
+	"31-7": "24",
+	"31-8": "23",
+	"31-9": "22",
+	"31-10": "21",
+	"31-11": "20",
+	"31-12": "19",
+	"31-13": "18",
+	"31-14": "17",
+	"31-15": "16",
+	"31-16": "15",
+	"31-17": "14",
+	"31-18": "13",
+	"31-19": "12",
+	"31-20": "11",
+	"31-21": "10",
+	"31-22": "9",
+	"31-23": "8",
+	"31-24": "7",
+	"31-25": "6",
+	"31-26": "5",
+	"31-27": "4",
+	"31-28": "3",
+	"31-29": "2",
+	"31-30": "1",
+	"31-31": "0",
+	"31-32": "-1",
+	"31-33": "-2",
+	"31-34": "-3",
+	"31-35": "-4",
+	"31-36": "-5",
+	"31-37": "-6",
+	"31-38": "-7",
+	"31-39": "-8",
+	"31-40": "-9",
+	"31-41": "-10",
+	"31-42": "-11",
+	"31-43": "-12",
+	"31-44": "-13",
+	"31-45": "-14",
+	"31-46": "-15",
+	"31-47": "-16",
+	"31-48": "-17",
+	"31-49": "-18",
+	"32-0": "32",
+	"32-1": "31",
+	"32-2": "30",
+	"32-3": "29",
+	"32-4": "28",
+	"32-5": "27",
+	"32-6": "26",
+	"32-7": "25",
+	"32-8": "24",
+	"32-9": "23",
+	"32-10": "22",
+	"32-11": "21",
+	"32-12": "20",
+	"32-13": "19",
+	"32-14": "18",
+	"32-15": "17",
+	"32-16": "16",
+	"32-17": "15",
+	"32-18": "14",
+	"32-19": "13",
+	"32-20": "12",
+	"32-21": "11",
+	"32-22": "10",
+	"32-23": "9",
+	"32-24": "8",
+	"32-25": "7",
+	"32-26": "6",
+	"32-27": "5",
+	"32-28": "4",
+	"32-29": "3",
+	"32-30": "2",
+	"32-31": "1",
+	"32-32": "0",
+	"32-33": "-1",
+	"32-34": "-2",
+	"32-35": "-3",
+	"32-36": "-4",
+	"32-37": "-5",
+	"32-38": "-6",
+	"32-39": "-7",
+	"32-40": "-8",
+	"32-41": "-9",
+	"32-42": "-10",
+	"32-43": "-11",
+	"32-44": "-12",
+	"32-45": "-13",
+	"32-46": "-14",
+	"32-47": "-15",
+	"32-48": "-16",
+	"32-49": "-17",
+	"33-0": "33",
+	"33-1": "32",
+	"33-2": "31",
+	"33-3": "30",
+	"33-4": "29",
+	"33-5": "28",
+	"33-6": "27",
+	"33-7": "26",
+	"33-8": "25",
+	"33-9": "24",
+	"33-10": "23",
+	"33-11": "22",
+	"33-12": "21",
+	"33-13": "20",
+	"33-14": "19",
+	"33-15": "18",
+	"33-16": "17",
+	"33-17": "16",
+	"33-18": "15",
+	"33-19": "14",
+	"33-20": "13",
+	"33-21": "12",
+	"33-22": "11",
+	"33-23": "10",
+	"33-24": "9",
+	"33-25": "8",
+	"33-26": "7",
+	"33-27": "6",
+	"33-28": "5",
+	"33-29": "4",
+	"33-30": "3",
+	"33-31": "2",
+	"33-32": "1",
+	"33-33": "0",
+	"33-34": "-1",
+	"33-35": "-2",
+	"33-36": "-3",
+	"33-37": "-4",
+	"33-38": "-5",
+	"33-39": "-6",
+	"33-40": "-7",
+	"33-41": "-8",
+	"33-42": "-9",
+	"33-43": "-10",
+	"33-44": "-11",
+	"33-45": "-12",
+	"33-46": "-13",
+	"33-47": "-14",
+	"33-48": "-15",
+	"33-49": "-16",
+	"34-0": "34",
+	"34-1": "33",
+	"34-2": "32",
+	"34-3": "31",
+	"34-4": "30",
+	"34-5": "29",
+	"34-6": "28",
+	"34-7": "27",
+	"34-8": "26",
+	"34-9": "25",
+	"34-10": "24",
+	"34-11": "23",
+	"34-12": "22",
+	"34-13": "21",
+	"34-14": "20",
+	"34-15": "19",
+	"34-16": "18",
+	"34-17": "17",
+	"34-18": "16",
+	"34-19": "15",
+	"34-20": "14",
+	"34-21": "13",
+	"34-22": "12",
+	"34-23": "11",
+	"34-24": "10",
+	"34-25": "9",
+	"34-26": "8",
+	"34-27": "7",
+	"34-28": "6",
+	"34-29": "5",
+	"34-30": "4",
+	"34-31": "3",
+	"34-32": "2",
+	"34-33": "1",
+	"34-34": "0",
+	"34-35": "-1",
+	"34-36": "-2",
+	"34-37": "-3",
+	"34-38": "-4",
+	"34-39": "-5",
+	"34-40": "-6",
+	"34-41": "-7",
+	"34-42": "-8",
+	"34-43": "-9",
+	"34-44": "-10",
+	"34-45": "-11",
+	"34-46": "-12",
+	"34-47": "-13",
+	"34-48": "-14",
+	"34-49": "-15",
+	"35-0": "35",
+	"35-1": "34",
+	"35-2": "33",
+	"35-3": "32",
+	"35-4": "31",
+	"35-5": "30",
+	"35-6": "29",
+	"35-7": "28",
+	"35-8": "27",
+	"35-9": "26",
+	"35-10": "25",
+	"35-11": "24",
+	"35-12": "23",
+	"35-13": "22",
+	"35-14": "21",
+	"35-15": "20",
+	"35-16": "19",
+	"35-17": "18",
+	"35-18": "17",
+	"35-19": "16",
+	"35-20": "15",
+	"35-21": "14",
+	"35-22": "13",
+	"35-23": "12",
+	"35-24": "11",
+	"35-25": "10",
+	"35-26": "9",
+	"35-27": "8",
+	"35-28": "7",
+	"35-29": "6",
+	"35-30": "5",
+	"35-31": "4",
+	"35-32": "3",
+	"35-33": "2",
+	"35-34": "1",
+	"35-35": "0",
+	"35-36": "-1",
+	"35-37": "-2",
+	"35-38": "-3",
+	"35-39": "-4",
+	"35-40": "-5",
+	"35-41": "-6",
+	"35-42": "-7",
+	"35-43": "-8",
+	"35-44": "-9",
+	"35-45": "-10",
+	"35-46": "-11",
+	"35-47": "-12",
+	"35-48": "-13",
+	"35-49": "-14",
+	"36-0": "36",
+	"36-1": "35",
+	"36-2": "34",
+	"36-3": "33",
+	"36-4": "32",
+	"36-5": "31",
+	"36-6": "30",
+	"36-7": "29",
+	"36-8": "28",
+	"36-9": "27",
+	"36-10": "26",
+	"36-11": "25",
+	"36-12": "24",
+	"36-13": "23",
+	"36-14": "22",
+	"36-15": "21",
+	"36-16": "20",
+	"36-17": "19",
+	"36-18": "18",
+	"36-19": "17",
+	"36-20": "16",
+	"36-21": "15",
+	"36-22": "14",
+	"36-23": "13",
+	"36-24": "12",
+	"36-25": "11",
+	"36-26": "10",
+	"36-27": "9",
+	"36-28": "8",
+	"36-29": "7",
+	"36-30": "6",
+	"36-31": "5",
+	"36-32": "4",
+	"36-33": "3",
+	"36-34": "2",
+	"36-35": "1",
+	"36-36": "0",
+	"36-37": "-1",
+	"36-38": "-2",
+	"36-39": "-3",
+	"36-40": "-4",
+	"36-41": "-5",
+	"36-42": "-6",
+	"36-43": "-7",
+	"36-44": "-8",
+	"36-45": "-9",
+	"36-46": "-10",
+	"36-47": "-11",
+	"36-48": "-12",
+	"36-49": "-13",
+	"37-0": "37",
+	"37-1": "36",
+	"37-2": "35",
+	"37-3": "34",
+	"37-4": "33",
+	"37-5": "32",
+	"37-6": "31",
+	"37-7": "30",
+	"37-8": "29",
+	"37-9": "28",
+	"37-10": "27",
+	"37-11": "26",
+	"37-12": "25",
+	"37-13": "24",
+	"37-14": "23",
+	"37-15": "22",
+	"37-16": "21",
+	"37-17": "20",
+	"37-18": "19",
+	"37-19": "18",
+	"37-20": "17",
+	"37-21": "16",
+	"37-22": "15",
+	"37-23": "14",
+	"37-24": "13",
+	"37-25": "12",
+	"37-26": "11",
+	"37-27": "10",
+	"37-28": "9",
+	"37-29": "8",
+	"37-30": "7",
+	"37-31": "6",
+	"37-32": "5",
+	"37-33": "4",
+	"37-34": "3",
+	"37-35": "2",
+	"37-36": "1",
+	"37-37": "0",
+	"37-38": "-1",
+	"37-39": "-2",
+	"37-40": "-3",
+	"37-41": "-4",
+	"37-42": "-5",
+	"37-43": "-6",
+	"37-44": "-7",
+	"37-45": "-8",
+	"37-46": "-9",
+	"37-47": "-10",
+	"37-48": "-11",
+	"37-49": "-12",
+	"38-0": "38",
+	"38-1": "37",
+	"38-2": "36",
+	"38-3": "35",
+	"38-4": "34",
+	"38-5": "33",
+	"38-6": "32",
+	"38-7": "31",
+	"38-8": "30",
+	"38-9": "29",
+	"38-10": "28",
+	"38-11": "27",
+	"38-12": "26",
+	"38-13": "25",
+	"38-14": "24",
+	"38-15": "23",
+	"38-16": "22",
+	"38-17": "21",
+	"38-18": "20",
+	"38-19": "19",
+	"38-20": "18",
+	"38-21": "17",
+	"38-22": "16",
+	"38-23": "15",
+	"38-24": "14",
+	"38-25": "13",
+	"38-26": "12",
+	"38-27": "11",
+	"38-28": "10",
+	"38-29": "9",
+	"38-30": "8",
+	"38-31": "7",
+	"38-32": "6",
+	"38-33": "5",
+	"38-34": "4",
+	"38-35": "3",
+	"38-36": "2",
+	"38-37": "1",
+	"38-38": "0",
+	"38-39": "-1",
+	"38-40": "-2",
+	"38-41": "-3",
+	"38-42": "-4",
+	"38-43": "-5",
+	"38-44": "-6",
+	"38-45": "-7",
+	"38-46": "-8",
+	"38-47": "-9",
+	"38-48": "-10",
+	"38-49": "-11",
+	"39-0": "39",
+	"39-1": "38",
+	"39-2": "37",
+	"39-3": "36",
+	"39-4": "35",
+	"39-5": "34",
+	"39-6": "33",
+	"39-7": "32",
+	"39-8": "31",
+	"39-9": "30",
+	"39-10": "29",
+	"39-11": "28",
+	"39-12": "27",
+	"39-13": "26",
+	"39-14": "25",
+	"39-15": "24",
+	"39-16": "23",
+	"39-17": "22",
+	"39-18": "21",
+	"39-19": "20",
+	"39-20": "19",
+	"39-21": "18",
+	"39-22": "17",
+	"39-23": "16",
+	"39-24": "15",
+	"39-25": "14",
+	"39-26": "13",
+	"39-27": "12",
+	"39-28": "11",
+	"39-29": "10",
+	"39-30": "9",
+	"39-31": "8",
+	"39-32": "7",
+	"39-33": "6",
+	"39-34": "5",
+	"39-35": "4",
+	"39-36": "3",
+	"39-37": "2",
+	"39-38": "1",
+	"39-39": "0",
+	"39-40": "-1",
+	"39-41": "-2",
+	"39-42": "-3",
+	"39-43": "-4",
+	"39-44": "-5",
+	"39-45": "-6",
+	"39-46": "-7",
+	"39-47": "-8",
+	"39-48": "-9",
+	"39-49": "-10",
+	"40-0": "40",
+	"40-1": "39",
+	"40-2": "38",
+	"40-3": "37",
+	"40-4": "36",
+	"40-5": "35",
+	"40-6": "34",
+	"40-7": "33",
+	"40-8": "32",
+	"40-9": "31",
+	"40-10": "30",
+	"40-11": "29",
+	"40-12": "28",
+	"40-13": "27",
+	"40-14": "26",
+	"40-15": "25",
+	"40-16": "24",
+	"40-17": "23",
+	"40-18": "22",
+	"40-19": "21",
+	"40-20": "20",
+	"40-21": "19",
+	"40-22": "18",
+	"40-23": "17",
+	"40-24": "16",
+	"40-25": "15",
+	"40-26": "14",
+	"40-27": "13",
+	"40-28": "12",
+	"40-29": "11",
+	"40-30": "10",
+	"40-31": "9",
+	"40-32": "8",
+	"40-33": "7",
+	"40-34": "6",
+	"40-35": "5",
+	"40-36": "4",
+	"40-37": "3",
+	"40-38": "2",
+	"40-39": "1",
+	"40-40": "0",
+	"40-41": "-1",
+	"40-42": "-2",
+	"40-43": "-3",
+	"40-44": "-4",
+	"40-45": "-5",
+	"40-46": "-6",
+	"40-47": "-7",
+	"40-48": "-8",
+	"40-49": "-9",
+	"41-0": "41",
+	"41-1": "40",
+	"41-2": "39",
+	"41-3": "38",
+	"41-4": "37",
+	"41-5": "36",
+	"41-6": "35",
+	"41-7": "34",
+	"41-8": "33",
+	"41-9": "32",
+	"41-10": "31",
+	"41-11": "30",
+	"41-12": "29",
+	"41-13": "28",
+	"41-14": "27",
+	"41-15": "26",
+	"41-16": "25",
+	"41-17": "24",
+	"41-18": "23",
+	"41-19": "22",
+	"41-20": "21",
+	"41-21": "20",
+	"41-22": "19",
+	"41-23": "18",
+	"41-24": "17",
+	"41-25": "16",
+	"41-26": "15",
+	"41-27": "14",
+	"41-28": "13",
+	"41-29": "12",
+	"41-30": "11",
+	"41-31": "10",
+	"41-32": "9",
+	"41-33": "8",
+	"41-34": "7",
+	"41-35": "6",
+	"41-36": "5",
+	"41-37": "4",
+	"41-38": "3",
+	"41-39": "2",
+	"41-40": "1",
+	"41-41": "0",
+	"41-42": "-1",
+	"41-43": "-2",
+	"41-44": "-3",
+	"41-45": "-4",
+	"41-46": "-5",
+	"41-47": "-6",
+	"41-48": "-7",
+	"41-49": "-8",
+	"42-0": "42",
+	"42-1": "41",
+	"42-2": "40",
+	"42-3": "39",
+	"42-4": "38",
+	"42-5": "37",
+	"42-6": "36",
+	"42-7": "35",
+	"42-8": "34",
+	"42-9": "33",
+	"42-10": "32",
+	"42-11": "31",
+	"42-12": "30",
+	"42-13": "29",
+	"42-14": "28",
+	"42-15": "27",
+	"42-16": "26",
+	"42-17": "25",
+	"42-18": "24",
+	"42-19": "23",
+	"42-20": "22",
+	"42-21": "21",
+	"42-22": "20",
+	"42-23": "19",
+	"42-24": "18",
+	"42-25": "17",
+	"42-26": "16",
+	"42-27": "15",
+	"42-28": "14",
+	"42-29": "13",
+	"42-30": "12",
+	"42-31": "11",
+	"42-32": "10",
+	"42-33": "9",
+	"42-34": "8",
+	"42-35": "7",
+	"42-36": "6",
+	"42-37": "5",
+	"42-38": "4",
+	"42-39": "3",
+	"42-40": "2",
+	"42-41": "1",
+	"42-42": "0",
+	"42-43": "-1",
+	"42-44": "-2",
+	"42-45": "-3",
+	"42-46": "-4",
+	"42-47": "-5",
+	"42-48": "-6",
+	"42-49": "-7",
+	"43-0": "43",
+	"43-1": "42",
+	"43-2": "41",
+	"43-3": "40",
+	"43-4": "39",
+	"43-5": "38",
+	"43-6": "37",
+	"43-7": "36",
+	"43-8": "35",
+	"43-9": "34",
+	"43-10": "33",
+	"43-11": "32",
+	"43-12": "31",
+	"43-13": "30",
+	"43-14": "29",
+	"43-15": "28",
+	"43-16": "27",
+	"43-17": "26",
+	"43-18": "25",
+	"43-19": "24",
+	"43-20": "23",
+	"43-21": "22",
+	"43-22": "21",
+	"43-23": "20",
+	"43-24": "19",
+	"43-25": "18",
+	"43-26": "17",
+	"43-27": "16",
+	"43-28": "15",
+	"43-29": "14",
+	"43-30": "13",
+	"43-31": "12",
+	"43-32": "11",
+	"43-33": "10",
+	"43-34": "9",
+	"43-35": "8",
+	"43-36": "7",
+	"43-37": "6",
+	"43-38": "5",
+	"43-39": "4",
+	"43-40": "3",
+	"43-41": "2",
+	"43-42": "1",
+	"43-43": "0",
+	"43-44": "-1",
+	"43-45": "-2",
+	"43-46": "-3",
+	"43-47": "-4",
+	"43-48": "-5",
+	"43-49": "-6",
+	"44-0": "44",
+	"44-1": "43",
+	"44-2": "42",
+	"44-3": "41",
+	"44-4": "40",
+	"44-5": "39",
+	"44-6": "38",
+	"44-7": "37",
+	"44-8": "36",
+	"44-9": "35",
+	"44-10": "34",
+	"44-11": "33",
+	"44-12": "32",
+	"44-13": "31",
+	"44-14": "30",
+	"44-15": "29",
+	"44-16": "28",
+	"44-17": "27",
+	"44-18": "26",
+	"44-19": "25",
+	"44-20": "24",
+	"44-21": "23",
+	"44-22": "22",
+	"44-23": "21",
+	"44-24": "20",
+	"44-25": "19",
+	"44-26": "18",
+	"44-27": "17",
+	"44-28": "16",
+	"44-29": "15",
+	"44-30": "14",
+	"44-31": "13",
+	"44-32": "12",
+	"44-33": "11",
+	"44-34": "10",
+	"44-35": "9",
+	"44-36": "8",
+	"44-37": "7",
+	"44-38": "6",
+	"44-39": "5",
+	"44-40": "4",
+	"44-41": "3",
+	"44-42": "2",
+	"44-43": "1",
+	"44-44": "0",
+	"44-45": "-1",
+	"44-46": "-2",
+	"44-47": "-3",
+	"44-48": "-4",
+	"44-49": "-5",
+	"45-0": "45",
+	"45-1": "44",
+	"45-2": "43",
+	"45-3": "42",
+	"45-4": "41",
+	"45-5": "40",
+	"45-6": "39",
+	"45-7": "38",
+	"45-8": "37",
+	"45-9": "36",
+	"45-10": "35",
+	"45-11": "34",
+	"45-12": "33",
+	"45-13": "32",
+	"45-14": "31",
+	"45-15": "30",
+	"45-16": "29",
+	"45-17": "28",
+	"45-18": "27",
+	"45-19": "26",
+	"45-20": "25",
+	"45-21": "24",
+	"45-22": "23",
+	"45-23": "22",
+	"45-24": "21",
+	"45-25": "20",
+	"45-26": "19",
+	"45-27": "18",
+	"45-28": "17",
+	"45-29": "16",
+	"45-30": "15",
+	"45-31": "14",
+	"45-32": "13",
+	"45-33": "12",
+	"45-34": "11",
+	"45-35": "10",
+	"45-36": "9",
+	"45-37": "8",
+	"45-38": "7",
+	"45-39": "6",
+	"45-40": "5",
+	"45-41": "4",
+	"45-42": "3",
+	"45-43": "2",
+	"45-44": "1",
+	"45-45": "0",
+	"45-46": "-1",
+	"45-47": "-2",
+	"45-48": "-3",
+	"45-49": "-4",
+	"46-0": "46",
+	"46-1": "45",
+	"46-2": "44",
+	"46-3": "43",
+	"46-4": "42",
+	"46-5": "41",
+	"46-6": "40",
+	"46-7": "39",
+	"46-8": "38",
+	"46-9": "37",
+	"46-10": "36",
+	"46-11": "35",
+	"46-12": "34",
+	"46-13": "33",
+	"46-14": "32",
+	"46-15": "31",
+	"46-16": "30",
+	"46-17": "29",
+	"46-18": "28",
+	"46-19": "27",
+	"46-20": "26",
+	"46-21": "25",
+	"46-22": "24",
+	"46-23": "23",
+	"46-24": "22",
+	"46-25": "21",
+	"46-26": "20",
+	"46-27": "19",
+	"46-28": "18",
+	"46-29": "17",
+	"46-30": "16",
+	"46-31": "15",
+	"46-32": "14",
+	"46-33": "13",
+	"46-34": "12",
+	"46-35": "11",
+	"46-36": "10",
+	"46-37": "9",
+	"46-38": "8",
+	"46-39": "7",
+	"46-40": "6",
+	"46-41": "5",
+	"46-42": "4",
+	"46-43": "3",
+	"46-44": "2",
+	"46-45": "1",
+	"46-46": "0",
+	"46-47": "-1",
+	"46-48": "-2",
+	"46-49": "-3",
+	"47-0": "47",
+	"47-1": "46",
+	"47-2": "45",
+	"47-3": "44",
+	"47-4": "43",
+	"47-5": "42",
+	"47-6": "41",
+	"47-7": "40",
+	"47-8": "39",
+	"47-9": "38",
+	"47-10": "37",
+	"47-11": "36",
+	"47-12": "35",
+	"47-13": "34",
+	"47-14": "33",
+	"47-15": "32",
+	"47-16": "31",
+	"47-17": "30",
+	"47-18": "29",
+	"47-19": "28",
+	"47-20": "27",
+	"47-21": "26",
+	"47-22": "25",
+	"47-23": "24",
+	"47-24": "23",
+	"47-25": "22",
+	"47-26": "21",
+	"47-27": "20",
+	"47-28": "19",
+	"47-29": "18",
+	"47-30": "17",
+	"47-31": "16",
+	"47-32": "15",
+	"47-33": "14",
+	"47-34": "13",
+	"47-35": "12",
+	"47-36": "11",
+	"47-37": "10",
+	"47-38": "9",
+	"47-39": "8",
+	"47-40": "7",
+	"47-41": "6",
+	"47-42": "5",
+	"47-43": "4",
+	"47-44": "3",
+	"47-45": "2",
+	"47-46": "1",
+	"47-47": "0",
+	"47-48": "-1",
+	"47-49": "-2",
+	"48-0": "48",
+	"48-1": "47",
+	"48-2": "46",
+	"48-3": "45",
+	"48-4": "44",
+	"48-5": "43",
+	"48-6": "42",
+	"48-7": "41",
+	"48-8": "40",
+	"48-9": "39",
+	"48-10": "38",
+	"48-11": "37",
+	"48-12": "36",
+	"48-13": "35",
+	"48-14": "34",
+	"48-15": "33",
+	"48-16": "32",
+	"48-17": "31",
+	"48-18": "30",
+	"48-19": "29",
+	"48-20": "28",
+	"48-21": "27",
+	"48-22": "26",
+	"48-23": "25",
+	"48-24": "24",
+	"48-25": "23",
+	"48-26": "22",
+	"48-27": "21",
+	"48-28": "20",
+	"48-29": "19",
+	"48-30": "18",
+	"48-31": "17",
+	"48-32": "16",
+	"48-33": "15",
+	"48-34": "14",
+	"48-35": "13",
+	"48-36": "12",
+	"48-37": "11",
+	"48-38": "10",
+	"48-39": "9",
+	"48-40": "8",
+	"48-41": "7",
+	"48-42": "6",
+	"48-43": "5",
+	"48-44": "4",
+	"48-45": "3",
+	"48-46": "2",
+	"48-47": "1",
+	"48-48": "0",
+	"48-49": "-1",
+	"49-0": "49",
+	"49-1": "48",
+	"49-2": "47",
+	"49-3": "46",
+	"49-4": "45",
+	"49-5": "44",
+	"49-6": "43",
+	"49-7": "42",
+	"49-8": "41",
+	"49-9": "40",
+	"49-10": "39",
+	"49-11": "38",
+	"49-12": "37",
+	"49-13": "36",
+	"49-14": "35",
+	"49-15": "34",
+	"49-16": "33",
+	"49-17": "32",
+	"49-18": "31",
+	"49-19": "30",
+	"49-20": "29",
+	"49-21": "28",
+	"49-22": "27",
+	"49-23": "26",
+	"49-24": "25",
+	"49-25": "24",
+	"49-26": "23",
+	"49-27": "22",
+	"49-28": "21",
+	"49-29": "20",
+	"49-30": "19",
+	"49-31": "18",
+	"49-32": "17",
+	"49-33": "16",
+	"49-34": "15",
+	"49-35": "14",
+	"49-36": "13",
+	"49-37": "12",
+	"49-38": "11",
+	"49-39": "10",
+	"49-40": "9",
+	"49-41": "8",
+	"49-42": "7",
+	"49-43": "6",
+	"49-44": "5",
+	"49-45": "4",
+	"49-46": "3",
+	"49-47": "2",
+	"49-48": "1",
+	"49-49": "0",
+	"0*0": "0",
+	"0*1": "0",
+	"0*2": "0",
+	"0*3": "0",
+	"0*4": "0",
+	"0*5": "0",
+	"0*6": "0",
+	"0*7": "0",
+	"0*8": "0",
+	"0*9": "0",
+	"0*10": "0",
+	"0*11": "0",
+	"0*12": "0",
+	"0*13": "0",
+	"0*14": "0",
+	"0*15": "0",
+	"0*16": "0",
+	"0*17": "0",
+	"0*18": "0",
+	"0*19": "0",
+	"0*20": "0",
+	"0*21": "0",
+	"0*22": "0",
+	"0*23": "0",
+	"0*24": "0",
+	"0*25": "0",
+	"0*26": "0",
+	"0*27": "0",
+	"0*28": "0",
+	"0*29": "0",
+	"0*30": "0",
+	"0*31": "0",
+	"0*32": "0",
+	"0*33": "0",
+	"0*34": "0",
+	"0*35": "0",
+	"0*36": "0",
+	"0*37": "0",
+	"0*38": "0",
+	"0*39": "0",
+	"0*40": "0",
+	"0*41": "0",
+	"0*42": "0",
+	"0*43": "0",
+	"0*44": "0",
+	"0*45": "0",
+	"0*46": "0",
+	"0*47": "0",
+	"0*48": "0",
+	"0*49": "0",
+	"1*0": "0",
+	"1*1": "1",
+	"1*2": "2",
+	"1*3": "3",
+	"1*4": "4",
+	"1*5": "5",
+	"1*6": "6",
+	"1*7": "7",
+	"1*8": "8",
+	"1*9": "9",
+	"1*10": "10",
+	"1*11": "11",
+	"1*12": "12",
+	"1*13": "13",
+	"1*14": "14",
+	"1*15": "15",
+	"1*16": "16",
+	"1*17": "17",
+	"1*18": "18",
+	"1*19": "19",
+	"1*20": "20",
+	"1*21": "21",
+	"1*22": "22",
+	"1*23": "23",
+	"1*24": "24",
+	"1*25": "25",
+	"1*26": "26",
+	"1*27": "27",
+	"1*28": "28",
+	"1*29": "29",
+	"1*30": "30",
+	"1*31": "31",
+	"1*32": "32",
+	"1*33": "33",
+	"1*34": "34",
+	"1*35": "35",
+	"1*36": "36",
+	"1*37": "37",
+	"1*38": "38",
+	"1*39": "39",
+	"1*40": "40",
+	"1*41": "41",
+	"1*42": "42",
+	"1*43": "43",
+	"1*44": "44",
+	"1*45": "45",
+	"1*46": "46",
+	"1*47": "47",
+	"1*48": "48",
+	"1*49": "49",
+	"2*0": "0",
+	"2*1": "2",
+	"2*2": "4",
+	"2*3": "6",
+	"2*4": "8",
+	"2*5": "10",
+	"2*6": "12",
+	"2*7": "14",
+	"2*8": "16",
+	"2*9": "18",
+	"2*10": "20",
+	"2*11": "22",
+	"2*12": "24",
+	"2*13": "26",
+	"2*14": "28",
+	"2*15": "30",
+	"2*16": "32",
+	"2*17": "34",
+	"2*18": "36",
+	"2*19": "38",
+	"2*20": "40",
+	"2*21": "42",
+	"2*22": "44",
+	"2*23": "46",
+	"2*24": "48",
+	"2*25": "50",
+	"2*26": "52",
+	"2*27": "54",
+	"2*28": "56",
+	"2*29": "58",
+	"2*30": "60",
+	"2*31": "62",
+	"2*32": "64",
+	"2*33": "66",
+	"2*34": "68",
+	"2*35": "70",
+	"2*36": "72",
+	"2*37": "74",
+	"2*38": "76",
+	"2*39": "78",
+	"2*40": "80",
+	"2*41": "82",
+	"2*42": "84",
+	"2*43": "86",
+	"2*44": "88",
+	"2*45": "90",
+	"2*46": "92",
+	"2*47": "94",
+	"2*48": "96",
+	"2*49": "98",
+	"3*0": "0",
+	"3*1": "3",
+	"3*2": "6",
+	"3*3": "9",
+	"3*4": "12",
+	"3*5": "15",
+	"3*6": "18",
+	"3*7": "21",
+	"3*8": "24",
+	"3*9": "27",
+	"3*10": "30",
+	"3*11": "33",
+	"3*12": "36",
+	"3*13": "39",
+	"3*14": "42",
+	"3*15": "45",
+	"3*16": "48",
+	"3*17": "51",
+	"3*18": "54",
+	"3*19": "57",
+	"3*20": "60",
+	"3*21": "63",
+	"3*22": "66",
+	"3*23": "69",
+	"3*24": "72",
+	"3*25": "75",
+	"3*26": "78",
+	"3*27": "81",
+	"3*28": "84",
+	"3*29": "87",
+	"3*30": "90",
+	"3*31": "93",
+	"3*32": "96",
+	"3*33": "99",
+	"3*34": "102",
+	"3*35": "105",
+	"3*36": "108",
+	"3*37": "111",
+	"3*38": "114",
+	"3*39": "117",
+	"3*40": "120",
+	"3*41": "123",
+	"3*42": "126",
+	"3*43": "129",
+	"3*44": "132",
+	"3*45": "135",
+	"3*46": "138",
+	"3*47": "141",
+	"3*48": "144",
+	"3*49": "147",
+	"4*0": "0",
+	"4*1": "4",
+	"4*2": "8",
+	"4*3": "12",
+	"4*4": "16",
+	"4*5": "20",
+	"4*6": "24",
+	"4*7": "28",
+	"4*8": "32",
+	"4*9": "36",
+	"4*10": "40",
+	"4*11": "44",
+	"4*12": "48",
+	"4*13": "52",
+	"4*14": "56",
+	"4*15": "60",
+	"4*16": "64",
+	"4*17": "68",
+	"4*18": "72",
+	"4*19": "76",
+	"4*20": "80",
+	"4*21": "84",
+	"4*22": "88",
+	"4*23": "92",
+	"4*24": "96",
+	"4*25": "100",
+	"4*26": "104",
+	"4*27": "108",
+	"4*28": "112",
+	"4*29": "116",
+	"4*30": "120",
+	"4*31": "124",
+	"4*32": "128",
+	"4*33": "132",
+	"4*34": "136",
+	"4*35": "140",
+	"4*36": "144",
+	"4*37": "148",
+	"4*38": "152",
+	"4*39": "156",
+	"4*40": "160",
+	"4*41": "164",
+	"4*42": "168",
+	"4*43": "172",
+	"4*44": "176",
+	"4*45": "180",
+	"4*46": "184",
+	"4*47": "188",
+	"4*48": "192",
+	"4*49": "196",
+	"5*0": "0",
+	"5*1": "5",
+	"5*2": "10",
+	"5*3": "15",
+	"5*4": "20",
+	"5*5": "25",
+	"5*6": "30",
+	"5*7": "35",
+	"5*8": "40",
+	"5*9": "45",
+	"5*10": "50",
+	"5*11": "55",
+	"5*12": "60",
+	"5*13": "65",
+	"5*14": "70",
+	"5*15": "75",
+	"5*16": "80",
+	"5*17": "85",
+	"5*18": "90",
+	"5*19": "95",
+	"5*20": "100",
+	"5*21": "105",
+	"5*22": "110",
+	"5*23": "115",
+	"5*24": "120",
+	"5*25": "125",
+	"5*26": "130",
+	"5*27": "135",
+	"5*28": "140",
+	"5*29": "145",
+	"5*30": "150",
+	"5*31": "155",
+	"5*32": "160",
+	"5*33": "165",
+	"5*34": "170",
+	"5*35": "175",
+	"5*36": "180",
+	"5*37": "185",
+	"5*38": "190",
+	"5*39": "195",
+	"5*40": "200",
+	"5*41": "205",
+	"5*42": "210",
+	"5*43": "215",
+	"5*44": "220",
+	"5*45": "225",
+	"5*46": "230",
+	"5*47": "235",
+	"5*48": "240",
+	"5*49": "245",
+	"6*0": "0",
+	"6*1": "6",
+	"6*2": "12",
+	"6*3": "18",
+	"6*4": "24",
+	"6*5": "30",
+	"6*6": "36",
+	"6*7": "42",
+	"6*8": "48",
+	"6*9": "54",
+	"6*10": "60",
+	"6*11": "66",
+	"6*12": "72",
+	"6*13": "78",
+	"6*14": "84",
+	"6*15": "90",
+	"6*16": "96",
+	"6*17": "102",
+	"6*18": "108",
+	"6*19": "114",
+	"6*20": "120",
+	"6*21": "126",
+	"6*22": "132",
+	"6*23": "138",
+	"6*24": "144",
+	"6*25": "150",
+	"6*26": "156",
+	"6*27": "162",
+	"6*28": "168",
+	"6*29": "174",
+	"6*30": "180",
+	"6*31": "186",
+	"6*32": "192",
+	"6*33": "198",
+	"6*34": "204",
+	"6*35": "210",
+	"6*36": "216",
+	"6*37": "222",
+	"6*38": "228",
+	"6*39": "234",
+	"6*40": "240",
+	"6*41": "246",
+	"6*42": "252",
+	"6*43": "258",
+	"6*44": "264",
+	"6*45": "270",
+	"6*46": "276",
+	"6*47": "282",
+	"6*48": "288",
+	"6*49": "294",
+	"7*0": "0",
+	"7*1": "7",
+	"7*2": "14",
+	"7*3": "21",
+	"7*4": "28",
+	"7*5": "35",
+	"7*6": "42",
+	"7*7": "49",
+	"7*8": "56",
+	"7*9": "63",
+	"7*10": "70",
+	"7*11": "77",
+	"7*12": "84",
+	"7*13": "91",
+	"7*14": "98",
+	"7*15": "105",
+	"7*16": "112",
+	"7*17": "119",
+	"7*18": "126",
+	"7*19": "133",
+	"7*20": "140",
+	"7*21": "147",
+	"7*22": "154",
+	"7*23": "161",
+	"7*24": "168",
+	"7*25": "175",
+	"7*26": "182",
+	"7*27": "189",
+	"7*28": "196",
+	"7*29": "203",
+	"7*30": "210",
+	"7*31": "217",
+	"7*32": "224",
+	"7*33": "231",
+	"7*34": "238",
+	"7*35": "245",
+	"7*36": "252",
+	"7*37": "259",
+	"7*38": "266",
+	"7*39": "273",
+	"7*40": "280",
+	"7*41": "287",
+	"7*42": "294",
+	"7*43": "301",
+	"7*44": "308",
+	"7*45": "315",
+	"7*46": "322",
+	"7*47": "329",
+	"7*48": "336",
+	"7*49": "343",
+	"8*0": "0",
+	"8*1": "8",
+	"8*2": "16",
+	"8*3": "24",
+	"8*4": "32",
+	"8*5": "40",
+	"8*6": "48",
+	"8*7": "56",
+	"8*8": "64",
+	"8*9": "72",
+	"8*10": "80",
+	"8*11": "88",
+	"8*12": "96",
+	"8*13": "104",
+	"8*14": "112",
+	"8*15": "120",
+	"8*16": "128",
+	"8*17": "136",
+	"8*18": "144",
+	"8*19": "152",
+	"8*20": "160",
+	"8*21": "168",
+	"8*22": "176",
+	"8*23": "184",
+	"8*24": "192",
+	"8*25": "200",
+	"8*26": "208",
+	"8*27": "216",
+	"8*28": "224",
+	"8*29": "232",
+	"8*30": "240",
+	"8*31": "248",
+	"8*32": "256",
+	"8*33": "264",
+	"8*34": "272",
+	"8*35": "280",
+	"8*36": "288",
+	"8*37": "296",
+	"8*38": "304",
+	"8*39": "312",
+	"8*40": "320",
+	"8*41": "328",
+	"8*42": "336",
+	"8*43": "344",
+	"8*44": "352",
+	"8*45": "360",
+	"8*46": "368",
+	"8*47": "376",
+	"8*48": "384",
+	"8*49": "392",
+	"9*0": "0",
+	"9*1": "9",
+	"9*2": "18",
+	"9*3": "27",
+	"9*4": "36",
+	"9*5": "45",
+	"9*6": "54",
+	"9*7": "63",
+	"9*8": "72",
+	"9*9": "81",
+	"9*10": "90",
+	"9*11": "99",
+	"9*12": "108",
+	"9*13": "117",
+	"9*14": "126",
+	"9*15": "135",
+	"9*16": "144",
+	"9*17": "153",
+	"9*18": "162",
+	"9*19": "171",
+	"9*20": "180",
+	"9*21": "189",
+	"9*22": "198",
+	"9*23": "207",
+	"9*24": "216",
+	"9*25": "225",
+	"9*26": "234",
+	"9*27": "243",
+	"9*28": "252",
+	"9*29": "261",
+	"9*30": "270",
+	"9*31": "279",
+	"9*32": "288",
+	"9*33": "297",
+	"9*34": "306",
+	"9*35": "315",
+	"9*36": "324",
+	"9*37": "333",
+	"9*38": "342",
+	"9*39": "351",
+	"9*40": "360",
+	"9*41": "369",
+	"9*42": "378",
+	"9*43": "387",
+	"9*44": "396",
+	"9*45": "405",
+	"9*46": "414",
+	"9*47": "423",
+	"9*48": "432",
+	"9*49": "441",
+	"10*0": "0",
+	"10*1": "10",
+	"10*2": "20",
+	"10*3": "30",
+	"10*4": "40",
+	"10*5": "50",
+	"10*6": "60",
+	"10*7": "70",
+	"10*8": "80",
+	"10*9": "90",
+	"10*10": "100",
+	"10*11": "110",
+	"10*12": "120",
+	"10*13": "130",
+	"10*14": "140",
+	"10*15": "150",
+	"10*16": "160",
+	"10*17": "170",
+	"10*18": "180",
+	"10*19": "190",
+	"10*20": "200",
+	"10*21": "210",
+	"10*22": "220",
+	"10*23": "230",
+	"10*24": "240",
+	"10*25": "250",
+	"10*26": "260",
+	"10*27": "270",
+	"10*28": "280",
+	"10*29": "290",
+	"10*30": "300",
+	"10*31": "310",
+	"10*32": "320",
+	"10*33": "330",
+	"10*34": "340",
+	"10*35": "350",
+	"10*36": "360",
+	"10*37": "370",
+	"10*38": "380",
+	"10*39": "390",
+	"10*40": "400",
+	"10*41": "410",
+	"10*42": "420",
+	"10*43": "430",
+	"10*44": "440",
+	"10*45": "450",
+	"10*46": "460",
+	"10*47": "470",
+	"10*48": "480",
+	"10*49": "490",
+	"11*0": "0",
+	"11*1": "11",
+	"11*2": "22",
+	"11*3": "33",
+	"11*4": "44",
+	"11*5": "55",
+	"11*6": "66",
+	"11*7": "77",
+	"11*8": "88",
+	"11*9": "99",
+	"11*10": "110",
+	"11*11": "121",
+	"11*12": "132",
+	"11*13": "143",
+	"11*14": "154",
+	"11*15": "165",
+	"11*16": "176",
+	"11*17": "187",
+	"11*18": "198",
+	"11*19": "209",
+	"11*20": "220",
+	"11*21": "231",
+	"11*22": "242",
+	"11*23": "253",
+	"11*24": "264",
+	"11*25": "275",
+	"11*26": "286",
+	"11*27": "297",
+	"11*28": "308",
+	"11*29": "319",
+	"11*30": "330",
+	"11*31": "341",
+	"11*32": "352",
+	"11*33": "363",
+	"11*34": "374",
+	"11*35": "385",
+	"11*36": "396",
+	"11*37": "407",
+	"11*38": "418",
+	"11*39": "429",
+	"11*40": "440",
+	"11*41": "451",
+	"11*42": "462",
+	"11*43": "473",
+	"11*44": "484",
+	"11*45": "495",
+	"11*46": "506",
+	"11*47": "517",
+	"11*48": "528",
+	"11*49": "539",
+	"12*0": "0",
+	"12*1": "12",
+	"12*2": "24",
+	"12*3": "36",
+	"12*4": "48",
+	"12*5": "60",
+	"12*6": "72",
+	"12*7": "84",
+	"12*8": "96",
+	"12*9": "108",
+	"12*10": "120",
+	"12*11": "132",
+	"12*12": "144",
+	"12*13": "156",
+	"12*14": "168",
+	"12*15": "180",
+	"12*16": "192",
+	"12*17": "204",
+	"12*18": "216",
+	"12*19": "228",
+	"12*20": "240",
+	"12*21": "252",
+	"12*22": "264",
+	"12*23": "276",
+	"12*24": "288",
+	"12*25": "300",
+	"12*26": "312",
+	"12*27": "324",
+	"12*28": "336",
+	"12*29": "348",
+	"12*30": "360",
+	"12*31": "372",
+	"12*32": "384",
+	"12*33": "396",
+	"12*34": "408",
+	"12*35": "420",
+	"12*36": "432",
+	"12*37": "444",
+	"12*38": "456",
+	"12*39": "468",
+	"12*40": "480",
+	"12*41": "492",
+	"12*42": "504",
+	"12*43": "516",
+	"12*44": "528",
+	"12*45": "540",
+	"12*46": "552",
+	"12*47": "564",
+	"12*48": "576",
+	"12*49": "588",
+	"13*0": "0",
+	"13*1": "13",
+	"13*2": "26",
+	"13*3": "39",
+	"13*4": "52",
+	"13*5": "65",
+	"13*6": "78",
+	"13*7": "91",
+	"13*8": "104",
+	"13*9": "117",
+	"13*10": "130",
+	"13*11": "143",
+	"13*12": "156",
+	"13*13": "169",
+	"13*14": "182",
+	"13*15": "195",
+	"13*16": "208",
+	"13*17": "221",
+	"13*18": "234",
+	"13*19": "247",
+	"13*20": "260",
+	"13*21": "273",
+	"13*22": "286",
+	"13*23": "299",
+	"13*24": "312",
+	"13*25": "325",
+	"13*26": "338",
+	"13*27": "351",
+	"13*28": "364",
+	"13*29": "377",
+	"13*30": "390",
+	"13*31": "403",
+	"13*32": "416",
+	"13*33": "429",
+	"13*34": "442",
+	"13*35": "455",
+	"13*36": "468",
+	"13*37": "481",
+	"13*38": "494",
+	"13*39": "507",
+	"13*40": "520",
+	"13*41": "533",
+	"13*42": "546",
+	"13*43": "559",
+	"13*44": "572",
+	"13*45": "585",
+	"13*46": "598",
+	"13*47": "611",
+	"13*48": "624",
+	"13*49": "637",
+	"14*0": "0",
+	"14*1": "14",
+	"14*2": "28",
+	"14*3": "42",
+	"14*4": "56",
+	"14*5": "70",
+	"14*6": "84",
+	"14*7": "98",
+	"14*8": "112",
+	"14*9": "126",
+	"14*10": "140",
+	"14*11": "154",
+	"14*12": "168",
+	"14*13": "182",
+	"14*14": "196",
+	"14*15": "210",
+	"14*16": "224",
+	"14*17": "238",
+	"14*18": "252",
+	"14*19": "266",
+	"14*20": "280",
+	"14*21": "294",
+	"14*22": "308",
+	"14*23": "322",
+	"14*24": "336",
+	"14*25": "350",
+	"14*26": "364",
+	"14*27": "378",
+	"14*28": "392",
+	"14*29": "406",
+	"14*30": "420",
+	"14*31": "434",
+	"14*32": "448",
+	"14*33": "462",
+	"14*34": "476",
+	"14*35": "490",
+	"14*36": "504",
+	"14*37": "518",
+	"14*38": "532",
+	"14*39": "546",
+	"14*40": "560",
+	"14*41": "574",
+	"14*42": "588",
+	"14*43": "602",
+	"14*44": "616",
+	"14*45": "630",
+	"14*46": "644",
+	"14*47": "658",
+	"14*48": "672",
+	"14*49": "686",
+	"15*0": "0",
+	"15*1": "15",
+	"15*2": "30",
+	"15*3": "45",
+	"15*4": "60",
+	"15*5": "75",
+	"15*6": "90",
+	"15*7": "105",
+	"15*8": "120",
+	"15*9": "135",
+	"15*10": "150",
+	"15*11": "165",
+	"15*12": "180",
+	"15*13": "195",
+	"15*14": "210",
+	"15*15": "225",
+	"15*16": "240",
+	"15*17": "255",
+	"15*18": "270",
+	"15*19": "285",
+	"15*20": "300",
+	"15*21": "315",
+	"15*22": "330",
+	"15*23": "345",
+	"15*24": "360",
+	"15*25": "375",
+	"15*26": "390",
+	"15*27": "405",
+	"15*28": "420",
+	"15*29": "435",
+	"15*30": "450",
+	"15*31": "465",
+	"15*32": "480",
+	"15*33": "495",
+	"15*34": "510",
+	"15*35": "525",
+	"15*36": "540",
+	"15*37": "555",
+	"15*38": "570",
+	"15*39": "585",
+	"15*40": "600",
+	"15*41": "615",
+	"15*42": "630",
+	"15*43": "645",
+	"15*44": "660",
+	"15*45": "675",
+	"15*46": "690",
+	"15*47": "705",
+	"15*48": "720",
+	"15*49": "735",
+	"16*0": "0",
+	"16*1": "16",
+	"16*2": "32",
+	"16*3": "48",
+	"16*4": "64",
+	"16*5": "80",
+	"16*6": "96",
+	"16*7": "112",
+	"16*8": "128",
+	"16*9": "144",
+	"16*10": "160",
+	"16*11": "176",
+	"16*12": "192",
+	"16*13": "208",
+	"16*14": "224",
+	"16*15": "240",
+	"16*16": "256",
+	"16*17": "272",
+	"16*18": "288",
+	"16*19": "304",
+	"16*20": "320",
+	"16*21": "336",
+	"16*22": "352",
+	"16*23": "368",
+	"16*24": "384",
+	"16*25": "400",
+	"16*26": "416",
+	"16*27": "432",
+	"16*28": "448",
+	"16*29": "464",
+	"16*30": "480",
+	"16*31": "496",
+	"16*32": "512",
+	"16*33": "528",
+	"16*34": "544",
+	"16*35": "560",
+	"16*36": "576",
+	"16*37": "592",
+	"16*38": "608",
+	"16*39": "624",
+	"16*40": "640",
+	"16*41": "656",
+	"16*42": "672",
+	"16*43": "688",
+	"16*44": "704",
+	"16*45": "720",
+	"16*46": "736",
+	"16*47": "752",
+	"16*48": "768",
+	"16*49": "784",
+	"17*0": "0",
+	"17*1": "17",
+	"17*2": "34",
+	"17*3": "51",
+	"17*4": "68",
+	"17*5": "85",
+	"17*6": "102",
+	"17*7": "119",
+	"17*8": "136",
+	"17*9": "153",
+	"17*10": "170",
+	"17*11": "187",
+	"17*12": "204",
+	"17*13": "221",
+	"17*14": "238",
+	"17*15": "255",
+	"17*16": "272",
+	"17*17": "289",
+	"17*18": "306",
+	"17*19": "323",
+	"17*20": "340",
+	"17*21": "357",
+	"17*22": "374",
+	"17*23": "391",
+	"17*24": "408",
+	"17*25": "425",
+	"17*26": "442",
+	"17*27": "459",
+	"17*28": "476",
+	"17*29": "493",
+	"17*30": "510",
+	"17*31": "527",
+	"17*32": "544",
+	"17*33": "561",
+	"17*34": "578",
+	"17*35": "595",
+	"17*36": "612",
+	"17*37": "629",
+	"17*38": "646",
+	"17*39": "663",
+	"17*40": "680",
+	"17*41": "697",
+	"17*42": "714",
+	"17*43": "731",
+	"17*44": "748",
+	"17*45": "765",
+	"17*46": "782",
+	"17*47": "799",
+	"17*48": "816",
+	"17*49": "833",
+	"18*0": "0",
+	"18*1": "18",
+	"18*2": "36",
+	"18*3": "54",
+	"18*4": "72",
+	"18*5": "90",
+	"18*6": "108",
+	"18*7": "126",
+	"18*8": "144",
+	"18*9": "162",
+	"18*10": "180",
+	"18*11": "198",
+	"18*12": "216",
+	"18*13": "234",
+	"18*14": "252",
+	"18*15": "270",
+	"18*16": "288",
+	"18*17": "306",
+	"18*18": "324",
+	"18*19": "342",
+	"18*20": "360",
+	"18*21": "378",
+	"18*22": "396",
+	"18*23": "414",
+	"18*24": "432",
+	"18*25": "450",
+	"18*26": "468",
+	"18*27": "486",
+	"18*28": "504",
+	"18*29": "522",
+	"18*30": "540",
+	"18*31": "558",
+	"18*32": "576",
+	"18*33": "594",
+	"18*34": "612",
+	"18*35": "630",
+	"18*36": "648",
+	"18*37": "666",
+	"18*38": "684",
+	"18*39": "702",
+	"18*40": "720",
+	"18*41": "738",
+	"18*42": "756",
+	"18*43": "774",
+	"18*44": "792",
+	"18*45": "810",
+	"18*46": "828",
+	"18*47": "846",
+	"18*48": "864",
+	"18*49": "882",
+	"19*0": "0",
+	"19*1": "19",
+	"19*2": "38",
+	"19*3": "57",
+	"19*4": "76",
+	"19*5": "95",
+	"19*6": "114",
+	"19*7": "133",
+	"19*8": "152",
+	"19*9": "171",
+	"19*10": "190",
+	"19*11": "209",
+	"19*12": "228",
+	"19*13": "247",
+	"19*14": "266",
+	"19*15": "285",
+	"19*16": "304",
+	"19*17": "323",
+	"19*18": "342",
+	"19*19": "361",
+	"19*20": "380",
+	"19*21": "399",
+	"19*22": "418",
+	"19*23": "437",
+	"19*24": "456",
+	"19*25": "475",
+	"19*26": "494",
+	"19*27": "513",
+	"19*28": "532",
+	"19*29": "551",
+	"19*30": "570",
+	"19*31": "589",
+	"19*32": "608",
+	"19*33": "627",
+	"19*34": "646",
+	"19*35": "665",
+	"19*36": "684",
+	"19*37": "703",
+	"19*38": "722",
+	"19*39": "741",
+	"19*40": "760",
+	"19*41": "779",
+	"19*42": "798",
+	"19*43": "817",
+	"19*44": "836",
+	"19*45": "855",
+	"19*46": "874",
+	"19*47": "893",
+	"19*48": "912",
+	"19*49": "931",
+	"20*0": "0",
+	"20*1": "20",
+	"20*2": "40",
+	"20*3": "60",
+	"20*4": "80",
+	"20*5": "100",
+	"20*6": "120",
+	"20*7": "140",
+	"20*8": "160",
+	"20*9": "180",
+	"20*10": "200",
+	"20*11": "220",
+	"20*12": "240",
+	"20*13": "260",
+	"20*14": "280",
+	"20*15": "300",
+	"20*16": "320",
+	"20*17": "340",
+	"20*18": "360",
+	"20*19": "380",
+	"20*20": "400",
+	"20*21": "420",
+	"20*22": "440",
+	"20*23": "460",
+	"20*24": "480",
+	"20*25": "500",
+	"20*26": "520",
+	"20*27": "540",
+	"20*28": "560",
+	"20*29": "580",
+	"20*30": "600",
+	"20*31": "620",
+	"20*32": "640",
+	"20*33": "660",
+	"20*34": "680",
+	"20*35": "700",
+	"20*36": "720",
+	"20*37": "740",
+	"20*38": "760",
+	"20*39": "780",
+	"20*40": "800",
+	"20*41": "820",
+	"20*42": "840",
+	"20*43": "860",
+	"20*44": "880",
+	"20*45": "900",
+	"20*46": "920",
+	"20*47": "940",
+	"20*48": "960",
+	"20*49": "980",
+	"21*0": "0",
+	"21*1": "21",
+	"21*2": "42",
+	"21*3": "63",
+	"21*4": "84",
+	"21*5": "105",
+	"21*6": "126",
+	"21*7": "147",
+	"21*8": "168",
+	"21*9": "189",
+	"21*10": "210",
+	"21*11": "231",
+	"21*12": "252",
+	"21*13": "273",
+	"21*14": "294",
+	"21*15": "315",
+	"21*16": "336",
+	"21*17": "357",
+	"21*18": "378",
+	"21*19": "399",
+	"21*20": "420",
+	"21*21": "441",
+	"21*22": "462",
+	"21*23": "483",
+	"21*24": "504",
+	"21*25": "525",
+	"21*26": "546",
+	"21*27": "567",
+	"21*28": "588",
+	"21*29": "609",
+	"21*30": "630",
+	"21*31": "651",
+	"21*32": "672",
+	"21*33": "693",
+	"21*34": "714",
+	"21*35": "735",
+	"21*36": "756",
+	"21*37": "777",
+	"21*38": "798",
+	"21*39": "819",
+	"21*40": "840",
+	"21*41": "861",
+	"21*42": "882",
+	"21*43": "903",
+	"21*44": "924",
+	"21*45": "945",
+	"21*46": "966",
+	"21*47": "987",
+	"21*48": "1008",
+	"21*49": "1029",
+	"22*0": "0",
+	"22*1": "22",
+	"22*2": "44",
+	"22*3": "66",
+	"22*4": "88",
+	"22*5": "110",
+	"22*6": "132",
+	"22*7": "154",
+	"22*8": "176",
+	"22*9": "198",
+	"22*10": "220",
+	"22*11": "242",
+	"22*12": "264",
+	"22*13": "286",
+	"22*14": "308",
+	"22*15": "330",
+	"22*16": "352",
+	"22*17": "374",
+	"22*18": "396",
+	"22*19": "418",
+	"22*20": "440",
+	"22*21": "462",
+	"22*22": "484",
+	"22*23": "506",
+	"22*24": "528",
+	"22*25": "550",
+	"22*26": "572",
+	"22*27": "594",
+	"22*28": "616",
+	"22*29": "638",
+	"22*30": "660",
+	"22*31": "682",
+	"22*32": "704",
+	"22*33": "726",
+	"22*34": "748",
+	"22*35": "770",
+	"22*36": "792",
+	"22*37": "814",
+	"22*38": "836",
+	"22*39": "858",
+	"22*40": "880",
+	"22*41": "902",
+	"22*42": "924",
+	"22*43": "946",
+	"22*44": "968",
+	"22*45": "990",
+	"22*46": "1012",
+	"22*47": "1034",
+	"22*48": "1056",
+	"22*49": "1078",
+	"23*0": "0",
+	"23*1": "23",
+	"23*2": "46",
+	"23*3": "69",
+	"23*4": "92",
+	"23*5": "115",
+	"23*6": "138",
+	"23*7": "161",
+	"23*8": "184",
+	"23*9": "207",
+	"23*10": "230",
+	"23*11": "253",
+	"23*12": "276",
+	"23*13": "299",
+	"23*14": "322",
+	"23*15": "345",
+	"23*16": "368",
+	"23*17": "391",
+	"23*18": "414",
+	"23*19": "437",
+	"23*20": "460",
+	"23*21": "483",
+	"23*22": "506",
+	"23*23": "529",
+	"23*24": "552",
+	"23*25": "575",
+	"23*26": "598",
+	"23*27": "621",
+	"23*28": "644",
+	"23*29": "667",
+	"23*30": "690",
+	"23*31": "713",
+	"23*32": "736",
+	"23*33": "759",
+	"23*34": "782",
+	"23*35": "805",
+	"23*36": "828",
+	"23*37": "851",
+	"23*38": "874",
+	"23*39": "897",
+	"23*40": "920",
+	"23*41": "943",
+	"23*42": "966",
+	"23*43": "989",
+	"23*44": "1012",
+	"23*45": "1035",
+	"23*46": "1058",
+	"23*47": "1081",
+	"23*48": "1104",
+	"23*49": "1127",
+	"24*0": "0",
+	"24*1": "24",
+	"24*2": "48",
+	"24*3": "72",
+	"24*4": "96",
+	"24*5": "120",
+	"24*6": "144",
+	"24*7": "168",
+	"24*8": "192",
+	"24*9": "216",
+	"24*10": "240",
+	"24*11": "264",
+	"24*12": "288",
+	"24*13": "312",
+	"24*14": "336",
+	"24*15": "360",
+	"24*16": "384",
+	"24*17": "408",
+	"24*18": "432",
+	"24*19": "456",
+	"24*20": "480",
+	"24*21": "504",
+	"24*22": "528",
+	"24*23": "552",
+	"24*24": "576",
+	"24*25": "600",
+	"24*26": "624",
+	"24*27": "648",
+	"24*28": "672",
+	"24*29": "696",
+	"24*30": "720",
+	"24*31": "744",
+	"24*32": "768",
+	"24*33": "792",
+	"24*34": "816",
+	"24*35": "840",
+	"24*36": "864",
+	"24*37": "888",
+	"24*38": "912",
+	"24*39": "936",
+	"24*40": "960",
+	"24*41": "984",
+	"24*42": "1008",
+	"24*43": "1032",
+	"24*44": "1056",
+	"24*45": "1080",
+	"24*46": "1104",
+	"24*47": "1128",
+	"24*48": "1152",
+	"24*49": "1176",
+	"25*0": "0",
+	"25*1": "25",
+	"25*2": "50",
+	"25*3": "75",
+	"25*4": "100",
+	"25*5": "125",
+	"25*6": "150",
+	"25*7": "175",
+	"25*8": "200",
+	"25*9": "225",
+	"25*10": "250",
+	"25*11": "275",
+	"25*12": "300",
+	"25*13": "325",
+	"25*14": "350",
+	"25*15": "375",
+	"25*16": "400",
+	"25*17": "425",
+	"25*18": "450",
+	"25*19": "475",
+	"25*20": "500",
+	"25*21": "525",
+	"25*22": "550",
+	"25*23": "575",
+	"25*24": "600",
+	"25*25": "625",
+	"25*26": "650",
+	"25*27": "675",
+	"25*28": "700",
+	"25*29": "725",
+	"25*30": "750",
+	"25*31": "775",
+	"25*32": "800",
+	"25*33": "825",
+	"25*34": "850",
+	"25*35": "875",
+	"25*36": "900",
+	"25*37": "925",
+	"25*38": "950",
+	"25*39": "975",
+	"25*40": "1000",
+	"25*41": "1025",
+	"25*42": "1050",
+	"25*43": "1075",
+	"25*44": "1100",
+	"25*45": "1125",
+	"25*46": "1150",
+	"25*47": "1175",
+	"25*48": "1200",
+	"25*49": "1225",
+	"26*0": "0",
+	"26*1": "26",
+	"26*2": "52",
+	"26*3": "78",
+	"26*4": "104",
+	"26*5": "130",
+	"26*6": "156",
+	"26*7": "182",
+	"26*8": "208",
+	"26*9": "234",
+	"26*10": "260",
+	"26*11": "286",
+	"26*12": "312",
+	"26*13": "338",
+	"26*14": "364",
+	"26*15": "390",
+	"26*16": "416",
+	"26*17": "442",
+	"26*18": "468",
+	"26*19": "494",
+	"26*20": "520",
+	"26*21": "546",
+	"26*22": "572",
+	"26*23": "598",
+	"26*24": "624",
+	"26*25": "650",
+	"26*26": "676",
+	"26*27": "702",
+	"26*28": "728",
+	"26*29": "754",
+	"26*30": "780",
+	"26*31": "806",
+	"26*32": "832",
+	"26*33": "858",
+	"26*34": "884",
+	"26*35": "910",
+	"26*36": "936",
+	"26*37": "962",
+	"26*38": "988",
+	"26*39": "1014",
+	"26*40": "1040",
+	"26*41": "1066",
+	"26*42": "1092",
+	"26*43": "1118",
+	"26*44": "1144",
+	"26*45": "1170",
+	"26*46": "1196",
+	"26*47": "1222",
+	"26*48": "1248",
+	"26*49": "1274",
+	"27*0": "0",
+	"27*1": "27",
+	"27*2": "54",
+	"27*3": "81",
+	"27*4": "108",
+	"27*5": "135",
+	"27*6": "162",
+	"27*7": "189",
+	"27*8": "216",
+	"27*9": "243",
+	"27*10": "270",
+	"27*11": "297",
+	"27*12": "324",
+	"27*13": "351",
+	"27*14": "378",
+	"27*15": "405",
+	"27*16": "432",
+	"27*17": "459",
+	"27*18": "486",
+	"27*19": "513",
+	"27*20": "540",
+	"27*21": "567",
+	"27*22": "594",
+	"27*23": "621",
+	"27*24": "648",
+	"27*25": "675",
+	"27*26": "702",
+	"27*27": "729",
+	"27*28": "756",
+	"27*29": "783",
+	"27*30": "810",
+	"27*31": "837",
+	"27*32": "864",
+	"27*33": "891",
+	"27*34": "918",
+	"27*35": "945",
+	"27*36": "972",
+	"27*37": "999",
+	"27*38": "1026",
+	"27*39": "1053",
+	"27*40": "1080",
+	"27*41": "1107",
+	"27*42": "1134",
+	"27*43": "1161",
+	"27*44": "1188",
+	"27*45": "1215",
+	"27*46": "1242",
+	"27*47": "1269",
+	"27*48": "1296",
+	"27*49": "1323",
+	"28*0": "0",
+	"28*1": "28",
+	"28*2": "56",
+	"28*3": "84",
+	"28*4": "112",
+	"28*5": "140",
+	"28*6": "168",
+	"28*7": "196",
+	"28*8": "224",
+	"28*9": "252",
+	"28*10": "280",
+	"28*11": "308",
+	"28*12": "336",
+	"28*13": "364",
+	"28*14": "392",
+	"28*15": "420",
+	"28*16": "448",
+	"28*17": "476",
+	"28*18": "504",
+	"28*19": "532",
+	"28*20": "560",
+	"28*21": "588",
+	"28*22": "616",
+	"28*23": "644",
+	"28*24": "672",
+	"28*25": "700",
+	"28*26": "728",
+	"28*27": "756",
+	"28*28": "784",
+	"28*29": "812",
+	"28*30": "840",
+	"28*31": "868",
+	"28*32": "896",
+	"28*33": "924",
+	"28*34": "952",
+	"28*35": "980",
+	"28*36": "1008",
+	"28*37": "1036",
+	"28*38": "1064",
+	"28*39": "1092",
+	"28*40": "1120",
+	"28*41": "1148",
+	"28*42": "1176",
+	"28*43": "1204",
+	"28*44": "1232",
+	"28*45": "1260",
+	"28*46": "1288",
+	"28*47": "1316",
+	"28*48": "1344",
+	"28*49": "1372",
+	"29*0": "0",
+	"29*1": "29",
+	"29*2": "58",
+	"29*3": "87",
+	"29*4": "116",
+	"29*5": "145",
+	"29*6": "174",
+	"29*7": "203",
+	"29*8": "232",
+	"29*9": "261",
+	"29*10": "290",
+	"29*11": "319",
+	"29*12": "348",
+	"29*13": "377",
+	"29*14": "406",
+	"29*15": "435",
+	"29*16": "464",
+	"29*17": "493",
+	"29*18": "522",
+	"29*19": "551",
+	"29*20": "580",
+	"29*21": "609",
+	"29*22": "638",
+	"29*23": "667",
+	"29*24": "696",
+	"29*25": "725",
+	"29*26": "754",
+	"29*27": "783",
+	"29*28": "812",
+	"29*29": "841",
+	"29*30": "870",
+	"29*31": "899",
+	"29*32": "928",
+	"29*33": "957",
+	"29*34": "986",
+	"29*35": "1015",
+	"29*36": "1044",
+	"29*37": "1073",
+	"29*38": "1102",
+	"29*39": "1131",
+	"29*40": "1160",
+	"29*41": "1189",
+	"29*42": "1218",
+	"29*43": "1247",
+	"29*44": "1276",
+	"29*45": "1305",
+	"29*46": "1334",
+	"29*47": "1363",
+	"29*48": "1392",
+	"29*49": "1421",
+	"30*0": "0",
+	"30*1": "30",
+	"30*2": "60",
+	"30*3": "90",
+	"30*4": "120",
+	"30*5": "150",
+	"30*6": "180",
+	"30*7": "210",
+	"30*8": "240",
+	"30*9": "270",
+	"30*10": "300",
+	"30*11": "330",
+	"30*12": "360",
+	"30*13": "390",
+	"30*14": "420",
+	"30*15": "450",
+	"30*16": "480",
+	"30*17": "510",
+	"30*18": "540",
+	"30*19": "570",
+	"30*20": "600",
+	"30*21": "630",
+	"30*22": "660",
+	"30*23": "690",
+	"30*24": "720",
+	"30*25": "750",
+	"30*26": "780",
+	"30*27": "810",
+	"30*28": "840",
+	"30*29": "870",
+	"30*30": "900",
+	"30*31": "930",
+	"30*32": "960",
+	"30*33": "990",
+	"30*34": "1020",
+	"30*35": "1050",
+	"30*36": "1080",
+	"30*37": "1110",
+	"30*38": "1140",
+	"30*39": "1170",
+	"30*40": "1200",
+	"30*41": "1230",
+	"30*42": "1260",
+	"30*43": "1290",
+	"30*44": "1320",
+	"30*45": "1350",
+	"30*46": "1380",
+	"30*47": "1410",
+	"30*48": "1440",
+	"30*49": "1470",
+	"31*0": "0",
+	"31*1": "31",
+	"31*2": "62",
+	"31*3": "93",
+	"31*4": "124",
+	"31*5": "155",
+	"31*6": "186",
+	"31*7": "217",
+	"31*8": "248",
+	"31*9": "279",
+	"31*10": "310",
+	"31*11": "341",
+	"31*12": "372",
+	"31*13": "403",
+	"31*14": "434",
+	"31*15": "465",
+	"31*16": "496",
+	"31*17": "527",
+	"31*18": "558",
+	"31*19": "589",
+	"31*20": "620",
+	"31*21": "651",
+	"31*22": "682",
+	"31*23": "713",
+	"31*24": "744",
+	"31*25": "775",
+	"31*26": "806",
+	"31*27": "837",
+	"31*28": "868",
+	"31*29": "899",
+	"31*30": "930",
+	"31*31": "961",
+	"31*32": "992",
+	"31*33": "1023",
+	"31*34": "1054",
+	"31*35": "1085",
+	"31*36": "1116",
+	"31*37": "1147",
+	"31*38": "1178",
+	"31*39": "1209",
+	"31*40": "1240",
+	"31*41": "1271",
+	"31*42": "1302",
+	"31*43": "1333",
+	"31*44": "1364",
+	"31*45": "1395",
+	"31*46": "1426",
+	"31*47": "1457",
+	"31*48": "1488",
+	"31*49": "1519",
+	"32*0": "0",
+	"32*1": "32",
+	"32*2": "64",
+	"32*3": "96",
+	"32*4": "128",
+	"32*5": "160",
+	"32*6": "192",
+	"32*7": "224",
+	"32*8": "256",
+	"32*9": "288",
+	"32*10": "320",
+	"32*11": "352",
+	"32*12": "384",
+	"32*13": "416",
+	"32*14": "448",
+	"32*15": "480",
+	"32*16": "512",
+	"32*17": "544",
+	"32*18": "576",
+	"32*19": "608",
+	"32*20": "640",
+	"32*21": "672",
+	"32*22": "704",
+	"32*23": "736",
+	"32*24": "768",
+	"32*25": "800",
+	"32*26": "832",
+	"32*27": "864",
+	"32*28": "896",
+	"32*29": "928",
+	"32*30": "960",
+	"32*31": "992",
+	"32*32": "1024",
+	"32*33": "1056",
+	"32*34": "1088",
+	"32*35": "1120",
+	"32*36": "1152",
+	"32*37": "1184",
+	"32*38": "1216",
+	"32*39": "1248",
+	"32*40": "1280",
+	"32*41": "1312",
+	"32*42": "1344",
+	"32*43": "1376",
+	"32*44": "1408",
+	"32*45": "1440",
+	"32*46": "1472",
+	"32*47": "1504",
+	"32*48": "1536",
+	"32*49": "1568",
+	"33*0": "0",
+	"33*1": "33",
+	"33*2": "66",
+	"33*3": "99",
+	"33*4": "132",
+	"33*5": "165",
+	"33*6": "198",
+	"33*7": "231",
+	"33*8": "264",
+	"33*9": "297",
+	"33*10": "330",
+	"33*11": "363",
+	"33*12": "396",
+	"33*13": "429",
+	"33*14": "462",
+	"33*15": "495",
+	"33*16": "528",
+	"33*17": "561",
+	"33*18": "594",
+	"33*19": "627",
+	"33*20": "660",
+	"33*21": "693",
+	"33*22": "726",
+	"33*23": "759",
+	"33*24": "792",
+	"33*25": "825",
+	"33*26": "858",
+	"33*27": "891",
+	"33*28": "924",
+	"33*29": "957",
+	"33*30": "990",
+	"33*31": "1023",
+	"33*32": "1056",
+	"33*33": "1089",
+	"33*34": "1122",
+	"33*35": "1155",
+	"33*36": "1188",
+	"33*37": "1221",
+	"33*38": "1254",
+	"33*39": "1287",
+	"33*40": "1320",
+	"33*41": "1353",
+	"33*42": "1386",
+	"33*43": "1419",
+	"33*44": "1452",
+	"33*45": "1485",
+	"33*46": "1518",
+	"33*47": "1551",
+	"33*48": "1584",
+	"33*49": "1617",
+	"34*0": "0",
+	"34*1": "34",
+	"34*2": "68",
+	"34*3": "102",
+	"34*4": "136",
+	"34*5": "170",
+	"34*6": "204",
+	"34*7": "238",
+	"34*8": "272",
+	"34*9": "306",
+	"34*10": "340",
+	"34*11": "374",
+	"34*12": "408",
+	"34*13": "442",
+	"34*14": "476",
+	"34*15": "510",
+	"34*16": "544",
+	"34*17": "578",
+	"34*18": "612",
+	"34*19": "646",
+	"34*20": "680",
+	"34*21": "714",
+	"34*22": "748",
+	"34*23": "782",
+	"34*24": "816",
+	"34*25": "850",
+	"34*26": "884",
+	"34*27": "918",
+	"34*28": "952",
+	"34*29": "986",
+	"34*30": "1020",
+	"34*31": "1054",
+	"34*32": "1088",
+	"34*33": "1122",
+	"34*34": "1156",
+	"34*35": "1190",
+	"34*36": "1224",
+	"34*37": "1258",
+	"34*38": "1292",
+	"34*39": "1326",
+	"34*40": "1360",
+	"34*41": "1394",
+	"34*42": "1428",
+	"34*43": "1462",
+	"34*44": "1496",
+	"34*45": "1530",
+	"34*46": "1564",
+	"34*47": "1598",
+	"34*48": "1632",
+	"34*49": "1666",
+	"35*0": "0",
+	"35*1": "35",
+	"35*2": "70",
+	"35*3": "105",
+	"35*4": "140",
+	"35*5": "175",
+	"35*6": "210",
+	"35*7": "245",
+	"35*8": "280",
+	"35*9": "315",
+	"35*10": "350",
+	"35*11": "385",
+	"35*12": "420",
+	"35*13": "455",
+	"35*14": "490",
+	"35*15": "525",
+	"35*16": "560",
+	"35*17": "595",
+	"35*18": "630",
+	"35*19": "665",
+	"35*20": "700",
+	"35*21": "735",
+	"35*22": "770",
+	"35*23": "805",
+	"35*24": "840",
+	"35*25": "875",
+	"35*26": "910",
+	"35*27": "945",
+	"35*28": "980",
+	"35*29": "1015",
+	"35*30": "1050",
+	"35*31": "1085",
+	"35*32": "1120",
+	"35*33": "1155",
+	"35*34": "1190",
+	"35*35": "1225",
+	"35*36": "1260",
+	"35*37": "1295",
+	"35*38": "1330",
+	"35*39": "1365",
+	"35*40": "1400",
+	"35*41": "1435",
+	"35*42": "1470",
+	"35*43": "1505",
+	"35*44": "1540",
+	"35*45": "1575",
+	"35*46": "1610",
+	"35*47": "1645",
+	"35*48": "1680",
+	"35*49": "1715",
+	"36*0": "0",
+	"36*1": "36",
+	"36*2": "72",
+	"36*3": "108",
+	"36*4": "144",
+	"36*5": "180",
+	"36*6": "216",
+	"36*7": "252",
+	"36*8": "288",
+	"36*9": "324",
+	"36*10": "360",
+	"36*11": "396",
+	"36*12": "432",
+	"36*13": "468",
+	"36*14": "504",
+	"36*15": "540",
+	"36*16": "576",
+	"36*17": "612",
+	"36*18": "648",
+	"36*19": "684",
+	"36*20": "720",
+	"36*21": "756",
+	"36*22": "792",
+	"36*23": "828",
+	"36*24": "864",
+	"36*25": "900",
+	"36*26": "936",
+	"36*27": "972",
+	"36*28": "1008",
+	"36*29": "1044",
+	"36*30": "1080",
+	"36*31": "1116",
+	"36*32": "1152",
+	"36*33": "1188",
+	"36*34": "1224",
+	"36*35": "1260",
+	"36*36": "1296",
+	"36*37": "1332",
+	"36*38": "1368",
+	"36*39": "1404",
+	"36*40": "1440",
+	"36*41": "1476",
+	"36*42": "1512",
+	"36*43": "1548",
+	"36*44": "1584",
+	"36*45": "1620",
+	"36*46": "1656",
+	"36*47": "1692",
+	"36*48": "1728",
+	"36*49": "1764",
+	"37*0": "0",
+	"37*1": "37",
+	"37*2": "74",
+	"37*3": "111",
+	"37*4": "148",
+	"37*5": "185",
+	"37*6": "222",
+	"37*7": "259",
+	"37*8": "296",
+	"37*9": "333",
+	"37*10": "370",
+	"37*11": "407",
+	"37*12": "444",
+	"37*13": "481",
+	"37*14": "518",
+	"37*15": "555",
+	"37*16": "592",
+	"37*17": "629",
+	"37*18": "666",
+	"37*19": "703",
+	"37*20": "740",
+	"37*21": "777",
+	"37*22": "814",
+	"37*23": "851",
+	"37*24": "888",
+	"37*25": "925",
+	"37*26": "962",
+	"37*27": "999",
+	"37*28": "1036",
+	"37*29": "1073",
+	"37*30": "1110",
+	"37*31": "1147",
+	"37*32": "1184",
+	"37*33": "1221",
+	"37*34": "1258",
+	"37*35": "1295",
+	"37*36": "1332",
+	"37*37": "1369",
+	"37*38": "1406",
+	"37*39": "1443",
+	"37*40": "1480",
+	"37*41": "1517",
+	"37*42": "1554",
+	"37*43": "1591",
+	"37*44": "1628",
+	"37*45": "1665",
+	"37*46": "1702",
+	"37*47": "1739",
+	"37*48": "1776",
+	"37*49": "1813",
+	"38*0": "0",
+	"38*1": "38",
+	"38*2": "76",
+	"38*3": "114",
+	"38*4": "152",
+	"38*5": "190",
+	"38*6": "228",
+	"38*7": "266",
+	"38*8": "304",
+	"38*9": "342",
+	"38*10": "380",
+	"38*11": "418",
+	"38*12": "456",
+	"38*13": "494",
+	"38*14": "532",
+	"38*15": "570",
+	"38*16": "608",
+	"38*17": "646",
+	"38*18": "684",
+	"38*19": "722",
+	"38*20": "760",
+	"38*21": "798",
+	"38*22": "836",
+	"38*23": "874",
+	"38*24": "912",
+	"38*25": "950",
+	"38*26": "988",
+	"38*27": "1026",
+	"38*28": "1064",
+	"38*29": "1102",
+	"38*30": "1140",
+	"38*31": "1178",
+	"38*32": "1216",
+	"38*33": "1254",
+	"38*34": "1292",
+	"38*35": "1330",
+	"38*36": "1368",
+	"38*37": "1406",
+	"38*38": "1444",
+	"38*39": "1482",
+	"38*40": "1520",
+	"38*41": "1558",
+	"38*42": "1596",
+	"38*43": "1634",
+	"38*44": "1672",
+	"38*45": "1710",
+	"38*46": "1748",
+	"38*47": "1786",
+	"38*48": "1824",
+	"38*49": "1862",
+	"39*0": "0",
+	"39*1": "39",
+	"39*2": "78",
+	"39*3": "117",
+	"39*4": "156",
+	"39*5": "195",
+	"39*6": "234",
+	"39*7": "273",
+	"39*8": "312",
+	"39*9": "351",
+	"39*10": "390",
+	"39*11": "429",
+	"39*12": "468",
+	"39*13": "507",
+	"39*14": "546",
+	"39*15": "585",
+	"39*16": "624",
+	"39*17": "663",
+	"39*18": "702",
+	"39*19": "741",
+	"39*20": "780",
+	"39*21": "819",
+	"39*22": "858",
+	"39*23": "897",
+	"39*24": "936",
+	"39*25": "975",
+	"39*26": "1014",
+	"39*27": "1053",
+	"39*28": "1092",
+	"39*29": "1131",
+	"39*30": "1170",
+	"39*31": "1209",
+	"39*32": "1248",
+	"39*33": "1287",
+	"39*34": "1326",
+	"39*35": "1365",
+	"39*36": "1404",
+	"39*37": "1443",
+	"39*38": "1482",
+	"39*39": "1521",
+	"39*40": "1560",
+	"39*41": "1599",
+	"39*42": "1638",
+	"39*43": "1677",
+	"39*44": "1716",
+	"39*45": "1755",
+	"39*46": "1794",
+	"39*47": "1833",
+	"39*48": "1872",
+	"39*49": "1911",
+	"40*0": "0",
+	"40*1": "40",
+	"40*2": "80",
+	"40*3": "120",
+	"40*4": "160",
+	"40*5": "200",
+	"40*6": "240",
+	"40*7": "280",
+	"40*8": "320",
+	"40*9": "360",
+	"40*10": "400",
+	"40*11": "440",
+	"40*12": "480",
+	"40*13": "520",
+	"40*14": "560",
+	"40*15": "600",
+	"40*16": "640",
+	"40*17": "680",
+	"40*18": "720",
+	"40*19": "760",
+	"40*20": "800",
+	"40*21": "840",
+	"40*22": "880",
+	"40*23": "920",
+	"40*24": "960",
+	"40*25": "1000",
+	"40*26": "1040",
+	"40*27": "1080",
+	"40*28": "1120",
+	"40*29": "1160",
+	"40*30": "1200",
+	"40*31": "1240",
+	"40*32": "1280",
+	"40*33": "1320",
+	"40*34": "1360",
+	"40*35": "1400",
+	"40*36": "1440",
+	"40*37": "1480",
+	"40*38": "1520",
+	"40*39": "1560",
+	"40*40": "1600",
+	"40*41": "1640",
+	"40*42": "1680",
+	"40*43": "1720",
+	"40*44": "1760",
+	"40*45": "1800",
+	"40*46": "1840",
+	"40*47": "1880",
+	"40*48": "1920",
+	"40*49": "1960",
+	"41*0": "0",
+	"41*1": "41",
+	"41*2": "82",
+	"41*3": "123",
+	"41*4": "164",
+	"41*5": "205",
+	"41*6": "246",
+	"41*7": "287",
+	"41*8": "328",
+	"41*9": "369",
+	"41*10": "410",
+	"41*11": "451",
+	"41*12": "492",
+	"41*13": "533",
+	"41*14": "574",
+	"41*15": "615",
+	"41*16": "656",
+	"41*17": "697",
+	"41*18": "738",
+	"41*19": "779",
+	"41*20": "820",
+	"41*21": "861",
+	"41*22": "902",
+	"41*23": "943",
+	"41*24": "984",
+	"41*25": "1025",
+	"41*26": "1066",
+	"41*27": "1107",
+	"41*28": "1148",
+	"41*29": "1189",
+	"41*30": "1230",
+	"41*31": "1271",
+	"41*32": "1312",
+	"41*33": "1353",
+	"41*34": "1394",
+	"41*35": "1435",
+	"41*36": "1476",
+	"41*37": "1517",
+	"41*38": "1558",
+	"41*39": "1599",
+	"41*40": "1640",
+	"41*41": "1681",
+	"41*42": "1722",
+	"41*43": "1763",
+	"41*44": "1804",
+	"41*45": "1845",
+	"41*46": "1886",
+	"41*47": "1927",
+	"41*48": "1968",
+	"41*49": "2009",
+	"42*0": "0",
+	"42*1": "42",
+	"42*2": "84",
+	"42*3": "126",
+	"42*4": "168",
+	"42*5": "210",
+	"42*6": "252",
+	"42*7": "294",
+	"42*8": "336",
+	"42*9": "378",
+	"42*10": "420",
+	"42*11": "462",
+	"42*12": "504",
+	"42*13": "546",
+	"42*14": "588",
+	"42*15": "630",
+	"42*16": "672",
+	"42*17": "714",
+	"42*18": "756",
+	"42*19": "798",
+	"42*20": "840",
+	"42*21": "882",
+	"42*22": "924",
+	"42*23": "966",
+	"42*24": "1008",
+	"42*25": "1050",
+	"42*26": "1092",
+	"42*27": "1134",
+	"42*28": "1176",
+	"42*29": "1218",
+	"42*30": "1260",
+	"42*31": "1302",
+	"42*32": "1344",
+	"42*33": "1386",
+	"42*34": "1428",
+	"42*35": "1470",
+	"42*36": "1512",
+	"42*37": "1554",
+	"42*38": "1596",
+	"42*39": "1638",
+	"42*40": "1680",
+	"42*41": "1722",
+	"42*42": "1764",
+	"42*43": "1806",
+	"42*44": "1848",
+	"42*45": "1890",
+	"42*46": "1932",
+	"42*47": "1974",
+	"42*48": "2016",
+	"42*49": "2058",
+	"43*0": "0",
+	"43*1": "43",
+	"43*2": "86",
+	"43*3": "129",
+	"43*4": "172",
+	"43*5": "215",
+	"43*6": "258",
+	"43*7": "301",
+	"43*8": "344",
+	"43*9": "387",
+	"43*10": "430",
+	"43*11": "473",
+	"43*12": "516",
+	"43*13": "559",
+	"43*14": "602",
+	"43*15": "645",
+	"43*16": "688",
+	"43*17": "731",
+	"43*18": "774",
+	"43*19": "817",
+	"43*20": "860",
+	"43*21": "903",
+	"43*22": "946",
+	"43*23": "989",
+	"43*24": "1032",
+	"43*25": "1075",
+	"43*26": "1118",
+	"43*27": "1161",
+	"43*28": "1204",
+	"43*29": "1247",
+	"43*30": "1290",
+	"43*31": "1333",
+	"43*32": "1376",
+	"43*33": "1419",
+	"43*34": "1462",
+	"43*35": "1505",
+	"43*36": "1548",
+	"43*37": "1591",
+	"43*38": "1634",
+	"43*39": "1677",
+	"43*40": "1720",
+	"43*41": "1763",
+	"43*42": "1806",
+	"43*43": "1849",
+	"43*44": "1892",
+	"43*45": "1935",
+	"43*46": "1978",
+	"43*47": "2021",
+	"43*48": "2064",
+	"43*49": "2107",
+	"44*0": "0",
+	"44*1": "44",
+	"44*2": "88",
+	"44*3": "132",
+	"44*4": "176",
+	"44*5": "220",
+	"44*6": "264",
+	"44*7": "308",
+	"44*8": "352",
+	"44*9": "396",
+	"44*10": "440",
+	"44*11": "484",
+	"44*12": "528",
+	"44*13": "572",
+	"44*14": "616",
+	"44*15": "660",
+	"44*16": "704",
+	"44*17": "748",
+	"44*18": "792",
+	"44*19": "836",
+	"44*20": "880",
+	"44*21": "924",
+	"44*22": "968",
+	"44*23": "1012",
+	"44*24": "1056",
+	"44*25": "1100",
+	"44*26": "1144",
+	"44*27": "1188",
+	"44*28": "1232",
+	"44*29": "1276",
+	"44*30": "1320",
+	"44*31": "1364",
+	"44*32": "1408",
+	"44*33": "1452",
+	"44*34": "1496",
+	"44*35": "1540",
+	"44*36": "1584",
+	"44*37": "1628",
+	"44*38": "1672",
+	"44*39": "1716",
+	"44*40": "1760",
+	"44*41": "1804",
+	"44*42": "1848",
+	"44*43": "1892",
+	"44*44": "1936",
+	"44*45": "1980",
+	"44*46": "2024",
+	"44*47": "2068",
+	"44*48": "2112",
+	"44*49": "2156",
+	"45*0": "0",
+	"45*1": "45",
+	"45*2": "90",
+	"45*3": "135",
+	"45*4": "180",
+	"45*5": "225",
+	"45*6": "270",
+	"45*7": "315",
+	"45*8": "360",
+	"45*9": "405",
+	"45*10": "450",
+	"45*11": "495",
+	"45*12": "540",
+	"45*13": "585",
+	"45*14": "630",
+	"45*15": "675",
+	"45*16": "720",
+	"45*17": "765",
+	"45*18": "810",
+	"45*19": "855",
+	"45*20": "900",
+	"45*21": "945",
+	"45*22": "990",
+	"45*23": "1035",
+	"45*24": "1080",
+	"45*25": "1125",
+	"45*26": "1170",
+	"45*27": "1215",
+	"45*28": "1260",
+	"45*29": "1305",
+	"45*30": "1350",
+	"45*31": "1395",
+	"45*32": "1440",
+	"45*33": "1485",
+	"45*34": "1530",
+	"45*35": "1575",
+	"45*36": "1620",
+	"45*37": "1665",
+	"45*38": "1710",
+	"45*39": "1755",
+	"45*40": "1800",
+	"45*41": "1845",
+	"45*42": "1890",
+	"45*43": "1935",
+	"45*44": "1980",
+	"45*45": "2025",
+	"45*46": "2070",
+	"45*47": "2115",
+	"45*48": "2160",
+	"45*49": "2205",
+	"46*0": "0",
+	"46*1": "46",
+	"46*2": "92",
+	"46*3": "138",
+	"46*4": "184",
+	"46*5": "230",
+	"46*6": "276",
+	"46*7": "322",
+	"46*8": "368",
+	"46*9": "414",
+	"46*10": "460",
+	"46*11": "506",
+	"46*12": "552",
+	"46*13": "598",
+	"46*14": "644",
+	"46*15": "690",
+	"46*16": "736",
+	"46*17": "782",
+	"46*18": "828",
+	"46*19": "874",
+	"46*20": "920",
+	"46*21": "966",
+	"46*22": "1012",
+	"46*23": "1058",
+	"46*24": "1104",
+	"46*25": "1150",
+	"46*26": "1196",
+	"46*27": "1242",
+	"46*28": "1288",
+	"46*29": "1334",
+	"46*30": "1380",
+	"46*31": "1426",
+	"46*32": "1472",
+	"46*33": "1518",
+	"46*34": "1564",
+	"46*35": "1610",
+	"46*36": "1656",
+	"46*37": "1702",
+	"46*38": "1748",
+	"46*39": "1794",
+	"46*40": "1840",
+	"46*41": "1886",
+	"46*42": "1932",
+	"46*43": "1978",
+	"46*44": "2024",
+	"46*45": "2070",
+	"46*46": "2116",
+	"46*47": "2162",
+	"46*48": "2208",
+	"46*49": "2254",
+	"47*0": "0",
+	"47*1": "47",
+	"47*2": "94",
+	"47*3": "141",
+	"47*4": "188",
+	"47*5": "235",
+	"47*6": "282",
+	"47*7": "329",
+	"47*8": "376",
+	"47*9": "423",
+	"47*10": "470",
+	"47*11": "517",
+	"47*12": "564",
+	"47*13": "611",
+	"47*14": "658",
+	"47*15": "705",
+	"47*16": "752",
+	"47*17": "799",
+	"47*18": "846",
+	"47*19": "893",
+	"47*20": "940",
+	"47*21": "987",
+	"47*22": "1034",
+	"47*23": "1081",
+	"47*24": "1128",
+	"47*25": "1175",
+	"47*26": "1222",
+	"47*27": "1269",
+	"47*28": "1316",
+	"47*29": "1363",
+	"47*30": "1410",
+	"47*31": "1457",
+	"47*32": "1504",
+	"47*33": "1551",
+	"47*34": "1598",
+	"47*35": "1645",
+	"47*36": "1692",
+	"47*37": "1739",
+	"47*38": "1786",
+	"47*39": "1833",
+	"47*40": "1880",
+	"47*41": "1927",
+	"47*42": "1974",
+	"47*43": "2021",
+	"47*44": "2068",
+	"47*45": "2115",
+	"47*46": "2162",
+	"47*47": "2209",
+	"47*48": "2256",
+	"47*49": "2303",
+	"48*0": "0",
+	"48*1": "48",
+	"48*2": "96",
+	"48*3": "144",
+	"48*4": "192",
+	"48*5": "240",
+	"48*6": "288",
+	"48*7": "336",
+	"48*8": "384",
+	"48*9": "432",
+	"48*10": "480",
+	"48*11": "528",
+	"48*12": "576",
+	"48*13": "624",
+	"48*14": "672",
+	"48*15": "720",
+	"48*16": "768",
+	"48*17": "816",
+	"48*18": "864",
+	"48*19": "912",
+	"48*20": "960",
+	"48*21": "1008",
+	"48*22": "1056",
+	"48*23": "1104",
+	"48*24": "1152",
+	"48*25": "1200",
+	"48*26": "1248",
+	"48*27": "1296",
+	"48*28": "1344",
+	"48*29": "1392",
+	"48*30": "1440",
+	"48*31": "1488",
+	"48*32": "1536",
+	"48*33": "1584",
+	"48*34": "1632",
+	"48*35": "1680",
+	"48*36": "1728",
+	"48*37": "1776",
+	"48*38": "1824",
+	"48*39": "1872",
+	"48*40": "1920",
+	"48*41": "1968",
+	"48*42": "2016",
+	"48*43": "2064",
+	"48*44": "2112",
+	"48*45": "2160",
+	"48*46": "2208",
+	"48*47": "2256",
+	"48*48": "2304",
+	"48*49": "2352",
+	"49*0": "0",
+	"49*1": "49",
+	"49*2": "98",
+	"49*3": "147",
+	"49*4": "196",
+	"49*5": "245",
+	"49*6": "294",
+	"49*7": "343",
+	"49*8": "392",
+	"49*9": "441",
+	"49*10": "490",
+	"49*11": "539",
+	"49*12": "588",
+	"49*13": "637",
+	"49*14": "686",
+	"49*15": "735",
+	"49*16": "784",
+	"49*17": "833",
+	"49*18": "882",
+	"49*19": "931",
+	"49*20": "980",
+	"49*21": "1029",
+	"49*22": "1078",
+	"49*23": "1127",
+	"49*24": "1176",
+	"49*25": "1225",
+	"49*26": "1274",
+	"49*27": "1323",
+	"49*28": "1372",
+	"49*29": "1421",
+	"49*30": "1470",
+	"49*31": "1519",
+	"49*32": "1568",
+	"49*33": "1617",
+	"49*34": "1666",
+	"49*35": "1715",
+	"49*36": "1764",
+	"49*37": "1813",
+	"49*38": "1862",
+	"49*39": "1911",
+	"49*40": "1960",
+	"49*41": "2009",
+	"49*42": "2058",
+	"49*43": "2107",
+	"49*44": "2156",
+	"49*45": "2205",
+	"49*46": "2254",
+	"49*47": "2303",
+	"49*48": "2352",
+	"49*49": "2401",
+	"0/0": "Inf",
+	"0/1": "0.0",
+	"0/2": "0.0",
+	"0/3": "0.0",
+	"0/4": "0.0",
+	"0/5": "0.0",
+	"0/6": "0.0",
+	"0/7": "0.0",
+	"0/8": "0.0",
+	"0/9": "0.0",
+	"0/10": "0.0",
+	"0/11": "0.0",
+	"0/12": "0.0",
+	"0/13": "0.0",
+	"0/14": "0.0",
+	"0/15": "0.0",
+	"0/16": "0.0",
+	"0/17": "0.0",
+	"0/18": "0.0",
+	"0/19": "0.0",
+	"0/20": "0.0",
+	"0/21": "0.0",
+	"0/22": "0.0",
+	"0/23": "0.0",
+	"0/24": "0.0",
+	"0/25": "0.0",
+	"0/26": "0.0",
+	"0/27": "0.0",
+	"0/28": "0.0",
+	"0/29": "0.0",
+	"0/30": "0.0",
+	"0/31": "0.0",
+	"0/32": "0.0",
+	"0/33": "0.0",
+	"0/34": "0.0",
+	"0/35": "0.0",
+	"0/36": "0.0",
+	"0/37": "0.0",
+	"0/38": "0.0",
+	"0/39": "0.0",
+	"0/40": "0.0",
+	"0/41": "0.0",
+	"0/42": "0.0",
+	"0/43": "0.0",
+	"0/44": "0.0",
+	"0/45": "0.0",
+	"0/46": "0.0",
+	"0/47": "0.0",
+	"0/48": "0.0",
+	"0/49": "0.0",
+	"1/0": "Inf",
+	"1/1": "1.0",
+	"1/2": "0.5",
+	"1/3": "0.3333333333333333",
+	"1/4": "0.25",
+	"1/5": "0.2",
+	"1/6": "0.16666666666666666",
+	"1/7": "0.14285714285714285",
+	"1/8": "0.125",
+	"1/9": "0.1111111111111111",
+	"1/10": "0.1",
+	"1/11": "0.09090909090909091",
+	"1/12": "0.08333333333333333",
+	"1/13": "0.07692307692307693",
+	"1/14": "0.07142857142857142",
+	"1/15": "0.06666666666666667",
+	"1/16": "0.0625",
+	"1/17": "0.058823529411764705",
+	"1/18": "0.05555555555555555",
+	"1/19": "0.05263157894736842",
+	"1/20": "0.05",
+	"1/21": "0.047619047619047616",
+	"1/22": "0.045454545454545456",
+	"1/23": "0.043478260869565216",
+	"1/24": "0.041666666666666664",
+	"1/25": "0.04",
+	"1/26": "0.038461538461538464",
+	"1/27": "0.037037037037037035",
+	"1/28": "0.03571428571428571",
+	"1/29": "0.034482758620689655",
+	"1/30": "0.03333333333333333",
+	"1/31": "0.03225806451612903",
+	"1/32": "0.03125",
+	"1/33": "0.030303030303030304",
+	"1/34": "0.029411764705882353",
+	"1/35": "0.02857142857142857",
+	"1/36": "0.027777777777777776",
+	"1/37": "0.02702702702702703",
+	"1/38": "0.02631578947368421",
+	"1/39": "0.02564102564102564",
+	"1/40": "0.025",
+	"1/41": "0.024390243902439025",
+	"1/42": "0.023809523809523808",
+	"1/43": "0.023255813953488372",
+	"1/44": "0.022727272727272728",
+	"1/45": "0.022222222222222223",
+	"1/46": "0.021739130434782608",
+	"1/47": "0.02127659574468085",
+	"1/48": "0.020833333333333332",
+	"1/49": "0.02040816326530612",
+	"2/0": "Inf",
+	"2/1": "2.0",
+	"2/2": "1.0",
+	"2/3": "0.6666666666666666",
+	"2/4": "0.5",
+	"2/5": "0.4",
+	"2/6": "0.3333333333333333",
+	"2/7": "0.2857142857142857",
+	"2/8": "0.25",
+	"2/9": "0.2222222222222222",
+	"2/10": "0.2",
+	"2/11": "0.18181818181818182",
+	"2/12": "0.16666666666666666",
+	"2/13": "0.15384615384615385",
+	"2/14": "0.14285714285714285",
+	"2/15": "0.13333333333333333",
+	"2/16": "0.125",
+	"2/17": "0.11764705882352941",
+	"2/18": "0.1111111111111111",
+	"2/19": "0.10526315789473684",
+	"2/20": "0.1",
+	"2/21": "0.09523809523809523",
+	"2/22": "0.09090909090909091",
+	"2/23": "0.08695652173913043",
+	"2/24": "0.08333333333333333",
+	"2/25": "0.08",
+	"2/26": "0.07692307692307693",
+	"2/27": "0.07407407407407407",
+	"2/28": "0.07142857142857142",
+	"2/29": "0.06896551724137931",
+	"2/30": "0.06666666666666667",
+	"2/31": "0.06451612903225806",
+	"2/32": "0.0625",
+	"2/33": "0.06060606060606061",
+	"2/34": "0.058823529411764705",
+	"2/35": "0.05714285714285714",
+	"2/36": "0.05555555555555555",
+	"2/37": "0.05405405405405406",
+	"2/38": "0.05263157894736842",
+	"2/39": "0.05128205128205128",
+	"2/40": "0.05",
+	"2/41": "0.04878048780487805",
+	"2/42": "0.047619047619047616",
+	"2/43": "0.046511627906976744",
+	"2/44": "0.045454545454545456",
+	"2/45": "0.044444444444444446",
+	"2/46": "0.043478260869565216",
+	"2/47": "0.0425531914893617",
+	"2/48": "0.041666666666666664",
+	"2/49": "0.04081632653061224",
+	"3/0": "Inf",
+	"3/1": "3.0",
+	"3/2": "1.5",
+	"3/3": "1.0",
+	"3/4": "0.75",
+	"3/5": "0.6",
+	"3/6": "0.5",
+	"3/7": "0.42857142857142855",
+	"3/8": "0.375",
+	"3/9": "0.3333333333333333",
+	"3/10": "0.3",
+	"3/11": "0.2727272727272727",
+	"3/12": "0.25",
+	"3/13": "0.23076923076923078",
+	"3/14": "0.21428571428571427",
+	"3/15": "0.2",
+	"3/16": "0.1875",
+	"3/17": "0.17647058823529413",
+	"3/18": "0.16666666666666666",
+	"3/19": "0.15789473684210525",
+	"3/20": "0.15",
+	"3/21": "0.14285714285714285",
+	"3/22": "0.13636363636363635",
+	"3/23": "0.13043478260869565",
+	"3/24": "0.125",
+	"3/25": "0.12",
+	"3/26": "0.11538461538461539",
+	"3/27": "0.1111111111111111",
+	"3/28": "0.10714285714285714",
+	"3/29": "0.10344827586206896",
+	"3/30": "0.1",
+	"3/31": "0.0967741935483871",
+	"3/32": "0.09375",
+	"3/33": "0.09090909090909091",
+	"3/34": "0.08823529411764706",
+	"3/35": "0.08571428571428572",
+	"3/36": "0.08333333333333333",
+	"3/37": "0.08108108108108109",
+	"3/38": "0.07894736842105263",
+	"3/39": "0.07692307692307693",
+	"3/40": "0.075",
+	"3/41": "0.07317073170731707",
+	"3/42": "0.07142857142857142",
+	"3/43": "0.06976744186046512",
+	"3/44": "0.06818181818181818",
+	"3/45": "0.06666666666666667",
+	"3/46": "0.06521739130434782",
+	"3/47": "0.06382978723404255",
+	"3/48": "0.0625",
+	"3/49": "0.061224489795918366",
+	"4/0": "Inf",
+	"4/1": "4.0",
+	"4/2": "2.0",
+	"4/3": "1.3333333333333333",
+	"4/4": "1.0",
+	"4/5": "0.8",
+	"4/6": "0.6666666666666666",
+	"4/7": "0.5714285714285714",
+	"4/8": "0.5",
+	"4/9": "0.4444444444444444",
+	"4/10": "0.4",
+	"4/11": "0.36363636363636365",
+	"4/12": "0.3333333333333333",
+	"4/13": "0.3076923076923077",
+	"4/14": "0.2857142857142857",
+	"4/15": "0.26666666666666666",
+	"4/16": "0.25",
+	"4/17": "0.23529411764705882",
+	"4/18": "0.2222222222222222",
+	"4/19": "0.21052631578947367",
+	"4/20": "0.2",
+	"4/21": "0.19047619047619047",
+	"4/22": "0.18181818181818182",
+	"4/23": "0.17391304347826086",
+	"4/24": "0.16666666666666666",
+	"4/25": "0.16",
+	"4/26": "0.15384615384615385",
+	"4/27": "0.14814814814814814",
+	"4/28": "0.14285714285714285",
+	"4/29": "0.13793103448275862",
+	"4/30": "0.13333333333333333",
+	"4/31": "0.12903225806451613",
+	"4/32": "0.125",
+	"4/33": "0.12121212121212122",
+	"4/34": "0.11764705882352941",
+	"4/35": "0.11428571428571428",
+	"4/36": "0.1111111111111111",
+	"4/37": "0.10810810810810811",
+	"4/38": "0.10526315789473684",
+	"4/39": "0.10256410256410256",
+	"4/40": "0.1",
+	"4/41": "0.0975609756097561",
+	"4/42": "0.09523809523809523",
+	"4/43": "0.09302325581395349",
+	"4/44": "0.09090909090909091",
+	"4/45": "0.08888888888888889",
+	"4/46": "0.08695652173913043",
+	"4/47": "0.0851063829787234",
+	"4/48": "0.08333333333333333",
+	"4/49": "0.08163265306122448",
+	"5/0": "Inf",
+	"5/1": "5.0",
+	"5/2": "2.5",
+	"5/3": "1.6666666666666667",
+	"5/4": "1.25",
+	"5/5": "1.0",
+	"5/6": "0.8333333333333334",
+	"5/7": "0.7142857142857143",
+	"5/8": "0.625",
+	"5/9": "0.5555555555555556",
+	"5/10": "0.5",
+	"5/11": "0.45454545454545453",
+	"5/12": "0.4166666666666667",
+	"5/13": "0.38461538461538464",
+	"5/14": "0.35714285714285715",
+	"5/15": "0.3333333333333333",
+	"5/16": "0.3125",
+	"5/17": "0.29411764705882354",
+	"5/18": "0.2777777777777778",
+	"5/19": "0.2631578947368421",
+	"5/20": "0.25",
+	"5/21": "0.23809523809523808",
+	"5/22": "0.22727272727272727",
+	"5/23": "0.21739130434782608",
+	"5/24": "0.20833333333333334",
+	"5/25": "0.2",
+	"5/26": "0.19230769230769232",
+	"5/27": "0.18518518518518517",
+	"5/28": "0.17857142857142858",
+	"5/29": "0.1724137931034483",
+	"5/30": "0.16666666666666666",
+	"5/31": "0.16129032258064516",
+	"5/32": "0.15625",
+	"5/33": "0.15151515151515152",
+	"5/34": "0.14705882352941177",
+	"5/35": "0.14285714285714285",
+	"5/36": "0.1388888888888889",
+	"5/37": "0.13513513513513514",
+	"5/38": "0.13157894736842105",
+	"5/39": "0.1282051282051282",
+	"5/40": "0.125",
+	"5/41": "0.12195121951219512",
+	"5/42": "0.11904761904761904",
+	"5/43": "0.11627906976744186",
+	"5/44": "0.11363636363636363",
+	"5/45": "0.1111111111111111",
+	"5/46": "0.10869565217391304",
+	"5/47": "0.10638297872340426",
+	"5/48": "0.10416666666666667",
+	"5/49": "0.10204081632653061",
+	"6/0": "Inf",
+	"6/1": "6.0",
+	"6/2": "3.0",
+	"6/3": "2.0",
+	"6/4": "1.5",
+	"6/5": "1.2",
+	"6/6": "1.0",
+	"6/7": "0.8571428571428571",
+	"6/8": "0.75",
+	"6/9": "0.6666666666666666",
+	"6/10": "0.6",
+	"6/11": "0.5454545454545454",
+	"6/12": "0.5",
+	"6/13": "0.46153846153846156",
+	"6/14": "0.42857142857142855",
+	"6/15": "0.4",
+	"6/16": "0.375",
+	"6/17": "0.35294117647058826",
+	"6/18": "0.3333333333333333",
+	"6/19": "0.3157894736842105",
+	"6/20": "0.3",
+	"6/21": "0.2857142857142857",
+	"6/22": "0.2727272727272727",
+	"6/23": "0.2608695652173913",
+	"6/24": "0.25",
+	"6/25": "0.24",
+	"6/26": "0.23076923076923078",
+	"6/27": "0.2222222222222222",
+	"6/28": "0.21428571428571427",
+	"6/29": "0.20689655172413793",
+	"6/30": "0.2",
+	"6/31": "0.1935483870967742",
+	"6/32": "0.1875",
+	"6/33": "0.18181818181818182",
+	"6/34": "0.17647058823529413",
+	"6/35": "0.17142857142857143",
+	"6/36": "0.16666666666666666",
+	"6/37": "0.16216216216216217",
+	"6/38": "0.15789473684210525",
+	"6/39": "0.15384615384615385",
+	"6/40": "0.15",
+	"6/41": "0.14634146341463414",
+	"6/42": "0.14285714285714285",
+	"6/43": "0.13953488372093023",
+	"6/44": "0.13636363636363635",
+	"6/45": "0.13333333333333333",
+	"6/46": "0.13043478260869565",
+	"6/47": "0.1276595744680851",
+	"6/48": "0.125",
+	"6/49": "0.12244897959183673",
+	"7/0": "Inf",
+	"7/1": "7.0",
+	"7/2": "3.5",
+	"7/3": "2.3333333333333335",
+	"7/4": "1.75",
+	"7/5": "1.4",
+	"7/6": "1.1666666666666667",
+	"7/7": "1.0",
+	"7/8": "0.875",
+	"7/9": "0.7777777777777778",
+	"7/10": "0.7",
+	"7/11": "0.6363636363636364",
+	"7/12": "0.5833333333333334",
+	"7/13": "0.5384615384615384",
+	"7/14": "0.5",
+	"7/15": "0.4666666666666667",
+	"7/16": "0.4375",
+	"7/17": "0.4117647058823529",
+	"7/18": "0.3888888888888889",
+	"7/19": "0.3684210526315789",
+	"7/20": "0.35",
+	"7/21": "0.3333333333333333",
+	"7/22": "0.3181818181818182",
+	"7/23": "0.30434782608695654",
+	"7/24": "0.2916666666666667",
+	"7/25": "0.28",
+	"7/26": "0.2692307692307692",
+	"7/27": "0.25925925925925924",
+	"7/28": "0.25",
+	"7/29": "0.2413793103448276",
+	"7/30": "0.23333333333333334",
+	"7/31": "0.22580645161290322",
+	"7/32": "0.21875",
+	"7/33": "0.21212121212121213",
+	"7/34": "0.20588235294117646",
+	"7/35": "0.2",
+	"7/36": "0.19444444444444445",
+	"7/37": "0.1891891891891892",
+	"7/38": "0.18421052631578946",
+	"7/39": "0.1794871794871795",
+	"7/40": "0.175",
+	"7/41": "0.17073170731707318",
+	"7/42": "0.16666666666666666",
+	"7/43": "0.16279069767441862",
+	"7/44": "0.1590909090909091",
+	"7/45": "0.15555555555555556",
+	"7/46": "0.15217391304347827",
+	"7/47": "0.14893617021276595",
+	"7/48": "0.14583333333333334",
+	"7/49": "0.14285714285714285",
+	"8/0": "Inf",
+	"8/1": "8.0",
+	"8/2": "4.0",
+	"8/3": "2.6666666666666665",
+	"8/4": "2.0",
+	"8/5": "1.6",
+	"8/6": "1.3333333333333333",
+	"8/7": "1.1428571428571428",
+	"8/8": "1.0",
+	"8/9": "0.8888888888888888",
+	"8/10": "0.8",
+	"8/11": "0.7272727272727273",
+	"8/12": "0.6666666666666666",
+	"8/13": "0.6153846153846154",
+	"8/14": "0.5714285714285714",
+	"8/15": "0.5333333333333333",
+	"8/16": "0.5",
+	"8/17": "0.47058823529411764",
+	"8/18": "0.4444444444444444",
+	"8/19": "0.42105263157894735",
+	"8/20": "0.4",
+	"8/21": "0.38095238095238093",
+	"8/22": "0.36363636363636365",
+	"8/23": "0.34782608695652173",
+	"8/24": "0.3333333333333333",
+	"8/25": "0.32",
+	"8/26": "0.3076923076923077",
+	"8/27": "0.2962962962962963",
+	"8/28": "0.2857142857142857",
+	"8/29": "0.27586206896551724",
+	"8/30": "0.26666666666666666",
+	"8/31": "0.25806451612903225",
+	"8/32": "0.25",
+	"8/33": "0.24242424242424243",
+	"8/34": "0.23529411764705882",
+	"8/35": "0.22857142857142856",
+	"8/36": "0.2222222222222222",
+	"8/37": "0.21621621621621623",
+	"8/38": "0.21052631578947367",
+	"8/39": "0.20512820512820512",
+	"8/40": "0.2",
+	"8/41": "0.1951219512195122",
+	"8/42": "0.19047619047619047",
+	"8/43": "0.18604651162790697",
+	"8/44": "0.18181818181818182",
+	"8/45": "0.17777777777777778",
+	"8/46": "0.17391304347826086",
+	"8/47": "0.1702127659574468",
+	"8/48": "0.16666666666666666",
+	"8/49": "0.16326530612244897",
+	"9/0": "Inf",
+	"9/1": "9.0",
+	"9/2": "4.5",
+	"9/3": "3.0",
+	"9/4": "2.25",
+	"9/5": "1.8",
+	"9/6": "1.5",
+	"9/7": "1.2857142857142858",
+	"9/8": "1.125",
+	"9/9": "1.0",
+	"9/10": "0.9",
+	"9/11": "0.8181818181818182",
+	"9/12": "0.75",
+	"9/13": "0.6923076923076923",
+	"9/14": "0.6428571428571429",
+	"9/15": "0.6",
+	"9/16": "0.5625",
+	"9/17": "0.5294117647058824",
+	"9/18": "0.5",
+	"9/19": "0.47368421052631576",
+	"9/20": "0.45",
+	"9/21": "0.42857142857142855",
+	"9/22": "0.4090909090909091",
+	"9/23": "0.391304347826087",
+	"9/24": "0.375",
+	"9/25": "0.36",
+	"9/26": "0.34615384615384615",
+	"9/27": "0.3333333333333333",
+	"9/28": "0.32142857142857145",
+	"9/29": "0.3103448275862069",
+	"9/30": "0.3",
+	"9/31": "0.2903225806451613",
+	"9/32": "0.28125",
+	"9/33": "0.2727272727272727",
+	"9/34": "0.2647058823529412",
+	"9/35": "0.2571428571428571",
+	"9/36": "0.25",
+	"9/37": "0.24324324324324326",
+	"9/38": "0.23684210526315788",
+	"9/39": "0.23076923076923078",
+	"9/40": "0.225",
+	"9/41": "0.21951219512195122",
+	"9/42": "0.21428571428571427",
+	"9/43": "0.20930232558139536",
+	"9/44": "0.20454545454545456",
+	"9/45": "0.2",
+	"9/46": "0.1956521739130435",
+	"9/47": "0.19148936170212766",
+	"9/48": "0.1875",
+	"9/49": "0.1836734693877551",
+	"10/0": "Inf",
+	"10/1": "10.0",
+	"10/2": "5.0",
+	"10/3": "3.3333333333333335",
+	"10/4": "2.5",
+	"10/5": "2.0",
+	"10/6": "1.6666666666666667",
+	"10/7": "1.4285714285714286",
+	"10/8": "1.25",
+	"10/9": "1.1111111111111112",
+	"10/10": "1.0",
+	"10/11": "0.9090909090909091",
+	"10/12": "0.8333333333333334",
+	"10/13": "0.7692307692307693",
+	"10/14": "0.7142857142857143",
+	"10/15": "0.6666666666666666",
+	"10/16": "0.625",
+	"10/17": "0.5882352941176471",
+	"10/18": "0.5555555555555556",
+	"10/19": "0.5263157894736842",
+	"10/20": "0.5",
+	"10/21": "0.47619047619047616",
+	"10/22": "0.45454545454545453",
+	"10/23": "0.43478260869565216",
+	"10/24": "0.4166666666666667",
+	"10/25": "0.4",
+	"10/26": "0.38461538461538464",
+	"10/27": "0.37037037037037035",
+	"10/28": "0.35714285714285715",
+	"10/29": "0.3448275862068966",
+	"10/30": "0.3333333333333333",
+	"10/31": "0.3225806451612903",
+	"10/32": "0.3125",
+	"10/33": "0.30303030303030304",
+	"10/34": "0.29411764705882354",
+	"10/35": "0.2857142857142857",
+	"10/36": "0.2777777777777778",
+	"10/37": "0.2702702702702703",
+	"10/38": "0.2631578947368421",
+	"10/39": "0.2564102564102564",
+	"10/40": "0.25",
+	"10/41": "0.24390243902439024",
+	"10/42": "0.23809523809523808",
+	"10/43": "0.23255813953488372",
+	"10/44": "0.22727272727272727",
+	"10/45": "0.2222222222222222",
+	"10/46": "0.21739130434782608",
+	"10/47": "0.2127659574468085",
+	"10/48": "0.20833333333333334",
+	"10/49": "0.20408163265306123",
+	"11/0": "Inf",
+	"11/1": "11.0",
+	"11/2": "5.5",
+	"11/3": "3.6666666666666665",
+	"11/4": "2.75",
+	"11/5": "2.2",
+	"11/6": "1.8333333333333333",
+	"11/7": "1.5714285714285714",
+	"11/8": "1.375",
+	"11/9": "1.2222222222222223",
+	"11/10": "1.1",
+	"11/11": "1.0",
+	"11/12": "0.9166666666666666",
+	"11/13": "0.8461538461538461",
+	"11/14": "0.7857142857142857",
+	"11/15": "0.7333333333333333",
+	"11/16": "0.6875",
+	"11/17": "0.6470588235294118",
+	"11/18": "0.6111111111111112",
+	"11/19": "0.5789473684210527",
+	"11/20": "0.55",
+	"11/21": "0.5238095238095238",
+	"11/22": "0.5",
+	"11/23": "0.4782608695652174",
+	"11/24": "0.4583333333333333",
+	"11/25": "0.44",
+	"11/26": "0.4230769230769231",
+	"11/27": "0.4074074074074074",
+	"11/28": "0.39285714285714285",
+	"11/29": "0.3793103448275862",
+	"11/30": "0.36666666666666664",
+	"11/31": "0.3548387096774194",
+	"11/32": "0.34375",
+	"11/33": "0.3333333333333333",
+	"11/34": "0.3235294117647059",
+	"11/35": "0.3142857142857143",
+	"11/36": "0.3055555555555556",
+	"11/37": "0.2972972972972973",
+	"11/38": "0.2894736842105263",
+	"11/39": "0.28205128205128205",
+	"11/40": "0.275",
+	"11/41": "0.2682926829268293",
+	"11/42": "0.2619047619047619",
+	"11/43": "0.2558139534883721",
+	"11/44": "0.25",
+	"11/45": "0.24444444444444444",
+	"11/46": "0.2391304347826087",
+	"11/47": "0.23404255319148937",
+	"11/48": "0.22916666666666666",
+	"11/49": "0.22448979591836735",
+	"12/0": "Inf",
+	"12/1": "12.0",
+	"12/2": "6.0",
+	"12/3": "4.0",
+	"12/4": "3.0",
+	"12/5": "2.4",
+	"12/6": "2.0",
+	"12/7": "1.7142857142857142",
+	"12/8": "1.5",
+	"12/9": "1.3333333333333333",
+	"12/10": "1.2",
+	"12/11": "1.0909090909090908",
+	"12/12": "1.0",
+	"12/13": "0.9230769230769231",
+	"12/14": "0.8571428571428571",
+	"12/15": "0.8",
+	"12/16": "0.75",
+	"12/17": "0.7058823529411765",
+	"12/18": "0.6666666666666666",
+	"12/19": "0.631578947368421",
+	"12/20": "0.6",
+	"12/21": "0.5714285714285714",
+	"12/22": "0.5454545454545454",
+	"12/23": "0.5217391304347826",
+	"12/24": "0.5",
+	"12/25": "0.48",
+	"12/26": "0.46153846153846156",
+	"12/27": "0.4444444444444444",
+	"12/28": "0.42857142857142855",
+	"12/29": "0.41379310344827586",
+	"12/30": "0.4",
+	"12/31": "0.3870967741935484",
+	"12/32": "0.375",
+	"12/33": "0.36363636363636365",
+	"12/34": "0.35294117647058826",
+	"12/35": "0.34285714285714286",
+	"12/36": "0.3333333333333333",
+	"12/37": "0.32432432432432434",
+	"12/38": "0.3157894736842105",
+	"12/39": "0.3076923076923077",
+	"12/40": "0.3",
+	"12/41": "0.2926829268292683",
+	"12/42": "0.2857142857142857",
+	"12/43": "0.27906976744186046",
+	"12/44": "0.2727272727272727",
+	"12/45": "0.26666666666666666",
+	"12/46": "0.2608695652173913",
+	"12/47": "0.2553191489361702",
+	"12/48": "0.25",
+	"12/49": "0.24489795918367346",
+	"13/0": "Inf",
+	"13/1": "13.0",
+	"13/2": "6.5",
+	"13/3": "4.333333333333333",
+	"13/4": "3.25",
+	"13/5": "2.6",
+	"13/6": "2.1666666666666665",
+	"13/7": "1.8571428571428572",
+	"13/8": "1.625",
+	"13/9": "1.4444444444444444",
+	"13/10": "1.3",
+	"13/11": "1.1818181818181819",
+	"13/12": "1.0833333333333333",
+	"13/13": "1.0",
+	"13/14": "0.9285714285714286",
+	"13/15": "0.8666666666666667",
+	"13/16": "0.8125",
+	"13/17": "0.7647058823529411",
+	"13/18": "0.7222222222222222",
+	"13/19": "0.6842105263157895",
+	"13/20": "0.65",
+	"13/21": "0.6190476190476191",
+	"13/22": "0.5909090909090909",
+	"13/23": "0.5652173913043478",
+	"13/24": "0.5416666666666666",
+	"13/25": "0.52",
+	"13/26": "0.5",
+	"13/27": "0.48148148148148145",
+	"13/28": "0.4642857142857143",
+	"13/29": "0.4482758620689655",
+	"13/30": "0.43333333333333335",
+	"13/31": "0.41935483870967744",
+	"13/32": "0.40625",
+	"13/33": "0.3939393939393939",
+	"13/34": "0.38235294117647056",
+	"13/35": "0.37142857142857144",
+	"13/36": "0.3611111111111111",
+	"13/37": "0.35135135135135137",
+	"13/38": "0.34210526315789475",
+	"13/39": "0.3333333333333333",
+	"13/40": "0.325",
+	"13/41": "0.3170731707317073",
+	"13/42": "0.30952380952380953",
+	"13/43": "0.3023255813953488",
+	"13/44": "0.29545454545454547",
+	"13/45": "0.28888888888888886",
+	"13/46": "0.2826086956521739",
+	"13/47": "0.2765957446808511",
+	"13/48": "0.2708333333333333",
+	"13/49": "0.2653061224489796",
+	"14/0": "Inf",
+	"14/1": "14.0",
+	"14/2": "7.0",
+	"14/3": "4.666666666666667",
+	"14/4": "3.5",
+	"14/5": "2.8",
+	"14/6": "2.3333333333333335",
+	"14/7": "2.0",
+	"14/8": "1.75",
+	"14/9": "1.5555555555555556",
+	"14/10": "1.4",
+	"14/11": "1.2727272727272727",
+	"14/12": "1.1666666666666667",
+	"14/13": "1.0769230769230769",
+	"14/14": "1.0",
+	"14/15": "0.9333333333333333",
+	"14/16": "0.875",
+	"14/17": "0.8235294117647058",
+	"14/18": "0.7777777777777778",
+	"14/19": "0.7368421052631579",
+	"14/20": "0.7",
+	"14/21": "0.6666666666666666",
+	"14/22": "0.6363636363636364",
+	"14/23": "0.6086956521739131",
+	"14/24": "0.5833333333333334",
+	"14/25": "0.56",
+	"14/26": "0.5384615384615384",
+	"14/27": "0.5185185185185185",
+	"14/28": "0.5",
+	"14/29": "0.4827586206896552",
+	"14/30": "0.4666666666666667",
+	"14/31": "0.45161290322580644",
+	"14/32": "0.4375",
+	"14/33": "0.42424242424242425",
+	"14/34": "0.4117647058823529",
+	"14/35": "0.4",
+	"14/36": "0.3888888888888889",
+	"14/37": "0.3783783783783784",
+	"14/38": "0.3684210526315789",
+	"14/39": "0.358974358974359",
+	"14/40": "0.35",
+	"14/41": "0.34146341463414637",
+	"14/42": "0.3333333333333333",
+	"14/43": "0.32558139534883723",
+	"14/44": "0.3181818181818182",
+	"14/45": "0.3111111111111111",
+	"14/46": "0.30434782608695654",
+	"14/47": "0.2978723404255319",
+	"14/48": "0.2916666666666667",
+	"14/49": "0.2857142857142857",
+	"15/0": "Inf",
+	"15/1": "15.0",
+	"15/2": "7.5",
+	"15/3": "5.0",
+	"15/4": "3.75",
+	"15/5": "3.0",
+	"15/6": "2.5",
+	"15/7": "2.142857142857143",
+	"15/8": "1.875",
+	"15/9": "1.6666666666666667",
+	"15/10": "1.5",
+	"15/11": "1.3636363636363635",
+	"15/12": "1.25",
+	"15/13": "1.1538461538461537",
+	"15/14": "1.0714285714285714",
+	"15/15": "1.0",
+	"15/16": "0.9375",
+	"15/17": "0.8823529411764706",
+	"15/18": "0.8333333333333334",
+	"15/19": "0.7894736842105263",
+	"15/20": "0.75",
+	"15/21": "0.7142857142857143",
+	"15/22": "0.6818181818181818",
+	"15/23": "0.6521739130434783",
+	"15/24": "0.625",
+	"15/25": "0.6",
+	"15/26": "0.5769230769230769",
+	"15/27": "0.5555555555555556",
+	"15/28": "0.5357142857142857",
+	"15/29": "0.5172413793103449",
+	"15/30": "0.5",
+	"15/31": "0.4838709677419355",
+	"15/32": "0.46875",
+	"15/33": "0.45454545454545453",
+	"15/34": "0.4411764705882353",
+	"15/35": "0.42857142857142855",
+	"15/36": "0.4166666666666667",
+	"15/37": "0.40540540540540543",
+	"15/38": "0.39473684210526316",
+	"15/39": "0.38461538461538464",
+	"15/40": "0.375",
+	"15/41": "0.36585365853658536",
+	"15/42": "0.35714285714285715",
+	"15/43": "0.3488372093023256",
+	"15/44": "0.3409090909090909",
+	"15/45": "0.3333333333333333",
+	"15/46": "0.32608695652173914",
+	"15/47": "0.3191489361702128",
+	"15/48": "0.3125",
+	"15/49": "0.30612244897959184",
+	"16/0": "Inf",
+	"16/1": "16.0",
+	"16/2": "8.0",
+	"16/3": "5.333333333333333",
+	"16/4": "4.0",
+	"16/5": "3.2",
+	"16/6": "2.6666666666666665",
+	"16/7": "2.2857142857142856",
+	"16/8": "2.0",
+	"16/9": "1.7777777777777777",
+	"16/10": "1.6",
+	"16/11": "1.4545454545454546",
+	"16/12": "1.3333333333333333",
+	"16/13": "1.2307692307692308",
+	"16/14": "1.1428571428571428",
+	"16/15": "1.0666666666666667",
+	"16/16": "1.0",
+	"16/17": "0.9411764705882353",
+	"16/18": "0.8888888888888888",
+	"16/19": "0.8421052631578947",
+	"16/20": "0.8",
+	"16/21": "0.7619047619047619",
+	"16/22": "0.7272727272727273",
+	"16/23": "0.6956521739130435",
+	"16/24": "0.6666666666666666",
+	"16/25": "0.64",
+	"16/26": "0.6153846153846154",
+	"16/27": "0.5925925925925926",
+	"16/28": "0.5714285714285714",
+	"16/29": "0.5517241379310345",
+	"16/30": "0.5333333333333333",
+	"16/31": "0.5161290322580645",
+	"16/32": "0.5",
+	"16/33": "0.48484848484848486",
+	"16/34": "0.47058823529411764",
+	"16/35": "0.45714285714285713",
+	"16/36": "0.4444444444444444",
+	"16/37": "0.43243243243243246",
+	"16/38": "0.42105263157894735",
+	"16/39": "0.41025641025641024",
+	"16/40": "0.4",
+	"16/41": "0.3902439024390244",
+	"16/42": "0.38095238095238093",
+	"16/43": "0.37209302325581395",
+	"16/44": "0.36363636363636365",
+	"16/45": "0.35555555555555557",
+	"16/46": "0.34782608695652173",
+	"16/47": "0.3404255319148936",
+	"16/48": "0.3333333333333333",
+	"16/49": "0.32653061224489793",
+	"17/0": "Inf",
+	"17/1": "17.0",
+	"17/2": "8.5",
+	"17/3": "5.666666666666667",
+	"17/4": "4.25",
+	"17/5": "3.4",
+	"17/6": "2.8333333333333335",
+	"17/7": "2.4285714285714284",
+	"17/8": "2.125",
+	"17/9": "1.8888888888888888",
+	"17/10": "1.7",
+	"17/11": "1.5454545454545454",
+	"17/12": "1.4166666666666667",
+	"17/13": "1.3076923076923077",
+	"17/14": "1.2142857142857142",
+	"17/15": "1.1333333333333333",
+	"17/16": "1.0625",
+	"17/17": "1.0",
+	"17/18": "0.9444444444444444",
+	"17/19": "0.8947368421052632",
+	"17/20": "0.85",
+	"17/21": "0.8095238095238095",
+	"17/22": "0.7727272727272727",
+	"17/23": "0.7391304347826086",
+	"17/24": "0.7083333333333334",
+	"17/25": "0.68",
+	"17/26": "0.6538461538461539",
+	"17/27": "0.6296296296296297",
+	"17/28": "0.6071428571428571",
+	"17/29": "0.5862068965517241",
+	"17/30": "0.5666666666666667",
+	"17/31": "0.5483870967741935",
+	"17/32": "0.53125",
+	"17/33": "0.5151515151515151",
+	"17/34": "0.5",
+	"17/35": "0.4857142857142857",
+	"17/36": "0.4722222222222222",
+	"17/37": "0.4594594594594595",
+	"17/38": "0.4473684210526316",
+	"17/39": "0.4358974358974359",
+	"17/40": "0.425",
+	"17/41": "0.4146341463414634",
+	"17/42": "0.40476190476190477",
+	"17/43": "0.3953488372093023",
+	"17/44": "0.38636363636363635",
+	"17/45": "0.37777777777777777",
+	"17/46": "0.3695652173913043",
+	"17/47": "0.3617021276595745",
+	"17/48": "0.3541666666666667",
+	"17/49": "0.3469387755102041",
+	"18/0": "Inf",
+	"18/1": "18.0",
+	"18/2": "9.0",
+	"18/3": "6.0",
+	"18/4": "4.5",
+	"18/5": "3.6",
+	"18/6": "3.0",
+	"18/7": "2.5714285714285716",
+	"18/8": "2.25",
+	"18/9": "2.0",
+	"18/10": "1.8",
+	"18/11": "1.6363636363636365",
+	"18/12": "1.5",
+	"18/13": "1.3846153846153846",
+	"18/14": "1.2857142857142858",
+	"18/15": "1.2",
+	"18/16": "1.125",
+	"18/17": "1.0588235294117647",
+	"18/18": "1.0",
+	"18/19": "0.9473684210526315",
+	"18/20": "0.9",
+	"18/21": "0.8571428571428571",
+	"18/22": "0.8181818181818182",
+	"18/23": "0.782608695652174",
+	"18/24": "0.75",
+	"18/25": "0.72",
+	"18/26": "0.6923076923076923",
+	"18/27": "0.6666666666666666",
+	"18/28": "0.6428571428571429",
+	"18/29": "0.6206896551724138",
+	"18/30": "0.6",
+	"18/31": "0.5806451612903226",
+	"18/32": "0.5625",
+	"18/33": "0.5454545454545454",
+	"18/34": "0.5294117647058824",
+	"18/35": "0.5142857142857142",
+	"18/36": "0.5",
+	"18/37": "0.4864864864864865",
+	"18/38": "0.47368421052631576",
+	"18/39": "0.46153846153846156",
+	"18/40": "0.45",
+	"18/41": "0.43902439024390244",
+	"18/42": "0.42857142857142855",
+	"18/43": "0.4186046511627907",
+	"18/44": "0.4090909090909091",
+	"18/45": "0.4",
+	"18/46": "0.391304347826087",
+	"18/47": "0.3829787234042553",
+	"18/48": "0.375",
+	"18/49": "0.3673469387755102",
+	"19/0": "Inf",
+	"19/1": "19.0",
+	"19/2": "9.5",
+	"19/3": "6.333333333333333",
+	"19/4": "4.75",
+	"19/5": "3.8",
+	"19/6": "3.1666666666666665",
+	"19/7": "2.7142857142857144",
+	"19/8": "2.375",
+	"19/9": "2.111111111111111",
+	"19/10": "1.9",
+	"19/11": "1.7272727272727273",
+	"19/12": "1.5833333333333333",
+	"19/13": "1.4615384615384615",
+	"19/14": "1.3571428571428572",
+	"19/15": "1.2666666666666666",
+	"19/16": "1.1875",
+	"19/17": "1.1176470588235294",
+	"19/18": "1.0555555555555556",
+	"19/19": "1.0",
+	"19/20": "0.95",
+	"19/21": "0.9047619047619048",
+	"19/22": "0.8636363636363636",
+	"19/23": "0.8260869565217391",
+	"19/24": "0.7916666666666666",
+	"19/25": "0.76",
+	"19/26": "0.7307692307692307",
+	"19/27": "0.7037037037037037",
+	"19/28": "0.6785714285714286",
+	"19/29": "0.6551724137931034",
+	"19/30": "0.6333333333333333",
+	"19/31": "0.6129032258064516",
+	"19/32": "0.59375",
+	"19/33": "0.5757575757575758",
+	"19/34": "0.5588235294117647",
+	"19/35": "0.5428571428571428",
+	"19/36": "0.5277777777777778",
+	"19/37": "0.5135135135135135",
+	"19/38": "0.5",
+	"19/39": "0.48717948717948717",
+	"19/40": "0.475",
+	"19/41": "0.4634146341463415",
+	"19/42": "0.4523809523809524",
+	"19/43": "0.4418604651162791",
+	"19/44": "0.4318181818181818",
+	"19/45": "0.4222222222222222",
+	"19/46": "0.41304347826086957",
+	"19/47": "0.40425531914893614",
+	"19/48": "0.3958333333333333",
+	"19/49": "0.3877551020408163",
+	"20/0": "Inf",
+	"20/1": "20.0",
+	"20/2": "10.0",
+	"20/3": "6.666666666666667",
+	"20/4": "5.0",
+	"20/5": "4.0",
+	"20/6": "3.3333333333333335",
+	"20/7": "2.857142857142857",
+	"20/8": "2.5",
+	"20/9": "2.2222222222222223",
+	"20/10": "2.0",
+	"20/11": "1.8181818181818181",
+	"20/12": "1.6666666666666667",
+	"20/13": "1.5384615384615385",
+	"20/14": "1.4285714285714286",
+	"20/15": "1.3333333333333333",
+	"20/16": "1.25",
+	"20/17": "1.1764705882352942",
+	"20/18": "1.1111111111111112",
+	"20/19": "1.0526315789473684",
+	"20/20": "1.0",
+	"20/21": "0.9523809523809523",
+	"20/22": "0.9090909090909091",
+	"20/23": "0.8695652173913043",
+	"20/24": "0.8333333333333334",
+	"20/25": "0.8",
+	"20/26": "0.7692307692307693",
+	"20/27": "0.7407407407407407",
+	"20/28": "0.7142857142857143",
+	"20/29": "0.6896551724137931",
+	"20/30": "0.6666666666666666",
+	"20/31": "0.6451612903225806",
+	"20/32": "0.625",
+	"20/33": "0.6060606060606061",
+	"20/34": "0.5882352941176471",
+	"20/35": "0.5714285714285714",
+	"20/36": "0.5555555555555556",
+	"20/37": "0.5405405405405406",
+	"20/38": "0.5263157894736842",
+	"20/39": "0.5128205128205128",
+	"20/40": "0.5",
+	"20/41": "0.4878048780487805",
+	"20/42": "0.47619047619047616",
+	"20/43": "0.46511627906976744",
+	"20/44": "0.45454545454545453",
+	"20/45": "0.4444444444444444",
+	"20/46": "0.43478260869565216",
+	"20/47": "0.425531914893617",
+	"20/48": "0.4166666666666667",
+	"20/49": "0.40816326530612246",
+	"21/0": "Inf",
+	"21/1": "21.0",
+	"21/2": "10.5",
+	"21/3": "7.0",
+	"21/4": "5.25",
+	"21/5": "4.2",
+	"21/6": "3.5",
+	"21/7": "3.0",
+	"21/8": "2.625",
+	"21/9": "2.3333333333333335",
+	"21/10": "2.1",
+	"21/11": "1.9090909090909092",
+	"21/12": "1.75",
+	"21/13": "1.6153846153846154",
+	"21/14": "1.5",
+	"21/15": "1.4",
+	"21/16": "1.3125",
+	"21/17": "1.2352941176470589",
+	"21/18": "1.1666666666666667",
+	"21/19": "1.105263157894737",
+	"21/20": "1.05",
+	"21/21": "1.0",
+	"21/22": "0.9545454545454546",
+	"21/23": "0.9130434782608695",
+	"21/24": "0.875",
+	"21/25": "0.84",
+	"21/26": "0.8076923076923077",
+	"21/27": "0.7777777777777778",
+	"21/28": "0.75",
+	"21/29": "0.7241379310344828",
+	"21/30": "0.7",
+	"21/31": "0.6774193548387096",
+	"21/32": "0.65625",
+	"21/33": "0.6363636363636364",
+	"21/34": "0.6176470588235294",
+	"21/35": "0.6",
+	"21/36": "0.5833333333333334",
+	"21/37": "0.5675675675675675",
+	"21/38": "0.5526315789473685",
+	"21/39": "0.5384615384615384",
+	"21/40": "0.525",
+	"21/41": "0.5121951219512195",
+	"21/42": "0.5",
+	"21/43": "0.4883720930232558",
+	"21/44": "0.4772727272727273",
+	"21/45": "0.4666666666666667",
+	"21/46": "0.45652173913043476",
+	"21/47": "0.44680851063829785",
+	"21/48": "0.4375",
+	"21/49": "0.42857142857142855",
+	"22/0": "Inf",
+	"22/1": "22.0",
+	"22/2": "11.0",
+	"22/3": "7.333333333333333",
+	"22/4": "5.5",
+	"22/5": "4.4",
+	"22/6": "3.6666666666666665",
+	"22/7": "3.142857142857143",
+	"22/8": "2.75",
+	"22/9": "2.4444444444444446",
+	"22/10": "2.2",
+	"22/11": "2.0",
+	"22/12": "1.8333333333333333",
+	"22/13": "1.6923076923076923",
+	"22/14": "1.5714285714285714",
+	"22/15": "1.4666666666666666",
+	"22/16": "1.375",
+	"22/17": "1.2941176470588236",
+	"22/18": "1.2222222222222223",
+	"22/19": "1.1578947368421053",
+	"22/20": "1.1",
+	"22/21": "1.0476190476190477",
+	"22/22": "1.0",
+	"22/23": "0.9565217391304348",
+	"22/24": "0.9166666666666666",
+	"22/25": "0.88",
+	"22/26": "0.8461538461538461",
+	"22/27": "0.8148148148148148",
+	"22/28": "0.7857142857142857",
+	"22/29": "0.7586206896551724",
+	"22/30": "0.7333333333333333",
+	"22/31": "0.7096774193548387",
+	"22/32": "0.6875",
+	"22/33": "0.6666666666666666",
+	"22/34": "0.6470588235294118",
+	"22/35": "0.6285714285714286",
+	"22/36": "0.6111111111111112",
+	"22/37": "0.5945945945945946",
+	"22/38": "0.5789473684210527",
+	"22/39": "0.5641025641025641",
+	"22/40": "0.55",
+	"22/41": "0.5365853658536586",
+	"22/42": "0.5238095238095238",
+	"22/43": "0.5116279069767442",
+	"22/44": "0.5",
+	"22/45": "0.4888888888888889",
+	"22/46": "0.4782608695652174",
+	"22/47": "0.46808510638297873",
+	"22/48": "0.4583333333333333",
+	"22/49": "0.4489795918367347",
+	"23/0": "Inf",
+	"23/1": "23.0",
+	"23/2": "11.5",
+	"23/3": "7.666666666666667",
+	"23/4": "5.75",
+	"23/5": "4.6",
+	"23/6": "3.8333333333333335",
+	"23/7": "3.2857142857142856",
+	"23/8": "2.875",
+	"23/9": "2.5555555555555554",
+	"23/10": "2.3",
+	"23/11": "2.090909090909091",
+	"23/12": "1.9166666666666667",
+	"23/13": "1.7692307692307692",
+	"23/14": "1.6428571428571428",
+	"23/15": "1.5333333333333334",
+	"23/16": "1.4375",
+	"23/17": "1.3529411764705883",
+	"23/18": "1.2777777777777777",
+	"23/19": "1.2105263157894737",
+	"23/20": "1.15",
+	"23/21": "1.0952380952380953",
+	"23/22": "1.0454545454545454",
+	"23/23": "1.0",
+	"23/24": "0.9583333333333334",
+	"23/25": "0.92",
+	"23/26": "0.8846153846153846",
+	"23/27": "0.8518518518518519",
+	"23/28": "0.8214285714285714",
+	"23/29": "0.7931034482758621",
+	"23/30": "0.7666666666666667",
+	"23/31": "0.7419354838709677",
+	"23/32": "0.71875",
+	"23/33": "0.696969696969697",
+	"23/34": "0.6764705882352942",
+	"23/35": "0.6571428571428571",
+	"23/36": "0.6388888888888888",
+	"23/37": "0.6216216216216216",
+	"23/38": "0.6052631578947368",
+	"23/39": "0.5897435897435898",
+	"23/40": "0.575",
+	"23/41": "0.5609756097560976",
+	"23/42": "0.5476190476190477",
+	"23/43": "0.5348837209302325",
+	"23/44": "0.5227272727272727",
+	"23/45": "0.5111111111111111",
+	"23/46": "0.5",
+	"23/47": "0.48936170212765956",
+	"23/48": "0.4791666666666667",
+	"23/49": "0.46938775510204084",
+	"24/0": "Inf",
+	"24/1": "24.0",
+	"24/2": "12.0",
+	"24/3": "8.0",
+	"24/4": "6.0",
+	"24/5": "4.8",
+	"24/6": "4.0",
+	"24/7": "3.4285714285714284",
+	"24/8": "3.0",
+	"24/9": "2.6666666666666665",
+	"24/10": "2.4",
+	"24/11": "2.1818181818181817",
+	"24/12": "2.0",
+	"24/13": "1.8461538461538463",
+	"24/14": "1.7142857142857142",
+	"24/15": "1.6",
+	"24/16": "1.5",
+	"24/17": "1.411764705882353",
+	"24/18": "1.3333333333333333",
+	"24/19": "1.263157894736842",
+	"24/20": "1.2",
+	"24/21": "1.1428571428571428",
+	"24/22": "1.0909090909090908",
+	"24/23": "1.0434782608695652",
+	"24/24": "1.0",
+	"24/25": "0.96",
+	"24/26": "0.9230769230769231",
+	"24/27": "0.8888888888888888",
+	"24/28": "0.8571428571428571",
+	"24/29": "0.8275862068965517",
+	"24/30": "0.8",
+	"24/31": "0.7741935483870968",
+	"24/32": "0.75",
+	"24/33": "0.7272727272727273",
+	"24/34": "0.7058823529411765",
+	"24/35": "0.6857142857142857",
+	"24/36": "0.6666666666666666",
+	"24/37": "0.6486486486486487",
+	"24/38": "0.631578947368421",
+	"24/39": "0.6153846153846154",
+	"24/40": "0.6",
+	"24/41": "0.5853658536585366",
+	"24/42": "0.5714285714285714",
+	"24/43": "0.5581395348837209",
+	"24/44": "0.5454545454545454",
+	"24/45": "0.5333333333333333",
+	"24/46": "0.5217391304347826",
+	"24/47": "0.5106382978723404",
+	"24/48": "0.5",
+	"24/49": "0.4897959183673469",
+	"25/0": "Inf",
+	"25/1": "25.0",
+	"25/2": "12.5",
+	"25/3": "8.333333333333334",
+	"25/4": "6.25",
+	"25/5": "5.0",
+	"25/6": "4.166666666666667",
+	"25/7": "3.5714285714285716",
+	"25/8": "3.125",
+	"25/9": "2.7777777777777777",
+	"25/10": "2.5",
+	"25/11": "2.272727272727273",
+	"25/12": "2.0833333333333335",
+	"25/13": "1.9230769230769231",
+	"25/14": "1.7857142857142858",
+	"25/15": "1.6666666666666667",
+	"25/16": "1.5625",
+	"25/17": "1.4705882352941178",
+	"25/18": "1.3888888888888888",
+	"25/19": "1.3157894736842106",
+	"25/20": "1.25",
+	"25/21": "1.1904761904761905",
+	"25/22": "1.1363636363636365",
+	"25/23": "1.0869565217391304",
+	"25/24": "1.0416666666666667",
+	"25/25": "1.0",
+	"25/26": "0.9615384615384616",
+	"25/27": "0.9259259259259259",
+	"25/28": "0.8928571428571429",
+	"25/29": "0.8620689655172413",
+	"25/30": "0.8333333333333334",
+	"25/31": "0.8064516129032258",
+	"25/32": "0.78125",
+	"25/33": "0.7575757575757576",
+	"25/34": "0.7352941176470589",
+	"25/35": "0.7142857142857143",
+	"25/36": "0.6944444444444444",
+	"25/37": "0.6756756756756757",
+	"25/38": "0.6578947368421053",
+	"25/39": "0.6410256410256411",
+	"25/40": "0.625",
+	"25/41": "0.6097560975609756",
+	"25/42": "0.5952380952380952",
+	"25/43": "0.5813953488372093",
+	"25/44": "0.5681818181818182",
+	"25/45": "0.5555555555555556",
+	"25/46": "0.5434782608695652",
+	"25/47": "0.5319148936170213",
+	"25/48": "0.5208333333333334",
+	"25/49": "0.5102040816326531",
+	"26/0": "Inf",
+	"26/1": "26.0",
+	"26/2": "13.0",
+	"26/3": "8.666666666666666",
+	"26/4": "6.5",
+	"26/5": "5.2",
+	"26/6": "4.333333333333333",
+	"26/7": "3.7142857142857144",
+	"26/8": "3.25",
+	"26/9": "2.888888888888889",
+	"26/10": "2.6",
+	"26/11": "2.3636363636363638",
+	"26/12": "2.1666666666666665",
+	"26/13": "2.0",
+	"26/14": "1.8571428571428572",
+	"26/15": "1.7333333333333334",
+	"26/16": "1.625",
+	"26/17": "1.5294117647058822",
+	"26/18": "1.4444444444444444",
+	"26/19": "1.368421052631579",
+	"26/20": "1.3",
+	"26/21": "1.2380952380952381",
+	"26/22": "1.1818181818181819",
+	"26/23": "1.1304347826086956",
+	"26/24": "1.0833333333333333",
+	"26/25": "1.04",
+	"26/26": "1.0",
+	"26/27": "0.9629629629629629",
+	"26/28": "0.9285714285714286",
+	"26/29": "0.896551724137931",
+	"26/30": "0.8666666666666667",
+	"26/31": "0.8387096774193549",
+	"26/32": "0.8125",
+	"26/33": "0.7878787878787878",
+	"26/34": "0.7647058823529411",
+	"26/35": "0.7428571428571429",
+	"26/36": "0.7222222222222222",
+	"26/37": "0.7027027027027027",
+	"26/38": "0.6842105263157895",
+	"26/39": "0.6666666666666666",
+	"26/40": "0.65",
+	"26/41": "0.6341463414634146",
+	"26/42": "0.6190476190476191",
+	"26/43": "0.6046511627906976",
+	"26/44": "0.5909090909090909",
+	"26/45": "0.5777777777777777",
+	"26/46": "0.5652173913043478",
+	"26/47": "0.5531914893617021",
+	"26/48": "0.5416666666666666",
+	"26/49": "0.5306122448979592",
+	"27/0": "Inf",
+	"27/1": "27.0",
+	"27/2": "13.5",
+	"27/3": "9.0",
+	"27/4": "6.75",
+	"27/5": "5.4",
+	"27/6": "4.5",
+	"27/7": "3.857142857142857",
+	"27/8": "3.375",
+	"27/9": "3.0",
+	"27/10": "2.7",
+	"27/11": "2.4545454545454546",
+	"27/12": "2.25",
+	"27/13": "2.076923076923077",
+	"27/14": "1.9285714285714286",
+	"27/15": "1.8",
+	"27/16": "1.6875",
+	"27/17": "1.588235294117647",
+	"27/18": "1.5",
+	"27/19": "1.4210526315789473",
+	"27/20": "1.35",
+	"27/21": "1.2857142857142858",
+	"27/22": "1.2272727272727273",
+	"27/23": "1.173913043478261",
+	"27/24": "1.125",
+	"27/25": "1.08",
+	"27/26": "1.0384615384615385",
+	"27/27": "1.0",
+	"27/28": "0.9642857142857143",
+	"27/29": "0.9310344827586207",
+	"27/30": "0.9",
+	"27/31": "0.8709677419354839",
+	"27/32": "0.84375",
+	"27/33": "0.8181818181818182",
+	"27/34": "0.7941176470588235",
+	"27/35": "0.7714285714285715",
+	"27/36": "0.75",
+	"27/37": "0.7297297297297297",
+	"27/38": "0.7105263157894737",
+	"27/39": "0.6923076923076923",
+	"27/40": "0.675",
+	"27/41": "0.6585365853658537",
+	"27/42": "0.6428571428571429",
+	"27/43": "0.627906976744186",
+	"27/44": "0.6136363636363636",
+	"27/45": "0.6",
+	"27/46": "0.5869565217391305",
+	"27/47": "0.574468085106383",
+	"27/48": "0.5625",
+	"27/49": "0.5510204081632653",
+	"28/0": "Inf",
+	"28/1": "28.0",
+	"28/2": "14.0",
+	"28/3": "9.333333333333334",
+	"28/4": "7.0",
+	"28/5": "5.6",
+	"28/6": "4.666666666666667",
+	"28/7": "4.0",
+	"28/8": "3.5",
+	"28/9": "3.111111111111111",
+	"28/10": "2.8",
+	"28/11": "2.5454545454545454",
+	"28/12": "2.3333333333333335",
+	"28/13": "2.1538461538461537",
+	"28/14": "2.0",
+	"28/15": "1.8666666666666667",
+	"28/16": "1.75",
+	"28/17": "1.6470588235294117",
+	"28/18": "1.5555555555555556",
+	"28/19": "1.4736842105263157",
+	"28/20": "1.4",
+	"28/21": "1.3333333333333333",
+	"28/22": "1.2727272727272727",
+	"28/23": "1.2173913043478262",
+	"28/24": "1.1666666666666667",
+	"28/25": "1.12",
+	"28/26": "1.0769230769230769",
+	"28/27": "1.037037037037037",
+	"28/28": "1.0",
+	"28/29": "0.9655172413793104",
+	"28/30": "0.9333333333333333",
+	"28/31": "0.9032258064516129",
+	"28/32": "0.875",
+	"28/33": "0.8484848484848485",
+	"28/34": "0.8235294117647058",
+	"28/35": "0.8",
+	"28/36": "0.7777777777777778",
+	"28/37": "0.7567567567567568",
+	"28/38": "0.7368421052631579",
+	"28/39": "0.717948717948718",
+	"28/40": "0.7",
+	"28/41": "0.6829268292682927",
+	"28/42": "0.6666666666666666",
+	"28/43": "0.6511627906976745",
+	"28/44": "0.6363636363636364",
+	"28/45": "0.6222222222222222",
+	"28/46": "0.6086956521739131",
+	"28/47": "0.5957446808510638",
+	"28/48": "0.5833333333333334",
+	"28/49": "0.5714285714285714",
+	"29/0": "Inf",
+	"29/1": "29.0",
+	"29/2": "14.5",
+	"29/3": "9.666666666666666",
+	"29/4": "7.25",
+	"29/5": "5.8",
+	"29/6": "4.833333333333333",
+	"29/7": "4.142857142857143",
+	"29/8": "3.625",
+	"29/9": "3.2222222222222223",
+	"29/10": "2.9",
+	"29/11": "2.6363636363636362",
+	"29/12": "2.4166666666666665",
+	"29/13": "2.230769230769231",
+	"29/14": "2.0714285714285716",
+	"29/15": "1.9333333333333333",
+	"29/16": "1.8125",
+	"29/17": "1.7058823529411764",
+	"29/18": "1.6111111111111112",
+	"29/19": "1.5263157894736843",
+	"29/20": "1.45",
+	"29/21": "1.380952380952381",
+	"29/22": "1.3181818181818181",
+	"29/23": "1.2608695652173914",
+	"29/24": "1.2083333333333333",
+	"29/25": "1.16",
+	"29/26": "1.1153846153846154",
+	"29/27": "1.0740740740740742",
+	"29/28": "1.0357142857142858",
+	"29/29": "1.0",
+	"29/30": "0.9666666666666667",
+	"29/31": "0.9354838709677419",
+	"29/32": "0.90625",
+	"29/33": "0.8787878787878788",
+	"29/34": "0.8529411764705882",
+	"29/35": "0.8285714285714286",
+	"29/36": "0.8055555555555556",
+	"29/37": "0.7837837837837838",
+	"29/38": "0.7631578947368421",
+	"29/39": "0.7435897435897436",
+	"29/40": "0.725",
+	"29/41": "0.7073170731707317",
+	"29/42": "0.6904761904761905",
+	"29/43": "0.6744186046511628",
+	"29/44": "0.6590909090909091",
+	"29/45": "0.6444444444444445",
+	"29/46": "0.6304347826086957",
+	"29/47": "0.6170212765957447",
+	"29/48": "0.6041666666666666",
+	"29/49": "0.5918367346938775",
+	"30/0": "Inf",
+	"30/1": "30.0",
+	"30/2": "15.0",
+	"30/3": "10.0",
+	"30/4": "7.5",
+	"30/5": "6.0",
+	"30/6": "5.0",
+	"30/7": "4.285714285714286",
+	"30/8": "3.75",
+	"30/9": "3.3333333333333335",
+	"30/10": "3.0",
+	"30/11": "2.727272727272727",
+	"30/12": "2.5",
+	"30/13": "2.3076923076923075",
+	"30/14": "2.142857142857143",
+	"30/15": "2.0",
+	"30/16": "1.875",
+	"30/17": "1.7647058823529411",
+	"30/18": "1.6666666666666667",
+	"30/19": "1.5789473684210527",
+	"30/20": "1.5",
+	"30/21": "1.4285714285714286",
+	"30/22": "1.3636363636363635",
+	"30/23": "1.3043478260869565",
+	"30/24": "1.25",
+	"30/25": "1.2",
+	"30/26": "1.1538461538461537",
+	"30/27": "1.1111111111111112",
+	"30/28": "1.0714285714285714",
+	"30/29": "1.0344827586206897",
+	"30/30": "1.0",
+	"30/31": "0.967741935483871",
+	"30/32": "0.9375",
+	"30/33": "0.9090909090909091",
+	"30/34": "0.8823529411764706",
+	"30/35": "0.8571428571428571",
+	"30/36": "0.8333333333333334",
+	"30/37": "0.8108108108108109",
+	"30/38": "0.7894736842105263",
+	"30/39": "0.7692307692307693",
+	"30/40": "0.75",
+	"30/41": "0.7317073170731707",
+	"30/42": "0.7142857142857143",
+	"30/43": "0.6976744186046512",
+	"30/44": "0.6818181818181818",
+	"30/45": "0.6666666666666666",
+	"30/46": "0.6521739130434783",
+	"30/47": "0.6382978723404256",
+	"30/48": "0.625",
+	"30/49": "0.6122448979591837",
+	"31/0": "Inf",
+	"31/1": "31.0",
+	"31/2": "15.5",
+	"31/3": "10.333333333333334",
+	"31/4": "7.75",
+	"31/5": "6.2",
+	"31/6": "5.166666666666667",
+	"31/7": "4.428571428571429",
+	"31/8": "3.875",
+	"31/9": "3.4444444444444446",
+	"31/10": "3.1",
+	"31/11": "2.8181818181818183",
+	"31/12": "2.5833333333333335",
+	"31/13": "2.3846153846153846",
+	"31/14": "2.2142857142857144",
+	"31/15": "2.066666666666667",
+	"31/16": "1.9375",
+	"31/17": "1.8235294117647058",
+	"31/18": "1.7222222222222223",
+	"31/19": "1.631578947368421",
+	"31/20": "1.55",
+	"31/21": "1.4761904761904763",
+	"31/22": "1.4090909090909092",
+	"31/23": "1.3478260869565217",
+	"31/24": "1.2916666666666667",
+	"31/25": "1.24",
+	"31/26": "1.1923076923076923",
+	"31/27": "1.1481481481481481",
+	"31/28": "1.1071428571428572",
+	"31/29": "1.0689655172413792",
+	"31/30": "1.0333333333333334",
+	"31/31": "1.0",
+	"31/32": "0.96875",
+	"31/33": "0.9393939393939394",
+	"31/34": "0.9117647058823529",
+	"31/35": "0.8857142857142857",
+	"31/36": "0.8611111111111112",
+	"31/37": "0.8378378378378378",
+	"31/38": "0.8157894736842105",
+	"31/39": "0.7948717948717948",
+	"31/40": "0.775",
+	"31/41": "0.7560975609756098",
+	"31/42": "0.7380952380952381",
+	"31/43": "0.7209302325581395",
+	"31/44": "0.7045454545454546",
+	"31/45": "0.6888888888888889",
+	"31/46": "0.6739130434782609",
+	"31/47": "0.6595744680851063",
+	"31/48": "0.6458333333333334",
+	"31/49": "0.6326530612244898",
+	"32/0": "Inf",
+	"32/1": "32.0",
+	"32/2": "16.0",
+	"32/3": "10.666666666666666",
+	"32/4": "8.0",
+	"32/5": "6.4",
+	"32/6": "5.333333333333333",
+	"32/7": "4.571428571428571",
+	"32/8": "4.0",
+	"32/9": "3.5555555555555554",
+	"32/10": "3.2",
+	"32/11": "2.909090909090909",
+	"32/12": "2.6666666666666665",
+	"32/13": "2.4615384615384617",
+	"32/14": "2.2857142857142856",
+	"32/15": "2.1333333333333333",
+	"32/16": "2.0",
+	"32/17": "1.8823529411764706",
+	"32/18": "1.7777777777777777",
+	"32/19": "1.6842105263157894",
+	"32/20": "1.6",
+	"32/21": "1.5238095238095237",
+	"32/22": "1.4545454545454546",
+	"32/23": "1.391304347826087",
+	"32/24": "1.3333333333333333",
+	"32/25": "1.28",
+	"32/26": "1.2307692307692308",
+	"32/27": "1.1851851851851851",
+	"32/28": "1.1428571428571428",
+	"32/29": "1.103448275862069",
+	"32/30": "1.0666666666666667",
+	"32/31": "1.032258064516129",
+	"32/32": "1.0",
+	"32/33": "0.9696969696969697",
+	"32/34": "0.9411764705882353",
+	"32/35": "0.9142857142857143",
+	"32/36": "0.8888888888888888",
+	"32/37": "0.8648648648648649",
+	"32/38": "0.8421052631578947",
+	"32/39": "0.8205128205128205",
+	"32/40": "0.8",
+	"32/41": "0.7804878048780488",
+	"32/42": "0.7619047619047619",
+	"32/43": "0.7441860465116279",
+	"32/44": "0.7272727272727273",
+	"32/45": "0.7111111111111111",
+	"32/46": "0.6956521739130435",
+	"32/47": "0.6808510638297872",
+	"32/48": "0.6666666666666666",
+	"32/49": "0.6530612244897959",
+	"33/0": "Inf",
+	"33/1": "33.0",
+	"33/2": "16.5",
+	"33/3": "11.0",
+	"33/4": "8.25",
+	"33/5": "6.6",
+	"33/6": "5.5",
+	"33/7": "4.714285714285714",
+	"33/8": "4.125",
+	"33/9": "3.6666666666666665",
+	"33/10": "3.3",
+	"33/11": "3.0",
+	"33/12": "2.75",
+	"33/13": "2.5384615384615383",
+	"33/14": "2.357142857142857",
+	"33/15": "2.2",
+	"33/16": "2.0625",
+	"33/17": "1.9411764705882353",
+	"33/18": "1.8333333333333333",
+	"33/19": "1.736842105263158",
+	"33/20": "1.65",
+	"33/21": "1.5714285714285714",
+	"33/22": "1.5",
+	"33/23": "1.434782608695652",
+	"33/24": "1.375",
+	"33/25": "1.32",
+	"33/26": "1.2692307692307692",
+	"33/27": "1.2222222222222223",
+	"33/28": "1.1785714285714286",
+	"33/29": "1.1379310344827587",
+	"33/30": "1.1",
+	"33/31": "1.064516129032258",
+	"33/32": "1.03125",
+	"33/33": "1.0",
+	"33/34": "0.9705882352941176",
+	"33/35": "0.9428571428571428",
+	"33/36": "0.9166666666666666",
+	"33/37": "0.8918918918918919",
+	"33/38": "0.868421052631579",
+	"33/39": "0.8461538461538461",
+	"33/40": "0.825",
+	"33/41": "0.8048780487804879",
+	"33/42": "0.7857142857142857",
+	"33/43": "0.7674418604651163",
+	"33/44": "0.75",
+	"33/45": "0.7333333333333333",
+	"33/46": "0.717391304347826",
+	"33/47": "0.7021276595744681",
+	"33/48": "0.6875",
+	"33/49": "0.673469387755102",
+	"34/0": "Inf",
+	"34/1": "34.0",
+	"34/2": "17.0",
+	"34/3": "11.333333333333334",
+	"34/4": "8.5",
+	"34/5": "6.8",
+	"34/6": "5.666666666666667",
+	"34/7": "4.857142857142857",
+	"34/8": "4.25",
+	"34/9": "3.7777777777777777",
+	"34/10": "3.4",
+	"34/11": "3.090909090909091",
+	"34/12": "2.8333333333333335",
+	"34/13": "2.6153846153846154",
+	"34/14": "2.4285714285714284",
+	"34/15": "2.2666666666666666",
+	"34/16": "2.125",
+	"34/17": "2.0",
+	"34/18": "1.8888888888888888",
+	"34/19": "1.7894736842105263",
+	"34/20": "1.7",
+	"34/21": "1.619047619047619",
+	"34/22": "1.5454545454545454",
+	"34/23": "1.4782608695652173",
+	"34/24": "1.4166666666666667",
+	"34/25": "1.36",
+	"34/26": "1.3076923076923077",
+	"34/27": "1.2592592592592593",
+	"34/28": "1.2142857142857142",
+	"34/29": "1.1724137931034482",
+	"34/30": "1.1333333333333333",
+	"34/31": "1.096774193548387",
+	"34/32": "1.0625",
+	"34/33": "1.0303030303030303",
+	"34/34": "1.0",
+	"34/35": "0.9714285714285714",
+	"34/36": "0.9444444444444444",
+	"34/37": "0.918918918918919",
+	"34/38": "0.8947368421052632",
+	"34/39": "0.8717948717948718",
+	"34/40": "0.85",
+	"34/41": "0.8292682926829268",
+	"34/42": "0.8095238095238095",
+	"34/43": "0.7906976744186046",
+	"34/44": "0.7727272727272727",
+	"34/45": "0.7555555555555555",
+	"34/46": "0.7391304347826086",
+	"34/47": "0.723404255319149",
+	"34/48": "0.7083333333333334",
+	"34/49": "0.6938775510204082",
+	"35/0": "Inf",
+	"35/1": "35.0",
+	"35/2": "17.5",
+	"35/3": "11.666666666666666",
+	"35/4": "8.75",
+	"35/5": "7.0",
+	"35/6": "5.833333333333333",
+	"35/7": "5.0",
+	"35/8": "4.375",
+	"35/9": "3.888888888888889",
+	"35/10": "3.5",
+	"35/11": "3.1818181818181817",
+	"35/12": "2.9166666666666665",
+	"35/13": "2.6923076923076925",
+	"35/14": "2.5",
+	"35/15": "2.3333333333333335",
+	"35/16": "2.1875",
+	"35/17": "2.0588235294117645",
+	"35/18": "1.9444444444444444",
+	"35/19": "1.8421052631578947",
+	"35/20": "1.75",
+	"35/21": "1.6666666666666667",
+	"35/22": "1.5909090909090908",
+	"35/23": "1.5217391304347827",
+	"35/24": "1.4583333333333333",
+	"35/25": "1.4",
+	"35/26": "1.3461538461538463",
+	"35/27": "1.2962962962962963",
+	"35/28": "1.25",
+	"35/29": "1.206896551724138",
+	"35/30": "1.1666666666666667",
+	"35/31": "1.1290322580645162",
+	"35/32": "1.09375",
+	"35/33": "1.0606060606060606",
+	"35/34": "1.0294117647058822",
+	"35/35": "1.0",
+	"35/36": "0.9722222222222222",
+	"35/37": "0.9459459459459459",
+	"35/38": "0.9210526315789473",
+	"35/39": "0.8974358974358975",
+	"35/40": "0.875",
+	"35/41": "0.8536585365853658",
+	"35/42": "0.8333333333333334",
+	"35/43": "0.813953488372093",
+	"35/44": "0.7954545454545454",
+	"35/45": "0.7777777777777778",
+	"35/46": "0.7608695652173914",
+	"35/47": "0.7446808510638298",
+	"35/48": "0.7291666666666666",
+	"35/49": "0.7142857142857143",
+	"36/0": "Inf",
+	"36/1": "36.0",
+	"36/2": "18.0",
+	"36/3": "12.0",
+	"36/4": "9.0",
+	"36/5": "7.2",
+	"36/6": "6.0",
+	"36/7": "5.142857142857143",
+	"36/8": "4.5",
+	"36/9": "4.0",
+	"36/10": "3.6",
+	"36/11": "3.272727272727273",
+	"36/12": "3.0",
+	"36/13": "2.769230769230769",
+	"36/14": "2.5714285714285716",
+	"36/15": "2.4",
+	"36/16": "2.25",
+	"36/17": "2.1176470588235294",
+	"36/18": "2.0",
+	"36/19": "1.894736842105263",
+	"36/20": "1.8",
+	"36/21": "1.7142857142857142",
+	"36/22": "1.6363636363636365",
+	"36/23": "1.565217391304348",
+	"36/24": "1.5",
+	"36/25": "1.44",
+	"36/26": "1.3846153846153846",
+	"36/27": "1.3333333333333333",
+	"36/28": "1.2857142857142858",
+	"36/29": "1.2413793103448276",
+	"36/30": "1.2",
+	"36/31": "1.1612903225806452",
+	"36/32": "1.125",
+	"36/33": "1.0909090909090908",
+	"36/34": "1.0588235294117647",
+	"36/35": "1.0285714285714285",
+	"36/36": "1.0",
+	"36/37": "0.972972972972973",
+	"36/38": "0.9473684210526315",
+	"36/39": "0.9230769230769231",
+	"36/40": "0.9",
+	"36/41": "0.8780487804878049",
+	"36/42": "0.8571428571428571",
+	"36/43": "0.8372093023255814",
+	"36/44": "0.8181818181818182",
+	"36/45": "0.8",
+	"36/46": "0.782608695652174",
+	"36/47": "0.7659574468085106",
+	"36/48": "0.75",
+	"36/49": "0.7346938775510204",
+	"37/0": "Inf",
+	"37/1": "37.0",
+	"37/2": "18.5",
+	"37/3": "12.333333333333334",
+	"37/4": "9.25",
+	"37/5": "7.4",
+	"37/6": "6.166666666666667",
+	"37/7": "5.285714285714286",
+	"37/8": "4.625",
+	"37/9": "4.111111111111111",
+	"37/10": "3.7",
+	"37/11": "3.3636363636363638",
+	"37/12": "3.0833333333333335",
+	"37/13": "2.8461538461538463",
+	"37/14": "2.642857142857143",
+	"37/15": "2.466666666666667",
+	"37/16": "2.3125",
+	"37/17": "2.176470588235294",
+	"37/18": "2.0555555555555554",
+	"37/19": "1.9473684210526316",
+	"37/20": "1.85",
+	"37/21": "1.7619047619047619",
+	"37/22": "1.6818181818181819",
+	"37/23": "1.608695652173913",
+	"37/24": "1.5416666666666667",
+	"37/25": "1.48",
+	"37/26": "1.4230769230769231",
+	"37/27": "1.3703703703703705",
+	"37/28": "1.3214285714285714",
+	"37/29": "1.2758620689655173",
+	"37/30": "1.2333333333333334",
+	"37/31": "1.1935483870967742",
+	"37/32": "1.15625",
+	"37/33": "1.121212121212121",
+	"37/34": "1.088235294117647",
+	"37/35": "1.0571428571428572",
+	"37/36": "1.0277777777777777",
+	"37/37": "1.0",
+	"37/38": "0.9736842105263158",
+	"37/39": "0.9487179487179487",
+	"37/40": "0.925",
+	"37/41": "0.9024390243902439",
+	"37/42": "0.8809523809523809",
+	"37/43": "0.8604651162790697",
+	"37/44": "0.8409090909090909",
+	"37/45": "0.8222222222222222",
+	"37/46": "0.8043478260869565",
+	"37/47": "0.7872340425531915",
+	"37/48": "0.7708333333333334",
+	"37/49": "0.7551020408163265",
+	"38/0": "Inf",
+	"38/1": "38.0",
+	"38/2": "19.0",
+	"38/3": "12.666666666666666",
+	"38/4": "9.5",
+	"38/5": "7.6",
+	"38/6": "6.333333333333333",
+	"38/7": "5.428571428571429",
+	"38/8": "4.75",
+	"38/9": "4.222222222222222",
+	"38/10": "3.8",
+	"38/11": "3.4545454545454546",
+	"38/12": "3.1666666666666665",
+	"38/13": "2.923076923076923",
+	"38/14": "2.7142857142857144",
+	"38/15": "2.533333333333333",
+	"38/16": "2.375",
+	"38/17": "2.235294117647059",
+	"38/18": "2.111111111111111",
+	"38/19": "2.0",
+	"38/20": "1.9",
+	"38/21": "1.8095238095238095",
+	"38/22": "1.7272727272727273",
+	"38/23": "1.6521739130434783",
+	"38/24": "1.5833333333333333",
+	"38/25": "1.52",
+	"38/26": "1.4615384615384615",
+	"38/27": "1.4074074074074074",
+	"38/28": "1.3571428571428572",
+	"38/29": "1.3103448275862069",
+	"38/30": "1.2666666666666666",
+	"38/31": "1.2258064516129032",
+	"38/32": "1.1875",
+	"38/33": "1.1515151515151516",
+	"38/34": "1.1176470588235294",
+	"38/35": "1.0857142857142856",
+	"38/36": "1.0555555555555556",
+	"38/37": "1.027027027027027",
+	"38/38": "1.0",
+	"38/39": "0.9743589743589743",
+	"38/40": "0.95",
+	"38/41": "0.926829268292683",
+	"38/42": "0.9047619047619048",
+	"38/43": "0.8837209302325582",
+	"38/44": "0.8636363636363636",
+	"38/45": "0.8444444444444444",
+	"38/46": "0.8260869565217391",
+	"38/47": "0.8085106382978723",
+	"38/48": "0.7916666666666666",
+	"38/49": "0.7755102040816326",
+	"39/0": "Inf",
+	"39/1": "39.0",
+	"39/2": "19.5",
+	"39/3": "13.0",
+	"39/4": "9.75",
+	"39/5": "7.8",
+	"39/6": "6.5",
+	"39/7": "5.571428571428571",
+	"39/8": "4.875",
+	"39/9": "4.333333333333333",
+	"39/10": "3.9",
+	"39/11": "3.5454545454545454",
+	"39/12": "3.25",
+	"39/13": "3.0",
+	"39/14": "2.7857142857142856",
+	"39/15": "2.6",
+	"39/16": "2.4375",
+	"39/17": "2.2941176470588234",
+	"39/18": "2.1666666666666665",
+	"39/19": "2.0526315789473686",
+	"39/20": "1.95",
+	"39/21": "1.8571428571428572",
+	"39/22": "1.7727272727272727",
+	"39/23": "1.6956521739130435",
+	"39/24": "1.625",
+	"39/25": "1.56",
+	"39/26": "1.5",
+	"39/27": "1.4444444444444444",
+	"39/28": "1.3928571428571428",
+	"39/29": "1.3448275862068966",
+	"39/30": "1.3",
+	"39/31": "1.2580645161290323",
+	"39/32": "1.21875",
+	"39/33": "1.1818181818181819",
+	"39/34": "1.1470588235294117",
+	"39/35": "1.1142857142857143",
+	"39/36": "1.0833333333333333",
+	"39/37": "1.054054054054054",
+	"39/38": "1.0263157894736843",
+	"39/39": "1.0",
+	"39/40": "0.975",
+	"39/41": "0.9512195121951219",
+	"39/42": "0.9285714285714286",
+	"39/43": "0.9069767441860465",
+	"39/44": "0.8863636363636364",
+	"39/45": "0.8666666666666667",
+	"39/46": "0.8478260869565217",
+	"39/47": "0.8297872340425532",
+	"39/48": "0.8125",
+	"39/49": "0.7959183673469388",
+	"40/0": "Inf",
+	"40/1": "40.0",
+	"40/2": "20.0",
+	"40/3": "13.333333333333334",
+	"40/4": "10.0",
+	"40/5": "8.0",
+	"40/6": "6.666666666666667",
+	"40/7": "5.714285714285714",
+	"40/8": "5.0",
+	"40/9": "4.444444444444445",
+	"40/10": "4.0",
+	"40/11": "3.6363636363636362",
+	"40/12": "3.3333333333333335",
+	"40/13": "3.076923076923077",
+	"40/14": "2.857142857142857",
+	"40/15": "2.6666666666666665",
+	"40/16": "2.5",
+	"40/17": "2.3529411764705883",
+	"40/18": "2.2222222222222223",
+	"40/19": "2.1052631578947367",
+	"40/20": "2.0",
+	"40/21": "1.9047619047619047",
+	"40/22": "1.8181818181818181",
+	"40/23": "1.7391304347826086",
+	"40/24": "1.6666666666666667",
+	"40/25": "1.6",
+	"40/26": "1.5384615384615385",
+	"40/27": "1.4814814814814814",
+	"40/28": "1.4285714285714286",
+	"40/29": "1.3793103448275863",
+	"40/30": "1.3333333333333333",
+	"40/31": "1.2903225806451613",
+	"40/32": "1.25",
+	"40/33": "1.2121212121212122",
+	"40/34": "1.1764705882352942",
+	"40/35": "1.1428571428571428",
+	"40/36": "1.1111111111111112",
+	"40/37": "1.0810810810810811",
+	"40/38": "1.0526315789473684",
+	"40/39": "1.0256410256410255",
+	"40/40": "1.0",
+	"40/41": "0.975609756097561",
+	"40/42": "0.9523809523809523",
+	"40/43": "0.9302325581395349",
+	"40/44": "0.9090909090909091",
+	"40/45": "0.8888888888888888",
+	"40/46": "0.8695652173913043",
+	"40/47": "0.851063829787234",
+	"40/48": "0.8333333333333334",
+	"40/49": "0.8163265306122449",
+	"41/0": "Inf",
+	"41/1": "41.0",
+	"41/2": "20.5",
+	"41/3": "13.666666666666666",
+	"41/4": "10.25",
+	"41/5": "8.2",
+	"41/6": "6.833333333333333",
+	"41/7": "5.857142857142857",
+	"41/8": "5.125",
+	"41/9": "4.555555555555555",
+	"41/10": "4.1",
+	"41/11": "3.727272727272727",
+	"41/12": "3.4166666666666665",
+	"41/13": "3.1538461538461537",
+	"41/14": "2.9285714285714284",
+	"41/15": "2.7333333333333334",
+	"41/16": "2.5625",
+	"41/17": "2.411764705882353",
+	"41/18": "2.2777777777777777",
+	"41/19": "2.1578947368421053",
+	"41/20": "2.05",
+	"41/21": "1.9523809523809523",
+	"41/22": "1.8636363636363635",
+	"41/23": "1.7826086956521738",
+	"41/24": "1.7083333333333333",
+	"41/25": "1.64",
+	"41/26": "1.5769230769230769",
+	"41/27": "1.5185185185185186",
+	"41/28": "1.4642857142857142",
+	"41/29": "1.4137931034482758",
+	"41/30": "1.3666666666666667",
+	"41/31": "1.3225806451612903",
+	"41/32": "1.28125",
+	"41/33": "1.2424242424242424",
+	"41/34": "1.2058823529411764",
+	"41/35": "1.1714285714285715",
+	"41/36": "1.1388888888888888",
+	"41/37": "1.1081081081081081",
+	"41/38": "1.0789473684210527",
+	"41/39": "1.0512820512820513",
+	"41/40": "1.025",
+	"41/41": "1.0",
+	"41/42": "0.9761904761904762",
+	"41/43": "0.9534883720930233",
+	"41/44": "0.9318181818181818",
+	"41/45": "0.9111111111111111",
+	"41/46": "0.8913043478260869",
+	"41/47": "0.8723404255319149",
+	"41/48": "0.8541666666666666",
+	"41/49": "0.8367346938775511",
+	"42/0": "Inf",
+	"42/1": "42.0",
+	"42/2": "21.0",
+	"42/3": "14.0",
+	"42/4": "10.5",
+	"42/5": "8.4",
+	"42/6": "7.0",
+	"42/7": "6.0",
+	"42/8": "5.25",
+	"42/9": "4.666666666666667",
+	"42/10": "4.2",
+	"42/11": "3.8181818181818183",
+	"42/12": "3.5",
+	"42/13": "3.230769230769231",
+	"42/14": "3.0",
+	"42/15": "2.8",
+	"42/16": "2.625",
+	"42/17": "2.4705882352941178",
+	"42/18": "2.3333333333333335",
+	"42/19": "2.210526315789474",
+	"42/20": "2.1",
+	"42/21": "2.0",
+	"42/22": "1.9090909090909092",
+	"42/23": "1.826086956521739",
+	"42/24": "1.75",
+	"42/25": "1.68",
+	"42/26": "1.6153846153846154",
+	"42/27": "1.5555555555555556",
+	"42/28": "1.5",
+	"42/29": "1.4482758620689655",
+	"42/30": "1.4",
+	"42/31": "1.3548387096774193",
+	"42/32": "1.3125",
+	"42/33": "1.2727272727272727",
+	"42/34": "1.2352941176470589",
+	"42/35": "1.2",
+	"42/36": "1.1666666666666667",
+	"42/37": "1.135135135135135",
+	"42/38": "1.105263157894737",
+	"42/39": "1.0769230769230769",
+	"42/40": "1.05",
+	"42/41": "1.024390243902439",
+	"42/42": "1.0",
+	"42/43": "0.9767441860465116",
+	"42/44": "0.9545454545454546",
+	"42/45": "0.9333333333333333",
+	"42/46": "0.9130434782608695",
+	"42/47": "0.8936170212765957",
+	"42/48": "0.875",
+	"42/49": "0.8571428571428571",
+	"43/0": "Inf",
+	"43/1": "43.0",
+	"43/2": "21.5",
+	"43/3": "14.333333333333334",
+	"43/4": "10.75",
+	"43/5": "8.6",
+	"43/6": "7.166666666666667",
+	"43/7": "6.142857142857143",
+	"43/8": "5.375",
+	"43/9": "4.777777777777778",
+	"43/10": "4.3",
+	"43/11": "3.909090909090909",
+	"43/12": "3.5833333333333335",
+	"43/13": "3.3076923076923075",
+	"43/14": "3.0714285714285716",
+	"43/15": "2.8666666666666667",
+	"43/16": "2.6875",
+	"43/17": "2.5294117647058822",
+	"43/18": "2.388888888888889",
+	"43/19": "2.263157894736842",
+	"43/20": "2.15",
+	"43/21": "2.0476190476190474",
+	"43/22": "1.9545454545454546",
+	"43/23": "1.8695652173913044",
+	"43/24": "1.7916666666666667",
+	"43/25": "1.72",
+	"43/26": "1.6538461538461537",
+	"43/27": "1.5925925925925926",
+	"43/28": "1.5357142857142858",
+	"43/29": "1.4827586206896552",
+	"43/30": "1.4333333333333333",
+	"43/31": "1.3870967741935485",
+	"43/32": "1.34375",
+	"43/33": "1.303030303030303",
+	"43/34": "1.2647058823529411",
+	"43/35": "1.2285714285714286",
+	"43/36": "1.1944444444444444",
+	"43/37": "1.162162162162162",
+	"43/38": "1.131578947368421",
+	"43/39": "1.1025641025641026",
+	"43/40": "1.075",
+	"43/41": "1.048780487804878",
+	"43/42": "1.0238095238095237",
+	"43/43": "1.0",
+	"43/44": "0.9772727272727273",
+	"43/45": "0.9555555555555556",
+	"43/46": "0.9347826086956522",
+	"43/47": "0.9148936170212766",
+	"43/48": "0.8958333333333334",
+	"43/49": "0.8775510204081632",
+	"44/0": "Inf",
+	"44/1": "44.0",
+	"44/2": "22.0",
+	"44/3": "14.666666666666666",
+	"44/4": "11.0",
+	"44/5": "8.8",
+	"44/6": "7.333333333333333",
+	"44/7": "6.285714285714286",
+	"44/8": "5.5",
+	"44/9": "4.888888888888889",
+	"44/10": "4.4",
+	"44/11": "4.0",
+	"44/12": "3.6666666666666665",
+	"44/13": "3.3846153846153846",
+	"44/14": "3.142857142857143",
+	"44/15": "2.933333333333333",
+	"44/16": "2.75",
+	"44/17": "2.588235294117647",
+	"44/18": "2.4444444444444446",
+	"44/19": "2.3157894736842106",
+	"44/20": "2.2",
+	"44/21": "2.0952380952380953",
+	"44/22": "2.0",
+	"44/23": "1.9130434782608696",
+	"44/24": "1.8333333333333333",
+	"44/25": "1.76",
+	"44/26": "1.6923076923076923",
+	"44/27": "1.6296296296296295",
+	"44/28": "1.5714285714285714",
+	"44/29": "1.5172413793103448",
+	"44/30": "1.4666666666666666",
+	"44/31": "1.4193548387096775",
+	"44/32": "1.375",
+	"44/33": "1.3333333333333333",
+	"44/34": "1.2941176470588236",
+	"44/35": "1.2571428571428571",
+	"44/36": "1.2222222222222223",
+	"44/37": "1.1891891891891893",
+	"44/38": "1.1578947368421053",
+	"44/39": "1.1282051282051282",
+	"44/40": "1.1",
+	"44/41": "1.0731707317073171",
+	"44/42": "1.0476190476190477",
+	"44/43": "1.0232558139534884",
+	"44/44": "1.0",
+	"44/45": "0.9777777777777777",
+	"44/46": "0.9565217391304348",
+	"44/47": "0.9361702127659575",
+	"44/48": "0.9166666666666666",
+	"44/49": "0.8979591836734694",
+	"45/0": "Inf",
+	"45/1": "45.0",
+	"45/2": "22.5",
+	"45/3": "15.0",
+	"45/4": "11.25",
+	"45/5": "9.0",
+	"45/6": "7.5",
+	"45/7": "6.428571428571429",
+	"45/8": "5.625",
+	"45/9": "5.0",
+	"45/10": "4.5",
+	"45/11": "4.090909090909091",
+	"45/12": "3.75",
+	"45/13": "3.4615384615384617",
+	"45/14": "3.2142857142857144",
+	"45/15": "3.0",
+	"45/16": "2.8125",
+	"45/17": "2.6470588235294117",
+	"45/18": "2.5",
+	"45/19": "2.3684210526315788",
+	"45/20": "2.25",
+	"45/21": "2.142857142857143",
+	"45/22": "2.0454545454545454",
+	"45/23": "1.9565217391304348",
+	"45/24": "1.875",
+	"45/25": "1.8",
+	"45/26": "1.7307692307692308",
+	"45/27": "1.6666666666666667",
+	"45/28": "1.6071428571428572",
+	"45/29": "1.5517241379310345",
+	"45/30": "1.5",
+	"45/31": "1.4516129032258065",
+	"45/32": "1.40625",
+	"45/33": "1.3636363636363635",
+	"45/34": "1.3235294117647058",
+	"45/35": "1.2857142857142858",
+	"45/36": "1.25",
+	"45/37": "1.2162162162162162",
+	"45/38": "1.1842105263157894",
+	"45/39": "1.1538461538461537",
+	"45/40": "1.125",
+	"45/41": "1.0975609756097562",
+	"45/42": "1.0714285714285714",
+	"45/43": "1.0465116279069768",
+	"45/44": "1.0227272727272727",
+	"45/45": "1.0",
+	"45/46": "0.9782608695652174",
+	"45/47": "0.9574468085106383",
+	"45/48": "0.9375",
+	"45/49": "0.9183673469387755",
+	"46/0": "Inf",
+	"46/1": "46.0",
+	"46/2": "23.0",
+	"46/3": "15.333333333333334",
+	"46/4": "11.5",
+	"46/5": "9.2",
+	"46/6": "7.666666666666667",
+	"46/7": "6.571428571428571",
+	"46/8": "5.75",
+	"46/9": "5.111111111111111",
+	"46/10": "4.6",
+	"46/11": "4.181818181818182",
+	"46/12": "3.8333333333333335",
+	"46/13": "3.5384615384615383",
+	"46/14": "3.2857142857142856",
+	"46/15": "3.066666666666667",
+	"46/16": "2.875",
+	"46/17": "2.7058823529411766",
+	"46/18": "2.5555555555555554",
+	"46/19": "2.4210526315789473",
+	"46/20": "2.3",
+	"46/21": "2.1904761904761907",
+	"46/22": "2.090909090909091",
+	"46/23": "2.0",
+	"46/24": "1.9166666666666667",
+	"46/25": "1.84",
+	"46/26": "1.7692307692307692",
+	"46/27": "1.7037037037037037",
+	"46/28": "1.6428571428571428",
+	"46/29": "1.5862068965517242",
+	"46/30": "1.5333333333333334",
+	"46/31": "1.4838709677419355",
+	"46/32": "1.4375",
+	"46/33": "1.393939393939394",
+	"46/34": "1.3529411764705883",
+	"46/35": "1.3142857142857143",
+	"46/36": "1.2777777777777777",
+	"46/37": "1.2432432432432432",
+	"46/38": "1.2105263157894737",
+	"46/39": "1.1794871794871795",
+	"46/40": "1.15",
+	"46/41": "1.1219512195121952",
+	"46/42": "1.0952380952380953",
+	"46/43": "1.069767441860465",
+	"46/44": "1.0454545454545454",
+	"46/45": "1.0222222222222221",
+	"46/46": "1.0",
+	"46/47": "0.9787234042553191",
+	"46/48": "0.9583333333333334",
+	"46/49": "0.9387755102040817",
+	"47/0": "Inf",
+	"47/1": "47.0",
+	"47/2": "23.5",
+	"47/3": "15.666666666666666",
+	"47/4": "11.75",
+	"47/5": "9.4",
+	"47/6": "7.833333333333333",
+	"47/7": "6.714285714285714",
+	"47/8": "5.875",
+	"47/9": "5.222222222222222",
+	"47/10": "4.7",
+	"47/11": "4.2727272727272725",
+	"47/12": "3.9166666666666665",
+	"47/13": "3.6153846153846154",
+	"47/14": "3.357142857142857",
+	"47/15": "3.1333333333333333",
+	"47/16": "2.9375",
+	"47/17": "2.764705882352941",
+	"47/18": "2.611111111111111",
+	"47/19": "2.473684210526316",
+	"47/20": "2.35",
+	"47/21": "2.238095238095238",
+	"47/22": "2.1363636363636362",
+	"47/23": "2.0434782608695654",
+	"47/24": "1.9583333333333333",
+	"47/25": "1.88",
+	"47/26": "1.8076923076923077",
+	"47/27": "1.7407407407407407",
+	"47/28": "1.6785714285714286",
+	"47/29": "1.6206896551724137",
+	"47/30": "1.5666666666666667",
+	"47/31": "1.5161290322580645",
+	"47/32": "1.46875",
+	"47/33": "1.4242424242424243",
+	"47/34": "1.3823529411764706",
+	"47/35": "1.3428571428571427",
+	"47/36": "1.3055555555555556",
+	"47/37": "1.2702702702702702",
+	"47/38": "1.236842105263158",
+	"47/39": "1.205128205128205",
+	"47/40": "1.175",
+	"47/41": "1.146341463414634",
+	"47/42": "1.119047619047619",
+	"47/43": "1.0930232558139534",
+	"47/44": "1.0681818181818181",
+	"47/45": "1.0444444444444445",
+	"47/46": "1.0217391304347827",
+	"47/47": "1.0",
+	"47/48": "0.9791666666666666",
+	"47/49": "0.9591836734693877",
+	"48/0": "Inf",
+	"48/1": "48.0",
+	"48/2": "24.0",
+	"48/3": "16.0",
+	"48/4": "12.0",
+	"48/5": "9.6",
+	"48/6": "8.0",
+	"48/7": "6.857142857142857",
+	"48/8": "6.0",
+	"48/9": "5.333333333333333",
+	"48/10": "4.8",
+	"48/11": "4.363636363636363",
+	"48/12": "4.0",
+	"48/13": "3.6923076923076925",
+	"48/14": "3.4285714285714284",
+	"48/15": "3.2",
+	"48/16": "3.0",
+	"48/17": "2.823529411764706",
+	"48/18": "2.6666666666666665",
+	"48/19": "2.526315789473684",
+	"48/20": "2.4",
+	"48/21": "2.2857142857142856",
+	"48/22": "2.1818181818181817",
+	"48/23": "2.0869565217391304",
+	"48/24": "2.0",
+	"48/25": "1.92",
+	"48/26": "1.8461538461538463",
+	"48/27": "1.7777777777777777",
+	"48/28": "1.7142857142857142",
+	"48/29": "1.6551724137931034",
+	"48/30": "1.6",
+	"48/31": "1.5483870967741935",
+	"48/32": "1.5",
+	"48/33": "1.4545454545454546",
+	"48/34": "1.411764705882353",
+	"48/35": "1.3714285714285714",
+	"48/36": "1.3333333333333333",
+	"48/37": "1.2972972972972974",
+	"48/38": "1.263157894736842",
+	"48/39": "1.2307692307692308",
+	"48/40": "1.2",
+	"48/41": "1.170731707317073",
+	"48/42": "1.1428571428571428",
+	"48/43": "1.1162790697674418",
+	"48/44": "1.0909090909090908",
+	"48/45": "1.0666666666666667",
+	"48/46": "1.0434782608695652",
+	"48/47": "1.0212765957446808",
+	"48/48": "1.0",
+	"48/49": "0.9795918367346939",
+	"49/0": "Inf",
+	"49/1": "49.0",
+	"49/2": "24.5",
+	"49/3": "16.333333333333332",
+	"49/4": "12.25",
+	"49/5": "9.8",
+	"49/6": "8.166666666666666",
+	"49/7": "7.0",
+	"49/8": "6.125",
+	"49/9": "5.444444444444445",
+	"49/10": "4.9",
+	"49/11": "4.454545454545454",
+	"49/12": "4.083333333333333",
+	"49/13": "3.769230769230769",
+	"49/14": "3.5",
+	"49/15": "3.2666666666666666",
+	"49/16": "3.0625",
+	"49/17": "2.8823529411764706",
+	"49/18": "2.7222222222222223",
+	"49/19": "2.5789473684210527",
+	"49/20": "2.45",
+	"49/21": "2.3333333333333335",
+	"49/22": "2.227272727272727",
+	"49/23": "2.130434782608696",
+	"49/24": "2.0416666666666665",
+	"49/25": "1.96",
+	"49/26": "1.8846153846153846",
+	"49/27": "1.8148148148148149",
+	"49/28": "1.75",
+	"49/29": "1.6896551724137931",
+	"49/30": "1.6333333333333333",
+	"49/31": "1.5806451612903225",
+	"49/32": "1.53125",
+	"49/33": "1.4848484848484849",
+	"49/34": "1.4411764705882353",
+	"49/35": "1.4",
+	"49/36": "1.3611111111111112",
+	"49/37": "1.3243243243243243",
+	"49/38": "1.2894736842105263",
+	"49/39": "1.2564102564102564",
+	"49/40": "1.225",
+	"49/41": "1.1951219512195121",
+	"49/42": "1.1666666666666667",
+	"49/43": "1.1395348837209303",
+	"49/44": "1.1136363636363635",
+	"49/45": "1.0888888888888888",
+	"49/46": "1.065217391304348",
+	"49/47": "1.0425531914893618",
+	"49/48": "1.0208333333333333",
+	"49/49": "1.0",
+}
+print(cal_dict[f"{num1}{sign}{num2}"])
 print("Thanks for using this calculator, goodbye :)")
