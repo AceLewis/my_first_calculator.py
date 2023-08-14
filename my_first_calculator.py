@@ -1412,6 +1412,7 @@ if num1 == 13 and sign == '+' and num2 == 36:
     print("13+36 = 49")
 if num1 == 13 and sign == '+' and num2 == 37:
     print("13+37 = 50")
+    print("h4h4 u r k3wl mast0r hax0r! L0LZ!")
 if num1 == 13 and sign == '+' and num2 == 38:
     print("13+38 = 51")
 if num1 == 13 and sign == '+' and num2 == 39:
@@ -6614,6 +6615,7 @@ if num1 == 13 and sign == '-' and num2 == 36:
     print("13-36 = -23")
 if num1 == 13 and sign == '-' and num2 == 37:
     print("13-37 = -24")
+    print("h4h4 u r k3wl mast0r hax0r! L0LZ!")
 if num1 == 13 and sign == '-' and num2 == 38:
     print("13-38 = -25")
 if num1 == 13 and sign == '-' and num2 == 39:
@@ -11816,6 +11818,7 @@ if num1 == 13 and sign == '/' and num2 == 36:
     print("13/36 = 0.3611111111111111111111111111")
 if num1 == 13 and sign == '/' and num2 == 37:
     print("13/37 = 0.3513513513513513513513513514")
+    print("h4h4 u r k3wl mast0r hax0r! L0LZ!")
 if num1 == 13 and sign == '/' and num2 == 38:
     print("13/38 = 0.3421052631578947368421052632")
 if num1 == 13 and sign == '/' and num2 == 39:
@@ -17018,6 +17021,7 @@ if num1 == 13 and sign == '*' and num2 == 36:
     print("13*36 = 468")
 if num1 == 13 and sign == '*' and num2 == 37:
     print("13*37 = 481")
+    print("h4h4 u r k3wl mast0r hax0r! L0LZ!")
 if num1 == 13 and sign == '*' and num2 == 38:
     print("13*38 = 494")
 if num1 == 13 and sign == '*' and num2 == 39:
