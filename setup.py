@@ -1,4 +1,5 @@
 import os
+
 from setuptools import setup
 
 
@@ -14,6 +15,6 @@ setup(
     description="This is my first calculator",
     url="https://github.com/AceLewis/my_first_calculator.py",
     packages=[],
-    py_modules=['my_first_calculator'],
-    long_description=read('README.md'),
+    py_modules=["my_first_calculator"],
+    long_description=read("README.md"),
 )
