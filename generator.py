@@ -2,6 +2,7 @@ from decimal import Decimal as d
 import decimal
 # Generator used to create my_first_calculator
 
+
 # Open a file that we can write to
 python_file = open('my_first_calculator.py', 'w')
 # The minimum and maximum numbers we can use
