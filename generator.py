@@ -12,6 +12,8 @@ nums = range(min_num, max_num+1)
 signs = ['+', '-', '/', '*']
 num_of_ifs = len(signs)*(max_num-min_num+1)**2
 
+print("***")
+
 print("""# my_first_calculator.py by AceLewis
 # TODO: Make it work for all floating point numbers too
 
