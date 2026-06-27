@@ -2,6 +2,7 @@ from decimal import Decimal as d
 import decimal
 # Generator used to create my_first_calculator
 
+
 # Open a file that we can write to
 python_file = open('my_first_calculator.py', 'w')
 # The minimum and maximum numbers we can use
@@ -10,6 +11,8 @@ max_num = 50
 nums = range(min_num, max_num+1)
 signs = ['+', '-', '/', '*']
 num_of_ifs = len(signs)*(max_num-min_num+1)**2
+
+print("***")
 
 print("""# my_first_calculator.py by AceLewis
 # TODO: Make it work for all floating point numbers too
